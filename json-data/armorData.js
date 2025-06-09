@@ -1,0 +1,12859 @@
+module.exports = [
+  {
+    "itemId": 40000,
+    "name": "Iron Helmet",
+    "weight": 3.799999952,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.03100001809999997,
+      "slash": 0.04000002150000004,
+      "thrust": 0.041999995700000015,
+      "magic": 0.02499997620000005,
+      "fire": 0.03100001809999997,
+      "lightning": 0.023000001899999956,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 18,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 40100,
+    "name": "Scale Armor",
+    "weight": 8.800000191,
+    "poise": 17.99999923,
+    "abs": {
+      "physical": 0.11900001760000001,
+      "strike": 0.10199999810000004,
+      "slash": 0.12400001289999996,
+      "thrust": 0.10900002720000002,
+      "magic": 0.07099997999999996,
+      "fire": 0.10900002720000002,
+      "lightning": 0.06699997189999995,
+      "holy": 0.07999998330000002
+    },
+    "res": {
+      "immunity": 25,
+      "robustness": 46,
+      "focus": 11,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 40200,
+    "name": "Iron Gauntlets",
+    "weight": 2.900000095,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.027999997100000007,
+      "strike": 0.023000001899999956,
+      "slash": 0.028999984299999948,
+      "thrust": 0.028999984299999948,
+      "magic": 0.02100002769999998,
+      "fire": 0.023000001899999956,
+      "lightning": 0.014999985700000051,
+      "holy": 0.018999993799999948
+    },
+    "res": {
+      "immunity": 8,
+      "robustness": 15,
+      "focus": 6,
+      "vitality": 4
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 40300,
+    "name": "Leather Trousers",
+    "weight": 5.5,
+    "poise": 10.99999994,
+    "abs": {
+      "physical": 0.06499999759999997,
+      "strike": 0.05400002000000004,
+      "slash": 0.06800001860000005,
+      "thrust": 0.06800001860000005,
+      "magic": 0.05000001190000003,
+      "fire": 0.05400002000000004,
+      "lightning": 0.0339999795,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 16,
+      "robustness": 29,
+      "focus": 11,
+      "vitality": 7
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 50000,
+    "name": "Kaiden Helm",
+    "weight": 4,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.0339999795,
+      "slash": 0.044000029600000046,
+      "thrust": 0.044000029600000046,
+      "magic": 0.03100001809999997,
+      "fire": 0.0339999795,
+      "lightning": 0.027999997100000007,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 22,
+      "focus": 9,
+      "vitality": 9
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 50100,
+    "name": "Kaiden Armor",
+    "weight": 8.800000191,
+    "poise": 17.99999923,
+    "abs": {
+      "physical": 0.11900001760000001,
+      "strike": 0.08799999950000004,
+      "slash": 0.11900001760000001,
+      "thrust": 0.11900001760000001,
+      "magic": 0.07999998330000002,
+      "fire": 0.08799999950000004,
+      "lightning": 0.07099997999999996,
+      "holy": 0.07999998330000002
+    },
+    "res": {
+      "immunity": 25,
+      "robustness": 55,
+      "focus": 11,
+      "vitality": 11
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 50200,
+    "name": "Kaiden Gauntlets",
+    "weight": 2.900000095,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.028999984299999948,
+      "strike": 0.02100002769999998,
+      "slash": 0.028999984299999948,
+      "thrust": 0.028999984299999948,
+      "magic": 0.018999993799999948,
+      "fire": 0.02100002769999998,
+      "lightning": 0.01700001959999997,
+      "holy": 0.018999993799999948
+    },
+    "res": {
+      "immunity": 8,
+      "robustness": 15,
+      "focus": 6,
+      "vitality": 6
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 50300,
+    "name": "Kaiden Trousers",
+    "weight": 5.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.06499999759999997,
+      "strike": 0.04500001669999998,
+      "slash": 0.06499999759999997,
+      "thrust": 0.06499999759999997,
+      "magic": 0.04000002150000004,
+      "fire": 0.04500001669999998,
+      "lightning": 0.03799998760000001,
+      "holy": 0.04000002150000004
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 26,
+      "focus": 7,
+      "vitality": 7
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 60000,
+    "name": "Drake Knight Helm",
+    "weight": 4,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.04000002150000004,
+      "strike": 0.0339999795,
+      "slash": 0.041999995700000015,
+      "thrust": 0.04000002150000004,
+      "magic": 0.03600001340000003,
+      "fire": 0.04000002150000004,
+      "lightning": 0.03100001809999997,
+      "holy": 0.03600001340000003
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 20,
+      "focus": 9,
+      "vitality": 9
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 60100,
+    "name": "Drake Knight Armor",
+    "weight": 9.199999809,
+    "poise": 18.99999939,
+    "abs": {
+      "physical": 0.11400002239999996,
+      "strike": 0.09500002860000001,
+      "slash": 0.11900001760000001,
+      "thrust": 0.11400002239999996,
+      "magic": 0.10199999810000004,
+      "fire": 0.11400002239999996,
+      "lightning": 0.08799999950000004,
+      "holy": 0.10199999810000004
+    },
+    "res": {
+      "immunity": 25,
+      "robustness": 46,
+      "focus": 21,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 60200,
+    "name": "Drake Knight Gauntlets",
+    "weight": 3.099999905,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.027999997100000007,
+      "strike": 0.023000001899999956,
+      "slash": 0.028999984299999948,
+      "thrust": 0.027999997100000007,
+      "magic": 0.02499997620000005,
+      "fire": 0.027999997100000007,
+      "lightning": 0.02100002769999998,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 8,
+      "robustness": 15,
+      "focus": 7,
+      "vitality": 7
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 60300,
+    "name": "Drake Knight Greaves",
+    "weight": 5.699999809,
+    "poise": 10.99999994,
+    "abs": {
+      "physical": 0.06499999759999997,
+      "strike": 0.05400002000000004,
+      "slash": 0.06800001860000005,
+      "thrust": 0.06499999759999997,
+      "magic": 0.058000028100000045,
+      "fire": 0.06499999759999997,
+      "lightning": 0.05000001190000003,
+      "holy": 0.058000028100000045
+    },
+    "res": {
+      "immunity": 16,
+      "robustness": 29,
+      "focus": 13,
+      "vitality": 13
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 61000,
+    "name": "Drake Knight Helm (Altered)",
+    "weight": 3.599999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.03600001340000003,
+      "strike": 0.028999984299999948,
+      "slash": 0.03799998760000001,
+      "thrust": 0.03600001340000003,
+      "magic": 0.032000005200000015,
+      "fire": 0.03600001340000003,
+      "lightning": 0.02600002290000003,
+      "holy": 0.032000005200000015
+    },
+    "res": {
+      "immunity": 9,
+      "robustness": 16,
+      "focus": 7,
+      "vitality": 7
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 61100,
+    "name": "Drake Knight Armor (Altered)",
+    "weight": 8.300000191,
+    "poise": 16.00000076,
+    "abs": {
+      "physical": 0.11199998860000004,
+      "strike": 0.08600002529999995,
+      "slash": 0.11199998860000004,
+      "thrust": 0.10699999329999998,
+      "magic": 0.07999998330000002,
+      "fire": 0.09500002860000001,
+      "lightning": 0.06699997189999995,
+      "holy": 0.07999998330000002
+    },
+    "res": {
+      "immunity": 21,
+      "robustness": 34,
+      "focus": 10,
+      "vitality": 10
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 80000,
+    "name": "Scaled Helm",
+    "weight": 6.800000191,
+    "poise": 10.99999994,
+    "abs": {
+      "physical": 0.058000028100000045,
+      "strike": 0.05000001190000003,
+      "slash": 0.06099998949999996,
+      "thrust": 0.058000028100000045,
+      "magic": 0.04799997810000001,
+      "fire": 0.05000001190000003,
+      "lightning": 0.04600000380000002,
+      "holy": 0.04799997810000001
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 35,
+      "focus": 16,
+      "vitality": 16
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 80100,
+    "name": "Scaled Armor",
+    "weight": 16,
+    "poise": 32.99999982,
+    "abs": {
+      "physical": 0.16000002619999998,
+      "strike": 0.1389999986,
+      "slash": 0.16799998279999995,
+      "thrust": 0.16000002619999998,
+      "magic": 0.1349999905,
+      "fire": 0.14099997279999998,
+      "lightning": 0.12999999520000005,
+      "holy": 0.1349999905
+    },
+    "res": {
+      "immunity": 57,
+      "robustness": 83,
+      "focus": 38,
+      "vitality": 38
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 80200,
+    "name": "Scaled Gauntlets",
+    "weight": 5.300000191,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.04000002150000004,
+      "strike": 0.0339999795,
+      "slash": 0.041999995700000015,
+      "thrust": 0.04000002150000004,
+      "magic": 0.032999992399999956,
+      "fire": 0.03500002619999998,
+      "lightning": 0.032000005200000015,
+      "holy": 0.032999992399999956
+    },
+    "res": {
+      "immunity": 19,
+      "robustness": 28,
+      "focus": 13,
+      "vitality": 13
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 80300,
+    "name": "Scaled Greaves",
+    "weight": 9.899999619,
+    "poise": 19.99999955,
+    "abs": {
+      "physical": 0.09200000760000004,
+      "strike": 0.07999998330000002,
+      "slash": 0.09600001570000005,
+      "thrust": 0.09200000760000004,
+      "magic": 0.07700002189999999,
+      "fire": 0.08099997039999995,
+      "lightning": 0.07400000100000004,
+      "holy": 0.07700002189999999
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 51,
+      "focus": 24,
+      "vitality": 24
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 81100,
+    "name": "Scaled Armor (Altered)",
+    "weight": 15,
+    "poise": 29.99999933,
+    "abs": {
+      "physical": 0.1529999971,
+      "strike": 0.13400000329999995,
+      "slash": 0.16000002619999998,
+      "thrust": 0.1529999971,
+      "magic": 0.12800002099999996,
+      "fire": 0.13300001620000002,
+      "lightning": 0.12400001289999996,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 45,
+      "robustness": 64,
+      "focus": 29,
+      "vitality": 29
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 90000,
+    "name": "Perfumer Hood",
+    "weight": 1.700000048,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.013999998600000008,
+      "strike": 0.02100002769999998,
+      "slash": 0.018000006700000015,
+      "thrust": 0.013999998600000008,
+      "magic": 0.04600000380000002,
+      "fire": 0.041999995700000015,
+      "lightning": 0.044000029600000046,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 26,
+      "robustness": 8,
+      "focus": 27,
+      "vitality": 29
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 90100,
+    "name": "Perfumer Robe",
+    "weight": 5.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.05299997329999995,
+      "strike": 0.06699997189999995,
+      "slash": 0.06099998949999996,
+      "thrust": 0.05299997329999995,
+      "magic": 0.12999999520000005,
+      "fire": 0.12400001289999996,
+      "lightning": 0.12599998710000004,
+      "holy": 0.12999999520000005
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 21,
+      "focus": 71,
+      "vitality": 76
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 90200,
+    "name": "Perfumer Gloves",
+    "weight": 1.399999976,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.0099999905,
+      "strike": 0.014999985700000051,
+      "slash": 0.013000011399999956,
+      "thrust": 0.0099999905,
+      "magic": 0.032000005200000015,
+      "fire": 0.028999984299999948,
+      "lightning": 0.03100001809999997,
+      "holy": 0.032000005200000015
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 6,
+      "focus": 21,
+      "vitality": 22
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 90300,
+    "name": "Perfumer Sarong",
+    "weight": 2.5,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.023000001899999956,
+      "strike": 0.0339999795,
+      "slash": 0.029999971399999992,
+      "thrust": 0.023000001899999956,
+      "magic": 0.07300001379999999,
+      "fire": 0.06800001860000005,
+      "lightning": 0.07099997999999996,
+      "holy": 0.07300001379999999
+    },
+    "res": {
+      "immunity": 37,
+      "robustness": 11,
+      "focus": 39,
+      "vitality": 41
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 91100,
+    "name": "Perfumer Robe (Altered)",
+    "weight": 4.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.06099998949999996,
+      "slash": 0.05299997329999995,
+      "thrust": 0.041999995700000015,
+      "magic": 0.12800002099999996,
+      "fire": 0.11900001760000001,
+      "lightning": 0.12400001289999996,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 54,
+      "robustness": 18,
+      "focus": 63,
+      "vitality": 67
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 100000,
+    "name": "Traveler's Hat",
+    "weight": 1.700000048,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.018000006700000015,
+      "strike": 0.018000006700000015,
+      "slash": 0.013999998600000008,
+      "thrust": 0.009000003299999948,
+      "magic": 0.04600000380000002,
+      "fire": 0.04600000380000002,
+      "lightning": 0.044000029600000046,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 23,
+      "robustness": 9,
+      "focus": 29,
+      "vitality": 27
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 100100,
+    "name": "Perfumer's Traveling Garb",
+    "weight": 5.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.06099998949999996,
+      "strike": 0.06099998949999996,
+      "slash": 0.05299997329999995,
+      "thrust": 0.041999995700000015,
+      "magic": 0.12999999520000005,
+      "fire": 0.12999999520000005,
+      "lightning": 0.12599998710000004,
+      "holy": 0.12999999520000005
+    },
+    "res": {
+      "immunity": 57,
+      "robustness": 23,
+      "focus": 76,
+      "vitality": 71
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 100200,
+    "name": "Traveler's Gloves",
+    "weight": 1.399999976,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.013000011399999956,
+      "strike": 0.013000011399999956,
+      "slash": 0.0099999905,
+      "thrust": 0.005999982399999992,
+      "magic": 0.032000005200000015,
+      "fire": 0.032000005200000015,
+      "lightning": 0.03100001809999997,
+      "holy": 0.032000005200000015
+    },
+    "res": {
+      "immunity": 18,
+      "robustness": 7,
+      "focus": 22,
+      "vitality": 21
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 100300,
+    "name": "Traveler's Slops",
+    "weight": 2.5,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.029999971399999992,
+      "strike": 0.029999971399999992,
+      "slash": 0.023000001899999956,
+      "thrust": 0.014999985700000051,
+      "magic": 0.07300001379999999,
+      "fire": 0.07300001379999999,
+      "lightning": 0.07099997999999996,
+      "holy": 0.07300001379999999
+    },
+    "res": {
+      "immunity": 34,
+      "robustness": 13,
+      "focus": 41,
+      "vitality": 39
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 101100,
+    "name": "Perfumer's Traveling Garb (Altered)",
+    "weight": 4.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.05299997329999995,
+      "strike": 0.05299997329999995,
+      "slash": 0.041999995700000015,
+      "thrust": 0.027000009999999963,
+      "magic": 0.12800002099999996,
+      "fire": 0.12800002099999996,
+      "lightning": 0.12400001289999996,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 55,
+      "robustness": 21,
+      "focus": 67,
+      "vitality": 63
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 120000,
+    "name": "Alberich's Pointed Hat",
+    "weight": 1.700000048,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.018000006700000015,
+      "strike": 0.013999998600000008,
+      "slash": 0.018000006700000015,
+      "thrust": 0.018000006700000015,
+      "magic": 0.04600000380000002,
+      "fire": 0.041999995700000015,
+      "lightning": 0.044000029600000046,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 16,
+      "robustness": 10,
+      "focus": 29,
+      "vitality": 31
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 120100,
+    "name": "Alberich's Robe",
+    "weight": 4.099999905,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.05299997329999995,
+      "strike": 0.041999995700000015,
+      "slash": 0.05299997329999995,
+      "thrust": 0.05299997329999995,
+      "magic": 0.12800002099999996,
+      "fire": 0.11900001760000001,
+      "lightning": 0.12400001289999996,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 38,
+      "robustness": 23,
+      "focus": 67,
+      "vitality": 71
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 120200,
+    "name": "Alberich's Bracers",
+    "weight": 1.399999976,
+    "poise": 1.00000005,
+    "abs": {
+      "physical": 0.013000011399999956,
+      "strike": 0.0099999905,
+      "slash": 0.013000011399999956,
+      "thrust": 0.013000011399999956,
+      "magic": 0.032000005200000015,
+      "fire": 0.028999984299999948,
+      "lightning": 0.03100001809999997,
+      "holy": 0.032000005200000015
+    },
+    "res": {
+      "immunity": 13,
+      "robustness": 8,
+      "focus": 22,
+      "vitality": 24
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 120300,
+    "name": "Alberich's Trousers",
+    "weight": 2.5,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.029999971399999992,
+      "strike": 0.023000001899999956,
+      "slash": 0.029999971399999992,
+      "thrust": 0.029999971399999992,
+      "magic": 0.07300001379999999,
+      "fire": 0.06800001860000005,
+      "lightning": 0.07200002670000005,
+      "holy": 0.07300001379999999
+    },
+    "res": {
+      "immunity": 26,
+      "robustness": 14,
+      "focus": 41,
+      "vitality": 44
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 121000,
+    "name": "Alberich's Pointed Hat (Altered)",
+    "weight": 1,
+    "poise": 1.00000005,
+    "abs": {
+      "physical": 0.009000003299999948,
+      "strike": 0.0019999742999999848,
+      "slash": 0.009000003299999948,
+      "thrust": 0.009000003299999948,
+      "magic": 0.044000029600000046,
+      "fire": 0.03799998760000001,
+      "lightning": 0.04000002150000004,
+      "holy": 0.044000029600000046
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 7,
+      "focus": 23,
+      "vitality": 24
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 121100,
+    "name": "Alberich's Robe (Altered)",
+    "weight": 3.200000048,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.027000009999999963,
+      "slash": 0.041999995700000015,
+      "thrust": 0.041999995700000015,
+      "magic": 0.12599998710000004,
+      "fire": 0.11400002239999996,
+      "lightning": 0.11900001760000001,
+      "holy": 0.12599998710000004
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 19,
+      "focus": 57,
+      "vitality": 61
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 130000,
+    "name": "Spellblade's Pointed Hat",
+    "weight": 1.5,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.013000011399999956,
+      "strike": 0.008000016200000015,
+      "slash": 0.013000011399999956,
+      "thrust": 0.013000011399999956,
+      "magic": 0.04500001669999998,
+      "fire": 0.03899997470000005,
+      "lightning": 0.04100000859999997,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 8,
+      "focus": 25,
+      "vitality": 27
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 130100,
+    "name": "Spellblade's Traveling Attire",
+    "weight": 3.299999952,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.04100000859999997,
+      "strike": 0.02600002290000003,
+      "slash": 0.04100000859999997,
+      "thrust": 0.04100000859999997,
+      "magic": 0.12699997429999998,
+      "fire": 0.11299997569999998,
+      "lightning": 0.11799997090000003,
+      "holy": 0.12699997429999998
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 17,
+      "focus": 59,
+      "vitality": 63
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 130200,
+    "name": "Spellblade's Gloves",
+    "weight": 1.200000048,
+    "poise": 1.00000005,
+    "abs": {
+      "physical": 0.009000003299999948,
+      "strike": 0.004999995200000051,
+      "slash": 0.009000003299999948,
+      "thrust": 0.009000003299999948,
+      "magic": 0.03100001809999997,
+      "fire": 0.027000009999999963,
+      "lightning": 0.027999997100000007,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 6,
+      "focus": 19,
+      "vitality": 20
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 130300,
+    "name": "Spellblade's Trousers",
+    "weight": 2.599999905,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.028999984299999948,
+      "strike": 0.022000014800000023,
+      "slash": 0.028999984299999948,
+      "thrust": 0.028999984299999948,
+      "magic": 0.07300001379999999,
+      "fire": 0.06699997189999995,
+      "lightning": 0.06999999280000002,
+      "holy": 0.07300001379999999
+    },
+    "res": {
+      "immunity": 25,
+      "robustness": 13,
+      "focus": 38,
+      "vitality": 41
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 131100,
+    "name": "Spellblade's Traveling Attire (Altered)",
+    "weight": 2.5,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.02600002290000003,
+      "strike": 0.004999995200000051,
+      "slash": 0.02600002290000003,
+      "thrust": 0.02600002290000003,
+      "magic": 0.12599998710000004,
+      "fire": 0.10900002720000002,
+      "lightning": 0.11400002239999996,
+      "holy": 0.12599998710000004
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 10,
+      "focus": 54,
+      "vitality": 57
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 140000,
+    "name": "Bull-Goat Helm",
+    "weight": 11.30000019,
+    "poise": 14.99999966,
+    "abs": {
+      "physical": 0.07499998809999997,
+      "strike": 0.07400000100000004,
+      "slash": 0.06699997189999995,
+      "thrust": 0.06699997189999995,
+      "magic": 0.046999990899999955,
+      "fire": 0.04799997810000001,
+      "lightning": 0.05299997329999995,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 31,
+      "robustness": 35,
+      "focus": 20,
+      "vitality": 23
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 140100,
+    "name": "Bull-Goat Armor",
+    "weight": 26.5,
+    "poise": 46.99999839,
+    "abs": {
+      "physical": 0.20399999619999998,
+      "strike": 0.2020000219,
+      "slash": 0.18300002810000005,
+      "thrust": 0.18300002810000005,
+      "magic": 0.13300001620000002,
+      "fire": 0.1349999905,
+      "lightning": 0.148999989,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 71,
+      "robustness": 83,
+      "focus": 46,
+      "vitality": 55
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 140200,
+    "name": "Bull-Goat Gauntlets",
+    "weight": 8.800000191,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.051999986200000015,
+      "strike": 0.051999986200000015,
+      "slash": 0.04600000380000002,
+      "thrust": 0.04600000380000002,
+      "magic": 0.032999992399999956,
+      "fire": 0.032999992399999956,
+      "lightning": 0.03700000049999996,
+      "holy": 0.032000005200000015
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 28,
+      "focus": 15,
+      "vitality": 18
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 140300,
+    "name": "Bull-Goat Greaves",
+    "weight": 16.39999962,
+    "poise": 28.00000086,
+    "abs": {
+      "physical": 0.11900001760000001,
+      "strike": 0.11799997090000003,
+      "slash": 0.10600000620000005,
+      "thrust": 0.10600000620000005,
+      "magic": 0.07599997520000001,
+      "fire": 0.07700002189999999,
+      "lightning": 0.08499997849999996,
+      "holy": 0.07300001379999999
+    },
+    "res": {
+      "immunity": 44,
+      "robustness": 51,
+      "focus": 29,
+      "vitality": 34
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 150000,
+    "name": "Iron Kasa",
+    "weight": 3.799999952,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.03600001340000003,
+      "strike": 0.03600001340000003,
+      "slash": 0.041999995700000015,
+      "thrust": 0.03600001340000003,
+      "magic": 0.04000002150000004,
+      "fire": 0.041999995700000015,
+      "lightning": 0.044000029600000046,
+      "holy": 0.04000002150000004
+    },
+    "res": {
+      "immunity": 30,
+      "robustness": 23,
+      "focus": 24,
+      "vitality": 24
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 150100,
+    "name": "Ronin's Armor",
+    "weight": 8.5,
+    "poise": 16.00000076,
+    "abs": {
+      "physical": 0.10500001910000001,
+      "strike": 0.10500001910000001,
+      "slash": 0.11199998860000004,
+      "thrust": 0.10500001910000001,
+      "magic": 0.11900001760000001,
+      "fire": 0.12400001289999996,
+      "lightning": 0.13400000329999995,
+      "holy": 0.11900001760000001
+    },
+    "res": {
+      "immunity": 66,
+      "robustness": 48,
+      "focus": 52,
+      "vitality": 57
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 150200,
+    "name": "Ronin's Gauntlets",
+    "weight": 3.099999905,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.027000009999999963,
+      "strike": 0.027000009999999963,
+      "slash": 0.027999997100000007,
+      "thrust": 0.027000009999999963,
+      "magic": 0.028999984299999948,
+      "fire": 0.03100001809999997,
+      "lightning": 0.032000005200000015,
+      "holy": 0.028999984299999948
+    },
+    "res": {
+      "immunity": 25,
+      "robustness": 19,
+      "focus": 20,
+      "vitality": 21
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 150300,
+    "name": "Ronin's Greaves",
+    "weight": 5.699999809,
+    "poise": 10.99999994,
+    "abs": {
+      "physical": 0.061999976600000006,
+      "strike": 0.061999976600000006,
+      "slash": 0.06499999759999997,
+      "thrust": 0.061999976600000006,
+      "magic": 0.06800001860000005,
+      "fire": 0.07099997999999996,
+      "lightning": 0.07300001379999999,
+      "holy": 0.06800001860000005
+    },
+    "res": {
+      "immunity": 46,
+      "robustness": 35,
+      "focus": 36,
+      "vitality": 38
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 151100,
+    "name": "Ronin's Armor (Altered)",
+    "weight": 7.599999905,
+    "poise": 14.99999966,
+    "abs": {
+      "physical": 0.08799999950000004,
+      "strike": 0.08799999950000004,
+      "slash": 0.09500002860000001,
+      "thrust": 0.08799999950000004,
+      "magic": 0.10199999810000004,
+      "fire": 0.10900002720000002,
+      "lightning": 0.11900001760000001,
+      "holy": 0.10199999810000004
+    },
+    "res": {
+      "immunity": 54,
+      "robustness": 38,
+      "focus": 42,
+      "vitality": 45
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 160000,
+    "name": "Guilty Hood",
+    "weight": 1.399999976,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.009000003299999948,
+      "strike": 0.013999998600000008,
+      "slash": 0.018000006700000015,
+      "thrust": 0.0019999742999999848,
+      "magic": 0.044000029600000046,
+      "fire": 0.04000002150000004,
+      "lightning": 0.04500001669999998,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 9,
+      "focus": 27,
+      "vitality": 31
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 160100,
+    "name": "Cloth Garb",
+    "weight": 3.200000048,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.05299997329999995,
+      "strike": 0.041999995700000015,
+      "slash": 0.027000009999999963,
+      "thrust": 0.041999995700000015,
+      "magic": 0.12800002099999996,
+      "fire": 0.12400001289999996,
+      "lightning": 0.11900001760000001,
+      "holy": 0.12400001289999996
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 23,
+      "focus": 60,
+      "vitality": 60
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 160300,
+    "name": "Cloth Trousers",
+    "weight": 2,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.029999971399999992,
+      "strike": 0.023000001899999956,
+      "slash": 0.014999985700000051,
+      "thrust": 0.023000001899999956,
+      "magic": 0.07300001379999999,
+      "fire": 0.07099997999999996,
+      "lightning": 0.06800001860000005,
+      "holy": 0.07099997999999996
+    },
+    "res": {
+      "immunity": 26,
+      "robustness": 14,
+      "focus": 37,
+      "vitality": 37
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 170000,
+    "name": "Black Wolf Mask",
+    "weight": 5.900000095,
+    "poise": 8.99999961,
+    "abs": {
+      "physical": 0.051999986200000015,
+      "strike": 0.04600000380000002,
+      "slash": 0.051999986200000015,
+      "thrust": 0.05500000719999998,
+      "magic": 0.04000002150000004,
+      "fire": 0.04500001669999998,
+      "lightning": 0.03600001340000003,
+      "holy": 0.041999995700000015
+    },
+    "res": {
+      "immunity": 16,
+      "robustness": 33,
+      "focus": 11,
+      "vitality": 11
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 170100,
+    "name": "Blaidd's Armor",
+    "weight": 13.69999981,
+    "poise": 28.00000086,
+    "abs": {
+      "physical": 0.14600002769999998,
+      "strike": 0.1290000081,
+      "slash": 0.14600002769999998,
+      "thrust": 0.1529999971,
+      "magic": 0.11400002239999996,
+      "fire": 0.12599998710000004,
+      "lightning": 0.10199999810000004,
+      "holy": 0.11900001760000001
+    },
+    "res": {
+      "immunity": 38,
+      "robustness": 76,
+      "focus": 25,
+      "vitality": 25
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 170200,
+    "name": "Blaidd's Gauntlets",
+    "weight": 4.599999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.03600001340000003,
+      "strike": 0.032000005200000015,
+      "slash": 0.03600001340000003,
+      "thrust": 0.03799998760000001,
+      "magic": 0.027999997100000007,
+      "fire": 0.032000005200000015,
+      "lightning": 0.027000009999999963,
+      "holy": 0.028999984299999948
+    },
+    "res": {
+      "immunity": 13,
+      "robustness": 21,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 170300,
+    "name": "Blaidd's Greaves",
+    "weight": 8.5,
+    "poise": 17.00000092,
+    "abs": {
+      "physical": 0.08399999140000003,
+      "strike": 0.07300001379999999,
+      "slash": 0.08399999140000003,
+      "thrust": 0.08799999950000004,
+      "magic": 0.06499999759999997,
+      "fire": 0.07300001379999999,
+      "lightning": 0.061999976600000006,
+      "holy": 0.06800001860000005
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 39,
+      "focus": 16,
+      "vitality": 16
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 171100,
+    "name": "Blaidd's Armor (Altered)",
+    "weight": 12.5,
+    "poise": 27.0000007,
+    "abs": {
+      "physical": 0.13999998570000005,
+      "strike": 0.12400001289999996,
+      "slash": 0.13999998570000005,
+      "thrust": 0.14600002769999998,
+      "magic": 0.10900002720000002,
+      "fire": 0.12400001289999996,
+      "lightning": 0.09500002860000001,
+      "holy": 0.11400002239999996
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 57,
+      "focus": 22,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 180000,
+    "name": "Black Knife Hood",
+    "weight": 3.799999952,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.03799998760000001,
+      "strike": 0.03600001340000003,
+      "slash": 0.041999995700000015,
+      "thrust": 0.041999995700000015,
+      "magic": 0.027999997100000007,
+      "fire": 0.03100001809999997,
+      "lightning": 0.02100002769999998,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 18,
+      "focus": 9,
+      "vitality": 9
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 180100,
+    "name": "Black Knife Armor",
+    "weight": 9.199999809,
+    "poise": 18.99999939,
+    "abs": {
+      "physical": 0.11400002239999996,
+      "strike": 0.10900002720000002,
+      "slash": 0.12400001289999996,
+      "thrust": 0.12400001289999996,
+      "magic": 0.08799999950000004,
+      "fire": 0.09500002860000001,
+      "lightning": 0.06699997189999995,
+      "holy": 0.11400002239999996
+    },
+    "res": {
+      "immunity": 28,
+      "robustness": 46,
+      "focus": 23,
+      "vitality": 23
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 180200,
+    "name": "Black Knife Gauntlets",
+    "weight": 3.099999905,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.027999997100000007,
+      "strike": 0.027000009999999963,
+      "slash": 0.03100001809999997,
+      "thrust": 0.03100001809999997,
+      "magic": 0.02100002769999998,
+      "fire": 0.023000001899999956,
+      "lightning": 0.015999972799999984,
+      "holy": 0.027999997100000007
+    },
+    "res": {
+      "immunity": 9,
+      "robustness": 15,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 180300,
+    "name": "Black Knife Greaves",
+    "weight": 5.699999809,
+    "poise": 10.99999994,
+    "abs": {
+      "physical": 0.06499999759999997,
+      "strike": 0.061999976600000006,
+      "slash": 0.07099997999999996,
+      "thrust": 0.07099997999999996,
+      "magic": 0.05000001190000003,
+      "fire": 0.05400002000000004,
+      "lightning": 0.03799998760000001,
+      "holy": 0.06499999759999997
+    },
+    "res": {
+      "immunity": 17,
+      "robustness": 29,
+      "focus": 14,
+      "vitality": 14
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 181100,
+    "name": "Black Knife Armor (Altered)",
+    "weight": 9,
+    "poise": 18.99999939,
+    "abs": {
+      "physical": 0.11299997569999998,
+      "strike": 0.10799998040000003,
+      "slash": 0.12300002570000002,
+      "thrust": 0.12300002570000002,
+      "magic": 0.08700001239999999,
+      "fire": 0.09399998190000003,
+      "lightning": 0.06599998470000001,
+      "holy": 0.11299997569999998
+    },
+    "res": {
+      "immunity": 25,
+      "robustness": 42,
+      "focus": 21,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 190000,
+    "name": "Exile Hood",
+    "weight": 4,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.0339999795,
+      "slash": 0.04600000380000002,
+      "thrust": 0.044000029600000046,
+      "magic": 0.027999997100000007,
+      "fire": 0.03799998760000001,
+      "lightning": 0.023000001899999956,
+      "holy": 0.0339999795
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 23,
+      "focus": 9,
+      "vitality": 8
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 190100,
+    "name": "Exile Armor",
+    "weight": 9.199999809,
+    "poise": 18.99999939,
+    "abs": {
+      "physical": 0.12400001289999996,
+      "strike": 0.09500002860000001,
+      "slash": 0.1290000081,
+      "thrust": 0.12400001289999996,
+      "magic": 0.07999998330000002,
+      "fire": 0.10900002720000002,
+      "lightning": 0.06699997189999995,
+      "holy": 0.09500002860000001
+    },
+    "res": {
+      "immunity": 28,
+      "robustness": 55,
+      "focus": 21,
+      "vitality": 18
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 190200,
+    "name": "Exile Gauntlets",
+    "weight": 2.900000095,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.028999984299999948,
+      "strike": 0.02100002769999998,
+      "slash": 0.03100001809999997,
+      "thrust": 0.028999984299999948,
+      "magic": 0.01700001959999997,
+      "fire": 0.02499997620000005,
+      "lightning": 0.014999985700000051,
+      "holy": 0.02100002769999998
+    },
+    "res": {
+      "immunity": 8,
+      "robustness": 17,
+      "focus": 6,
+      "vitality": 4
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 190300,
+    "name": "Exile Greaves",
+    "weight": 5.699999809,
+    "poise": 10.99999994,
+    "abs": {
+      "physical": 0.07099997999999996,
+      "strike": 0.05400002000000004,
+      "slash": 0.07400000100000004,
+      "thrust": 0.07099997999999996,
+      "magic": 0.04500001669999998,
+      "fire": 0.061999976600000006,
+      "lightning": 0.03799998760000001,
+      "holy": 0.05400002000000004
+    },
+    "res": {
+      "immunity": 17,
+      "robustness": 34,
+      "focus": 13,
+      "vitality": 11
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 200000,
+    "name": "Banished Knight Helm",
+    "weight": 7.5,
+    "poise": 10.99999994,
+    "abs": {
+      "physical": 0.06800001860000005,
+      "strike": 0.05400002000000004,
+      "slash": 0.06999999280000002,
+      "thrust": 0.0630000234,
+      "magic": 0.04799997810000001,
+      "fire": 0.04799997810000001,
+      "lightning": 0.04600000380000002,
+      "holy": 0.046999990899999955
+    },
+    "res": {
+      "immunity": 26,
+      "robustness": 35,
+      "focus": 16,
+      "vitality": 18
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 200100,
+    "name": "Banished Knight Armor",
+    "weight": 17.5,
+    "poise": 34.00000185,
+    "abs": {
+      "physical": 0.1869999766,
+      "strike": 0.14999997620000005,
+      "slash": 0.19199997189999995,
+      "thrust": 0.17500001190000003,
+      "magic": 0.1349999905,
+      "fire": 0.1349999905,
+      "lightning": 0.12999999520000005,
+      "holy": 0.13300001620000002
+    },
+    "res": {
+      "immunity": 60,
+      "robustness": 83,
+      "focus": 38,
+      "vitality": 42
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 200200,
+    "name": "Banished Knight Gauntlets",
+    "weight": 5.800000191,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.046999990899999955,
+      "strike": 0.03700000049999996,
+      "slash": 0.049000024799999986,
+      "thrust": 0.044000029600000046,
+      "magic": 0.032999992399999956,
+      "fire": 0.032999992399999956,
+      "lightning": 0.032000005200000015,
+      "holy": 0.032999992399999956
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 28,
+      "focus": 13,
+      "vitality": 14
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 200300,
+    "name": "Banished Knight Greaves",
+    "weight": 10.80000019,
+    "poise": 19.99999955,
+    "abs": {
+      "physical": 0.10799998040000003,
+      "strike": 0.08600002529999995,
+      "slash": 0.11100000139999999,
+      "thrust": 0.101000011,
+      "magic": 0.07700002189999999,
+      "fire": 0.07700002189999999,
+      "lightning": 0.07400000100000004,
+      "holy": 0.07599997520000001
+    },
+    "res": {
+      "immunity": 37,
+      "robustness": 51,
+      "focus": 24,
+      "vitality": 26
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 201000,
+    "name": "Banished Knight Helm (Altered)",
+    "weight": 7.099999905,
+    "poise": 10.99999994,
+    "abs": {
+      "physical": 0.06699997189999995,
+      "strike": 0.051999986200000015,
+      "slash": 0.06800001860000005,
+      "thrust": 0.06099998949999996,
+      "magic": 0.046999990899999955,
+      "fire": 0.046999990899999955,
+      "lightning": 0.04600000380000002,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 21,
+      "robustness": 30,
+      "focus": 13,
+      "vitality": 14
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 201100,
+    "name": "Banished Knight Armor (Altered)",
+    "weight": 16.5,
+    "poise": 32.99999982,
+    "abs": {
+      "physical": 0.18300002810000005,
+      "strike": 0.14399999379999995,
+      "slash": 0.1869999766,
+      "thrust": 0.16799998279999995,
+      "magic": 0.13300001620000002,
+      "fire": 0.13300001620000002,
+      "lightning": 0.12800002099999996,
+      "holy": 0.12999999520000005
+    },
+    "res": {
+      "immunity": 52,
+      "robustness": 69,
+      "focus": 32,
+      "vitality": 34
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 210000,
+    "name": "Briar Helm",
+    "weight": 5.099999905,
+    "poise": 8.99999961,
+    "abs": {
+      "physical": 0.04600000380000002,
+      "strike": 0.04000002150000004,
+      "slash": 0.04799997810000001,
+      "thrust": 0.044000029600000046,
+      "magic": 0.03799998760000001,
+      "fire": 0.044000029600000046,
+      "lightning": 0.03100001809999997,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 31,
+      "focus": 10,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 210100,
+    "name": "Briar Armor",
+    "weight": 11.80000019,
+    "poise": 20.99999972,
+    "abs": {
+      "physical": 0.1290000081,
+      "strike": 0.11400002239999996,
+      "slash": 0.1349999905,
+      "thrust": 0.12400001289999996,
+      "magic": 0.10900002720000002,
+      "fire": 0.12400001289999996,
+      "lightning": 0.08799999950000004,
+      "holy": 0.10900002720000002
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 71,
+      "focus": 24,
+      "vitality": 24
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 210200,
+    "name": "Briar Gauntlets",
+    "weight": 3.900000095,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.032000005200000015,
+      "strike": 0.027999997100000007,
+      "slash": 0.032999992399999956,
+      "thrust": 0.03100001809999997,
+      "magic": 0.027000009999999963,
+      "fire": 0.03100001809999997,
+      "lightning": 0.02100002769999998,
+      "holy": 0.027000009999999963
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 24,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 210300,
+    "name": "Briar Greaves",
+    "weight": 7.300000191,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.07400000100000004,
+      "strike": 0.06499999759999997,
+      "slash": 0.07700002189999999,
+      "thrust": 0.07099997999999996,
+      "magic": 0.061999976600000006,
+      "fire": 0.07099997999999996,
+      "lightning": 0.05000001190000003,
+      "holy": 0.061999976600000006
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 44,
+      "focus": 15,
+      "vitality": 15
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 211100,
+    "name": "Briar Armor (Altered)",
+    "weight": 10.69999981,
+    "poise": 18.99999939,
+    "abs": {
+      "physical": 0.12400001289999996,
+      "strike": 0.10900002720000002,
+      "slash": 0.12400001289999996,
+      "thrust": 0.11900001760000001,
+      "magic": 0.10199999810000004,
+      "fire": 0.11400002239999996,
+      "lightning": 0.07099997999999996,
+      "holy": 0.09500002860000001
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 61,
+      "focus": 21,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 220000,
+    "name": "Page Hood",
+    "weight": 1.399999976,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.018000006700000015,
+      "strike": 0.013999998600000008,
+      "slash": 0.009000003299999948,
+      "thrust": 0.009000003299999948,
+      "magic": 0.044000029600000046,
+      "fire": 0.041999995700000015,
+      "lightning": 0.04500001669999998,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 8,
+      "focus": 29,
+      "vitality": 29
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 220100,
+    "name": "Page Garb",
+    "weight": 5.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.06699997189999995,
+      "strike": 0.06099998949999996,
+      "slash": 0.05299997329999995,
+      "thrust": 0.05299997329999995,
+      "magic": 0.12800002099999996,
+      "fire": 0.12599998710000004,
+      "lightning": 0.12999999520000005,
+      "holy": 0.12999999520000005
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 23,
+      "focus": 83,
+      "vitality": 83
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 220300,
+    "name": "Page Trousers",
+    "weight": 2.5,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.0339999795,
+      "strike": 0.029999971399999992,
+      "slash": 0.023000001899999956,
+      "thrust": 0.023000001899999956,
+      "magic": 0.07200002670000005,
+      "fire": 0.07099997999999996,
+      "lightning": 0.07300001379999999,
+      "holy": 0.07300001379999999
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 13,
+      "focus": 44,
+      "vitality": 44
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 221100,
+    "name": "Page Garb (Altered)",
+    "weight": 4.5,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.0630000234,
+      "strike": 0.05500000719999998,
+      "slash": 0.044000029600000046,
+      "thrust": 0.044000029600000046,
+      "magic": 0.12800002099999996,
+      "fire": 0.12599998710000004,
+      "lightning": 0.12999999520000005,
+      "holy": 0.12999999520000005
+    },
+    "res": {
+      "immunity": 34,
+      "robustness": 19,
+      "focus": 64,
+      "vitality": 64
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 230000,
+    "name": "Night's Cavalry Helm",
+    "weight": 5.5,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.05000001190000003,
+      "strike": 0.04600000380000002,
+      "slash": 0.05000001190000003,
+      "thrust": 0.04799997810000001,
+      "magic": 0.03799998760000001,
+      "fire": 0.04500001669999998,
+      "lightning": 0.03799998760000001,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 16,
+      "robustness": 24,
+      "focus": 10,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 230100,
+    "name": "Night's Cavalry Armor",
+    "weight": 12.80000019,
+    "poise": 25.00000037,
+    "abs": {
+      "physical": 0.13999998570000005,
+      "strike": 0.1290000081,
+      "slash": 0.13999998570000005,
+      "thrust": 0.1349999905,
+      "magic": 0.10900002720000002,
+      "fire": 0.12599998710000004,
+      "lightning": 0.10900002720000002,
+      "holy": 0.12599998710000004
+    },
+    "res": {
+      "immunity": 38,
+      "robustness": 57,
+      "focus": 24,
+      "vitality": 24
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 230200,
+    "name": "Night's Cavalry Gauntlets",
+    "weight": 4.300000191,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.03500002619999998,
+      "strike": 0.032000005200000015,
+      "slash": 0.03500002619999998,
+      "thrust": 0.032999992399999956,
+      "magic": 0.027000009999999963,
+      "fire": 0.03100001809999997,
+      "lightning": 0.027000009999999963,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 13,
+      "robustness": 19,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 230300,
+    "name": "Night's Cavalry Greaves",
+    "weight": 7.900000095,
+    "poise": 14.99999966,
+    "abs": {
+      "physical": 0.07999998330000002,
+      "strike": 0.07300001379999999,
+      "slash": 0.07999998330000002,
+      "thrust": 0.07700002189999999,
+      "magic": 0.061999976600000006,
+      "fire": 0.07200002670000005,
+      "lightning": 0.061999976600000006,
+      "holy": 0.07200002670000005
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 35,
+      "focus": 15,
+      "vitality": 15
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 231000,
+    "name": "Night's Cavalry Helm (Altered)",
+    "weight": 5.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.04799997810000001,
+      "strike": 0.044000029600000046,
+      "slash": 0.04799997810000001,
+      "thrust": 0.044000029600000046,
+      "magic": 0.03600001340000003,
+      "fire": 0.044000029600000046,
+      "lightning": 0.03600001340000003,
+      "holy": 0.044000029600000046
+    },
+    "res": {
+      "immunity": 13,
+      "robustness": 21,
+      "focus": 9,
+      "vitality": 9
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 231100,
+    "name": "Night's Cavalry Armor (Altered)",
+    "weight": 11.80000019,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.1349999905,
+      "strike": 0.12400001289999996,
+      "slash": 0.1349999905,
+      "thrust": 0.12400001289999996,
+      "magic": 0.10199999810000004,
+      "fire": 0.12400001289999996,
+      "lightning": 0.10199999810000004,
+      "holy": 0.12400001289999996
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 50,
+      "focus": 21,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 240000,
+    "name": "Blue Silver Mail Hood",
+    "weight": 3.799999952,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.03100001809999997,
+      "slash": 0.044000029600000046,
+      "thrust": 0.03799998760000001,
+      "magic": 0.03600001340000003,
+      "fire": 0.0339999795,
+      "lightning": 0.02499997620000005,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 10,
+      "robustness": 24,
+      "focus": 5,
+      "vitality": 5
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 240100,
+    "name": "Blue Silver Mail Armor",
+    "weight": 9.199999809,
+    "poise": 18.99999939,
+    "abs": {
+      "physical": 0.12400001289999996,
+      "strike": 0.09500002860000001,
+      "slash": 0.1290000081,
+      "thrust": 0.11400002239999996,
+      "magic": 0.10900002720000002,
+      "fire": 0.10199999810000004,
+      "lightning": 0.07999998330000002,
+      "holy": 0.07999998330000002
+    },
+    "res": {
+      "immunity": 25,
+      "robustness": 60,
+      "focus": 18,
+      "vitality": 18
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 240200,
+    "name": "Blue Silver Bracelets",
+    "weight": 2.099999905,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.023000001899999956,
+      "strike": 0.014999985700000051,
+      "slash": 0.02499997620000005,
+      "thrust": 0.018999993799999948,
+      "magic": 0.018999993799999948,
+      "fire": 0.015999972799999984,
+      "lightning": 0.0099999905,
+      "holy": 0.0099999905
+    },
+    "res": {
+      "immunity": 4,
+      "robustness": 14,
+      "focus": 4,
+      "vitality": 4
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 240300,
+    "name": "Blue Silver Mail Skirt",
+    "weight": 5.5,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.06800001860000005,
+      "strike": 0.05000001190000003,
+      "slash": 0.07099997999999996,
+      "thrust": 0.061999976600000006,
+      "magic": 0.058000028100000045,
+      "fire": 0.05400002000000004,
+      "lightning": 0.04000002150000004,
+      "holy": 0.04000002150000004
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 35,
+      "focus": 7,
+      "vitality": 7
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 241100,
+    "name": "Blue Silver Mail Armor (Altered)",
+    "weight": 8.5,
+    "poise": 17.00000092,
+    "abs": {
+      "physical": 0.12099999189999999,
+      "strike": 0.08999997380000002,
+      "slash": 0.12599998710000004,
+      "thrust": 0.11100000139999999,
+      "magic": 0.10399997230000002,
+      "fire": 0.09700000289999999,
+      "lightning": 0.07300001379999999,
+      "holy": 0.07300001379999999
+    },
+    "res": {
+      "immunity": 21,
+      "robustness": 52,
+      "focus": 10,
+      "vitality": 10
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 250000,
+    "name": "Nomadic Merchant's Chapeau",
+    "weight": 3,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.027999997100000007,
+      "strike": 0.03100001809999997,
+      "slash": 0.02499997620000005,
+      "thrust": 0.023000001899999956,
+      "magic": 0.0339999795,
+      "fire": 0.0339999795,
+      "lightning": 0.0339999795,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 14,
+      "focus": 31,
+      "vitality": 20
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 250100,
+    "name": "Nomadic Merchant's Finery",
+    "weight": 7.199999809,
+    "poise": 13.00000027,
+    "abs": {
+      "physical": 0.07999998330000002,
+      "strike": 0.08799999950000004,
+      "slash": 0.07099997999999996,
+      "thrust": 0.06699997189999995,
+      "magic": 0.09500002860000001,
+      "fire": 0.09500002860000001,
+      "lightning": 0.09500002860000001,
+      "holy": 0.08799999950000004
+    },
+    "res": {
+      "immunity": 57,
+      "robustness": 32,
+      "focus": 71,
+      "vitality": 46
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 250300,
+    "name": "Nomadic Merchant's Trousers",
+    "weight": 4.400000095,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.04500001669999998,
+      "strike": 0.05000001190000003,
+      "slash": 0.04000002150000004,
+      "thrust": 0.03799998760000001,
+      "magic": 0.05400002000000004,
+      "fire": 0.05400002000000004,
+      "lightning": 0.05400002000000004,
+      "holy": 0.05000001190000003
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 20,
+      "focus": 44,
+      "vitality": 29
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 251100,
+    "name": "Nomadic Merchant's Finery (Altered)",
+    "weight": 6.099999905,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.06999999280000002,
+      "strike": 0.07899999619999998,
+      "slash": 0.06599998470000001,
+      "thrust": 0.06000000240000003,
+      "magic": 0.08700001239999999,
+      "fire": 0.08700001239999999,
+      "lightning": 0.08700001239999999,
+      "holy": 0.07899999619999998
+    },
+    "res": {
+      "immunity": 50,
+      "robustness": 25,
+      "focus": 61,
+      "vitality": 38
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 260000,
+    "name": "Malformed Dragon Helm",
+    "weight": 6.800000191,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.06099998949999996,
+      "strike": 0.05400002000000004,
+      "slash": 0.0630000234,
+      "thrust": 0.06099998949999996,
+      "magic": 0.04600000380000002,
+      "fire": 0.04600000380000002,
+      "lightning": 0.049000024799999986,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 33,
+      "focus": 16,
+      "vitality": 16
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 260100,
+    "name": "Malformed Dragon Armor",
+    "weight": 16,
+    "poise": 30.99999949,
+    "abs": {
+      "physical": 0.16799998279999995,
+      "strike": 0.14999997620000005,
+      "slash": 0.17500001190000003,
+      "thrust": 0.16799998279999995,
+      "magic": 0.12999999520000005,
+      "fire": 0.12999999520000005,
+      "lightning": 0.13800001139999996,
+      "holy": 0.12999999520000005
+    },
+    "res": {
+      "immunity": 57,
+      "robustness": 76,
+      "focus": 38,
+      "vitality": 38
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 260200,
+    "name": "Malformed Dragon Gauntlets",
+    "weight": 5.300000191,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.03700000049999996,
+      "slash": 0.044000029600000046,
+      "thrust": 0.041999995700000015,
+      "magic": 0.032000005200000015,
+      "fire": 0.032000005200000015,
+      "lightning": 0.0339999795,
+      "holy": 0.032000005200000015
+    },
+    "res": {
+      "immunity": 19,
+      "robustness": 25,
+      "focus": 13,
+      "vitality": 13
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 260300,
+    "name": "Malformed Dragon Greaves",
+    "weight": 9.899999619,
+    "poise": 18.99999939,
+    "abs": {
+      "physical": 0.09600001570000005,
+      "strike": 0.08600002529999995,
+      "slash": 0.101000011,
+      "thrust": 0.09600001570000005,
+      "magic": 0.07400000100000004,
+      "fire": 0.07400000100000004,
+      "lightning": 0.07899999619999998,
+      "holy": 0.07400000100000004
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 47,
+      "focus": 24,
+      "vitality": 24
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 270000,
+    "name": "Tree Sentinel Helm",
+    "weight": 8.100000381,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.06800001860000005,
+      "strike": 0.05400002000000004,
+      "slash": 0.06800001860000005,
+      "thrust": 0.0630000234,
+      "magic": 0.04600000380000002,
+      "fire": 0.061999976600000006,
+      "lightning": 0.04500001669999998,
+      "holy": 0.05000001190000003
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 39,
+      "focus": 18,
+      "vitality": 20
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 270100,
+    "name": "Tree Sentinel Armor",
+    "weight": 18.89999962,
+    "poise": 39.0000008,
+    "abs": {
+      "physical": 0.1869999766,
+      "strike": 0.14999997620000005,
+      "slash": 0.1869999766,
+      "thrust": 0.17500001190000003,
+      "magic": 0.12999999520000005,
+      "fire": 0.17100000380000002,
+      "lightning": 0.12599998710000004,
+      "holy": 0.14099997279999998
+    },
+    "res": {
+      "immunity": 67,
+      "robustness": 90,
+      "focus": 42,
+      "vitality": 46
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 270200,
+    "name": "Tree Sentinel Gauntlets",
+    "weight": 6.300000191,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.046999990899999955,
+      "strike": 0.03700000049999996,
+      "slash": 0.046999990899999955,
+      "thrust": 0.044000029600000046,
+      "magic": 0.032000005200000015,
+      "fire": 0.04299998279999995,
+      "lightning": 0.03100001809999997,
+      "holy": 0.03500002619999998
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 30,
+      "focus": 14,
+      "vitality": 15
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 270300,
+    "name": "Tree Sentinel Greaves",
+    "weight": 11.69999981,
+    "poise": 23.00000004,
+    "abs": {
+      "physical": 0.10799998040000003,
+      "strike": 0.08600002529999995,
+      "slash": 0.10799998040000003,
+      "thrust": 0.101000011,
+      "magic": 0.07400000100000004,
+      "fire": 0.09899997709999997,
+      "lightning": 0.07200002670000005,
+      "holy": 0.08099997039999995
+    },
+    "res": {
+      "immunity": 41,
+      "robustness": 56,
+      "focus": 26,
+      "vitality": 29
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 271100,
+    "name": "Tree Sentinel Armor (Altered)",
+    "weight": 18.10000038,
+    "poise": 35.00000015,
+    "abs": {
+      "physical": 0.18500000240000003,
+      "strike": 0.14800000189999996,
+      "slash": 0.18500000240000003,
+      "thrust": 0.1729999781,
+      "magic": 0.12599998710000004,
+      "fire": 0.16399997470000005,
+      "lightning": 0.12400001289999996,
+      "holy": 0.13999998570000005
+    },
+    "res": {
+      "immunity": 57,
+      "robustness": 75,
+      "focus": 34,
+      "vitality": 38
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 280000,
+    "name": "Royal Knight Helm",
+    "weight": 6.599999905,
+    "poise": 8.99999961,
+    "abs": {
+      "physical": 0.058000028100000045,
+      "strike": 0.051999986200000015,
+      "slash": 0.0630000234,
+      "thrust": 0.06099998949999996,
+      "magic": 0.05000001190000003,
+      "fire": 0.046999990899999955,
+      "lightning": 0.044000029600000046,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 29,
+      "focus": 15,
+      "vitality": 15
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 280100,
+    "name": "Royal Knight Armor",
+    "weight": 15.5,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.16000002619999998,
+      "strike": 0.14399999379999995,
+      "slash": 0.17500001190000003,
+      "thrust": 0.16799998279999995,
+      "magic": 0.14099997279999998,
+      "fire": 0.13300001620000002,
+      "lightning": 0.12400001289999996,
+      "holy": 0.12999999520000005
+    },
+    "res": {
+      "immunity": 50,
+      "robustness": 67,
+      "focus": 35,
+      "vitality": 35
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 280200,
+    "name": "Royal Knight Gauntlets",
+    "weight": 5.199999809,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.04000002150000004,
+      "strike": 0.03600001340000003,
+      "slash": 0.044000029600000046,
+      "thrust": 0.041999995700000015,
+      "magic": 0.03500002619999998,
+      "fire": 0.032999992399999956,
+      "lightning": 0.03100001809999997,
+      "holy": 0.032000005200000015
+    },
+    "res": {
+      "immunity": 17,
+      "robustness": 22,
+      "focus": 12,
+      "vitality": 12
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 280300,
+    "name": "Royal Knight Greaves",
+    "weight": 9.600000381,
+    "poise": 14.00000043,
+    "abs": {
+      "physical": 0.09200000760000004,
+      "strike": 0.08300000429999999,
+      "slash": 0.101000011,
+      "thrust": 0.09600001570000005,
+      "magic": 0.08099997039999995,
+      "fire": 0.07599997520000001,
+      "lightning": 0.07099997999999996,
+      "holy": 0.07400000100000004
+    },
+    "res": {
+      "immunity": 31,
+      "robustness": 41,
+      "focus": 22,
+      "vitality": 22
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 281100,
+    "name": "Royal Knight Armor (Altered)",
+    "weight": 15,
+    "poise": 28.00000086,
+    "abs": {
+      "physical": 0.15799999239999996,
+      "strike": 0.14200001959999997,
+      "slash": 0.1729999781,
+      "thrust": 0.16600000859999997,
+      "magic": 0.1389999986,
+      "fire": 0.1309999824,
+      "lightning": 0.12199997900000004,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 45,
+      "robustness": 61,
+      "focus": 32,
+      "vitality": 32
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 290000,
+    "name": "Nox Monk Hood",
+    "weight": 3,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.027999997100000007,
+      "strike": 0.03100001809999997,
+      "slash": 0.027999997100000007,
+      "thrust": 0.02499997620000005,
+      "magic": 0.04000002150000004,
+      "fire": 0.03799998760000001,
+      "lightning": 0.03799998760000001,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 15,
+      "focus": 18,
+      "vitality": 18
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 290100,
+    "name": "Nox Monk Armor",
+    "weight": 8.100000381,
+    "poise": 16.00000076,
+    "abs": {
+      "physical": 0.09299999479999999,
+      "strike": 0.10000002379999995,
+      "slash": 0.09299999479999999,
+      "thrust": 0.08600002529999995,
+      "magic": 0.12199997900000004,
+      "fire": 0.11699998379999998,
+      "lightning": 0.11699998379999998,
+      "holy": 0.10000002379999995
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 42,
+      "focus": 50,
+      "vitality": 50
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 290200,
+    "name": "Nox Bracelets",
+    "weight": 2.599999905,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.02100002769999998,
+      "strike": 0.023000001899999956,
+      "slash": 0.02100002769999998,
+      "thrust": 0.018999993799999948,
+      "magic": 0.028999984299999948,
+      "fire": 0.027999997100000007,
+      "lightning": 0.027999997100000007,
+      "holy": 0.023000001899999956
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 13,
+      "focus": 15,
+      "vitality": 15
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 290300,
+    "name": "Nox Greaves",
+    "weight": 5.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.05400002000000004,
+      "strike": 0.058000028100000045,
+      "slash": 0.05400002000000004,
+      "thrust": 0.05000001190000003,
+      "magic": 0.07099997999999996,
+      "fire": 0.06800001860000005,
+      "lightning": 0.06800001860000005,
+      "holy": 0.058000028100000045
+    },
+    "res": {
+      "immunity": 39,
+      "robustness": 26,
+      "focus": 31,
+      "vitality": 31
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 291000,
+    "name": "Nox Monk Hood (Altered)",
+    "weight": 2.700000048,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.02499997620000005,
+      "strike": 0.027999997100000007,
+      "slash": 0.02499997620000005,
+      "thrust": 0.023000001899999956,
+      "magic": 0.03799998760000001,
+      "fire": 0.03600001340000003,
+      "lightning": 0.03600001340000003,
+      "holy": 0.027999997100000007
+    },
+    "res": {
+      "immunity": 21,
+      "robustness": 12,
+      "focus": 14,
+      "vitality": 14
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 291100,
+    "name": "Nox Monk Armor (Altered)",
+    "weight": 7.400000095,
+    "poise": 14.99999966,
+    "abs": {
+      "physical": 0.08600002529999995,
+      "strike": 0.09299999479999999,
+      "slash": 0.08600002529999995,
+      "thrust": 0.07800000910000005,
+      "magic": 0.11699998379999998,
+      "fire": 0.11199998860000004,
+      "lightning": 0.11199998860000004,
+      "holy": 0.09299999479999999
+    },
+    "res": {
+      "immunity": 54,
+      "robustness": 34,
+      "focus": 42,
+      "vitality": 42
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 292000,
+    "name": "Nox Swordstress Crown",
+    "weight": 3.299999952,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.027999997100000007,
+      "strike": 0.0339999795,
+      "slash": 0.027999997100000007,
+      "thrust": 0.03100001809999997,
+      "magic": 0.044000029600000046,
+      "fire": 0.03600001340000003,
+      "lightning": 0.041999995700000015,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 15,
+      "focus": 22,
+      "vitality": 22
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 292100,
+    "name": "Nox Swordstress Armor",
+    "weight": 8.300000191,
+    "poise": 17.00000092,
+    "abs": {
+      "physical": 0.08799999950000004,
+      "strike": 0.10199999810000004,
+      "slash": 0.08799999950000004,
+      "thrust": 0.09500002860000001,
+      "magic": 0.12599998710000004,
+      "fire": 0.10900002720000002,
+      "lightning": 0.12400001289999996,
+      "holy": 0.11400002239999996
+    },
+    "res": {
+      "immunity": 60,
+      "robustness": 38,
+      "focus": 55,
+      "vitality": 55
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 293000,
+    "name": "Night Maiden Twin Crown",
+    "weight": 3.299999952,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.02499997620000005,
+      "strike": 0.03100001809999997,
+      "slash": 0.02499997620000005,
+      "thrust": 0.0339999795,
+      "magic": 0.041999995700000015,
+      "fire": 0.03799998760000001,
+      "lightning": 0.04000002150000004,
+      "holy": 0.041999995700000015
+    },
+    "res": {
+      "immunity": 26,
+      "robustness": 15,
+      "focus": 22,
+      "vitality": 22
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 293100,
+    "name": "Night Maiden Armor",
+    "weight": 8.300000191,
+    "poise": 16.00000076,
+    "abs": {
+      "physical": 0.07999998330000002,
+      "strike": 0.09500002860000001,
+      "slash": 0.07999998330000002,
+      "thrust": 0.10199999810000004,
+      "magic": 0.12400001289999996,
+      "fire": 0.11400002239999996,
+      "lightning": 0.11900001760000001,
+      "holy": 0.12400001289999996
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 38,
+      "focus": 55,
+      "vitality": 55
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 294000,
+    "name": "Nox Swordstress Crown (Altered)",
+    "weight": 2.700000048,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.023000001899999956,
+      "strike": 0.027999997100000007,
+      "slash": 0.023000001899999956,
+      "thrust": 0.02499997620000005,
+      "magic": 0.04000002150000004,
+      "fire": 0.03100001809999997,
+      "lightning": 0.03799998760000001,
+      "holy": 0.0339999795
+    },
+    "res": {
+      "immunity": 21,
+      "robustness": 11,
+      "focus": 17,
+      "vitality": 17
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 294100,
+    "name": "Nox Swordstress Armor (Altered)",
+    "weight": 7.5,
+    "poise": 16.00000076,
+    "abs": {
+      "physical": 0.07999998330000002,
+      "strike": 0.09500002860000001,
+      "slash": 0.07999998330000002,
+      "thrust": 0.08799999950000004,
+      "magic": 0.12400001289999996,
+      "fire": 0.10199999810000004,
+      "lightning": 0.11900001760000001,
+      "holy": 0.10900002720000002
+    },
+    "res": {
+      "immunity": 56,
+      "robustness": 34,
+      "focus": 49,
+      "vitality": 49
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 300000,
+    "name": "Great Horned Headband",
+    "weight": 3.299999952,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.027999997100000007,
+      "strike": 0.03100001809999997,
+      "slash": 0.027999997100000007,
+      "thrust": 0.027999997100000007,
+      "magic": 0.03100001809999997,
+      "fire": 0.0339999795,
+      "lightning": 0.03799998760000001,
+      "holy": 0.0339999795
+    },
+    "res": {
+      "immunity": 33,
+      "robustness": 23,
+      "focus": 27,
+      "vitality": 22
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 300100,
+    "name": "Fur Raiment",
+    "weight": 5.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.06099998949999996,
+      "strike": 0.06699997189999995,
+      "slash": 0.06099998949999996,
+      "thrust": 0.06099998949999996,
+      "magic": 0.06699997189999995,
+      "fire": 0.07099997999999996,
+      "lightning": 0.08799999950000004,
+      "holy": 0.07099997999999996
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 42,
+      "focus": 55,
+      "vitality": 38
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 300300,
+    "name": "Fur Leggings",
+    "weight": 3.099999905,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.0339999795,
+      "strike": 0.03799998760000001,
+      "slash": 0.0339999795,
+      "thrust": 0.0339999795,
+      "magic": 0.03799998760000001,
+      "fire": 0.04000002150000004,
+      "lightning": 0.05000001190000003,
+      "holy": 0.04000002150000004
+    },
+    "res": {
+      "immunity": 39,
+      "robustness": 26,
+      "focus": 34,
+      "vitality": 24
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 301000,
+    "name": "Shining Horned Headband",
+    "weight": 3.299999952,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.02499997620000005,
+      "strike": 0.027999997100000007,
+      "slash": 0.02499997620000005,
+      "thrust": 0.03600001340000003,
+      "magic": 0.03600001340000003,
+      "fire": 0.0339999795,
+      "lightning": 0.03600001340000003,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 33,
+      "robustness": 23,
+      "focus": 27,
+      "vitality": 20
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 301100,
+    "name": "Shaman Furs",
+    "weight": 5.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.05299997329999995,
+      "strike": 0.06099998949999996,
+      "slash": 0.05299997329999995,
+      "thrust": 0.07999998330000002,
+      "magic": 0.07999998330000002,
+      "fire": 0.07099997999999996,
+      "lightning": 0.07999998330000002,
+      "holy": 0.06699997189999995
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 42,
+      "focus": 55,
+      "vitality": 35
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 301300,
+    "name": "Shaman Leggings",
+    "weight": 3.099999905,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.029999971399999992,
+      "strike": 0.0339999795,
+      "slash": 0.029999971399999992,
+      "thrust": 0.04500001669999998,
+      "magic": 0.04500001669999998,
+      "fire": 0.04000002150000004,
+      "lightning": 0.04500001669999998,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 39,
+      "robustness": 26,
+      "focus": 34,
+      "vitality": 22
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 310000,
+    "name": "Duelist Helm",
+    "weight": 6.199999809,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.058000028100000045,
+      "strike": 0.051999986200000015,
+      "slash": 0.06099998949999996,
+      "thrust": 0.06099998949999996,
+      "magic": 0.04000002150000004,
+      "fire": 0.04500001669999998,
+      "lightning": 0.03600001340000003,
+      "holy": 0.041999995700000015
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 24,
+      "focus": 11,
+      "vitality": 12
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 310100,
+    "name": "Gravekeeper Cloak",
+    "weight": 6.300000191,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.07099997999999996,
+      "strike": 0.08799999950000004,
+      "slash": 0.07099997999999996,
+      "thrust": 0.07099997999999996,
+      "magic": 0.07999998330000002,
+      "fire": 0.09500002860000001,
+      "lightning": 0.10199999810000004,
+      "holy": 0.08799999950000004
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 25,
+      "focus": 42,
+      "vitality": 42
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 310300,
+    "name": "Duelist Greaves",
+    "weight": 7.300000191,
+    "poise": 14.00000043,
+    "abs": {
+      "physical": 0.07999998330000002,
+      "strike": 0.07099997999999996,
+      "slash": 0.07999998330000002,
+      "thrust": 0.07400000100000004,
+      "magic": 0.058000028100000045,
+      "fire": 0.06800001860000005,
+      "lightning": 0.05400002000000004,
+      "holy": 0.061999976600000006
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 31,
+      "focus": 15,
+      "vitality": 15
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 311100,
+    "name": "Gravekeeper Cloak (Altered)",
+    "weight": 5.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.06699997189999995,
+      "strike": 0.07999998330000002,
+      "slash": 0.06699997189999995,
+      "thrust": 0.06699997189999995,
+      "magic": 0.07099997999999996,
+      "fire": 0.08799999950000004,
+      "lightning": 0.09500002860000001,
+      "holy": 0.07999998330000002
+    },
+    "res": {
+      "immunity": 54,
+      "robustness": 22,
+      "focus": 34,
+      "vitality": 34
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 320000,
+    "name": "Sanguine Noble Hood",
+    "weight": 1.399999976,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.013999998600000008,
+      "strike": 0.009000003299999948,
+      "slash": 0.009000003299999948,
+      "thrust": 0.009000003299999948,
+      "magic": 0.04600000380000002,
+      "fire": 0.03799998760000001,
+      "lightning": 0.04500001669999998,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 18,
+      "robustness": 5,
+      "focus": 29,
+      "vitality": 27
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 320100,
+    "name": "Sanguine Noble Robe",
+    "weight": 5.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.06099998949999996,
+      "strike": 0.05299997329999995,
+      "slash": 0.05299997329999995,
+      "thrust": 0.05299997329999995,
+      "magic": 0.13300001620000002,
+      "fire": 0.11900001760000001,
+      "lightning": 0.12999999520000005,
+      "holy": 0.1349999905
+    },
+    "res": {
+      "immunity": 50,
+      "robustness": 21,
+      "focus": 83,
+      "vitality": 76
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 320300,
+    "name": "Sanguine Noble Waistcloth",
+    "weight": 2.5,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.029999971399999992,
+      "strike": 0.023000001899999956,
+      "slash": 0.023000001899999956,
+      "thrust": 0.023000001899999956,
+      "magic": 0.07400000100000004,
+      "fire": 0.06499999759999997,
+      "lightning": 0.07300001379999999,
+      "holy": 0.07599997520000001
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 11,
+      "focus": 44,
+      "vitality": 41
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 330000,
+    "name": "Guardian Mask",
+    "weight": 3.799999952,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.03799998760000001,
+      "strike": 0.03600001340000003,
+      "slash": 0.03600001340000003,
+      "thrust": 0.0339999795,
+      "magic": 0.041999995700000015,
+      "fire": 0.04000002150000004,
+      "lightning": 0.041999995700000015,
+      "holy": 0.041999995700000015
+    },
+    "res": {
+      "immunity": 33,
+      "robustness": 22,
+      "focus": 26,
+      "vitality": 24
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 330100,
+    "name": "Guardian Garb (Full Bloom)",
+    "weight": 8.800000191,
+    "poise": 14.99999966,
+    "abs": {
+      "physical": 0.10199999810000004,
+      "strike": 0.10199999810000004,
+      "slash": 0.09500002860000001,
+      "thrust": 0.09500002860000001,
+      "magic": 0.11900001760000001,
+      "fire": -0.023000002000000075,
+      "lightning": 0.11900001760000001,
+      "holy": 0.11400002239999996
+    },
+    "res": {
+      "immunity": 71,
+      "robustness": 46,
+      "focus": 57,
+      "vitality": 55
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 330200,
+    "name": "Guardian Bracers",
+    "weight": 2.900000095,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.027000009999999963,
+      "strike": 0.02499997620000005,
+      "slash": 0.02499997620000005,
+      "thrust": 0.023000001899999956,
+      "magic": 0.028999984299999948,
+      "fire": 0.027999997100000007,
+      "lightning": 0.028999984299999948,
+      "holy": 0.028999984299999948
+    },
+    "res": {
+      "immunity": 25,
+      "robustness": 17,
+      "focus": 20,
+      "vitality": 19
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 330300,
+    "name": "Guardian Greaves",
+    "weight": 5.5,
+    "poise": 8.99999961,
+    "abs": {
+      "physical": 0.061999976600000006,
+      "strike": 0.058000028100000045,
+      "slash": 0.058000028100000045,
+      "thrust": 0.05400002000000004,
+      "magic": 0.06800001860000005,
+      "fire": 0.06499999759999997,
+      "lightning": 0.06800001860000005,
+      "holy": 0.06800001860000005
+    },
+    "res": {
+      "immunity": 47,
+      "robustness": 31,
+      "focus": 37,
+      "vitality": 35
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 331100,
+    "name": "Guardian Garb",
+    "weight": 7.699999809,
+    "poise": 14.99999966,
+    "abs": {
+      "physical": 0.09500002860000001,
+      "strike": 0.09500002860000001,
+      "slash": 0.08799999950000004,
+      "thrust": 0.07999998330000002,
+      "magic": 0.10900002720000002,
+      "fire": 0.10199999810000004,
+      "lightning": 0.10900002720000002,
+      "holy": 0.10900002720000002
+    },
+    "res": {
+      "immunity": 61,
+      "robustness": 38,
+      "focus": 50,
+      "vitality": 42
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 340000,
+    "name": "Cleanrot Helm",
+    "weight": 6.400000095,
+    "poise": 8.99999961,
+    "abs": {
+      "physical": 0.051999986200000015,
+      "strike": 0.04799997810000001,
+      "slash": 0.058000028100000045,
+      "thrust": 0.0630000234,
+      "magic": 0.04500001669999998,
+      "fire": 0.04600000380000002,
+      "lightning": 0.04000002150000004,
+      "holy": 0.04799997810000001
+    },
+    "res": {
+      "immunity": 27,
+      "robustness": 29,
+      "focus": 12,
+      "vitality": 14
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 340100,
+    "name": "Cleanrot Armor",
+    "weight": 15,
+    "poise": 27.0000007,
+    "abs": {
+      "physical": 0.14600002769999998,
+      "strike": 0.13400000329999995,
+      "slash": 0.16000002619999998,
+      "thrust": 0.17500001190000003,
+      "magic": 0.12599998710000004,
+      "fire": 0.12800002099999996,
+      "lightning": 0.11400002239999996,
+      "holy": 0.1349999905
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 67,
+      "focus": 28,
+      "vitality": 32
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 340200,
+    "name": "Cleanrot Gauntlets",
+    "weight": 5,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.03600001340000003,
+      "strike": 0.032999992399999956,
+      "slash": 0.04000002150000004,
+      "thrust": 0.044000029600000046,
+      "magic": 0.03100001809999997,
+      "fire": 0.032000005200000015,
+      "lightning": 0.027999997100000007,
+      "holy": 0.032999992399999956
+    },
+    "res": {
+      "immunity": 21,
+      "robustness": 22,
+      "focus": 9,
+      "vitality": 11
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 340300,
+    "name": "Cleanrot Greaves",
+    "weight": 9.300000191,
+    "poise": 16.00000076,
+    "abs": {
+      "physical": 0.08399999140000003,
+      "strike": 0.07599997520000001,
+      "slash": 0.09200000760000004,
+      "thrust": 0.101000011,
+      "magic": 0.07200002670000005,
+      "fire": 0.07300001379999999,
+      "lightning": 0.06499999759999997,
+      "holy": 0.07700002189999999
+    },
+    "res": {
+      "immunity": 39,
+      "robustness": 41,
+      "focus": 17,
+      "vitality": 20
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 341000,
+    "name": "Cleanrot Helm (Altered)",
+    "weight": 5.5,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.04600000380000002,
+      "strike": 0.041999995700000015,
+      "slash": 0.05000001190000003,
+      "thrust": 0.05500000719999998,
+      "magic": 0.04000002150000004,
+      "fire": 0.041999995700000015,
+      "lightning": 0.0339999795,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 21,
+      "robustness": 21,
+      "focus": 9,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 341100,
+    "name": "Cleanrot Armor (Altered)",
+    "weight": 13.69999981,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.1349999905,
+      "strike": 0.12400001289999996,
+      "slash": 0.14600002769999998,
+      "thrust": 0.16000002619999998,
+      "magic": 0.11900001760000001,
+      "fire": 0.12400001289999996,
+      "lightning": 0.10199999810000004,
+      "holy": 0.12999999520000005
+    },
+    "res": {
+      "immunity": 52,
+      "robustness": 54,
+      "focus": 22,
+      "vitality": 22
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 350000,
+    "name": "Fire Monk Hood",
+    "weight": 4,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.04600000380000002,
+      "strike": 0.03799998760000001,
+      "slash": 0.041999995700000015,
+      "thrust": 0.04000002150000004,
+      "magic": 0.03100001809999997,
+      "fire": 0.04500001669999998,
+      "lightning": 0.02499997620000005,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 20,
+      "focus": 9,
+      "vitality": 9
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 350100,
+    "name": "Fire Monk Armor",
+    "weight": 11.80000019,
+    "poise": 21.99999988,
+    "abs": {
+      "physical": 0.13999998570000005,
+      "strike": 0.12400001289999996,
+      "slash": 0.1349999905,
+      "thrust": 0.12400001289999996,
+      "magic": 0.10900002720000002,
+      "fire": 0.13300001620000002,
+      "lightning": 0.09500002860000001,
+      "holy": 0.09500002860000001
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 55,
+      "focus": 24,
+      "vitality": 24
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 350200,
+    "name": "Fire Monk Gauntlets",
+    "weight": 3.900000095,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.03500002619999998,
+      "strike": 0.03100001809999997,
+      "slash": 0.032999992399999956,
+      "thrust": 0.03100001809999997,
+      "magic": 0.027000009999999963,
+      "fire": 0.032999992399999956,
+      "lightning": 0.023000001899999956,
+      "holy": 0.023000001899999956
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 18,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 350300,
+    "name": "Fire Monk Greaves",
+    "weight": 7.300000191,
+    "poise": 13.00000027,
+    "abs": {
+      "physical": 0.07999998330000002,
+      "strike": 0.07099997999999996,
+      "slash": 0.07700002189999999,
+      "thrust": 0.07099997999999996,
+      "magic": 0.061999976600000006,
+      "fire": 0.07599997520000001,
+      "lightning": 0.05400002000000004,
+      "holy": 0.05400002000000004
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 34,
+      "focus": 15,
+      "vitality": 15
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 351000,
+    "name": "Blackflame Monk Hood",
+    "weight": 4,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.0339999795,
+      "slash": 0.04600000380000002,
+      "thrust": 0.041999995700000015,
+      "magic": 0.027999997100000007,
+      "fire": 0.044000029600000046,
+      "lightning": 0.02100002769999998,
+      "holy": 0.027999997100000007
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 20,
+      "focus": 5,
+      "vitality": 11
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 351100,
+    "name": "Blackflame Monk Armor",
+    "weight": 11.80000019,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.1349999905,
+      "strike": 0.11400002239999996,
+      "slash": 0.14600002769999998,
+      "thrust": 0.1290000081,
+      "magic": 0.10199999810000004,
+      "fire": 0.12999999520000005,
+      "lightning": 0.07999998330000002,
+      "holy": 0.10199999810000004
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 55,
+      "focus": 21,
+      "vitality": 32
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 351200,
+    "name": "Blackflame Monk Gauntlets",
+    "weight": 3.900000095,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.032999992399999956,
+      "strike": 0.027999997100000007,
+      "slash": 0.03600001340000003,
+      "thrust": 0.032000005200000015,
+      "magic": 0.02499997620000005,
+      "fire": 0.032000005200000015,
+      "lightning": 0.018999993799999948,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 18,
+      "focus": 7,
+      "vitality": 11
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 351300,
+    "name": "Blackflame Monk Greaves",
+    "weight": 7.300000191,
+    "poise": 14.00000043,
+    "abs": {
+      "physical": 0.07700002189999999,
+      "strike": 0.06499999759999997,
+      "slash": 0.08399999140000003,
+      "thrust": 0.07400000100000004,
+      "magic": 0.058000028100000045,
+      "fire": 0.07400000100000004,
+      "lightning": 0.04500001669999998,
+      "holy": 0.058000028100000045
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 34,
+      "focus": 13,
+      "vitality": 20
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 360000,
+    "name": "Fire Prelate Helm",
+    "weight": 10.60000038,
+    "poise": 14.00000043,
+    "abs": {
+      "physical": 0.06999999280000002,
+      "strike": 0.06099998949999996,
+      "slash": 0.06699997189999995,
+      "thrust": 0.06699997189999995,
+      "magic": 0.04799997810000001,
+      "fire": 0.07200002670000005,
+      "lightning": 0.04600000380000002,
+      "holy": 0.046999990899999955
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 27,
+      "focus": 39,
+      "vitality": 22
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 360100,
+    "name": "Fire Prelate Armor",
+    "weight": 24.70000076,
+    "poise": 45.00000179,
+    "abs": {
+      "physical": 0.19199997189999995,
+      "strike": 0.17000001669999998,
+      "slash": 0.18300002810000005,
+      "thrust": 0.18300002810000005,
+      "magic": 0.1349999905,
+      "fire": 0.19800001379999999,
+      "lightning": 0.12999999520000005,
+      "holy": 0.13300001620000002
+    },
+    "res": {
+      "immunity": 67,
+      "robustness": 63,
+      "focus": 90,
+      "vitality": 50
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 360200,
+    "name": "Fire Prelate Gauntlets",
+    "weight": 8.199999809,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.049000024799999986,
+      "strike": 0.04299998279999995,
+      "slash": 0.04600000380000002,
+      "thrust": 0.04600000380000002,
+      "magic": 0.032999992399999956,
+      "fire": 0.05000001190000003,
+      "lightning": 0.032000005200000015,
+      "holy": 0.032999992399999956
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 21,
+      "focus": 30,
+      "vitality": 17
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 360300,
+    "name": "Fire Prelate Greaves",
+    "weight": 15.30000019,
+    "poise": 27.0000007,
+    "abs": {
+      "physical": 0.11100000139999999,
+      "strike": 0.09799999000000004,
+      "slash": 0.10600000620000005,
+      "thrust": 0.10600000620000005,
+      "magic": 0.07700002189999999,
+      "fire": 0.1150000095,
+      "lightning": 0.07400000100000004,
+      "holy": 0.07599997520000001
+    },
+    "res": {
+      "immunity": 41,
+      "robustness": 39,
+      "focus": 56,
+      "vitality": 31
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 361100,
+    "name": "Fire Prelate Armor (Altered)",
+    "weight": 23.60000038,
+    "poise": 43.00000146,
+    "abs": {
+      "physical": 0.1869999766,
+      "strike": 0.1629999876,
+      "slash": 0.17500001190000003,
+      "thrust": 0.17500001190000003,
+      "magic": 0.13300001620000002,
+      "fire": 0.18300002810000005,
+      "lightning": 0.12800002099999996,
+      "holy": 0.12999999520000005
+    },
+    "res": {
+      "immunity": 57,
+      "robustness": 54,
+      "focus": 75,
+      "vitality": 42
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 370000,
+    "name": "Aristocrat Headband",
+    "weight": 1.200000048,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.018999993799999948,
+      "strike": 0.018999993799999948,
+      "slash": 0.018999993799999948,
+      "thrust": 0.015999972799999984,
+      "magic": 0.04000002150000004,
+      "fire": 0.03600001340000003,
+      "lightning": 0.03799998760000001,
+      "holy": 0.04000002150000004
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 10,
+      "focus": 25,
+      "vitality": 22
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 370100,
+    "name": "Aristocrat Garb",
+    "weight": 4.900000095,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.07800000910000005,
+      "strike": 0.08600002529999995,
+      "slash": 0.07800000910000005,
+      "thrust": 0.07800000910000005,
+      "magic": 0.06499999759999997,
+      "fire": 0.06900000569999998,
+      "lightning": 0.07800000910000005,
+      "holy": 0.06499999759999997
+    },
+    "res": {
+      "immunity": 47,
+      "robustness": 33,
+      "focus": 36,
+      "vitality": 30
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 370300,
+    "name": "Aristocrat Boots",
+    "weight": 2.900000095,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.04299998279999995,
+      "strike": 0.04799997810000001,
+      "slash": 0.04299998279999995,
+      "thrust": 0.04299998279999995,
+      "magic": 0.03600001340000003,
+      "fire": 0.03799998760000001,
+      "lightning": 0.04299998279999995,
+      "holy": 0.03600001340000003
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 21,
+      "focus": 23,
+      "vitality": 19
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 371100,
+    "name": "Aristocrat Garb (Altered)",
+    "weight": 4.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.07099997999999996,
+      "strike": 0.07999998330000002,
+      "slash": 0.07099997999999996,
+      "thrust": 0.07099997999999996,
+      "magic": 0.06099998949999996,
+      "fire": 0.06699997189999995,
+      "lightning": 0.07099997999999996,
+      "holy": 0.06099998949999996
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 29,
+      "focus": 32,
+      "vitality": 25
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 380000,
+    "name": "Aristocrat Hat",
+    "weight": 3,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.03100001809999997,
+      "strike": 0.03100001809999997,
+      "slash": 0.027999997100000007,
+      "thrust": 0.03100001809999997,
+      "magic": 0.03799998760000001,
+      "fire": 0.04000002150000004,
+      "lightning": 0.03799998760000001,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 14,
+      "focus": 18,
+      "vitality": 20
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 380100,
+    "name": "Aristocrat Coat",
+    "weight": 7.099999905,
+    "poise": 13.00000027,
+    "abs": {
+      "physical": 0.08799999950000004,
+      "strike": 0.08799999950000004,
+      "slash": 0.07999998330000002,
+      "thrust": 0.08799999950000004,
+      "magic": 0.10900002720000002,
+      "fire": 0.11400002239999996,
+      "lightning": 0.10900002720000002,
+      "holy": 0.08799999950000004
+    },
+    "res": {
+      "immunity": 50,
+      "robustness": 32,
+      "focus": 42,
+      "vitality": 46
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 390000,
+    "name": "Old Aristocrat Cowl",
+    "weight": 2.200000048,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.02499997620000005,
+      "strike": 0.02499997620000005,
+      "slash": 0.023000001899999956,
+      "thrust": 0.02499997620000005,
+      "magic": 0.0339999795,
+      "fire": 0.03600001340000003,
+      "lightning": 0.0339999795,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 18,
+      "robustness": 11,
+      "focus": 15,
+      "vitality": 16
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 390100,
+    "name": "Old Aristocrat Gown",
+    "weight": 5.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.07099997999999996,
+      "strike": 0.07099997999999996,
+      "slash": 0.06699997189999995,
+      "thrust": 0.07099997999999996,
+      "magic": 0.09500002860000001,
+      "fire": 0.10199999810000004,
+      "lightning": 0.09500002860000001,
+      "holy": 0.07099997999999996
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 25,
+      "focus": 35,
+      "vitality": 38
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 390300,
+    "name": "Old Aristocrat Shoes",
+    "weight": 2,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.0339999795,
+      "strike": 0.0339999795,
+      "slash": 0.029999971399999992,
+      "thrust": 0.0339999795,
+      "magic": 0.04500001669999998,
+      "fire": 0.05000001190000003,
+      "lightning": 0.04500001669999998,
+      "holy": 0.0339999795
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 15,
+      "focus": 17,
+      "vitality": 20
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 420000,
+    "name": "Vulgar Militia Helm",
+    "weight": 3.599999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.0339999795,
+      "strike": 0.03799998760000001,
+      "slash": 0.03600001340000003,
+      "thrust": 0.03100001809999997,
+      "magic": 0.03799998760000001,
+      "fire": 0.03799998760000001,
+      "lightning": 0.04000002150000004,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 31,
+      "robustness": 16,
+      "focus": 23,
+      "vitality": 23
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 420100,
+    "name": "Vulgar Militia Armor",
+    "weight": 7.699999809,
+    "poise": 16.00000076,
+    "abs": {
+      "physical": 0.08799999950000004,
+      "strike": 0.10199999810000004,
+      "slash": 0.09500002860000001,
+      "thrust": 0.07999998330000002,
+      "magic": 0.10199999810000004,
+      "fire": 0.10199999810000004,
+      "lightning": 0.10900002720000002,
+      "holy": 0.10199999810000004
+    },
+    "res": {
+      "immunity": 67,
+      "robustness": 35,
+      "focus": 50,
+      "vitality": 50
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 420200,
+    "name": "Vulgar Militia Gauntlets",
+    "weight": 2.099999905,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.01700001959999997,
+      "strike": 0.02100002769999998,
+      "slash": 0.018999993799999948,
+      "thrust": 0.015999972799999984,
+      "magic": 0.02100002769999998,
+      "fire": 0.02100002769999998,
+      "lightning": 0.023000001899999956,
+      "holy": 0.02100002769999998
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 9,
+      "focus": 14,
+      "vitality": 14
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 420300,
+    "name": "Vulgar Militia Greaves",
+    "weight": 5.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.05400002000000004,
+      "strike": 0.061999976600000006,
+      "slash": 0.058000028100000045,
+      "thrust": 0.05000001190000003,
+      "magic": 0.061999976600000006,
+      "fire": 0.061999976600000006,
+      "lightning": 0.06499999759999997,
+      "holy": 0.061999976600000006
+    },
+    "res": {
+      "immunity": 44,
+      "robustness": 24,
+      "focus": 34,
+      "vitality": 34
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 430000,
+    "name": "Sage Hood",
+    "weight": 2.200000048,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.023000001899999956,
+      "strike": 0.02100002769999998,
+      "slash": 0.02100002769999998,
+      "thrust": 0.013999998600000008,
+      "magic": 0.04799997810000001,
+      "fire": 0.04500001669999998,
+      "lightning": 0.04600000380000002,
+      "holy": 0.04799997810000001
+    },
+    "res": {
+      "immunity": 16,
+      "robustness": 10,
+      "focus": 31,
+      "vitality": 33
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 430100,
+    "name": "Sage Robe",
+    "weight": 5.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.06699997189999995,
+      "strike": 0.06099998949999996,
+      "slash": 0.06099998949999996,
+      "thrust": 0.041999995700000015,
+      "magic": 0.1349999905,
+      "fire": 0.12599998710000004,
+      "lightning": 0.12999999520000005,
+      "holy": 0.1349999905
+    },
+    "res": {
+      "immunity": 38,
+      "robustness": 23,
+      "focus": 71,
+      "vitality": 76
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 430300,
+    "name": "Sage Trousers",
+    "weight": 2.5,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.0339999795,
+      "strike": 0.029999971399999992,
+      "slash": 0.029999971399999992,
+      "thrust": 0.014999985700000051,
+      "magic": 0.07599997520000001,
+      "fire": 0.07099997999999996,
+      "lightning": 0.07300001379999999,
+      "holy": 0.07599997520000001
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 13,
+      "focus": 39,
+      "vitality": 41
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 440000,
+    "name": "Pumpkin Helm",
+    "weight": 12.30000019,
+    "poise": 10.99999994,
+    "abs": {
+      "physical": 0.06999999280000002,
+      "strike": 0.059000015299999986,
+      "slash": 0.06699997189999995,
+      "thrust": 0.06699997189999995,
+      "magic": 0.04600000380000002,
+      "fire": 0.046999990899999955,
+      "lightning": 0.051999986200000015,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 27,
+      "robustness": 42,
+      "focus": 44,
+      "vitality": 18
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 460000,
+    "name": "Elden Lord Crown",
+    "weight": 3.599999905,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.03799998760000001,
+      "strike": 0.0339999795,
+      "slash": 0.03600001340000003,
+      "thrust": 0.04000002150000004,
+      "magic": 0.02499997620000005,
+      "fire": 0.03600001340000003,
+      "lightning": 0.02100002769999998,
+      "holy": 0.023000001899999956
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 20,
+      "focus": 0,
+      "vitality": 5
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 460100,
+    "name": "Elden Lord Armor",
+    "weight": 9.199999809,
+    "poise": 18.99999939,
+    "abs": {
+      "physical": 0.11900001760000001,
+      "strike": 0.10900002720000002,
+      "slash": 0.11400002239999996,
+      "thrust": 0.12400001289999996,
+      "magic": 0.08799999950000004,
+      "fire": 0.11400002239999996,
+      "lightning": 0.07099997999999996,
+      "holy": 0.07999998330000002
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 55,
+      "focus": 18,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 460200,
+    "name": "Elden Lord Bracers",
+    "weight": 3.099999905,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.028999984299999948,
+      "strike": 0.027000009999999963,
+      "slash": 0.027999997100000007,
+      "thrust": 0.03100001809999997,
+      "magic": 0.02100002769999998,
+      "fire": 0.027999997100000007,
+      "lightning": 0.01700001959999997,
+      "holy": 0.018999993799999948
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 18,
+      "focus": 6,
+      "vitality": 7
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 460300,
+    "name": "Elden Lord Greaves",
+    "weight": 5.5,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.06499999759999997,
+      "strike": 0.058000028100000045,
+      "slash": 0.061999976600000006,
+      "thrust": 0.06800001860000005,
+      "magic": 0.04500001669999998,
+      "fire": 0.061999976600000006,
+      "lightning": 0.03799998760000001,
+      "holy": 0.04000002150000004
+    },
+    "res": {
+      "immunity": 16,
+      "robustness": 31,
+      "focus": 7,
+      "vitality": 11
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 461100,
+    "name": "Elden Lord Armor (Altered)",
+    "weight": 8.399999619,
+    "poise": 17.00000092,
+    "abs": {
+      "physical": 0.11100000139999999,
+      "strike": 0.09899997709999997,
+      "slash": 0.10600000620000005,
+      "thrust": 0.11599999670000005,
+      "magic": 0.07700002189999999,
+      "fire": 0.10600000620000005,
+      "lightning": 0.06400001050000004,
+      "holy": 0.06800001860000005
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 45,
+      "focus": 10,
+      "vitality": 16
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 470000,
+    "name": "Radahn's Redmane Helm",
+    "weight": 7.5,
+    "poise": 10.99999994,
+    "abs": {
+      "physical": 0.06800001860000005,
+      "strike": 0.05400002000000004,
+      "slash": 0.06699997189999995,
+      "thrust": 0.0630000234,
+      "magic": 0.04799997810000001,
+      "fire": 0.05000001190000003,
+      "lightning": 0.04500001669999998,
+      "holy": 0.04799997810000001
+    },
+    "res": {
+      "immunity": 26,
+      "robustness": 42,
+      "focus": 18,
+      "vitality": 16
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 470100,
+    "name": "Radahn's Lion Armor",
+    "weight": 17.5,
+    "poise": 34.00000185,
+    "abs": {
+      "physical": 0.1869999766,
+      "strike": 0.14999997620000005,
+      "slash": 0.18300002810000005,
+      "thrust": 0.17500001190000003,
+      "magic": 0.1349999905,
+      "fire": 0.14099997279999998,
+      "lightning": 0.12599998710000004,
+      "holy": 0.1349999905
+    },
+    "res": {
+      "immunity": 60,
+      "robustness": 99,
+      "focus": 42,
+      "vitality": 38
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 470200,
+    "name": "Radahn's Gauntlets",
+    "weight": 5.800000191,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.046999990899999955,
+      "strike": 0.03700000049999996,
+      "slash": 0.04600000380000002,
+      "thrust": 0.044000029600000046,
+      "magic": 0.032999992399999956,
+      "fire": 0.03500002619999998,
+      "lightning": 0.03100001809999997,
+      "holy": 0.032999992399999956
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 33,
+      "focus": 14,
+      "vitality": 13
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 470300,
+    "name": "Radahn's Greaves",
+    "weight": 10.80000019,
+    "poise": 19.99999955,
+    "abs": {
+      "physical": 0.10799998040000003,
+      "strike": 0.08600002529999995,
+      "slash": 0.10600000620000005,
+      "thrust": 0.101000011,
+      "magic": 0.07700002189999999,
+      "fire": 0.08099997039999995,
+      "lightning": 0.07200002670000005,
+      "holy": 0.07700002189999999
+    },
+    "res": {
+      "immunity": 37,
+      "robustness": 61,
+      "focus": 26,
+      "vitality": 24
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 471100,
+    "name": "Radahn's Lion Armor (Altered)",
+    "weight": 16.39999962,
+    "poise": 32.99999982,
+    "abs": {
+      "physical": 0.18500000240000003,
+      "strike": 0.14600002769999998,
+      "slash": 0.17699998620000001,
+      "thrust": 0.17000001669999998,
+      "magic": 0.13300001620000002,
+      "fire": 0.13999998570000005,
+      "lightning": 0.12400001289999996,
+      "holy": 0.13300001620000002
+    },
+    "res": {
+      "immunity": 52,
+      "robustness": 82,
+      "focus": 34,
+      "vitality": 32
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 480100,
+    "name": "Lord of Blood's Robe",
+    "weight": 8.100000381,
+    "poise": 17.00000092,
+    "abs": {
+      "physical": 0.09299999479999999,
+      "strike": 0.10000002379999995,
+      "slash": 0.08600002529999995,
+      "thrust": 0.08600002529999995,
+      "magic": 0.10000002379999995,
+      "fire": 0.12199997900000004,
+      "lightning": 0.12199997900000004,
+      "holy": 0.13300001620000002
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 23,
+      "focus": 55,
+      "vitality": 55
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 481100,
+    "name": "Lord of Blood's Robe (Altered)",
+    "weight": 7.300000191,
+    "poise": 16.00000076,
+    "abs": {
+      "physical": 0.08899998659999997,
+      "strike": 0.09600001570000005,
+      "slash": 0.08099997039999995,
+      "thrust": 0.08099997039999995,
+      "magic": 0.09600001570000005,
+      "fire": 0.12000000479999995,
+      "lightning": 0.12000000479999995,
+      "holy": 0.13400000329999995
+    },
+    "res": {
+      "immunity": 57,
+      "robustness": 19,
+      "focus": 47,
+      "vitality": 47
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 510000,
+    "name": "Queen's Crescent Crown",
+    "weight": 2.200000048,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.02100002769999998,
+      "strike": 0.018000006700000015,
+      "slash": 0.018000006700000015,
+      "thrust": 0.013999998600000008,
+      "magic": 0.049000024799999986,
+      "fire": 0.04500001669999998,
+      "lightning": 0.04600000380000002,
+      "holy": 0.046999990899999955
+    },
+    "res": {
+      "immunity": 18,
+      "robustness": 11,
+      "focus": 31,
+      "vitality": 35
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 510100,
+    "name": "Queen's Robe",
+    "weight": 5.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.06099998949999996,
+      "strike": 0.05299997329999995,
+      "slash": 0.05299997329999995,
+      "thrust": 0.041999995700000015,
+      "magic": 0.13800001139999996,
+      "fire": 0.12599998710000004,
+      "lightning": 0.12800002099999996,
+      "holy": 0.13300001620000002
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 25,
+      "focus": 71,
+      "vitality": 83
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 510200,
+    "name": "Queen's Bracelets",
+    "weight": 1.700000048,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.014999985700000051,
+      "strike": 0.013000011399999956,
+      "slash": 0.013000011399999956,
+      "thrust": 0.0099999905,
+      "magic": 0.0339999795,
+      "fire": 0.03100001809999997,
+      "lightning": 0.032000005200000015,
+      "holy": 0.032999992399999956
+    },
+    "res": {
+      "immunity": 14,
+      "robustness": 8,
+      "focus": 24,
+      "vitality": 28
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 510300,
+    "name": "Queen's Leggings",
+    "weight": 2,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.023000001899999956,
+      "strike": 0.014999985700000051,
+      "slash": 0.014999985700000051,
+      "thrust": 0.003000020999999964,
+      "magic": 0.07599997520000001,
+      "fire": 0.06800001860000005,
+      "lightning": 0.07099997999999996,
+      "holy": 0.07300001379999999
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 14,
+      "focus": 37,
+      "vitality": 41
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 520000,
+    "name": "Godskin Apostle Hood",
+    "weight": 2.200000048,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.023000001899999956,
+      "strike": 0.02100002769999998,
+      "slash": 0.02100002769999998,
+      "thrust": 0.013999998600000008,
+      "magic": 0.04600000380000002,
+      "fire": 0.044000029600000046,
+      "lightning": 0.04500001669999998,
+      "holy": 0.05000001190000003
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 10,
+      "focus": 33,
+      "vitality": 31
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 520100,
+    "name": "Godskin Apostle Robe",
+    "weight": 4.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.06099998949999996,
+      "strike": 0.05299997329999995,
+      "slash": 0.05299997329999995,
+      "thrust": 0.027000009999999963,
+      "magic": 0.12599998710000004,
+      "fire": 0.11900001760000001,
+      "lightning": 0.12400001289999996,
+      "holy": 0.13800001139999996
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 21,
+      "focus": 67,
+      "vitality": 63
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 520200,
+    "name": "Godskin Apostle Bracelets",
+    "weight": 2.099999905,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.01700001959999997,
+      "strike": 0.015999972799999984,
+      "slash": 0.015999972799999984,
+      "thrust": 0.013000011399999956,
+      "magic": 0.032000005200000015,
+      "fire": 0.03100001809999997,
+      "lightning": 0.032000005200000015,
+      "holy": 0.03600001340000003
+    },
+    "res": {
+      "immunity": 17,
+      "robustness": 8,
+      "focus": 28,
+      "vitality": 25
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 520300,
+    "name": "Godskin Apostle Trousers",
+    "weight": 2.5,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.0339999795,
+      "strike": 0.029999971399999992,
+      "slash": 0.029999971399999992,
+      "thrust": 0.014999985700000051,
+      "magic": 0.07200002670000005,
+      "fire": 0.06800001860000005,
+      "lightning": 0.07099997999999996,
+      "holy": 0.07899999619999998
+    },
+    "res": {
+      "immunity": 26,
+      "robustness": 13,
+      "focus": 41,
+      "vitality": 39
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 530000,
+    "name": "Godskin Noble Hood",
+    "weight": 1.700000048,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.013999998600000008,
+      "strike": 0.027999997100000007,
+      "slash": 0.018000006700000015,
+      "thrust": 0.013999998600000008,
+      "magic": 0.04500001669999998,
+      "fire": 0.04000002150000004,
+      "lightning": 0.041999995700000015,
+      "holy": 0.04799997810000001
+    },
+    "res": {
+      "immunity": 16,
+      "robustness": 10,
+      "focus": 27,
+      "vitality": 29
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 530100,
+    "name": "Godskin Noble Robe",
+    "weight": 6.300000191,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.06099998949999996,
+      "strike": 0.09500002860000001,
+      "slash": 0.06699997189999995,
+      "thrust": 0.06099998949999996,
+      "magic": 0.12999999520000005,
+      "fire": 0.12400001289999996,
+      "lightning": 0.12599998710000004,
+      "holy": 0.14099997279999998
+    },
+    "res": {
+      "immunity": 46,
+      "robustness": 25,
+      "focus": 76,
+      "vitality": 83
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 530200,
+    "name": "Godskin Noble Bracelets",
+    "weight": 1.700000048,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.013000011399999956,
+      "strike": 0.02100002769999998,
+      "slash": 0.014999985700000051,
+      "thrust": 0.013000011399999956,
+      "magic": 0.032000005200000015,
+      "fire": 0.028999984299999948,
+      "lightning": 0.03100001809999997,
+      "holy": 0.0339999795
+    },
+    "res": {
+      "immunity": 14,
+      "robustness": 8,
+      "focus": 24,
+      "vitality": 25
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 530300,
+    "name": "Godskin Noble Trousers",
+    "weight": 2.5,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.023000001899999956,
+      "strike": 0.04500001669999998,
+      "slash": 0.029999971399999992,
+      "thrust": 0.023000001899999956,
+      "magic": 0.07200002670000005,
+      "fire": 0.06499999759999997,
+      "lightning": 0.06800001860000005,
+      "holy": 0.07700002189999999
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 14,
+      "focus": 39,
+      "vitality": 41
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 540000,
+    "name": "Depraved Perfumer Headscarf",
+    "weight": 2.099999905,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.01999998089999999,
+      "strike": 0.01999998089999999,
+      "slash": 0.01700001959999997,
+      "thrust": 0.013000011399999956,
+      "magic": 0.04600000380000002,
+      "fire": 0.04500001669999998,
+      "lightning": 0.044000029600000046,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 28,
+      "robustness": 10,
+      "focus": 25,
+      "vitality": 34
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 540100,
+    "name": "Depraved Perfumer Robe",
+    "weight": 5,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.06000000240000003,
+      "strike": 0.06000000240000003,
+      "slash": 0.051999986200000015,
+      "thrust": 0.04100000859999997,
+      "magic": 0.13200002909999997,
+      "fire": 0.12699997429999998,
+      "lightning": 0.125,
+      "holy": 0.12699997429999998
+    },
+    "res": {
+      "immunity": 65,
+      "robustness": 22,
+      "focus": 55,
+      "vitality": 80
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 540200,
+    "name": "Depraved Perfumer Gloves",
+    "weight": 2,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.014999985700000051,
+      "strike": 0.014999985700000051,
+      "slash": 0.013999998600000008,
+      "thrust": 0.012000024300000023,
+      "magic": 0.032000005200000015,
+      "fire": 0.03100001809999997,
+      "lightning": 0.03100001809999997,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 23,
+      "robustness": 8,
+      "focus": 20,
+      "vitality": 28
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 540300,
+    "name": "Depraved Perfumer Trousers",
+    "weight": 4.300000191,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.03899997470000005,
+      "strike": 0.03899997470000005,
+      "slash": 0.03700000049999996,
+      "thrust": 0.032999992399999956,
+      "magic": 0.07800000910000005,
+      "fire": 0.07499998809999997,
+      "lightning": 0.07300001379999999,
+      "holy": 0.07499998809999997
+    },
+    "res": {
+      "immunity": 46,
+      "robustness": 15,
+      "focus": 40,
+      "vitality": 58
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 541100,
+    "name": "Depraved Perfumer Robe (Altered)",
+    "weight": 4,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.05299997329999995,
+      "strike": 0.051999986200000015,
+      "slash": 0.04100000859999997,
+      "thrust": 0.02600002290000003,
+      "magic": 0.12999999520000005,
+      "fire": 0.12599998710000004,
+      "lightning": 0.12400001289999996,
+      "holy": 0.12599998710000004
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 18,
+      "focus": 48,
+      "vitality": 63
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 570000,
+    "name": "Crucible Axe Helm",
+    "weight": 6.599999905,
+    "poise": 10.99999994,
+    "abs": {
+      "physical": 0.0630000234,
+      "strike": 0.05000001190000003,
+      "slash": 0.06099998949999996,
+      "thrust": 0.06099998949999996,
+      "magic": 0.04600000380000002,
+      "fire": 0.04600000380000002,
+      "lightning": 0.04000002150000004,
+      "holy": 0.04799997810000001
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 31,
+      "focus": 15,
+      "vitality": 15
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 570100,
+    "name": "Crucible Axe Armor",
+    "weight": 15.5,
+    "poise": 32.99999982,
+    "abs": {
+      "physical": 0.17500001190000003,
+      "strike": 0.1389999986,
+      "slash": 0.16799998279999995,
+      "thrust": 0.16799998279999995,
+      "magic": 0.12999999520000005,
+      "fire": 0.12800002099999996,
+      "lightning": 0.11400002239999996,
+      "holy": 0.1349999905
+    },
+    "res": {
+      "immunity": 50,
+      "robustness": 71,
+      "focus": 35,
+      "vitality": 35
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 570200,
+    "name": "Crucible Gauntlets",
+    "weight": 5.199999809,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.0339999795,
+      "slash": 0.041999995700000015,
+      "thrust": 0.041999995700000015,
+      "magic": 0.032000005200000015,
+      "fire": 0.032000005200000015,
+      "lightning": 0.027999997100000007,
+      "holy": 0.032999992399999956
+    },
+    "res": {
+      "immunity": 17,
+      "robustness": 24,
+      "focus": 12,
+      "vitality": 12
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 570300,
+    "name": "Crucible Greaves",
+    "weight": 9.600000381,
+    "poise": 19.99999955,
+    "abs": {
+      "physical": 0.101000011,
+      "strike": 0.07999998330000002,
+      "slash": 0.09600001570000005,
+      "thrust": 0.09600001570000005,
+      "magic": 0.07400000100000004,
+      "fire": 0.07300001379999999,
+      "lightning": 0.06499999759999997,
+      "holy": 0.07700002189999999
+    },
+    "res": {
+      "immunity": 31,
+      "robustness": 44,
+      "focus": 22,
+      "vitality": 22
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 571000,
+    "name": "Crucible Tree Helm",
+    "weight": 6.599999905,
+    "poise": 10.99999994,
+    "abs": {
+      "physical": 0.06499999759999997,
+      "strike": 0.05000001190000003,
+      "slash": 0.0630000234,
+      "thrust": 0.05599999430000002,
+      "magic": 0.04600000380000002,
+      "fire": 0.041999995700000015,
+      "lightning": 0.04000002150000004,
+      "holy": 0.051999986200000015
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 31,
+      "focus": 15,
+      "vitality": 15
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 571100,
+    "name": "Crucible Tree Armor",
+    "weight": 15.5,
+    "poise": 32.99999982,
+    "abs": {
+      "physical": 0.17699998620000001,
+      "strike": 0.1389999986,
+      "slash": 0.17500001190000003,
+      "thrust": 0.15799999239999996,
+      "magic": 0.12999999520000005,
+      "fire": 0.11900001760000001,
+      "lightning": 0.11400002239999996,
+      "holy": 0.1449999809
+    },
+    "res": {
+      "immunity": 50,
+      "robustness": 71,
+      "focus": 35,
+      "vitality": 35
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 572100,
+    "name": "Crucible Axe Armor (Altered)",
+    "weight": 14.89999962,
+    "poise": 30.99999949,
+    "abs": {
+      "physical": 0.16799998279999995,
+      "strike": 0.13400000329999995,
+      "slash": 0.16000002619999998,
+      "thrust": 0.16000002619999998,
+      "magic": 0.12800002099999996,
+      "fire": 0.12599998710000004,
+      "lightning": 0.10900002720000002,
+      "holy": 0.13300001620000002
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 61,
+      "focus": 29,
+      "vitality": 29
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 573100,
+    "name": "Crucible Tree Armor (Altered)",
+    "weight": 14.89999962,
+    "poise": 30.99999949,
+    "abs": {
+      "physical": 0.17000001669999998,
+      "strike": 0.13400000329999995,
+      "slash": 0.16000002619999998,
+      "thrust": 0.15600001809999997,
+      "magic": 0.12800002099999996,
+      "fire": 0.11400002239999996,
+      "lightning": 0.10900002720000002,
+      "holy": 0.14099997279999998
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 61,
+      "focus": 29,
+      "vitality": 29
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 580000,
+    "name": "Lusat's Glintstone Crown",
+    "weight": 3.599999905,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.03100001809999997,
+      "strike": 0.023000001899999956,
+      "slash": 0.03100001809999997,
+      "thrust": 0.023000001899999956,
+      "magic": 0.05500000719999998,
+      "fire": 0.04600000380000002,
+      "lightning": 0.04799997810000001,
+      "holy": 0.049000024799999986
+    },
+    "res": {
+      "immunity": 23,
+      "robustness": 11,
+      "focus": 39,
+      "vitality": 44
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 580100,
+    "name": "Lusat's Robe",
+    "weight": 7.099999905,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.07999998330000002,
+      "strike": 0.06099998949999996,
+      "slash": 0.07999998330000002,
+      "thrust": 0.06099998949999996,
+      "magic": 0.15399998429999995,
+      "fire": 0.12800002099999996,
+      "lightning": 0.13300001620000002,
+      "holy": 0.1349999905
+    },
+    "res": {
+      "immunity": 50,
+      "robustness": 25,
+      "focus": 83,
+      "vitality": 99
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 580200,
+    "name": "Lusat's Manchettes",
+    "weight": 1.100000024,
+    "poise": 1.00000005,
+    "abs": {
+      "physical": 0.013000011399999956,
+      "strike": 0.0009999871000000438,
+      "slash": 0.013000011399999956,
+      "thrust": 0.0009999871000000438,
+      "magic": 0.0339999795,
+      "fire": 0.027999997100000007,
+      "lightning": 0.03100001809999997,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 6,
+      "focus": 20,
+      "vitality": 22
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 580300,
+    "name": "Old Sorcerer's Legwraps",
+    "weight": 2.5,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.0339999795,
+      "strike": 0.014999985700000051,
+      "slash": 0.0339999795,
+      "thrust": 0.014999985700000051,
+      "magic": 0.08099997039999995,
+      "fire": 0.06800001860000005,
+      "lightning": 0.07200002670000005,
+      "holy": 0.07300001379999999
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 13,
+      "focus": 39,
+      "vitality": 44
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 581000,
+    "name": "Azur's Glintstone Crown",
+    "weight": 3.599999905,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.027999997100000007,
+      "strike": 0.023000001899999956,
+      "slash": 0.02499997620000005,
+      "thrust": 0.02499997620000005,
+      "magic": 0.058000028100000045,
+      "fire": 0.04600000380000002,
+      "lightning": 0.046999990899999955,
+      "holy": 0.05000001190000003
+    },
+    "res": {
+      "immunity": 23,
+      "robustness": 14,
+      "focus": 44,
+      "vitality": 39
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 581100,
+    "name": "Azur's Glintstone Robe",
+    "weight": 7.099999905,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.07099997999999996,
+      "strike": 0.06099998949999996,
+      "slash": 0.06699997189999995,
+      "thrust": 0.06699997189999995,
+      "magic": 0.15399998429999995,
+      "fire": 0.12800002099999996,
+      "lightning": 0.12999999520000005,
+      "holy": 0.13800001139999996
+    },
+    "res": {
+      "immunity": 50,
+      "robustness": 28,
+      "focus": 99,
+      "vitality": 83
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 581200,
+    "name": "Azur's Manchettes",
+    "weight": 1.100000024,
+    "poise": 1.00000005,
+    "abs": {
+      "physical": 0.0099999905,
+      "strike": 0.0009999871000000438,
+      "slash": 0.005999982399999992,
+      "thrust": 0.005999982399999992,
+      "magic": 0.0339999795,
+      "fire": 0.027999997100000007,
+      "lightning": 0.028999984299999948,
+      "holy": 0.032000005200000015
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 8,
+      "focus": 22,
+      "vitality": 20
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 590000,
+    "name": "All-Knowing Helm",
+    "weight": 4.599999905,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.04600000380000002,
+      "strike": 0.041999995700000015,
+      "slash": 0.04799997810000001,
+      "thrust": 0.041999995700000015,
+      "magic": 0.044000029600000046,
+      "fire": 0.0339999795,
+      "lightning": 0.03600001340000003,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 20,
+      "focus": 9,
+      "vitality": 9
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 590100,
+    "name": "All-Knowing Armor",
+    "weight": 10.69999981,
+    "poise": 21.99999988,
+    "abs": {
+      "physical": 0.1290000081,
+      "strike": 0.11900001760000001,
+      "slash": 0.1349999905,
+      "thrust": 0.11900001760000001,
+      "magic": 0.12400001289999996,
+      "fire": 0.09500002860000001,
+      "lightning": 0.10199999810000004,
+      "holy": 0.08799999950000004
+    },
+    "res": {
+      "immunity": 28,
+      "robustness": 46,
+      "focus": 21,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 590200,
+    "name": "All-Knowing Gauntlets",
+    "weight": 3.5,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.032000005200000015,
+      "strike": 0.028999984299999948,
+      "slash": 0.032999992399999956,
+      "thrust": 0.028999984299999948,
+      "magic": 0.03100001809999997,
+      "fire": 0.023000001899999956,
+      "lightning": 0.02499997620000005,
+      "holy": 0.02100002769999998
+    },
+    "res": {
+      "immunity": 9,
+      "robustness": 15,
+      "focus": 7,
+      "vitality": 7
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 590300,
+    "name": "All-Knowing Greaves",
+    "weight": 6.599999905,
+    "poise": 13.00000027,
+    "abs": {
+      "physical": 0.07400000100000004,
+      "strike": 0.06800001860000005,
+      "slash": 0.07700002189999999,
+      "thrust": 0.06800001860000005,
+      "magic": 0.07099997999999996,
+      "fire": 0.05400002000000004,
+      "lightning": 0.058000028100000045,
+      "holy": 0.05000001190000003
+    },
+    "res": {
+      "immunity": 17,
+      "robustness": 29,
+      "focus": 13,
+      "vitality": 13
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 591100,
+    "name": "All-Knowing Armor (Altered)",
+    "weight": 9.300000191,
+    "poise": 20.99999972,
+    "abs": {
+      "physical": 0.12400001289999996,
+      "strike": 0.10900002720000002,
+      "slash": 0.1290000081,
+      "thrust": 0.11400002239999996,
+      "magic": 0.11400002239999996,
+      "fire": 0.08799999950000004,
+      "lightning": 0.09500002860000001,
+      "holy": 0.07999998330000002
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 38,
+      "focus": 16,
+      "vitality": 16
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 600000,
+    "name": "Twinned Helm",
+    "weight": 5.099999905,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.04799997810000001,
+      "strike": 0.044000029600000046,
+      "slash": 0.051999986200000015,
+      "thrust": 0.041999995700000015,
+      "magic": 0.04000002150000004,
+      "fire": 0.04000002150000004,
+      "lightning": 0.03100001809999997,
+      "holy": 0.03600001340000003
+    },
+    "res": {
+      "immunity": 14,
+      "robustness": 23,
+      "focus": 9,
+      "vitality": 23
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 600100,
+    "name": "Twinned Armor",
+    "weight": 13.69999981,
+    "poise": 25.00000037,
+    "abs": {
+      "physical": 0.14600002769999998,
+      "strike": 0.13400000329999995,
+      "slash": 0.16000002619999998,
+      "thrust": 0.1349999905,
+      "magic": 0.12400001289999996,
+      "fire": 0.12400001289999996,
+      "lightning": 0.10199999810000004,
+      "holy": 0.11400002239999996
+    },
+    "res": {
+      "immunity": 38,
+      "robustness": 60,
+      "focus": 24,
+      "vitality": 60
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 600200,
+    "name": "Twinned Gauntlets",
+    "weight": 3.900000095,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.032999992399999956,
+      "strike": 0.03100001809999997,
+      "slash": 0.03600001340000003,
+      "thrust": 0.028999984299999948,
+      "magic": 0.027999997100000007,
+      "fire": 0.027999997100000007,
+      "lightning": 0.02100002769999998,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 18,
+      "focus": 7,
+      "vitality": 18
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 600300,
+    "name": "Twinned Greaves",
+    "weight": 7.300000191,
+    "poise": 13.00000027,
+    "abs": {
+      "physical": 0.07700002189999999,
+      "strike": 0.07099997999999996,
+      "slash": 0.08399999140000003,
+      "thrust": 0.06800001860000005,
+      "magic": 0.06499999759999997,
+      "fire": 0.06499999759999997,
+      "lightning": 0.05000001190000003,
+      "holy": 0.058000028100000045
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 34,
+      "focus": 13,
+      "vitality": 34
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 601100,
+    "name": "Twinned Armor (Altered)",
+    "weight": 12.80000019,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.13999998570000005,
+      "strike": 0.1290000081,
+      "slash": 0.1529999971,
+      "thrust": 0.1290000081,
+      "magic": 0.11900001760000001,
+      "fire": 0.11900001760000001,
+      "lightning": 0.09500002860000001,
+      "holy": 0.10900002720000002
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 52,
+      "focus": 21,
+      "vitality": 52
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 620000,
+    "name": "Prophet Blindfold",
+    "weight": 1,
+    "poise": 1.00000005,
+    "abs": {
+      "physical": 0.0019999742999999848,
+      "strike": 0.009000003299999948,
+      "slash": 0.009000003299999948,
+      "thrust": 0.0019999742999999848,
+      "magic": 0.04500001669999998,
+      "fire": 0.041999995700000015,
+      "lightning": 0.04000002150000004,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 14,
+      "robustness": 5,
+      "focus": 27,
+      "vitality": 27
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 620100,
+    "name": "Corhyn's Robe",
+    "weight": 6.300000191,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.06099998949999996,
+      "strike": 0.06699997189999995,
+      "slash": 0.06699997189999995,
+      "thrust": 0.06099998949999996,
+      "magic": 0.13300001620000002,
+      "fire": 0.12800002099999996,
+      "lightning": 0.12800002099999996,
+      "holy": 0.1349999905
+    },
+    "res": {
+      "immunity": 46,
+      "robustness": 24,
+      "focus": 107,
+      "vitality": 76
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 620300,
+    "name": "Prophet Trousers",
+    "weight": 3.099999905,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.029999971399999992,
+      "strike": 0.0339999795,
+      "slash": 0.0339999795,
+      "thrust": 0.029999971399999992,
+      "magic": 0.07599997520000001,
+      "fire": 0.07300001379999999,
+      "lightning": 0.07200002670000005,
+      "holy": 0.07599997520000001
+    },
+    "res": {
+      "immunity": 26,
+      "robustness": 14,
+      "focus": 47,
+      "vitality": 51
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 621100,
+    "name": "Prophet Robe (Altered)",
+    "weight": 5.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.06099998949999996,
+      "strike": 0.06099998949999996,
+      "slash": 0.05299997329999995,
+      "thrust": 0.06099998949999996,
+      "magic": 0.13300001620000002,
+      "fire": 0.12400001289999996,
+      "lightning": 0.12800002099999996,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 38,
+      "robustness": 22,
+      "focus": 69,
+      "vitality": 75
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 622100,
+    "name": "Prophet Robe",
+    "weight": 6.300000191,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.06699997189999995,
+      "strike": 0.06699997189999995,
+      "slash": 0.06099998949999996,
+      "thrust": 0.06699997189999995,
+      "magic": 0.1349999905,
+      "fire": 0.12599998710000004,
+      "lightning": 0.12999999520000005,
+      "holy": 0.12999999520000005
+    },
+    "res": {
+      "immunity": 46,
+      "robustness": 25,
+      "focus": 83,
+      "vitality": 90
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 630000,
+    "name": "Astrologer Hood",
+    "weight": 1.700000048,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.018000006700000015,
+      "strike": 0.013999998600000008,
+      "slash": 0.013999998600000008,
+      "thrust": 0.013999998600000008,
+      "magic": 0.04600000380000002,
+      "fire": 0.04500001669999998,
+      "lightning": 0.04600000380000002,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 18,
+      "robustness": 9,
+      "focus": 31,
+      "vitality": 27
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 630100,
+    "name": "Astrologer Robe",
+    "weight": 6.300000191,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.06699997189999995,
+      "strike": 0.06099998949999996,
+      "slash": 0.06099998949999996,
+      "thrust": 0.06099998949999996,
+      "magic": 0.1349999905,
+      "fire": 0.12999999520000005,
+      "lightning": 0.13300001620000002,
+      "holy": 0.12999999520000005
+    },
+    "res": {
+      "immunity": 50,
+      "robustness": 24,
+      "focus": 90,
+      "vitality": 76
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 630200,
+    "name": "Astrologer Gloves",
+    "weight": 1.399999976,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.013000011399999956,
+      "strike": 0.0099999905,
+      "slash": 0.0099999905,
+      "thrust": 0.0099999905,
+      "magic": 0.032000005200000015,
+      "fire": 0.03100001809999997,
+      "lightning": 0.032000005200000015,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 14,
+      "robustness": 7,
+      "focus": 24,
+      "vitality": 21
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 630300,
+    "name": "Astrologer Trousers",
+    "weight": 3.900000095,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.03799998760000001,
+      "strike": 0.0339999795,
+      "slash": 0.0339999795,
+      "thrust": 0.0339999795,
+      "magic": 0.07700002189999999,
+      "fire": 0.07400000100000004,
+      "lightning": 0.07599997520000001,
+      "holy": 0.07400000100000004
+    },
+    "res": {
+      "immunity": 31,
+      "robustness": 15,
+      "focus": 56,
+      "vitality": 47
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 631100,
+    "name": "Astrologer Robe (Altered)",
+    "weight": 5.300000191,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.06099998949999996,
+      "strike": 0.05299997329999995,
+      "slash": 0.05299997329999995,
+      "thrust": 0.05299997329999995,
+      "magic": 0.13300001620000002,
+      "fire": 0.12800002099999996,
+      "lightning": 0.12999999520000005,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 21,
+      "focus": 75,
+      "vitality": 64
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 640000,
+    "name": "Lionel's Helm",
+    "weight": 9.100000381,
+    "poise": 13.00000027,
+    "abs": {
+      "physical": 0.0630000234,
+      "strike": 0.059000015299999986,
+      "slash": 0.06999999280000002,
+      "thrust": 0.07200002670000005,
+      "magic": 0.04799997810000001,
+      "fire": 0.05299997329999995,
+      "lightning": 0.04600000380000002,
+      "holy": 0.04799997810000001
+    },
+    "res": {
+      "immunity": 27,
+      "robustness": 42,
+      "focus": 18,
+      "vitality": 22
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 640100,
+    "name": "Lionel's Armor",
+    "weight": 21.20000076,
+    "poise": 39.99999911,
+    "abs": {
+      "physical": 0.17500001190000003,
+      "strike": 0.1629999876,
+      "slash": 0.19199997189999995,
+      "thrust": 0.19700002670000005,
+      "magic": 0.1349999905,
+      "fire": 0.148999989,
+      "lightning": 0.12999999520000005,
+      "holy": 0.1349999905
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 99,
+      "focus": 42,
+      "vitality": 50
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 640200,
+    "name": "Lionel's Gauntlets",
+    "weight": 7.099999905,
+    "poise": 8.99999961,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.04100000859999997,
+      "slash": 0.049000024799999986,
+      "thrust": 0.05000001190000003,
+      "magic": 0.032999992399999956,
+      "fire": 0.03700000049999996,
+      "lightning": 0.032000005200000015,
+      "holy": 0.032999992399999956
+    },
+    "res": {
+      "immunity": 21,
+      "robustness": 33,
+      "focus": 14,
+      "vitality": 17
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 640300,
+    "name": "Lionel's Greaves",
+    "weight": 13.10000038,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.101000011,
+      "strike": 0.09399998190000003,
+      "slash": 0.11100000139999999,
+      "thrust": 0.11400002239999996,
+      "magic": 0.07700002189999999,
+      "fire": 0.08499997849999996,
+      "lightning": 0.07400000100000004,
+      "holy": 0.07700002189999999
+    },
+    "res": {
+      "immunity": 39,
+      "robustness": 61,
+      "focus": 26,
+      "vitality": 31
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 641100,
+    "name": "Lionel's Armor (Altered)",
+    "weight": 20.20000076,
+    "poise": 37.99999878,
+    "abs": {
+      "physical": 0.17100000380000002,
+      "strike": 0.1589999795,
+      "slash": 0.1880000234,
+      "thrust": 0.19300001860000005,
+      "magic": 0.1309999824,
+      "fire": 0.1449999809,
+      "lightning": 0.12599998710000004,
+      "holy": 0.1309999824
+    },
+    "res": {
+      "immunity": 57,
+      "robustness": 90,
+      "focus": 38,
+      "vitality": 45
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 650000,
+    "name": "Hoslow's Helm",
+    "weight": 5.5,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.051999986200000015,
+      "strike": 0.044000029600000046,
+      "slash": 0.05000001190000003,
+      "thrust": 0.04799997810000001,
+      "magic": 0.04000002150000004,
+      "fire": 0.044000029600000046,
+      "lightning": 0.03799998760000001,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 18,
+      "robustness": 27,
+      "focus": 11,
+      "vitality": 11
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 650100,
+    "name": "Hoslow's Armor",
+    "weight": 11.80000019,
+    "poise": 21.99999988,
+    "abs": {
+      "physical": 0.13999998570000005,
+      "strike": 0.11900001760000001,
+      "slash": 0.1349999905,
+      "thrust": 0.12400001289999996,
+      "magic": 0.10900002720000002,
+      "fire": 0.11900001760000001,
+      "lightning": 0.10199999810000004,
+      "holy": 0.10199999810000004
+    },
+    "res": {
+      "immunity": 38,
+      "robustness": 60,
+      "focus": 24,
+      "vitality": 24
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 650200,
+    "name": "Hoslow's Gauntlets",
+    "weight": 3.900000095,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.03500002619999998,
+      "strike": 0.028999984299999948,
+      "slash": 0.032999992399999956,
+      "thrust": 0.03100001809999997,
+      "magic": 0.027000009999999963,
+      "fire": 0.028999984299999948,
+      "lightning": 0.02499997620000005,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 13,
+      "robustness": 20,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 650300,
+    "name": "Hoslow's Greaves",
+    "weight": 7.300000191,
+    "poise": 13.00000027,
+    "abs": {
+      "physical": 0.07999998330000002,
+      "strike": 0.06800001860000005,
+      "slash": 0.07700002189999999,
+      "thrust": 0.07099997999999996,
+      "magic": 0.061999976600000006,
+      "fire": 0.06800001860000005,
+      "lightning": 0.058000028100000045,
+      "holy": 0.058000028100000045
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 37,
+      "focus": 15,
+      "vitality": 15
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 651000,
+    "name": "Diallos's Mask",
+    "weight": 4.599999905,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.04799997810000001,
+      "strike": 0.03799998760000001,
+      "slash": 0.04600000380000002,
+      "thrust": 0.044000029600000046,
+      "magic": 0.03600001340000003,
+      "fire": 0.03600001340000003,
+      "lightning": 0.02499997620000005,
+      "holy": 0.0339999795
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 23,
+      "focus": 10,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 652100,
+    "name": "Hoslow's Armor (Altered)",
+    "weight": 10.80000019,
+    "poise": 20.99999972,
+    "abs": {
+      "physical": 0.13599997760000004,
+      "strike": 0.1150000095,
+      "slash": 0.125,
+      "thrust": 0.12000000479999995,
+      "magic": 0.10299998519999998,
+      "fire": 0.11000001429999995,
+      "lightning": 0.08899998659999997,
+      "holy": 0.08899998659999997
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 52,
+      "focus": 21,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 660000,
+    "name": "Vagabond Knight Helm",
+    "weight": 4,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.04600000380000002,
+      "strike": 0.03600001340000003,
+      "slash": 0.041999995700000015,
+      "thrust": 0.04000002150000004,
+      "magic": 0.03100001809999997,
+      "fire": 0.03600001340000003,
+      "lightning": 0.027999997100000007,
+      "holy": 0.027999997100000007
+    },
+    "res": {
+      "immunity": 14,
+      "robustness": 23,
+      "focus": 9,
+      "vitality": 9
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 660100,
+    "name": "Vagabond Knight Armor",
+    "weight": 10.60000038,
+    "poise": 21.99999988,
+    "abs": {
+      "physical": 0.1349999905,
+      "strike": 0.11400002239999996,
+      "slash": 0.12400001289999996,
+      "thrust": 0.11900001760000001,
+      "magic": 0.10199999810000004,
+      "fire": 0.10900002720000002,
+      "lightning": 0.08799999950000004,
+      "holy": 0.08799999950000004
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 57,
+      "focus": 23,
+      "vitality": 23
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 660200,
+    "name": "Vagabond Knight Gauntlets",
+    "weight": 3.5,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.032999992399999956,
+      "strike": 0.027999997100000007,
+      "slash": 0.03100001809999997,
+      "thrust": 0.028999984299999948,
+      "magic": 0.02499997620000005,
+      "fire": 0.027000009999999963,
+      "lightning": 0.02100002769999998,
+      "holy": 0.02100002769999998
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 19,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 660300,
+    "name": "Vagabond Knight Greaves",
+    "weight": 5.699999809,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.07400000100000004,
+      "strike": 0.058000028100000045,
+      "slash": 0.06800001860000005,
+      "thrust": 0.06499999759999997,
+      "magic": 0.05000001190000003,
+      "fire": 0.058000028100000045,
+      "lightning": 0.04500001669999998,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 34,
+      "focus": 13,
+      "vitality": 13
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 661100,
+    "name": "Vagabond Knight Armor (Altered)",
+    "weight": 9.600000381,
+    "poise": 20.99999972,
+    "abs": {
+      "physical": 0.13200002909999997,
+      "strike": 0.10500001910000001,
+      "slash": 0.12199997900000004,
+      "thrust": 0.11699998379999998,
+      "magic": 0.0910000205,
+      "fire": 0.10500001910000001,
+      "lightning": 0.08300000429999999,
+      "holy": 0.08300000429999999
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 50,
+      "focus": 19,
+      "vitality": 19
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 670000,
+    "name": "Blue Cloth Cowl",
+    "weight": 2.700000048,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.027999997100000007,
+      "strike": 0.027999997100000007,
+      "slash": 0.023000001899999956,
+      "thrust": 0.023000001899999956,
+      "magic": 0.03100001809999997,
+      "fire": 0.0339999795,
+      "lightning": 0.03799998760000001,
+      "holy": 0.027999997100000007
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 15,
+      "focus": 18,
+      "vitality": 18
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 670100,
+    "name": "Blue Cloth Vest",
+    "weight": 7.699999809,
+    "poise": 16.00000076,
+    "abs": {
+      "physical": 0.09500002860000001,
+      "strike": 0.09500002860000001,
+      "slash": 0.07999998330000002,
+      "thrust": 0.07999998330000002,
+      "magic": 0.10199999810000004,
+      "fire": 0.10900002720000002,
+      "lightning": 0.11900001760000001,
+      "holy": 0.09500002860000001
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 42,
+      "focus": 50,
+      "vitality": 50
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 670200,
+    "name": "Warrior Gauntlets",
+    "weight": 2.599999905,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.023000001899999956,
+      "strike": 0.023000001899999956,
+      "slash": 0.018999993799999948,
+      "thrust": 0.018999993799999948,
+      "magic": 0.02499997620000005,
+      "fire": 0.027000009999999963,
+      "lightning": 0.028999984299999948,
+      "holy": 0.023000001899999956
+    },
+    "res": {
+      "immunity": 21,
+      "robustness": 14,
+      "focus": 17,
+      "vitality": 17
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 670300,
+    "name": "Warrior Greaves",
+    "weight": 4.800000191,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.05400002000000004,
+      "strike": 0.05400002000000004,
+      "slash": 0.04500001669999998,
+      "thrust": 0.04500001669999998,
+      "magic": 0.058000028100000045,
+      "fire": 0.061999976600000006,
+      "lightning": 0.06800001860000005,
+      "holy": 0.05400002000000004
+    },
+    "res": {
+      "immunity": 39,
+      "robustness": 26,
+      "focus": 31,
+      "vitality": 31
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 680000,
+    "name": "White Mask",
+    "weight": 3.200000048,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.027000009999999963,
+      "strike": 0.029999971399999992,
+      "slash": 0.032999992399999956,
+      "thrust": 0.027000009999999963,
+      "magic": 0.03500002619999998,
+      "fire": 0.03700000049999996,
+      "lightning": 0.03899997470000005,
+      "holy": 0.03700000049999996
+    },
+    "res": {
+      "immunity": 23,
+      "robustness": 18,
+      "focus": 21,
+      "vitality": 22
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 680100,
+    "name": "War Surgeon Gown",
+    "weight": 6.900000095,
+    "poise": 13.00000027,
+    "abs": {
+      "physical": 0.06999999280000002,
+      "strike": 0.07899999619999998,
+      "slash": 0.08700001239999999,
+      "thrust": 0.06999999280000002,
+      "magic": 0.09399998190000003,
+      "fire": 0.101000011,
+      "lightning": 0.10799998040000003,
+      "holy": 0.101000011
+    },
+    "res": {
+      "immunity": 53,
+      "robustness": 37,
+      "focus": 44,
+      "vitality": 48
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 680200,
+    "name": "War Surgeon Gloves",
+    "weight": 2.299999952,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.015999972799999984,
+      "strike": 0.018000006700000015,
+      "slash": 0.01999998089999999,
+      "thrust": 0.015999972799999984,
+      "magic": 0.022000014800000023,
+      "fire": 0.023999989,
+      "lightning": 0.02600002290000003,
+      "holy": 0.023999989
+    },
+    "res": {
+      "immunity": 18,
+      "robustness": 13,
+      "focus": 15,
+      "vitality": 17
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 680300,
+    "name": "War Surgeon Trousers",
+    "weight": 4.199999809,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.03899997470000005,
+      "strike": 0.044000029600000046,
+      "slash": 0.049000024799999986,
+      "thrust": 0.03899997470000005,
+      "magic": 0.05299997329999995,
+      "fire": 0.056999981399999955,
+      "lightning": 0.06099998949999996,
+      "holy": 0.056999981399999955
+    },
+    "res": {
+      "immunity": 33,
+      "robustness": 23,
+      "focus": 28,
+      "vitality": 31
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 681100,
+    "name": "War Surgeon Gown (Altered)",
+    "weight": 6.099999905,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.06599998470000001,
+      "strike": 0.06999999280000002,
+      "slash": 0.07899999619999998,
+      "thrust": 0.06599998470000001,
+      "magic": 0.08700001239999999,
+      "fire": 0.09399998190000003,
+      "lightning": 0.101000011,
+      "holy": 0.09399998190000003
+    },
+    "res": {
+      "immunity": 45,
+      "robustness": 32,
+      "focus": 38,
+      "vitality": 42
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 690000,
+    "name": "Royal Remains Helm",
+    "weight": 4.599999905,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.04000002150000004,
+      "slash": 0.04600000380000002,
+      "thrust": 0.041999995700000015,
+      "magic": 0.0339999795,
+      "fire": 0.03600001340000003,
+      "lightning": 0.027999997100000007,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 24,
+      "focus": 10,
+      "vitality": 5
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 690100,
+    "name": "Royal Remains Armor",
+    "weight": 10.60000038,
+    "poise": 20.99999972,
+    "abs": {
+      "physical": 0.11900001760000001,
+      "strike": 0.11400002239999996,
+      "slash": 0.1290000081,
+      "thrust": 0.11900001760000001,
+      "magic": 0.09500002860000001,
+      "fire": 0.10199999810000004,
+      "lightning": 0.07999998330000002,
+      "holy": 0.08799999950000004
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 57,
+      "focus": 24,
+      "vitality": 11
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 690200,
+    "name": "Royal Remains Gauntlets",
+    "weight": 3.5,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.028999984299999948,
+      "strike": 0.027999997100000007,
+      "slash": 0.032000005200000015,
+      "thrust": 0.028999984299999948,
+      "magic": 0.023000001899999956,
+      "fire": 0.02499997620000005,
+      "lightning": 0.018999993799999948,
+      "holy": 0.02100002769999998
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 19,
+      "focus": 8,
+      "vitality": 4
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 690300,
+    "name": "Royal Remains Greaves",
+    "weight": 6.599999905,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.06800001860000005,
+      "strike": 0.06499999759999997,
+      "slash": 0.07400000100000004,
+      "thrust": 0.06800001860000005,
+      "magic": 0.05400002000000004,
+      "fire": 0.058000028100000045,
+      "lightning": 0.04500001669999998,
+      "holy": 0.05000001190000003
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 35,
+      "focus": 15,
+      "vitality": 7
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 720000,
+    "name": "Beast Champion Helm",
+    "weight": 7.5,
+    "poise": 10.99999994,
+    "abs": {
+      "physical": 0.0630000234,
+      "strike": 0.059000015299999986,
+      "slash": 0.06800001860000005,
+      "thrust": 0.06699997189999995,
+      "magic": 0.04600000380000002,
+      "fire": 0.049000024799999986,
+      "lightning": 0.04600000380000002,
+      "holy": 0.04799997810000001
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 39,
+      "focus": 18,
+      "vitality": 16
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 720100,
+    "name": "Beast Champion Armor",
+    "weight": 17.5,
+    "poise": 34.00000185,
+    "abs": {
+      "physical": 0.17500001190000003,
+      "strike": 0.1629999876,
+      "slash": 0.1869999766,
+      "thrust": 0.18300002810000005,
+      "magic": 0.12999999520000005,
+      "fire": 0.13800001139999996,
+      "lightning": 0.12800002099999996,
+      "holy": 0.1349999905
+    },
+    "res": {
+      "immunity": 57,
+      "robustness": 90,
+      "focus": 42,
+      "vitality": 38
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 720200,
+    "name": "Beast Champion Gauntlets",
+    "weight": 5.800000191,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.04100000859999997,
+      "slash": 0.046999990899999955,
+      "thrust": 0.04600000380000002,
+      "magic": 0.032000005200000015,
+      "fire": 0.0339999795,
+      "lightning": 0.032000005200000015,
+      "holy": 0.032999992399999956
+    },
+    "res": {
+      "immunity": 19,
+      "robustness": 30,
+      "focus": 14,
+      "vitality": 13
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 720300,
+    "name": "Beast Champion Greaves",
+    "weight": 10.80000019,
+    "poise": 19.99999955,
+    "abs": {
+      "physical": 0.101000011,
+      "strike": 0.09399998190000003,
+      "slash": 0.10799998040000003,
+      "thrust": 0.10600000620000005,
+      "magic": 0.07400000100000004,
+      "fire": 0.07899999619999998,
+      "lightning": 0.07300001379999999,
+      "holy": 0.07700002189999999
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 56,
+      "focus": 26,
+      "vitality": 24
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 721100,
+    "name": "Beast Champion Armor (Altered)",
+    "weight": 16.39999962,
+    "poise": 34.00000185,
+    "abs": {
+      "physical": 0.17199999089999995,
+      "strike": 0.1589999795,
+      "slash": 0.18500000240000003,
+      "thrust": 0.18199998139999995,
+      "magic": 0.1290000081,
+      "fire": 0.13700002430000002,
+      "lightning": 0.12699997429999998,
+      "holy": 0.13400000329999995
+    },
+    "res": {
+      "immunity": 50,
+      "robustness": 75,
+      "focus": 34,
+      "vitality": 32
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 730000,
+    "name": "Champion Headband",
+    "weight": 2.700000048,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.023000001899999956,
+      "strike": 0.03100001809999997,
+      "slash": 0.02499997620000005,
+      "thrust": 0.027999997100000007,
+      "magic": 0.027999997100000007,
+      "fire": 0.0339999795,
+      "lightning": 0.03600001340000003,
+      "holy": 0.0339999795
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 14,
+      "focus": 18,
+      "vitality": 16
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 730100,
+    "name": "Champion Pauldron",
+    "weight": 5.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.06099998949999996,
+      "strike": 0.07999998330000002,
+      "slash": 0.06699997189999995,
+      "thrust": 0.07099997999999996,
+      "magic": 0.07099997999999996,
+      "fire": 0.08799999950000004,
+      "lightning": 0.09500002860000001,
+      "holy": 0.08799999950000004
+    },
+    "res": {
+      "immunity": 46,
+      "robustness": 28,
+      "focus": 38,
+      "vitality": 35
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 730200,
+    "name": "Champion Bracers",
+    "weight": 2.099999905,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.015999972799999984,
+      "strike": 0.02100002769999998,
+      "slash": 0.01700001959999997,
+      "thrust": 0.018999993799999948,
+      "magic": 0.018999993799999948,
+      "fire": 0.023000001899999956,
+      "lightning": 0.02499997620000005,
+      "holy": 0.023000001899999956
+    },
+    "res": {
+      "immunity": 17,
+      "robustness": 11,
+      "focus": 14,
+      "vitality": 13
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 730300,
+    "name": "Champion Gaiters",
+    "weight": 3.900000095,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.03799998760000001,
+      "strike": 0.05000001190000003,
+      "slash": 0.04000002150000004,
+      "thrust": 0.04500001669999998,
+      "magic": 0.04500001669999998,
+      "fire": 0.05400002000000004,
+      "lightning": 0.058000028100000045,
+      "holy": 0.05400002000000004
+    },
+    "res": {
+      "immunity": 31,
+      "robustness": 20,
+      "focus": 26,
+      "vitality": 24
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 740000,
+    "name": "Crimson Hood",
+    "weight": 1.700000048,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.013999998600000008,
+      "strike": 0.018000006700000015,
+      "slash": 0.013999998600000008,
+      "thrust": 0.018000006700000015,
+      "magic": 0.04600000380000002,
+      "fire": 0.04600000380000002,
+      "lightning": 0.04500001669999998,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 16,
+      "robustness": 9,
+      "focus": 27,
+      "vitality": 29
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 740100,
+    "name": "Noble's Traveling Garb",
+    "weight": 6.300000191,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.06099998949999996,
+      "strike": 0.06699997189999995,
+      "slash": 0.06099998949999996,
+      "thrust": 0.06699997189999995,
+      "magic": 0.13300001620000002,
+      "fire": 0.1349999905,
+      "lightning": 0.12999999520000005,
+      "holy": 0.13300001620000002
+    },
+    "res": {
+      "immunity": 46,
+      "robustness": 24,
+      "focus": 76,
+      "vitality": 83
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 740200,
+    "name": "Noble's Gloves",
+    "weight": 2.099999905,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.014999985700000051,
+      "strike": 0.015999972799999984,
+      "slash": 0.014999985700000051,
+      "thrust": 0.015999972799999984,
+      "magic": 0.032999992399999956,
+      "fire": 0.032999992399999956,
+      "lightning": 0.032000005200000015,
+      "holy": 0.032999992399999956
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 8,
+      "focus": 25,
+      "vitality": 28
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 740300,
+    "name": "Noble's Trousers",
+    "weight": 3.900000095,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.0339999795,
+      "strike": 0.03799998760000001,
+      "slash": 0.0339999795,
+      "thrust": 0.03799998760000001,
+      "magic": 0.07599997520000001,
+      "fire": 0.07700002189999999,
+      "lightning": 0.07400000100000004,
+      "holy": 0.07599997520000001
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 15,
+      "focus": 47,
+      "vitality": 51
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 741000,
+    "name": "Navy Hood",
+    "weight": 1.700000048,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.013999998600000008,
+      "strike": 0.02100002769999998,
+      "slash": 0.018000006700000015,
+      "thrust": 0.009000003299999948,
+      "magic": 0.04600000380000002,
+      "fire": 0.046999990899999955,
+      "lightning": 0.044000029600000046,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 10,
+      "focus": 29,
+      "vitality": 27
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 760000,
+    "name": "Maliketh's Helm",
+    "weight": 5.5,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.04799997810000001,
+      "strike": 0.041999995700000015,
+      "slash": 0.05000001190000003,
+      "thrust": 0.04799997810000001,
+      "magic": 0.03799998760000001,
+      "fire": 0.04000002150000004,
+      "lightning": 0.0339999795,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 24,
+      "focus": 10,
+      "vitality": 22
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 760100,
+    "name": "Maliketh's Armor",
+    "weight": 12.80000019,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.1349999905,
+      "strike": 0.11900001760000001,
+      "slash": 0.13999998570000005,
+      "thrust": 0.1349999905,
+      "magic": 0.10900002720000002,
+      "fire": 0.11400002239999996,
+      "lightning": 0.09500002860000001,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 57,
+      "focus": 24,
+      "vitality": 50
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 760200,
+    "name": "Maliketh's Gauntlets",
+    "weight": 4.300000191,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.032999992399999956,
+      "strike": 0.028999984299999948,
+      "slash": 0.03500002619999998,
+      "thrust": 0.032999992399999956,
+      "magic": 0.027000009999999963,
+      "fire": 0.027999997100000007,
+      "lightning": 0.023000001899999956,
+      "holy": 0.032000005200000015
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 19,
+      "focus": 8,
+      "vitality": 17
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 760300,
+    "name": "Maliketh's Greaves",
+    "weight": 7.900000095,
+    "poise": 14.00000043,
+    "abs": {
+      "physical": 0.07700002189999999,
+      "strike": 0.06800001860000005,
+      "slash": 0.07999998330000002,
+      "thrust": 0.07700002189999999,
+      "magic": 0.061999976600000006,
+      "fire": 0.06499999759999997,
+      "lightning": 0.05400002000000004,
+      "holy": 0.07300001379999999
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 35,
+      "focus": 15,
+      "vitality": 31
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 761100,
+    "name": "Maliketh's Armor (Altered)",
+    "weight": 11.80000019,
+    "poise": 21.99999988,
+    "abs": {
+      "physical": 0.1290000081,
+      "strike": 0.11400002239999996,
+      "slash": 0.1349999905,
+      "thrust": 0.12400001289999996,
+      "magic": 0.10199999810000004,
+      "fire": 0.10900002720000002,
+      "lightning": 0.08799999950000004,
+      "holy": 0.12599998710000004
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 50,
+      "focus": 21,
+      "vitality": 42
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 770000,
+    "name": "Malenia's Winged Helm",
+    "weight": 4,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.0339999795,
+      "slash": 0.04600000380000002,
+      "thrust": 0.04000002150000004,
+      "magic": 0.027999997100000007,
+      "fire": 0.0339999795,
+      "lightning": 0.023000001899999956,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 18,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 770100,
+    "name": "Malenia's Armor",
+    "weight": 7.699999809,
+    "poise": 16.00000076,
+    "abs": {
+      "physical": 0.10900002720000002,
+      "strike": 0.07099997999999996,
+      "slash": 0.11400002239999996,
+      "thrust": 0.09500002860000001,
+      "magic": 0.06099998949999996,
+      "fire": 0.07099997999999996,
+      "lightning": 0.041999995700000015,
+      "holy": 0.07099997999999996
+    },
+    "res": {
+      "immunity": 38,
+      "robustness": 32,
+      "focus": 11,
+      "vitality": 11
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 770200,
+    "name": "Malenia's Gauntlet",
+    "weight": 3.099999905,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.03100001809999997,
+      "strike": 0.023000001899999956,
+      "slash": 0.032000005200000015,
+      "thrust": 0.027999997100000007,
+      "magic": 0.018999993799999948,
+      "fire": 0.023000001899999956,
+      "lightning": 0.015999972799999984,
+      "holy": 0.027000009999999963
+    },
+    "res": {
+      "immunity": 17,
+      "robustness": 14,
+      "focus": 6,
+      "vitality": 6
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 770300,
+    "name": "Malenia's Greaves",
+    "weight": 5.699999809,
+    "poise": 10.99999994,
+    "abs": {
+      "physical": 0.07099997999999996,
+      "strike": 0.05400002000000004,
+      "slash": 0.07400000100000004,
+      "thrust": 0.06499999759999997,
+      "magic": 0.04500001669999998,
+      "fire": 0.05400002000000004,
+      "lightning": 0.03799998760000001,
+      "holy": 0.061999976600000006
+    },
+    "res": {
+      "immunity": 31,
+      "robustness": 26,
+      "focus": 11,
+      "vitality": 11
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 771100,
+    "name": "Malenia's Armor (Altered)",
+    "weight": 6.800000191,
+    "poise": 13.00000027,
+    "abs": {
+      "physical": 0.10000002379999995,
+      "strike": 0.06499999759999997,
+      "slash": 0.10699999329999998,
+      "thrust": 0.08600002529999995,
+      "magic": 0.05099999899999996,
+      "fire": 0.06499999759999997,
+      "lightning": 0.02499997620000005,
+      "holy": 0.06499999759999997
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 25,
+      "focus": 0,
+      "vitality": 0
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 780000,
+    "name": "Veteran's Helm",
+    "weight": 8.100000381,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.06800001860000005,
+      "strike": 0.06099998949999996,
+      "slash": 0.06800001860000005,
+      "thrust": 0.0630000234,
+      "magic": 0.04799997810000001,
+      "fire": 0.05000001190000003,
+      "lightning": 0.04600000380000002,
+      "holy": 0.046999990899999955
+    },
+    "res": {
+      "immunity": 27,
+      "robustness": 39,
+      "focus": 20,
+      "vitality": 20
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 780100,
+    "name": "Veteran's Armor",
+    "weight": 18.89999962,
+    "poise": 37.99999878,
+    "abs": {
+      "physical": 0.1869999766,
+      "strike": 0.17000001669999998,
+      "slash": 0.1869999766,
+      "thrust": 0.17500001190000003,
+      "magic": 0.1349999905,
+      "fire": 0.14099997279999998,
+      "lightning": 0.12800002099999996,
+      "holy": 0.13300001620000002
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 90,
+      "focus": 46,
+      "vitality": 46
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 780200,
+    "name": "Veteran's Gauntlets",
+    "weight": 6.300000191,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.046999990899999955,
+      "strike": 0.04299998279999995,
+      "slash": 0.046999990899999955,
+      "thrust": 0.044000029600000046,
+      "magic": 0.032999992399999956,
+      "fire": 0.03500002619999998,
+      "lightning": 0.032000005200000015,
+      "holy": 0.032999992399999956
+    },
+    "res": {
+      "immunity": 21,
+      "robustness": 30,
+      "focus": 15,
+      "vitality": 15
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 780300,
+    "name": "Veteran's Greaves",
+    "weight": 11.69999981,
+    "poise": 21.99999988,
+    "abs": {
+      "physical": 0.10799998040000003,
+      "strike": 0.09799999000000004,
+      "slash": 0.10799998040000003,
+      "thrust": 0.101000011,
+      "magic": 0.07700002189999999,
+      "fire": 0.08099997039999995,
+      "lightning": 0.07300001379999999,
+      "holy": 0.07599997520000001
+    },
+    "res": {
+      "immunity": 39,
+      "robustness": 56,
+      "focus": 29,
+      "vitality": 29
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 781100,
+    "name": "Veteran's Armor (Altered)",
+    "weight": 17.20000076,
+    "poise": 35.00000015,
+    "abs": {
+      "physical": 0.18099999430000002,
+      "strike": 0.16799998279999995,
+      "slash": 0.18500000240000003,
+      "thrust": 0.1729999781,
+      "magic": 0.1309999824,
+      "fire": 0.13599997760000004,
+      "lightning": 0.12400001289999996,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 54,
+      "robustness": 75,
+      "focus": 38,
+      "vitality": 38
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 790000,
+    "name": "Bloodhound Knight Helm",
+    "weight": 4.599999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.04000002150000004,
+      "slash": 0.05000001190000003,
+      "thrust": 0.04799997810000001,
+      "magic": 0.0339999795,
+      "fire": 0.03600001340000003,
+      "lightning": 0.02499997620000005,
+      "holy": 0.03600001340000003
+    },
+    "res": {
+      "immunity": 14,
+      "robustness": 22,
+      "focus": 10,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 790100,
+    "name": "Bloodhound Knight Armor",
+    "weight": 10.60000038,
+    "poise": 18.99999939,
+    "abs": {
+      "physical": 0.12400001289999996,
+      "strike": 0.11400002239999996,
+      "slash": 0.13999998570000005,
+      "thrust": 0.1349999905,
+      "magic": 0.09500002860000001,
+      "fire": 0.10199999810000004,
+      "lightning": 0.07099997999999996,
+      "holy": 0.10199999810000004
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 50,
+      "focus": 23,
+      "vitality": 23
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 790200,
+    "name": "Bloodhound Knight Gauntlets",
+    "weight": 3.5,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.03100001809999997,
+      "strike": 0.027999997100000007,
+      "slash": 0.03500002619999998,
+      "thrust": 0.032999992399999956,
+      "magic": 0.023000001899999956,
+      "fire": 0.02499997620000005,
+      "lightning": 0.01700001959999997,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 17,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 790300,
+    "name": "Bloodhound Knight Greaves",
+    "weight": 6.599999905,
+    "poise": 10.99999994,
+    "abs": {
+      "physical": 0.07099997999999996,
+      "strike": 0.06499999759999997,
+      "slash": 0.07999998330000002,
+      "thrust": 0.07700002189999999,
+      "magic": 0.05400002000000004,
+      "fire": 0.058000028100000045,
+      "lightning": 0.04000002150000004,
+      "holy": 0.058000028100000045
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 31,
+      "focus": 14,
+      "vitality": 14
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 791100,
+    "name": "Bloodhound Knight Armor (Altered)",
+    "weight": 9.600000381,
+    "poise": 18.99999939,
+    "abs": {
+      "physical": 0.12099999189999999,
+      "strike": 0.11100000139999999,
+      "slash": 0.13700002430000002,
+      "thrust": 0.13200002909999997,
+      "magic": 0.09200000760000004,
+      "fire": 0.09899997709999997,
+      "lightning": 0.06800001860000005,
+      "holy": 0.09899997709999997
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 45,
+      "focus": 21,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 800000,
+    "name": "Festive Hood",
+    "weight": 1.700000048,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.013999998600000008,
+      "strike": 0.018000006700000015,
+      "slash": 0.02100002769999998,
+      "thrust": 0.018000006700000015,
+      "magic": 0.04500001669999998,
+      "fire": 0.041999995700000015,
+      "lightning": 0.044000029600000046,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 18,
+      "robustness": 9,
+      "focus": 29,
+      "vitality": 29
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 800100,
+    "name": "Festive Garb",
+    "weight": 4.099999905,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.05299997329999995,
+      "slash": 0.06099998949999996,
+      "thrust": 0.05299997329999995,
+      "magic": 0.12599998710000004,
+      "fire": 0.11900001760000001,
+      "lightning": 0.12400001289999996,
+      "holy": 0.12999999520000005
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 21,
+      "focus": 67,
+      "vitality": 67
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 801000,
+    "name": "Festive Hood (Altered)",
+    "weight": 1,
+    "poise": 1.00000005,
+    "abs": {
+      "physical": 0.0019999742999999848,
+      "strike": 0.009000003299999948,
+      "slash": 0.013999998600000008,
+      "thrust": 0.009000003299999948,
+      "magic": 0.041999995700000015,
+      "fire": 0.03799998760000001,
+      "lightning": 0.04000002150000004,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 13,
+      "robustness": 4,
+      "focus": 23,
+      "vitality": 23
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 801100,
+    "name": "Festive Garb (Altered)",
+    "weight": 3.200000048,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.027000009999999963,
+      "strike": 0.041999995700000015,
+      "slash": 0.05299997329999995,
+      "thrust": 0.041999995700000015,
+      "magic": 0.12400001289999996,
+      "fire": 0.11400002239999996,
+      "lightning": 0.11900001760000001,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 34,
+      "robustness": 16,
+      "focus": 57,
+      "vitality": 57
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 802000,
+    "name": "Blue Festive Hood",
+    "weight": 1.700000048,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.013999998600000008,
+      "strike": 0.013999998600000008,
+      "slash": 0.02100002769999998,
+      "thrust": 0.018000006700000015,
+      "magic": 0.04500001669999998,
+      "fire": 0.04000002150000004,
+      "lightning": 0.04500001669999998,
+      "holy": 0.049000024799999986
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 9,
+      "focus": 31,
+      "vitality": 27
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 802100,
+    "name": "Blue Festive Garb",
+    "weight": 4.099999905,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.041999995700000015,
+      "slash": 0.06099998949999996,
+      "thrust": 0.05299997329999995,
+      "magic": 0.12599998710000004,
+      "fire": 0.11400002239999996,
+      "lightning": 0.12599998710000004,
+      "holy": 0.13800001139999996
+    },
+    "res": {
+      "immunity": 46,
+      "robustness": 21,
+      "focus": 71,
+      "vitality": 63
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 810000,
+    "name": "Commoner's Headband",
+    "weight": 1.399999976,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.009000003299999948,
+      "strike": 0.018000006700000015,
+      "slash": 0.018000006700000015,
+      "thrust": 0.013999998600000008,
+      "magic": 0.044000029600000046,
+      "fire": 0.04000002150000004,
+      "lightning": 0.041999995700000015,
+      "holy": 0.044000029600000046
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 10,
+      "focus": 27,
+      "vitality": 29
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 810100,
+    "name": "Commoner's Garb",
+    "weight": 5.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.05299997329999995,
+      "strike": 0.06699997189999995,
+      "slash": 0.06699997189999995,
+      "thrust": 0.06099998949999996,
+      "magic": 0.12800002099999996,
+      "fire": 0.12400001289999996,
+      "lightning": 0.12599998710000004,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 25,
+      "focus": 76,
+      "vitality": 83
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 810300,
+    "name": "Commoner's Shoes",
+    "weight": 2,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.014999985700000051,
+      "strike": 0.029999971399999992,
+      "slash": 0.029999971399999992,
+      "thrust": 0.023000001899999956,
+      "magic": 0.07099997999999996,
+      "fire": 0.06499999759999997,
+      "lightning": 0.06800001860000005,
+      "holy": 0.07099997999999996
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 14,
+      "focus": 39,
+      "vitality": 41
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 811000,
+    "name": "Commoner's Headband (Altered)",
+    "weight": 0.6999999881,
+    "poise": 1.00000005,
+    "abs": {
+      "physical": 0.0009999871000000438,
+      "strike": 0.010999977600000044,
+      "slash": 0.010999977600000044,
+      "thrust": 0.005999982399999992,
+      "magic": 0.03899997470000005,
+      "fire": 0.03500002619999998,
+      "lightning": 0.03700000049999996,
+      "holy": 0.03899997470000005
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 8,
+      "focus": 23,
+      "vitality": 24
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 811100,
+    "name": "Commoner's Garb (Altered)",
+    "weight": 4.099999905,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.06099998949999996,
+      "slash": 0.06099998949999996,
+      "thrust": 0.05299997329999995,
+      "magic": 0.12599998710000004,
+      "fire": 0.11900001760000001,
+      "lightning": 0.12400001289999996,
+      "holy": 0.12599998710000004
+    },
+    "res": {
+      "immunity": 34,
+      "robustness": 21,
+      "focus": 61,
+      "vitality": 64
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 812000,
+    "name": "Commoner's Simple Garb",
+    "weight": 5.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.06699997189999995,
+      "slash": 0.06699997189999995,
+      "thrust": 0.06099998949999996,
+      "magic": 0.12999999520000005,
+      "fire": 0.12599998710000004,
+      "lightning": 0.12599998710000004,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 46,
+      "robustness": 24,
+      "focus": 76,
+      "vitality": 83
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 812100,
+    "name": "Commoner's Simple Garb (Altered)",
+    "weight": 4.099999905,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.032000005200000015,
+      "strike": 0.06099998949999996,
+      "slash": 0.06099998949999996,
+      "thrust": 0.05299997329999995,
+      "magic": 0.12800002099999996,
+      "fire": 0.12400001289999996,
+      "lightning": 0.12400001289999996,
+      "holy": 0.12599998710000004
+    },
+    "res": {
+      "immunity": 38,
+      "robustness": 21,
+      "focus": 61,
+      "vitality": 64
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 820000,
+    "name": "Envoy Crown",
+    "weight": 3.799999952,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.027999997100000007,
+      "strike": 0.03100001809999997,
+      "slash": 0.03100001809999997,
+      "thrust": 0.027999997100000007,
+      "magic": 0.05299997329999995,
+      "fire": 0.046999990899999955,
+      "lightning": 0.049000024799999986,
+      "holy": 0.05500000719999998
+    },
+    "res": {
+      "immunity": 27,
+      "robustness": 15,
+      "focus": 46,
+      "vitality": 46
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 830000,
+    "name": "Twinsage Glintstone Crown",
+    "weight": 5.099999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.03100001809999997,
+      "slash": 0.051999986200000015,
+      "thrust": 0.04799997810000001,
+      "magic": 0.044000029600000046,
+      "fire": 0.04500001669999998,
+      "lightning": 0.0339999795,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 16,
+      "robustness": 26,
+      "focus": 10,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 830100,
+    "name": "Raya Lucarian Robe",
+    "weight": 4.099999905,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.05299997329999995,
+      "strike": 0.06099998949999996,
+      "slash": 0.06099998949999996,
+      "thrust": 0.027000009999999963,
+      "magic": 0.1349999905,
+      "fire": 0.12599998710000004,
+      "lightning": 0.12400001289999996,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 18,
+      "focus": 67,
+      "vitality": 63
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 830200,
+    "name": "Sorcerer Manchettes",
+    "weight": 1.100000024,
+    "poise": 1.00000005,
+    "abs": {
+      "physical": 0.0099999905,
+      "strike": 0.013000011399999956,
+      "slash": 0.013000011399999956,
+      "thrust": 0.0009999871000000438,
+      "magic": 0.032000005200000015,
+      "fire": 0.03100001809999997,
+      "lightning": 0.028999984299999948,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 13,
+      "robustness": 4,
+      "focus": 21,
+      "vitality": 20
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 830300,
+    "name": "Sorcerer Leggings",
+    "weight": 2,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.023000001899999956,
+      "strike": 0.029999971399999992,
+      "slash": 0.029999971399999992,
+      "thrust": 0.003000020999999964,
+      "magic": 0.07300001379999999,
+      "fire": 0.07099997999999996,
+      "lightning": 0.06800001860000005,
+      "holy": 0.07200002670000005
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 7,
+      "focus": 39,
+      "vitality": 37
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 831000,
+    "name": "Olivinus Glintstone Crown",
+    "weight": 5.099999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.03100001809999997,
+      "slash": 0.051999986200000015,
+      "thrust": 0.04799997810000001,
+      "magic": 0.044000029600000046,
+      "fire": 0.04500001669999998,
+      "lightning": 0.0339999795,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 16,
+      "robustness": 26,
+      "focus": 10,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 832000,
+    "name": "Lazuli Glintstone Crown",
+    "weight": 5.099999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.03100001809999997,
+      "slash": 0.051999986200000015,
+      "thrust": 0.04799997810000001,
+      "magic": 0.044000029600000046,
+      "fire": 0.04500001669999998,
+      "lightning": 0.0339999795,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 16,
+      "robustness": 26,
+      "focus": 10,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 833000,
+    "name": "Karolos Glintstone Crown",
+    "weight": 5.099999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.03100001809999997,
+      "slash": 0.051999986200000015,
+      "thrust": 0.04799997810000001,
+      "magic": 0.044000029600000046,
+      "fire": 0.04500001669999998,
+      "lightning": 0.0339999795,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 16,
+      "robustness": 26,
+      "focus": 10,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 834000,
+    "name": "Witch's Glintstone Crown",
+    "weight": 5.099999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.03100001809999997,
+      "slash": 0.051999986200000015,
+      "thrust": 0.04799997810000001,
+      "magic": 0.044000029600000046,
+      "fire": 0.04500001669999998,
+      "lightning": 0.0339999795,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 16,
+      "robustness": 26,
+      "focus": 10,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 840000,
+    "name": "Marionette Soldier Helm",
+    "weight": 3.799999952,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.03100001809999997,
+      "slash": 0.04000002150000004,
+      "thrust": 0.03799998760000001,
+      "magic": 0.03100001809999997,
+      "fire": 0.03100001809999997,
+      "lightning": 0.023000001899999956,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 10,
+      "robustness": 22,
+      "focus": 9,
+      "vitality": 8
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 840100,
+    "name": "Marionette Soldier Armor",
+    "weight": 8.800000191,
+    "poise": 17.99999923,
+    "abs": {
+      "physical": 0.11900001760000001,
+      "strike": 0.08799999950000004,
+      "slash": 0.1349999905,
+      "thrust": 0.08799999950000004,
+      "magic": 0.08799999950000004,
+      "fire": 0.08799999950000004,
+      "lightning": 0.06699997189999995,
+      "holy": 0.08799999950000004
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 50,
+      "focus": 21,
+      "vitality": 18
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 850000,
+    "name": "Marionette Soldier Birdhelm",
+    "weight": 3.799999952,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.03100001809999997,
+      "slash": 0.04000002150000004,
+      "thrust": 0.03799998760000001,
+      "magic": 0.03100001809999997,
+      "fire": 0.03100001809999997,
+      "lightning": 0.02499997620000005,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 18,
+      "focus": 8,
+      "vitality": 9
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 860000,
+    "name": "Raging Wolf Helm",
+    "weight": 4.400000095,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.046999990899999955,
+      "strike": 0.04100000859999997,
+      "slash": 0.046999990899999955,
+      "thrust": 0.04500001669999998,
+      "magic": 0.03500002619999998,
+      "fire": 0.03899997470000005,
+      "lightning": 0.023999989,
+      "holy": 0.032999992399999956
+    },
+    "res": {
+      "immunity": 14,
+      "robustness": 23,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 860100,
+    "name": "Raging Wolf Armor",
+    "weight": 10.10000038,
+    "poise": 20.99999972,
+    "abs": {
+      "physical": 0.13200002909999997,
+      "strike": 0.11599999670000005,
+      "slash": 0.13200002909999997,
+      "thrust": 0.12599998710000004,
+      "magic": 0.09899997709999997,
+      "fire": 0.11100000139999999,
+      "lightning": 0.06800001860000005,
+      "holy": 0.09200000760000004
+    },
+    "res": {
+      "immunity": 31,
+      "robustness": 55,
+      "focus": 17,
+      "vitality": 17
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 860200,
+    "name": "Raging Wolf Gauntlets",
+    "weight": 3.400000095,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.032000005200000015,
+      "strike": 0.027999997100000007,
+      "slash": 0.032000005200000015,
+      "thrust": 0.03100001809999997,
+      "magic": 0.023999989,
+      "fire": 0.027000009999999963,
+      "lightning": 0.015999972799999984,
+      "holy": 0.022000014800000023
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 19,
+      "focus": 6,
+      "vitality": 6
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 860300,
+    "name": "Raging Wolf Greaves",
+    "weight": 6.300000191,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.07499998809999997,
+      "strike": 0.06599998470000001,
+      "slash": 0.07499998809999997,
+      "thrust": 0.07200002670000005,
+      "magic": 0.05599999430000002,
+      "fire": 0.0630000234,
+      "lightning": 0.03799998760000001,
+      "holy": 0.051999986200000015
+    },
+    "res": {
+      "immunity": 19,
+      "robustness": 34,
+      "focus": 11,
+      "vitality": 11
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 861100,
+    "name": "Raging Wolf Armor (Altered)",
+    "weight": 9,
+    "poise": 18.99999939,
+    "abs": {
+      "physical": 0.12800002099999996,
+      "strike": 0.10799998040000003,
+      "slash": 0.12800002099999996,
+      "thrust": 0.12300002570000002,
+      "magic": 0.08700001239999999,
+      "fire": 0.10799998040000003,
+      "lightning": 0.06599998470000001,
+      "holy": 0.08700001239999999
+    },
+    "res": {
+      "immunity": 25,
+      "robustness": 50,
+      "focus": 10,
+      "vitality": 10
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 870000,
+    "name": "Land of Reeds Helm",
+    "weight": 3.599999905,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.03100001809999997,
+      "strike": 0.0339999795,
+      "slash": 0.04799997810000001,
+      "thrust": 0.0339999795,
+      "magic": 0.03600001340000003,
+      "fire": 0.04000002150000004,
+      "lightning": 0.041999995700000015,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 26,
+      "robustness": 22,
+      "focus": 0,
+      "vitality": 23
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 870100,
+    "name": "Land of Reeds Armor",
+    "weight": 8.300000191,
+    "poise": 16.00000076,
+    "abs": {
+      "physical": 0.08799999950000004,
+      "strike": 0.09500002860000001,
+      "slash": 0.11900001760000001,
+      "thrust": 0.09500002860000001,
+      "magic": 0.10199999810000004,
+      "fire": 0.11400002239999996,
+      "lightning": 0.11900001760000001,
+      "holy": 0.10900002720000002
+    },
+    "res": {
+      "immunity": 60,
+      "robustness": 50,
+      "focus": 50,
+      "vitality": 55
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 870200,
+    "name": "Land of Reeds Gauntlets",
+    "weight": 2.799999952,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.02100002769999998,
+      "strike": 0.023000001899999956,
+      "slash": 0.028999984299999948,
+      "thrust": 0.023000001899999956,
+      "magic": 0.02499997620000005,
+      "fire": 0.027999997100000007,
+      "lightning": 0.028999984299999948,
+      "holy": 0.027000009999999963
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 17,
+      "focus": 17,
+      "vitality": 18
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 870300,
+    "name": "Land of Reeds Greaves",
+    "weight": 5.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.05000001190000003,
+      "strike": 0.05400002000000004,
+      "slash": 0.06800001860000005,
+      "thrust": 0.05400002000000004,
+      "magic": 0.058000028100000045,
+      "fire": 0.06499999759999997,
+      "lightning": 0.06800001860000005,
+      "holy": 0.061999976600000006
+    },
+    "res": {
+      "immunity": 37,
+      "robustness": 31,
+      "focus": 31,
+      "vitality": 34
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 871100,
+    "name": "Land of Reeds Armor (Altered)",
+    "weight": 7.800000191,
+    "poise": 14.99999966,
+    "abs": {
+      "physical": 0.07999998330000002,
+      "strike": 0.08799999950000004,
+      "slash": 0.11400002239999996,
+      "thrust": 0.08799999950000004,
+      "magic": 0.09500002860000001,
+      "fire": 0.10900002720000002,
+      "lightning": 0.11400002239999996,
+      "holy": 0.10199999810000004
+    },
+    "res": {
+      "immunity": 52,
+      "robustness": 42,
+      "focus": 42,
+      "vitality": 45
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 872000,
+    "name": "Okina Mask",
+    "weight": 3.599999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.0339999795,
+      "strike": 0.03600001340000003,
+      "slash": 0.04000002150000004,
+      "thrust": 0.03100001809999997,
+      "magic": 0.03799998760000001,
+      "fire": 0.03799998760000001,
+      "lightning": 0.041999995700000015,
+      "holy": 0.03600001340000003
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 18,
+      "focus": 23,
+      "vitality": 22
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 872100,
+    "name": "White Reed Armor",
+    "weight": 8.300000191,
+    "poise": 17.00000092,
+    "abs": {
+      "physical": 0.09500002860000001,
+      "strike": 0.10199999810000004,
+      "slash": 0.11400002239999996,
+      "thrust": 0.08799999950000004,
+      "magic": 0.10900002720000002,
+      "fire": 0.10900002720000002,
+      "lightning": 0.11900001760000001,
+      "holy": 0.10199999810000004
+    },
+    "res": {
+      "immunity": 67,
+      "robustness": 42,
+      "focus": 55,
+      "vitality": 50
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 872200,
+    "name": "White Reed Gauntlets",
+    "weight": 2.799999952,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.023000001899999956,
+      "strike": 0.02499997620000005,
+      "slash": 0.027999997100000007,
+      "thrust": 0.02100002769999998,
+      "magic": 0.027000009999999963,
+      "fire": 0.027000009999999963,
+      "lightning": 0.028999984299999948,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 14,
+      "focus": 18,
+      "vitality": 17
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 872300,
+    "name": "White Reed Greaves",
+    "weight": 5.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.05400002000000004,
+      "strike": 0.058000028100000045,
+      "slash": 0.06499999759999997,
+      "thrust": 0.05000001190000003,
+      "magic": 0.061999976600000006,
+      "fire": 0.061999976600000006,
+      "lightning": 0.06800001860000005,
+      "holy": 0.058000028100000045
+    },
+    "res": {
+      "immunity": 41,
+      "robustness": 26,
+      "focus": 34,
+      "vitality": 31
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 880000,
+    "name": "Confessor Hood",
+    "weight": 3.299999952,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.027999997100000007,
+      "strike": 0.03600001340000003,
+      "slash": 0.027999997100000007,
+      "thrust": 0.03100001809999997,
+      "magic": 0.03799998760000001,
+      "fire": 0.03799998760000001,
+      "lightning": 0.041999995700000015,
+      "holy": 0.0339999795
+    },
+    "res": {
+      "immunity": 26,
+      "robustness": 20,
+      "focus": 20,
+      "vitality": 22
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 880100,
+    "name": "Confessor Armor",
+    "weight": 8.300000191,
+    "poise": 16.00000076,
+    "abs": {
+      "physical": 0.08799999950000004,
+      "strike": 0.10900002720000002,
+      "slash": 0.08799999950000004,
+      "thrust": 0.09500002860000001,
+      "magic": 0.11400002239999996,
+      "fire": 0.11400002239999996,
+      "lightning": 0.12400001289999996,
+      "holy": 0.10199999810000004
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 50,
+      "focus": 50,
+      "vitality": 55
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 880200,
+    "name": "Confessor Gloves",
+    "weight": 2.799999952,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.02100002769999998,
+      "strike": 0.027000009999999963,
+      "slash": 0.02100002769999998,
+      "thrust": 0.023000001899999956,
+      "magic": 0.027999997100000007,
+      "fire": 0.027999997100000007,
+      "lightning": 0.03100001809999997,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 21,
+      "robustness": 17,
+      "focus": 17,
+      "vitality": 18
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 880300,
+    "name": "Confessor Boots",
+    "weight": 4.800000191,
+    "poise": 8.99999961,
+    "abs": {
+      "physical": 0.04500001669999998,
+      "strike": 0.058000028100000045,
+      "slash": 0.04500001669999998,
+      "thrust": 0.05000001190000003,
+      "magic": 0.061999976600000006,
+      "fire": 0.061999976600000006,
+      "lightning": 0.06800001860000005,
+      "holy": 0.05400002000000004
+    },
+    "res": {
+      "immunity": 37,
+      "robustness": 29,
+      "focus": 29,
+      "vitality": 31
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 881000,
+    "name": "Confessor Hood (Altered)",
+    "weight": 2.700000048,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.023000001899999956,
+      "strike": 0.03100001809999997,
+      "slash": 0.023000001899999956,
+      "thrust": 0.02499997620000005,
+      "magic": 0.0339999795,
+      "fire": 0.0339999795,
+      "lightning": 0.03799998760000001,
+      "holy": 0.027999997100000007
+    },
+    "res": {
+      "immunity": 21,
+      "robustness": 14,
+      "focus": 14,
+      "vitality": 16
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 881100,
+    "name": "Confessor Armor (Altered)",
+    "weight": 7.300000191,
+    "poise": 14.99999966,
+    "abs": {
+      "physical": 0.07599997520000001,
+      "strike": 0.09799999000000004,
+      "slash": 0.07599997520000001,
+      "thrust": 0.08399999140000003,
+      "magic": 0.10500001910000001,
+      "fire": 0.10500001910000001,
+      "lightning": 0.1150000095,
+      "holy": 0.0910000205
+    },
+    "res": {
+      "immunity": 54,
+      "robustness": 42,
+      "focus": 42,
+      "vitality": 45
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 890000,
+    "name": "Prisoner Iron Mask",
+    "weight": 8.600000381,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.06800001860000005,
+      "strike": 0.059000015299999986,
+      "slash": 0.06999999280000002,
+      "thrust": 0.06800001860000005,
+      "magic": 0.04600000380000002,
+      "fire": 0.049000024799999986,
+      "lightning": 0.04500001669999998,
+      "holy": 0.04799997810000001
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 44,
+      "focus": 35,
+      "vitality": 20
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 890100,
+    "name": "Prisoner Clothing",
+    "weight": 3.200000048,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.05299997329999995,
+      "slash": 0.05299997329999995,
+      "thrust": 0.041999995700000015,
+      "magic": 0.11900001760000001,
+      "fire": 0.11400002239999996,
+      "lightning": 0.11400002239999996,
+      "holy": 0.12599998710000004
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 23,
+      "focus": 63,
+      "vitality": 63
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 890300,
+    "name": "Prisoner Trousers",
+    "weight": 2,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.023000001899999956,
+      "strike": 0.029999971399999992,
+      "slash": 0.029999971399999992,
+      "thrust": 0.023000001899999956,
+      "magic": 0.06800001860000005,
+      "fire": 0.06499999759999997,
+      "lightning": 0.06499999759999997,
+      "holy": 0.07200002670000005
+    },
+    "res": {
+      "immunity": 26,
+      "robustness": 14,
+      "focus": 39,
+      "vitality": 39
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 891000,
+    "name": "Blackguard's Iron Mask",
+    "weight": 6.199999809,
+    "poise": 8.99999961,
+    "abs": {
+      "physical": 0.058000028100000045,
+      "strike": 0.044000029600000046,
+      "slash": 0.06099998949999996,
+      "thrust": 0.05500000719999998,
+      "magic": 0.041999995700000015,
+      "fire": 0.044000029600000046,
+      "lightning": 0.04000002150000004,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 31,
+      "focus": 12,
+      "vitality": 12
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 900000,
+    "name": "Traveling Maiden Hood",
+    "weight": 1.600000024,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.013999998600000008,
+      "strike": 0.018000006700000015,
+      "slash": 0.018000006700000015,
+      "thrust": 0.009000003299999948,
+      "magic": 0.04600000380000002,
+      "fire": 0.04500001669999998,
+      "lightning": 0.04600000380000002,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 18,
+      "robustness": 10,
+      "focus": 29,
+      "vitality": 31
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 900100,
+    "name": "Traveling Maiden Robe",
+    "weight": 4.900000095,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.05400002000000004,
+      "strike": 0.061999976600000006,
+      "slash": 0.061999976600000006,
+      "thrust": 0.04299998279999995,
+      "magic": 0.13400000329999995,
+      "fire": 0.1290000081,
+      "lightning": 0.1309999824,
+      "holy": 0.13400000329999995
+    },
+    "res": {
+      "immunity": 46,
+      "robustness": 24,
+      "focus": 76,
+      "vitality": 83
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 900200,
+    "name": "Traveling Maiden Gloves",
+    "weight": 1.600000024,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.013000011399999956,
+      "strike": 0.014999985700000051,
+      "slash": 0.014999985700000051,
+      "thrust": 0.0099999905,
+      "magic": 0.032999992399999956,
+      "fire": 0.032000005200000015,
+      "lightning": 0.032000005200000015,
+      "holy": 0.032999992399999956
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 8,
+      "focus": 25,
+      "vitality": 28
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 900300,
+    "name": "Traveling Maiden Boots",
+    "weight": 2.900000095,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.03100001809999997,
+      "strike": 0.03500002619999998,
+      "slash": 0.03500002619999998,
+      "thrust": 0.023999989,
+      "magic": 0.07700002189999999,
+      "fire": 0.07400000100000004,
+      "lightning": 0.07499998809999997,
+      "holy": 0.07700002189999999
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 15,
+      "focus": 47,
+      "vitality": 51
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 901100,
+    "name": "Traveling Maiden Robe (Altered)",
+    "weight": 4.300000191,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.04299998279999995,
+      "strike": 0.05400002000000004,
+      "slash": 0.05400002000000004,
+      "thrust": 0.027999997100000007,
+      "magic": 0.1309999824,
+      "fire": 0.12699997429999998,
+      "lightning": 0.1290000081,
+      "holy": 0.1309999824
+    },
+    "res": {
+      "immunity": 38,
+      "robustness": 21,
+      "focus": 61,
+      "vitality": 64
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 902000,
+    "name": "Finger Maiden Fillet",
+    "weight": 2.200000048,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.02100002769999998,
+      "strike": 0.018000006700000015,
+      "slash": 0.018000006700000015,
+      "thrust": 0.013999998600000008,
+      "magic": 0.04799997810000001,
+      "fire": 0.04600000380000002,
+      "lightning": 0.04600000380000002,
+      "holy": 0.04799997810000001
+    },
+    "res": {
+      "immunity": 18,
+      "robustness": 10,
+      "focus": 31,
+      "vitality": 31
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 902100,
+    "name": "Finger Maiden Robe",
+    "weight": 4.599999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.058000028100000045,
+      "strike": 0.046999990899999955,
+      "slash": 0.046999990899999955,
+      "thrust": 0.032000005200000015,
+      "magic": 0.13800001139999996,
+      "fire": 0.1309999824,
+      "lightning": 0.13300001620000002,
+      "holy": 0.13800001139999996
+    },
+    "res": {
+      "immunity": 38,
+      "robustness": 21,
+      "focus": 63,
+      "vitality": 63
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 902300,
+    "name": "Finger Maiden Shoes",
+    "weight": 2.5,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.029999971399999992,
+      "strike": 0.023000001899999956,
+      "slash": 0.023000001899999956,
+      "thrust": 0.014999985700000051,
+      "magic": 0.07599997520000001,
+      "fire": 0.07200002670000005,
+      "lightning": 0.07300001379999999,
+      "holy": 0.07599997520000001
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 13,
+      "focus": 39,
+      "vitality": 39
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 903100,
+    "name": "Finger Maiden Robe (Altered)",
+    "weight": 3.700000048,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.027000009999999963,
+      "slash": 0.027000009999999963,
+      "thrust": 0.005999982399999992,
+      "magic": 0.12999999520000005,
+      "fire": 0.12400001289999996,
+      "lightning": 0.12599998710000004,
+      "holy": 0.1349999905
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 16,
+      "focus": 54,
+      "vitality": 54
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 910000,
+    "name": "Preceptor's Big Hat",
+    "weight": 3.599999905,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.02499997620000005,
+      "strike": 0.027999997100000007,
+      "slash": 0.02499997620000005,
+      "thrust": 0.02499997620000005,
+      "magic": 0.05500000719999998,
+      "fire": 0.049000024799999986,
+      "lightning": 0.04799997810000001,
+      "holy": 0.04799997810000001
+    },
+    "res": {
+      "immunity": 26,
+      "robustness": 12,
+      "focus": 44,
+      "vitality": 42
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 910100,
+    "name": "Preceptor's Long Gown",
+    "weight": 6.300000191,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.06099998949999996,
+      "strike": 0.06699997189999995,
+      "slash": 0.06099998949999996,
+      "thrust": 0.06099998949999996,
+      "magic": 0.1449999809,
+      "fire": 0.13300001620000002,
+      "lightning": 0.12800002099999996,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 50,
+      "robustness": 24,
+      "focus": 83,
+      "vitality": 76
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 910200,
+    "name": "Preceptor's Gloves",
+    "weight": 2.099999905,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.014999985700000051,
+      "strike": 0.015999972799999984,
+      "slash": 0.014999985700000051,
+      "thrust": 0.014999985700000051,
+      "magic": 0.03600001340000003,
+      "fire": 0.032999992399999956,
+      "lightning": 0.032000005200000015,
+      "holy": 0.032000005200000015
+    },
+    "res": {
+      "immunity": 17,
+      "robustness": 8,
+      "focus": 28,
+      "vitality": 25
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 910300,
+    "name": "Preceptor's Trousers",
+    "weight": 3.900000095,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.0339999795,
+      "strike": 0.03799998760000001,
+      "slash": 0.0339999795,
+      "thrust": 0.0339999795,
+      "magic": 0.08300000429999999,
+      "fire": 0.07599997520000001,
+      "lightning": 0.07300001379999999,
+      "holy": 0.07300001379999999
+    },
+    "res": {
+      "immunity": 31,
+      "robustness": 15,
+      "focus": 51,
+      "vitality": 47
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 911000,
+    "name": "Mask of Confidence",
+    "weight": 3.299999952,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.023000001899999956,
+      "strike": 0.02499997620000005,
+      "slash": 0.023000001899999956,
+      "thrust": 0.023000001899999956,
+      "magic": 0.05299997329999995,
+      "fire": 0.04799997810000001,
+      "lightning": 0.046999990899999955,
+      "holy": 0.046999990899999955
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 11,
+      "focus": 39,
+      "vitality": 35
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 911100,
+    "name": "Preceptor's Long Gown (Altered)",
+    "weight": 3.200000048,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.041999995700000015,
+      "slash": 0.027000009999999963,
+      "thrust": 0.041999995700000015,
+      "magic": 0.12800002099999996,
+      "fire": 0.12400001289999996,
+      "lightning": 0.11900001760000001,
+      "holy": 0.12400001289999996
+    },
+    "res": {
+      "immunity": 38,
+      "robustness": 16,
+      "focus": 57,
+      "vitality": 57
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 930000,
+    "name": "Skeletal Mask",
+    "weight": 3,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.02499997620000005,
+      "strike": 0.027999997100000007,
+      "slash": 0.03100001809999997,
+      "thrust": 0.03100001809999997,
+      "magic": 0.0339999795,
+      "fire": 0.0339999795,
+      "lightning": 0.03600001340000003,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 23,
+      "robustness": 14,
+      "focus": 24,
+      "vitality": 24
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 930100,
+    "name": "Raptor's Black Feathers",
+    "weight": 7.699999809,
+    "poise": 14.99999966,
+    "abs": {
+      "physical": 0.07999998330000002,
+      "strike": 0.08799999950000004,
+      "slash": 0.09500002860000001,
+      "thrust": 0.09500002860000001,
+      "magic": 0.10199999810000004,
+      "fire": 0.10199999810000004,
+      "lightning": 0.10900002720000002,
+      "holy": 0.09500002860000001
+    },
+    "res": {
+      "immunity": 57,
+      "robustness": 35,
+      "focus": 60,
+      "vitality": 60
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 930200,
+    "name": "Bandit Manchettes",
+    "weight": 1.700000048,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.014999985700000051,
+      "strike": 0.015999972799999984,
+      "slash": 0.01700001959999997,
+      "thrust": 0.01700001959999997,
+      "magic": 0.018999993799999948,
+      "fire": 0.018999993799999948,
+      "lightning": 0.02100002769999998,
+      "holy": 0.01700001959999997
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 8,
+      "focus": 17,
+      "vitality": 17
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 930300,
+    "name": "Bandit Boots",
+    "weight": 4.400000095,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.04000002150000004,
+      "strike": 0.04500001669999998,
+      "slash": 0.05000001190000003,
+      "thrust": 0.05000001190000003,
+      "magic": 0.05400002000000004,
+      "fire": 0.05400002000000004,
+      "lightning": 0.058000028100000045,
+      "holy": 0.05000001190000003
+    },
+    "res": {
+      "immunity": 34,
+      "robustness": 20,
+      "focus": 35,
+      "vitality": 35
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 931100,
+    "name": "Bandit Garb",
+    "weight": 7.699999809,
+    "poise": 14.99999966,
+    "abs": {
+      "physical": 0.07999998330000002,
+      "strike": 0.08799999950000004,
+      "slash": 0.09500002860000001,
+      "thrust": 0.09500002860000001,
+      "magic": 0.10199999810000004,
+      "fire": 0.10199999810000004,
+      "lightning": 0.10900002720000002,
+      "holy": 0.09500002860000001
+    },
+    "res": {
+      "immunity": 52,
+      "robustness": 32,
+      "focus": 54,
+      "vitality": 54
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 940000,
+    "name": "Eccentric's Hood",
+    "weight": 4,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.0339999795,
+      "slash": 0.041999995700000015,
+      "thrust": 0.044000029600000046,
+      "magic": 0.0339999795,
+      "fire": 0.03600001340000003,
+      "lightning": 0.023000001899999956,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 14,
+      "robustness": 24,
+      "focus": 9,
+      "vitality": 8
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 940100,
+    "name": "Eccentric's Armor",
+    "weight": 10.60000038,
+    "poise": 20.99999972,
+    "abs": {
+      "physical": 0.1290000081,
+      "strike": 0.10900002720000002,
+      "slash": 0.12400001289999996,
+      "thrust": 0.1290000081,
+      "magic": 0.10900002720000002,
+      "fire": 0.10900002720000002,
+      "lightning": 0.07099997999999996,
+      "holy": 0.09500002860000001
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 60,
+      "focus": 23,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 940200,
+    "name": "Eccentric's Manchettes",
+    "weight": 2.900000095,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.028999984299999948,
+      "strike": 0.02100002769999998,
+      "slash": 0.027999997100000007,
+      "thrust": 0.028999984299999948,
+      "magic": 0.02100002769999998,
+      "fire": 0.023000001899999956,
+      "lightning": 0.014999985700000051,
+      "holy": 0.018999993799999948
+    },
+    "res": {
+      "immunity": 8,
+      "robustness": 18,
+      "focus": 6,
+      "vitality": 4
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 940300,
+    "name": "Eccentric's Breeches",
+    "weight": 5.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.06499999759999997,
+      "strike": 0.04500001669999998,
+      "slash": 0.061999976600000006,
+      "thrust": 0.06499999759999997,
+      "magic": 0.04500001669999998,
+      "fire": 0.05000001190000003,
+      "lightning": 0.029999971399999992,
+      "holy": 0.04000002150000004
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 31,
+      "focus": 7,
+      "vitality": 7
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 941000,
+    "name": "Eccentric's Hood (Altered)",
+    "weight": 4,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.0339999795,
+      "slash": 0.041999995700000015,
+      "thrust": 0.044000029600000046,
+      "magic": 0.0339999795,
+      "fire": 0.03600001340000003,
+      "lightning": 0.023000001899999956,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 21,
+      "focus": 8,
+      "vitality": 7
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 950000,
+    "name": "Fingerprint Helm",
+    "weight": 4.599999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.04799997810000001,
+      "strike": 0.041999995700000015,
+      "slash": 0.041999995700000015,
+      "thrust": 0.041999995700000015,
+      "magic": 0.0339999795,
+      "fire": 0.04500001669999998,
+      "lightning": 0.023000001899999956,
+      "holy": 0.0339999795
+    },
+    "res": {
+      "immunity": 14,
+      "robustness": 26,
+      "focus": 5,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 950100,
+    "name": "Fingerprint Armor",
+    "weight": 10.60000038,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.1349999905,
+      "strike": 0.11900001760000001,
+      "slash": 0.11900001760000001,
+      "thrust": 0.11900001760000001,
+      "magic": 0.09500002860000001,
+      "fire": 0.12599998710000004,
+      "lightning": 0.06699997189999995,
+      "holy": 0.09500002860000001
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 60,
+      "focus": 11,
+      "vitality": 23
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 950200,
+    "name": "Fingerprint Gauntlets",
+    "weight": 3.5,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.032999992399999956,
+      "strike": 0.028999984299999948,
+      "slash": 0.028999984299999948,
+      "thrust": 0.028999984299999948,
+      "magic": 0.023000001899999956,
+      "fire": 0.03100001809999997,
+      "lightning": 0.015999972799999984,
+      "holy": 0.023000001899999956
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 20,
+      "focus": 4,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 950300,
+    "name": "Fingerprint Greaves",
+    "weight": 6.599999905,
+    "poise": 14.00000043,
+    "abs": {
+      "physical": 0.07700002189999999,
+      "strike": 0.06800001860000005,
+      "slash": 0.06800001860000005,
+      "thrust": 0.06800001860000005,
+      "magic": 0.05400002000000004,
+      "fire": 0.07200002670000005,
+      "lightning": 0.03799998760000001,
+      "holy": 0.05400002000000004
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 37,
+      "focus": 7,
+      "vitality": 14
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 951100,
+    "name": "Fingerprint Armor (Altered)",
+    "weight": 10,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.1309999824,
+      "strike": 0.1150000095,
+      "slash": 0.1150000095,
+      "thrust": 0.1150000095,
+      "magic": 0.0910000205,
+      "fire": 0.12199997900000004,
+      "lightning": 0.0630000234,
+      "holy": 0.0910000205
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 54,
+      "focus": 10,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 960000,
+    "name": "Consort's Mask",
+    "weight": 3.599999905,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.027999997100000007,
+      "strike": 0.027999997100000007,
+      "slash": 0.02499997620000005,
+      "thrust": 0.02499997620000005,
+      "magic": 0.05000001190000003,
+      "fire": 0.04799997810000001,
+      "lightning": 0.04799997810000001,
+      "holy": 0.05000001190000003
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 14,
+      "focus": 39,
+      "vitality": 35
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 960100,
+    "name": "Consort's Robe",
+    "weight": 4.099999905,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.05299997329999995,
+      "strike": 0.041999995700000015,
+      "slash": 0.041999995700000015,
+      "thrust": 0.05299997329999995,
+      "magic": 0.12999999520000005,
+      "fire": 0.12400001289999996,
+      "lightning": 0.12400001289999996,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 46,
+      "robustness": 25,
+      "focus": 67,
+      "vitality": 63
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 960300,
+    "name": "Consort's Trousers",
+    "weight": 2.5,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.029999971399999992,
+      "strike": 0.023000001899999956,
+      "slash": 0.023000001899999956,
+      "thrust": 0.029999971399999992,
+      "magic": 0.07400000100000004,
+      "fire": 0.07099997999999996,
+      "lightning": 0.07099997999999996,
+      "holy": 0.07300001379999999
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 15,
+      "focus": 41,
+      "vitality": 39
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 961000,
+    "name": "Ruler's Mask",
+    "weight": 2.200000048,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.018000006700000015,
+      "strike": 0.023000001899999956,
+      "slash": 0.023000001899999956,
+      "thrust": 0.013999998600000008,
+      "magic": 0.04600000380000002,
+      "fire": 0.044000029600000046,
+      "lightning": 0.04600000380000002,
+      "holy": 0.046999990899999955
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 10,
+      "focus": 33,
+      "vitality": 33
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 961100,
+    "name": "Ruler's Robe",
+    "weight": 5.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.05299997329999995,
+      "strike": 0.06699997189999995,
+      "slash": 0.06699997189999995,
+      "thrust": 0.041999995700000015,
+      "magic": 0.12999999520000005,
+      "fire": 0.12400001289999996,
+      "lightning": 0.12800002099999996,
+      "holy": 0.13300001620000002
+    },
+    "res": {
+      "immunity": 46,
+      "robustness": 24,
+      "focus": 76,
+      "vitality": 76
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 962100,
+    "name": "Upper-Class Robe",
+    "weight": 4.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.06099998949999996,
+      "slash": 0.06099998949999996,
+      "thrust": 0.027000009999999963,
+      "magic": 0.12800002099999996,
+      "fire": 0.11900001760000001,
+      "lightning": 0.12599998710000004,
+      "holy": 0.12999999520000005
+    },
+    "res": {
+      "immunity": 38,
+      "robustness": 21,
+      "focus": 61,
+      "vitality": 61
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 963000,
+    "name": "Marais Mask",
+    "weight": 2.200000048,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.02100002769999998,
+      "strike": 0.023000001899999956,
+      "slash": 0.018000006700000015,
+      "thrust": 0.013999998600000008,
+      "magic": 0.04600000380000002,
+      "fire": 0.04500001669999998,
+      "lightning": 0.04500001669999998,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 14,
+      "focus": 35,
+      "vitality": 33
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 963100,
+    "name": "Marais Robe",
+    "weight": 4.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.05299997329999995,
+      "strike": 0.06099998949999996,
+      "slash": 0.041999995700000015,
+      "thrust": 0.027000009999999963,
+      "magic": 0.12599998710000004,
+      "fire": 0.12400001289999996,
+      "lightning": 0.12400001289999996,
+      "holy": 0.12599998710000004
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 28,
+      "focus": 71,
+      "vitality": 67
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 963200,
+    "name": "Bloodsoaked Manchettes",
+    "weight": 1.399999976,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.013000011399999956,
+      "strike": 0.014999985700000051,
+      "slash": 0.0099999905,
+      "thrust": 0.005999982399999992,
+      "magic": 0.03100001809999997,
+      "fire": 0.03100001809999997,
+      "lightning": 0.03100001809999997,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 14,
+      "robustness": 9,
+      "focus": 24,
+      "vitality": 22
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 964000,
+    "name": "Bloodsoaked Mask",
+    "weight": 2.200000048,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.018000006700000015,
+      "strike": 0.018000006700000015,
+      "slash": 0.018000006700000015,
+      "thrust": 0.02100002769999998,
+      "magic": 0.04600000380000002,
+      "fire": 0.044000029600000046,
+      "lightning": 0.04500001669999998,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 18,
+      "robustness": 10,
+      "focus": 30,
+      "vitality": 31
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 964100,
+    "name": "Official's Attire",
+    "weight": 4.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.041999995700000015,
+      "slash": 0.041999995700000015,
+      "thrust": 0.05299997329999995,
+      "magic": 0.12800002099999996,
+      "fire": 0.11900001760000001,
+      "lightning": 0.12400001289999996,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 38,
+      "robustness": 22,
+      "focus": 61,
+      "vitality": 64
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 970000,
+    "name": "Omen Helm",
+    "weight": 9.899999619,
+    "poise": 14.00000043,
+    "abs": {
+      "physical": 0.06699997189999995,
+      "strike": 0.05400002000000004,
+      "slash": 0.06800001860000005,
+      "thrust": 0.06800001860000005,
+      "magic": 0.04600000380000002,
+      "fire": 0.051999986200000015,
+      "lightning": 0.05299997329999995,
+      "holy": 0.049000024799999986
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 27,
+      "focus": 24,
+      "vitality": 33
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 970100,
+    "name": "Omen Armor",
+    "weight": 23.10000038,
+    "poise": 43.00000146,
+    "abs": {
+      "physical": 0.18300002810000005,
+      "strike": 0.14999997620000005,
+      "slash": 0.1869999766,
+      "thrust": 0.1869999766,
+      "magic": 0.12999999520000005,
+      "fire": 0.1449999809,
+      "lightning": 0.148999989,
+      "holy": 0.13800001139999996
+    },
+    "res": {
+      "immunity": 67,
+      "robustness": 63,
+      "focus": 57,
+      "vitality": 76
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 970200,
+    "name": "Omen Gauntlets",
+    "weight": 7.699999809,
+    "poise": 8.99999961,
+    "abs": {
+      "physical": 0.04600000380000002,
+      "strike": 0.03700000049999996,
+      "slash": 0.046999990899999955,
+      "thrust": 0.046999990899999955,
+      "magic": 0.032000005200000015,
+      "fire": 0.03600001340000003,
+      "lightning": 0.03700000049999996,
+      "holy": 0.0339999795
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 21,
+      "focus": 19,
+      "vitality": 25
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 970300,
+    "name": "Omen Greaves",
+    "weight": 14.30000019,
+    "poise": 25.00000037,
+    "abs": {
+      "physical": 0.10600000620000005,
+      "strike": 0.08600002529999995,
+      "slash": 0.10799998040000003,
+      "thrust": 0.10799998040000003,
+      "magic": 0.07400000100000004,
+      "fire": 0.08300000429999999,
+      "lightning": 0.08499997849999996,
+      "holy": 0.07899999619999998
+    },
+    "res": {
+      "immunity": 41,
+      "robustness": 39,
+      "focus": 35,
+      "vitality": 47
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 980000,
+    "name": "Carian Knight Helm",
+    "weight": 4.599999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.03799998760000001,
+      "slash": 0.044000029600000046,
+      "thrust": 0.041999995700000015,
+      "magic": 0.044000029600000046,
+      "fire": 0.041999995700000015,
+      "lightning": 0.0339999795,
+      "holy": 0.041999995700000015
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 20,
+      "focus": 9,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 980100,
+    "name": "Carian Knight Armor",
+    "weight": 10.39999962,
+    "poise": 18.99999939,
+    "abs": {
+      "physical": 0.11799997090000003,
+      "strike": 0.10799998040000003,
+      "slash": 0.12300002570000002,
+      "thrust": 0.11799997090000003,
+      "magic": 0.12300002570000002,
+      "fire": 0.11799997090000003,
+      "lightning": 0.09399998190000003,
+      "holy": 0.11799997090000003
+    },
+    "res": {
+      "immunity": 28,
+      "robustness": 46,
+      "focus": 21,
+      "vitality": 23
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 980200,
+    "name": "Carian Knight Gauntlets",
+    "weight": 3.5,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.028999984299999948,
+      "strike": 0.027000009999999963,
+      "slash": 0.03100001809999997,
+      "thrust": 0.028999984299999948,
+      "magic": 0.03100001809999997,
+      "fire": 0.028999984299999948,
+      "lightning": 0.023000001899999956,
+      "holy": 0.028999984299999948
+    },
+    "res": {
+      "immunity": 9,
+      "robustness": 15,
+      "focus": 7,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 980300,
+    "name": "Carian Knight Greaves",
+    "weight": 6.599999905,
+    "poise": 10.99999994,
+    "abs": {
+      "physical": 0.06800001860000005,
+      "strike": 0.061999976600000006,
+      "slash": 0.07099997999999996,
+      "thrust": 0.06800001860000005,
+      "magic": 0.07099997999999996,
+      "fire": 0.06800001860000005,
+      "lightning": 0.05400002000000004,
+      "holy": 0.06800001860000005
+    },
+    "res": {
+      "immunity": 17,
+      "robustness": 29,
+      "focus": 13,
+      "vitality": 14
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 981100,
+    "name": "Carian Knight Armor (Altered)",
+    "weight": 9.699999809,
+    "poise": 17.99999923,
+    "abs": {
+      "physical": 0.11699998379999998,
+      "strike": 0.09799999000000004,
+      "slash": 0.12199997900000004,
+      "thrust": 0.11699998379999998,
+      "magic": 0.11699998379999998,
+      "fire": 0.11699998379999998,
+      "lightning": 0.0910000205,
+      "holy": 0.11699998379999998
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 38,
+      "focus": 16,
+      "vitality": 19
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 990000,
+    "name": "Hierodas Glintstone Crown",
+    "weight": 3,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.023000001899999956,
+      "strike": 0.023000001899999956,
+      "slash": 0.027999997100000007,
+      "thrust": 0.023000001899999956,
+      "magic": 0.049000024799999986,
+      "fire": 0.046999990899999955,
+      "lightning": 0.04600000380000002,
+      "holy": 0.049000024799999986
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 11,
+      "focus": 39,
+      "vitality": 42
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 990100,
+    "name": "Errant Sorcerer Robe",
+    "weight": 4.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.041999995700000015,
+      "slash": 0.06099998949999996,
+      "thrust": 0.041999995700000015,
+      "magic": 0.12999999520000005,
+      "fire": 0.12599998710000004,
+      "lightning": 0.12400001289999996,
+      "holy": 0.12999999520000005
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 23,
+      "focus": 67,
+      "vitality": 71
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 990200,
+    "name": "Errant Sorcerer Manchettes",
+    "weight": 1.100000024,
+    "poise": 1.00000005,
+    "abs": {
+      "physical": 0.005999982399999992,
+      "strike": 0.005999982399999992,
+      "slash": 0.013000011399999956,
+      "thrust": 0.005999982399999992,
+      "magic": 0.032000005200000015,
+      "fire": 0.03100001809999997,
+      "lightning": 0.028999984299999948,
+      "holy": 0.032000005200000015
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 7,
+      "focus": 21,
+      "vitality": 22
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 990300,
+    "name": "Errant Sorcerer Boots",
+    "weight": 3.099999905,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.029999971399999992,
+      "strike": 0.029999971399999992,
+      "slash": 0.03799998760000001,
+      "thrust": 0.029999971399999992,
+      "magic": 0.07599997520000001,
+      "fire": 0.07300001379999999,
+      "lightning": 0.07200002670000005,
+      "holy": 0.07599997520000001
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 15,
+      "focus": 47,
+      "vitality": 51
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 991100,
+    "name": "Errant Sorcerer Robe (Altered)",
+    "weight": 3.200000048,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.027000009999999963,
+      "strike": 0.027000009999999963,
+      "slash": 0.05299997329999995,
+      "thrust": 0.027000009999999963,
+      "magic": 0.12800002099999996,
+      "fire": 0.12400001289999996,
+      "lightning": 0.11900001760000001,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 31,
+      "robustness": 20,
+      "focus": 62,
+      "vitality": 66
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1000000,
+    "name": "Haima Glintstone Crown",
+    "weight": 2.700000048,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.023000001899999956,
+      "strike": 0.02499997620000005,
+      "slash": 0.02100002769999998,
+      "thrust": 0.023000001899999956,
+      "magic": 0.04799997810000001,
+      "fire": 0.04500001669999998,
+      "lightning": 0.04600000380000002,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 11,
+      "focus": 33,
+      "vitality": 39
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1000100,
+    "name": "Battlemage Robe",
+    "weight": 4.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.05299997329999995,
+      "strike": 0.06099998949999996,
+      "slash": 0.041999995700000015,
+      "thrust": 0.05299997329999995,
+      "magic": 0.12999999520000005,
+      "fire": 0.11900001760000001,
+      "lightning": 0.12400001289999996,
+      "holy": 0.12599998710000004
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 23,
+      "focus": 63,
+      "vitality": 71
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1000200,
+    "name": "Battlemage Manchettes",
+    "weight": 1.100000024,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.0099999905,
+      "strike": 0.013000011399999956,
+      "slash": 0.005999982399999992,
+      "thrust": 0.0099999905,
+      "magic": 0.032000005200000015,
+      "fire": 0.027999997100000007,
+      "lightning": 0.028999984299999948,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 13,
+      "robustness": 7,
+      "focus": 20,
+      "vitality": 22
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1000300,
+    "name": "Battlemage Legwraps",
+    "weight": 2.5,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.029999971399999992,
+      "strike": 0.0339999795,
+      "slash": 0.023000001899999956,
+      "thrust": 0.029999971399999992,
+      "magic": 0.07400000100000004,
+      "fire": 0.06800001860000005,
+      "lightning": 0.07099997999999996,
+      "holy": 0.07200002670000005
+    },
+    "res": {
+      "immunity": 26,
+      "robustness": 14,
+      "focus": 39,
+      "vitality": 44
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1010000,
+    "name": "Snow Witch Hat",
+    "weight": 2.200000048,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.018000006700000015,
+      "strike": 0.02100002769999998,
+      "slash": 0.02100002769999998,
+      "thrust": 0.013999998600000008,
+      "magic": 0.04600000380000002,
+      "fire": 0.04600000380000002,
+      "lightning": 0.04600000380000002,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 16,
+      "robustness": 14,
+      "focus": 31,
+      "vitality": 31
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1010100,
+    "name": "Snow Witch Robe",
+    "weight": 5.5,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.056999981399999955,
+      "strike": 0.06499999759999997,
+      "slash": 0.06499999759999997,
+      "thrust": 0.04600000380000002,
+      "magic": 0.13400000329999995,
+      "fire": 0.13400000329999995,
+      "lightning": 0.13200002909999997,
+      "holy": 0.13400000329999995
+    },
+    "res": {
+      "immunity": 38,
+      "robustness": 32,
+      "focus": 71,
+      "vitality": 71
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1010300,
+    "name": "Snow Witch Skirt",
+    "weight": 3.099999905,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.029999971399999992,
+      "strike": 0.0339999795,
+      "slash": 0.0339999795,
+      "thrust": 0.023000001899999956,
+      "magic": 0.07400000100000004,
+      "fire": 0.07400000100000004,
+      "lightning": 0.07300001379999999,
+      "holy": 0.07400000100000004
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 20,
+      "focus": 44,
+      "vitality": 44
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1011100,
+    "name": "Snow Witch Robe (Altered)",
+    "weight": 4.599999905,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.04600000380000002,
+      "strike": 0.056999981399999955,
+      "slash": 0.056999981399999955,
+      "thrust": 0.03100001809999997,
+      "magic": 0.13200002909999997,
+      "fire": 0.13200002909999997,
+      "lightning": 0.12999999520000005,
+      "holy": 0.13200002909999997
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 25,
+      "focus": 57,
+      "vitality": 57
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1020100,
+    "name": "Traveler's Clothes",
+    "weight": 4.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.06099998949999996,
+      "strike": 0.05299997329999995,
+      "slash": 0.041999995700000015,
+      "thrust": 0.027000009999999963,
+      "magic": 0.13300001620000002,
+      "fire": 0.12599998710000004,
+      "lightning": 0.12800002099999996,
+      "holy": 0.12400001289999996
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 24,
+      "focus": 67,
+      "vitality": 67
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1020200,
+    "name": "Traveler's Manchettes",
+    "weight": 1.700000048,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.015999972799999984,
+      "strike": 0.014999985700000051,
+      "slash": 0.013000011399999956,
+      "thrust": 0.0099999905,
+      "magic": 0.032999992399999956,
+      "fire": 0.032000005200000015,
+      "lightning": 0.032000005200000015,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 13,
+      "robustness": 8,
+      "focus": 25,
+      "vitality": 25
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1020300,
+    "name": "Traveler's Boots",
+    "weight": 3.099999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.03799998760000001,
+      "strike": 0.0339999795,
+      "slash": 0.029999971399999992,
+      "thrust": 0.023000001899999956,
+      "magic": 0.07700002189999999,
+      "fire": 0.07300001379999999,
+      "lightning": 0.07400000100000004,
+      "holy": 0.07200002670000005
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 15,
+      "focus": 47,
+      "vitality": 47
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1030000,
+    "name": "Juvenile Scholar Cap",
+    "weight": 1.399999976,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.013999998600000008,
+      "strike": 0.018000006700000015,
+      "slash": 0.018000006700000015,
+      "thrust": 0.013999998600000008,
+      "magic": 0.04500001669999998,
+      "fire": 0.04000002150000004,
+      "lightning": 0.041999995700000015,
+      "holy": 0.044000029600000046
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 10,
+      "focus": 26,
+      "vitality": 29
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1030100,
+    "name": "Juvenile Scholar Robe",
+    "weight": 4.099999905,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.05299997329999995,
+      "strike": 0.06099998949999996,
+      "slash": 0.06099998949999996,
+      "thrust": 0.05299997329999995,
+      "magic": 0.12800002099999996,
+      "fire": 0.11900001760000001,
+      "lightning": 0.12400001289999996,
+      "holy": 0.12599998710000004
+    },
+    "res": {
+      "immunity": 38,
+      "robustness": 25,
+      "focus": 63,
+      "vitality": 71
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1040000,
+    "name": "Radiant Gold Mask",
+    "weight": 2.200000048,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.023000001899999956,
+      "strike": 0.02100002769999998,
+      "slash": 0.02100002769999998,
+      "thrust": 0.013999998600000008,
+      "magic": 0.04600000380000002,
+      "fire": 0.04500001669999998,
+      "lightning": 0.04600000380000002,
+      "holy": 0.04799997810000001
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 9,
+      "focus": 33,
+      "vitality": 33
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1040100,
+    "name": "Goldmask's Rags",
+    "weight": 2.400000095,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.027000009999999963,
+      "slash": 0.027000009999999963,
+      "thrust": 0.005999982399999992,
+      "magic": 0.11900001760000001,
+      "fire": 0.11400002239999996,
+      "lightning": 0.11900001760000001,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 38,
+      "robustness": 11,
+      "focus": 60,
+      "vitality": 60
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1040200,
+    "name": "Gold Bracelets",
+    "weight": 0.8000000119,
+    "poise": 1.00000005,
+    "abs": {
+      "physical": 0.0099999905,
+      "strike": 0.005999982399999992,
+      "slash": 0.005999982399999992,
+      "thrust": 0.0009999871000000438,
+      "magic": 0.028999984299999948,
+      "fire": 0.027999997100000007,
+      "lightning": 0.028999984299999948,
+      "holy": 0.032000005200000015
+    },
+    "res": {
+      "immunity": 13,
+      "robustness": 4,
+      "focus": 20,
+      "vitality": 20
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1040300,
+    "name": "Gold Waistwrap",
+    "weight": 4.400000095,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.04000002150000004,
+      "strike": 0.03799998760000001,
+      "slash": 0.03799998760000001,
+      "thrust": 0.029999971399999992,
+      "magic": 0.07599997520000001,
+      "fire": 0.07400000100000004,
+      "lightning": 0.07599997520000001,
+      "holy": 0.08099997039999995
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 15,
+      "focus": 56,
+      "vitality": 56
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1050100,
+    "name": "Fell Omen Cloak",
+    "weight": 5.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.06099998949999996,
+      "strike": 0.06699997189999995,
+      "slash": 0.06699997189999995,
+      "thrust": 0.06099998949999996,
+      "magic": 0.12999999520000005,
+      "fire": 0.12400001289999996,
+      "lightning": 0.12599998710000004,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 25,
+      "focus": 71,
+      "vitality": 83
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1060000,
+    "name": "Albinauric Mask",
+    "weight": 3.799999952,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.04000002150000004,
+      "strike": 0.03100001809999997,
+      "slash": 0.04000002150000004,
+      "thrust": 0.03799998760000001,
+      "magic": 0.02499997620000005,
+      "fire": 0.03100001809999997,
+      "lightning": 0.02100002769999998,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 23,
+      "focus": 10,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1060100,
+    "name": "Dirty Chainmail",
+    "weight": 8.800000191,
+    "poise": 17.99999923,
+    "abs": {
+      "physical": 0.11400002239999996,
+      "strike": 0.08799999950000004,
+      "slash": 0.11900001760000001,
+      "thrust": 0.11400002239999996,
+      "magic": 0.07999998330000002,
+      "fire": 0.08799999950000004,
+      "lightning": 0.06099998949999996,
+      "holy": 0.07999998330000002
+    },
+    "res": {
+      "immunity": 25,
+      "robustness": 50,
+      "focus": 21,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1070000,
+    "name": "Zamor Mask",
+    "weight": 3.799999952,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.0339999795,
+      "slash": 0.044000029600000046,
+      "thrust": 0.03799998760000001,
+      "magic": 0.03100001809999997,
+      "fire": 0.03100001809999997,
+      "lightning": 0.02100002769999998,
+      "holy": 0.027999997100000007
+    },
+    "res": {
+      "immunity": 9,
+      "robustness": 27,
+      "focus": 5,
+      "vitality": 8
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1070100,
+    "name": "Zamor Armor",
+    "weight": 8.800000191,
+    "poise": 17.99999923,
+    "abs": {
+      "physical": 0.11900001760000001,
+      "strike": 0.09500002860000001,
+      "slash": 0.12400001289999996,
+      "thrust": 0.10900002720000002,
+      "magic": 0.08799999950000004,
+      "fire": 0.08799999950000004,
+      "lightning": 0.06099998949999996,
+      "holy": 0.07999998330000002
+    },
+    "res": {
+      "immunity": 21,
+      "robustness": 63,
+      "focus": 11,
+      "vitality": 18
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1070200,
+    "name": "Zamor Bracelets",
+    "weight": 2.799999952,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.027999997100000007,
+      "strike": 0.02100002769999998,
+      "slash": 0.028999984299999948,
+      "thrust": 0.02499997620000005,
+      "magic": 0.018999993799999948,
+      "fire": 0.018999993799999948,
+      "lightning": 0.013000011399999956,
+      "holy": 0.01700001959999997
+    },
+    "res": {
+      "immunity": 6,
+      "robustness": 20,
+      "focus": 0,
+      "vitality": 4
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1070300,
+    "name": "Zamor Legwraps",
+    "weight": 5.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.06499999759999997,
+      "strike": 0.05000001190000003,
+      "slash": 0.06800001860000005,
+      "thrust": 0.058000028100000045,
+      "magic": 0.04500001669999998,
+      "fire": 0.04500001669999998,
+      "lightning": 0.029999971399999992,
+      "holy": 0.04000002150000004
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 37,
+      "focus": 0,
+      "vitality": 7
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1080000,
+    "name": "Imp Head (Cat)",
+    "weight": 8.100000381,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.058000028100000045,
+      "strike": 0.051999986200000015,
+      "slash": 0.058000028100000045,
+      "thrust": 0.06099998949999996,
+      "magic": 0.05000001190000003,
+      "fire": 0.058000028100000045,
+      "lightning": 0.04799997810000001,
+      "holy": 0.05000001190000003
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 35,
+      "focus": 20,
+      "vitality": 20
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1081000,
+    "name": "Imp Head (Fanged)",
+    "weight": 8.100000381,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.058000028100000045,
+      "strike": 0.051999986200000015,
+      "slash": 0.058000028100000045,
+      "thrust": 0.06099998949999996,
+      "magic": 0.05000001190000003,
+      "fire": 0.058000028100000045,
+      "lightning": 0.04799997810000001,
+      "holy": 0.05000001190000003
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 35,
+      "focus": 20,
+      "vitality": 20
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1082000,
+    "name": "Imp Head (Long-Tongued)",
+    "weight": 8.100000381,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.058000028100000045,
+      "strike": 0.051999986200000015,
+      "slash": 0.058000028100000045,
+      "thrust": 0.06099998949999996,
+      "magic": 0.05000001190000003,
+      "fire": 0.058000028100000045,
+      "lightning": 0.04799997810000001,
+      "holy": 0.05000001190000003
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 35,
+      "focus": 20,
+      "vitality": 20
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1083000,
+    "name": "Imp Head (Corpse)",
+    "weight": 8.100000381,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.058000028100000045,
+      "strike": 0.051999986200000015,
+      "slash": 0.058000028100000045,
+      "thrust": 0.06099998949999996,
+      "magic": 0.05000001190000003,
+      "fire": 0.058000028100000045,
+      "lightning": 0.04799997810000001,
+      "holy": 0.05000001190000003
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 35,
+      "focus": 20,
+      "vitality": 20
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1084000,
+    "name": "Imp Head (Wolf)",
+    "weight": 8.100000381,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.058000028100000045,
+      "strike": 0.051999986200000015,
+      "slash": 0.058000028100000045,
+      "thrust": 0.06099998949999996,
+      "magic": 0.05000001190000003,
+      "fire": 0.058000028100000045,
+      "lightning": 0.04799997810000001,
+      "holy": 0.05000001190000003
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 35,
+      "focus": 20,
+      "vitality": 20
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1085000,
+    "name": "Imp Head (Elder)",
+    "weight": 8.100000381,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.058000028100000045,
+      "strike": 0.051999986200000015,
+      "slash": 0.058000028100000045,
+      "thrust": 0.06099998949999996,
+      "magic": 0.05000001190000003,
+      "fire": 0.058000028100000045,
+      "lightning": 0.04799997810000001,
+      "holy": 0.05000001190000003
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 35,
+      "focus": 20,
+      "vitality": 20
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1090000,
+    "name": "Silver Tear Mask",
+    "weight": 4.599999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.03600001340000003,
+      "slash": 0.03799998760000001,
+      "thrust": 0.03100001809999997,
+      "magic": 0.05500000719999998,
+      "fire": 0.051999986200000015,
+      "lightning": 0.05000001190000003,
+      "holy": 0.05299997329999995
+    },
+    "res": {
+      "immunity": 26,
+      "robustness": 20,
+      "focus": 44,
+      "vitality": 44
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1100000,
+    "name": "Chain Coif",
+    "weight": 3.799999952,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.041999995700000015,
+      "strike": 0.03100001809999997,
+      "slash": 0.04600000380000002,
+      "thrust": 0.041999995700000015,
+      "magic": 0.02499997620000005,
+      "fire": 0.03799998760000001,
+      "lightning": 0.02100002769999998,
+      "holy": 0.027999997100000007
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 18,
+      "focus": 5,
+      "vitality": 8
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1100100,
+    "name": "Chain Armor",
+    "weight": 8.800000191,
+    "poise": 17.00000092,
+    "abs": {
+      "physical": 0.11900001760000001,
+      "strike": 0.08799999950000004,
+      "slash": 0.1290000081,
+      "thrust": 0.11900001760000001,
+      "magic": 0.07099997999999996,
+      "fire": 0.10900002720000002,
+      "lightning": 0.06099998949999996,
+      "holy": 0.07999998330000002
+    },
+    "res": {
+      "immunity": 25,
+      "robustness": 42,
+      "focus": 11,
+      "vitality": 18
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1100200,
+    "name": "Chain Gauntlets",
+    "weight": 2.900000095,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.028999984299999948,
+      "strike": 0.02100002769999998,
+      "slash": 0.032000005200000015,
+      "thrust": 0.028999984299999948,
+      "magic": 0.01700001959999997,
+      "fire": 0.027000009999999963,
+      "lightning": 0.014999985700000051,
+      "holy": 0.018999993799999948
+    },
+    "res": {
+      "immunity": 8,
+      "robustness": 14,
+      "focus": 4,
+      "vitality": 6
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1100300,
+    "name": "Chain Leggings",
+    "weight": 5.5,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.06800001860000005,
+      "strike": 0.05000001190000003,
+      "slash": 0.07400000100000004,
+      "thrust": 0.06800001860000005,
+      "magic": 0.04000002150000004,
+      "fire": 0.061999976600000006,
+      "lightning": 0.0339999795,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 16,
+      "robustness": 26,
+      "focus": 7,
+      "vitality": 11
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1101000,
+    "name": "Greathelm",
+    "weight": 5.900000095,
+    "poise": 8.99999961,
+    "abs": {
+      "physical": 0.05500000719999998,
+      "strike": 0.041999995700000015,
+      "slash": 0.058000028100000045,
+      "thrust": 0.051999986200000015,
+      "magic": 0.041999995700000015,
+      "fire": 0.04600000380000002,
+      "lightning": 0.03799998760000001,
+      "holy": 0.041999995700000015
+    },
+    "res": {
+      "immunity": 16,
+      "robustness": 29,
+      "focus": 11,
+      "vitality": 11
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1101100,
+    "name": "Eye Surcoat",
+    "weight": 9.199999809,
+    "poise": 20.99999972,
+    "abs": {
+      "physical": 0.1290000081,
+      "strike": 0.08799999950000004,
+      "slash": 0.1290000081,
+      "thrust": 0.11900001760000001,
+      "magic": 0.08799999950000004,
+      "fire": 0.10900002720000002,
+      "lightning": 0.07099997999999996,
+      "holy": 0.08799999950000004
+    },
+    "res": {
+      "immunity": 25,
+      "robustness": 55,
+      "focus": 21,
+      "vitality": 18
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1102100,
+    "name": "Tree Surcoat",
+    "weight": 9.199999809,
+    "poise": 20.99999972,
+    "abs": {
+      "physical": 0.1290000081,
+      "strike": 0.08799999950000004,
+      "slash": 0.1290000081,
+      "thrust": 0.11900001760000001,
+      "magic": 0.08799999950000004,
+      "fire": 0.10900002720000002,
+      "lightning": 0.07099997999999996,
+      "holy": 0.08799999950000004
+    },
+    "res": {
+      "immunity": 25,
+      "robustness": 55,
+      "focus": 21,
+      "vitality": 18
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1110000,
+    "name": "Octopus Head",
+    "weight": 3.599999905,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.0339999795,
+      "strike": 0.05400002000000004,
+      "slash": 0.027999997100000007,
+      "thrust": 0.027999997100000007,
+      "magic": 0.04000002150000004,
+      "fire": 0.03600001340000003,
+      "lightning": 0.04000002150000004,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 31,
+      "robustness": 14,
+      "focus": 23,
+      "vitality": 23
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1120000,
+    "name": "Jar",
+    "weight": 6.800000191,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.06800001860000005,
+      "strike": 0.0339999795,
+      "slash": 0.06999999280000002,
+      "thrust": 0.06800001860000005,
+      "magic": 0.046999990899999955,
+      "fire": 0.049000024799999986,
+      "lightning": 0.04600000380000002,
+      "holy": 0.046999990899999955
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 33,
+      "focus": 16,
+      "vitality": 15
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1130000,
+    "name": "Mushroom Head",
+    "weight": 2.200000048,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.02100002769999998,
+      "strike": 0.02499997620000005,
+      "slash": 0.009000003299999948,
+      "thrust": 0.018000006700000015,
+      "magic": 0.046999990899999955,
+      "fire": 0.018000006700000015,
+      "lightning": 0.04600000380000002,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 44,
+      "robustness": 10,
+      "focus": 39,
+      "vitality": 33
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1130100,
+    "name": "Mushroom Body",
+    "weight": 5.099999905,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.06099998949999996,
+      "strike": 0.07099997999999996,
+      "slash": 0.027000009999999963,
+      "thrust": 0.05299997329999995,
+      "magic": 0.13300001620000002,
+      "fire": 0.05299997329999995,
+      "lightning": 0.12800002099999996,
+      "holy": 0.12999999520000005
+    },
+    "res": {
+      "immunity": 102,
+      "robustness": 24,
+      "focus": 90,
+      "vitality": 76
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1130200,
+    "name": "Mushroom Arms",
+    "weight": 1.700000048,
+    "poise": 1.00000005,
+    "abs": {
+      "physical": 0.014999985700000051,
+      "strike": 0.01700001959999997,
+      "slash": 0.005999982399999992,
+      "thrust": 0.013000011399999956,
+      "magic": 0.032999992399999956,
+      "fire": 0.013000011399999956,
+      "lightning": 0.032000005200000015,
+      "holy": 0.032000005200000015
+    },
+    "res": {
+      "immunity": 34,
+      "robustness": 8,
+      "focus": 30,
+      "vitality": 25
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1130300,
+    "name": "Mushroom Legs",
+    "weight": 3.099999905,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.0339999795,
+      "strike": 0.04000002150000004,
+      "slash": 0.014999985700000051,
+      "thrust": 0.029999971399999992,
+      "magic": 0.07599997520000001,
+      "fire": 0.029999971399999992,
+      "lightning": 0.07300001379999999,
+      "holy": 0.07400000100000004
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 15,
+      "focus": 56,
+      "vitality": 47
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1300000,
+    "name": "Nox Mirrorhelm",
+    "weight": 7.5,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.04000002150000004,
+      "strike": 0.0339999795,
+      "slash": 0.05500000719999998,
+      "thrust": 0.05000001190000003,
+      "magic": 0.06699997189999995,
+      "fire": 0.05299997329999995,
+      "lightning": 0.041999995700000015,
+      "holy": 0.05299997329999995
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 33,
+      "focus": 26,
+      "vitality": 42
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1301000,
+    "name": "Iji's Mirrorhelm",
+    "weight": 7.5,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.03799998760000001,
+      "strike": 0.03799998760000001,
+      "slash": 0.051999986200000015,
+      "thrust": 0.051999986200000015,
+      "magic": 0.061999976600000006,
+      "fire": 0.04600000380000002,
+      "lightning": 0.04799997810000001,
+      "holy": 0.058000028100000045
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 42,
+      "focus": 26,
+      "vitality": 39
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1400000,
+    "name": "Black Hood",
+    "weight": 3,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.027999997100000007,
+      "strike": 0.03100001809999997,
+      "slash": 0.03100001809999997,
+      "thrust": 0.03100001809999997,
+      "magic": 0.03100001809999997,
+      "fire": 0.0339999795,
+      "lightning": 0.03600001340000003,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 33,
+      "robustness": 16,
+      "focus": 16,
+      "vitality": 18
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1400100,
+    "name": "Leather Armor",
+    "weight": 7.099999905,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.07999998330000002,
+      "strike": 0.09500002860000001,
+      "slash": 0.07999998330000002,
+      "thrust": 0.08799999950000004,
+      "magic": 0.09500002860000001,
+      "fire": 0.09500002860000001,
+      "lightning": 0.10199999810000004,
+      "holy": 0.10199999810000004
+    },
+    "res": {
+      "immunity": 60,
+      "robustness": 35,
+      "focus": 42,
+      "vitality": 50
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1400200,
+    "name": "Leather Gloves",
+    "weight": 2.400000095,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.018999993799999948,
+      "strike": 0.023000001899999956,
+      "slash": 0.018999993799999948,
+      "thrust": 0.02100002769999998,
+      "magic": 0.023000001899999956,
+      "fire": 0.023000001899999956,
+      "lightning": 0.02499997620000005,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 12,
+      "focus": 14,
+      "vitality": 17
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1400300,
+    "name": "Leather Boots",
+    "weight": 4.400000095,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.04500001669999998,
+      "strike": 0.05400002000000004,
+      "slash": 0.04500001669999998,
+      "thrust": 0.05000001190000003,
+      "magic": 0.05400002000000004,
+      "fire": 0.05400002000000004,
+      "lightning": 0.058000028100000045,
+      "holy": 0.058000028100000045
+    },
+    "res": {
+      "immunity": 37,
+      "robustness": 22,
+      "focus": 26,
+      "vitality": 31
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1401000,
+    "name": "Bandit Mask",
+    "weight": 3,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.027999997100000007,
+      "strike": 0.03100001809999997,
+      "slash": 0.03100001809999997,
+      "thrust": 0.03100001809999997,
+      "magic": 0.03100001809999997,
+      "fire": 0.0339999795,
+      "lightning": 0.03600001340000003,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 30,
+      "robustness": 14,
+      "focus": 14,
+      "vitality": 16
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1500000,
+    "name": "Knight Helm",
+    "weight": 4.599999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.041999995700000015,
+      "slash": 0.04799997810000001,
+      "thrust": 0.04799997810000001,
+      "magic": 0.03799998760000001,
+      "fire": 0.03799998760000001,
+      "lightning": 0.0339999795,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 22,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1500100,
+    "name": "Knight Armor",
+    "weight": 10.60000038,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.12400001289999996,
+      "strike": 0.11900001760000001,
+      "slash": 0.1349999905,
+      "thrust": 0.1349999905,
+      "magic": 0.10900002720000002,
+      "fire": 0.10900002720000002,
+      "lightning": 0.09500002860000001,
+      "holy": 0.08799999950000004
+    },
+    "res": {
+      "immunity": 28,
+      "robustness": 50,
+      "focus": 18,
+      "vitality": 18
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1500200,
+    "name": "Knight Gauntlets",
+    "weight": 3.5,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.03100001809999997,
+      "strike": 0.028999984299999948,
+      "slash": 0.032999992399999956,
+      "thrust": 0.032999992399999956,
+      "magic": 0.027000009999999963,
+      "fire": 0.027000009999999963,
+      "lightning": 0.023000001899999956,
+      "holy": 0.02100002769999998
+    },
+    "res": {
+      "immunity": 9,
+      "robustness": 17,
+      "focus": 6,
+      "vitality": 6
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1500300,
+    "name": "Knight Greaves",
+    "weight": 6.599999905,
+    "poise": 14.00000043,
+    "abs": {
+      "physical": 0.07099997999999996,
+      "strike": 0.06800001860000005,
+      "slash": 0.07700002189999999,
+      "thrust": 0.07700002189999999,
+      "magic": 0.061999976600000006,
+      "fire": 0.061999976600000006,
+      "lightning": 0.05400002000000004,
+      "holy": 0.05000001190000003
+    },
+    "res": {
+      "immunity": 17,
+      "robustness": 31,
+      "focus": 11,
+      "vitality": 11
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1600000,
+    "name": "Greathood",
+    "weight": 5.099999905,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.03799998760000001,
+      "strike": 0.03600001340000003,
+      "slash": 0.03799998760000001,
+      "thrust": 0.03600001340000003,
+      "magic": 0.05500000719999998,
+      "fire": 0.05000001190000003,
+      "lightning": 0.05500000719999998,
+      "holy": 0.061999976600000006
+    },
+    "res": {
+      "immunity": 33,
+      "robustness": 20,
+      "focus": 47,
+      "vitality": 47
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1700000,
+    "name": "Godrick Soldier Helm",
+    "weight": 4,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.03600001340000003,
+      "slash": 0.044000029600000046,
+      "thrust": 0.041999995700000015,
+      "magic": 0.03100001809999997,
+      "fire": 0.03600001340000003,
+      "lightning": 0.02499997620000005,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 22,
+      "focus": 9,
+      "vitality": 9
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1700100,
+    "name": "Tree-and-Beast Surcoat",
+    "weight": 10.60000038,
+    "poise": 21.99999988,
+    "abs": {
+      "physical": 0.1290000081,
+      "strike": 0.11400002239999996,
+      "slash": 0.1290000081,
+      "thrust": 0.12400001289999996,
+      "magic": 0.10199999810000004,
+      "fire": 0.10900002720000002,
+      "lightning": 0.07999998330000002,
+      "holy": 0.09500002860000001
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 55,
+      "focus": 23,
+      "vitality": 23
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1700200,
+    "name": "Godrick Soldier Gauntlets",
+    "weight": 3.5,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.032000005200000015,
+      "strike": 0.027999997100000007,
+      "slash": 0.032000005200000015,
+      "thrust": 0.03100001809999997,
+      "magic": 0.02499997620000005,
+      "fire": 0.027000009999999963,
+      "lightning": 0.018999993799999948,
+      "holy": 0.023000001899999956
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 18,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1700300,
+    "name": "Godrick Soldier Greaves",
+    "weight": 6.599999905,
+    "poise": 13.00000027,
+    "abs": {
+      "physical": 0.07400000100000004,
+      "strike": 0.06499999759999997,
+      "slash": 0.07400000100000004,
+      "thrust": 0.07099997999999996,
+      "magic": 0.058000028100000045,
+      "fire": 0.061999976600000006,
+      "lightning": 0.04500001669999998,
+      "holy": 0.05400002000000004
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 34,
+      "focus": 14,
+      "vitality": 14
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1710000,
+    "name": "Raya Lucarian Helm",
+    "weight": 4,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.0339999795,
+      "slash": 0.04600000380000002,
+      "thrust": 0.044000029600000046,
+      "magic": 0.0339999795,
+      "fire": 0.03600001340000003,
+      "lightning": 0.023000001899999956,
+      "holy": 0.027999997100000007
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 22,
+      "focus": 9,
+      "vitality": 9
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1710100,
+    "name": "Cuckoo Surcoat",
+    "weight": 10.60000038,
+    "poise": 21.99999988,
+    "abs": {
+      "physical": 0.1290000081,
+      "strike": 0.10900002720000002,
+      "slash": 0.1349999905,
+      "thrust": 0.1290000081,
+      "magic": 0.11900001760000001,
+      "fire": 0.10900002720000002,
+      "lightning": 0.07099997999999996,
+      "holy": 0.08799999950000004
+    },
+    "res": {
+      "immunity": 28,
+      "robustness": 55,
+      "focus": 23,
+      "vitality": 23
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1710200,
+    "name": "Raya Lucarian Gauntlets",
+    "weight": 3.5,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.032000005200000015,
+      "strike": 0.027000009999999963,
+      "slash": 0.032999992399999956,
+      "thrust": 0.032000005200000015,
+      "magic": 0.027000009999999963,
+      "fire": 0.027000009999999963,
+      "lightning": 0.01700001959999997,
+      "holy": 0.02100002769999998
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 18,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1710300,
+    "name": "Raya Lucarian Greaves",
+    "weight": 6.599999905,
+    "poise": 13.00000027,
+    "abs": {
+      "physical": 0.07400000100000004,
+      "strike": 0.061999976600000006,
+      "slash": 0.07700002189999999,
+      "thrust": 0.07400000100000004,
+      "magic": 0.061999976600000006,
+      "fire": 0.061999976600000006,
+      "lightning": 0.04000002150000004,
+      "holy": 0.05000001190000003
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 34,
+      "focus": 14,
+      "vitality": 14
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1720000,
+    "name": "Leyndell Soldier Helm",
+    "weight": 4,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.03799998760000001,
+      "slash": 0.041999995700000015,
+      "thrust": 0.044000029600000046,
+      "magic": 0.027999997100000007,
+      "fire": 0.0339999795,
+      "lightning": 0.027999997100000007,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 22,
+      "focus": 9,
+      "vitality": 9
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1720100,
+    "name": "Erdtree Surcoat",
+    "weight": 10.60000038,
+    "poise": 21.99999988,
+    "abs": {
+      "physical": 0.1290000081,
+      "strike": 0.11900001760000001,
+      "slash": 0.12400001289999996,
+      "thrust": 0.1290000081,
+      "magic": 0.09500002860000001,
+      "fire": 0.10199999810000004,
+      "lightning": 0.08799999950000004,
+      "holy": 0.09500002860000001
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 55,
+      "focus": 23,
+      "vitality": 23
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1720200,
+    "name": "Leyndell Soldier Gauntlets",
+    "weight": 3.5,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.032000005200000015,
+      "strike": 0.028999984299999948,
+      "slash": 0.03100001809999997,
+      "thrust": 0.032000005200000015,
+      "magic": 0.023000001899999956,
+      "fire": 0.02499997620000005,
+      "lightning": 0.02100002769999998,
+      "holy": 0.023000001899999956
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 18,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1720300,
+    "name": "Leyndell Soldier Greaves",
+    "weight": 6.599999905,
+    "poise": 13.00000027,
+    "abs": {
+      "physical": 0.07400000100000004,
+      "strike": 0.06800001860000005,
+      "slash": 0.07099997999999996,
+      "thrust": 0.07400000100000004,
+      "magic": 0.05400002000000004,
+      "fire": 0.058000028100000045,
+      "lightning": 0.05000001190000003,
+      "holy": 0.05400002000000004
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 34,
+      "focus": 14,
+      "vitality": 14
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1730000,
+    "name": "Radahn Soldier Helm",
+    "weight": 4,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.04600000380000002,
+      "strike": 0.0339999795,
+      "slash": 0.041999995700000015,
+      "thrust": 0.04000002150000004,
+      "magic": 0.03100001809999997,
+      "fire": 0.03799998760000001,
+      "lightning": 0.02499997620000005,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 20,
+      "focus": 9,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1730100,
+    "name": "Redmane Surcoat",
+    "weight": 10.60000038,
+    "poise": 21.99999988,
+    "abs": {
+      "physical": 0.1349999905,
+      "strike": 0.10900002720000002,
+      "slash": 0.12400001289999996,
+      "thrust": 0.11900001760000001,
+      "magic": 0.10199999810000004,
+      "fire": 0.11400002239999996,
+      "lightning": 0.07999998330000002,
+      "holy": 0.09500002860000001
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 50,
+      "focus": 23,
+      "vitality": 24
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1730200,
+    "name": "Radahn Soldier Gauntlets",
+    "weight": 3.5,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.032999992399999956,
+      "strike": 0.027000009999999963,
+      "slash": 0.03100001809999997,
+      "thrust": 0.028999984299999948,
+      "magic": 0.02499997620000005,
+      "fire": 0.027999997100000007,
+      "lightning": 0.018999993799999948,
+      "holy": 0.023000001899999956
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 17,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1730300,
+    "name": "Radahn Soldier Greaves",
+    "weight": 6.599999905,
+    "poise": 13.00000027,
+    "abs": {
+      "physical": 0.07700002189999999,
+      "strike": 0.061999976600000006,
+      "slash": 0.07099997999999996,
+      "thrust": 0.06800001860000005,
+      "magic": 0.058000028100000045,
+      "fire": 0.06499999759999997,
+      "lightning": 0.04500001669999998,
+      "holy": 0.05400002000000004
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 31,
+      "focus": 14,
+      "vitality": 15
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1740100,
+    "name": "Mausoleum Surcoat",
+    "weight": 10.60000038,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.1290000081,
+      "strike": 0.10900002720000002,
+      "slash": 0.1349999905,
+      "thrust": 0.12400001289999996,
+      "magic": 0.10199999810000004,
+      "fire": 0.10199999810000004,
+      "lightning": 0.08799999950000004,
+      "holy": 0.10199999810000004
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 50,
+      "focus": 23,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1740200,
+    "name": "Mausoleum Gauntlets",
+    "weight": 3.5,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.032000005200000015,
+      "strike": 0.027000009999999963,
+      "slash": 0.032999992399999956,
+      "thrust": 0.03100001809999997,
+      "magic": 0.02499997620000005,
+      "fire": 0.02499997620000005,
+      "lightning": 0.02100002769999998,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 17,
+      "focus": 8,
+      "vitality": 7
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1740300,
+    "name": "Mausoleum Greaves",
+    "weight": 6.599999905,
+    "poise": 14.00000043,
+    "abs": {
+      "physical": 0.07400000100000004,
+      "strike": 0.061999976600000006,
+      "slash": 0.07700002189999999,
+      "thrust": 0.07099997999999996,
+      "magic": 0.058000028100000045,
+      "fire": 0.058000028100000045,
+      "lightning": 0.05000001190000003,
+      "holy": 0.058000028100000045
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 31,
+      "focus": 14,
+      "vitality": 13
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1750000,
+    "name": "Haligtree Helm",
+    "weight": 4,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.03799998760000001,
+      "slash": 0.041999995700000015,
+      "thrust": 0.044000029600000046,
+      "magic": 0.027999997100000007,
+      "fire": 0.0339999795,
+      "lightning": 0.02499997620000005,
+      "holy": 0.0339999795
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 22,
+      "focus": 9,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1750100,
+    "name": "Haligtree Crest Surcoat",
+    "weight": 10.60000038,
+    "poise": 20.99999972,
+    "abs": {
+      "physical": 0.1290000081,
+      "strike": 0.11900001760000001,
+      "slash": 0.12400001289999996,
+      "thrust": 0.1290000081,
+      "magic": 0.09500002860000001,
+      "fire": 0.10199999810000004,
+      "lightning": 0.07999998330000002,
+      "holy": 0.10199999810000004
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 55,
+      "focus": 23,
+      "vitality": 24
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1750200,
+    "name": "Haligtree Gauntlets",
+    "weight": 3.5,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.032000005200000015,
+      "strike": 0.028999984299999948,
+      "slash": 0.03100001809999997,
+      "thrust": 0.032000005200000015,
+      "magic": 0.023000001899999956,
+      "fire": 0.02499997620000005,
+      "lightning": 0.018999993799999948,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 18,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1750300,
+    "name": "Haligtree Greaves",
+    "weight": 6.599999905,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.07400000100000004,
+      "strike": 0.06800001860000005,
+      "slash": 0.07099997999999996,
+      "thrust": 0.07400000100000004,
+      "magic": 0.05400002000000004,
+      "fire": 0.058000028100000045,
+      "lightning": 0.04500001669999998,
+      "holy": 0.058000028100000045
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 34,
+      "focus": 14,
+      "vitality": 15
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1760000,
+    "name": "Gelmir Knight Helm",
+    "weight": 5.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.04799997810000001,
+      "strike": 0.04000002150000004,
+      "slash": 0.05000001190000003,
+      "thrust": 0.04799997810000001,
+      "magic": 0.03799998760000001,
+      "fire": 0.044000029600000046,
+      "lightning": 0.03600001340000003,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 23,
+      "focus": 10,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1760100,
+    "name": "Gelmir Knight Armor",
+    "weight": 11.80000019,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.1349999905,
+      "strike": 0.11400002239999996,
+      "slash": 0.13999998570000005,
+      "thrust": 0.1349999905,
+      "magic": 0.10900002720000002,
+      "fire": 0.12400001289999996,
+      "lightning": 0.10199999810000004,
+      "holy": 0.10900002720000002
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 55,
+      "focus": 24,
+      "vitality": 23
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1760200,
+    "name": "Gelmir Knight Gauntlets",
+    "weight": 3.900000095,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.032999992399999956,
+      "strike": 0.027999997100000007,
+      "slash": 0.03500002619999998,
+      "thrust": 0.032999992399999956,
+      "magic": 0.027000009999999963,
+      "fire": 0.03100001809999997,
+      "lightning": 0.02499997620000005,
+      "holy": 0.027000009999999963
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 18,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1760300,
+    "name": "Gelmir Knight Greaves",
+    "weight": 7.300000191,
+    "poise": 14.00000043,
+    "abs": {
+      "physical": 0.07700002189999999,
+      "strike": 0.06499999759999997,
+      "slash": 0.07999998330000002,
+      "thrust": 0.07700002189999999,
+      "magic": 0.061999976600000006,
+      "fire": 0.07099997999999996,
+      "lightning": 0.058000028100000045,
+      "holy": 0.061999976600000006
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 34,
+      "focus": 15,
+      "vitality": 14
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1761100,
+    "name": "Gelmir Knight Armor (Altered)",
+    "weight": 10.80000019,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.1309999824,
+      "strike": 0.11000001429999995,
+      "slash": 0.13599997760000004,
+      "thrust": 0.1309999824,
+      "magic": 0.10500001910000001,
+      "fire": 0.12000000479999995,
+      "lightning": 0.09799999000000004,
+      "holy": 0.10500001910000001
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 50,
+      "focus": 21,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1770000,
+    "name": "Godrick Knight Helm",
+    "weight": 5.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.04799997810000001,
+      "strike": 0.041999995700000015,
+      "slash": 0.05000001190000003,
+      "thrust": 0.04600000380000002,
+      "magic": 0.03799998760000001,
+      "fire": 0.041999995700000015,
+      "lightning": 0.0339999795,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 24,
+      "focus": 10,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1770100,
+    "name": "Godrick Knight Armor",
+    "weight": 11.80000019,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.1349999905,
+      "strike": 0.11900001760000001,
+      "slash": 0.13999998570000005,
+      "thrust": 0.1290000081,
+      "magic": 0.10900002720000002,
+      "fire": 0.11900001760000001,
+      "lightning": 0.09500002860000001,
+      "holy": 0.10900002720000002
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 57,
+      "focus": 24,
+      "vitality": 24
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1770200,
+    "name": "Godrick Knight Gauntlets",
+    "weight": 3.900000095,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.032999992399999956,
+      "strike": 0.028999984299999948,
+      "slash": 0.03500002619999998,
+      "thrust": 0.032000005200000015,
+      "magic": 0.027000009999999963,
+      "fire": 0.028999984299999948,
+      "lightning": 0.023000001899999956,
+      "holy": 0.027000009999999963
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 19,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1770300,
+    "name": "Godrick Knight Greaves",
+    "weight": 7.300000191,
+    "poise": 14.00000043,
+    "abs": {
+      "physical": 0.07700002189999999,
+      "strike": 0.06800001860000005,
+      "slash": 0.07999998330000002,
+      "thrust": 0.07400000100000004,
+      "magic": 0.061999976600000006,
+      "fire": 0.06800001860000005,
+      "lightning": 0.05400002000000004,
+      "holy": 0.061999976600000006
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 35,
+      "focus": 15,
+      "vitality": 15
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1771100,
+    "name": "Godrick Knight Armor (Altered)",
+    "weight": 10.80000019,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.1309999824,
+      "strike": 0.1150000095,
+      "slash": 0.13599997760000004,
+      "thrust": 0.125,
+      "magic": 0.10500001910000001,
+      "fire": 0.1150000095,
+      "lightning": 0.0910000205,
+      "holy": 0.10500001910000001
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 52,
+      "focus": 21,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1780000,
+    "name": "Cuckoo Knight Helm",
+    "weight": 5.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.04799997810000001,
+      "strike": 0.04000002150000004,
+      "slash": 0.051999986200000015,
+      "thrust": 0.04799997810000001,
+      "magic": 0.044000029600000046,
+      "fire": 0.041999995700000015,
+      "lightning": 0.03100001809999997,
+      "holy": 0.03600001340000003
+    },
+    "res": {
+      "immunity": 14,
+      "robustness": 24,
+      "focus": 10,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1780100,
+    "name": "Cuckoo Knight Armor",
+    "weight": 11.80000019,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.1349999905,
+      "strike": 0.11400002239999996,
+      "slash": 0.14600002769999998,
+      "thrust": 0.1349999905,
+      "magic": 0.12400001289999996,
+      "fire": 0.11900001760000001,
+      "lightning": 0.08799999950000004,
+      "holy": 0.10199999810000004
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 57,
+      "focus": 24,
+      "vitality": 24
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1780200,
+    "name": "Cuckoo Knight Gauntlets",
+    "weight": 3.900000095,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.032999992399999956,
+      "strike": 0.027999997100000007,
+      "slash": 0.03600001340000003,
+      "thrust": 0.032999992399999956,
+      "magic": 0.03100001809999997,
+      "fire": 0.028999984299999948,
+      "lightning": 0.02100002769999998,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 11,
+      "robustness": 19,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1780300,
+    "name": "Cuckoo Knight Greaves",
+    "weight": 7.300000191,
+    "poise": 14.00000043,
+    "abs": {
+      "physical": 0.07700002189999999,
+      "strike": 0.06499999759999997,
+      "slash": 0.08399999140000003,
+      "thrust": 0.07700002189999999,
+      "magic": 0.07099997999999996,
+      "fire": 0.06800001860000005,
+      "lightning": 0.05000001190000003,
+      "holy": 0.058000028100000045
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 35,
+      "focus": 15,
+      "vitality": 15
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1781100,
+    "name": "Cuckoo Knight Armor (Altered)",
+    "weight": 10.80000019,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.1309999824,
+      "strike": 0.11000001429999995,
+      "slash": 0.14200001959999997,
+      "thrust": 0.1309999824,
+      "magic": 0.12000000479999995,
+      "fire": 0.1150000095,
+      "lightning": 0.08399999140000003,
+      "holy": 0.09799999000000004
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 52,
+      "focus": 21,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1790000,
+    "name": "Leyndell Knight Helm",
+    "weight": 5.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.04799997810000001,
+      "strike": 0.044000029600000046,
+      "slash": 0.04799997810000001,
+      "thrust": 0.04799997810000001,
+      "magic": 0.03600001340000003,
+      "fire": 0.04000002150000004,
+      "lightning": 0.03600001340000003,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 24,
+      "focus": 10,
+      "vitality": 10
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1790100,
+    "name": "Leyndell Knight Armor",
+    "weight": 11.80000019,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.1349999905,
+      "strike": 0.12400001289999996,
+      "slash": 0.1349999905,
+      "thrust": 0.1349999905,
+      "magic": 0.10199999810000004,
+      "fire": 0.11400002239999996,
+      "lightning": 0.11400002239999996,
+      "holy": 0.10199999810000004
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 55,
+      "focus": 24,
+      "vitality": 24
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1790200,
+    "name": "Leyndell Knight Gauntlets",
+    "weight": 3.900000095,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.032999992399999956,
+      "strike": 0.03100001809999997,
+      "slash": 0.032999992399999956,
+      "thrust": 0.032999992399999956,
+      "magic": 0.02499997620000005,
+      "fire": 0.027999997100000007,
+      "lightning": 0.02499997620000005,
+      "holy": 0.027000009999999963
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 19,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1790300,
+    "name": "Leyndell Knight Greaves",
+    "weight": 7.300000191,
+    "poise": 14.00000043,
+    "abs": {
+      "physical": 0.07700002189999999,
+      "strike": 0.07099997999999996,
+      "slash": 0.07700002189999999,
+      "thrust": 0.07700002189999999,
+      "magic": 0.058000028100000045,
+      "fire": 0.06499999759999997,
+      "lightning": 0.058000028100000045,
+      "holy": 0.061999976600000006
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 35,
+      "focus": 15,
+      "vitality": 15
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1791100,
+    "name": "Leyndell Knight Armor (Altered)",
+    "weight": 10.80000019,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.1309999824,
+      "strike": 0.12000000479999995,
+      "slash": 0.1309999824,
+      "thrust": 0.1309999824,
+      "magic": 0.09799999000000004,
+      "fire": 0.11000001429999995,
+      "lightning": 0.11000001429999995,
+      "holy": 0.09799999000000004
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 50,
+      "focus": 21,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1800000,
+    "name": "Redmane Knight Helm",
+    "weight": 5.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.05000001190000003,
+      "strike": 0.04000002150000004,
+      "slash": 0.04799997810000001,
+      "thrust": 0.044000029600000046,
+      "magic": 0.03799998760000001,
+      "fire": 0.044000029600000046,
+      "lightning": 0.0339999795,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 23,
+      "focus": 10,
+      "vitality": 11
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1800100,
+    "name": "Redmane Knight Armor",
+    "weight": 11.80000019,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.1349999905,
+      "strike": 0.11400002239999996,
+      "slash": 0.1349999905,
+      "thrust": 0.12400001289999996,
+      "magic": 0.10900002720000002,
+      "fire": 0.12800002099999996,
+      "lightning": 0.09500002860000001,
+      "holy": 0.10900002720000002
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 55,
+      "focus": 24,
+      "vitality": 25
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1800200,
+    "name": "Redmane Knight Gauntlets",
+    "weight": 3.900000095,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.03500002619999998,
+      "strike": 0.027999997100000007,
+      "slash": 0.032999992399999956,
+      "thrust": 0.03100001809999997,
+      "magic": 0.027000009999999963,
+      "fire": 0.03100001809999997,
+      "lightning": 0.023000001899999956,
+      "holy": 0.027000009999999963
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 18,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1800300,
+    "name": "Redmane Knight Greaves",
+    "weight": 7.300000191,
+    "poise": 14.00000043,
+    "abs": {
+      "physical": 0.07700002189999999,
+      "strike": 0.06499999759999997,
+      "slash": 0.07700002189999999,
+      "thrust": 0.07099997999999996,
+      "magic": 0.061999976600000006,
+      "fire": 0.07300001379999999,
+      "lightning": 0.05400002000000004,
+      "holy": 0.061999976600000006
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 34,
+      "focus": 15,
+      "vitality": 15
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1801100,
+    "name": "Redmane Knight Armor (Altered)",
+    "weight": 10.80000019,
+    "poise": 24.00000021,
+    "abs": {
+      "physical": 0.1309999824,
+      "strike": 0.11000001429999995,
+      "slash": 0.1309999824,
+      "thrust": 0.12000000479999995,
+      "magic": 0.10500001910000001,
+      "fire": 0.12400001289999996,
+      "lightning": 0.0910000205,
+      "holy": 0.10500001910000001
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 50,
+      "focus": 21,
+      "vitality": 22
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1810100,
+    "name": "Mausoleum Knight Armor",
+    "weight": 11.80000019,
+    "poise": 25.00000037,
+    "abs": {
+      "physical": 0.1349999905,
+      "strike": 0.11400002239999996,
+      "slash": 0.14600002769999998,
+      "thrust": 0.1290000081,
+      "magic": 0.10900002720000002,
+      "fire": 0.11400002239999996,
+      "lightning": 0.10199999810000004,
+      "holy": 0.11400002239999996
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 55,
+      "focus": 24,
+      "vitality": 23
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1810200,
+    "name": "Mausoleum Knight Gauntlets",
+    "weight": 3.900000095,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.032999992399999956,
+      "strike": 0.027999997100000007,
+      "slash": 0.03600001340000003,
+      "thrust": 0.032000005200000015,
+      "magic": 0.027000009999999963,
+      "fire": 0.027999997100000007,
+      "lightning": 0.02499997620000005,
+      "holy": 0.027999997100000007
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 18,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1810300,
+    "name": "Mausoleum Knight Greaves",
+    "weight": 7.300000191,
+    "poise": 14.99999966,
+    "abs": {
+      "physical": 0.07700002189999999,
+      "strike": 0.06499999759999997,
+      "slash": 0.08399999140000003,
+      "thrust": 0.07400000100000004,
+      "magic": 0.061999976600000006,
+      "fire": 0.06499999759999997,
+      "lightning": 0.058000028100000045,
+      "holy": 0.06499999759999997
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 34,
+      "focus": 15,
+      "vitality": 14
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1811100,
+    "name": "Mausoleum Knight Armor (Altered)",
+    "weight": 10.80000019,
+    "poise": 25.00000037,
+    "abs": {
+      "physical": 0.1309999824,
+      "strike": 0.11000001429999995,
+      "slash": 0.14200001959999997,
+      "thrust": 0.125,
+      "magic": 0.10500001910000001,
+      "fire": 0.11000001429999995,
+      "lightning": 0.09799999000000004,
+      "holy": 0.11000001429999995
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 50,
+      "focus": 21,
+      "vitality": 21
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1820000,
+    "name": "Haligtree Knight Helm",
+    "weight": 5.099999905,
+    "poise": 7.00000022,
+    "abs": {
+      "physical": 0.04799997810000001,
+      "strike": 0.044000029600000046,
+      "slash": 0.04799997810000001,
+      "thrust": 0.04799997810000001,
+      "magic": 0.03600001340000003,
+      "fire": 0.04000002150000004,
+      "lightning": 0.0339999795,
+      "holy": 0.04000002150000004
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 24,
+      "focus": 10,
+      "vitality": 11
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1820100,
+    "name": "Haligtree Knight Armor",
+    "weight": 11.80000019,
+    "poise": 21.99999988,
+    "abs": {
+      "physical": 0.1349999905,
+      "strike": 0.12400001289999996,
+      "slash": 0.1349999905,
+      "thrust": 0.1349999905,
+      "magic": 0.10199999810000004,
+      "fire": 0.11400002239999996,
+      "lightning": 0.09500002860000001,
+      "holy": 0.11400002239999996
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 57,
+      "focus": 24,
+      "vitality": 25
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1820200,
+    "name": "Haligtree Knight Gauntlets",
+    "weight": 3.900000095,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.032999992399999956,
+      "strike": 0.03100001809999997,
+      "slash": 0.032999992399999956,
+      "thrust": 0.032999992399999956,
+      "magic": 0.02499997620000005,
+      "fire": 0.027999997100000007,
+      "lightning": 0.023000001899999956,
+      "holy": 0.027999997100000007
+    },
+    "res": {
+      "immunity": 12,
+      "robustness": 19,
+      "focus": 8,
+      "vitality": 8
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1820300,
+    "name": "Haligtree Knight Greaves",
+    "weight": 7.300000191,
+    "poise": 13.00000027,
+    "abs": {
+      "physical": 0.07700002189999999,
+      "strike": 0.07099997999999996,
+      "slash": 0.07700002189999999,
+      "thrust": 0.07700002189999999,
+      "magic": 0.058000028100000045,
+      "fire": 0.06499999759999997,
+      "lightning": 0.05400002000000004,
+      "holy": 0.06499999759999997
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 35,
+      "focus": 15,
+      "vitality": 15
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1821100,
+    "name": "Haligtree Knight Armor (Altered)",
+    "weight": 10.80000019,
+    "poise": 21.99999988,
+    "abs": {
+      "physical": 0.1309999824,
+      "strike": 0.12000000479999995,
+      "slash": 0.1309999824,
+      "thrust": 0.1309999824,
+      "magic": 0.09799999000000004,
+      "fire": 0.11000001429999995,
+      "lightning": 0.0910000205,
+      "holy": 0.11000001429999995
+    },
+    "res": {
+      "immunity": 32,
+      "robustness": 52,
+      "focus": 21,
+      "vitality": 22
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1830000,
+    "name": "Foot Soldier Cap",
+    "weight": 3.599999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.0339999795,
+      "strike": 0.03600001340000003,
+      "slash": 0.0339999795,
+      "thrust": 0.0339999795,
+      "magic": 0.03799998760000001,
+      "fire": 0.04000002150000004,
+      "lightning": 0.041999995700000015,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 27,
+      "robustness": 18,
+      "focus": 23,
+      "vitality": 23
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1830100,
+    "name": "Chain-Draped Tabard",
+    "weight": 8.300000191,
+    "poise": 17.00000092,
+    "abs": {
+      "physical": 0.09500002860000001,
+      "strike": 0.10199999810000004,
+      "slash": 0.09500002860000001,
+      "thrust": 0.09500002860000001,
+      "magic": 0.10900002720000002,
+      "fire": 0.11400002239999996,
+      "lightning": 0.11900001760000001,
+      "holy": 0.10900002720000002
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 42,
+      "focus": 55,
+      "vitality": 55
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1830200,
+    "name": "Foot Soldier Gauntlets",
+    "weight": 2.599999905,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.02100002769999998,
+      "strike": 0.023000001899999956,
+      "slash": 0.02100002769999998,
+      "thrust": 0.02100002769999998,
+      "magic": 0.02499997620000005,
+      "fire": 0.027000009999999963,
+      "lightning": 0.027999997100000007,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 20,
+      "robustness": 13,
+      "focus": 17,
+      "vitality": 17
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1830300,
+    "name": "Foot Soldier Greaves",
+    "weight": 5.099999905,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.05400002000000004,
+      "strike": 0.058000028100000045,
+      "slash": 0.05400002000000004,
+      "thrust": 0.05400002000000004,
+      "magic": 0.061999976600000006,
+      "fire": 0.06499999759999997,
+      "lightning": 0.06800001860000005,
+      "holy": 0.061999976600000006
+    },
+    "res": {
+      "immunity": 39,
+      "robustness": 26,
+      "focus": 34,
+      "vitality": 34
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1840000,
+    "name": "Foot Soldier Helmet",
+    "weight": 3.599999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.0339999795,
+      "strike": 0.0339999795,
+      "slash": 0.03600001340000003,
+      "thrust": 0.03600001340000003,
+      "magic": 0.04000002150000004,
+      "fire": 0.04000002150000004,
+      "lightning": 0.04000002150000004,
+      "holy": 0.03600001340000003
+    },
+    "res": {
+      "immunity": 27,
+      "robustness": 18,
+      "focus": 23,
+      "vitality": 23
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1840100,
+    "name": "Foot Soldier Tabard",
+    "weight": 8.300000191,
+    "poise": 17.00000092,
+    "abs": {
+      "physical": 0.09500002860000001,
+      "strike": 0.09500002860000001,
+      "slash": 0.10199999810000004,
+      "thrust": 0.10199999810000004,
+      "magic": 0.11400002239999996,
+      "fire": 0.11400002239999996,
+      "lightning": 0.11400002239999996,
+      "holy": 0.10199999810000004
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 42,
+      "focus": 55,
+      "vitality": 55
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1850000,
+    "name": "Gilded Foot Soldier Cap",
+    "weight": 3.599999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.0339999795,
+      "strike": 0.03799998760000001,
+      "slash": 0.03100001809999997,
+      "thrust": 0.03600001340000003,
+      "magic": 0.03600001340000003,
+      "fire": 0.03799998760000001,
+      "lightning": 0.044000029600000046,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 27,
+      "robustness": 18,
+      "focus": 23,
+      "vitality": 23
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1850100,
+    "name": "Leather-Draped Tabard",
+    "weight": 8.300000191,
+    "poise": 17.00000092,
+    "abs": {
+      "physical": 0.09500002860000001,
+      "strike": 0.10900002720000002,
+      "slash": 0.08799999950000004,
+      "thrust": 0.10199999810000004,
+      "magic": 0.10199999810000004,
+      "fire": 0.10900002720000002,
+      "lightning": 0.12400001289999996,
+      "holy": 0.10900002720000002
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 42,
+      "focus": 55,
+      "vitality": 55
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1860000,
+    "name": "Foot Soldier Helm",
+    "weight": 3.599999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.03600001340000003,
+      "strike": 0.0339999795,
+      "slash": 0.03100001809999997,
+      "thrust": 0.03100001809999997,
+      "magic": 0.03799998760000001,
+      "fire": 0.041999995700000015,
+      "lightning": 0.041999995700000015,
+      "holy": 0.03799998760000001
+    },
+    "res": {
+      "immunity": 27,
+      "robustness": 18,
+      "focus": 23,
+      "vitality": 23
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1860100,
+    "name": "Scarlet Tabard",
+    "weight": 8.300000191,
+    "poise": 17.00000092,
+    "abs": {
+      "physical": 0.10199999810000004,
+      "strike": 0.09500002860000001,
+      "slash": 0.08799999950000004,
+      "thrust": 0.08799999950000004,
+      "magic": 0.10900002720000002,
+      "fire": 0.11900001760000001,
+      "lightning": 0.11900001760000001,
+      "holy": 0.10900002720000002
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 42,
+      "focus": 55,
+      "vitality": 55
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1870100,
+    "name": "Bloodsoaked Tabard",
+    "weight": 8.300000191,
+    "poise": 17.99999923,
+    "abs": {
+      "physical": 0.09500002860000001,
+      "strike": 0.09500002860000001,
+      "slash": 0.10199999810000004,
+      "thrust": 0.09500002860000001,
+      "magic": 0.10900002720000002,
+      "fire": 0.10900002720000002,
+      "lightning": 0.12400001289999996,
+      "holy": 0.11400002239999996
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 38,
+      "focus": 55,
+      "vitality": 50
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1880000,
+    "name": "Sacred Crown Helm",
+    "weight": 3.599999905,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.0339999795,
+      "strike": 0.03799998760000001,
+      "slash": 0.03100001809999997,
+      "thrust": 0.03600001340000003,
+      "magic": 0.03600001340000003,
+      "fire": 0.03799998760000001,
+      "lightning": 0.041999995700000015,
+      "holy": 0.04000002150000004
+    },
+    "res": {
+      "immunity": 27,
+      "robustness": 18,
+      "focus": 23,
+      "vitality": 24
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1880100,
+    "name": "Ivory-Draped Tabard",
+    "weight": 8.300000191,
+    "poise": 16.00000076,
+    "abs": {
+      "physical": 0.09500002860000001,
+      "strike": 0.10900002720000002,
+      "slash": 0.08799999950000004,
+      "thrust": 0.10199999810000004,
+      "magic": 0.10199999810000004,
+      "fire": 0.10900002720000002,
+      "lightning": 0.11900001760000001,
+      "holy": 0.11400002239999996
+    },
+    "res": {
+      "immunity": 63,
+      "robustness": 42,
+      "focus": 55,
+      "vitality": 57
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1890000,
+    "name": "Omensmirk Mask",
+    "weight": 3,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.03100001809999997,
+      "strike": 0.027999997100000007,
+      "slash": 0.02499997620000005,
+      "thrust": 0.02499997620000005,
+      "magic": 0.03100001809999997,
+      "fire": 0.0339999795,
+      "lightning": 0.04000002150000004,
+      "holy": 0.03600001340000003
+    },
+    "res": {
+      "immunity": 29,
+      "robustness": 12,
+      "focus": 20,
+      "vitality": 20
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1890100,
+    "name": "Omenkiller Robe",
+    "weight": 7.099999905,
+    "poise": 16.00000076,
+    "abs": {
+      "physical": 0.08799999950000004,
+      "strike": 0.07999998330000002,
+      "slash": 0.07099997999999996,
+      "thrust": 0.07099997999999996,
+      "magic": 0.08799999950000004,
+      "fire": 0.09500002860000001,
+      "lightning": 0.11400002239999996,
+      "holy": 0.10199999810000004
+    },
+    "res": {
+      "immunity": 67,
+      "robustness": 28,
+      "focus": 46,
+      "vitality": 46
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1890200,
+    "name": "Omenkiller Long Gloves",
+    "weight": 2.400000095,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.02100002769999998,
+      "strike": 0.018999993799999948,
+      "slash": 0.01700001959999997,
+      "thrust": 0.01700001959999997,
+      "magic": 0.02100002769999998,
+      "fire": 0.023000001899999956,
+      "lightning": 0.027999997100000007,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 22,
+      "robustness": 9,
+      "focus": 15,
+      "vitality": 15
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1890300,
+    "name": "Omenkiller Boots",
+    "weight": 4.400000095,
+    "poise": 8.99999961,
+    "abs": {
+      "physical": 0.05000001190000003,
+      "strike": 0.04500001669999998,
+      "slash": 0.04000002150000004,
+      "thrust": 0.04000002150000004,
+      "magic": 0.05000001190000003,
+      "fire": 0.05400002000000004,
+      "lightning": 0.06499999759999997,
+      "holy": 0.058000028100000045
+    },
+    "res": {
+      "immunity": 41,
+      "robustness": 17,
+      "focus": 29,
+      "vitality": 29
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 1900000,
+    "name": "Ash-of-War Scarab",
+    "weight": 5.099999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.03799998760000001,
+      "strike": 0.04000002150000004,
+      "slash": 0.03799998760000001,
+      "thrust": 0.03799998760000001,
+      "magic": 0.04600000380000002,
+      "fire": 0.04600000380000002,
+      "lightning": 0.04600000380000002,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 22,
+      "focus": 27,
+      "vitality": 26
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1901000,
+    "name": "Incantation Scarab",
+    "weight": 5.099999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.03799998760000001,
+      "strike": 0.04000002150000004,
+      "slash": 0.03799998760000001,
+      "thrust": 0.03799998760000001,
+      "magic": 0.04600000380000002,
+      "fire": 0.04600000380000002,
+      "lightning": 0.04600000380000002,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 22,
+      "focus": 27,
+      "vitality": 26
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1902000,
+    "name": "Glintstone Scarab",
+    "weight": 5.099999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.03799998760000001,
+      "strike": 0.04000002150000004,
+      "slash": 0.03799998760000001,
+      "thrust": 0.03799998760000001,
+      "magic": 0.04600000380000002,
+      "fire": 0.04600000380000002,
+      "lightning": 0.04600000380000002,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 22,
+      "focus": 27,
+      "vitality": 26
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1910000,
+    "name": "Crimson Tear Scarab",
+    "weight": 5.099999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.03799998760000001,
+      "strike": 0.04000002150000004,
+      "slash": 0.03799998760000001,
+      "thrust": 0.03799998760000001,
+      "magic": 0.04600000380000002,
+      "fire": 0.04600000380000002,
+      "lightning": 0.04600000380000002,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 22,
+      "focus": 27,
+      "vitality": 26
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1920000,
+    "name": "Cerulean Tear Scarab",
+    "weight": 5.099999905,
+    "poise": 6.00000005,
+    "abs": {
+      "physical": 0.03799998760000001,
+      "strike": 0.04000002150000004,
+      "slash": 0.03799998760000001,
+      "thrust": 0.03799998760000001,
+      "magic": 0.04600000380000002,
+      "fire": 0.04600000380000002,
+      "lightning": 0.04600000380000002,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 22,
+      "focus": 27,
+      "vitality": 26
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1930100,
+    "name": "Deathbed Dress",
+    "weight": 3.200000048,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.005999982399999992,
+      "strike": 0.027000009999999963,
+      "slash": 0.005999982399999992,
+      "thrust": 0.005999982399999992,
+      "magic": 0.11900001760000001,
+      "fire": 0.11400002239999996,
+      "lightning": 0.11900001760000001,
+      "holy": 0.12400001289999996
+    },
+    "res": {
+      "immunity": 38,
+      "robustness": 11,
+      "focus": 63,
+      "vitality": 107
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1940000,
+    "name": "Fia's Hood",
+    "weight": 1.700000048,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.013999998600000008,
+      "strike": 0.018000006700000015,
+      "slash": 0.013999998600000008,
+      "thrust": 0.013999998600000008,
+      "magic": 0.044000029600000046,
+      "fire": 0.041999995700000015,
+      "lightning": 0.044000029600000046,
+      "holy": 0.04600000380000002
+    },
+    "res": {
+      "immunity": 18,
+      "robustness": 8,
+      "focus": 29,
+      "vitality": 45
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1940100,
+    "name": "Fia's Robe",
+    "weight": 5.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.05299997329999995,
+      "strike": 0.06099998949999996,
+      "slash": 0.05299997329999995,
+      "thrust": 0.05299997329999995,
+      "magic": 0.12599998710000004,
+      "fire": 0.12400001289999996,
+      "lightning": 0.12599998710000004,
+      "holy": 0.12999999520000005
+    },
+    "res": {
+      "immunity": 46,
+      "robustness": 21,
+      "focus": 76,
+      "vitality": 108
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1941100,
+    "name": "Fia's Robe (Altered)",
+    "weight": 3.200000048,
+    "poise": 4.99999989,
+    "abs": {
+      "physical": 0.027000009999999963,
+      "strike": 0.041999995700000015,
+      "slash": 0.027000009999999963,
+      "thrust": 0.027000009999999963,
+      "magic": 0.11900001760000001,
+      "fire": 0.11400002239999996,
+      "lightning": 0.11900001760000001,
+      "holy": 0.12599998710000004
+    },
+    "res": {
+      "immunity": 34,
+      "robustness": 10,
+      "focus": 57,
+      "vitality": 93
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1980000,
+    "name": "Highwayman Hood",
+    "weight": 3.299999952,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.027999997100000007,
+      "strike": 0.03600001340000003,
+      "slash": 0.027999997100000007,
+      "thrust": 0.03100001809999997,
+      "magic": 0.03799998760000001,
+      "fire": 0.03799998760000001,
+      "lightning": 0.04000002150000004,
+      "holy": 0.03600001340000003
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 15,
+      "focus": 22,
+      "vitality": 22
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1980100,
+    "name": "Highwayman Cloth Armor",
+    "weight": 7.699999809,
+    "poise": 16.00000076,
+    "abs": {
+      "physical": 0.07999998330000002,
+      "strike": 0.10199999810000004,
+      "slash": 0.07999998330000002,
+      "thrust": 0.08799999950000004,
+      "magic": 0.10900002720000002,
+      "fire": 0.10900002720000002,
+      "lightning": 0.11400002239999996,
+      "holy": 0.10199999810000004
+    },
+    "res": {
+      "immunity": 57,
+      "robustness": 35,
+      "focus": 50,
+      "vitality": 50
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1980200,
+    "name": "Highwayman Gauntlets",
+    "weight": 2.599999905,
+    "poise": 3.00000003,
+    "abs": {
+      "physical": 0.018999993799999948,
+      "strike": 0.02499997620000005,
+      "slash": 0.018999993799999948,
+      "thrust": 0.02100002769999998,
+      "magic": 0.027000009999999963,
+      "fire": 0.027000009999999963,
+      "lightning": 0.027999997100000007,
+      "holy": 0.02499997620000005
+    },
+    "res": {
+      "immunity": 19,
+      "robustness": 12,
+      "focus": 17,
+      "vitality": 17
+    },
+    "slot": "hands"
+  },
+  {
+    "itemId": 1990000,
+    "name": "High Page Hood",
+    "weight": 1.399999976,
+    "poise": 2.0000001,
+    "abs": {
+      "physical": 0.009000003299999948,
+      "strike": 0.018000006700000015,
+      "slash": 0.009000003299999948,
+      "thrust": 0.009000003299999948,
+      "magic": 0.04600000380000002,
+      "fire": 0.041999995700000015,
+      "lightning": 0.044000029600000046,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 15,
+      "robustness": 8,
+      "focus": 27,
+      "vitality": 27
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 1990100,
+    "name": "High Page Clothes",
+    "weight": 5.300000191,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.05500000719999998,
+      "strike": 0.06900000569999998,
+      "slash": 0.05500000719999998,
+      "thrust": 0.05500000719999998,
+      "magic": 0.1349999905,
+      "fire": 0.12800002099999996,
+      "lightning": 0.12999999520000005,
+      "holy": 0.13200002909999997
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 23,
+      "focus": 76,
+      "vitality": 76
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 1991100,
+    "name": "High Page Clothes (Altered)",
+    "weight": 4.300000191,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.044000029600000046,
+      "strike": 0.0630000234,
+      "slash": 0.044000029600000046,
+      "thrust": 0.044000029600000046,
+      "magic": 0.13200002909999997,
+      "fire": 0.12599998710000004,
+      "lightning": 0.12800002099999996,
+      "holy": 0.12999999520000005
+    },
+    "res": {
+      "immunity": 34,
+      "robustness": 19,
+      "focus": 61,
+      "vitality": 61
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 2000000,
+    "name": "Rotten Duelist Helm",
+    "weight": 6.400000095,
+    "poise": 8.99999961,
+    "abs": {
+      "physical": 0.05500000719999998,
+      "strike": 0.04600000380000002,
+      "slash": 0.058000028100000045,
+      "thrust": 0.05500000719999998,
+      "magic": 0.04500001669999998,
+      "fire": 0.04600000380000002,
+      "lightning": 0.044000029600000046,
+      "holy": 0.04500001669999998
+    },
+    "res": {
+      "immunity": 31,
+      "robustness": 31,
+      "focus": 14,
+      "vitality": 14
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 2000100,
+    "name": "Rotten Gravekeeper Cloak",
+    "weight": 6.300000191,
+    "poise": 12.0000001,
+    "abs": {
+      "physical": 0.06699997189999995,
+      "strike": 0.06699997189999995,
+      "slash": 0.06699997189999995,
+      "thrust": 0.06699997189999995,
+      "magic": 0.08799999950000004,
+      "fire": 0.08799999950000004,
+      "lightning": 0.10900002720000002,
+      "holy": 0.08799999950000004
+    },
+    "res": {
+      "immunity": 76,
+      "robustness": 32,
+      "focus": 42,
+      "vitality": 42
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 2000300,
+    "name": "Rotten Duelist Greaves",
+    "weight": 7.300000191,
+    "poise": 13.00000027,
+    "abs": {
+      "physical": 0.07400000100000004,
+      "strike": 0.061999976600000006,
+      "slash": 0.07700002189999999,
+      "thrust": 0.07099997999999996,
+      "magic": 0.061999976600000006,
+      "fire": 0.06499999759999997,
+      "lightning": 0.058000028100000045,
+      "holy": 0.061999976600000006
+    },
+    "res": {
+      "immunity": 35,
+      "robustness": 35,
+      "focus": 15,
+      "vitality": 15
+    },
+    "slot": "legs"
+  },
+  {
+    "itemId": 2001100,
+    "name": "Rotten Gravekeeper Cloak (Altered)",
+    "weight": 5.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.06099998949999996,
+      "strike": 0.06099998949999996,
+      "slash": 0.06099998949999996,
+      "thrust": 0.06099998949999996,
+      "magic": 0.07999998330000002,
+      "fire": 0.07999998330000002,
+      "lightning": 0.10199999810000004,
+      "holy": 0.07999998330000002
+    },
+    "res": {
+      "immunity": 64,
+      "robustness": 25,
+      "focus": 34,
+      "vitality": 34
+    },
+    "slot": "chest"
+  },
+  {
+    "itemId": 2010000,
+    "name": "Mushroom Crown",
+    "weight": 9.100000381,
+    "poise": 9.99999978,
+    "abs": {
+      "physical": 0.058000028100000045,
+      "strike": 0.059000015299999986,
+      "slash": 0.06800001860000005,
+      "thrust": 0.06999999280000002,
+      "magic": 0.04799997810000001,
+      "fire": 0.03100001809999997,
+      "lightning": 0.04600000380000002,
+      "holy": 0.04799997810000001
+    },
+    "res": {
+      "immunity": 46,
+      "robustness": 45,
+      "focus": 18,
+      "vitality": 22
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 2020000,
+    "name": "Black Dumpling",
+    "weight": 2.700000048,
+    "poise": 4.00000019,
+    "abs": {
+      "physical": 0.027999997100000007,
+      "strike": 0.03100001809999997,
+      "slash": 0.027999997100000007,
+      "thrust": 0.027999997100000007,
+      "magic": 0.03100001809999997,
+      "fire": 0.0339999795,
+      "lightning": 0.03600001340000003,
+      "holy": 0.03100001809999997
+    },
+    "res": {
+      "immunity": 24,
+      "robustness": 15,
+      "focus": 0,
+      "vitality": 20
+    },
+    "slot": "head"
+  },
+  {
+    "itemId": 2030000,
+    "name": "Lazuli Robe",
+    "weight": 4.099999905,
+    "poise": 8.00000038,
+    "abs": {
+      "physical": 0.06099998949999996,
+      "strike": 0.05299997329999995,
+      "slash": 0.041999995700000015,
+      "thrust": 0.027000009999999963,
+      "magic": 0.13800001139999996,
+      "fire": 0.11900001760000001,
+      "lightning": 0.12400001289999996,
+      "holy": 0.12800002099999996
+    },
+    "res": {
+      "immunity": 42,
+      "robustness": 21,
+      "focus": 67,
+      "vitality": 67
+    },
+    "slot": "chest"
+  }
+]
