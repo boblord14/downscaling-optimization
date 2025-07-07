@@ -8,9 +8,9 @@
 
 int main() {
     Weapon::generateDefs();
-    Weapon broadsword(2020000, FIRE, 3);
-    double calculatedAR = broadsword.calcAR(10, 10, 10, 10, 10, false);
-    std::cout << "Broadsword AR test: " << calculatedAR << std::endl;
+    Weapon weapon(67520000, BASE, 2);
+    double calculatedAR = weapon.calcAR(32, 67, 40, 99, 10, true);
+    std::cout << "Weapon AR test: " << calculatedAR << std::endl;
 
     return 0;
 }
