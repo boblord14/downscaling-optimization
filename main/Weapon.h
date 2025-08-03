@@ -32,9 +32,14 @@ enum Infusion {
 
 class Weapon{
 public:
-    explicit Weapon(int id, Infusion infusion, int upgrade);
-    double calcAR(int strength, int dexterity, int intelligence, int faith, int arcane, bool isTwoHanded);
-    static void generateDefs();
+  explicit Weapon(int id, Infusion infusion, int upgrade);
+  std::vector<double> calcAR(int strength, int dexterity, int intelligence, int faith, int arcane, bool isTwoHanded);
+  double calculateDefenseReduction(double ratio);
+  double calculateDamage(const std::vector<int>& stats, const std::vector<int>& defs, bool two_handed);
+  static void generateDefs();
+  int getId(){return id;}
+  Infusion getInfusion(){return infusion;}
+  int getUpgrade(){return upgrade;}
 private:
     int id;
     Infusion infusion;

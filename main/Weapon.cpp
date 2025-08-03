@@ -4,6 +4,7 @@
 
 #include "Weapon.h"
 
+
 Weapon::Weapon(int id, Infusion infusion, int upgrade) {
     this->id = id;
     this->infusion = infusion;
@@ -11,13 +12,59 @@ Weapon::Weapon(int id, Infusion infusion, int upgrade) {
 
 }
 
+
+std::vector<double> coefficients = {(-0.8/121), (-1.6/121), (-0.4/3), (-0.8/3), (19.2/49), (38.4/49)};
+
+double Weapon::calculateDefenseReduction(double ratio) {
+  double damage = 1;
+  if (8 >= ratio && 2.5 < ratio) {
+    double val = ratio - 8;
+    int index = 0;
+    double square = (coefficients[2 * index] * std::pow(val, 2) + 0.9);
+    damage = square;
+  }
+  if ( 2.5 >= ratio && 1 < ratio) {
+    double val = ratio - 2.5;
+    int index = 1;
+    double square = (coefficients[2 * index] * std::pow(val, 2) + 0.7);
+    damage = square;
+  }
+  if (1 >= ratio && .125 < ratio) {
+    double val = ratio - 0.125;
+    int index = 2;
+    double square = (coefficients[2 * index] * std::pow(val, 2) + 0.1);
+    damage = square;
+  }
+  if (.125 >= ratio) {
+    damage = .1;
+  }
+  if (8 < ratio) {
+    damage = .9;
+  }
+  return damage;
+}
+
+double Weapon::calculateDamage(const std::vector<int>& stats, const std::vector<int>& defs, bool two_handed) {
+  auto ars = calcAR(stats[0],
+		    stats[1],
+		    stats[2],
+		    stats[3],
+		    stats[4],
+		    two_handed);
+  double damage = 0;
+  for (int i = 0; i < 5; ++i) {
+    damage += calculateDefenseReduction(ars[i]/defs[i]) * ars[i];
+  }
+  return int(damage);
+}
+
 //The fact that I cant do "int int" means I have to explicitly write the names of all the stats and I hate it
-double Weapon::calcAR(int strength, int dexterity, int intelligence, int faith, int arcane, bool isTwoHanded) {
+std::vector<double> Weapon::calcAR(int strength, int dexterity, int intelligence, int faith, int arcane, bool isTwoHanded) {
     std::unordered_map<std::string, int> characterStats =
             {{"Strength", strength}, {"Agility", dexterity}, {"Magic", intelligence}, {"Faith", faith}, {"Luck", arcane}};
 
     if(weaponData.empty()){
-        return -1;
+      return std::vector<double>(5,-1);
     }
 
     int equipParamWeaponID = id + infusion;
@@ -25,12 +72,12 @@ double Weapon::calcAR(int strength, int dexterity, int intelligence, int faith, 
     try { //verify weapon + infusion combo actually exists
         weaponLookup = weaponData.at(equipParamWeaponID);
     } catch (const std::out_of_range& e) {
-        return -1;
+      return std::vector<double>(5,-1);
     }
 
     std::string damageTypes[10] = {"Physics", "Magic", "Fire", "Thunder", "Dark",
                                    "physics", "magic", "fire", "thunder", "dark"}; //yes, we're still using dark in the big 2025
-    double arCalcs[5] = {0,0,0,0,0};
+    std::vector<double> arCalcs(5,0);
 
     for(int i=0; i<5; i++){
         double baseDmg = stod(weaponLookup.at("attackBase" + damageTypes[i]));
@@ -66,11 +113,8 @@ double Weapon::calcAR(int strength, int dexterity, int intelligence, int faith, 
 
         }
     }
-    double finalAR = 0;
-    for (auto& n : arCalcs)
-        finalAR += n;
 
-    return int(finalAR);
+    return arCalcs;
 }
 
 std::vector<std::string> Weapon::GetAttackElementCorrect(int attackElementCorrectId, const std::string& element){
