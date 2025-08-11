@@ -3,6 +3,7 @@
 //
 
 #include <vector>
+#include <string>
 #include <algorithm>
 #include <cmath>
 #include <queue>
@@ -366,17 +367,55 @@ std::vector<int> computeWeaponUpgradeInterest(std::vector<Weapon*> weapons, cons
   return ranges;
 }
 
-void fullPipeline(std::vector<Weapon>& weapons, std::vector<int> base_stats, int start_stats){
+std::pair<std::vector<double>,std::vector<std::vector<int>>> loadScale(const Weapon& w) {
+  std::string file = "Scaling\\" + std::to_string(w.getId() + w.getInfusion());
+  std::ifstream in(file);
+  auto opt = std::make_pair(std::vector<double>(), std::vector<std::vector<int>>());
+  if (in.good() == false) {
+    std::cout << "Bad File" << std::endl;
+    return opt;
+  }
+  std::cout << "Loading weapon " << std::endl;
+  std::vector<int> stats(5,0);
+  double damage;
+  while(in >> damage) {
+    in >> stats[0];
+    in >> stats[1];
+    in >> stats[2];
+    in >> stats[3];
+    in >> stats[4];
+    opt.first.push_back(damage);
+    opt.second.push_back(stats);
+  }
+  return opt;
+}
+
+void saveScaling(const Weapon& w, const std::pair<std::vector<double>,std::vector<std::vector<int>>>& opt) {
+  std::string file = "Scaling\\" + std::to_string(w.getId() + w.getInfusion());
+  std::ofstream out(file);
+  for (size_t i = 0; i < opt.first.size(); ++i) {
+    out << opt.first[i] << " ";
+    for (size_t j = 0; j < 5; ++j) {
+      out << opt.second[i][j] << " ";
+    }
+    out << std::endl;
+  }
+
+}
+
+
+void fullPipeline(std::vector<Weapon>& weapons, std::vector<int> base_stats, int start_stats, bool use_cache=false){
   std::vector<double> scale;
   std::vector<double> singleton(1, 1);
   std::vector<int> defs(5, 140);
   std::vector<Weapon*> weapon_ptr;
   std::vector<int> lower(5,0);// 
   std::vector<int> upper(5, 99);
-  int max_stats = 250;
+  int max_stats = 80;
   Eigen::MatrixXd mat(5, weapons.size());
   std::vector<std::pair<std::vector<double>, std::vector<std::vector<int>>>> opts;
   std::vector<int> stats;
+  start_stats = (start_stats / 5) * 5;
   int counter = start_stats;
   while (counter <= max_stats) {
     stats.push_back(counter);
@@ -384,39 +423,53 @@ void fullPipeline(std::vector<Weapon>& weapons, std::vector<int> base_stats, int
   }
   out << "Computing for the range [" << stats[0] << "," << stats[stats.size() - 1] << "] for a total of " << stats.size() << " allocations" << std::endl; 
   for (size_t i = 0;  i < weapons.size();++i) {
-    weapon_ptr.clear();
-    weapon_ptr.push_back(&weapons[i]);
     
+    auto opt = std::make_pair(std::vector<double>(), std::vector<std::vector<int>>());
     
-    auto opt = branch_bound(weapon_ptr,
-			    defs,
-			    singleton,
-			    lower,
-			    upper,
-			    start_stats,
-			    max_stats);
+    if (use_cache == true) {
+      opt = loadScale(weapons[i]);
+    }
+    if (opt.first.size() == 0){
+      std::cout << "Not Using Cache" << std::endl;
+      weapon_ptr.clear();
+      weapon_ptr.push_back(&weapons[i]);
+      opt = branch_bound(weapon_ptr,
+			 defs,
+			 singleton,
+			 lower,
+			 upper,
+			 start_stats,
+			 max_stats);
+    }
     opts.push_back(opt);
-    out <<  "Optimized for " << opt.first.size() << " stat allocations" << std::endl;
-    //scale.push_back(opt.first[0]);
-    
+    if (start_stats == 5) {
+      saveScaling(weapons[i], opt);
+    }
   }
   weapon_ptr.clear();
   for (size_t i = 0; i < weapons.size();++i) {
     weapon_ptr.push_back(&weapons[i]);
   }
+  int index_start = 0;
+  if (use_cache) {
+    index_start = (start_stats / 5) - 1;
+  }
+  out << "index start is " << index_start << std::endl;
+  out << "starting stats is " << stats[0] << std::endl;
   int size = stats.size();
   std::vector<double> svd_dmg;
   auto start = high_resolution_clock::now();
   for (int i = 0; i < size; ++i) {
     std::vector<double> scale(weapons.size(), 0);
     for (int j = 0; j < weapons.size(); ++j) {
-      scale[j] = opts[j].first[i];
+      scale[j] = opts[j].first[index_start + i];
       for (int k = 0; k < 5; ++k) {
-	mat(k,j) = opts[j].second[i][k];
+	mat(k,j) = opts[j].second[index_start + i][k];
 	out << mat(k, j) << " ";
       }
       out << std::endl;
     }
+
     Eigen::JacobiSVD<Eigen::MatrixXd, Eigen::ComputeThinU | Eigen::ComputeThinV> svd(mat);
     if (svd.info() != Eigen::ComputationInfo::Success) {
       out << "SVD failed" << std::endl;
@@ -441,7 +494,7 @@ void fullPipeline(std::vector<Weapon>& weapons, std::vector<int> base_stats, int
     out << "SVD stats" << std::endl;
     int svd_sum = 0;
     for (int k = 0; k < 5; ++k) {
-      svd_stats[k] = approx[k] * alpha + base_stats[k];
+      svd_stats[k] = std::min(approx[k] * alpha + base_stats[k], 99.0);
       out << svd_stats[k] << std::endl;
       svd_sum += svd_stats[k];
     }
@@ -464,9 +517,8 @@ void fullPipeline(std::vector<Weapon>& weapons, std::vector<int> base_stats, int
   for (int i = 0; i < size; ++i) {
     std::vector<double> scale(weapons.size(), 0);
     for (int j = 0; j < weapons.size(); ++j) {
-      scale[j] = opts[j].first[i];
+      scale[j] = opts[j].first[index_start + i];
     }
-    int total_stats = 5*(i+1);
     auto opt = branch_bound(weapon_ptr,
 			    defs,
 			    scale,
@@ -511,7 +563,7 @@ void pinco() {
     base += base_stats[i];
   }
   int start_stats = ((base/5) + 1) * 5;
-  fullPipeline(weapons, base_stats, start_stats);
+  fullPipeline(weapons, base_stats, start_stats, true);
 }
 
 void montage(){
@@ -575,20 +627,12 @@ void montage(){
 
 int main() {
     Weapon::generateDefs();
-     //pinco();
+     pinco();
     // montage();
-    //return 0;
+    return 0;
     std::vector<int> defs(5,140);
     Weapon shortsword(2010000, COLD, 0);
-    Weapon broadsword(2020000, FIRE, 13);
-    auto ar = broadsword.calcAR(15, 12, 26, 33, 60, true);
-    std::cout << "broadsword AR: " << std::endl;
-    for (auto a : ar) {
-      std::cout << a << std::endl;
-    }
-    auto defenses = broadsword.calculateDamage({15, 12, 26, 33, 60},{122, 78, 111, 152, 189}, true);
-    std::cout << "broadsword Defense Test: " << defenses << std::endl;
-    return 0;
+    Weapon broadsword(2020000, BASE, 0);
     std::vector<Weapon*> weapons;
     weapons.push_back(&shortsword);
     weapons.push_back(&broadsword);

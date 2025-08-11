@@ -37,9 +37,9 @@ public:
   double calculateDefenseReduction(double ratio);
   double calculateDamage(const std::vector<int>& stats, const std::vector<int>& defs, bool two_handed);
   static void generateDefs();
-  int getId(){return id;}
-  Infusion getInfusion(){return infusion;}
-  int getUpgrade(){return upgrade;}
+  int getId() const{return id;}
+  Infusion getInfusion() const {return infusion;}
+  int getUpgrade() const{return upgrade;}
 private:
     int id;
     Infusion infusion;
