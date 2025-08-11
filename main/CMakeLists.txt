@@ -8,5 +8,3 @@ add_executable(downscaling-optimization main.cpp
         Weapon.h
         Weapon.cpp
 )
-
-
