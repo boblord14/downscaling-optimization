@@ -1,6 +1,6 @@
 import sys
 sys.path.insert(0,'../')
-import attackAndDefense as ad
+from main.Python import attackAndDefense as ad
 import json
 import pandas as pd
 from dataclasses import dataclass

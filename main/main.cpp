@@ -15,6 +15,8 @@
 #include <mutex>
 #include <unordered_map>
 #include <fstream>
+
+#include "DataParser.h"
 #include "Eigen/Dense"
 #include "Eigen/SVD"
 
@@ -391,7 +393,7 @@ std::pair<std::vector<double>,std::vector<std::vector<int>>> loadScale(const Wea
 }
 
 void saveScaling(const Weapon& w, const std::pair<std::vector<double>,std::vector<std::vector<int>>>& opt) {
-  std::string file = "Scaling\\" + std::to_string(w.getId() + w.getInfusion());
+  std::string file = "Scaling\\" + std::to_string(w.getId() + w.getInfusion()) + ".txt";
   std::ofstream out(file);
   for (size_t i = 0; i < opt.first.size(); ++i) {
     out << opt.first[i] << " ";
@@ -447,6 +449,7 @@ void fullPipeline(std::vector<Weapon>& weapons, std::vector<int> base_stats, int
     }
   }
   weapon_ptr.clear();
+  /*
   for (size_t i = 0; i < weapons.size();++i) {
     weapon_ptr.push_back(&weapons[i]);
   }
@@ -464,8 +467,8 @@ void fullPipeline(std::vector<Weapon>& weapons, std::vector<int> base_stats, int
     for (int j = 0; j < weapons.size(); ++j) {
       scale[j] = opts[j].first[index_start + i];
       for (int k = 0; k < 5; ++k) {
-	mat(k,j) = opts[j].second[index_start + i][k];
-	out << mat(k, j) << " ";
+	      mat(k,j) = opts[j].second[index_start + i][k];
+	      out << mat(k, j) << " ";
       }
       out << std::endl;
     }
@@ -506,19 +509,22 @@ void fullPipeline(std::vector<Weapon>& weapons, std::vector<int> base_stats, int
     double svd_approx = region.evaluate(svd_stats);
     out << "SVD APPROX: " << svd_approx << std::endl; 
     svd_dmg.push_back(svd_approx);
+
   }
   auto stop = high_resolution_clock::now();
   auto duration = duration_cast<microseconds>(stop - start);
 
   out << "Time taken by SVD function: "
       << duration.count()/1.0e6 << " seconds" << std::endl;
-  
+
+
   std::vector<double> actual_dmg;
   for (int i = 0; i < size; ++i) {
     std::vector<double> scale(weapons.size(), 0);
     for (int j = 0; j < weapons.size(); ++j) {
       scale[j] = opts[j].first[index_start + i];
     }
+
     auto opt = branch_bound(weapon_ptr,
 			    defs,
 			    scale,
@@ -531,18 +537,18 @@ void fullPipeline(std::vector<Weapon>& weapons, std::vector<int> base_stats, int
   }
   double error = 0;
   for (int i = 0; i < size; ++i) {
-    out << "Actual Damage " << actual_dmg[i] << " and svd damage " << svd_dmg[i] << std::endl;
-    error += std::abs(actual_dmg[i] - svd_dmg[i]) / actual_dmg[i];
+    out << "Actual Damage " << actual_dmg[i] << std::endl; // " and svd damage " << svd_dmg[i] << std::endl;
+   // error += std::abs(actual_dmg[i] - svd_dmg[i]) / actual_dmg[i];
   }
-  error /= size;
-  out << "Average relative error " << error << std::endl;
-  
+  //error /= size;
+ // out << "Average relative error " << error << std::endl;
+  */
 }
 
 void pinco() {
   std::vector<Weapon> weapons;
   // Ripple Crescent Halberd
-  weapons.emplace_back(18060000, BASE, 17);
+  //weapons.emplace_back(18060000, BASE, 17);
   // Albinauric Staff
   weapons.emplace_back(33190000, BASE, 17);
   // Dragon Communion Seal
@@ -550,14 +556,14 @@ void pinco() {
   // Venomous Fang
   weapons.emplace_back(22010000, POISON, 17);
   // Ripple Blade
-  weapons.emplace_back(14050000, BASE, 17);
+  //weapons.emplace_back(14050000, BASE, 17);
   // Lazuli Glintstone Blade
-  weapons.emplace_back(2250000, BASE, 7);
+  //weapons.emplace_back(2250000, BASE, 7);
   // Celebrant's Skull
-  weapons.emplace_back(12130000, MAGIC, 17);
+  //weapons.emplace_back(12130000, MAGIC, 17);
   // Mantis Blade
-  weapons.emplace_back(7120000, OCCULT, 17);
-  std::vector<int> base_stats= {8,12,16,7,9};
+  //weapons.emplace_back(7120000, OCCULT, 17);
+  std::vector<int> base_stats= {0,4,0,0,0};
   int base = 0;
   for (int i = 0; i < 5; ++i) {
     base += base_stats[i];
@@ -626,10 +632,13 @@ void montage(){
 
 
 int main() {
-    Weapon::generateDefs();
-     pinco();
+    DataParser::generateDefs();
+    Weapon shortsword(22010000, POISON, 17);
+    auto ar = shortsword.calcAR(15, 12, 26, 33, 60, TRUE);
+    pinco();
     // montage();
     return 0;
+  /*
     std::vector<int> defs(5,140);
     Weapon shortsword(2010000, COLD, 0);
     Weapon broadsword(2020000, BASE, 0);
@@ -658,4 +667,5 @@ int main() {
       std::cout << u << std::endl;
     }
     return 0;
+    */
 }
