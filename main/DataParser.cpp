@@ -28,6 +28,15 @@ std::vector<float> DataParser::retrieveCcg(int id) {
     return calcCorrectGraph.at(id);
 }
 
+std::vector<int> DataParser::getWeaponIds() {
+    std::vector<int> keys;
+    for (const auto& pair : equipParamWeapon) {
+        keys.push_back(pair.first);
+    }
+    return keys;
+}
+
+
 void DataParser::defGenerator(const std::string& csvPath, std::unordered_map<int, std::unordered_map<std::string, std::string>> *target){
 
     CSVReader reader(csvPath);

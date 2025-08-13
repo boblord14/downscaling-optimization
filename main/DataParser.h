@@ -23,6 +23,7 @@ public:
     static std::unordered_map<std::string, std::string> retrieveUpgrade(int id);
     static std::unordered_map<std::string, std::string> retrieveElementCorrection(int id);
     static std::vector<float> retrieveCcg(int id);
+    static std::vector<int> getWeaponIds();
 private:
     static void defGenerator(const std::string& csvPath, std::unordered_map<int, std::unordered_map<std::string, std::string>> *target);
     static void defGenerator(const std::string& csvPath, std::unordered_map<int, std::vector<float>> *target);

@@ -548,7 +548,7 @@ void fullPipeline(std::vector<Weapon>& weapons, std::vector<int> base_stats, int
 void pinco() {
   std::vector<Weapon> weapons;
   // Ripple Crescent Halberd
-  //weapons.emplace_back(18060000, BASE, 17);
+  weapons.emplace_back(18060000, BASE, 17);
   // Albinauric Staff
   weapons.emplace_back(33190000, BASE, 17);
   // Dragon Communion Seal
@@ -556,13 +556,13 @@ void pinco() {
   // Venomous Fang
   weapons.emplace_back(22010000, POISON, 17);
   // Ripple Blade
-  //weapons.emplace_back(14050000, BASE, 17);
+  weapons.emplace_back(14050000, BASE, 17);
   // Lazuli Glintstone Blade
-  //weapons.emplace_back(2250000, BASE, 7);
+  weapons.emplace_back(2250000, BASE, 7);
   // Celebrant's Skull
-  //weapons.emplace_back(12130000, MAGIC, 17);
+  weapons.emplace_back(12130000, MAGIC, 17);
   // Mantis Blade
-  //weapons.emplace_back(7120000, OCCULT, 17);
+  weapons.emplace_back(7120000, OCCULT, 17);
   std::vector<int> base_stats= {0,4,0,0,0};
   int base = 0;
   for (int i = 0; i < 5; ++i) {
@@ -630,13 +630,34 @@ void montage(){
   fullPipeline(weapons, base_stats, start_stats);
 }
 
+void computeAllWeapons() {
+  std::vector<Weapon> weapons;
+  auto weaponData = DataParser::getWeaponIds();
+
+  for (int equipParamWeaponId : weaponData) {
+    try { //run whatever weapons in equipParamId that work and trash whatever entries throw an error when we try and build them
+      Weapon newWeapon(equipParamWeaponId, BASE, 17);
+      weapons.push_back(newWeapon);
+    } catch (const std::exception& e) {
+      std::cerr << "Caught exception: " << e.what() << std::endl;
+    }
+  }
+
+  std::vector<int> base_stats= {0,1,0,0,0};
+  int base = 0;
+  for (int i = 0; i < 5; ++i) {
+    base += base_stats[i];
+  }
+  int start_stats = ((base/5) + 1) * 5;
+  fullPipeline(weapons, base_stats, start_stats, true);
+
+}
 
 int main() {
     DataParser::generateDefs();
-    Weapon shortsword(22010000, POISON, 17);
-    auto ar = shortsword.calcAR(15, 12, 26, 33, 60, TRUE);
-    pinco();
-    // montage();
+    //pinco();
+    //montage();
+    computeAllWeapons();
     return 0;
   /*
     std::vector<int> defs(5,140);
