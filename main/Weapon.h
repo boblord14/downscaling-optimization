@@ -4,14 +4,12 @@
 
 #ifndef DOWNSCALING_OPTIMIZATION_WEAPON_H
 #define DOWNSCALING_OPTIMIZATION_WEAPON_H
+#include <array>
 #include <unordered_map>
 #include <iostream>
 #include <vector>
 #include <cmath>
-#include "csv.hpp"
-
-
-using namespace csv;
+#include "DataParser.h"
 
 enum Infusion {
     BASE = 0,
@@ -36,21 +34,24 @@ public:
   std::vector<double> calcAR(int strength, int dexterity, int intelligence, int faith, int arcane, bool isTwoHanded);
   double calculateDefenseReduction(double ratio);
   double calculateDamage(const std::vector<int>& stats, const std::vector<int>& defs, bool two_handed);
-  static void generateDefs();
   int getId() const{return id;}
   Infusion getInfusion() const {return infusion;}
   int getUpgrade() const{return upgrade;}
 private:
     int id;
+    std::string name;
     Infusion infusion;
     int upgrade;
-    static void defGenerator(const std::string& csvPath, const std::string& key, int target);
-    static std::vector<std::string> GetAttackElementCorrect(int attackElementCorrectId, const std::string& element);
+    std::array<int, 5> attackBaseElement;
+    std::array<double, 5> elementAttackRate;
+    int attackElementCorrectId;
+    bool isDualBlade;
+    std::array<int, 5> correctTypeElement;
+    std::array<std::vector<float>, 5> saturationIndex;
+    std::array<double, 5> correctStat;
+    std::array<double, 5> correctStatRate;
+    std::array<std::array<bool, 5>, 5> isStatCorrectByElement;
+    bool isSomber;
 };
-
-static std::unordered_map<int, std::unordered_map<std::string, std::string>> weaponData = {};
-static std::unordered_map<int, std::unordered_map<std::string, std::string>> reinforceParamWeapon = {};
-static std::unordered_map<int, std::unordered_map<std::string, std::string>> attackElementCorrectParam = {};
-static std::unordered_map<int, std::vector<float>> calcCorrectGraph = {};
 
 #endif //DOWNSCALING_OPTIMIZATION_WEAPON_H
