@@ -8,6 +8,7 @@
 #include <cmath>
 #include <queue>
 #include <chrono>
+#include <filesystem>
 #include <iostream>
 #include "Weapon.h"
 #include <utility>
@@ -405,15 +406,35 @@ void saveScaling(const Weapon& w, const std::pair<std::vector<double>,std::vecto
 
 }
 
+bool isCompleted(const Weapon& w) {
+  std::string file = "Scaling\\" + std::to_string(w.getId() + w.getInfusion()) + ".txt";
 
-void fullPipeline(std::vector<Weapon>& weapons, std::vector<int> base_stats, int start_stats, bool use_cache=false){
+  if (!std::filesystem::exists(file)) return false; //file doesn't exist
+
+  int number_of_lines = 0;
+  std::string line;
+  std::ifstream inputFile;
+  inputFile.open(file);
+
+  while (std::getline(inputFile, line)) ++number_of_lines;
+
+  if (number_of_lines == 24) return true; //file exists with correct # of lines
+
+  inputFile.close();
+  std::filesystem::remove(file);
+  std::cout << "File for weapon " << w.getId() << " broken, recomputing..." << std::endl;
+  return false; //file exists, is old/incomplete, so delete it and re-compute it fresh
+}
+
+
+void fullPipeline(std::vector<Weapon>& weapons, std::vector<int> base_stats, int start_stats, bool ignore_completed, bool use_cache=false){
   std::vector<double> scale;
   std::vector<double> singleton(1, 1);
   std::vector<int> defs(5, 140);
   std::vector<Weapon*> weapon_ptr;
   std::vector<int> lower(5,0);// 
   std::vector<int> upper(5, 99);
-  int max_stats = 80;
+  int max_stats = 120;
   Eigen::MatrixXd mat(5, weapons.size());
   std::vector<std::pair<std::vector<double>, std::vector<std::vector<int>>>> opts;
   std::vector<int> stats;
@@ -427,7 +448,12 @@ void fullPipeline(std::vector<Weapon>& weapons, std::vector<int> base_stats, int
   for (size_t i = 0;  i < weapons.size();++i) {
     
     auto opt = std::make_pair(std::vector<double>(), std::vector<std::vector<int>>());
-    
+
+    if (ignore_completed && isCompleted(weapons[i])) {
+      std::cout << "Weapon " << weapons[i].getId() << " already computed" << std::endl;
+      continue;
+    }
+
     if (use_cache == true) {
       opt = loadScale(weapons[i]);
     }
@@ -627,7 +653,7 @@ void montage(){
     base += base_stats[i];
   }
   int start_stats = ((base/5) + 1) * 5;
-  fullPipeline(weapons, base_stats, start_stats);
+  fullPipeline(weapons, base_stats, start_stats, false);
 }
 
 void computeAllWeapons() {
@@ -658,6 +684,8 @@ int main() {
     //pinco();
     //montage();
     computeAllWeapons();
+ // Weapon shortsword(67520000, BASE, 17);
+ // auto ar = shortsword.calcAR(20, 32, 12, 42, 10, false);
     return 0;
   /*
     std::vector<int> defs(5,140);
