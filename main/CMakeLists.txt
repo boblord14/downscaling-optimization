@@ -7,4 +7,6 @@ add_executable(downscaling-optimization main.cpp
         DataParser.cpp
         Weapon.h
         Weapon.cpp
+        bnb.h
+        svd.h
 )
