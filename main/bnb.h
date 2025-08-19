@@ -4,6 +4,7 @@
 
 #ifndef BNB_H
 #define BNB_H
+#include <queue>
 
 using namespace std::chrono;
 

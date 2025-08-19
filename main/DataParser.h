@@ -4,10 +4,12 @@
 
 #ifndef DOWNSCALING_OPTIMIZATION_DATAPARSER_H
 #define DOWNSCALING_OPTIMIZATION_DATAPARSER_H
+#include <filesystem>
 #include <iostream>
 #include <unordered_map>
 #include "DataParser.h"
 #include "csv.hpp"
+#include "Weapon.h"
 
 using namespace csv;
 
@@ -28,7 +30,5 @@ private:
     static void defGenerator(const std::string& csvPath, std::unordered_map<int, std::unordered_map<std::string, std::string>> *target);
     static void defGenerator(const std::string& csvPath, std::unordered_map<int, std::vector<float>> *target);
 };
-
-
 
 #endif //DOWNSCALING_OPTIMIZATION_DATAPARSER_H

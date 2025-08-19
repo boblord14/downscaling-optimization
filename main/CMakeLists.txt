@@ -9,4 +9,5 @@ add_executable(downscaling-optimization main.cpp
         Weapon.cpp
         bnb.h
         svd.h
+        db.h
 )
