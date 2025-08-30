@@ -9,6 +9,7 @@
 #include "Weapon.h"
 #include <utility>
 #include <fstream>
+#include "loadCharacter.h"
 
 #include "DataParser.h"
 #include "Eigen/Dense"
@@ -181,7 +182,8 @@ int main() {
     DataParser::generateDefs();
     //pinco();
     //montage();
-    computeAllWeapons();
+  loadCharacter::loadData();
+  //computeAllWeapons();
  // Weapon shortsword(67520000, BASE, 17);
  // auto ar = shortsword.calcAR(20, 32, 12, 42, 10, false);
     return 0;

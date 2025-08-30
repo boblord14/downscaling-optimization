@@ -10,4 +10,6 @@ add_executable(downscaling-optimization main.cpp
         bnb.h
         svd.h
         db.h
+        loadCharacter.cpp
+        loadCharacter.h
 )

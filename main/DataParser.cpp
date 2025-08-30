@@ -10,6 +10,10 @@ void DataParser::generateDefs() {
     defGenerator(R"(..\..\csv-conversions\reinforceParamWeapon.csv)", &reinforceParamWeapon);
     defGenerator(R"(..\..\csv-conversions\AttackElementCorrectParam.csv)", &attackElementCorrectParam);
     defGenerator(R"(..\..\csv-conversions\CalcCorrectGraphEZPreCalc.csv)", &calcCorrectGraph);
+    defGenerator(R"(..\..\csv-conversions\equipParamProtector.csv)", &equipParamProtector);
+    defGenerator(R"(..\..\csv-conversions\Magic.csv)", &magic);
+    defGenerator(R"(..\..\csv-conversions\SwordArtsParam.csv)", &swordArtsParam);
+
 }
 
 std::unordered_map<std::string, std::string> DataParser::retrieveWeapon(int id) {
@@ -22,6 +26,18 @@ std::unordered_map<std::string, std::string> DataParser::retrieveUpgrade(int id)
 
 std::unordered_map<std::string, std::string> DataParser::retrieveElementCorrection(int id) {
     return attackElementCorrectParam.at(id);
+}
+
+std::unordered_map<std::string, std::string> DataParser::retrieveArmor(int id) {
+    return equipParamProtector.at(id);
+}
+
+std::unordered_map<std::string, std::string> DataParser::retrieveMagic(int id) {
+    return magic.at(id);
+}
+
+std::unordered_map<std::string, std::string> DataParser::retrieveSwordArt(int id) {
+    return swordArtsParam.at(id);
 }
 
 std::vector<float> DataParser::retrieveCcg(int id) {
@@ -39,7 +55,9 @@ std::vector<int> DataParser::getWeaponIds() {
 
 void DataParser::defGenerator(const std::string& csvPath, std::unordered_map<int, std::unordered_map<std::string, std::string>> *target){
 
-    CSVReader reader(csvPath);
+    CSVFormat format;
+    format.delimiter(',');
+    CSVReader reader(csvPath, format);
 
     std::vector<std::string> columnNames = reader.get_col_names();
 
