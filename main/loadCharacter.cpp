@@ -129,13 +129,13 @@ void loadDatafit() {
 
     std::getline(datafitFile, line);
     iss.str(line);
-    iss >> fit1 >> fit2 >> fit3_logisticOnly;
+    iss >> fit1 >> fit2;
     poise_head.insert(std::end(poise_head), {fit1, fit2});
     iss.clear();
 
     std::getline(datafitFile, line);
     iss.str(line);
-    iss >> fit1 >> fit2 >> fit3_logisticOnly;
+    iss >> fit1 >> fit2;
     poise_chest.insert(std::end(poise_chest), {fit1, fit2});
     iss.clear();
 
