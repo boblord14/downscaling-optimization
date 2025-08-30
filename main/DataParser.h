@@ -16,6 +16,9 @@ using namespace csv;
 static std::unordered_map<int, std::unordered_map<std::string, std::string>> equipParamWeapon;
 static std::unordered_map<int, std::unordered_map<std::string, std::string>> reinforceParamWeapon;
 static std::unordered_map<int, std::unordered_map<std::string, std::string>> attackElementCorrectParam;
+static std::unordered_map<int, std::unordered_map<std::string, std::string>> equipParamProtector;
+static std::unordered_map<int, std::unordered_map<std::string, std::string>> swordArtsParam;
+static std::unordered_map<int, std::unordered_map<std::string, std::string>> magic;
 static std::unordered_map<int, std::vector<float>> calcCorrectGraph;
 
 class DataParser{
@@ -24,6 +27,9 @@ public:
     static std::unordered_map<std::string, std::string> retrieveWeapon(int id);
     static std::unordered_map<std::string, std::string> retrieveUpgrade(int id);
     static std::unordered_map<std::string, std::string> retrieveElementCorrection(int id);
+    static std::unordered_map<std::string, std::string> retrieveArmor(int id);
+    static std::unordered_map<std::string, std::string> retrieveMagic(int id);
+    static std::unordered_map<std::string, std::string> retrieveSwordArt(int id);
     static std::vector<float> retrieveCcg(int id);
     static std::vector<int> getWeaponIds();
 private:

@@ -6,6 +6,10 @@
 #define DB_H
 #include "Weapon.h"
 
+/*Manages the file output results of computing the weapon statistics.*/
+
+/*Loads saved scaling stat values for a given weapon, used in cached values.
+ */
 inline std::pair<std::vector<double>,std::vector<std::vector<int>>> loadScale(const Weapon& w) {
     std::string file = "Scaling\\" + std::to_string(w.getId() + w.getInfusion());
     std::ifstream in(file);
@@ -29,6 +33,8 @@ inline std::pair<std::vector<double>,std::vector<std::vector<int>>> loadScale(co
     return opt;
 }
 
+/* Saves scaling output values to file, with AR post defenses first followed by stats in str dex int fth arc order
+ */
 inline void saveScaling(const Weapon& w, const std::pair<std::vector<double>,std::vector<std::vector<int>>>& opt) {
     std::string file = "Scaling\\" + std::to_string(w.getId() + w.getInfusion()) + ".txt";
     std::ofstream out(file);
@@ -42,6 +48,8 @@ inline void saveScaling(const Weapon& w, const std::pair<std::vector<double>,std
 
 }
 
+/* Quick check using a magic number(24) to check if a given file is properly filled out, and deleting it if it isn't
+ */
 inline bool isCompleted(const Weapon& w) {
     std::string file = "Scaling\\" + std::to_string(w.getId() + w.getInfusion()) + ".txt";
 
