@@ -28,6 +28,11 @@ public:
     static std::unordered_map<std::string, std::string> retrieveUpgrade(int id);
     static std::unordered_map<std::string, std::string> retrieveElementCorrection(int id);
     static std::unordered_map<std::string, std::string> retrieveArmor(int id);
+
+    static std::unordered_map<int, std::unordered_map<std::string, std::string>> retrieveAllArmor();
+
+    static std::unordered_map<std::string, std::string>* retrieveArmorByName(std::string name);
+
     static std::unordered_map<std::string, std::string> retrieveMagic(int id);
     static std::unordered_map<std::string, std::string> retrieveSwordArt(int id);
     static std::vector<float> retrieveCcg(int id);

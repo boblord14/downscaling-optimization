@@ -154,6 +154,87 @@ void loadDatafit() {
     datafitFile.close();
 }
 
+double retrieveEquipWeight(std::string name){
+    auto armor = DataParser::retrieveArmorByName(name);
+    if (armor == nullptr) return -1;
+    return stod(armor->at("weight"));
+}
+
+double retrievePoise(std::string name){
+    auto armor = DataParser::retrieveArmorByName(name);
+    if (armor == nullptr) return -1;
+    return 1000 * stod(armor->at("toughnessCorrectRate"));
+}
+
+int retrieveMaxFp(int total_stats, std::string starting_class) {
+    int index = starting_classes.at(starting_class)[1] + total_stats;
+    if (index > 99) index = 99;
+    return mind[index-1];
+}
+
+float maxPoise() {
+    float max_head = -1;
+    float max_chest = -1;
+    float max_arm = -1;
+    float max_leg = -1;
+
+    for (const auto& pair : DataParser::retrieveAllArmor()) {
+        if (stoi(pair.second.at("headEquip")) == 1) {
+            if (float temp = stof(pair.second.at("toughnessCorrectRate")); temp > max_head) max_head = temp;
+        }
+        if (stoi(pair.second.at("bodyEquip")) == 1) {
+            if (float temp = stof(pair.second.at("toughnessCorrectRate")); temp > max_chest) max_chest = temp;
+        }
+        if (stoi(pair.second.at("armEquip")) == 1) {
+            if (float temp = stof(pair.second.at("toughnessCorrectRate")); temp > max_arm) max_arm = temp;
+        }
+        if (stoi(pair.second.at("legEquip")) == 1) {
+            if (float temp = stof(pair.second.at("toughnessCorrectRate")); temp > max_leg) max_leg = temp;
+        }
+    }
+
+    return static_cast<float>(std::round(1000 * (max_head + max_chest + max_arm + max_leg) / .75));
+}
+
+float LogisticFunction(float L, float k, float x0, float x) {
+    return L / (1 + std::exp(-k * (x - x0)));
+}
+
+float Logistic(std::vector<float> logisticPiece, float x) {
+    return LogisticFunction(logisticPiece[0], logisticPiece[1], logisticPiece[2], x);
+}
+
+std::pair<float, float> negationsPoise(float equipLoad, std::vector<float> armorFraction, float armorPercent, boolean hasBullgoat) {
+    float armor = equipLoad * armorPercent;
+
+    float negationsHead = (1 - Logistic(logistic_head, armor * armorFraction[0]));
+    float negationsChest = (1 - Logistic(logistic_chest, armor * armorFraction[1]));
+    float negationsArm = (1 - Logistic(logistic_arm, armor * armorFraction[2]));
+    float negationsLeg = (1 - Logistic(logistic_leg, armor * armorFraction[3]));
+
+    float negations = 1 - negationsHead * negationsChest * negationsArm * negationsLeg;
+
+    float truePoiseHead = (poise_head[0] * armor * armorFraction[0] + poise_head[1]);
+    if (truePoiseHead<=0) truePoiseHead = 0;
+
+    float truePoiseChest = (poise_chest[0] * armor * armorFraction[0] + poise_chest[1]);
+    if (truePoiseChest<=0) truePoiseChest = 0;
+
+    float truePoiseArm = (poise_arm[0] * armor * armorFraction[0] + poise_arm[1]);
+    if (truePoiseArm<=0) truePoiseArm = 0;
+
+    float truePoiseLeg = (poise_leg[0] * armor * armorFraction[0] + poise_leg[1]);
+    if (truePoiseLeg<=0) truePoiseLeg = 0;
+
+    float fullPoise = truePoiseHead + truePoiseChest + truePoiseArm + truePoiseLeg;
+
+    if (hasBullgoat) fullPoise = fullPoise / 0.75;
+
+    if (fullPoise > 133) fullPoise = 133;
+
+    return std::make_pair(negations, fullPoise);
+}
+
 void loadCharacter::loadData() {
     loadMind();
     loadEhp90();
@@ -161,4 +242,8 @@ void loadCharacter::loadData() {
     loadEquipLoadScale();
     loadPoiseScale();
     loadDatafit();
+    std::cout << "equip weight: " << retrieveEquipWeight("Blue Cloth Vest") << std::endl;
+    std::cout << "poise: " << retrievePoise("Blue Cloth Vest") << std::endl;
+    std::cout << "mind value test: " << retrieveMaxFp(20, "Bandit") << std::endl;
+    std::cout << "max poise: " << maxPoise() << std::endl;
 }

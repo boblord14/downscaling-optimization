@@ -1,0 +1,518 @@
+{
+    "id": "ee8cbd6d2042a0",
+    "is2h": true,
+    "name": "Beserker Bleddyn",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 90,
+        "arc": 7,
+        "dex": 14,
+        "fth": 13,
+        "int": 9,
+        "mnd": 14,
+        "str": 39,
+        "vig": 45,
+        "vit": 28
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "author": {
+        "id": "1b31421c-ad8f-419c-8706-c093a8cacdc9",
+        "name": "-"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Sling",
+                "order": 0
+            },
+            {
+                "name": "Stone of Gurranq",
+                "order": 1
+            },
+            {
+                "name": "Beast Claw",
+                "order": 2
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 3
+            }
+        ]
+    },
+    "version": "2.18.1",
+    "buildUrl": "",
+    "computed": {
+        "maxHealth": 1581,
+        "maxFP": 91,
+        "maxStamina": 126,
+        "maxEquipLoad": 89.50954083,
+        "poise": {
+            "original": 57,
+            "altered": 75.99999981
+        },
+        "runes": {
+            "toNextLevel": 50293,
+            "total": 1446127
+        },
+        "absorption": {
+            "physical": 29.17083412000001,
+            "slash": 28.4613007708,
+            "pierce": 28.095498100000004,
+            "strike": 25.207441768000017,
+            "magic": 23.78212710400002,
+            "fire": 24.877167340000018,
+            "lightning": 22.26286648000001,
+            "holy": 23.940914339200003
+        },
+        "defenses": {
+            "physical": 133,
+            "slash": 133,
+            "pierce": 133,
+            "strike": 133,
+            "lightning": 119,
+            "fire": 164,
+            "magic": 137,
+            "holy": 133
+        },
+        "resistances": {
+            "immunity": 264,
+            "robustness": 279,
+            "focus": 204,
+            "vitality": 210
+        }
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Spiked Caestus",
+                "order": 0,
+                "infusion": "Blood",
+                "weaponArt": "Braggart's Roar",
+                "full_hex_id": "01409AB0",
+                "weapon_hex_id": "01409650",
+                "affinity_hex_id": "01409A9C",
+                "upgrade_hex_id": "0014",
+                "ash_of_war_hex_id": "8000FF78"
+            },
+            {
+                "name": "Greatsword",
+                "order": 1,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Vacuum Slice",
+                "equipIndex": 0,
+                "full_hex_id": "003D0978",
+                "weapon_hex_id": "003D0900",
+                "affinity_hex_id": "003D0964",
+                "upgrade_hex_id": "0014",
+                "ash_of_war_hex_id": "800055F0"
+            },
+            {
+                "name": "Cinquedea",
+                "order": 2,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "full_hex_id": "0010F004",
+                "weapon_hex_id": "0010EFF0",
+                "affinity_hex_id": "0010EFF0",
+                "upgrade_hex_id": "0014",
+                "ash_of_war_hex_id": "FFFFFFFF"
+            },
+            {
+                "name": "Troll's Golden Sword",
+                "order": 3,
+                "infusion": "Heavy",
+                "weaponArt": "Troll's Roar",
+                "full_hex_id": "003D7EA8",
+                "weapon_hex_id": "003D7E30",
+                "affinity_hex_id": "003D7E94",
+                "upgrade_hex_id": "0014",
+                "ash_of_war_hex_id": "8000FF14"
+            },
+            {
+                "name": "Watchdog's Greatsword",
+                "order": 4,
+                "infusion": "Heavy",
+                "weaponArt": "Raptor of the Mists",
+                "full_hex_id": "003D3088",
+                "weapon_hex_id": "003D3010",
+                "affinity_hex_id": "003D3074",
+                "upgrade_hex_id": "0014",
+                "ash_of_war_hex_id": "80013948"
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 5,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4,
+                "full_hex_id": "020768D4",
+                "weapon_hex_id": "020768C0",
+                "affinity_hex_id": "020768C0",
+                "upgrade_hex_id": "0014",
+                "ash_of_war_hex_id": "FFFFFFFF"
+            },
+            {
+                "name": "Wakizashi",
+                "order": 6,
+                "infusion": "Heavy",
+                "weaponArt": "Parry",
+                "full_hex_id": "0010C958",
+                "weapon_hex_id": "0010C8E0",
+                "affinity_hex_id": "0010C944",
+                "upgrade_hex_id": "0014",
+                "ash_of_war_hex_id": "800075F8"
+            },
+            {
+                "name": "Iron Greatsword",
+                "order": 7,
+                "infusion": "Heavy",
+                "weaponArt": "Stamp (Upward Cut)",
+                "full_hex_id": "002E1558",
+                "weapon_hex_id": "002E14E0",
+                "affinity_hex_id": "002E1544",
+                "upgrade_hex_id": "0014",
+                "ash_of_war_hex_id": "80002968"
+            },
+            {
+                "name": "Claymore",
+                "order": 8,
+                "infusion": "Heavy",
+                "weaponArt": "Impaling Thrust",
+                "full_hex_id": "00308658",
+                "weapon_hex_id": "003085E0",
+                "affinity_hex_id": "00308644",
+                "upgrade_hex_id": "0014",
+                "ash_of_war_hex_id": "80002774"
+            },
+            {
+                "name": "Lordsworn's Greatsword",
+                "order": 9,
+                "infusion": "Heavy",
+                "weaponArt": "Quickstep",
+                "full_hex_id": "002E3C68",
+                "weapon_hex_id": "002E3BF0",
+                "affinity_hex_id": "002E3C54",
+                "upgrade_hex_id": "0014",
+                "ash_of_war_hex_id": "80013880"
+            },
+            {
+                "name": "Jar Cannon",
+                "order": 10,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "full_hex_id": "029F8A24",
+                "weapon_hex_id": "029F8A10",
+                "affinity_hex_id": "029F8A10",
+                "upgrade_hex_id": "0014",
+                "ash_of_war_hex_id": "FFFFFFFF"
+            },
+            {
+                "name": "Lordsworn's Straight Sword",
+                "order": 11,
+                "infusion": "Heavy",
+                "weaponArt": "Spinning Slash",
+                "full_hex_id": "001F2138",
+                "weapon_hex_id": "001F20C0",
+                "affinity_hex_id": "001F2124",
+                "upgrade_hex_id": "0014",
+                "ash_of_war_hex_id": "8000283C"
+            },
+            {
+                "name": "Erdtree Greatshield",
+                "order": 12,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "full_hex_id": "01E98094",
+                "weapon_hex_id": "01E98080",
+                "affinity_hex_id": "01E98080",
+                "upgrade_hex_id": "0014",
+                "ash_of_war_hex_id": "FFFFFFFF"
+            },
+            {
+                "name": "Golden Halberd",
+                "order": 13,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "full_hex_id": "0113E114",
+                "weapon_hex_id": "0113E100",
+                "affinity_hex_id": "0113E100",
+                "upgrade_hex_id": "0014",
+                "ash_of_war_hex_id": "FFFFFFFF"
+            },
+            {
+                "name": "Beast Claw",
+                "order": 14,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Savage Claws",
+                "equipIndex": 3,
+                "full_hex_id": "04153A34",
+                "weapon_hex_id": "04153A20",
+                "affinity_hex_id": "04153A20",
+                "upgrade_hex_id": "0014",
+                "ash_of_war_hex_id": "800635D8"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0,
+                "full_hex_id": "200004BA"
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1,
+                "full_hex_id": "20000408"
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2,
+                "full_hex_id": "200017C0"
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3,
+                "full_hex_id": "2000047E"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Crucible Gauntlets",
+                    "order": 0,
+                    "full_hex_id": "1008B358"
+                },
+                {
+                    "name": "Drake Knight Gauntlets",
+                    "order": 1,
+                    "full_hex_id": "1000EB28"
+                },
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 2,
+                    "full_hex_id": "1009C4C8"
+                },
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 3,
+                    "full_hex_id": "10057F08"
+                },
+                {
+                    "name": "Omen Gauntlets",
+                    "order": 4,
+                    "full_hex_id": "100ECDD8"
+                },
+                {
+                    "name": "Battlemage Manchettes",
+                    "order": 5,
+                    "full_hex_id": "100F4308"
+                },
+                {
+                    "name": "Bloodsoaked Manchettes",
+                    "order": 6,
+                    "full_hex_id": "100EB280"
+                },
+                {
+                    "name": "Perfumer Gloves",
+                    "order": 7,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1,
+                    "full_hex_id": "10016058"
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Champion Pauldron",
+                    "order": 0,
+                    "full_hex_id": "100B23F4"
+                },
+                {
+                    "name": "Night's Cavalry Armor",
+                    "order": 1,
+                    "full_hex_id": "100382D4"
+                },
+                {
+                    "name": "Blaidd's Armor (Altered)",
+                    "order": 2,
+                    "full_hex_id": "10029C5C"
+                },
+                {
+                    "name": "Scale Armor",
+                    "order": 3,
+                    "full_hex_id": "10009CA4"
+                },
+                {
+                    "name": "Radahn's Lion Armor (Altered)",
+                    "order": 4,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1,
+                    "full_hex_id": "1007303C"
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Radahn's Redmane Helm",
+                    "order": 0,
+                    "full_hex_id": "10072BF0"
+                },
+                {
+                    "name": "Black Wolf Mask",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1,
+                    "full_hex_id": "10029810"
+                },
+                {
+                    "name": "Imp Head (Wolf)",
+                    "order": 2,
+                    "full_hex_id": "10108A60"
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rotten Duelist Greaves",
+                    "order": 0,
+                    "full_hex_id": "101E85AC"
+                },
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 1,
+                    "full_hex_id": "10057F6C"
+                },
+                {
+                    "name": "Duelist Greaves",
+                    "order": 2,
+                    "full_hex_id": "1004BC1C"
+                },
+                {
+                    "name": "Leyndell Soldier Greaves",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1,
+                    "full_hex_id": "101A3FEC"
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "description": "",
+    "weaponUpgrade": 20,
+    "characterClass": "Vagabond"
+}
