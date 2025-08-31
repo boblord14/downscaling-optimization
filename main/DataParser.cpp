@@ -32,6 +32,19 @@ std::unordered_map<std::string, std::string> DataParser::retrieveArmor(int id) {
     return equipParamProtector.at(id);
 }
 
+std::unordered_map<int, std::unordered_map<std::string, std::string>> DataParser::retrieveAllArmor() {
+    return equipParamProtector;
+}
+
+std::unordered_map<std::string, std::string>* DataParser::retrieveArmorByName(std::string name) {
+    for (const auto& pair : equipParamProtector) {
+        if (pair.second.at("Name") == name) {
+            return &equipParamProtector.at(pair.first);
+        }
+    }
+    return nullptr;
+}
+
 std::unordered_map<std::string, std::string> DataParser::retrieveMagic(int id) {
     return magic.at(id);
 }
