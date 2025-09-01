@@ -8,7 +8,7 @@
 #include <sstream>
 #include <vector>
 #include <fstream>
-#include <ceres/ceres.h>
+#include <nlopt.hpp>
 
 void loadMind() {
     std::ifstream mindFile;
@@ -269,7 +269,7 @@ std::vector<std::vector<float>> effectiveHealth(int baseVigor, int baseEndurance
         effectiveHp.push_back(computedEffectiveHp);
 
         for (int j = 0; j < poise_bp.size(); j++) {
-            if (poiseVal >= poise_bp[j] and computedEffectiveHp >= bestBreakPoints[j][0]) {
+            if (poiseVal >= poise_bp[j] && computedEffectiveHp >= bestBreakPoints[j][0]) {
                 bestBreakPoints[j] = {computedEffectiveHp, poiseVal, static_cast<float>(hpIndex) + 1 - baseVigor, static_cast<float>(enduranceIndex) + 1 - baseEndurance};
             }
         }
@@ -286,20 +286,51 @@ int fpToMind(int fp) {
     return -1;
 }
 
-float obj(std::vector<float> minimizedX) {
-    float negationHead = (1- Logistic(logistic_head, minimizedX[0]));
-    float negationChest = (1- Logistic(logistic_chest, minimizedX[1]));
-    float negationArm = (1- Logistic(logistic_arm, minimizedX[2]));
-    float negationLeg = (1- Logistic(logistic_leg, minimizedX[3]));
-    float neg = 1 - negationHead * negationChest * negationArm * negationLeg;
+double obj(const std::vector<double> &x, std::vector<double> &grad, void* f_data) //grad and f_data are unused
+{
+
+
+    double negationHead = (1- Logistic(logistic_head, x[0]));
+    double negationChest = (1- Logistic(logistic_chest, x[1]));
+    double negationArm = (1- Logistic(logistic_arm, x[2]));
+    double negationLeg = (1- Logistic(logistic_leg, x[3]));
+    double neg = 1 - negationHead * negationChest * negationArm * negationLeg;
     return -neg;
 }
 
-std::pair<float, float> bestNegations(float equipLoad) {
-    float eq = 0.69 * equipLoad;
-    auto linear = &obj;
+double equality(const std::vector<double> &x, std::vector<double> &grad, void* f_data) //grad is derivative and f_data is our equip load
+{
+    double equipLoad = *reinterpret_cast<double*>(f_data);
 
+    if (!grad.empty()) {
+        grad[0] = 1.0;
+        grad[1] = 1.0;
+        grad[2] = 1.0;
+        grad[3] = 1.0; //derivative should be 1 for all 4 pieces
+    }
+
+    return (x[0] + x[1] + x[2] + x[3]) - (equipLoad); //satisfied when the sum of our armor's equip load equals our max equip load
 }
+
+std::pair<std::vector<double>, double> bestNegations(float equipLoad) {
+    double eq = 0.69 * equipLoad; //medium roll 69% threshold
+
+    //4 optimization parameters
+    nlopt::opt opt(nlopt::LD_SLSQP, 4);
+    opt.set_lower_bounds({0, 0, 0, 0}); //x>=0
+    opt.set_min_objective(obj, nullptr); //derivative free function
+    opt.add_equality_constraint(equality, &eq, 1e-9); //satisfied when equip load equals max acceptable equip load
+    opt.set_xtol_abs(1e-9);
+    std::vector<double> x0(4, eq/4);
+
+    double fmin;
+    nlopt::result result = opt.optimize(x0, fmin);
+
+    double best_neg = -fmin;
+    return std::make_pair(x0, best_neg);
+}
+
+
 
 void loadCharacter::loadData() {
     loadMind();
@@ -312,4 +343,6 @@ void loadCharacter::loadData() {
     std::cout << "poise: " << retrievePoise("Blue Cloth Vest") << std::endl;
     std::cout << "mind value test: " << retrieveMaxFp(20, "Bandit") << std::endl;
     std::cout << "max poise: " << maxPoise() << std::endl;
+    std::cout << "bestNeg test: " << bestNegations(190.4).first[0] << std::endl;
+
 }
