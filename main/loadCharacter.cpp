@@ -8,7 +8,7 @@
 #include <sstream>
 #include <vector>
 #include <fstream>
-
+#include <ceres/ceres.h>
 
 void loadMind() {
     std::ifstream mindFile;
@@ -89,6 +89,8 @@ void loadPoiseScale() {
         poise_bp.push_back(poise);
     }
     poiseFile.close();
+
+    std::sort(poise_bp.begin(), poise_bp.end());
 }
 
 //I REALLY need a better way to load this.
@@ -233,6 +235,70 @@ std::pair<float, float> negationsPoise(float equipLoad, std::vector<float> armor
     if (fullPoise > 133) fullPoise = 133;
 
     return std::make_pair(negations, fullPoise);
+}
+
+std::vector<std::vector<float>> effectiveHealth(int baseVigor, int baseEndurance, float armorPercent, std::vector<float> armorFraction, int allocatedStatPoints, bool hasBullgoat, bool hasGreatjar) {
+    std::vector<float> characterEquipLoadScale;
+    std::vector<float> characterHealthScale;
+    std::vector<float> negations;
+    std::vector<float> poise;
+    std::vector<float> effectiveHp;
+    std::vector<std::vector<float>> bestBreakPoints(poise_bp.size(), std::vector<float>(4, -1));
+
+    int i = 0;
+
+    while (i <= allocatedStatPoints) {
+        int hpIndex = i + baseVigor - 1;
+        if (hpIndex >= 99) hpIndex = 98;
+        float hp = vig_scale[hpIndex];
+        characterHealthScale.push_back(hp);
+
+        int enduranceIndex = allocatedStatPoints - i + baseEndurance - 1;
+        if (enduranceIndex >= 99) enduranceIndex = 98;
+        float equipLoad = equip_load_scale[enduranceIndex];
+        if (hasGreatjar) equipLoad = equipLoad * 1.19;
+
+        auto values = negationsPoise(equipLoad, armorFraction, armorPercent, hasBullgoat);
+        float neg = values.first;
+        float poiseVal = values.second;
+
+        characterEquipLoadScale.push_back(equipLoad);
+        poise.push_back(poiseVal);
+        negations.push_back(neg);
+        float computedEffectiveHp = hp / (1 - neg);
+        effectiveHp.push_back(computedEffectiveHp);
+
+        for (int j = 0; j < poise_bp.size(); j++) {
+            if (poiseVal >= poise_bp[j] and computedEffectiveHp >= bestBreakPoints[j][0]) {
+                bestBreakPoints[j] = {computedEffectiveHp, poiseVal, static_cast<float>(hpIndex) + 1 - baseVigor, static_cast<float>(enduranceIndex) + 1 - baseEndurance};
+            }
+        }
+        i += 1;
+    }
+    while (bestBreakPoints.back()[0] == -1) bestBreakPoints.pop_back();
+    return bestBreakPoints;
+}
+
+int fpToMind(int fp) {
+    for (int i = 0; i < mind.size(); i++) {
+        if (mind[i] == fp) return i+1;
+    }
+    return -1;
+}
+
+float obj(std::vector<float> minimizedX) {
+    float negationHead = (1- Logistic(logistic_head, minimizedX[0]));
+    float negationChest = (1- Logistic(logistic_chest, minimizedX[1]));
+    float negationArm = (1- Logistic(logistic_arm, minimizedX[2]));
+    float negationLeg = (1- Logistic(logistic_leg, minimizedX[3]));
+    float neg = 1 - negationHead * negationChest * negationArm * negationLeg;
+    return -neg;
+}
+
+std::pair<float, float> bestNegations(float equipLoad) {
+    float eq = 0.69 * equipLoad;
+    auto linear = &obj;
+
 }
 
 void loadCharacter::loadData() {
