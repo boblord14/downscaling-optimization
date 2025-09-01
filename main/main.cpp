@@ -12,7 +12,7 @@
 #include "loadCharacter.h"
 
 #include "DataParser.h"
-#include "Eigen/Dense"
+#include <Eigen/Dense>
 #include "bnb.h"
 #include "svd.h"
 #include "db.h"
