@@ -288,13 +288,12 @@ int fpToMind(int fp) {
 
 double obj(const std::vector<double> &x, std::vector<double> &grad, void* f_data) //grad and f_data are unused
 {
-
-
     double negationHead = (1- Logistic(logistic_head, x[0]));
     double negationChest = (1- Logistic(logistic_chest, x[1]));
     double negationArm = (1- Logistic(logistic_arm, x[2]));
     double negationLeg = (1- Logistic(logistic_leg, x[3]));
-    double neg = 1 - negationHead * negationChest * negationArm * negationLeg;
+
+    double neg = 1 - (negationHead * negationChest * negationArm * negationLeg);
     return -neg;
 }
 
@@ -302,32 +301,40 @@ double equality(const std::vector<double> &x, std::vector<double> &grad, void* f
 {
     double equipLoad = *reinterpret_cast<double*>(f_data);
 
-    if (!grad.empty()) {
-        grad[0] = 1.0;
-        grad[1] = 1.0;
-        grad[2] = 1.0;
-        grad[3] = 1.0; //derivative should be 1 for all 4 pieces
-    }
-
     return (x[0] + x[1] + x[2] + x[3]) - (equipLoad); //satisfied when the sum of our armor's equip load equals our max equip load
 }
 
 std::pair<std::vector<double>, double> bestNegations(float equipLoad) {
     double eq = 0.69 * equipLoad; //medium roll 69% threshold
 
-    //4 optimization parameters
-    nlopt::opt opt(nlopt::LD_SLSQP, 4);
+    nlopt::opt opt(nlopt::AUGLAG, 4); //four optimization parameters, auglag for constraint support
+    nlopt::opt inner(nlopt::LN_COBYLA, 4); //gradient free algo
+    opt.set_local_optimizer(inner);
+
     opt.set_lower_bounds({0, 0, 0, 0}); //x>=0
     opt.set_min_objective(obj, nullptr); //derivative free function
-    opt.add_equality_constraint(equality, &eq, 1e-9); //satisfied when equip load equals max acceptable equip load
-    opt.set_xtol_abs(1e-9);
-    std::vector<double> x0(4, eq/4);
+
+    float tolerance = 1e-4 * std::max(1.0, std::abs(eq));
+    opt.add_equality_constraint(equality, &eq, tolerance); //satisfied when equip load equals max acceptable equip load
+
+    opt.set_xtol_rel(1e-6); //relative tolerances
+    opt.set_ftol_rel(1e-6);
+    opt.set_maxeval(2000); //limit to prevent it from taking forever or breaking
+
+    //both of these initial guesses seem to work, but just dividing by 4 seems to be "good enough" for the optimizer most of the time
+    //results in the best x0 values being the ones you start with, the 1234 one does not. both have a pretty similar best_neg so idm too much
+
+    //std::vector<double> x0 = {1, 2, 3, 4}; //initial guess alt
+    std::vector<double> x0(4, eq/4); // initial guess
 
     double fmin;
-    nlopt::result result = opt.optimize(x0, fmin);
+    nlopt::result result;
+    try {
+        result = opt.optimize(x0, fmin);
+    }
+    catch (std::exception& e) {}
 
-    double best_neg = -fmin;
-    return std::make_pair(x0, best_neg);
+    return std::make_pair(x0, -fmin);
 }
 
 
@@ -343,6 +350,16 @@ void loadCharacter::loadData() {
     std::cout << "poise: " << retrievePoise("Blue Cloth Vest") << std::endl;
     std::cout << "mind value test: " << retrieveMaxFp(20, "Bandit") << std::endl;
     std::cout << "max poise: " << maxPoise() << std::endl;
-    std::cout << "bestNeg test: " << bestNegations(190.4).first[0] << std::endl;
+
+    auto result = bestNegations(190.4);
+    std::cout << "bestNeg test: ";
+    std::cout << "x0 = [ ";
+    for (double v : result.first) {
+        std::cout << v << " ";
+    }
+    std::cout << "] ";
+    std::cout << "best_neg = " << result.second << std::endl;
+    std::vector<double> grad;
+    std::cout << "direct obj eval with x0: " << obj(result.first, grad, nullptr) << std::endl;
 
 }
