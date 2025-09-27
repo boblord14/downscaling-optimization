@@ -49,8 +49,18 @@ std::unordered_map<std::string, std::string> DataParser::retrieveMagic(int id) {
     return magic.at(id);
 }
 
+std::unordered_map<int, std::unordered_map<std::string, std::string>> DataParser::retrieveAllMagic()
+{
+    return magic;
+}
+
 std::unordered_map<std::string, std::string> DataParser::retrieveSwordArt(int id) {
     return swordArtsParam.at(id);
+}
+
+std::unordered_map<int, std::unordered_map<std::string, std::string>> DataParser::retrieveAllSwordArt()
+{
+    return swordArtsParam;
 }
 
 std::vector<float> DataParser::retrieveCcg(int id) {

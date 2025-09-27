@@ -460,6 +460,89 @@ std::vector<double> project(std::vector<double> originalX, int totalStats)
     return project(newY, totalStats);
 }
 
+void rescaleClasses()
+{
+    const int STARTING_CLASS_STAT_POINTS = 79;
+
+    for (const auto & [ name, stats ] : starting_classes)
+    {
+        std::vector<double> imperfectStats = project(std::vector<double>(stats.begin(), stats.end()), STARTING_CLASS_STAT_POINTS);
+        std::vector<int> adjustedStats = {};
+        int sum = 0;
+        for (double stat : imperfectStats)
+        {
+            int castStat = static_cast<int>(stat);
+            sum += castStat;
+            adjustedStats.push_back(castStat);
+        }
+        //sometimes we can have less than 79 allocated stats due to decimals in the projection
+        //if so, find the stat closest to rounding up and move it up one, repeat until we actually allocate 79 stats
+        if (sum != 79)
+        {
+            int remainder = 79 - sum;
+            while (remainder > 0)
+            {
+                double max = -1;
+                std::vector<int> used = {};
+                int index = -1;
+                for (int i=0; i<adjustedStats.size(); i++)
+                {
+                    double difference = imperfectStats[i] - adjustedStats[i];
+
+                    //the second condition is an annoyingly complicated way to check if the value of "i" is not in the array "used"
+                    if (difference > max && std::find(std::begin(used), std::end(used), i) == std::end(used))
+                    {
+                        max = difference;
+                        index = i;
+                    }
+                }
+                used.push_back(index);
+                adjustedStats[index] += 1;
+                remainder -= 1;
+            }
+        }
+        starting_classes[name] = adjustedStats;
+    }
+}
+
+int getMaxFPAshOfWar()
+{
+    std::vector<int> fp = {};
+    for (const auto & [ id, data ] : DataParser::retrieveAllSwordArt())
+    {
+        if (int leftHandLightAttackFP = stoi(data.at("useMagicPoint_L1")); leftHandLightAttackFP != -1 and leftHandLightAttackFP != 0)
+        {
+            fp.push_back(leftHandLightAttackFP);
+        }
+
+        if (int leftHandHeavyAttackFP = stoi(data.at("useMagicPoint_L2")); leftHandHeavyAttackFP != -1 and leftHandHeavyAttackFP != 0)
+        {
+            fp.push_back(leftHandHeavyAttackFP);
+        }
+
+        if (int rightHandLightAttackFP = stoi(data.at("useMagicPoint_R1")); rightHandLightAttackFP != -1 and rightHandLightAttackFP != 0)
+        {
+            fp.push_back(rightHandLightAttackFP);
+        }
+
+        if (int rightHandHeavyAttackFP = stoi(data.at("useMagicPoint_R2")); rightHandHeavyAttackFP != -1 and rightHandHeavyAttackFP != 0)
+        {
+            fp.push_back(rightHandHeavyAttackFP);
+        }
+    }
+    return *std::max_element(fp.begin(), fp.end());
+}
+
+int getMaxFpSpell()
+{
+    std::vector<int> fp = {};
+    for (const auto & [ id, data ] : DataParser::retrieveAllMagic())
+    {
+        fp.push_back(stoi(data.at("mp")));
+    }
+    return *std::max_element(fp.begin(), fp.end());
+}
+
 void loadCharacter::loadData() {
     loadMind();
     loadEhp90();
@@ -491,5 +574,18 @@ void loadCharacter::loadData() {
     for (double y : projResult) {
         std::cout << y << " ";
     }
-    std::cout << "] ";
+    std::cout << "] " << std::endl;
+
+    rescaleClasses();
+
+    std::cout << "class rescale test: ";
+    std::cout << "new hero stats(should be same or close to projection) = [ ";
+    for (int stat : starting_classes["Hero"]) {
+        std::cout << stat << " ";
+    }
+    std::cout << "] " << std::endl;
+
+    std::cout << "highest fp AoW test: " << getMaxFPAshOfWar() << std::endl;
+    std::cout << "highest fp spell test: " << getMaxFpSpell() << std::endl;
+
 }
