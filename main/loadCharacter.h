@@ -23,8 +23,8 @@ static std::vector<float> poise_chest;
 static std::vector<float> poise_arm;
 static std::vector<float> poise_leg;
 
-static std::unordered_map<std::string, std::vector<float>> starting_classes_negations;
-static std::unordered_map<std::string, std::vector<float>> starting_classes_negations_greatjar;
+static std::unordered_map<std::string, std::vector<double>> starting_classes_negations;
+static std::unordered_map<std::string, std::vector<double>> starting_classes_negations_greatjar;
 
 static std::unordered_map<std::string, int> starting_classes_index = {
     {"Hero", 0},
