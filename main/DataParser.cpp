@@ -4,6 +4,19 @@
 
 #include "DataParser.h"
 
+char asciitolower(char in) {
+    if (in <= 'Z' && in >= 'A')
+        return in - ('Z' - 'z');
+    return in;
+}
+
+//quick and dirty way to make toLower work
+std::string toLower(std::string data)
+{
+    std::string convString = data;
+    std::transform(convString.begin(), convString.end(), convString.begin(), asciitolower);
+    return convString;
+}
 
 void DataParser::generateDefs() {
     defGenerator(R"(..\..\csv-conversions\equipParamWeapon.csv)", &equipParamWeapon);
@@ -38,7 +51,7 @@ std::unordered_map<int, std::unordered_map<std::string, std::string>> DataParser
 
 std::unordered_map<std::string, std::string>* DataParser::retrieveArmorByName(std::string name) {
     for (const auto& pair : equipParamProtector) {
-        if (pair.second.at("Name") == name) {
+        if (toLower(pair.second.at("Name")) == toLower((name))) {
             return &equipParamProtector.at(pair.first);
         }
     }
@@ -54,6 +67,17 @@ std::unordered_map<int, std::unordered_map<std::string, std::string>> DataParser
     return magic;
 }
 
+std::unordered_map<std::string, std::string>* DataParser::retrieveMagicByName(std::string name) {
+    std::string originalName = toLower(name);
+    for (const auto& pair : magic) {
+        std::string nameConv = toLower(pair.second.at("Name"));
+        if (nameConv == originalName) {
+            return &magic.at(pair.first);
+        }
+    }
+    return nullptr;
+}
+
 std::unordered_map<std::string, std::string> DataParser::retrieveSwordArt(int id) {
     return swordArtsParam.at(id);
 }
@@ -61,6 +85,15 @@ std::unordered_map<std::string, std::string> DataParser::retrieveSwordArt(int id
 std::unordered_map<int, std::unordered_map<std::string, std::string>> DataParser::retrieveAllSwordArt()
 {
     return swordArtsParam;
+}
+
+std::unordered_map<std::string, std::string>* DataParser::retrieveSwordArtByName(std::string name) {
+    for (const auto& pair : swordArtsParam) {
+        if (toLower(pair.second.at("Name")) == toLower(name)) {
+            return &swordArtsParam.at(pair.first);
+        }
+    }
+    return nullptr;
 }
 
 std::vector<float> DataParser::retrieveCcg(int id) {

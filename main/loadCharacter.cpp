@@ -543,6 +543,41 @@ int getMaxFpSpell()
     return *std::max_element(fp.begin(), fp.end());
 }
 
+std::vector<int> getFPAshOfWar(const std::string& name)
+{
+    std::vector<int> fp = {};
+
+    auto data = *DataParser::retrieveSwordArtByName(name);
+
+    if (int leftHandLightAttackFP = stoi(data.at("useMagicPoint_L1")); leftHandLightAttackFP != -1 and leftHandLightAttackFP != 0)
+    {
+        fp.push_back(leftHandLightAttackFP);
+    }
+
+    if (int leftHandHeavyAttackFP = stoi(data.at("useMagicPoint_L2")); leftHandHeavyAttackFP != -1 and leftHandHeavyAttackFP != 0)
+    {
+        fp.push_back(leftHandHeavyAttackFP);
+    }
+
+    if (int rightHandLightAttackFP = stoi(data.at("useMagicPoint_R1")); rightHandLightAttackFP != -1 and rightHandLightAttackFP != 0)
+    {
+        fp.push_back(rightHandLightAttackFP);
+    }
+
+    if (int rightHandHeavyAttackFP = stoi(data.at("useMagicPoint_R2")); rightHandHeavyAttackFP != -1 and rightHandHeavyAttackFP != 0)
+    {
+        fp.push_back(rightHandHeavyAttackFP);
+    }
+
+    return fp;
+}
+
+int getFpSpell(std::string name)
+{
+    auto data = *DataParser::retrieveMagicByName(name);
+    return stoi(data.at("mp"));
+}
+
 void loadCharacter::loadData() {
     loadMind();
     loadEhp90();
@@ -588,4 +623,13 @@ void loadCharacter::loadData() {
     std::cout << "highest fp AoW test: " << getMaxFPAshOfWar() << std::endl;
     std::cout << "highest fp spell test: " << getMaxFpSpell() << std::endl;
 
+    std::cout << "fp cost fetch of square off AoW: ";
+    auto fpFetch = getFPAshOfWar("Square Off");
+    std::cout << "fp costs  = [ ";
+    for (double fp : fpFetch) {
+        std::cout << fp << " ";
+    }
+    std::cout << "] " << std::endl;
+
+    std::cout << "fp cost fetch of bloodflame talons spell: " << getFpSpell("Bloodflame Talons") << std::endl;
 }
