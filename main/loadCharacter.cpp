@@ -9,6 +9,7 @@
 #include <vector>
 #include <fstream>
 #include <nlopt.hpp>
+#include <numeric>
 
 void loadMind() {
     std::ifstream mindFile;
@@ -334,10 +335,130 @@ std::pair<std::vector<double>, double> bestNegations(float equipLoad) {
     }
     catch (std::exception& e) {}
 
-    return std::make_pair(x0, -fmin);
+    return std::make_pair(x0, -fmin); //first is all the piece equip loads, second is the negation
 }
 
+double bestEffectiveHP(int statPoints, std::string startingClass, boolean hasGreatJar)
+{
+    int baseVigor = starting_classes[startingClass][0];
+    int baseEndurance = starting_classes[startingClass][2];
 
+    std::vector<double> equipLoads = {};
+    std::vector<double> healthPoints = {};
+    std::vector<double> negations = {};
+    std::vector<double> poise = {};
+    std::vector<double> effectiveHP = {};
+    boolean larger = false;
+
+    for (int i=0; i<statPoints; i++)
+    {
+        int hpIndex = i + baseVigor - 1;
+        if (hpIndex>=99)
+        {
+            hpIndex = 98;
+        }
+        double hp = vig_scale[hpIndex];
+        healthPoints.push_back(hp);
+
+        int endIndex = statPoints - i + baseEndurance - 1;
+        if (endIndex>=99)
+        {
+            endIndex = 98;
+        }
+        double el = equip_load_scale[endIndex];
+        if (hasGreatJar)
+        {
+            el *= 1.19;
+        }
+        equipLoads.push_back(el);
+
+        double negation = -1;
+        boolean precompute = false;
+
+        if (!hasGreatJar && starting_classes_negations.count(startingClass)) //no great jar and starting class negations computed already
+        {
+            if (i < starting_classes_negations[startingClass].size())
+            {
+                negation = starting_classes_negations[startingClass][i];
+                precompute = true;
+            }
+        } else if (hasGreatJar && starting_classes_negations_greatjar.count(startingClass))
+        {
+            if (i < starting_classes_negations_greatjar[startingClass].size())
+            {
+                negation = starting_classes_negations_greatjar[startingClass][i];
+                precompute = true;
+            }
+        }
+
+        if (!precompute)
+        {
+            larger = true;
+            negation = bestNegations(el).second;
+        }
+
+        negations.push_back(negation);
+        effectiveHP.push_back(hp / (1-negation));
+
+    }
+
+    if ((!hasGreatJar && !starting_classes_negations.count(startingClass)) || larger)
+    {
+        starting_classes_negations[startingClass] = negations;
+    }
+    if ((hasGreatJar && !starting_classes_negations.count(startingClass)) || larger)
+    {
+        starting_classes_negations_greatjar[startingClass] = negations;
+    }
+
+    return *std::max_element(effectiveHP.begin(), effectiveHP.end());  //biggest effective hp value we've found
+
+}
+
+std::vector<double> project(std::vector<double> originalX, int totalStats)
+{
+    std::vector<double> plane(originalX.size(), 1.0);
+
+    double planeDotProduct = std::inner_product(plane.begin(), plane.end(), plane.begin(), 0.0);
+
+    double sqrtDot = std::sqrt(planeDotProduct);
+
+    for (int i=0; i<plane.size(); i++)
+    {
+        plane[i] /= sqrtDot;
+    }
+
+    double xSum = std::inner_product(originalX.begin(), originalX.end(), plane.begin(), 0.0);
+
+    std::vector<double> newY(originalX.begin(), originalX.end());
+
+    for (int i=0; i<newY.size(); i++)
+    {
+        newY[i] = newY[i] - xSum * plane[i];
+    }
+
+    double alpha = totalStats / planeDotProduct;
+
+    for (int i=0; i<newY.size(); i++)
+    {
+        newY[i] = newY[i] + alpha * sqrtDot * plane[i];
+    }
+
+    boolean pos = true;
+
+    for (int i=0; i<originalX.size(); i++)
+    {
+        if (newY[i] <= 1 && std::abs(newY[i] - 1.0) > 1e-4)
+        {
+            newY[i] = 1;
+            pos = false;
+            break;
+        }
+    }
+
+    if (pos) return newY;
+    return project(newY, totalStats);
+}
 
 void loadCharacter::loadData() {
     loadMind();
@@ -362,4 +483,13 @@ void loadCharacter::loadData() {
     std::vector<double> grad;
     std::cout << "direct obj eval with x0: " << obj(result.first, grad, nullptr) << std::endl;
 
+    std::cout << "max EHP: " << bestEffectiveHP(90, "Hero", true) << std::endl;
+
+    auto projResult = project(std::vector<double>(starting_classes["Hero"].begin(), starting_classes["Hero"].end()), 79);
+    std::cout << "projection test: ";
+    std::cout << "newY = [ ";
+    for (double y : projResult) {
+        std::cout << y << " ";
+    }
+    std::cout << "] ";
 }
