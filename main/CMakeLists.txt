@@ -15,5 +15,7 @@ add_executable(downscaling-optimization main.cpp
         db.h
         loadCharacter.cpp
         loadCharacter.h
+        character.cpp
+        character.h
 )
 target_link_libraries(downscaling-optimization PRIVATE NLopt::nlopt)
