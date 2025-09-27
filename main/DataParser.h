@@ -34,9 +34,11 @@ public:
 
     static std::unordered_map<std::string, std::string> retrieveMagic(int id);
     static std::unordered_map<int, std::unordered_map<std::string, std::string>> retrieveAllMagic();
+    static std::unordered_map<std::string, std::string>* retrieveMagicByName(std::string name);
 
     static std::unordered_map<std::string, std::string> retrieveSwordArt(int id);
     static std::unordered_map<int, std::unordered_map<std::string, std::string>> retrieveAllSwordArt();
+    static std::unordered_map<std::string, std::string>* retrieveSwordArtByName(std::string name);
 
     static std::vector<float> retrieveCcg(int id);
     static std::vector<int> getWeaponIds();
