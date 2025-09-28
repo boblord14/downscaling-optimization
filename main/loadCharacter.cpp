@@ -11,151 +11,7 @@
 #include <nlopt.hpp>
 #include <numeric>
 
-void loadMind() {
-    std::ifstream mindFile;
-    mindFile.open (R"(..\..\csv-conversions\non csv data\Mind.txt)");
-
-    std::string line;
-    while (std::getline(mindFile, line))
-    {
-        std::istringstream iss(line);
-        int level, value;
-        if (!(iss >> level >> value)) { break; } // error
-
-        mind.push_back(value);
-    }
-    mindFile.close();
-}
-
-void loadEhp90() {
-    std::ifstream ehp90File;
-    ehp90File.open (R"(..\..\csv-conversions\non csv data\bestehp90.txt)");
-
-    std::string line;
-    while (std::getline(ehp90File, line))
-    {
-        std::istringstream iss(line);
-        std::string startingClass;
-        float ehp;
-        if (!(iss >> startingClass >> ehp)) { break; } // error
-
-        best_ehp_90.emplace(startingClass, ehp);
-    }
-    ehp90File.close();
-}
-
-void loadVigScale() {
-    std::ifstream vigFile;
-    vigFile.open (R"(..\..\csv-conversions\non csv data\vigor.txt)");
-
-    std::string line;
-    std::getline(vigFile, line);
-
-    std::istringstream iss(line);
-    float vigor;
-
-    while (iss >> vigor) {
-        vig_scale.push_back(vigor);
-    }
-    vigFile.close();
-}
-
-void loadEquipLoadScale() {
-    std::ifstream elFile;
-    elFile.open (R"(..\..\csv-conversions\non csv data\equipload.txt)");
-
-    std::string line;
-    std::getline(elFile, line);
-
-    std::istringstream iss(line);
-    float equipLoad;
-
-    while (iss >> equipLoad) {
-        equip_load_scale.push_back(equipLoad);
-    }
-    elFile.close();
-}
-
-void loadPoiseScale() {
-    std::ifstream poiseFile;
-    poiseFile.open (R"(..\..\csv-conversions\non csv data\poisebreakpoints.txt)");
-
-    std::string line;
-    std::getline(poiseFile, line);
-
-    std::istringstream iss(line);
-    float poise;
-
-    while (iss >> poise) {
-        poise_bp.push_back(poise);
-    }
-    poiseFile.close();
-
-    std::sort(poise_bp.begin(), poise_bp.end());
-}
-
-//I REALLY need a better way to load this.
-void loadDatafit() {
-    std::ifstream datafitFile;
-    datafitFile.open (R"(..\..\csv-conversions\non csv data\datafit.txt)");
-
-    std::string line;
-    std::istringstream iss;
-
-    float fit1;
-    float fit2;
-    float fit3_logisticOnly;
-
-    std::getline(datafitFile, line);
-    iss.str(line);
-    iss >> fit1 >> fit2 >> fit3_logisticOnly;
-    logistic_head.insert(std::end(logistic_head), {fit1, fit2, fit3_logisticOnly});
-    iss.clear();
-
-    std::getline(datafitFile, line);
-    iss.str(line);
-    iss >> fit1 >> fit2 >> fit3_logisticOnly;
-    logistic_chest.insert(std::end(logistic_chest), {fit1, fit2, fit3_logisticOnly});
-    iss.clear();
-
-    std::getline(datafitFile, line);
-    iss.str(line);
-    iss >> fit1 >> fit2 >> fit3_logisticOnly;
-    logistic_arm.insert(std::end(logistic_arm), {fit1, fit2, fit3_logisticOnly});
-    iss.clear();
-
-    std::getline(datafitFile, line);
-    iss.str(line);
-    iss >> fit1 >> fit2 >> fit3_logisticOnly;
-    logistic_leg.insert(std::end(logistic_leg), {fit1, fit2, fit3_logisticOnly});
-    iss.clear();
-
-    std::getline(datafitFile, line);
-    iss.str(line);
-    iss >> fit1 >> fit2;
-    poise_head.insert(std::end(poise_head), {fit1, fit2});
-    iss.clear();
-
-    std::getline(datafitFile, line);
-    iss.str(line);
-    iss >> fit1 >> fit2;
-    poise_chest.insert(std::end(poise_chest), {fit1, fit2});
-    iss.clear();
-
-    std::getline(datafitFile, line);
-    iss.str(line);
-    iss >> fit1 >> fit2;
-    poise_arm.insert(std::end(poise_arm), {fit1, fit2});
-    iss.clear();
-
-    std::getline(datafitFile, line);
-    iss.str(line);
-    iss >> fit1 >> fit2;
-    poise_leg.insert(std::end(poise_leg), {fit1, fit2});
-    iss.clear();
-
-    datafitFile.close();
-}
+#include "character.h"
 
 double retrieveEquipWeight(std::string name){
     auto armor = DataParser::retrieveArmorByName(name);
@@ -172,7 +28,7 @@ double retrievePoise(std::string name){
 int retrieveMaxFp(int total_stats, std::string starting_class) {
     int index = starting_classes.at(starting_class)[1] + total_stats;
     if (index > 99) index = 99;
-    return mind[index-1];
+    return DataParser::fetchFp(index);
 }
 
 float maxPoise() {
@@ -209,24 +65,25 @@ float Logistic(std::vector<float> logisticPiece, float x) {
 
 std::pair<float, float> negationsPoise(float equipLoad, std::vector<float> armorFraction, float armorPercent, boolean hasBullgoat) {
     float armor = equipLoad * armorPercent;
+    std::vector<std::vector<float>> poiseArmorPieces = DataParser::fetchArmorPoise();
 
-    float negationsHead = (1 - Logistic(logistic_head, armor * armorFraction[0]));
-    float negationsChest = (1 - Logistic(logistic_chest, armor * armorFraction[1]));
-    float negationsArm = (1 - Logistic(logistic_arm, armor * armorFraction[2]));
-    float negationsLeg = (1 - Logistic(logistic_leg, armor * armorFraction[3]));
+    float negationsHead = (1 - Logistic(logisticArmorPieces[0], armor * armorFraction[0]));
+    float negationsChest = (1 - Logistic(logisticArmorPieces[1], armor * armorFraction[1]));
+    float negationsArm = (1 - Logistic(logisticArmorPieces[2], armor * armorFraction[2]));
+    float negationsLeg = (1 - Logistic(logisticArmorPieces[3], armor * armorFraction[3]));
 
     float negations = 1 - negationsHead * negationsChest * negationsArm * negationsLeg;
 
-    float truePoiseHead = (poise_head[0] * armor * armorFraction[0] + poise_head[1]);
+    float truePoiseHead = (poiseArmorPieces[0][0] * armor * armorFraction[0] + poiseArmorPieces[0][1]);
     if (truePoiseHead<=0) truePoiseHead = 0;
 
-    float truePoiseChest = (poise_chest[0] * armor * armorFraction[0] + poise_chest[1]);
+    float truePoiseChest = (poiseArmorPieces[1][0] * armor * armorFraction[0] + poiseArmorPieces[1][1]);
     if (truePoiseChest<=0) truePoiseChest = 0;
 
-    float truePoiseArm = (poise_arm[0] * armor * armorFraction[0] + poise_arm[1]);
+    float truePoiseArm = (poiseArmorPieces[2][0] * armor * armorFraction[0] + poiseArmorPieces[2][1]);
     if (truePoiseArm<=0) truePoiseArm = 0;
 
-    float truePoiseLeg = (poise_leg[0] * armor * armorFraction[0] + poise_leg[1]);
+    float truePoiseLeg = (poiseArmorPieces[3][0] * armor * armorFraction[0] + poiseArmorPieces[3][1]);
     if (truePoiseLeg<=0) truePoiseLeg = 0;
 
     float fullPoise = truePoiseHead + truePoiseChest + truePoiseArm + truePoiseLeg;
@@ -244,19 +101,21 @@ std::vector<std::vector<float>> effectiveHealth(int baseVigor, int baseEndurance
     std::vector<float> negations;
     std::vector<float> poise;
     std::vector<float> effectiveHp;
-    std::vector<std::vector<float>> bestBreakPoints(poise_bp.size(), std::vector<float>(4, -1));
+    std::vector<std::vector<float>> bestBreakPoints(DataParser::getPoiseSize(), std::vector<float>(4, -1));
 
     int i = 0;
+
+    if (logisticArmorPieces.empty()) logisticArmorPieces = DataParser::fetchLogistics();
 
     while (i <= allocatedStatPoints) {
         int hpIndex = i + baseVigor - 1;
         if (hpIndex >= 99) hpIndex = 98;
-        float hp = vig_scale[hpIndex];
+        float hp = DataParser::fetchHp(hpIndex);
         characterHealthScale.push_back(hp);
 
         int enduranceIndex = allocatedStatPoints - i + baseEndurance - 1;
         if (enduranceIndex >= 99) enduranceIndex = 98;
-        float equipLoad = equip_load_scale[enduranceIndex];
+        float equipLoad = DataParser::fetchEq(enduranceIndex);
         if (hasGreatjar) equipLoad = equipLoad * 1.19;
 
         auto values = negationsPoise(equipLoad, armorFraction, armorPercent, hasBullgoat);
@@ -269,8 +128,8 @@ std::vector<std::vector<float>> effectiveHealth(int baseVigor, int baseEndurance
         float computedEffectiveHp = hp / (1 - neg);
         effectiveHp.push_back(computedEffectiveHp);
 
-        for (int j = 0; j < poise_bp.size(); j++) {
-            if (poiseVal >= poise_bp[j] && computedEffectiveHp >= bestBreakPoints[j][0]) {
+        for (int j = 0; j < DataParser::getPoiseSize(); j++) {
+            if (poiseVal >= DataParser::fetchPoise(j) && computedEffectiveHp >= bestBreakPoints[j][0]) {
                 bestBreakPoints[j] = {computedEffectiveHp, poiseVal, static_cast<float>(hpIndex) + 1 - baseVigor, static_cast<float>(enduranceIndex) + 1 - baseEndurance};
             }
         }
@@ -281,18 +140,21 @@ std::vector<std::vector<float>> effectiveHealth(int baseVigor, int baseEndurance
 }
 
 int fpToMind(int fp) {
-    for (int i = 0; i < mind.size(); i++) {
-        if (mind[i] == fp) return i+1;
+    auto mindData = DataParser::getMind();
+
+    for (int i = 0; i < mindData.size(); i++) {
+        if (mindData[i] == fp) return i+1;
     }
     return -1;
 }
 
 double obj(const std::vector<double> &x, std::vector<double> &grad, void* f_data) //grad and f_data are unused
 {
-    double negationHead = (1- Logistic(logistic_head, x[0]));
-    double negationChest = (1- Logistic(logistic_chest, x[1]));
-    double negationArm = (1- Logistic(logistic_arm, x[2]));
-    double negationLeg = (1- Logistic(logistic_leg, x[3]));
+
+    double negationHead = (1- Logistic(logisticArmorPieces[0], x[0]));
+    double negationChest = (1- Logistic(logisticArmorPieces[1], x[1]));
+    double negationArm = (1- Logistic(logisticArmorPieces[2], x[2]));
+    double negationLeg = (1- Logistic(logisticArmorPieces[3], x[3]));
 
     double neg = 1 - (negationHead * negationChest * negationArm * negationLeg);
     return -neg;
@@ -306,6 +168,8 @@ double equality(const std::vector<double> &x, std::vector<double> &grad, void* f
 }
 
 std::pair<std::vector<double>, double> bestNegations(float equipLoad) {
+    if (logisticArmorPieces.empty()) logisticArmorPieces = DataParser::fetchLogistics();
+
     double eq = 0.69 * equipLoad; //medium roll 69% threshold
 
     nlopt::opt opt(nlopt::AUGLAG, 4); //four optimization parameters, auglag for constraint support
@@ -357,7 +221,7 @@ double bestEffectiveHP(int statPoints, std::string startingClass, boolean hasGre
         {
             hpIndex = 98;
         }
-        double hp = vig_scale[hpIndex];
+        double hp = DataParser::fetchHp(hpIndex);
         healthPoints.push_back(hp);
 
         int endIndex = statPoints - i + baseEndurance - 1;
@@ -365,7 +229,7 @@ double bestEffectiveHP(int statPoints, std::string startingClass, boolean hasGre
         {
             endIndex = 98;
         }
-        double el = equip_load_scale[endIndex];
+        double el = DataParser::fetchEq(endIndex);
         if (hasGreatJar)
         {
             el *= 1.19;
@@ -543,48 +407,7 @@ int getMaxFpSpell()
     return *std::max_element(fp.begin(), fp.end());
 }
 
-std::vector<int> getFPAshOfWar(const std::string& name)
-{
-    std::vector<int> fp = {};
-
-    auto data = *DataParser::retrieveSwordArtByName(name);
-
-    if (int leftHandLightAttackFP = stoi(data.at("useMagicPoint_L1")); leftHandLightAttackFP != -1 and leftHandLightAttackFP != 0)
-    {
-        fp.push_back(leftHandLightAttackFP);
-    }
-
-    if (int leftHandHeavyAttackFP = stoi(data.at("useMagicPoint_L2")); leftHandHeavyAttackFP != -1 and leftHandHeavyAttackFP != 0)
-    {
-        fp.push_back(leftHandHeavyAttackFP);
-    }
-
-    if (int rightHandLightAttackFP = stoi(data.at("useMagicPoint_R1")); rightHandLightAttackFP != -1 and rightHandLightAttackFP != 0)
-    {
-        fp.push_back(rightHandLightAttackFP);
-    }
-
-    if (int rightHandHeavyAttackFP = stoi(data.at("useMagicPoint_R2")); rightHandHeavyAttackFP != -1 and rightHandHeavyAttackFP != 0)
-    {
-        fp.push_back(rightHandHeavyAttackFP);
-    }
-
-    return fp;
-}
-
-int getFpSpell(std::string name)
-{
-    auto data = *DataParser::retrieveMagicByName(name);
-    return stoi(data.at("mp"));
-}
-
 void loadCharacter::loadData() {
-    loadMind();
-    loadEhp90();
-    loadVigScale();
-    loadEquipLoadScale();
-    loadPoiseScale();
-    loadDatafit();
     std::cout << "equip weight: " << retrieveEquipWeight("Blue Cloth Vest") << std::endl;
     std::cout << "poise: " << retrievePoise("Blue Cloth Vest") << std::endl;
     std::cout << "mind value test: " << retrieveMaxFp(20, "Bandit") << std::endl;
@@ -623,13 +446,7 @@ void loadCharacter::loadData() {
     std::cout << "highest fp AoW test: " << getMaxFPAshOfWar() << std::endl;
     std::cout << "highest fp spell test: " << getMaxFpSpell() << std::endl;
 
-    std::cout << "fp cost fetch of square off AoW: ";
-    auto fpFetch = getFPAshOfWar("Square Off");
-    std::cout << "fp costs  = [ ";
-    for (double fp : fpFetch) {
-        std::cout << fp << " ";
-    }
-    std::cout << "] " << std::endl;
+    std::cout << "load bloodsage character test: " << std::endl;
 
-    std::cout << "fp cost fetch of bloodflame talons spell: " << getFpSpell("Bloodflame Talons") << std::endl;
+    character bloodsage(R"(..\..\csv-conversions\non csv data\BloodsageNadine.json)");
 }

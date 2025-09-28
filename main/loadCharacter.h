@@ -7,24 +7,10 @@
 
 #include "Weapon.h"
 
-static std::vector<int> mind;
-static std::unordered_map<std::string, float> best_ehp_90;
-static std::vector<float> vig_scale;
-static std::vector<float> equip_load_scale;
-static std::vector<float> poise_bp;
-
-static std::vector<float> logistic_head;
-static std::vector<float> logistic_chest;
-static std::vector<float> logistic_arm;
-static std::vector<float> logistic_leg;
-
-static std::vector<float> poise_head;
-static std::vector<float> poise_chest;
-static std::vector<float> poise_arm;
-static std::vector<float> poise_leg;
-
 static std::unordered_map<std::string, std::vector<double>> starting_classes_negations;
 static std::unordered_map<std::string, std::vector<double>> starting_classes_negations_greatjar;
+
+static std::vector<std::vector<float>> logisticArmorPieces = {};
 
 static std::unordered_map<std::string, int> starting_classes_index = {
     {"Hero", 0},
@@ -57,7 +43,5 @@ class loadCharacter {
 public:
     static void loadData();
 };
-
-
 
 #endif //LOADCHARACTER_H
