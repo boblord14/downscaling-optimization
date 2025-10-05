@@ -82,17 +82,6 @@ character::character(const std::string& jsonPath)
     this->baseEndurance = starting_classes[this->startingClass][2];
     this->score = 1;
 
-    this->effectiveHpVigorRatio = this->vigor-this->baseVigor;
-    this->effectiveHpEnduranceRatio = this->endurance-this->baseEndurance;
-
-    int allocatedDamageStats = 0; //damage stats allocated not from starting class base values
-    for (int i=CLASS_DAMAGE_STAT_INDEX; i<starting_classes.begin()->second.size(); i++) //"interesting" way to get the number of stat points
-    {
-        int charDamageStatIndex = i - CLASS_DAMAGE_STAT_INDEX; //character damage stats start at 0, not the constant
-        allocatedDamageStats += damageStats[charDamageStatIndex] - starting_classes.at(startingClass)[i];
-    }
-    this->damageStatCount = allocatedDamageStats;
-
     if (data["computed"].count("poise"))
     {
         if (data["computed"]["poise"].count("altered"))
@@ -210,6 +199,8 @@ character::character(const std::string& jsonPath)
         allocatedDamageStats += this->damageStats[charDamageStatIndex] - starting_classes.at(startingClass)[i];
     }
     this->damageStatCount = allocatedDamageStats / level;
+    this->effectiveHpVigorRatio = this->vigor-this->baseVigor;
+    this->effectiveHpEnduranceRatio = this->endurance-this->baseEndurance;
 }
 
 std::string character::getName()
