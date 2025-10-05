@@ -528,7 +528,7 @@ std::vector<character> exponentialDecay(character& characterInput, int delta)
 
     std::vector<double> armorFraction(NUM_ARMOR_PIECES);
     double armorPercent = 0;
-    std::vector<double> armorWeight(NUM_ARMOR_PIECES);
+    std::vector<double> armorWeight;
 
     for (int i=0; i<NUM_ARMOR_PIECES; i++)
     {
@@ -549,8 +549,8 @@ std::vector<character> exponentialDecay(character& characterInput, int delta)
     armorPercent /= equipLoad;
 
     auto optimizedValues = negationsPoise(equipLoad, armorFraction, armorPercent, characterInput.getHasBullgoat());
-    float optimalNegations = optimizedValues.first(); //unused for later(?)
-    float optimalPoise = optimizedValues.second(); //unused for later(?)
+    float optimalNegations = optimizedValues.first; //unused for later(?)
+    float optimalPoise = optimizedValues.second; //unused for later(?)
 
     //compute EHP with all stat points put towards EHP, armor ratios ignored
     double optimalEffectiveHp = loadCharacter::bestEffectiveHP(characterInput.getLevel(), characterInput.getStartingClass(), characterInput.getHasGreatjar());
@@ -632,6 +632,8 @@ std::vector<character> prepareData(character characterInput, int delta)
     return labledData;
 }
 
+
+
 void loadCharacter::loadData()
 {
     std::cout << "equip weight: " << retrieveEquipWeight("Blue Cloth Vest") << std::endl;
@@ -684,5 +686,9 @@ void loadCharacter::loadData()
     std::cout << "equip load: " << DataParser::fetchEq(bloodsage.getEndurance()) << std::endl;
     std::cout << "hp: " << DataParser::fetchHp(bloodsage.getVigor()) << std::endl;
     std::cout << "mind: " << DataParser::fetchFp(bloodsage.getMind()) << std::endl;
+
+    std::cout << "exponential decay test: ";
+    auto labledData = exponentialDecay(bloodsage, 1);
+    std::cout << "debug this, too long to print" << std::endl;
 
 }

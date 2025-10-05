@@ -8,7 +8,7 @@
 #include "Weapon.h"
 #include "loadCharacter.h"
 
-static std::unordered_map<std::string, std::vector<int>> starting_classes = {
+inline std::unordered_map<std::string, std::vector<int>> starting_classes = {
     {"Hero", {14,9,12,16,9,7,9,11}},
     {"Bandit", {10,11,10,9,13,9,8,14}},
     {"Astrologer", {9, 15, 9,8,12,16,7,9}},
