@@ -5,10 +5,7 @@
 #ifndef DOWNSCALING_OPTIMIZATION_WEAPON_H
 #define DOWNSCALING_OPTIMIZATION_WEAPON_H
 #include <array>
-#include <unordered_map>
-#include <iostream>
 #include <vector>
-#include <cmath>
 #include "DataParser.h"
 
 enum Infusion {
@@ -31,9 +28,9 @@ enum Infusion {
 class Weapon{
 public:
   explicit Weapon(int id, Infusion infusion, int upgrade);
-  std::vector<double> calcAR(int strength, int dexterity, int intelligence, int faith, int arcane, bool isTwoHanded);
-  double calculateDefenseReduction(double ratio);
-  double calculateDamage(const std::vector<int>& stats, const std::vector<int>& defs, bool two_handed);
+  std::vector<double> calcAR(int strength, int dexterity, int intelligence, int faith, int arcane, bool isTwoHanded) const;
+  static double calculateDefenseReduction(double ratio);
+  double calculateDamage(const std::vector<int>& stats, const std::vector<int>& defs, bool two_handed) const;
   int getId() const{return id;}
   Infusion getInfusion() const {return infusion;}
   int getUpgrade() const{return upgrade;}
