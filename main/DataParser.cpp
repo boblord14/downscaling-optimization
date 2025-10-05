@@ -4,13 +4,18 @@
 
 #include "DataParser.h"
 
+/// Helper function to convert a character to its lowercase variant
+/// @param in The character to check
+/// @return The input character in lowercase
 char asciitolower(char in) {
     if (in <= 'Z' && in >= 'A')
         return in - ('Z' - 'z');
     return in;
 }
 
-//quick and dirty way to make toLower work
+/// Helper function to convert a string to its lowercase variant
+/// @param data String to convert to lowercase
+/// @return The input string in lowercase
 std::string toLower(std::string data)
 {
     std::string convString = data;
@@ -18,6 +23,7 @@ std::string toLower(std::string data)
     return convString;
 }
 
+/// Load in all param data and pre-calculated values to memory
 void DataParser::generateDefs() {
     //load params
     defGenerator(R"(..\..\csv-conversions\equipParamWeapon.csv)", &equipParamWeapon);
@@ -38,22 +44,36 @@ void DataParser::generateDefs() {
 
 }
 
+/// Fetches a weapon's param entry from the id
+/// @param id equipParamWeapon id
+/// @return equipParamWeapon entry for the given ID
 std::unordered_map<std::string, std::string> DataParser::retrieveWeapon(int id) {
     return equipParamWeapon.at(id);
 }
 
+/// Fetches a reinforcement's param entry from the id
+/// @param id reinforceParamWeapon id
+/// @return reinforceParamWeapon entry for the given ID
 std::unordered_map<std::string, std::string> DataParser::retrieveUpgrade(int id) {
     return reinforceParamWeapon.at(id);
 }
 
+/// Fetches a scaling's param entry from the id
+/// @param id attackElementCorrectParam id
+/// @return attackElementCorrectParam entry for the given ID
 std::unordered_map<std::string, std::string> DataParser::retrieveElementCorrection(int id) {
     return attackElementCorrectParam.at(id);
 }
 
+/// Fetches an armor's param entry from the id
+/// @param id equipParamProtector id
+/// @return equipParamProtector entry for the given ID
 std::unordered_map<std::string, std::string> DataParser::retrieveArmor(int id) {
     return equipParamProtector.at(id);
 }
 
+/// Fetches all equipParamProtector entries
+/// @return equipParamProtector
 std::unordered_map<int, std::unordered_map<std::string, std::string>> DataParser::retrieveAllArmor() {
     return equipParamProtector;
 }
@@ -136,12 +156,12 @@ float DataParser::fetchEHP90(std::string startingClass)
 
 float DataParser::fetchHp(int index)
 {
-    return vig_scale[index];
+    return vig_scale[index-1];
 }
 
 float DataParser::fetchEq(int index)
 {
-    return equip_load_scale[index];
+    return equip_load_scale[index-1];
 }
 
 float DataParser::fetchPoise(int index)

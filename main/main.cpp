@@ -17,7 +17,7 @@
 #include "svd.h"
 #include "db.h"
 
-void fullPipeline(std::vector<Weapon>& weapons, std::vector<int> base_stats, int start_stats, bool ignore_completed, bool useSVD, bool use_cache=false){
+void fullPipeline(std::vector<Weapon>& weapons, const std::vector<int>& base_stats, int start_stats, bool ignore_completed, bool useSVD, bool use_cache=false){
   std::vector<double> scale;
   std::vector<double> singleton(1, 1);
   std::vector<int> defs(5, 140);

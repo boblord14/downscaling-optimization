@@ -5,7 +5,7 @@
 #include "Weapon.h"
 
 /** Poor man's string to bool helper function for the exact string format used in the param database */
-bool stob(std::string str) {
+bool stob(const std::string& str) {
     if (str == "FALSE") return FALSE;
     if (str == "TRUE") return TRUE;
     return NULL;
@@ -57,7 +57,8 @@ Weapon::Weapon(int id, Infusion infusion, int upgrade) {
 }
 
 //The fact that I cant do "int int" means I have to explicitly write the names of all the stats and I hate it
-std::vector<double> Weapon::calcAR(int strength, int dexterity, int intelligence, int faith, int arcane, bool isTwoHanded) {
+std::vector<double> Weapon::calcAR(int strength, int dexterity, int intelligence, int faith, int arcane, bool isTwoHanded) const
+{
     std::vector<double> arCalcs = {0, 0, 0, 0, 0};
 
     for (int i=0; i<5; i++) {
@@ -113,7 +114,8 @@ double Weapon::calculateDefenseReduction(double ratio) {
     return damage;
 }
 
-double Weapon::calculateDamage(const std::vector<int>& stats, const std::vector<int>& defs, bool two_handed) {
+double Weapon::calculateDamage(const std::vector<int>& stats, const std::vector<int>& defs, bool two_handed) const
+{
     auto ars = calcAR(stats[0],
               stats[1],
               stats[2],
@@ -124,5 +126,5 @@ double Weapon::calculateDamage(const std::vector<int>& stats, const std::vector<
     for (int i = 0; i < 5; ++i) {
         damage += calculateDefenseReduction(ars[i]/defs[i]) * ars[i];
     }
-    return int(damage);
+    return static_cast<int>(damage);
 }

@@ -12,36 +12,23 @@ static std::unordered_map<std::string, std::vector<double>> starting_classes_neg
 
 static std::vector<std::vector<float>> logisticArmorPieces = {};
 
-static std::unordered_map<std::string, int> starting_classes_index = {
-    {"Hero", 0},
-    {"Bandit", 1},
-    {"Astrologer", 2},
-    {"Warrior", 3},
-    {"Prisoner", 4},
-    {"Confessor", 5},
-    {"Wretch", 6},
-    {"Vagabond", 7},
-    {"Prophet", 8},
-    {"Samurai", 9}
-};
+constexpr int STARTING_CLASS_STAT_POINTS = 79; //number of stat points to rescale the classes to
+constexpr int SCALING_LEVEL_TARGET = 90;
+constexpr int NUM_ARMOR_PIECES = 4; //how many armor pieces the player can equip at once
+constexpr double GREATJAR_MULTIPLIER = 1.19; //multiplier to equip load from great jar talisman
+constexpr int DAGGER_POISE_THRESHOLD = 58; //the amount of poise required to not get easily staggered by daggers
 
-
-static std::unordered_map<std::string, std::vector<int>> starting_classes = {
-    {"Hero", {14,9,12,16,9,7,9,11}},
-    {"Bandit", {10,11,10,9,13,9,8,14}},
-    {"Astrologer", {9, 15, 9,8,12,16,7,9}},
-    {"Warrior", {11,12,11,10,16,10,8,9}},
-    {"Prisoner", {11,12,11,11,14,14,6,9}},
-    {"Confessor", {10,13,10,12,12,9,14,9}},
-    {"Wretch", {10,10,10,10,10,10,10,10}},
-    {"Vagabond", {15,10,11,14,13,9,9,7}},
-    {"Prophet", {10,14,8,11,10,7,16,10}},
-    {"Samurai", {12,11,13,12,15,9,8,8}}
-  };
+constexpr int CLASS_DAMAGE_STAT_INDEX = 3; //index position where the damage stats start in the starting classes list
+constexpr int CLASS_MIND_STAT_INDEX = 1; //index position where the mind stat is in the starting classes list
 
 class loadCharacter {
 public:
     static void loadData();
+    static double retrieveMaxPoise();
+    static double bestEffectiveHP(int statPoints, const std::string& startingClass, boolean hasGreatjar);
+    static int retrieveMaxFp(int total_stats, const std::string& starting_class);
+    static int getMaxFpSpell();
+    static int getMaxFPAshOfWar();
 };
 
 #endif //LOADCHARACTER_H
