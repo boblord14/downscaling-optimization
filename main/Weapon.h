@@ -31,9 +31,10 @@ public:
   std::vector<double> calcAR(int strength, int dexterity, int intelligence, int faith, int arcane, bool isTwoHanded) const;
   static double calculateDefenseReduction(double ratio);
   double calculateDamage(const std::vector<int>& stats, const std::vector<int>& defs, bool two_handed) const;
-  int getId() const{return id;}
+  int getId() const {return id;}
   Infusion getInfusion() const {return infusion;}
   int getUpgrade() const{return upgrade;}
+    std::string getName() const {return name;}
 private:
     int id;
     std::string name;

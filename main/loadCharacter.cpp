@@ -12,6 +12,9 @@
 #include <numeric>
 
 #include "character.h"
+#include <Eigen/Core>
+#include <Eigen/SVD>
+
 
 /// Helper function to retrieve the equip weight for a given armor piece by name
 /// @param name Official name for the armor piece(community names from params)
@@ -217,7 +220,7 @@ double obj(const std::vector<double> &x, std::vector<double> &grad, void* f_data
 /// @return Difference between armor equip load sum and total equip load
 double equality(const std::vector<double> &x, std::vector<double> &grad, void* f_data)
 {
-    double equipLoad = *static_cast<double*>(f_data);
+    const double equipLoad = *static_cast<double*>(f_data);
 
     return (x[0] + x[1] + x[2] + x[3]) - (equipLoad);
 }
@@ -627,11 +630,117 @@ std::vector<character> exponentialDecay(character& characterInput, int delta)
 std::vector<character> prepareData(character characterInput, int delta)
 {
     std::vector<character> labledData;
-    if (characterInput.getStartingClass() == "") return labledData; //return empty vector if invalid
+    if (characterInput.getStartingClass().empty()) return labledData; //return empty vector if invalid
     labledData = exponentialDecay(characterInput, delta);
     return labledData;
 }
 
+std::vector<int> damageStatAllocation(const character& characterInput, int damageStatPoints, int newUpgradeLevel)
+{
+    double damagePointsPerStat;
+    double remainder = std::modf(damageStatPoints / DAMAGE_STAT_COUNT, &damagePointsPerStat);
+
+    if (remainder > 0) damagePointsPerStat = DAMAGE_STAT_COUNT * (damagePointsPerStat + 1);
+
+    int index = static_cast<int>(damagePointsPerStat / DAMAGE_STAT_COUNT - 1);
+
+    std::vector<double> scalingAr;
+    std::vector<std::vector<double>> optimalStats;
+
+    //load weapon data into matrices
+    for (Weapon& weapon : characterInput.getWeapons())
+    {
+        auto scalingData = DataParser::loadSpecificWeaponData(weapon.getId(), weapon.getInfusion());
+        scalingAr.push_back(scalingData[index][0]); //fetch the AR value from the precalculated optimized AR for a given damage stat amount
+        optimalStats.emplace_back(scalingData[index].begin() + 1, scalingData[index].end()); //append the stats tied to the AR used in the previous line
+    }
+
+    //svd setup
+    auto matrixStats = convert_vvd_to_matrix(optimalStats); //converting an std::vector to an Eigen::MatrixXd which are basically the same thing for our purposes
+    matrixStats.transposeInPlace(); //transpose stat matrix so the optimal stat values for each weapon are now grouped together
+
+    Eigen::JacobiSVD<Eigen::MatrixXd, Eigen::ComputeFullU | Eigen::ComputeFullV> svd(matrixStats);
+
+    if (svd.info() != Eigen::ComputationInfo::Success) {
+        std::cout << "SVD failed" << std::endl;
+    }
+
+    //SVD is 3 components of our original matrix of stats- the original rotation of the matrix(LSV), the stretch/compression of
+    //the rotated matrix(SV), and the rotation back to the original position(RSVT) transposed
+    //with our data broken down like this, we can simplify the inputs for our actual calculations and get a fuzzy rough
+    //estimate thatll be "close enough". This is "reducing dimensions", and is typically used for making low resolution
+    //versions of an image, which is basically what we're doing with our weapon data calcs.
+    Eigen::MatrixXd leftSingularVectors  = svd.matrixU();
+    Eigen::VectorXd singularValues  = svd.singularValues();
+    Eigen::MatrixXd rightSingularVectorsT = svd.matrixV();
+    rightSingularVectorsT.transposeInPlace(); //numpy version doesn't transpose
+
+    //svd cut to rank 1, gives us a proportion of how much of the total stat allocation should go in each stat
+    Eigen::VectorXd dir = leftSingularVectors.col(0).cwiseAbs();
+    auto adjustedDir = dir;
+    double sum = 0;
+
+    //trim floating point issues/super small values
+    for (int i=0; i<dir.size(); i++)
+    {
+        if (adjustedDir[i] < 0.1) adjustedDir[i] = 0.0;
+        sum += adjustedDir[i];
+    }
+
+    double alpha = damageStatPoints / sum;
+    std::vector<double> wholeStats;
+    std::vector<double> fracStats;
+    sum = 0;
+
+    //take proportions and figure out how much real stat points each one is
+    for (int i=0; i<adjustedDir.size(); i++)
+    {
+        double whole;
+        double frac = std::modf(alpha * adjustedDir[i], &whole);
+        sum += whole;
+        wholeStats.emplace_back(whole);
+        fracStats.emplace_back(frac);
+    }
+    double damageRemainder = damageStatPoints - sum;
+
+    //solve decimal remainders by rounding the stat with the largest decimal up 1 point until no more remainder
+    while (remainder > 0)
+    {
+        double biggest = -1;
+        for (int i=0; i<fracStats.size(); i++)
+        {
+            if (fracStats[i] > biggest)
+            {
+                biggest = fracStats[i];
+                index = i;
+            }
+        }
+        wholeStats[index] += 1;
+        fracStats[index] = 0;
+        remainder -= 1;
+    }
+
+    //add starting class base totals to our new amounts
+    std::vector<int> stats(DAMAGE_STAT_COUNT);
+    auto startingClassStats = characterInput.getStartingClassStats();
+    for (int i=0; i<DAMAGE_STAT_COUNT; i++)
+    {
+        stats[i] = static_cast<int>(startingClassStats[i + CLASS_DAMAGE_STAT_INDEX] + wholeStats[i]);
+    }
+    sum = 0; //unused anymore, but might modify to use again
+
+    //printouts for final values
+    for (Weapon weapon : characterInput.getWeapons())
+    {
+        Weapon adjustedUpgradeWeapon = Weapon(weapon.getId(), weapon.getInfusion(), newUpgradeLevel);
+        auto ars = adjustedUpgradeWeapon.calcAR(stats[0], stats[1], stats[2], stats[3], stats[4], false);
+        std::cout << adjustedUpgradeWeapon.getName() << " with infusion " << adjustedUpgradeWeapon.getInfusion() <<
+        " at upgrade level " << adjustedUpgradeWeapon.getUpgrade() << ": ar is [Physical " << ars[0] << ", Magic "
+        << ars[1] << ", Fire " << ars[2] << ", Lightning " << ars[3] << ", Holy " << ars[4] << "]" << std::endl;
+    }
+
+    return stats;
+}
 
 
 void loadCharacter::loadData()
@@ -690,5 +799,11 @@ void loadCharacter::loadData()
     std::cout << "exponential decay test: ";
     auto labledData = exponentialDecay(bloodsage, 1);
     std::cout << "debug this, too long to print" << std::endl;
+
+    std::cout << "damage stat allocation test:  [ " << std::endl;
+    for (int stat : damageStatAllocation(bloodsage, 55, 17)) {
+        std::cout << stat << " ";
+    }
+    std::cout << "] " << std::endl;
 
 }
