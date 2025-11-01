@@ -70,6 +70,8 @@ public:
     static std::vector<std::vector<float>> fetchLogistics();
     static std::vector<std::vector<float>> fetchArmorPoise();
 
+    static std::vector<std::vector<int>> loadSpecificWeaponData(int weaponId, int infusionId);
+
 private:
     static void defGenerator(const std::string& csvPath, std::unordered_map<int, std::unordered_map<std::string, std::string>> *target);
     static void defGenerator(const std::string& csvPath, std::unordered_map<int, std::vector<float>> *target);

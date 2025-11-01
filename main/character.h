@@ -44,6 +44,7 @@ public:
     int getLevel() const;
     int getUpgrade() const;
     std::string getStartingClass() const;
+    std::vector<int> getStartingClassStats() const;
     int getEndurance() const;
     int getVigor() const;
     int getMind() const;
@@ -56,6 +57,7 @@ public:
     int getBaseVigor() const;
     int getBaseEndurance() const;
     int getBaseMind() const;
+    std::vector<Weapon> getWeapons() const;
 
     void setEffectiveHpRatio(double calculatedEffectiveHp);
     void setEffectiveHpVigorRatio(int setVigor);

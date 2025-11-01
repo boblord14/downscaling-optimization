@@ -369,3 +369,40 @@ void DataParser::loadDatafit() {
 
     datafitFile.close();
 }
+
+std::vector<std::vector<int>> DataParser::loadSpecificWeaponData(int weaponId, int infusionId)
+{
+    int trueId = weaponId + infusionId;
+    std::stringstream fileString;
+    fileString << R"(..\..\Database\)" << trueId << ".txt";
+
+    std::ifstream weaponScalingFile;
+    weaponScalingFile.open (fileString.str());
+
+    std::string line;
+    std::vector<std::vector<int>> weaponInfo;
+    while (std::getline(weaponScalingFile, line))
+    {
+        std::vector<int> weaponInfoAtStat = {};
+
+        std::istringstream iss(line);
+        int ar;
+        int str;
+        int dex;
+        int intelligence; //int int my beloved
+        int fth;
+        int arc;
+
+        if (!(iss >> ar >> str >> dex >> intelligence >> fth >> arc)) { break; } // error
+
+        weaponInfoAtStat.emplace_back(ar);
+        weaponInfoAtStat.emplace_back(str);
+        weaponInfoAtStat.emplace_back(dex);
+        weaponInfoAtStat.emplace_back(intelligence);
+        weaponInfoAtStat.emplace_back(fth);
+        weaponInfoAtStat.emplace_back(arc);
+        weaponInfo.emplace_back(weaponInfoAtStat);
+    }
+    weaponScalingFile.close();
+    return weaponInfo;
+}

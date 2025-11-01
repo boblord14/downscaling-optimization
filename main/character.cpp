@@ -56,6 +56,11 @@ int character::getBaseMind() const
     return baseMind;
 }
 
+std::vector<Weapon> character::getWeapons() const
+{
+    return weapons;
+}
+
 character::character(const std::string& jsonPath)
 {
     std::ifstream f(jsonPath);
@@ -221,6 +226,11 @@ int character::getUpgrade() const
 std::string character::getStartingClass() const
 {
     return startingClass;
+}
+
+std::vector<int> character::getStartingClassStats() const
+{
+    return starting_classes.at(startingClass);
 }
 
 int character::getEndurance() const
