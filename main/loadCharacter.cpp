@@ -779,7 +779,7 @@ void rankBuilds(const std::vector<std::vector<double>>& builds, const std::strin
     std::priority_queue<priorityPair, std::vector<priorityPair>, std::greater<priorityPair>> buildPriorityQueue;
 
     cppflow::model model(modelPath);
-    auto input = cppflow::tensor(mlStringBuilds, {numBuilds, buildStringSize});
+    auto input = cppflow::tensor(mlStringBuilds, {static_cast<int>(builds.size()), buildStringSize});
     auto test = model.get_operations();
     auto scores = model({{"serve_input_layer:0", input}},{"StatefulPartitionedCall:0"});
 
@@ -813,6 +813,7 @@ void rankBuilds(const std::vector<std::vector<double>>& builds, const std::strin
         }
     }
 
+    //TODO: verify bestEffectiveHP's code, numbers arent lined up to the python version and unsure if bug or optimizer difference
     double best_ehp = loadCharacter::bestEffectiveHP(level, characterInput.getStartingClass(), characterInput.getHasGreatjar());
     double max_fp = loadCharacter::retrieveMaxFp(level, characterInput.getStartingClass());
 
@@ -849,7 +850,7 @@ std::vector<std::vector<double>> createBuilds(Character characterInput, int leve
 
     std::vector<double> armorFraction = {};
     float armorPercent = 0;
-    double equipLoad = DataParser::fetchEq(characterInput.getEndurance() - 1);
+    double equipLoad = DataParser::fetchEq(characterInput.getEndurance());
 
     if (characterInput.getHasGreatjar()) equipLoad *= 1.19;
 
@@ -888,10 +889,10 @@ std::vector<std::vector<double>> createBuilds(Character characterInput, int leve
         //fp
         int mindIndex = starting_classes[characterInput.getStartingClass()][CLASS_MIND_STAT_INDEX] + testValueSet[2] - 1;
         if (mindIndex >= 99) mindIndex = 98;
-        outputBuild[4] = DataParser::fetchFp(mindIndex) / maxFp; //set mind ratio
+        outputBuild[4] = static_cast<double>(DataParser::fetchFp(mindIndex)) / maxFp; //set mind ratio
 
         //damage stat num
-        outputBuild[9] = testValueSet[0] / level; //set damage stat ratio
+        outputBuild[9] = static_cast<double>(testValueSet[0]) / level; //set damage stat ratio
 
         //effective HP
         std::vector<std::vector<float>> effectiveHPs;
