@@ -41,27 +41,27 @@ int getFpSpell(const std::string& name)
     return stoi(data.at("mp"));
 }
 
-int character::getBaseVigor() const
+int Character::getBaseVigor() const
 {
     return baseVigor;
 }
 
-int character::getBaseEndurance() const
+int Character::getBaseEndurance() const
 {
     return baseEndurance;
 }
 
-int character::getBaseMind() const
+int Character::getBaseMind() const
 {
     return baseMind;
 }
 
-std::vector<Weapon> character::getWeapons() const
+std::vector<Weapon> Character::getWeapons() const
 {
     return weapons;
 }
 
-character::character(const std::string& jsonPath)
+Character::Character(const std::string& jsonPath)
 {
     std::ifstream f(jsonPath);
     json data = json::parse(f);
@@ -208,114 +208,114 @@ character::character(const std::string& jsonPath)
     this->effectiveHpEnduranceRatio = this->endurance-this->baseEndurance;
 }
 
-std::string character::getName()
+std::string Character::getName()
 {
     return name;
 }
 
-int character::getLevel() const
+int Character::getLevel() const
 {
     return level;
 }
 
-int character::getUpgrade() const
+int Character::getUpgrade() const
 {
     return upgradeLevel;
 }
 
-std::string character::getStartingClass() const
+std::string Character::getStartingClass() const
 {
     return startingClass;
 }
 
-std::vector<int> character::getStartingClassStats() const
+std::vector<int> Character::getStartingClassStats() const
 {
     return starting_classes.at(startingClass);
 }
 
-int character::getEndurance() const
+int Character::getEndurance() const
 {
     return endurance;
 }
 
-int character::getVigor() const
+int Character::getVigor() const
 {
     return vigor;
 }
 
-int character::getMind() const
+int Character::getMind() const
 {
     return mind;
 }
 
-bool character::getHasGreatjar() const
+bool Character::getHasGreatjar() const
 {
     return hasGreatjar;
 }
 
-bool character::getHasBullgoat() const
+bool Character::getHasBullgoat() const
 {
     return hasBullgoat;
 }
 
-std::vector<std::string> character::getArmor() const
+std::vector<std::string> Character::getArmor() const
 {
     return armor;
 }
 
-std::vector<int> character::getDamageStats() const
+std::vector<int> Character::getDamageStats() const
 {
     return damageStats;
 }
 
-double character::getEffectiveHealth() const
+double Character::getEffectiveHealth() const
 {
     return effectiveHealth;
 }
 
-double character::getEffectiveHpRatio() const
+double Character::getEffectiveHpRatio() const
 {
     return effectiveHpRatio;
 }
 
-void character::setEffectiveHpRatio(const double calculatedEffectiveHp)
+void Character::setEffectiveHpRatio(const double calculatedEffectiveHp)
 {
     effectiveHpRatio = calculatedEffectiveHp / bestEffectiveHpValue;
 }
 
-void character::setEffectiveHpVigorRatio(const int setVigor)
+void Character::setEffectiveHpVigorRatio(const int setVigor)
 {
     effectiveHpVigorRatio = setVigor / level;
 }
 
-void character::setEffectiveHpEnduranceRatio(const int setEndurance)
+void Character::setEffectiveHpEnduranceRatio(const int setEndurance)
 {
     effectiveHpEnduranceRatio = setEndurance / level;
 }
 
-void character::setPoiseRatio(int newPoise)
+void Character::setPoiseRatio(int newPoise)
 {
     poiseRatio = newPoise / bestPoiseValue;
 }
 
-void character::setFpRatio(int setMind)
+void Character::setFpRatio(int setMind)
 {
     fpRatio = DataParser::fetchFp(setMind) / maxFpValue;
 }
 
-void character::setDamageStatNum(int newDamageStats)
+void Character::setDamageStatNum(int newDamageStats)
 {
     damageStatCount = newDamageStats / level;
 }
 
-void character::setScore(double newScore)
+void Character::setScore(double newScore)
 {
     score = newScore;
 }
 
 // [score, character_level, ehp, poise, fp, average ash fp cost, average spell cost, max spell cost, number of spells,
 // number of damage stats, starting class one hot encoding, greatjar, vigor, end]
-std::vector<double> character::generateMlString()
+std::vector<double> Character::generateMlString()
 {
     double ashFpRatio = 0;
     for (int i=0; i<ashes.size(); i++)

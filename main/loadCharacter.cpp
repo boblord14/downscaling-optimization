@@ -4,17 +4,18 @@
 
 #include "loadCharacter.h"
 
-#include <string>
-#include <sstream>
-#include <vector>
 #include <fstream>
 #include <nlopt.hpp>
 #include <numeric>
+#include <queue>
+#include <sstream>
+#include <string>
+#include <vector>
 
-#include "character.h"
 #include <Eigen/Core>
 #include <Eigen/SVD>
-
+#include "character.h"
+#include <cppflow/cppflow.h>
 
 /// Helper function to retrieve the equip weight for a given armor piece by name
 /// @param name Official name for the armor piece(community names from params)
@@ -512,11 +513,11 @@ std::vector<std::vector<int>> gridGenerator(int soulLevel, int delta)
     return outputGrid;
 }
 
-/// Works to set up the training data to be written to the machine learning model.
+/// Works to set up the training data to be fed through the priority queue and written to the machine learning model.
 /// @param characterInput Character class loaded with data
 /// @param delta How coarse or fine we want to test with our stat allocations. The larger the value, the less accurate our computed answer will be.
 /// @return A final vector output of characters with the updated ML data
-std::vector<character> exponentialDecay(character& characterInput, int delta)
+std::vector<Character> exponentialDecay(Character& characterInput, int delta)
 {
     std::string startingClass = characterInput.getStartingClass();
 
@@ -587,13 +588,13 @@ std::vector<character> exponentialDecay(character& characterInput, int delta)
 
     auto statAllocationVariants = gridGenerator(characterInput.getLevel(), delta);
 
-    std::vector<character> outputMlCharacters;
+    std::vector<Character> outputMlCharacters;
 
     outputMlCharacters.push_back(characterInput);
 
     for (auto statAllocation : statAllocationVariants)
     {
-        character newStatMlCharacter = characterInput; //deep copy
+        Character newStatMlCharacter = characterInput; //deep copy
 
         //fp adjustment
         int mindIndex = starting_classes[characterInput.getStartingClass()][CLASS_MIND_STAT_INDEX] + statAllocation[2] - 1;
@@ -627,15 +628,23 @@ std::vector<character> exponentialDecay(character& characterInput, int delta)
 /// @param characterInput character to process
 /// @param delta "resolution" of the product, the higher, the less precise the end result.
 /// @return vector of many character variants
-std::vector<character> prepareData(character characterInput, int delta)
+std::vector<Character> prepareData(Character characterInput, int delta)
 {
-    std::vector<character> labledData;
+    std::vector<Character> labledData;
     if (characterInput.getStartingClass().empty()) return labledData; //return empty vector if invalid
     labledData = exponentialDecay(characterInput, delta);
     return labledData;
 }
 
-std::vector<int> damageStatAllocation(const character& characterInput, int damageStatPoints, int newUpgradeLevel)
+/// The big damage calculator. Reads through a character's inventory, and determines the best damage stat allocation
+/// (meaning str/dex/int/fth/arc) to get the most AR out of all the weapons present. Pulls the optimal stat allocation
+/// for a specific weapon from the pre-calculated database, and uses the values for the most stat points we could possibly
+/// allocate to it. Then uses singular value decomposition to approximate our stat allocation for all the optimal weapon
+/// spreads to get a "close enough" value quickly.
+/// @param characterInput the character we're calculating on. Should be loaded with stats/inventory
+/// @param damageStatPoints the amount of stat points we're free to distribute among our damage stats
+/// @return vector of the optimal stat point allocation in str/dex/int/fth/arc format
+std::vector<int> damageStatAllocation(const Character& characterInput, int damageStatPoints)
 {
     double damagePointsPerStat;
     double remainder = std::modf(damageStatPoints / DAMAGE_STAT_COUNT, &damagePointsPerStat);
@@ -732,7 +741,8 @@ std::vector<int> damageStatAllocation(const character& characterInput, int damag
     //printouts for final values
     for (Weapon weapon : characterInput.getWeapons())
     {
-        Weapon adjustedUpgradeWeapon = Weapon(weapon.getId(), weapon.getInfusion(), newUpgradeLevel);
+        const int NEW_UPGRADE_LEVEL = 17; //only relevant for our printouts here, grabs our ar for the given upgrade level
+        Weapon adjustedUpgradeWeapon = Weapon(weapon.getId(), weapon.getInfusion(), NEW_UPGRADE_LEVEL);
         auto ars = adjustedUpgradeWeapon.calcAR(stats[0], stats[1], stats[2], stats[3], stats[4], false);
         std::cout << adjustedUpgradeWeapon.getName() << " with infusion " << adjustedUpgradeWeapon.getInfusion() <<
         " at upgrade level " << adjustedUpgradeWeapon.getUpgrade() << ": ar is [Physical " << ars[0] << ", Magic "
@@ -740,6 +750,88 @@ std::vector<int> damageStatAllocation(const character& characterInput, int damag
     }
 
     return stats;
+}
+
+void rankBuilds(const std::vector<Character>& builds, const std::string& modelPath, int level, const Character& characterInput, int numBuilds)
+{
+    std::vector<float> mlStringBuilds;
+    int buildStringSize = 0;
+
+    //convert characters into strings, trim off the score, and flatten into a 1d array
+    for (auto build : builds)
+    {
+        auto tempBuildString = build.generateMlString();
+
+        tempBuildString.erase(tempBuildString.begin());//removing the score value(why is this there in the first place?)
+        mlStringBuilds.insert(mlStringBuilds.end(), tempBuildString.begin(), tempBuildString.end());
+
+        buildStringSize = tempBuildString.size(); //post score trim size
+    }
+
+    //code neatness thing
+    typedef std::pair<float, std::vector<float>> priorityPair;
+    std::priority_queue<priorityPair, std::vector<priorityPair>, std::greater<priorityPair>> buildPriorityQueue;
+
+    cppflow::model model(modelPath);
+    auto input = cppflow::tensor(mlStringBuilds, {numBuilds, buildStringSize});
+    auto test = model.get_operations();
+    auto scores = model({{"serve_input_layer:0", input}},{"StatefulPartitionedCall:0"});
+
+    auto scoreData = scores[0].get_data<float>();
+
+    //iterate over the output build scores, loading them into the priority queue of size numbuilds, when we reach
+    //the max size for the queue, we update the smallest score(top of the queue) if its score is less than the current
+    //build score we're looking to add. This way we get the numBuilds best scores.
+    for (int i=0; i<scoreData.size(); i++) {
+        //std::cout << dataFormat[i] << std::endl;
+
+        std::vector<float> buildData(mlStringBuilds.begin() + i*buildStringSize, mlStringBuilds.begin() + (i+1)*buildStringSize);
+
+        if (buildPriorityQueue.size() < numBuilds)
+        {
+            //check if inclusive or exclusive
+            buildPriorityQueue.emplace(scoreData[i], buildData);
+        } else
+        {
+            //c++'s impl of PQs doesnt have a get function
+            auto topBuild = buildPriorityQueue.top();
+            buildPriorityQueue.pop();
+
+            if (topBuild.first > scoreData[i])
+            {
+                buildPriorityQueue.push(topBuild);
+            } else
+            {
+                buildPriorityQueue.emplace(scoreData[i], buildData);
+            }
+        }
+    }
+
+    double best_ehp = loadCharacter::bestEffectiveHP(level, characterInput.getStartingClass(), characterInput.getHasGreatjar());
+    double max_fp = loadCharacter::retrieveMaxFp(level, characterInput.getStartingClass());
+
+    while (!buildPriorityQueue.empty())
+    {
+        auto result = buildPriorityQueue.top();
+        buildPriorityQueue.pop();
+
+        std::cout << result.first << std::endl;
+
+        auto resultData = result.second;
+        int resultDataSize = resultData.size();
+
+        int mindStat = fpToMind(std::round(resultData[3] * max_fp)) - starting_classes[characterInput.getStartingClass()][CLASS_MIND_STAT_INDEX];
+        int vigorStat = std::round(resultData[resultDataSize - 2] * level);
+        int endStat = std::round(resultData[resultDataSize - 1] * level);
+        int dmgStats = std::round(resultData[8] * level);
+        std::cout << "EHP is " << resultData[1] * best_ehp << ". Vigor invested is " << vigorStat << ". Endurance invested is " << endStat << ". Mind invested is "
+        << mindStat << ". Number of stats invested towards damage is " << dmgStats << "." << std::endl;
+
+        auto stats = damageStatAllocation(characterInput, dmgStats);
+        std::cout << "Vig " << starting_classes[characterInput.getStartingClass()][0] + vigorStat << ", Mnd " << starting_classes[characterInput.getStartingClass()][1] + mindStat
+        << ", End " << starting_classes[characterInput.getStartingClass()][2] + endStat << ", Str " << stats[0] << ", Dex " << stats[1]
+        << ", Int " << stats[2] << ", Fth " << stats[3] << ", Arc " << stats[4] << std::endl;
+    }
 }
 
 
@@ -784,7 +876,7 @@ void loadCharacter::loadData()
     std::cout << "highest fp spell test: " << getMaxFpSpell() << std::endl;
 
     std::cout << "load bloodsage character: ";
-    character bloodsage(R"(..\..\csv-conversions\non csv data\BloodsageNadine.json)");
+    Character bloodsage(R"(..\..\csv-conversions\non csv data\BloodsageNadine.json)");
     std::cout << bloodsage.getName() << " RL " << bloodsage.getLevel() << " +" << bloodsage.getUpgrade() << std::endl;
 
     std::cout << "grid build test: ";
@@ -801,9 +893,11 @@ void loadCharacter::loadData()
     std::cout << "debug this, too long to print" << std::endl;
 
     std::cout << "damage stat allocation test:  [ " << std::endl;
-    for (int stat : damageStatAllocation(bloodsage, 55, 17)) {
+    for (int stat : damageStatAllocation(bloodsage, 55)) {
         std::cout << stat << " ";
     }
     std::cout << "] " << std::endl;
+    std::cout << "ML score tests: " << std::endl;
+    rankBuilds({bloodsage}, R"(../../SavedModel)", 90, bloodsage, 1);
 
 }
