@@ -739,7 +739,7 @@ std::vector<int> damageStatAllocation(const Character& characterInput, int damag
     sum = 0; //unused anymore, but might modify to use again
 
     //printouts for final values
-    for (Weapon weapon : characterInput.getWeapons())
+    for (const Weapon& weapon : characterInput.getWeapons())
     {
         const int NEW_UPGRADE_LEVEL = 17; //only relevant for our printouts here, grabs our ar for the given upgrade level
         Weapon adjustedUpgradeWeapon = Weapon(weapon.getId(), weapon.getInfusion(), NEW_UPGRADE_LEVEL);
@@ -752,16 +752,22 @@ std::vector<int> damageStatAllocation(const Character& characterInput, int damag
     return stats;
 }
 
-void rankBuilds(const std::vector<Character>& builds, const std::string& modelPath, int level, const Character& characterInput, int numBuilds)
+/// The machine learning segment. Gets fed a number of builds, ranks them, and returns the numBuilds amount of
+/// the highest rated builds
+/// @param builds the different viable builds to feed to the model
+/// @param modelPath file path to the ML file
+/// @param level soul level to build to
+/// @param characterInput the original character build
+/// @param numBuilds how many highly rated output builds we want
+void rankBuilds(const std::vector<std::vector<double>>& builds, const std::string& modelPath, int level, const Character& characterInput, int numBuilds)
 {
     std::vector<float> mlStringBuilds;
     int buildStringSize = 0;
 
-    //convert characters into strings, trim off the score, and flatten into a 1d array
-    for (auto build : builds)
+    //get build strings, trim off the score, and flatten into a 1d array
+    for (const auto& build : builds)
     {
-        auto tempBuildString = build.generateMlString();
-
+        auto tempBuildString = build;
         tempBuildString.erase(tempBuildString.begin());//removing the score value(why is this there in the first place?)
         mlStringBuilds.insert(mlStringBuilds.end(), tempBuildString.begin(), tempBuildString.end());
 
@@ -834,8 +840,90 @@ void rankBuilds(const std::vector<Character>& builds, const std::string& modelPa
     }
 }
 
+std::vector<std::vector<double>> createBuilds(Character characterInput, int level, int stride)
+{
+    auto mlBuildString = characterInput.generateMlString();
+    mlBuildString[1] = static_cast<double>(characterInput.getLevel()) / level; //set level
+    int baseVigor = starting_classes[characterInput.getStartingClass()][CLASS_VIGOR_STAT_INDEX];
+    int baseEndurance = starting_classes[characterInput.getStartingClass()][CLASS_ENDURANCE_STAT_INDEX];
+
+    std::vector<double> armorFraction = {};
+    float armorPercent = 0;
+    double equipLoad = DataParser::fetchEq(characterInput.getEndurance() - 1);
+
+    if (characterInput.getHasGreatjar()) equipLoad *= 1.19;
+
+    std::vector<double> armorWeights = {};
+
+    for (int i=0; i<NUM_ARMOR_PIECES; i++)
+    {
+        double weight = 0;
+        auto armor = characterInput.getArmor();
+        if (!armor[i].empty()) weight = retrieveEquipWeight(armor[i]);
+        armorWeights.emplace_back(weight);
+        armorPercent += weight;
+    }
+    for (int i=0; i<NUM_ARMOR_PIECES; i++)
+    {
+        armorFraction.emplace_back(armorPercent != 0 ? armorWeights[i] / armorPercent : 0);
+    }
+
+    armorPercent /= equipLoad;
+    double maxPoise = loadCharacter::retrieveMaxPoise();
+    mlBuildString[3] = DAGGER_POISE_THRESHOLD / maxPoise; //set poise ratio
+
+    int maxFp = loadCharacter::retrieveMaxFp(level, characterInput.getStartingClass());
+    double bestEhp = DataParser::fetchEHP90(characterInput.getStartingClass());
+
+    auto mesh = gridGenerator(level, stride);
+
+    std::unordered_map<int, std::vector<std::vector<float>>> ehpCache;
+    std::vector<std::vector<double>> output;
+
+    //testValueSet has data stored like this: [Damage, Spell Slots, Effective Hp]
+    for (std::vector testValueSet : mesh)
+    {
+        std::vector<double> outputBuild = mlBuildString;
+
+        //fp
+        int mindIndex = starting_classes[characterInput.getStartingClass()][CLASS_MIND_STAT_INDEX] + testValueSet[2] - 1;
+        if (mindIndex >= 99) mindIndex = 98;
+        outputBuild[4] = DataParser::fetchFp(mindIndex) / maxFp; //set mind ratio
+
+        //damage stat num
+        outputBuild[9] = testValueSet[0] / level; //set damage stat ratio
+
+        //effective HP
+        std::vector<std::vector<float>> effectiveHPs;
+        if (ehpCache.find(testValueSet[1]) != ehpCache.end()) //check if key is present
+        {
+            effectiveHPs = ehpCache[testValueSet[1]];
+        } else
+        {
+            effectiveHPs = effectiveHealth(baseVigor, baseEndurance, armorPercent, armorFraction, testValueSet[1], characterInput.getHasBullgoat(), characterInput.getHasGreatjar());
+            ehpCache[testValueSet[1]] = effectiveHPs;
+        }
+        outputBuild[2] = effectiveHPs[0][0] / bestEhp; //ehp
+        //outputBuild[3] = effectiveHPs[0][1] / maxPoise; //poise
+        outputBuild[outputBuild.size() - 2] = effectiveHPs[0][2] / level; //vigor
+        outputBuild[outputBuild.size() - 1] = effectiveHPs[0][3] / level; //endurance
+        outputBuild[0] = 1; //score
+
+        output.emplace_back(outputBuild);
+    }
+    return output;
+}
 
 void loadCharacter::loadData()
+{
+    rescaleClasses();
+    Character bloodsage(R"(..\..\csv-conversions\non csv data\BloodsageNadine.json)");
+    //prepareData(bloodsage, 1);
+    auto builds = createBuilds(bloodsage, 90, 5);
+    rankBuilds(builds, R"(../../SavedModel)", 90, bloodsage, 2);
+}
+
+void loadCharacter::functionTesting()
 {
     std::cout << "equip weight: " << retrieveEquipWeight("Blue Cloth Vest") << std::endl;
     std::cout << "poise: " << retrievePoise("Blue Cloth Vest") << std::endl;
@@ -898,6 +986,6 @@ void loadCharacter::loadData()
     }
     std::cout << "] " << std::endl;
     std::cout << "ML score tests: " << std::endl;
-    rankBuilds({bloodsage}, R"(../../SavedModel)", 90, bloodsage, 1);
-
+    //rankBuilds({bloodsage}, R"(../../SavedModel)", 90, bloodsage, 1);
+    //createBuilds(bloodsage, 90, 5);
 }

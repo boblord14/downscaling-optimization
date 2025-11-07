@@ -203,9 +203,9 @@ Character::Character(const std::string& jsonPath)
         int charDamageStatIndex = i - CLASS_DAMAGE_STAT_INDEX; //character damage stats start at 0, not the constant
         allocatedDamageStats += this->damageStats[charDamageStatIndex] - starting_classes.at(startingClass)[i];
     }
-    this->damageStatCount = allocatedDamageStats / level;
-    this->effectiveHpVigorRatio = this->vigor-this->baseVigor;
-    this->effectiveHpEnduranceRatio = this->endurance-this->baseEndurance;
+    this->damageStatCount = static_cast<double>(allocatedDamageStats) / level;
+    this->effectiveHpVigorRatio = static_cast<double>(this->vigor) / level;
+    this->effectiveHpEnduranceRatio = static_cast<double>(this->endurance) / level;
 }
 
 std::string Character::getName()
@@ -285,17 +285,17 @@ void Character::setEffectiveHpRatio(const double calculatedEffectiveHp)
 
 void Character::setEffectiveHpVigorRatio(const int setVigor)
 {
-    effectiveHpVigorRatio = setVigor / level;
+    effectiveHpVigorRatio = static_cast<double>(setVigor) / level;
 }
 
 void Character::setEffectiveHpEnduranceRatio(const int setEndurance)
 {
-    effectiveHpEnduranceRatio = setEndurance / level;
+    effectiveHpEnduranceRatio = static_cast<double>(setEndurance) / level;
 }
 
 void Character::setPoiseRatio(int newPoise)
 {
-    poiseRatio = newPoise / bestPoiseValue;
+    poiseRatio = static_cast<double>(newPoise) / bestPoiseValue;
 }
 
 void Character::setFpRatio(int setMind)
@@ -305,7 +305,7 @@ void Character::setFpRatio(int setMind)
 
 void Character::setDamageStatNum(int newDamageStats)
 {
-    damageStatCount = newDamageStats / level;
+    damageStatCount = static_cast<double>(newDamageStats) / level;
 }
 
 void Character::setScore(double newScore)
@@ -318,11 +318,11 @@ void Character::setScore(double newScore)
 std::vector<double> Character::generateMlString()
 {
     double ashFpRatio = 0;
-    for (int i=0; i<ashes.size(); i++)
+    for (int ashe : ashes)
     {
-        ashFpRatio += ashes[i];
+        ashFpRatio += ashe;
     }
-    if (ashes.size()>0)
+    if (!ashes.empty())
     {
         ashFpRatio /= ashes.size();
     }else
@@ -333,12 +333,12 @@ std::vector<double> Character::generateMlString()
 
 
     double spellFpRatio = 0;
-    for (int i=0; i<spells.size(); i++)
+    for (int spell : spells)
     {
-        spellFpRatio += spells[i];
+        spellFpRatio += spell;
     }
     double maxSpellFp = 0;
-    if (spells.size()>0)
+    if (!spells.empty())
     {
         maxSpellFp = *std::max_element(spells.begin(), spells.end());
         spellFpRatio /= spells.size();
@@ -347,22 +347,14 @@ std::vector<double> Character::generateMlString()
     spellFpRatio /= highestFpSpell;
     maxSpellFp /= highestFpSpell;
 
-    double spellSlotRatio = spells.size() / MAX_CHARACTER_SPELL_SLOTS;
+    double spellSlotRatio = static_cast<double>(spells.size()) / MAX_CHARACTER_SPELL_SLOTS;
 
-    std::vector<double> finalMlString = {score, static_cast<double>(level/SCALING_LEVEL_TARGET), effectiveHpRatio, poiseRatio, fpRatio,
+    std::vector<double> finalMlString = {score, static_cast<double>(level)/SCALING_LEVEL_TARGET, effectiveHpRatio, poiseRatio, fpRatio,
     ashFpRatio, spellFpRatio, maxSpellFp, spellSlotRatio, damageStatCount};
 
     std::vector<double> startingClassHotEncode(starting_classes_index.size(), 0);
-    int classIndex = 0;
-    for (auto classEntry : starting_classes_index)
-    {
-        if (classEntry.first == startingClass)
-        {
-            startingClassHotEncode[classIndex] = 1;
-            break;
-        }
-        classIndex++;
-    }
+    int classIndex = starting_classes_index[startingClass];
+    startingClassHotEncode[classIndex] = 1;
     finalMlString.insert(finalMlString.end(), startingClassHotEncode.begin(), startingClassHotEncode.end());
 
     //if (hasBullgoat) finalMlString.push_back(1); else finalMlString.push_back(0);

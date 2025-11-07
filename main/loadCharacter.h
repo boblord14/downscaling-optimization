@@ -25,12 +25,16 @@ constexpr int DAGGER_POISE_THRESHOLD = 58; //the amount of poise required to not
 
 constexpr int CLASS_DAMAGE_STAT_INDEX = 3; //index position where the damage stats start in the starting classes list
 constexpr int CLASS_MIND_STAT_INDEX = 1; //index position where the mind stat is in the starting classes list
+constexpr int CLASS_VIGOR_STAT_INDEX = 0;
+constexpr int CLASS_ENDURANCE_STAT_INDEX = 2;
+
 
 constexpr int DAMAGE_STAT_COUNT = 5;
 
 class loadCharacter {
 public:
     static void loadData();
+    void functionTesting();
     static double retrieveMaxPoise();
     static double bestEffectiveHP(int statPoints, const std::string& startingClass, boolean hasGreatjar);
     static int retrieveMaxFp(int total_stats, const std::string& starting_class);
