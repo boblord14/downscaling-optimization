@@ -8,6 +8,8 @@
 #include "Weapon.h"
 #include <Eigen/Core>
 
+#include "character.h"
+
 extern std::unordered_map<std::string, std::vector<int>> starting_classes;
 
 static std::unordered_map<std::string, std::vector<double>> starting_classes_negations;

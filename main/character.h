@@ -36,9 +36,9 @@ static std::unordered_map<std::string, int> starting_classes_index = {
 
 constexpr int MAX_CHARACTER_SPELL_SLOTS = 13;
 
-class character {
+class Character {
 public:
-    explicit character(const std::string& jsonPath);
+    explicit Character(const std::string& jsonPath);
 
     std::string getName();
     int getLevel() const;
