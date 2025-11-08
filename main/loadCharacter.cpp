@@ -813,7 +813,6 @@ void rankBuilds(const std::vector<std::vector<double>>& builds, const std::strin
         }
     }
 
-    //TODO: verify bestEffectiveHP's code, numbers arent lined up to the python version and unsure if bug or optimizer difference
     double best_ehp = loadCharacter::bestEffectiveHP(level, characterInput.getStartingClass(), characterInput.getHasGreatjar());
     double max_fp = loadCharacter::retrieveMaxFp(level, characterInput.getStartingClass());
 
@@ -887,7 +886,7 @@ std::vector<std::vector<double>> createBuilds(Character characterInput, int leve
         std::vector<double> outputBuild = mlBuildString;
 
         //fp
-        int mindIndex = starting_classes[characterInput.getStartingClass()][CLASS_MIND_STAT_INDEX] + testValueSet[2] - 1;
+        int mindIndex = starting_classes[characterInput.getStartingClass()][CLASS_MIND_STAT_INDEX] + testValueSet[2];
         if (mindIndex >= 99) mindIndex = 98;
         outputBuild[4] = static_cast<double>(DataParser::fetchFp(mindIndex)) / maxFp; //set mind ratio
 
