@@ -739,6 +739,7 @@ std::vector<int> damageStatAllocation(const Character& characterInput, int damag
     sum = 0; //unused anymore, but might modify to use again
 
     //printouts for final values
+    /*
     for (const Weapon& weapon : characterInput.getWeapons())
     {
         const int NEW_UPGRADE_LEVEL = 17; //only relevant for our printouts here, grabs our ar for the given upgrade level
@@ -748,6 +749,7 @@ std::vector<int> damageStatAllocation(const Character& characterInput, int damag
         " at upgrade level " << adjustedUpgradeWeapon.getUpgrade() << ": ar is [Physical " << ars[0] << ", Magic "
         << ars[1] << ", Fire " << ars[2] << ", Lightning " << ars[3] << ", Holy " << ars[4] << "]" << std::endl;
     }
+    */
 
     return stats;
 }
@@ -921,6 +923,15 @@ void loadCharacter::loadData()
     //prepareData(bloodsage, 1);
     auto builds = createBuilds(bloodsage, 90, 5);
     rankBuilds(builds, R"(../../SavedModel)", 90, bloodsage, 2);
+}
+
+void loadCharacter::loadData(std::string buildJsonPath, int targetLevel, int buildsToProduce)
+{
+    rescaleClasses();
+    Character bloodsage(buildJsonPath);
+    //prepareData(bloodsage, 1);
+    auto builds = createBuilds(bloodsage, targetLevel, 5);
+    rankBuilds(builds, R"(../../SavedModel)", targetLevel, bloodsage, buildsToProduce);
 }
 
 void loadCharacter::functionTesting()
