@@ -34,7 +34,8 @@ constexpr int DAMAGE_STAT_COUNT = 5;
 class loadCharacter {
 public:
     static void loadData();
-    void functionTesting();
+    static void loadData(std::string buildJsonPath, int targetLevel, int buildsToProduce);
+    static void functionTesting();
     static double retrieveMaxPoise();
     static double bestEffectiveHP(int statPoints, const std::string& startingClass, boolean hasGreatjar);
     static int retrieveMaxFp(int total_stats, const std::string& starting_class);
