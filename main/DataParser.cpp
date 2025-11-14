@@ -305,6 +305,11 @@ void DataParser::loadPoiseScale() {
     poiseFile.close();
 
     std::sort(poise_bp.begin(), poise_bp.end());
+
+    //trim duplicate values out of the list
+    auto uniqueSplit = std::unique(poise_bp.begin(), poise_bp.end());
+    poise_bp.erase(uniqueSplit, poise_bp.end());
+
 }
 
 //I REALLY need a better way to load this.

@@ -47,6 +47,7 @@ int loadCharacter::retrieveMaxFp(int total_stats, const std::string& starting_cl
 }
 
 /// Calculates the maximum possible poise value a character can have if they wear the highest poise armor pieces in the game.
+/// Uses bullgoat multiplier too(33% poise increase)
 /// @return the max possible poise value
 double loadCharacter::retrieveMaxPoise() {
     float max_head = -1;
@@ -113,13 +114,13 @@ std::pair<float, float> negationsPoise(float equipLoad, const std::vector<double
     float truePoiseHead = (poiseArmorPieces[0][0] * armor * armorFraction[0] + poiseArmorPieces[0][1]);
     if (truePoiseHead<=0) truePoiseHead = 0;
 
-    float truePoiseChest = (poiseArmorPieces[1][0] * armor * armorFraction[0] + poiseArmorPieces[1][1]);
+    float truePoiseChest = (poiseArmorPieces[1][0] * armor * armorFraction[1] + poiseArmorPieces[1][1]);
     if (truePoiseChest<=0) truePoiseChest = 0;
 
-    float truePoiseArm = (poiseArmorPieces[2][0] * armor * armorFraction[0] + poiseArmorPieces[2][1]);
+    float truePoiseArm = (poiseArmorPieces[2][0] * armor * armorFraction[2] + poiseArmorPieces[2][1]);
     if (truePoiseArm<=0) truePoiseArm = 0;
 
-    float truePoiseLeg = (poiseArmorPieces[3][0] * armor * armorFraction[0] + poiseArmorPieces[3][1]);
+    float truePoiseLeg = (poiseArmorPieces[3][0] * armor * armorFraction[3] + poiseArmorPieces[3][1]);
     if (truePoiseLeg<=0) truePoiseLeg = 0;
 
     float fullPoise = truePoiseHead + truePoiseChest + truePoiseArm + truePoiseLeg;
@@ -154,13 +155,11 @@ std::vector<std::vector<float>> effectiveHealth(int baseVigor, int baseEndurance
     if (logisticArmorPieces.empty()) logisticArmorPieces = DataParser::fetchLogistics();
 
     while (i <= allocatedStatPoints) {
-        int hpIndex = i + baseVigor - 1;
-        if (hpIndex >= 99) hpIndex = 98;
+        int hpIndex = i + baseVigor;
         float hp = DataParser::fetchHp(hpIndex);
         characterHealthScale.push_back(hp);
 
-        int enduranceIndex = allocatedStatPoints - i + baseEndurance - 1;
-        if (enduranceIndex >= 99) enduranceIndex = 98;
+        int enduranceIndex = allocatedStatPoints - i + baseEndurance;
         float equipLoad = DataParser::fetchEq(enduranceIndex);
         if (hasGreatjar) equipLoad = equipLoad * 1.19;
 
@@ -176,7 +175,7 @@ std::vector<std::vector<float>> effectiveHealth(int baseVigor, int baseEndurance
 
         for (int j = 0; j < DataParser::getPoiseSize(); j++) {
             if (poiseVal >= DataParser::fetchPoise(j) && computedEffectiveHp >= bestBreakPoints[j][0]) {
-                bestBreakPoints[j] = {computedEffectiveHp, poiseVal, static_cast<float>(hpIndex) + 1 - baseVigor, static_cast<float>(enduranceIndex) + 1 - baseEndurance};
+                bestBreakPoints[j] = {computedEffectiveHp, poiseVal, static_cast<float>(hpIndex) - baseVigor, static_cast<float>(enduranceIndex) - baseEndurance};
             }
         }
         i += 1;
@@ -288,18 +287,10 @@ double loadCharacter::bestEffectiveHP(int statPoints, const std::string& startin
 
     for (int i=0; i<statPoints; i++)
     {
-        int hpIndex = i + baseVigor - 1;
-        if (hpIndex>=99)
-        {
-            hpIndex = 98;
-        }
+        int hpIndex = i + baseVigor;
         double hp = DataParser::fetchHp(hpIndex);
 
-        int endIndex = statPoints - i + baseEndurance - 1;
-        if (endIndex>=99)
-        {
-            endIndex = 98;
-        }
+        int endIndex = statPoints - i + baseEndurance;
         double el = DataParser::fetchEq(endIndex);
 
         if (hasGreatjar)
@@ -364,9 +355,9 @@ std::vector<double> project(std::vector<double> originalX, int totalStats)
 
     double sqrtDot = std::sqrt(planeDotProduct);
 
-    for (int i=0; i<plane.size(); i++)
+    for (double & i : plane)
     {
-        plane[i] /= sqrtDot;
+        i /= sqrtDot;
     }
 
     double xSum = std::inner_product(originalX.begin(), originalX.end(), plane.begin(), 0.0);
@@ -514,6 +505,7 @@ std::vector<std::vector<int>> gridGenerator(int soulLevel, int delta)
 }
 
 /// Works to set up the training data to be fed through the priority queue and written to the machine learning model.
+/// Generates scores for fed in builds so we can rate them for our model.
 /// @param characterInput Character class loaded with data
 /// @param delta How coarse or fine we want to test with our stat allocations. The larger the value, the less accurate our computed answer will be.
 /// @return A final vector output of characters with the updated ML data
@@ -584,7 +576,7 @@ std::vector<Character> exponentialDecay(Character& characterInput, int delta)
 
     int allocatedMindStats = characterInput.getMind() - starting_classes.at(characterInput.getStartingClass())[CLASS_MIND_STAT_INDEX];
 
-    characterInput.setPoiseRatio(DAGGER_POISE_THRESHOLD);
+    characterInput.setPoiseRatio(optimalPoise);
 
     auto statAllocationVariants = gridGenerator(characterInput.getLevel(), delta);
 
@@ -606,13 +598,14 @@ std::vector<Character> exponentialDecay(Character& characterInput, int delta)
         allocatedEhp = effectiveHealth(baseClassVigor, baseClassEndurance, armorPercent,
        armorFraction, statAllocation[1], characterInput.getHasBullgoat(), characterInput.getHasGreatjar());
 
+        //actual exponential decay and score generation
         double distance = std::abs(statAllocation[0] - allocatedDamageStats) + std::abs(statAllocation[1] - allocatedEhpStats)
         + std::abs(statAllocation[2] - allocatedMindStats);
         double score = std::exp(-distance / 100);
         if (score <= 0.5) continue;
 
         newStatMlCharacter.setEffectiveHpRatio(allocatedEhp[0][0]);
-        //newStatMlCharacter.setPoiseRatio(allocatedEhp[0][1]); ignoring poise for now
+        newStatMlCharacter.setPoiseRatio(allocatedEhp[0][1]);
         newStatMlCharacter.setEffectiveHpVigorRatio(allocatedEhp[0][2]);
         newStatMlCharacter.setEffectiveHpEnduranceRatio(allocatedEhp[0][3]);
 
@@ -856,15 +849,27 @@ std::vector<std::vector<double>> createBuilds(Character characterInput, int leve
     if (characterInput.getHasGreatjar()) equipLoad *= 1.19;
 
     std::vector<double> armorWeights = {};
+    double poise = characterInput.getPoise();
+
+    bool poiseComputed = (poise == 0);
 
     for (int i=0; i<NUM_ARMOR_PIECES; i++)
     {
         double weight = 0;
         auto armor = characterInput.getArmor();
-        if (!armor[i].empty()) weight = retrieveEquipWeight(armor[i]);
+        if (!armor[i].empty())
+        {
+            weight = retrieveEquipWeight(armor[i]);
+
+            if (!poiseComputed) poise += retrievePoise(armor[i]);
+
+        }
         armorWeights.emplace_back(weight);
         armorPercent += weight;
     }
+
+    if (characterInput.getHasBullgoat() && !poiseComputed) poise /= 0.75;
+
     for (int i=0; i<NUM_ARMOR_PIECES; i++)
     {
         armorFraction.emplace_back(armorPercent != 0 ? armorWeights[i] / armorPercent : 0);
@@ -872,7 +877,7 @@ std::vector<std::vector<double>> createBuilds(Character characterInput, int leve
 
     armorPercent /= equipLoad;
     double maxPoise = loadCharacter::retrieveMaxPoise();
-    mlBuildString[3] = DAGGER_POISE_THRESHOLD / maxPoise; //set poise ratio
+    mlBuildString[3] = poise / maxPoise; //set poise ratio
 
     int maxFp = loadCharacter::retrieveMaxFp(level, characterInput.getStartingClass());
     double bestEhp = DataParser::fetchEHP90(characterInput.getStartingClass());
@@ -906,7 +911,7 @@ std::vector<std::vector<double>> createBuilds(Character characterInput, int leve
             ehpCache[testValueSet[1]] = effectiveHPs;
         }
         outputBuild[2] = effectiveHPs[0][0] / bestEhp; //ehp
-        //outputBuild[3] = effectiveHPs[0][1] / maxPoise; //poise
+        outputBuild[3] = effectiveHPs[0][1] / maxPoise; //poise
         outputBuild[outputBuild.size() - 2] = effectiveHPs[0][2] / level; //vigor
         outputBuild[outputBuild.size() - 1] = effectiveHPs[0][3] / level; //endurance
         outputBuild[0] = 1; //score
@@ -934,8 +939,15 @@ void loadCharacter::loadData(std::string buildJsonPath, int targetLevel, int bui
     rankBuilds(builds, R"(../../SavedModel)", targetLevel, bloodsage, buildsToProduce);
 }
 
+void loadCharacter::writeTrainingData(std::string trainingPath, std::string outputFilePath)
+{
+
+}
+
 void loadCharacter::functionTesting()
 {
+    rescaleClasses();
+
     std::cout << "equip weight: " << retrieveEquipWeight("Blue Cloth Vest") << std::endl;
     std::cout << "poise: " << retrievePoise("Blue Cloth Vest") << std::endl;
     std::cout << "mind value test: " << retrieveMaxFp(20, "Bandit") << std::endl;
@@ -961,8 +973,6 @@ void loadCharacter::functionTesting()
         std::cout << y << " ";
     }
     std::cout << "] " << std::endl;
-
-    rescaleClasses();
 
     std::cout << "class rescale test: ";
     std::cout << "new hero stats(should be same or close to projection) = [ ";

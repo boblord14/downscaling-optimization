@@ -56,6 +56,11 @@ int Character::getBaseMind() const
     return baseMind;
 }
 
+double Character::getPoise() const
+{
+    return poise;
+}
+
 std::vector<Weapon> Character::getWeapons() const
 {
     return weapons;
@@ -295,7 +300,7 @@ void Character::setEffectiveHpEnduranceRatio(const int setEndurance)
 
 void Character::setPoiseRatio(int newPoise)
 {
-    poiseRatio = static_cast<double>(newPoise) / bestPoiseValue;
+    poiseRatio = static_cast<double>(newPoise) / loadCharacter::retrieveMaxPoise();
 }
 
 void Character::setFpRatio(int setMind)
@@ -314,7 +319,7 @@ void Character::setScore(double newScore)
 }
 
 // [score, character_level, ehp, poise, fp, average ash fp cost, average spell cost, max spell cost, number of spells,
-// number of damage stats, starting class one hot encoding, greatjar, vigor, end]
+// number of damage stats, starting class one hot encoding, greatjar, bullgoat, vigor, end]
 std::vector<double> Character::generateMlString()
 {
     double ashFpRatio = 0;
@@ -357,7 +362,7 @@ std::vector<double> Character::generateMlString()
     startingClassHotEncode[classIndex] = 1;
     finalMlString.insert(finalMlString.end(), startingClassHotEncode.begin(), startingClassHotEncode.end());
 
-    //if (hasBullgoat) finalMlString.push_back(1); else finalMlString.push_back(0);
+    if (hasBullgoat) finalMlString.push_back(1); else finalMlString.push_back(0);
     if (hasGreatjar) finalMlString.push_back(1); else finalMlString.push_back(0);
     finalMlString.push_back(effectiveHpVigorRatio);
     finalMlString.push_back(effectiveHpEnduranceRatio);
