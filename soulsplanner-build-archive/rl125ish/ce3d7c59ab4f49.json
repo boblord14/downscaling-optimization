@@ -1,0 +1,294 @@
+{
+    "id": "ce3d7c59ab4f49",
+    "is2h": false,
+    "name": "Shield Poke",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default"
+            },
+            {
+                "name": "Optimal physical for 66p #2",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "Duels",
+        "Invasions",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Bloodboil Aromatic",
+                    "order": 0,
+                    "active": true
+                },
+                {
+                    "name": "Well-Pickled Turtle Neck",
+                    "order": 1,
+                    "active": true
+                },
+                {
+                    "name": "Shield Grease",
+                    "order": 2,
+                    "active": true
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Greenspill Crystal Tear",
+            "Deflecting Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 11,
+        "dex": 9,
+        "fth": 8,
+        "int": 7,
+        "mnd": 9,
+        "str": 50,
+        "vig": 60,
+        "vit": 50
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 68
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 149,
+            "magic": 141,
+            "slash": 149,
+            "pierce": 149,
+            "strike": 149,
+            "physical": 149,
+            "lightning": 127
+        },
+        "maxHealth": 2015.52,
+        "absorption": {
+            "fire": 42.37529570944001,
+            "holy": 40.05222429759999,
+            "magic": 39.318324520960005,
+            "slash": 32.24418237440001,
+            "pierce": 31.211477350400006,
+            "strike": 27.36878965120001,
+            "physical": 32.52708766720001,
+            "lightning": 37.855874944
+        },
+        "maxStamina": 289.053765,
+        "resistances": {
+            "focus": 220,
+            "immunity": 309,
+            "vitality": 246,
+            "robustness": 354
+        },
+        "maxEquipLoad": 118.67374262
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Serpent-Hunter",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Fingerprint Stone Shield",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Shield Bash",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Spear Talisman",
+                "order": 0
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Viridian Amber Medallion +3",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Pearl Shield Talisman",
+                "order": 3,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 5
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 6
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 7
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Left-hand Buff VFX",
+            "Guarding"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Tree Sentinel Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Young Lion's Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1,
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Fire Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1,
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

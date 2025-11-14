@@ -1,0 +1,392 @@
+{
+    "id": "89a677805c46ec",
+    "is2h": true,
+    "name": "Alex 2",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 3,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Messmerfire Grease",
+                    "order": 4,
+                    "active": true,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Hefty Furnace Pot",
+                    "order": 5,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Giantsflame Fire Pot",
+                    "order": 6
+                },
+                {
+                    "name": "Throwing Dagger",
+                    "order": 7
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Flame-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 44,
+        "fth": 45,
+        "int": 9,
+        "mnd": 25,
+        "str": 22,
+        "vig": 50,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment",
+        "spells-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            },
+            {
+                "name": "Giantsflame Take Thee",
+                "order": 2
+            },
+            {
+                "name": "Flame, Fall Upon Them",
+                "order": 3
+            },
+            {
+                "name": "Burn, O Flame!",
+                "order": 4
+            },
+            {
+                "name": "O, Flame!",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 169,
+        "poise": {
+            "altered": 62.66666651,
+            "original": 47
+        },
+        "runes": {
+            "total": 7105792,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 49
+        },
+        "defenses": {
+            "fire": 183,
+            "holy": 151,
+            "magic": 151,
+            "slash": 140,
+            "pierce": 140,
+            "strike": 140,
+            "physical": 140,
+            "lightning": 133
+        },
+        "maxHealth": 2037.984,
+        "absorption": {
+            "fire": 30.701226116800008,
+            "holy": 27.557825689000016,
+            "magic": 29.267034860800013,
+            "slash": 33.22677643750001,
+            "pierce": 32.12628492160001,
+            "strike": 31.090545071200015,
+            "physical": 34.55450905600001,
+            "lightning": 27.557825689000016
+        },
+        "maxStamina": 153.065,
+        "resistances": {
+            "focus": 213,
+            "immunity": 280,
+            "vitality": 222,
+            "robustness": 294
+        },
+        "maxEquipLoad": 77.76
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Fire Knight's Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Keen",
+                "weaponArt": "Giant Hunt",
+                "equipIndex": 0
+            },
+            {
+                "name": "Queelign's Greatsword",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Vyke's War Spear",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spear of the Impaler",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Milady",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Spear"
+            },
+            {
+                "name": "Glaive",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Skewer"
+            },
+            {
+                "name": "Blasphemous Blade",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Firespark Perfume Bottle",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rolling Sparks"
+            },
+            {
+                "name": "Messmer Soldier Shield",
+                "order": 8,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Giant's Seal",
+                "order": 10,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Prosthesis-Wearer Heirloom",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Hoslow's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Hoslow's Armor (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Hoslow's Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Hoslow's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Confessor"
+}

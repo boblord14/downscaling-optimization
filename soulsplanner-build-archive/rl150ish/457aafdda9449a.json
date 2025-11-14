@@ -1,0 +1,335 @@
+{
+    "id": "457aafdda9449a",
+    "is2h": false,
+    "name": "Lightbringer",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            },
+            {
+                "name": "Set #2"
+            },
+            {
+                "name": "Set #3"
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "Caster"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 10,
+        "dex": 10,
+        "fth": 59,
+        "int": 31,
+        "mnd": 38,
+        "str": 11,
+        "vig": 60,
+        "vit": 10
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/right": "Summary",
+        "spells-view/left": "Picker",
+        "weapons-view/left": "Picker",
+        "protector-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 1
+            },
+            {
+                "name": "Dragonbolt Blessing",
+                "order": 2
+            },
+            {
+                "name": "Ancient Dragons' Lightning Spear",
+                "order": 3
+            },
+            {
+                "name": "Ancient Dragons' Lightning Strike",
+                "order": 4
+            },
+            {
+                "name": "Frozen Lightning Spear",
+                "order": 5
+            },
+            {
+                "name": "Death Lightning",
+                "order": 6
+            },
+            {
+                "name": "Vyke's Dragonbolt",
+                "order": 7
+            },
+            {
+                "name": "Erdtree Heal",
+                "order": 8
+            },
+            {
+                "name": "Blessing of the Erdtree",
+                "order": 9
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 221,
+        "poise": {
+            "original": 15
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "fth": 61
+        },
+        "defenses": {
+            "fire": 193,
+            "holy": 153,
+            "magic": 180,
+            "slash": 136,
+            "pierce": 136,
+            "strike": 136,
+            "physical": 136,
+            "lightning": 133
+        },
+        "maxHealth": 2134.08,
+        "absorption": {
+            "fire": 18.53446000000001,
+            "holy": 18.643533600000005,
+            "magic": 18.910954000000004,
+            "slash": 11.7628312,
+            "pierce": 10.099576599999994,
+            "strike": 11.398214799999996,
+            "physical": 8.652592400000003,
+            "lightning": 18.20461240000001
+        },
+        "maxStamina": 105.6,
+        "resistances": {
+            "focus": 298,
+            "immunity": 275,
+            "vitality": 287,
+            "robustness": 210
+        },
+        "maxEquipLoad": 52.03058824
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Erdtree Seal",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Cipher Pata",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    1,
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Coded Sword",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Finger Seal",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Gravel Stone Seal",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Giant's Seal",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Faithful's Canvas Talisman",
+                "order": 1
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 2
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Commoner's Simple Garb",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Ruler's Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Imp Head (Corpse)",
+                    "order": 1
+                },
+                {
+                    "name": "Haligtree Knight Helm",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

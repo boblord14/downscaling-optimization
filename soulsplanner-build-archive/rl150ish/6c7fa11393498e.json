@@ -1,0 +1,471 @@
+{
+    "id": "6c7fa11393498e",
+    "pve": {
+        "inDLC1": false,
+        "revered": 10,
+        "scadutree": 20
+    },
+    "is2h": false,
+    "name": "Shing! Shing! lv 150",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default"
+            },
+            {
+                "name": "Set #2",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 0,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 1,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 2,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 3,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Rune Arc",
+                    "order": 4,
+                    "equipIndex": 3
+                },
+                {
+                    "name": "Exalted Flesh",
+                    "order": 5,
+                    "equipIndex": 4
+                },
+                {
+                    "name": "Bloodboil Aromatic",
+                    "order": 6,
+                    "equipIndex": 5
+                },
+                {
+                    "name": "Lantern",
+                    "order": 7,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Tarnished's Furled Finger",
+                    "order": 8,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Furlcalling Finger Remedy",
+                    "order": 9,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Small Golden Effigy",
+                    "order": 10,
+                    "equipIndex": 15
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Dexterity-knot Crystal Tear",
+            "Greenburst Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 30,
+        "dex": 35,
+        "fth": 26,
+        "int": 16,
+        "mnd": 15,
+        "str": 30,
+        "vig": 40,
+        "vit": 37
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Rotten Breath",
+                "order": 2
+            },
+            {
+                "name": "The Flame of Frenzy",
+                "order": 3
+            },
+            {
+                "name": "Poison Mist",
+                "order": 4
+            },
+            {
+                "name": "Unseen Blade",
+                "order": 5
+            },
+            {
+                "name": "Unseen Form",
+                "order": 6
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 7
+            },
+            {
+                "name": "Poison Armament",
+                "order": 8
+            },
+            {
+                "name": "Ancient Dragons' Lightning Strike",
+                "order": 9
+            },
+            {
+                "name": "Assassin's Approach",
+                "order": 10
+            },
+            {
+                "name": "Lord's Heal",
+                "order": 11
+            }
+        ]
+    },
+    "sliders": {
+        "id": "",
+        "name": "",
+        "images": [
+            {
+                "url": "",
+                "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "zoom": 1,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ],
+        "sliders": {
+            "age": 1
+        },
+        "bodyType": "A"
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "original": 48
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "arc": 35,
+            "dex": 50,
+            "fth": 31,
+            "int": 21,
+            "mnd": 20,
+            "str": 35,
+            "vig": 45,
+            "vit": 42
+        },
+        "defenses": {
+            "fire": 181,
+            "holy": 186,
+            "magic": 176,
+            "slash": 148,
+            "pierce": 148,
+            "strike": 148,
+            "physical": 148,
+            "lightning": 136
+        },
+        "maxHealth": 1581,
+        "absorption": {
+            "fire": 22.457841724000005,
+            "holy": 24.647465670400003,
+            "magic": 21.526920469,
+            "slash": 26.16877639999999,
+            "pierce": 24.879733005500004,
+            "strike": 22.663807796000015,
+            "physical": 24.879733005500004,
+            "lightning": 19.618211139000007
+        },
+        "maxStamina": 145,
+        "resistances": {
+            "focus": 229,
+            "immunity": 285,
+            "vitality": 308,
+            "robustness": 321
+        },
+        "maxEquipLoad": 93.69003209
+    },
+    "greatRune": "Godrick's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Uchigatana",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Cold",
+                "weaponArt": "Divine Beast Frost Stomp",
+                "equipIndex": 0
+            },
+            {
+                "name": "Rivers of Blood",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Uchigatana",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Poison",
+                "weaponArt": "Assassin's Gambit",
+                "equipIndex": 4
+            },
+            {
+                "name": "Reduvia",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 2
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 4,
+                "upgrade": 0,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Commander's Standard",
+                "order": 5,
+                "upgrade": 0,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 0,
+                "equipSet": [
+                    0,
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 1,
+                "equipSet": [
+                    1,
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Aged One's Exultation",
+                "order": 2,
+                "equipSet": [
+                    2,
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 3,
+                "equipSet": [
+                    3,
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 4
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Jump Attack",
+            "Madness",
+            "Trigger in Presence of Blood Loss",
+            "Trigger in Presence of Rot",
+            "Trigger in Presence of Madness",
+            "Frenzied Flame Spell"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Banished Knight Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Maliketh's Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Maliketh's Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Black Dumpling",
+                    "order": 0
+                },
+                {
+                    "name": "White Mask",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Banished Knight Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Maliketh's Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

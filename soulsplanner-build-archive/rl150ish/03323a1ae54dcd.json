@@ -1,0 +1,1372 @@
+{
+    "id": "03323a1ae54dcd",
+    "is2h": false,
+    "name": "Cleric (Faith Caster)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "buff holy damage",
+                "active": true
+            },
+            {
+                "name": "Dual"
+            },
+            {
+                "name": "2H"
+            },
+            {
+                "name": "Poise on R2"
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Caster",
+                "active": true
+            },
+            {
+                "name": "bull for mace?"
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Thematic",
+                "active": true
+            },
+            {
+                "name": "Set #2"
+            },
+            {
+                "name": "Leda"
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "Duels",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 139,
+        "arc": 10,
+        "dex": 16,
+        "fth": 72,
+        "int": 7,
+        "mnd": 20,
+        "str": 19,
+        "vig": 54,
+        "vit": 20
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Wrath of Gold",
+                "order": 0
+            },
+            {
+                "name": "Giant Golden Arc",
+                "order": 1
+            },
+            {
+                "name": "Multilayered Ring of Light",
+                "order": 2
+            },
+            {
+                "name": "Land of Shadow",
+                "order": 3
+            },
+            {
+                "name": "Light of Miquella",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "original": 49
+        },
+        "runes": {
+            "total": 5569896,
+            "toNextLevel": 130894
+        },
+        "defenses": {
+            "fire": 184,
+            "holy": 150,
+            "magic": 144,
+            "slash": 136,
+            "pierce": 136,
+            "strike": 136,
+            "physical": 136,
+            "lightning": 130
+        },
+        "maxHealth": 2051.192,
+        "absorption": {
+            "fire": 22.98271992880001,
+            "holy": 20.713727935000005,
+            "magic": 24.236466764800017,
+            "slash": 27.008635199999997,
+            "pierce": 24.8931460064,
+            "strike": 22.743535829200013,
+            "physical": 26.037804953,
+            "lightning": 18.447196525
+        },
+        "maxStamina": 124.3,
+        "resistances": {
+            "focus": 205,
+            "immunity": 269,
+            "vitality": 215,
+            "robustness": 328
+        },
+        "maxEquipLoad": 69.18352941
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Coded Sword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    3,
+                    null
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lordsworn's Greatsword",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Marika's Hammer",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Banished Knight's Greatsword",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    0
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Finger Seal",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Erdsteel Dagger",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Parry"
+            },
+            {
+                "name": "Zweihander",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Stamp (Upward Cut)"
+            },
+            {
+                "name": "Dryleaf Seal",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spiraltree Seal",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Erdsteel Dagger",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Fire Knight's Shortsword",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Spear"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Charge Forth"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Charge Forth"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Charge Forth"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Charge Forth"
+            },
+            {
+                "name": "Mace",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Mace",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Prayerful Strike"
+            },
+            {
+                "name": "Mace",
+                "order": 20,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    0
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Noble's Estoc",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Noble's Estoc",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Noble's Estoc",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Grossmesser",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Parry"
+            },
+            {
+                "name": "Mace",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Mace",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 30,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Highland Axe",
+                "order": 31,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "War Cry"
+            },
+            {
+                "name": "Battle Axe",
+                "order": 32,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Battle Axe",
+                "order": 33,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Battle Axe",
+                "order": 34,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Short Spear",
+                "order": 35,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Ring of Light"
+            },
+            {
+                "name": "Short Spear",
+                "order": 36,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Short Spear",
+                "order": 37,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Partisan",
+                "order": 38,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Partisan",
+                "order": 39,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 40,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Eclipse Crest Heater Shield",
+                "order": 41,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Vow of the Indomitable"
+            },
+            {
+                "name": "Wolf Crest Shield",
+                "order": 42,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Vow of the Indomitable"
+            },
+            {
+                "name": "Serpent Crest Shield",
+                "order": 43,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Holy Ground"
+            },
+            {
+                "name": "Milady",
+                "order": 44,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Wing Stance"
+            },
+            {
+                "name": "Lordsworn's Greatsword",
+                "order": 45,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Stamp (Upward Cut)"
+            },
+            {
+                "name": "Lordsworn's Greatsword",
+                "order": 46,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Stamp (Upward Cut)"
+            },
+            {
+                "name": "Lordsworn's Greatsword",
+                "order": 47,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Stamp (Upward Cut)"
+            },
+            {
+                "name": "Lordsworn's Greatsword",
+                "order": 48,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Stamp (Upward Cut)"
+            },
+            {
+                "name": "Black Steel Twinblade",
+                "order": 49,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 50,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 51,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Blinkbolt"
+            },
+            {
+                "name": "Miquellan Knight's Sword",
+                "order": 52,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Sword of Light",
+                "order": 53,
+                "upgrade": null,
+                "equipSet": [
+                    0,
+                    0,
+                    null
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 54,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Aspects of the Crucible: Wings"
+            },
+            {
+                "name": "Blade of Calling",
+                "order": 55,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Euporia",
+                "order": 56,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Claymore",
+                "order": 57,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Fire Knight's Shortsword",
+                "order": 58,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 59,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 60,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 61,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 62,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 63,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Thunderbolt"
+            },
+            {
+                "name": "Claymore",
+                "order": 64,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Lion's Claw"
+            },
+            {
+                "name": "Zweihander",
+                "order": 65,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Stamp (Upward Cut)"
+            },
+            {
+                "name": "Claymore",
+                "order": 66,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Lion's Claw"
+            },
+            {
+                "name": "Zweihander",
+                "order": 67,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Stamp (Upward Cut)"
+            },
+            {
+                "name": "Noble's Estoc",
+                "order": 68,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Noble's Estoc",
+                "order": 69,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Claymore",
+                "order": 70,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Lion's Claw"
+            },
+            {
+                "name": "Claymore",
+                "order": 71,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Lion's Claw"
+            },
+            {
+                "name": "Grossmesser",
+                "order": 72,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Grossmesser",
+                "order": 73,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Grossmesser",
+                "order": 74,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Grossmesser",
+                "order": 75,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Black Steel Twinblade",
+                "order": 76,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Black Steel Twinblade",
+                "order": 77,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Black Steel Twinblade",
+                "order": 78,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Black Steel Twinblade",
+                "order": 79,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 80,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 81,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Battle Axe",
+                "order": 82,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Battle Axe",
+                "order": 83,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Highland Axe",
+                "order": 84,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "War Cry"
+            },
+            {
+                "name": "Highland Axe",
+                "order": 85,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "War Cry"
+            },
+            {
+                "name": "Short Spear",
+                "order": 86,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Short Spear",
+                "order": 87,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Partisan",
+                "order": 88,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Partisan",
+                "order": 89,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Partisan",
+                "order": 90,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Erdsteel Dagger",
+                "order": 91,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Coded Sword",
+                "order": 92,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Fire Knight's Shortsword",
+                "order": 93,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Spear",
+                "order": 94,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Spear",
+                "order": 95,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Spear",
+                "order": 96,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Spear",
+                "order": 97,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Spear",
+                "order": 98,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 99,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Charge Forth"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 100,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Charge Forth"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 101,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Charge Forth"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 102,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Charge Forth"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 103,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Charge Forth"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 104,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Charge Forth"
+            },
+            {
+                "name": "Guardian's Swordspear",
+                "order": 105,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Guardian's Swordspear",
+                "order": 106,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Guardian's Swordspear",
+                "order": 107,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Guardian's Swordspear",
+                "order": 108,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Guardian's Swordspear",
+                "order": 109,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Noble's Estoc",
+                "order": 110,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Noble's Estoc",
+                "order": 111,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Noble's Estoc",
+                "order": 112,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Noble's Estoc",
+                "order": 113,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Noble's Estoc",
+                "order": 114,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Great \u00c9p\u00e9e",
+                "order": 115,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Great \u00c9p\u00e9e",
+                "order": 116,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Great \u00c9p\u00e9e",
+                "order": 117,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Great \u00c9p\u00e9e",
+                "order": 118,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Great \u00c9p\u00e9e",
+                "order": 119,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Mace",
+                "order": 120,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Mace",
+                "order": 121,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Mace",
+                "order": 122,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Mace",
+                "order": 123,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Mace",
+                "order": 124,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 125,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 126,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 127,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 128,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 129,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Erdtree Seal",
+                "order": 10,
+                "upgrade": null,
+                "equipSet": [
+                    3,
+                    4,
+                    5,
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Ice Crest Shield",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    4,
+                    5,
+                    null,
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "class",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    3,
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 1
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 2
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 3
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 4,
+                "equipSet": [
+                    1,
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 5,
+                "equipSet": [
+                    null,
+                    0
+                ]
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 6,
+                "equipSet": [
+                    2,
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 7
+            },
+            {
+                "name": "Faithful's Canvas Talisman",
+                "order": 8
+            },
+            {
+                "name": "Cerulean Amber Medallion +2",
+                "order": 9
+            },
+            {
+                "name": "Viridian Amber Medallion +2",
+                "order": 10
+            },
+            {
+                "name": "Prosthesis-Wearer Heirloom",
+                "order": 11
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 12
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 13
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 14,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 15
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 16
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 17
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 18
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 19
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Cleanrot Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Confessor Gloves",
+                    "order": 1
+                },
+                {
+                    "name": "Rellana's Gloves",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Oathseeker Knight Gauntlets",
+                    "order": 3,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Cleanrot Armor",
+                    "order": 0,
+                    "equipSet": [
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Leda's Armor",
+                    "order": 1,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Rellana's Armor",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Oathseeker Knight Armor",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Crimson Hood",
+                    "order": 0,
+                    "equipSet": [
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Blue Silver Mail Hood",
+                    "order": 1,
+                    "equipSet": [
+                        1,
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Oathseeker Knight Helm",
+                    "order": 2
+                },
+                {
+                    "name": "Navy Hood",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "poise",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Cleanrot Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Rellana's Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Oathseeker Knight Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

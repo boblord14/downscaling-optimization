@@ -1,0 +1,326 @@
+{
+    "id": "e9a0254636440b",
+    "is2h": false,
+    "name": "Erdsteel Dagger, ps l1 chain.",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Bloodsucking Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 9,
+        "dex": 12,
+        "fth": 68,
+        "int": 9,
+        "mnd": 18,
+        "str": 12,
+        "vig": 60,
+        "vit": 16
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Edit",
+        "protector-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Blessing of the Erdtree",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 110,
+        "poise": {
+            "original": 54
+        },
+        "runes": {
+            "total": 3978214,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "arc": 10,
+            "dex": 17,
+            "fth": 69,
+            "int": 10
+        },
+        "defenses": {
+            "fire": 189,
+            "holy": 149,
+            "magic": 149,
+            "slash": 133,
+            "pierce": 133,
+            "strike": 133,
+            "physical": 133,
+            "lightning": 129
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 18.90988999944461,
+            "holy": 17.45529127314055,
+            "magic": 16.942591218936464,
+            "slash": 36.801217782208006,
+            "pierce": 36.290961640787856,
+            "strike": 34.411857736186946,
+            "physical": 35.57398547020313,
+            "lightning": 16.637443574804458
+        },
+        "maxStamina": 106,
+        "resistances": {
+            "focus": 220,
+            "immunity": 283,
+            "vitality": 235,
+            "robustness": 282
+        },
+        "maxEquipLoad": 57.70588235
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Erdsteel Dagger",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Endure",
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdsteel Dagger",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Spear",
+                "equipIndex": 3
+            },
+            {
+                "name": "Finger Seal",
+                "order": 2,
+                "upgrade": 0,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dagger",
+                "order": 3,
+                "upgrade": 0,
+                "infusion": "Standard",
+                "weaponArt": "Golden Vow"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Erdtree Seal",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Twinblade Talisman",
+                "order": 3
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 4
+            },
+            {
+                "name": "Winged Sword Insignia",
+                "order": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Knight Gauntlets",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Knight Armor",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Circlet of Light",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Knight Helm",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Knight Greaves",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Confessor"
+}

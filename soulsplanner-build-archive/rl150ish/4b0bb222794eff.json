@@ -1,0 +1,275 @@
+{
+    "id": "4b0bb222794eff",
+    "is2h": true,
+    "name": "Great lion",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Spiked Cracked Tear",
+            "Stonebarb Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 13,
+        "fth": 9,
+        "int": 9,
+        "mnd": 16,
+        "str": 77,
+        "vig": 50,
+        "vit": 48
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 100,
+        "poise": {
+            "original": 70
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 16,
+            "str": 80
+        },
+        "defenses": {
+            "fire": 183,
+            "holy": 147,
+            "magic": 151,
+            "slash": 168,
+            "pierce": 168,
+            "strike": 168,
+            "physical": 168,
+            "lightning": 133
+        },
+        "maxHealth": 1704,
+        "absorption": {
+            "fire": 25.829870848000013,
+            "holy": 25.1962687432,
+            "magic": 23.4136765864,
+            "slash": 33.6646693216,
+            "pierce": 32.482680970800004,
+            "strike": 32.16101197020001,
+            "physical": 33.88244884160001,
+            "lightning": 23.33751141160001
+        },
+        "maxStamina": 152,
+        "resistances": {
+            "focus": 186,
+            "immunity": 302,
+            "vitality": 248,
+            "robustness": 332
+        },
+        "maxEquipLoad": 102.24593426
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Giant-Crusher",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Waves of Darkness",
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Jump Attack",
+            "Charge Attack"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Verdigris Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Blackflame Monk Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Night's Cavalry Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Elden Lord Armor",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Blackguard's Iron Mask",
+                    "order": 0
+                },
+                {
+                    "name": "Shadow Militiaman Helm",
+                    "order": 1
+                },
+                {
+                    "name": "Marionette Soldier Helm",
+                    "order": 2
+                },
+                {
+                    "name": "Divine Beast Helm",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Verdigris Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

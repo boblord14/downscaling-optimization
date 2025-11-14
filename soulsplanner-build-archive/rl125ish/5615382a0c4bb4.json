@@ -1,0 +1,384 @@
+{
+    "id": "5615382a0c4bb4",
+    "is2h": false,
+    "name": "Maracas 3.0",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Arcane",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Opaline Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 60,
+        "dex": 15,
+        "fth": 30,
+        "int": 7,
+        "mnd": 22,
+        "str": 20,
+        "vig": 60,
+        "vit": 15
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Catch Flame",
+                "order": 0
+            },
+            {
+                "name": "Dragonmaw",
+                "order": 1
+            },
+            {
+                "name": "Pest-Thread Spears",
+                "order": 2
+            },
+            {
+                "name": "Furious Blade of Ansbach",
+                "order": 3
+            },
+            {
+                "name": "Golden Vow",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 131,
+        "poise": {
+            "original": 43
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 192,
+            "magic": 146,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 132
+        },
+        "maxHealth": 2173.6,
+        "absorption": {
+            "fire": 22.667256382400012,
+            "holy": 19.334258099200007,
+            "magic": 19.88549691600001,
+            "slash": 24.829098056199996,
+            "pierce": 23.321238900399997,
+            "strike": 21.66061436640001,
+            "physical": 25.850334592000017,
+            "lightning": 16.04117908
+        },
+        "maxStamina": 115.5,
+        "resistances": {
+            "focus": 210,
+            "immunity": 272,
+            "vitality": 253,
+            "robustness": 277
+        },
+        "maxEquipLoad": 60.60705882
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Dragon Communion Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Beast Claw",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": null
+            },
+            {
+                "name": "Flowerstone Gavel",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Flamberge",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Spinning Gravity Thrust",
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Bloodfiend's Arm",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Endure"
+            }
+        ],
+        "sorting": {
+            "method": "damage",
+            "direction": "desc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 0,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 1,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 2
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 3,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 4,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Golden Braid",
+                "order": 5
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 6
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 7
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 8
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 9
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 10
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 11
+            },
+            {
+                "name": "Taker's Cameo",
+                "order": 12
+            },
+            {
+                "name": "Crucible Scale Talisman",
+                "order": 13
+            },
+            {
+                "name": "Mottled Necklace +2",
+                "order": 14
+            },
+            {
+                "name": "Pearldrake Talisman +3",
+                "order": 15
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 16
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 17
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Eccentric's Manchettes",
+                    "order": 0
+                },
+                {
+                    "name": "Fire Monk Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Black Knife Gauntlets",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Perfumer Gloves",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Leather Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Fire Knight Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Marais Mask",
+                    "order": 0
+                },
+                {
+                    "name": "Diallos's Mask",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Blaidd's Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Hoslow's Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

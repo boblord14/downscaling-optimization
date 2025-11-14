@@ -1,0 +1,546 @@
+{
+    "id": "38a8ca6e9240d2",
+    "is2h": false,
+    "name": "Link",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 20,
+        "fth": 24,
+        "int": 9,
+        "mnd": 10,
+        "str": 69,
+        "vig": 60,
+        "vit": 30
+    },
+    "views": {
+        "overview": "swappa",
+        "spells-view/left": "Picker",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Blessing's Boon",
+                "order": 0
+            },
+            {
+                "name": "Heal from Afar",
+                "order": 1
+            },
+            {
+                "name": "Golden Lightning Fortification",
+                "order": 2
+            },
+            {
+                "name": "Barrier of Gold",
+                "order": 3
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 42
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 146,
+            "magic": 150,
+            "slash": 164,
+            "pierce": 164,
+            "strike": 164,
+            "physical": 164,
+            "lightning": 132
+        },
+        "maxHealth": 2173.6,
+        "absorption": {
+            "fire": 22.59273513359999,
+            "holy": 21.045440095,
+            "magic": 21.934386009999997,
+            "slash": 21.588352156000003,
+            "pierce": 20.0999044,
+            "strike": 21.302063800000003,
+            "physical": 21.11764528,
+            "lightning": 22.609964292400008
+        },
+        "maxStamina": 143,
+        "resistances": {
+            "focus": 262,
+            "immunity": 337,
+            "vitality": 270,
+            "robustness": 267
+        },
+        "maxEquipLoad": 83.85617083
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Longsword",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Miquellan Knight's Sword",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Claymore",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Lion's Claw"
+            },
+            {
+                "name": "Bone Bow",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Golem Greatbow",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Zamor Curved Sword",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Sword of Light",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Nightrider Glaive",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Fire",
+                "weaponArt": "Black Flame Tornado"
+            },
+            {
+                "name": "Finger Seal",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 9,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Fire",
+                "weaponArt": "Bloodhound's Step",
+                "equipIndex": 1
+            },
+            {
+                "name": "Zweihander",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Devonia's Hammer",
+                "order": 11,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Milady",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Riveted Wooden Shield",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Holy Ground"
+            },
+            {
+                "name": "Erdtree Greatshield",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Giant's Red Braid",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Blasphemous Blade",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Greatsword of Damnation",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Wolf Crest Shield",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Wolf Crest Shield",
+                "order": 19,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Grafted Blade Greatsword",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Grafted Blade Greatsword",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Grafted Blade Greatsword",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Grafted Blade Greatsword",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Grafted Blade Greatsword",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Mottled Necklace +2",
+                "order": 0
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 1
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 2
+            },
+            {
+                "name": "Pearl Shield Talisman",
+                "order": 3
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 4
+            },
+            {
+                "name": "Clarifying Horn Charm +2",
+                "order": 5
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 6,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 7,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 8,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 9,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 10
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 11
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 12
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 13
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 14
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 15
+            },
+            {
+                "name": "Curved Sword Talisman",
+                "order": 16
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 17
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 18
+            },
+            {
+                "name": "Enraged Divine Beast",
+                "order": 19
+            },
+            {
+                "name": "Taker's Cameo",
+                "order": 20
+            },
+            {
+                "name": "Ancestral Spirit's Horn",
+                "order": 21
+            },
+            {
+                "name": "Arrow's Sting Talisman",
+                "order": 22
+            },
+            {
+                "name": "Arrow's Soaring Sting Talisman",
+                "order": 23
+            },
+            {
+                "name": "Arrow's Reach Talisman",
+                "order": 24
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Crucible Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Warrior Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Tree Surcoat",
+                    "order": 0
+                },
+                {
+                    "name": "Drake Knight Armor (Altered)",
+                    "order": 1
+                },
+                {
+                    "name": "Vulgar Militia Armor",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Commoner's Headband (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Crimson Hood",
+                    "order": 1
+                },
+                {
+                    "name": "Old Aristocrat Cowl",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Scaled Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

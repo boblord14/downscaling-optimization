@@ -1,0 +1,1558 @@
+{
+    "id": "48a5932c4e4bff",
+    "is2h": false,
+    "name": "Dark Build (Caster/Melee)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Main Set",
+                "active": true
+            },
+            {
+                "name": "SS"
+            },
+            {
+                "name": "Cool shield"
+            },
+            {
+                "name": "2H"
+            },
+            {
+                "name": "Pure Caster"
+            },
+            {
+                "name": "Set #6"
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Sorcery"
+            },
+            {
+                "name": "main",
+                "active": true
+            },
+            {
+                "name": "+5 Faith"
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Dark Knight"
+            },
+            {
+                "name": "Litch",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Hybrid",
+        "Caster",
+        "Duels",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Omen Bairn",
+                    "order": 0,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Regal Omen Bairn",
+                    "order": 1,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Horned Bairn",
+                    "order": 2,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Wraith Calling Bell",
+                    "order": 3,
+                    "equipIndex": 13
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 12,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 16,
+        "fth": 38,
+        "int": 42,
+        "mnd": 25,
+        "str": 19,
+        "vig": 55,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Miriam's Vanishing",
+                "order": 0
+            },
+            {
+                "name": "Ancient Death Rancor",
+                "order": 1
+            },
+            {
+                "name": "Mass of Putrescence",
+                "order": 2
+            },
+            {
+                "name": "Zamor Ice Storm",
+                "order": 3
+            },
+            {
+                "name": "Explosive Ghostflame",
+                "order": 4
+            },
+            {
+                "name": "Vortex of Putrescence",
+                "order": 5
+            },
+            {
+                "name": "Glintstone Icecrag",
+                "order": 6
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 147,
+        "poise": {
+            "original": 49
+        },
+        "runes": {
+            "total": 7108928,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 150,
+            "magic": 184,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 132
+        },
+        "maxHealth": 2075.216,
+        "absorption": {
+            "fire": 21.56017248640001,
+            "holy": 19.761888332800005,
+            "magic": 20.0349722812,
+            "slash": 25.480908960000004,
+            "pierce": 25.082964591200007,
+            "strike": 22.91291518240001,
+            "physical": 25.820403680000005,
+            "lightning": 23.5675682656
+        },
+        "maxStamina": 133.1,
+        "resistances": {
+            "focus": 243,
+            "immunity": 267,
+            "vitality": 250,
+            "robustness": 272
+        },
+        "maxEquipLoad": 77.76
+    },
+    "greatRune": null,
+    "inventory": {
+        "slots": [
+            {
+                "name": "Gargoyle's Blackblade",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Messmer Soldier's Axe",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Maliketh's Black Blade",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Gravitas"
+            },
+            {
+                "name": "Helphen's Steeple",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    0,
+                    null,
+                    null,
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Morning Star",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Sword of Darkness",
+                "order": 7,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    0,
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Longsword",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Black Steel Twinblade",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Golden Order Seal",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Prince of Death's Staff",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Azur's Glintstone Staff",
+                "order": 13,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Black Steel Twinblade",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Rosus' Axe",
+                "order": 15,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Shield of Night",
+                "order": 16,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Hand Axe",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Hoarfrost Stomp"
+            },
+            {
+                "name": "Iron Cleaver",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Divine Beast Frost Stomp"
+            },
+            {
+                "name": "Black Knife",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Star Fist",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Longsword",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Phantom Slash"
+            },
+            {
+                "name": "Godslayer's Seal",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Hoarfrost Stomp"
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Loretta's Slash"
+            },
+            {
+                "name": "Wolf Crest Shield",
+                "order": 27,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Parry"
+            },
+            {
+                "name": "Messmer Soldier Shield",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Shield Bash"
+            },
+            {
+                "name": "Messmer Soldier's Spear",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Royal Knight's Resolve"
+            },
+            {
+                "name": "Longsword",
+                "order": 30,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Hoarfrost Stomp"
+            },
+            {
+                "name": "Longsword",
+                "order": 31,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 32,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Longsword",
+                "order": 33,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Divine Beast Frost Stomp"
+            },
+            {
+                "name": "Zweihander",
+                "order": 34,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Chainlink Flail",
+                "order": 35,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Weapon"
+            },
+            {
+                "name": "Chainlink Flail",
+                "order": 36,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Weapon"
+            },
+            {
+                "name": "Chainlink Flail",
+                "order": 37,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Weapon"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 38,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Divine Beast Frost Stomp"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 39,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Halberd",
+                "order": 41,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Black Flame Tornado"
+            },
+            {
+                "name": "Halberd",
+                "order": 42,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Phantom Slash"
+            },
+            {
+                "name": "Halberd",
+                "order": 43,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 44,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 45,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Divine Beast Frost Stomp"
+            },
+            {
+                "name": "Messmer Soldier's Axe",
+                "order": 46,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Hoarfrost Stomp"
+            },
+            {
+                "name": "Messmer Soldier's Axe",
+                "order": 47,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Highland Axe",
+                "order": 48,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "War Cry"
+            },
+            {
+                "name": "Iron Cleaver",
+                "order": 49,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Iron Cleaver",
+                "order": 50,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Hoarfrost Stomp"
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 51,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Hoarfrost Stomp"
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 52,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Ice Spear"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 53,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Phantom Slash"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 54,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Black Flame Tornado"
+            },
+            {
+                "name": "Halberd",
+                "order": 55,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Loretta's Slash"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 56,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Loretta's Slash"
+            },
+            {
+                "name": "Halberd",
+                "order": 57,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Charge Forth"
+            },
+            {
+                "name": "Halberd",
+                "order": 58,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Giant Hunt"
+            },
+            {
+                "name": "Mantis Blade",
+                "order": 59,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Longsword",
+                "order": 60,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Gravitas"
+            },
+            {
+                "name": "Longsword",
+                "order": 61,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Longsword",
+                "order": 62,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Raptor of the Mists"
+            },
+            {
+                "name": "Longsword",
+                "order": 63,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Longsword",
+                "order": 64,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 65,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 66,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 67,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Stamp (Sweep)"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 68,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 69,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Giant Hunt"
+            },
+            {
+                "name": "Celebrant's Sickle",
+                "order": 70,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Bloodstained Dagger",
+                "order": 71,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Bloodstained Dagger",
+                "order": 72,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Raptor of the Mists"
+            },
+            {
+                "name": "Bloodstained Dagger",
+                "order": 73,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 74,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 75,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 76,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 77,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 78,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Estoc",
+                "order": 79,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Estoc",
+                "order": 80,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Estoc",
+                "order": 81,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Estoc",
+                "order": 82,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Estoc",
+                "order": 83,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Great \u00c9p\u00e9e",
+                "order": 84,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Great \u00c9p\u00e9e",
+                "order": 85,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Great \u00c9p\u00e9e",
+                "order": 86,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Great \u00c9p\u00e9e",
+                "order": 87,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Great \u00c9p\u00e9e",
+                "order": 88,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Mantis Blade",
+                "order": 89,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Mantis Blade",
+                "order": 90,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Mantis Blade",
+                "order": 91,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Mantis Blade",
+                "order": 92,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Omen Cleaver",
+                "order": 93,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Omen Cleaver",
+                "order": 94,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Omen Cleaver",
+                "order": 95,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Omen Cleaver",
+                "order": 96,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Omen Cleaver",
+                "order": 97,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Black Steel Twinblade",
+                "order": 98,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Black Steel Twinblade",
+                "order": 99,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Black Steel Twinblade",
+                "order": 100,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Morning Star",
+                "order": 101,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Morning Star",
+                "order": 102,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Morning Star",
+                "order": 103,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Morning Star",
+                "order": 104,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Chainlink Flail",
+                "order": 105,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Chainlink Flail",
+                "order": 106,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Hand Axe",
+                "order": 107,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 108,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Iron Cleaver",
+                "order": 109,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Iron Cleaver",
+                "order": 110,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Messmer Soldier's Axe",
+                "order": 111,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "War Cry"
+            },
+            {
+                "name": "Messmer Soldier's Axe",
+                "order": 112,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "War Cry"
+            },
+            {
+                "name": "Messmer Soldier's Spear",
+                "order": 113,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Messmer Soldier's Spear",
+                "order": 114,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Messmer Soldier's Spear",
+                "order": 115,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Messmer Soldier's Spear",
+                "order": 116,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Vulgar Militia Saw",
+                "order": 117,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Glaive",
+                "order": 118,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Vulgar Militia Shotel",
+                "order": 119,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 120,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Celebrant's Skull",
+                "order": 121,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Zweihander",
+                "order": 122,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Gravitas"
+            },
+            {
+                "name": "Zweihander",
+                "order": 123,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Zweihander",
+                "order": 124,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Stamp (Upward Cut)"
+            },
+            {
+                "name": "Zweihander",
+                "order": 125,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Stamp (Upward Cut)"
+            },
+            {
+                "name": "Celebrant's Skull",
+                "order": 126,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Celebrant's Skull",
+                "order": 127,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Celebrant's Skull",
+                "order": 128,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Celebrant's Skull",
+                "order": 129,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Halberd",
+                "order": 130,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Charge Forth"
+            },
+            {
+                "name": "Halberd",
+                "order": 131,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Charge Forth"
+            },
+            {
+                "name": "Halberd",
+                "order": 132,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Charge Forth"
+            },
+            {
+                "name": "Halberd",
+                "order": 133,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Charge Forth"
+            },
+            {
+                "name": "Vulgar Militia Saw",
+                "order": 134,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Vulgar Militia Saw",
+                "order": 135,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Vulgar Militia Saw",
+                "order": 136,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Vulgar Militia Saw",
+                "order": 137,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Glaive",
+                "order": 138,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Glaive",
+                "order": 139,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Glaive",
+                "order": 140,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Glaive",
+                "order": 141,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Vulgar Militia Shotel",
+                "order": 142,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Vulgar Militia Shotel",
+                "order": 143,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Vulgar Militia Shotel",
+                "order": 144,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Vulgar Militia Shotel",
+                "order": 145,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Staff of the Great Beyond",
+                "order": 10,
+                "upgrade": null,
+                "equipSet": [
+                    3,
+                    3,
+                    4,
+                    5,
+                    0,
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Rift Shield",
+                "order": 40,
+                "upgrade": null,
+                "equipSet": [
+                    4,
+                    4,
+                    null,
+                    null,
+                    null,
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Parry",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "class",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    3,
+                    3,
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 1,
+                "equipSet": [
+                    null
+                ]
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 2,
+                "equipSet": [
+                    null
+                ]
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 3,
+                "equipSet": [
+                    null
+                ]
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 4,
+                "equipSet": [
+                    1,
+                    1,
+                    null
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 5
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 6,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Faithful's Canvas Talisman",
+                "order": 7
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 8,
+                "equipSet": [
+                    2,
+                    2,
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Moon of Nokstella",
+                "order": 9
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 10,
+                "equipSet": [
+                    null,
+                    0,
+                    1
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Cerulean Amber Medallion +3",
+                "order": 11
+            },
+            {
+                "name": "Viridian Amber Medallion +3",
+                "order": 12
+            },
+            {
+                "name": "Stargazer Heirloom",
+                "order": 13
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 14,
+                "equipSet": [
+                    null,
+                    null,
+                    0
+                ]
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 15
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 16
+            },
+            {
+                "name": "Carian Filigreed Crest",
+                "order": 17
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets of Night",
+                    "order": 0
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 1
+                },
+                {
+                    "name": "Oathseeker Knight Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Black Knight Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Night's Cavalry Gauntlets",
+                    "order": 4,
+                    "equipSet": [
+                        1,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Night's Cavalry Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ]
+                },
+                {
+                    "name": "Night's Cavalry Armor (Altered)",
+                    "order": 1
+                },
+                {
+                    "name": "Maliketh's Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Armor of Solitude",
+                    "order": 3,
+                    "equipSet": [
+                        null,
+                        null
+                    ]
+                },
+                {
+                    "name": "Death Knight Armor",
+                    "order": 4,
+                    "equipSet": [
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Black Knight Armor",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Black Knight Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Helm of Night",
+                    "order": 1
+                },
+                {
+                    "name": "Helm of Solitude",
+                    "order": 2
+                },
+                {
+                    "name": "Death Knight Helm",
+                    "order": 3,
+                    "equipSet": [
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Night's Cavalry Helm",
+                    "order": 4,
+                    "equipSet": [
+                        1
+                    ]
+                },
+                {
+                    "name": "Fia's Hood",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Black Knight Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Greaves of Night",
+                    "order": 1
+                },
+                {
+                    "name": "Death Knight Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Night's Cavalry Greaves",
+                    "order": 3,
+                    "equipSet": [
+                        1,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 4
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

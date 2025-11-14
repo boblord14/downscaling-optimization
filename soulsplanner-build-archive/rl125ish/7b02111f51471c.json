@@ -1,0 +1,584 @@
+{
+    "id": "7b02111f51471c",
+    "is2h": false,
+    "name": "125 dex",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Duels",
+        "Dexterity"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Drawstring Poison Grease",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Throwing Dagger",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Neutralizing Boluses",
+                    "order": 2,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 3,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Thawfrost Boluses",
+                    "order": 4,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Stimulating Boluses",
+                    "order": 5,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Freezing Pot",
+                    "order": 6,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Sleep Pot",
+                    "order": 7,
+                    "equipIndex": 15
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 49,
+        "fth": 9,
+        "int": 9,
+        "mnd": 10,
+        "str": 24,
+        "vig": 60,
+        "vit": 36
+    },
+    "views": {
+        "overview": "swappa",
+        "home/right": "Summary",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 71
+        },
+        "stats": {
+            "dex": 54
+        },
+        "defenses": {
+            "fire": 188,
+            "holy": 142,
+            "magic": 146,
+            "slash": 136,
+            "pierce": 136,
+            "strike": 136,
+            "physical": 136,
+            "lightning": 128
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 26.9823133882,
+            "holy": 26.3387697782,
+            "magic": 25.595808881600018,
+            "slash": 38.790065101,
+            "pierce": 38.22984162928,
+            "strike": 32.94309074122002,
+            "physical": 36.99319778272,
+            "lightning": 25.266089108800006
+        },
+        "maxStamina": 137,
+        "resistances": {
+            "focus": 240,
+            "immunity": 318,
+            "vitality": 241,
+            "robustness": 362
+        },
+        "maxEquipLoad": 85.43687664
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Frozen Needle",
+                "order": 0,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Estoc",
+                "order": 1,
+                "infusion": "Keen",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 2,
+                "infusion": "Keen",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Lance",
+                "order": 3,
+                "infusion": "Keen",
+                "weaponArt": "Loretta's Slash"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 4,
+                "infusion": "Lightning",
+                "weaponArt": "Thunderbolt"
+            },
+            {
+                "name": "Nagakiba",
+                "order": 5,
+                "infusion": "Keen",
+                "weaponArt": "Unsheathe"
+            },
+            {
+                "name": "Shamshir",
+                "order": 6,
+                "infusion": "Keen",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Guardian's Swordspear",
+                "order": 7,
+                "infusion": "Keen",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Zweihander",
+                "order": 8,
+                "infusion": "Keen",
+                "weaponArt": "Giant Hunt"
+            },
+            {
+                "name": "Dismounter",
+                "order": 9,
+                "infusion": "Keen",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Nagakiba",
+                "order": 10,
+                "infusion": "Keen",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Shamshir",
+                "order": 11,
+                "infusion": "Keen",
+                "weaponArt": "Poison Moth Flight"
+            },
+            {
+                "name": "Guardian's Swordspear",
+                "order": 12,
+                "infusion": "Keen",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Stormhawk Axe",
+                "order": 13,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Stormhawk Axe",
+                "order": 14,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Nagakiba",
+                "order": 15,
+                "infusion": "Keen",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Shamshir",
+                "order": 16,
+                "infusion": "Keen",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Guardian's Swordspear",
+                "order": 17,
+                "infusion": "Keen",
+                "weaponArt": "Loretta's Slash"
+            },
+            {
+                "name": "Stormhawk Axe",
+                "order": 18,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Stormhawk Axe",
+                "order": 19,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Ornamental Straight Sword",
+                "order": 20,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Estoc",
+                "order": 21,
+                "infusion": "Keen",
+                "weaponArt": "Poison Moth Flight"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 22,
+                "infusion": "Keen",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Lance",
+                "order": 23,
+                "infusion": "Keen",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Commander's Standard",
+                "order": 24,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Rogier's Rapier",
+                "order": 25,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Thunderbolt",
+                "equipIndex": 3
+            },
+            {
+                "name": "Wakizashi",
+                "order": 26,
+                "infusion": "Keen",
+                "weaponArt": "Thunderbolt"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 27,
+                "infusion": "Keen",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 28,
+                "infusion": "Keen",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Twinned Knight Swords",
+                "order": 29,
+                "infusion": "Keen",
+                "weaponArt": "Flaming Strike"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 0
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 1
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 2
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 4
+            },
+            {
+                "name": "Stalwart Horn Charm +1",
+                "order": 5
+            },
+            {
+                "name": "Immunizing Horn Charm +1",
+                "order": 6
+            },
+            {
+                "name": "Clarifying Horn Charm +1",
+                "order": 7
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 8
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 9
+            },
+            {
+                "name": "Boltdrake Talisman +2",
+                "order": 10
+            },
+            {
+                "name": "Spelldrake Talisman +2",
+                "order": 11
+            },
+            {
+                "name": "Haligdrake Talisman +2",
+                "order": 12
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 13
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 14
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 15
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 16
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 17,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 18,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 19
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 20,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Viridian Amber Medallion +2",
+                "order": 21
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 22
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 23
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 24
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 25
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 26
+            },
+            {
+                "name": "Hammer Talisman",
+                "order": 27
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 28
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 29
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Banished Knight Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Beast Champion Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Beast Champion Armor (Altered)",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Night Maiden Twin Crown",
+                    "order": 0
+                },
+                {
+                    "name": "Jar",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Duelist Helm",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Scaled Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

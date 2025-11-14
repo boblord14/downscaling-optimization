@@ -1,0 +1,230 @@
+{
+    "id": "39731790b74bd4",
+    "is2h": false,
+    "name": "b\u00fcssibuild",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Dexterity"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Greenburst Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 10,
+        "dex": 45,
+        "fth": 60,
+        "int": 9,
+        "mnd": 28,
+        "str": 17,
+        "vig": 49,
+        "vit": 11
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Stats",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bloodflame Blade",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Black Flame Ritual",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 189,
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "arc": 15,
+            "dex": 55,
+            "fth": 65,
+            "int": 14,
+            "mnd": 33,
+            "str": 27,
+            "vig": 59,
+            "vit": 21
+        },
+        "defenses": {
+            "fire": 195,
+            "holy": 166,
+            "magic": 164,
+            "slash": 145,
+            "pierce": 145,
+            "strike": 145,
+            "physical": 145,
+            "lightning": 136
+        },
+        "maxHealth": 1887,
+        "absorption": {
+            "fire": -14.999999999999991,
+            "holy": -14.999999999999991,
+            "magic": -14.999999999999991,
+            "slash": -14.999999999999991,
+            "pierce": -14.999999999999991,
+            "strike": -14.999999999999991,
+            "physical": -14.999999999999991,
+            "lightning": -14.999999999999991
+        },
+        "maxStamina": 115,
+        "resistances": {
+            "focus": 170,
+            "immunity": 200,
+            "vitality": 176,
+            "robustness": 161
+        },
+        "maxEquipLoad": 65.64705882
+    },
+    "greatRune": "Godrick's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Cross-Naginata",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Keen",
+                "weaponArt": "Phantom Slash",
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Radagon's Soreseal",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

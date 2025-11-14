@@ -1,0 +1,314 @@
+{
+    "id": "2c7fef4323465b",
+    "is2h": false,
+    "name": "Arcane caster",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Hybrid",
+        "PvE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 37,
+        "dex": 19,
+        "fth": 30,
+        "int": 10,
+        "mnd": 36,
+        "str": 20,
+        "vig": 60,
+        "vit": 17
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Catch Flame",
+                "order": 0
+            },
+            {
+                "name": "Agheel's Flame",
+                "order": 1
+            },
+            {
+                "name": "Frenzied Burst",
+                "order": 2
+            },
+            {
+                "name": "Dragonmaw",
+                "order": 3
+            },
+            {
+                "name": "Greyoll's Roar",
+                "order": 4
+            },
+            {
+                "name": "Ekzykes's Decay",
+                "order": 5
+            },
+            {
+                "name": "Golden Vow",
+                "order": 6
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 7
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 8
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 207,
+        "poise": {
+            "original": 56
+        },
+        "runes": {
+            "total": 7112459,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "arc": 45
+        },
+        "defenses": {
+            "fire": 194,
+            "holy": 188,
+            "magic": 154,
+            "slash": 140,
+            "pierce": 140,
+            "strike": 140,
+            "physical": 140,
+            "lightning": 134
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 34.93208142531999,
+            "holy": 35.65406990237501,
+            "magic": 35.2711028125,
+            "slash": 32.98371939729999,
+            "pierce": 30.74066453924499,
+            "strike": 28.942657036624,
+            "physical": 33.98928818308201,
+            "lightning": 33.109827447499995
+        },
+        "maxStamina": 108,
+        "resistances": {
+            "focus": 277,
+            "immunity": 307,
+            "vitality": 291,
+            "robustness": 303
+        },
+        "maxEquipLoad": 70.56
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Bloody Helice",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Jellyfish Shield",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Roar Medallion",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 4
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 5
+            },
+            {
+                "name": "Old Lord's Talisman",
+                "order": 6
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Vagabond Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Crucible Tree Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Silver Tear Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Vagabond Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Wretch"
+}

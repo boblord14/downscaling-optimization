@@ -1,0 +1,842 @@
+{
+    "id": "88927670f14aaf",
+    "name": "Negative skill (pure mage) v5 - Blink mage!",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Optimal pierce for 40.5p #2",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Morgott's Great Rune",
+                    "order": 0
+                },
+                {
+                    "name": "Starlight Shards",
+                    "order": 1
+                },
+                {
+                    "name": "Lulling Branch",
+                    "order": 2
+                },
+                {
+                    "name": "Blessing of Marika",
+                    "order": 3
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 4
+                },
+                {
+                    "name": "Neutralizing Boluses",
+                    "order": 5
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 6
+                },
+                {
+                    "name": "Thawfrost Boluses",
+                    "order": 7
+                },
+                {
+                    "name": "Stimulating Boluses",
+                    "order": 8
+                },
+                {
+                    "name": "Preserving Boluses",
+                    "order": 9
+                },
+                {
+                    "name": "Clarifying Boluses",
+                    "order": 10
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 11
+                },
+                {
+                    "name": "Spellproof Pickled Liver",
+                    "order": 12
+                },
+                {
+                    "name": "Fireproof Pickled Liver",
+                    "order": 13
+                },
+                {
+                    "name": "Lightningproof Pickled Liver",
+                    "order": 14
+                },
+                {
+                    "name": "Holyproof Pickled Liver",
+                    "order": 15
+                },
+                {
+                    "name": "Hefty Rot Pot",
+                    "order": 16
+                },
+                {
+                    "name": "Hefty Fetid Pot",
+                    "order": 17
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Magic-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 9,
+        "dex": 12,
+        "fth": 7,
+        "int": 77,
+        "mnd": 16,
+        "str": 10,
+        "vig": 55,
+        "vit": 18
+    },
+    "views": {
+        "overview": "swappa",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker",
+        "protector-view/left": "Armour Optimiser"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Carian Slicer",
+                "order": 0
+            },
+            {
+                "name": "Swift Glintstone Shard",
+                "order": 1
+            },
+            {
+                "name": "Miriam's Vanishing",
+                "order": 2
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 3
+            },
+            {
+                "name": "Carian Phalanx",
+                "order": 4
+            },
+            {
+                "name": "Gravitational Missile",
+                "order": 5
+            },
+            {
+                "name": "Star Shower",
+                "order": 6
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 100,
+        "poise": {
+            "original": 62
+        },
+        "runes": {
+            "total": 3981350,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "int": 80
+        },
+        "defenses": {
+            "fire": 182,
+            "holy": 145,
+            "magic": 192,
+            "slash": 130,
+            "pierce": 130,
+            "strike": 130,
+            "physical": 130,
+            "lightning": 127
+        },
+        "maxHealth": 2358.2,
+        "absorption": {
+            "fire": 26.599288184500004,
+            "holy": 25.5770197242,
+            "magic": 25.368443564200017,
+            "slash": 30.966415388,
+            "pierce": 30.1298759272,
+            "strike": 27.49641881320001,
+            "physical": 29.67657185799999,
+            "lightning": 24.571249028200015
+        },
+        "maxStamina": 121,
+        "resistances": {
+            "focus": 249,
+            "immunity": 301,
+            "vitality": 258,
+            "robustness": 310
+        },
+        "maxEquipLoad": 65.75294118
+    },
+    "greatRune": "Morgott's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Iron Roundshield",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Iron Roundshield",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Iron Roundshield",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Iron Roundshield",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Iron Roundshield",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 6,
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 7,
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 8,
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 9,
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Carian Glintstone Staff",
+                "order": 10,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lusat's Glintstone Staff",
+                "order": 11,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 13,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Sword Dance",
+                "equipIndex": 0
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 14,
+                "infusion": "Magic",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Azur's Glintstone Staff",
+                "order": 15,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 16,
+                "infusion": "Magic",
+                "weaponArt": "Glintblade Phalanx"
+            },
+            {
+                "name": "Sword of St. Trina",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bone Bow",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Sword of St. Trina",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 0
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 1
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 3
+            },
+            {
+                "name": "Concealing Veil",
+                "order": 4
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 5
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 6
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 7
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 8
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 9
+            },
+            {
+                "name": "Clarifying Horn Charm +2",
+                "order": 10
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 11
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 12
+            },
+            {
+                "name": "Ailment Talisman",
+                "order": 13
+            },
+            {
+                "name": "Arrow's Soaring Sting Talisman",
+                "order": 14
+            },
+            {
+                "name": "Golden Braid",
+                "order": 15
+            },
+            {
+                "name": "Spelldrake Talisman +3",
+                "order": 16
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 17
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 18,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 19
+            },
+            {
+                "name": "Flamedrake Talisman +3",
+                "order": 20
+            },
+            {
+                "name": "Boltdrake Talisman +3",
+                "order": 21
+            },
+            {
+                "name": "Marika's Soreseal",
+                "order": 22
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 23
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 24
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 25,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 26
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 27,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 28,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 29,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 30,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 31,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 32,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 33,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 34,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 35,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 36,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 37,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 38,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 39,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 40
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 41,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 42,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 43,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 44,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 45,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 46,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 47,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 48,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 49,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 50,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 51
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 52
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 53
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 54
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 55
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 56
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 57
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 58
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 59
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 60
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 61
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 62
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 63
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 64
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 65
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 66
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 67
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 68
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 69
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 70
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 71,
+                "equipSet": [
+                    1
+                ]
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 72,
+                "equipSet": [
+                    1
+                ]
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 73,
+                "equipSet": [
+                    1
+                ]
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 74,
+                "equipSet": [
+                    1
+                ]
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fire Monk Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Beast Champion Armor (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Queen's Crescent Crown",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

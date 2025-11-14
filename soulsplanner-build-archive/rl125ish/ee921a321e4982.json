@@ -1,0 +1,553 @@
+{
+    "id": "ee921a321e4982",
+    "is2h": true,
+    "name": "Ornamental Straight Sword",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            },
+            {
+                "name": "Dagger Finisher"
+            },
+            {
+                "name": "Low HP"
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            },
+            {
+                "name": "Midgame"
+            },
+            {
+                "name": "Low HP - Attack"
+            },
+            {
+                "name": "Heaviest LB Legal"
+            },
+            {
+                "name": "Coded Sword + Golden Tempering"
+            },
+            {
+                "name": "Double Ritual"
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default"
+            },
+            {
+                "name": "Optimal physical",
+                "active": true
+            },
+            {
+                "name": "Optimal holy"
+            },
+            {
+                "name": "Optimal immunity"
+            },
+            {
+                "name": "Optimal slash 109p"
+            }
+        ]
+    },
+    "tags": [
+        "Duels",
+        "Dexterity"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Lightning Pot",
+                    "order": 0,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Roped Lightning Pot",
+                    "order": 1,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 2,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Throwing Dagger",
+                    "order": 3,
+                    "equipIndex": 5
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 4,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Neutralizing Boluses",
+                    "order": 5
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 6
+                },
+                {
+                    "name": "Thawfrost Boluses",
+                    "order": 7,
+                    "equipIndex": 6
+                },
+                {
+                    "name": "Stimulating Boluses",
+                    "order": 8
+                },
+                {
+                    "name": "Preserving Boluses",
+                    "order": 9
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 65,
+        "fth": 9,
+        "int": 9,
+        "mnd": 10,
+        "str": 14,
+        "vig": 60,
+        "vit": 30
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/right": "Summary",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker",
+        "weapons-view/right": "Equipment & Summary",
+        "protector-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": []
+    },
+    "greatRune": "Morgott's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Ornamental Straight Sword",
+                "order": 0,
+                "equipSet": [
+                    0,
+                    0,
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 1,
+                "equipSet": [
+                    null,
+                    null,
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Wakizashi",
+                "order": 2,
+                "equipSet": [
+                    null,
+                    3
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Sword Dance"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 0,
+                "equipSet": [
+                    0,
+                    null,
+                    null,
+                    3,
+                    null,
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 1,
+                "equipSet": [
+                    1,
+                    null,
+                    null,
+                    null,
+                    null,
+                    2
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 2,
+                "equipSet": [
+                    2,
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Sacred Scorpion Charm",
+                "order": 3,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    2
+                ]
+            },
+            {
+                "name": "Haligdrake Talisman +2",
+                "order": 4,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    3
+                ]
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 5,
+                "equipSet": [
+                    null,
+                    1,
+                    0,
+                    0,
+                    1
+                ]
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 6,
+                "equipSet": [
+                    null,
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 7,
+                "equipSet": [
+                    null,
+                    3
+                ]
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 8,
+                "equipSet": [
+                    3,
+                    null,
+                    3,
+                    null,
+                    null,
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 9
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 10,
+                "equipSet": [
+                    null,
+                    null,
+                    2,
+                    2
+                ]
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 11,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    1
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 12,
+                "equipSet": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 13,
+                "equipSet": [
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 14,
+                "equipSet": [
+                    null,
+                    null,
+                    null
+                ]
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Banished Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        null,
+                        1,
+                        null,
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Godskin Apostle Bracelets",
+                    "order": 1,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Mushroom Arms",
+                    "order": 2,
+                    "equipSet": [
+                        null,
+                        null,
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Radahn's Lion Armor (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Crucible Tree Armor",
+                    "order": 1,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Mushroom Body",
+                    "order": 2,
+                    "equipSet": [
+                        null,
+                        null,
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Lionel's Armor",
+                    "order": 3,
+                    "equipSet": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        1
+                    ]
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Imp Head (Wolf)",
+                    "order": 0,
+                    "equipSet": [
+                        null,
+                        1,
+                        null,
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Iji's Mirrorhelm",
+                    "order": 1,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Mushroom Crown",
+                    "order": 2,
+                    "equipSet": [
+                        null,
+                        null,
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Imp Head (Wolf)",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Banished Knight Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        null,
+                        1,
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Gold Waistwrap",
+                    "order": 2,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 3,
+                    "equipSet": [
+                        null,
+                        1,
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Omen Greaves",
+                    "order": 4,
+                    "equipSet": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        1
+                    ]
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

@@ -1,0 +1,351 @@
+{
+    "id": "7fc0dea24349af",
+    "is2h": false,
+    "name": "Poison Build",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Boiled Crab",
+                    "order": 0,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Poisonbone Dart",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fan Daggers",
+                    "order": 2,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Drawstring Poison Grease",
+                    "order": 3,
+                    "equipIndex": 3
+                },
+                {
+                    "name": "Poison Grease",
+                    "order": 4,
+                    "equipIndex": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 45,
+        "dex": 45,
+        "fth": 24,
+        "int": 7,
+        "mnd": 9,
+        "str": 19,
+        "vig": 50,
+        "vit": 30
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Lord's Heal",
+                "order": 0
+            },
+            {
+                "name": "Barrier of Gold",
+                "order": 1
+            },
+            {
+                "name": "Poison Armament",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 46
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 182,
+            "holy": 186,
+            "magic": 146,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 132
+        },
+        "maxHealth": 1874.4,
+        "absorption": {
+            "fire": 21.805577065899996,
+            "holy": 21.8375426368,
+            "magic": 21.135813059999997,
+            "slash": 26.47900552960001,
+            "pierce": 24.891021568000006,
+            "strike": 22.11624396640001,
+            "physical": 22.917918496,
+            "lightning": 21.905371108000015
+        },
+        "maxStamina": 130,
+        "resistances": {
+            "focus": 238,
+            "immunity": 361,
+            "vitality": 275,
+            "robustness": 300
+        },
+        "maxEquipLoad": 92.39707712
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Zweihander",
+                "order": 1,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Poisonous Mist",
+                "equipIndex": 0
+            },
+            {
+                "name": "Venomous Fang",
+                "order": 5,
+                "infusion": "Occult",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 6,
+                "infusion": "Keen",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Deadly Poison Perfume Bottle",
+                "order": 7,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Nagakiba",
+                "order": 0,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Poison",
+                "weaponArt": "Poison Moth Flight",
+                "equipIndex": 2
+            },
+            {
+                "name": "Coil Shield",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 3,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Nagakiba",
+                "order": 2,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Poison",
+                "weaponArt": "Unsheathe",
+                "equipIndex": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 1,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 3,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Eccentric's Manchettes",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Land of Reeds Armor (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Kaiden Armor",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Mushroom Crown",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Kaiden Helm",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Blaidd's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

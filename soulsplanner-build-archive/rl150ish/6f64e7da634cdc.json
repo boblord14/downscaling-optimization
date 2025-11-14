@@ -1,0 +1,416 @@
+{
+    "id": "6f64e7da634cdc",
+    "pve": {
+        "revered": 20,
+        "scadutree": 20
+    },
+    "is2h": false,
+    "name": "PvE caster FAI",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Lightning-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 17,
+        "fth": 80,
+        "int": 9,
+        "mnd": 25,
+        "str": 14,
+        "vig": 60,
+        "vit": 17
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Heal from Afar",
+                "order": 0
+            },
+            {
+                "name": "Blessing of the Erdtree",
+                "order": 1
+            },
+            {
+                "name": "Golden Vow",
+                "order": 2
+            },
+            {
+                "name": "Howl of Shabriri",
+                "order": 3
+            },
+            {
+                "name": "Knight's Lightning Spear",
+                "order": 4
+            },
+            {
+                "name": "Ancient Dragons' Lightning Strike",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 155,
+        "poise": {
+            "original": 51
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 146,
+            "magic": 150,
+            "slash": 136,
+            "pierce": 136,
+            "strike": 136,
+            "physical": 136,
+            "lightning": 132
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 30.76628503027916,
+            "holy": 29.7464205725934,
+            "magic": 29.7464205725934,
+            "slash": 24.4243034534118,
+            "pierce": 21.873842219499466,
+            "strike": 20.681159522274196,
+            "physical": 22.32704905159316,
+            "lightning": 29.050352597785945
+        },
+        "maxStamina": 108,
+        "resistances": {
+            "focus": 234,
+            "immunity": 277,
+            "vitality": 241,
+            "robustness": 277
+        },
+        "maxEquipLoad": 59.29411765
+    },
+    "greatRune": null,
+    "inventory": {
+        "slots": [
+            {
+                "name": "Golden Epitaph",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Flowerstone Gavel",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Sword of Light",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Impaling Thrust",
+                "equipIndex": 0
+            },
+            {
+                "name": "Giant's Seal",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Erdtree Seal",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Giant's Seal",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Gravel Stone Seal",
+                "order": 9,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Dagger",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Order",
+                "equipIndex": 3
+            },
+            {
+                "name": "Gravel Stone Seal",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 0
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2
+            },
+            {
+                "name": "Faithful's Canvas Talisman",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Sacred Scorpion Charm",
+                "order": 4
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 5
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 6
+            },
+            {
+                "name": "Lightning Scorpion Charm",
+                "order": 7,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 8,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Golden Braid",
+                "order": 9
+            },
+            {
+                "name": "Pearldrake Talisman +3",
+                "order": 10
+            },
+            {
+                "name": "Spelldrake Talisman +3",
+                "order": 11
+            },
+            {
+                "name": "Flamedrake Talisman +3",
+                "order": 12
+            },
+            {
+                "name": "Boltdrake Talisman +3",
+                "order": 13
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 14
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Unknown #124",
+            "Unknown 34",
+            "Trigger in Presence of Blood Loss",
+            "Apply Kill Effect"
+        ],
+        "crystalTears": true
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Knight Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Knight Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Rakshasa Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Knight Helm",
+                    "order": 1
+                },
+                {
+                    "name": "St. Trina's Blossom",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Knight Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

@@ -1,0 +1,691 @@
+{
+    "id": "b0576cef044ee9",
+    "is2h": true,
+    "name": "Euporia build for Engravings",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 16,
+        "fth": 50,
+        "int": 9,
+        "mnd": 10,
+        "str": 14,
+        "vig": 60,
+        "vit": 38
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 84
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 141,
+            "magic": 145,
+            "slash": 131,
+            "pierce": 131,
+            "strike": 131,
+            "physical": 131,
+            "lightning": 127
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 32.2359121756,
+            "holy": 27.706008951500007,
+            "magic": 26.14913684800001,
+            "slash": 36.2103819676,
+            "pierce": 34.555488010000005,
+            "strike": 30.346797429999995,
+            "physical": 36.417715504,
+            "lightning": 30.92865022432002
+        },
+        "maxStamina": 140,
+        "resistances": {
+            "focus": 253,
+            "immunity": 351,
+            "vitality": 267,
+            "robustness": 383
+        },
+        "maxEquipLoad": 88.14745436
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Euporia",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 1
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 2
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 3
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 4
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 5
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 6
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 7
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 8
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 9
+            },
+            {
+                "name": "Clarifying Horn Charm +2",
+                "order": 10
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 11
+            },
+            {
+                "name": "Boltdrake Talisman +3",
+                "order": 12,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Lacerating Crossed-Tree",
+                "order": 13,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 14
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 15
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 16,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Golden Braid",
+                "order": 17
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 18
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 19
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 20
+            },
+            {
+                "name": "Retaliatory Crossed-Tree",
+                "order": 21
+            },
+            {
+                "name": "Spelldrake Talisman +3",
+                "order": 22
+            },
+            {
+                "name": "Retaliatory Crossed-Tree",
+                "order": 23
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 24
+            },
+            {
+                "name": "Hammer Talisman",
+                "order": 25
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 26
+            },
+            {
+                "name": "Lacerating Crossed-Tree",
+                "order": 27
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 28
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 29,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Tree Sentinel Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 2
+                },
+                {
+                    "name": "Veteran's Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Banished Knight Gauntlets",
+                    "order": 4
+                },
+                {
+                    "name": "Gaius's Gauntlets",
+                    "order": 5
+                },
+                {
+                    "name": "Verdigris Gauntlets",
+                    "order": 6
+                },
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 7
+                },
+                {
+                    "name": "Royal Knight Gauntlets",
+                    "order": 8
+                },
+                {
+                    "name": "Radahn's Gauntlets",
+                    "order": 9
+                },
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 10
+                },
+                {
+                    "name": "Omen Gauntlets",
+                    "order": 11
+                },
+                {
+                    "name": "Malformed Dragon Gauntlets",
+                    "order": 12
+                },
+                {
+                    "name": "Tree Sentinel Gauntlets",
+                    "order": 13
+                },
+                {
+                    "name": "Beast Champion Gauntlets",
+                    "order": 14
+                },
+                {
+                    "name": "Crucible Gauntlets",
+                    "order": 15
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 16
+                },
+                {
+                    "name": "Death Knight Gauntlets",
+                    "order": 17
+                },
+                {
+                    "name": "Young Lion's Gauntlets",
+                    "order": 18
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Bull-Goat Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Armor of Solitude",
+                    "order": 2
+                },
+                {
+                    "name": "Armor of Solitude (Altered)",
+                    "order": 3
+                },
+                {
+                    "name": "Verdigris Armor",
+                    "order": 4
+                },
+                {
+                    "name": "Veteran's Armor",
+                    "order": 5
+                },
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 6
+                },
+                {
+                    "name": "Banished Knight Armor (Altered)",
+                    "order": 7
+                },
+                {
+                    "name": "Gaius's Armor",
+                    "order": 8
+                },
+                {
+                    "name": "Lionel's Armor",
+                    "order": 9
+                },
+                {
+                    "name": "Royal Knight Armor",
+                    "order": 10
+                },
+                {
+                    "name": "Radahn's Lion Armor",
+                    "order": 11
+                },
+                {
+                    "name": "Fire Prelate Armor",
+                    "order": 12
+                },
+                {
+                    "name": "Fire Prelate Armor (Altered)",
+                    "order": 13
+                },
+                {
+                    "name": "Omen Armor",
+                    "order": 14
+                },
+                {
+                    "name": "Crucible Tree Armor",
+                    "order": 15
+                },
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 16
+                },
+                {
+                    "name": "Beast Champion Armor (Altered)",
+                    "order": 17
+                },
+                {
+                    "name": "Gravebird's Blackquill Armor",
+                    "order": 18
+                },
+                {
+                    "name": "Death Knight Armor",
+                    "order": 19
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Bull-Goat Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Helm of Solitude",
+                    "order": 1
+                },
+                {
+                    "name": "Crucible Hammer-Helm",
+                    "order": 2
+                },
+                {
+                    "name": "Veteran's Helm",
+                    "order": 3
+                },
+                {
+                    "name": "Octopus Head",
+                    "order": 4
+                },
+                {
+                    "name": "Greatjar",
+                    "order": 5,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Gaius's Helm",
+                    "order": 6
+                },
+                {
+                    "name": "Verdigris Helm",
+                    "order": 7
+                },
+                {
+                    "name": "Jar",
+                    "order": 8
+                },
+                {
+                    "name": "Banished Knight Helm",
+                    "order": 9
+                },
+                {
+                    "name": "Prisoner Iron Mask",
+                    "order": 10
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 11
+                },
+                {
+                    "name": "Lionel's Helm",
+                    "order": 12
+                },
+                {
+                    "name": "Nox Mirrorhelm",
+                    "order": 13
+                },
+                {
+                    "name": "Fire Prelate Helm",
+                    "order": 14
+                },
+                {
+                    "name": "Imp Head (Wolf)",
+                    "order": 15
+                },
+                {
+                    "name": "Omen Helm",
+                    "order": 16
+                },
+                {
+                    "name": "Iji's Mirrorhelm",
+                    "order": 17
+                },
+                {
+                    "name": "Imp Head (Fanged)",
+                    "order": 18
+                },
+                {
+                    "name": "Mushroom Crown",
+                    "order": 19
+                },
+                {
+                    "name": "Imp Head (Corpse)",
+                    "order": 20
+                },
+                {
+                    "name": "Crucible Axe Helm",
+                    "order": 21
+                },
+                {
+                    "name": "Divine Beast Head",
+                    "order": 22
+                },
+                {
+                    "name": "Divine Beast Helm",
+                    "order": 23
+                },
+                {
+                    "name": "Divine Bird Helm",
+                    "order": 24
+                },
+                {
+                    "name": "Wise Man's Mask",
+                    "order": 25
+                },
+                {
+                    "name": "Horned Warrior Helm",
+                    "order": 26
+                },
+                {
+                    "name": "Death Knight Helm",
+                    "order": 27
+                },
+                {
+                    "name": "Winged Serpent Helm",
+                    "order": 28
+                },
+                {
+                    "name": "Gravebird Helm",
+                    "order": 29
+                },
+                {
+                    "name": "Fire Knight Helm",
+                    "order": 30
+                },
+                {
+                    "name": "Messmer's Helm",
+                    "order": 31
+                },
+                {
+                    "name": "Pelt of Ralva",
+                    "order": 32
+                },
+                {
+                    "name": "Curseblade Mask",
+                    "order": 33
+                },
+                {
+                    "name": "St. Trina's Blossom",
+                    "order": 34
+                },
+                {
+                    "name": "Witch's Glintstone Crown",
+                    "order": 35
+                },
+                {
+                    "name": "Queen's Crescent Crown",
+                    "order": 36
+                },
+                {
+                    "name": "Envoy Crown",
+                    "order": 37
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 2
+                },
+                {
+                    "name": "Veteran's Greaves",
+                    "order": 3
+                },
+                {
+                    "name": "Banished Knight Greaves",
+                    "order": 4
+                },
+                {
+                    "name": "Verdigris Greaves",
+                    "order": 5
+                },
+                {
+                    "name": "Lionel's Greaves",
+                    "order": 6
+                },
+                {
+                    "name": "Royal Knight Greaves",
+                    "order": 7
+                },
+                {
+                    "name": "Radahn's Greaves",
+                    "order": 8
+                },
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 9
+                },
+                {
+                    "name": "Omen Greaves",
+                    "order": 10
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 11
+                },
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 12
+                },
+                {
+                    "name": "Gaius's Greaves",
+                    "order": 13
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

@@ -1,0 +1,286 @@
+{
+    "id": "93e907440149a0",
+    "is2h": false,
+    "name": "Heartless Tristan",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Arcane",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Thorny Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 80,
+        "dex": 14,
+        "fth": 8,
+        "int": 10,
+        "mnd": 12,
+        "str": 10,
+        "vig": 60,
+        "vit": 10
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Edit"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 85,
+        "poise": {
+            "original": 29
+        },
+        "runes": {
+            "total": 3982090,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 192,
+            "magic": 147,
+            "slash": 130,
+            "pierce": 130,
+            "strike": 130,
+            "physical": 130,
+            "lightning": 127
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 19.496714183200005,
+            "holy": 18.10649117500001,
+            "magic": 19.246703978800006,
+            "slash": 18.10649117500001,
+            "pierce": 18.10649117500001,
+            "strike": 16.954312384000005,
+            "physical": 15.440665600000004,
+            "lightning": 20.78848265680001
+        },
+        "maxStamina": 96,
+        "resistances": {
+            "focus": 275,
+            "immunity": 325,
+            "vitality": 322,
+            "robustness": 226
+        },
+        "maxEquipLoad": 48.17647059
+    },
+    "greatRune": "Mohg's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Bloodstained Dagger",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Blood Blade"
+            },
+            {
+                "name": "Scavenger's Curved Sword",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Bloody Slash",
+                "equipIndex": 0
+            },
+            {
+                "name": "Great Knife",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Blood Tax",
+                "equipIndex": 1
+            },
+            {
+                "name": "Messmer Soldier Shield",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Scavenger's Curved Sword",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Seppuku",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Taker's Cameo",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Bandit Manchettes",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Bandit Garb",
+                    "order": 0
+                },
+                {
+                    "name": "Raptor's Black Feathers",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Bandit Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Bandit Boots",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Bandit"
+}

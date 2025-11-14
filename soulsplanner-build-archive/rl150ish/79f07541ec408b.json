@@ -1,0 +1,319 @@
+{
+    "id": "79f07541ec408b",
+    "is2h": false,
+    "name": "Thorns",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Hybrid",
+        "Caster"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Intelligence-knot Crystal Tear",
+            "Spiked Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 25,
+        "dex": 20,
+        "fth": 39,
+        "int": 40,
+        "mnd": 20,
+        "str": 24,
+        "vig": 40,
+        "vit": 20
+    },
+    "views": {
+        "overview": "build-planner",
+        "spells-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Briars of Punishment",
+                "order": 0
+            },
+            {
+                "name": "Briars of Sin",
+                "order": 1
+            },
+            {
+                "name": "Carian Slicer",
+                "order": 2
+            },
+            {
+                "name": "Dragonclaw",
+                "order": 3
+            },
+            {
+                "name": "Ekzykes's Decay",
+                "order": 4
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 5
+            },
+            {
+                "name": "Adula's Moonblade",
+                "order": 6
+            },
+            {
+                "name": "Ancient Death Rancor",
+                "order": 7
+            },
+            {
+                "name": "Triple Rings of Light",
+                "order": 8
+            },
+            {
+                "name": "Radagon's Rings of Light",
+                "order": 9
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "original": 30
+        },
+        "runes": {
+            "total": 7105792,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 172,
+            "holy": 175,
+            "magic": 184,
+            "slash": 140,
+            "pierce": 140,
+            "strike": 140,
+            "physical": 140,
+            "lightning": 132
+        },
+        "maxHealth": 1450,
+        "absorption": {
+            "fire": 24.6859228698,
+            "holy": 25.673801996800005,
+            "magic": 25.673801996800005,
+            "slash": 22.04575969186,
+            "pierce": 21.60977400781001,
+            "strike": 18.8016097204,
+            "physical": 22.220153965480005,
+            "lightning": 24.69327662080001
+        },
+        "maxStamina": 113,
+        "resistances": {
+            "focus": 300,
+            "immunity": 290,
+            "vitality": 327,
+            "robustness": 258
+        },
+        "maxEquipLoad": 64.05882353
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Marais Executioner's Sword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Sword of Night and Flame",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Staff of the Guilty",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Golden Order Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Alberich's Bracers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Alberich's Robe",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Alberich's Pointed Hat",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Alberich's Trousers",
+                    "order": 0
+                },
+                {
+                    "name": "Radahn's Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Confessor"
+}

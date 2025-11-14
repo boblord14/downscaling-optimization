@@ -1,0 +1,344 @@
+{
+    "id": "674349b3b14563",
+    "is2h": false,
+    "name": "Gure, consort of Ranni",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "PvE",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Malenia's Great Rune",
+                    "order": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Magic-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 139,
+        "arc": 9,
+        "dex": 30,
+        "fth": 7,
+        "int": 70,
+        "mnd": 20,
+        "str": 12,
+        "vig": 45,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Ranni's Dark Moon",
+                "order": 0
+            },
+            {
+                "name": "Adula's Moonblade",
+                "order": 1
+            },
+            {
+                "name": "Zamor Ice Storm",
+                "order": 2
+            },
+            {
+                "name": "Night Comet",
+                "order": 3
+            },
+            {
+                "name": "Eternal Darkness",
+                "order": 4
+            },
+            {
+                "name": "Rock Sling",
+                "order": 5
+            },
+            {
+                "name": "Collapsing Stars",
+                "order": 6
+            },
+            {
+                "name": "Meteorite of Astel",
+                "order": 7
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "original": 54
+        },
+        "runes": {
+            "total": 5570653,
+            "toNextLevel": 130894
+        },
+        "defenses": {
+            "fire": 175,
+            "holy": 148,
+            "magic": 192,
+            "slash": 134,
+            "pierce": 134,
+            "strike": 134,
+            "physical": 134,
+            "lightning": 130
+        },
+        "maxHealth": 1581,
+        "absorption": {
+            "fire": 25.1804832544,
+            "holy": 23.93945632720001,
+            "magic": 23.18253479200001,
+            "slash": 29.864697359519997,
+            "pierce": 30.392851829440005,
+            "strike": 27.30918409372001,
+            "physical": 29.64977814816,
+            "lightning": 21.81194855920001
+        },
+        "maxStamina": 121,
+        "resistances": {
+            "focus": 233,
+            "immunity": 276,
+            "vitality": 242,
+            "robustness": 303
+        },
+        "maxEquipLoad": 72
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Sword of Night",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Wing of Astel",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Milady",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Carian Sovereignty",
+                "equipIndex": 0
+            },
+            {
+                "name": "Dagger",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Golden Vow",
+                "equipIndex": 1
+            },
+            {
+                "name": "Carian Regal Scepter",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Affects Sorceries",
+            "Charged Skill Attack",
+            "Charged Attack",
+            "Successive 9 Hits",
+            "Full Moon Spell"
+        ],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Maliketh's Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Blaidd's Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Armor of Night",
+                    "order": 0
+                },
+                {
+                    "name": "Blaidd's Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "St. Trina's Blossom",
+                    "order": 0
+                },
+                {
+                    "name": "Snow Witch Hat",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Greaves of Night",
+                    "order": 0
+                },
+                {
+                    "name": "Blaidd's Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

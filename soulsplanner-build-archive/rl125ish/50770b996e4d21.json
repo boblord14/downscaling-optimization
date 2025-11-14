@@ -1,0 +1,450 @@
+{
+    "id": "50770b996e4d21",
+    "is2h": false,
+    "name": "int halstoc wip",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 24,
+        "fth": 9,
+        "int": 50,
+        "mnd": 10,
+        "str": 14,
+        "vig": 60,
+        "vit": 30
+    },
+    "views": {
+        "overview": "swappa",
+        "spells-view/left": "Calculate"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Carian Slicer",
+                "order": 0
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 1
+            },
+            {
+                "name": "Carian Greatsword",
+                "order": 2
+            },
+            {
+                "name": "Gavel of Haima",
+                "order": 3
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "altered": 89.33333311,
+            "original": 67
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "dex": 34
+        },
+        "defenses": {
+            "fire": 189,
+            "holy": 143,
+            "magic": 185,
+            "slash": 133,
+            "pierce": 133,
+            "strike": 133,
+            "physical": 133,
+            "lightning": 129
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 27.003163122999997,
+            "holy": 26.341327595800013,
+            "magic": 25.3755624214,
+            "slash": 31.69047793250001,
+            "pierce": 31.388614163600003,
+            "strike": 26.907434555200005,
+            "physical": 29.96389945,
+            "lightning": 24.961102368400013
+        },
+        "maxStamina": 130,
+        "resistances": {
+            "focus": 160,
+            "immunity": 316,
+            "vitality": 263,
+            "robustness": 318
+        },
+        "maxEquipLoad": 77.64460262
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Wakizashi",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Glintblade Phalanx"
+            },
+            {
+                "name": "Wakizashi",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Carian Knight's Sword",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Carian Knight's Sword",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Loretta's Slash",
+                "equipIndex": 0
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Dark Moon Greatsword",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Shamshir",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Shamshir",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Moonveil",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Hand Axe",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Rogier's Rapier",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Carian Sorcery Sword",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Beast Champion Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Ronin's Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Carian Knight Gauntlets",
+                    "order": 4
+                },
+                {
+                    "name": "Blue Silver Bracelets",
+                    "order": 5
+                },
+                {
+                    "name": "Spellblade's Gloves",
+                    "order": 6
+                },
+                {
+                    "name": "Night's Cavalry Gauntlets",
+                    "order": 7
+                },
+                {
+                    "name": "Royal Knight Gauntlets",
+                    "order": 8
+                },
+                {
+                    "name": "Cleanrot Gauntlets",
+                    "order": 9
+                },
+                {
+                    "name": "Night's Cavalry Gauntlets",
+                    "order": 10,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Beast Champion Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Beast Champion Armor (Altered)",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Imp Head (Cat)",
+                    "order": 0
+                },
+                {
+                    "name": "Hierodas Glintstone Crown",
+                    "order": 1
+                },
+                {
+                    "name": "Divine Beast Helm",
+                    "order": 2
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 3
+                },
+                {
+                    "name": "Curseblade Mask",
+                    "order": 4,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Royal Knight Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 2
+                },
+                {
+                    "name": "Lionel's Greaves",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

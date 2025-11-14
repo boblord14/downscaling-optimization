@@ -1,0 +1,316 @@
+{
+    "id": "1b295cec114ffd",
+    "is2h": true,
+    "name": "Cinder Carmine, Fire Knight",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "Faith",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Faith-knot Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 10,
+        "dex": 18,
+        "fth": 65,
+        "int": 7,
+        "mnd": 24,
+        "str": 15,
+        "vig": 60,
+        "vit": 30
+    },
+    "views": {
+        "overview": "swappa",
+        "home/right": "Summary"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame Sling",
+                "order": 0
+            },
+            {
+                "name": "Flame, Fall Upon Them",
+                "order": 1
+            },
+            {
+                "name": "Giantsflame Take Thee",
+                "order": 2
+            },
+            {
+                "name": "Burn, O Flame!",
+                "order": 3
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 4
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 5
+            },
+            {
+                "name": "Black Flame's Protection",
+                "order": 6
+            },
+            {
+                "name": "Golden Vow",
+                "order": 7
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 142,
+        "poise": {
+            "original": 64
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "fth": 75
+        },
+        "defenses": {
+            "fire": 194,
+            "holy": 154,
+            "magic": 148,
+            "slash": 139,
+            "pierce": 139,
+            "strike": 139,
+            "physical": 139,
+            "lightning": 134
+        },
+        "maxHealth": 1976,
+        "absorption": {
+            "fire": 25.795696816000003,
+            "holy": 24.20660406160001,
+            "magic": 24.374361339999993,
+            "slash": 25.48165408934401,
+            "pierce": 24.086933056000028,
+            "strike": 20.004290272000024,
+            "physical": 25.334247360928018,
+            "lightning": 22.820635864000018
+        },
+        "maxStamina": 143,
+        "resistances": {
+            "focus": 231,
+            "immunity": 310,
+            "vitality": 246,
+            "robustness": 324
+        },
+        "maxEquipLoad": 83.85617083
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Fire Knight's Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Skewer",
+                "equipIndex": 0
+            },
+            {
+                "name": "Queelign's Greatsword",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Spear"
+            },
+            {
+                "name": "Giant's Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Blaidd's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Raging Wolf Armor (Altered)",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Winged Serpent Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Blaidd's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

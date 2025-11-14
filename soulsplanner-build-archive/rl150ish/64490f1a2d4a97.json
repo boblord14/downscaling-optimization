@@ -1,0 +1,356 @@
+{
+    "id": "64490f1a2d4a97",
+    "is2h": false,
+    "name": "Godskin hunter",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Flame-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 10,
+        "dex": 42,
+        "fth": 25,
+        "int": 14,
+        "mnd": 20,
+        "str": 18,
+        "vig": 60,
+        "vit": 40
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            },
+            {
+                "name": "Bloodflame Blade",
+                "order": 2
+            },
+            {
+                "name": "Catch Flame",
+                "order": 3
+            },
+            {
+                "name": "Flame Sling",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "original": 28
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 152,
+            "magic": 160,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 132
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 21.89822680000001,
+            "holy": 22.1047396336,
+            "magic": 21.746980091200008,
+            "slash": 3.5682334540000027,
+            "pierce": 2.1291908716000063,
+            "strike": 3.3887391517000154,
+            "physical": 1.9567241972200056,
+            "lightning": 22.7712612448
+        },
+        "maxStamina": 142,
+        "resistances": {
+            "focus": 280,
+            "immunity": 313,
+            "vitality": 291,
+            "robustness": 260
+        },
+        "maxEquipLoad": 90.90021588
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Godskin Stitcher",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Repeating Thrust"
+            },
+            {
+                "name": "Godskin Peeler",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Keen",
+                "weaponArt": "Aspects of the Crucible: Wings",
+                "equipIndex": 0
+            },
+            {
+                "name": "Godskin Peeler",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist",
+                "equipIndex": 3
+            },
+            {
+                "name": "Finger Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 3
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 4
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 5,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Cleanrot Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Crucible Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Ansbach's Manchettes",
+                    "order": 2
+                },
+                {
+                    "name": "Blaidd's Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Sorcerer Manchettes",
+                    "order": 4
+                },
+                {
+                    "name": "Dancer's Bracer",
+                    "order": 5,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Radahn's Lion Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Raptor's Black Feathers",
+                    "order": 1
+                },
+                {
+                    "name": "Gravebird's Blackquill Armor",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Haligtree Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Divine Bird Helm",
+                    "order": 1
+                },
+                {
+                    "name": "Crucible Hammer-Helm",
+                    "order": 2
+                },
+                {
+                    "name": "Gravebird Helm",
+                    "order": 3
+                },
+                {
+                    "name": "Sacred Crown Helm",
+                    "order": 4
+                },
+                {
+                    "name": "Prophet Blindfold",
+                    "order": 5
+                },
+                {
+                    "name": "Commoner's Headband (Altered)",
+                    "order": 6,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Malformed Dragon Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Blaidd's Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Messmer's Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prisoner"
+}

@@ -1,0 +1,485 @@
+{
+    "id": "35b69b34144809",
+    "is2h": false,
+    "name": "Full caster - int/fth - Mage",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Hybrid",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "tools": {
+            "slots": [
+                {
+                    "name": "Rune Arc",
+                    "order": 0,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Radahn's Great Rune",
+                    "order": 1
+                },
+                {
+                    "name": "Morgott's Great Rune",
+                    "order": 2
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 3,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 4,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 5,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Gold-Pickled Fowl Foot",
+                    "order": 6
+                },
+                {
+                    "name": "Lantern",
+                    "order": 7,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Warming Stone",
+                    "order": 8
+                },
+                {
+                    "name": "Godrick's Great Rune",
+                    "order": 9
+                },
+                {
+                    "name": "Uplifting Aromatic",
+                    "order": 10
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 11
+                },
+                {
+                    "name": "Starlight Shards",
+                    "order": 12
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Cerulean Hidden Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 13,
+        "fth": 67,
+        "int": 63,
+        "mnd": 26,
+        "str": 14,
+        "vig": 25,
+        "vit": 12
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Blessing of the Erdtree",
+                "order": 0
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 179,
+        "poise": {
+            "original": 11
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "arc": 14,
+            "dex": 18,
+            "fth": 72,
+            "int": 68,
+            "mnd": 31,
+            "str": 19,
+            "vig": 30,
+            "vit": 17
+        },
+        "defenses": {
+            "fire": 156,
+            "holy": 164,
+            "magic": 198,
+            "slash": 142,
+            "pierce": 142,
+            "strike": 142,
+            "physical": 142,
+            "lightning": 136
+        },
+        "maxHealth": 994,
+        "absorption": {
+            "fire": 22.296798820000006,
+            "holy": 24.47224539520002,
+            "magic": 24.381534683200012,
+            "slash": 9.290935582000005,
+            "pierce": 7.0580146204000105,
+            "strike": 6.750533809000004,
+            "physical": 7.712535644200003,
+            "lightning": 23.133415595499997
+        },
+        "maxStamina": 108,
+        "resistances": {
+            "focus": 303,
+            "immunity": 243,
+            "vitality": 321,
+            "robustness": 208
+        },
+        "maxEquipLoad": 59.29411765
+    },
+    "greatRune": "Godrick's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Prince of Death's Staff",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree Seal",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Erdsteel Dagger",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Erdsteel Dagger",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Gelmir Glintstone Staff",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Scepter of the All-Knowing",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dagger",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Golden Vow"
+            },
+            {
+                "name": "Staff of the Great Beyond",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Rellana's Twin Blades",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dryleaf Arts",
+                "order": 11,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Golden Vow",
+                "equipIndex": 1
+            },
+            {
+                "name": "Golden Order Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 3
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 5,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 6
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gold Bracelets",
+                    "order": 0
+                },
+                {
+                    "name": "Lusat's Manchettes",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Sorcerer Manchettes",
+                    "order": 2
+                },
+                {
+                    "name": "Alberich's Bracers",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Astrologer Robe (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Raya Lucarian Robe",
+                    "order": 1
+                },
+                {
+                    "name": "Preceptor's Long Gown",
+                    "order": 2
+                },
+                {
+                    "name": "Preceptor's Long Gown (Altered)",
+                    "order": 3
+                },
+                {
+                    "name": "Errant Sorcerer Robe (Altered)",
+                    "order": 4
+                },
+                {
+                    "name": "High Page Clothes (Altered)",
+                    "order": 5
+                },
+                {
+                    "name": "Alberich's Robe (Altered)",
+                    "order": 6,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Commoner's Headband (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Aristocrat Headband",
+                    "order": 1
+                },
+                {
+                    "name": "Spellblade's Pointed Hat",
+                    "order": 2
+                },
+                {
+                    "name": "Alberich's Pointed Hat",
+                    "order": 3
+                },
+                {
+                    "name": "Preceptor's Big Hat",
+                    "order": 4
+                },
+                {
+                    "name": "Lusat's Glintstone Crown",
+                    "order": 5
+                },
+                {
+                    "name": "Azur's Glintstone Crown",
+                    "order": 6
+                },
+                {
+                    "name": "Greathood",
+                    "order": 7
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Prisoner Trousers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Cloth Trousers",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

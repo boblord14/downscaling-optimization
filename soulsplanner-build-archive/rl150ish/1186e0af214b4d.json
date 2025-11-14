@@ -1,0 +1,243 @@
+{
+    "id": "1186e0af214b4d",
+    "is2h": true,
+    "name": "bow build",
+    "tags": [
+        "PvE",
+        "Quality",
+        "Caster"
+    ],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Radahn's Great Rune",
+                    "order": 0
+                },
+                {
+                    "name": "Finger Severer",
+                    "order": 1,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 2,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Furlcalling Finger Remedy",
+                    "order": 3,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Tarnished's Furled Finger",
+                    "order": 4,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Small Golden Effigy",
+                    "order": 5,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Rune Arc",
+                    "order": 6,
+                    "equipIndex": 14
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Greenburst Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 160,
+        "arc": 9,
+        "dex": 45,
+        "fth": 25,
+        "int": 16,
+        "mnd": 18,
+        "str": 45,
+        "vig": 60,
+        "vit": 10
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Stats",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Great Heal",
+                "order": 2
+            },
+            {
+                "name": "Blessing's Boon",
+                "order": 3
+            }
+        ]
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Black Bow",
+                "order": 0,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Red Branch Shortbow",
+                "order": 1,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows",
+                "equipIndex": 1
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 2,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Spear Talisman",
+                "order": 0,
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipIndex": 1
+            },
+            {
+                "name": "Arrow's Sting Talisman",
+                "order": 2,
+                "equipIndex": 2
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 3
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 4
+            },
+            {
+                "name": "Prosthesis-Wearer Heirloom",
+                "order": 5
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 6,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Bandit Manchettes",
+                    "order": 0
+                },
+                {
+                    "name": "Battlemage Manchettes",
+                    "order": 1,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Raptor's Black Feathers",
+                    "order": 0
+                },
+                {
+                    "name": "Fingerprint Armor (Altered)",
+                    "order": 1,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Skeletal Mask",
+                    "order": 0
+                },
+                {
+                    "name": "Commoner's Headband (Altered)",
+                    "order": 1,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Bandit Boots",
+                    "order": 0
+                },
+                {
+                    "name": "Godskin Noble Trousers",
+                    "order": 1,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

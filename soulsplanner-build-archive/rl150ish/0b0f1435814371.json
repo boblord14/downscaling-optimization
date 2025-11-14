@@ -1,0 +1,335 @@
+{
+    "id": "0b0f1435814371",
+    "is2h": false,
+    "name": "Dex faith godslayer build",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Dexterity"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Godrick's Great Rune",
+                    "order": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Dexterity-knot Crystal Tear",
+            "Flame-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 11,
+        "dex": 55,
+        "fth": 30,
+        "int": 7,
+        "mnd": 21,
+        "str": 20,
+        "vig": 50,
+        "vit": 35
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Black Flame",
+                "order": 2
+            },
+            {
+                "name": "Scouring Black Flame",
+                "order": 3
+            },
+            {
+                "name": "Gurranq's Beast Claw",
+                "order": 4
+            },
+            {
+                "name": "Magma Breath",
+                "order": 5
+            },
+            {
+                "name": "Black Flame Ritual",
+                "order": 6
+            },
+            {
+                "name": "Ancient Dragons' Lightning Strike",
+                "order": 7
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 126,
+        "poise": {
+            "original": 60
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 182,
+            "holy": 154,
+            "magic": 146,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 132
+        },
+        "maxHealth": 1704,
+        "absorption": {
+            "fire": 25.102056088,
+            "holy": 23.62054419440002,
+            "magic": 22.699406079999996,
+            "slash": 17.78774588608001,
+            "pierce": 19.24248075760001,
+            "strike": 14.252895940239997,
+            "physical": 17.78774588608001,
+            "lightning": 20.99236730720001
+        },
+        "maxStamina": 136,
+        "resistances": {
+            "focus": 216,
+            "immunity": 282,
+            "vitality": 227,
+            "robustness": 340
+        },
+        "maxEquipLoad": 100.07837024
+    },
+    "greatRune": null,
+    "inventory": {
+        "slots": [
+            {
+                "name": "Godslayer's Greatsword",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Zweihander",
+                "order": 1,
+                "infusion": "Standard",
+                "weaponArt": "Stamp (Upward Cut)"
+            },
+            {
+                "name": "Zweihander",
+                "order": 2,
+                "infusion": "Keen",
+                "weaponArt": "Stamp (Upward Cut)"
+            },
+            {
+                "name": "Zweihander",
+                "order": 4,
+                "infusion": "Quality",
+                "weaponArt": "Determination"
+            },
+            {
+                "name": "Zweihander",
+                "order": 5,
+                "infusion": "Quality",
+                "weaponArt": "Determination"
+            },
+            {
+                "name": "Zweihander",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Keen",
+                "weaponArt": "Determination",
+                "equipIndex": 3
+            },
+            {
+                "name": "Godslayer's Seal",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 7,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Carian Filigreed Crest",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Charged Skill Attack",
+            "Skill Attack"
+        ],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Blaidd's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Blaidd's Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Black Wolf Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Blaidd's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

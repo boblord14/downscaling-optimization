@@ -1,0 +1,416 @@
+{
+    "id": "0e8fe0e5524a34",
+    "is2h": false,
+    "name": "int",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "PvE",
+        "Hardswaps",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Magic-Shrouding Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 22,
+        "fth": 6,
+        "int": 75,
+        "mnd": 18,
+        "str": 19,
+        "vig": 55,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Magic Glintblade",
+                "order": 0
+            },
+            {
+                "name": "Carian Greatsword",
+                "order": 1
+            },
+            {
+                "name": "Gavel of Haima",
+                "order": 2
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 3
+            },
+            {
+                "name": "Shard Spiral",
+                "order": 4
+            },
+            {
+                "name": "Ranni's Dark Moon",
+                "order": 5
+            },
+            {
+                "name": "Loretta's Greatbow",
+                "order": 6
+            },
+            {
+                "name": "Carian Phalanx",
+                "order": 7
+            },
+            {
+                "name": "Terra Magica",
+                "order": 8
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 110,
+        "poise": {
+            "original": 67
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 150,
+            "magic": 195,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 132
+        },
+        "maxHealth": 1886.56,
+        "absorption": {
+            "fire": 26.5300859944,
+            "holy": 26.037804953,
+            "magic": 25.447280704000008,
+            "slash": 27.322684373920005,
+            "pierce": 26.57124845704,
+            "strike": 23.04443695564,
+            "physical": 25.281227806000008,
+            "lightning": 24.412722572800007
+        },
+        "maxStamina": 133.1,
+        "resistances": {
+            "focus": 247,
+            "immunity": 316,
+            "vitality": 250,
+            "robustness": 352
+        },
+        "maxEquipLoad": 92.5344
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Great Katana",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Carian Sovereignty",
+                "equipIndex": 0
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Dark Moon Greatsword",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Wing of Astel",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bastard's Stars",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Zweihander",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Omen Cleaver",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Carian Thrusting Shield",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Giant Hunt"
+            },
+            {
+                "name": "Glintstone Kris",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Ice Spear"
+            },
+            {
+                "name": "Scythe",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Loretta's Slash"
+            },
+            {
+                "name": "Glaive",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Milady",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 14,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Raptor of the Mists",
+                "equipIndex": 1
+            },
+            {
+                "name": "Carian Regal Scepter",
+                "order": 15,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Beast Champion Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Hoslow's Gauntlets",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Beast Champion Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Royal Knight Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Carian Knight Helm",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prisoner"
+}

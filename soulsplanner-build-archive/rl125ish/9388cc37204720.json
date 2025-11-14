@@ -1,0 +1,280 @@
+{
+    "id": "9388cc37204720",
+    "is2h": false,
+    "name": "gravity sorcerer",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Greenburst Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 9,
+        "dex": 12,
+        "fth": 14,
+        "int": 77,
+        "mnd": 15,
+        "str": 8,
+        "vig": 60,
+        "vit": 9
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Rock Sling",
+                "order": 0
+            },
+            {
+                "name": "Blades of Stone",
+                "order": 1
+            },
+            {
+                "name": "Meteorite of Astel",
+                "order": 2
+            },
+            {
+                "name": "Gravitational Missile",
+                "order": 3
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 4
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 95,
+        "poise": {
+            "original": 5
+        },
+        "runes": {
+            "total": 3981350,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "arc": 10,
+            "fth": 15,
+            "int": 78
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 147,
+            "magic": 191,
+            "slash": 129,
+            "pierce": 129,
+            "strike": 129,
+            "physical": 129,
+            "lightning": 127
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 3.1000000000000028,
+            "holy": 3.400000000000003,
+            "magic": 2.8000000000000025,
+            "slash": 21.999999999999996,
+            "pierce": 22.239999999999995,
+            "strike": 22.48,
+            "physical": 22.239999999999995,
+            "lightning": 3.400000000000003
+        },
+        "maxStamina": 94,
+        "resistances": {
+            "focus": 165,
+            "immunity": 213,
+            "vitality": 180,
+            "robustness": 164
+        },
+        "maxEquipLoad": 46.58823529
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Meteorite Staff",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Dagger",
+                "order": 1,
+                "upgrade": 0,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Golden Vow",
+                "equipIndex": 2
+            },
+            {
+                "name": "Golden Order Seal",
+                "order": 2,
+                "upgrade": 0,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Carian Regal Scepter",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Blue Dancer Charm",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 1,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 3,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Circlet of Light",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

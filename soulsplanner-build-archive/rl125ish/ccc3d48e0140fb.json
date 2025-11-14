@@ -1,0 +1,427 @@
+{
+    "id": "ccc3d48e0140fb",
+    "is2h": true,
+    "name": "Bogatyr",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Invasions",
+        "Duels",
+        "Strength"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Boiled Crab",
+                    "order": 0
+                },
+                {
+                    "name": "Freezing Pot",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fan Daggers",
+                    "order": 2,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Gravity Stone Fan",
+                    "order": 3,
+                    "equipIndex": 3
+                },
+                {
+                    "name": "Neutralizing Boluses",
+                    "order": 4,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Preserving Boluses",
+                    "order": 5,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 6,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Thawfrost Boluses",
+                    "order": 7
+                },
+                {
+                    "name": "Starlight Shards",
+                    "order": 8,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 9,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 10,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Exalted Flesh",
+                    "order": 11,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Clarifying White Cured Meat",
+                    "order": 12
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 11,
+        "dex": 10,
+        "fth": 8,
+        "int": 7,
+        "mnd": 9,
+        "str": 70,
+        "vig": 60,
+        "vit": 29
+    },
+    "views": {
+        "overview": "swappa",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "altered": 83.79,
+            "original": 63
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 149,
+            "magic": 141,
+            "slash": 159,
+            "pierce": 159,
+            "strike": 159,
+            "physical": 159,
+            "lightning": 127
+        },
+        "maxHealth": 2134.08,
+        "absorption": {
+            "fire": 21.367851932799997,
+            "holy": 20.00429027199999,
+            "magic": 20.34554881599999,
+            "slash": 28.1677129264,
+            "pierce": 28.1677129264,
+            "strike": 26.3370873088,
+            "physical": 29.65745996320002,
+            "lightning": 20.433663873999997
+        },
+        "maxStamina": 140.8,
+        "resistances": {
+            "focus": 213,
+            "immunity": 294,
+            "vitality": 232,
+            "robustness": 305
+        },
+        "maxEquipLoad": 82.52931615
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Iron Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Giant Hunt",
+                "equipIndex": 0
+            },
+            {
+                "name": "Iron Greatsword",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Iron Greatsword",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Nightrider Glaive",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Storm Assault"
+            },
+            {
+                "name": "Nightrider Glaive",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Broadsword",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Broadsword",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Hawk Crest Wooden Shield",
+                "order": 7,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 3
+            },
+            {
+                "name": "Great Mace",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Greataxe",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Storm Stomp"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 4
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 5
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 6
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 7
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 8
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 9
+            },
+            {
+                "name": "Carian Filigreed Crest",
+                "order": 10
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 11
+            },
+            {
+                "name": "Crimson Seed Talisman",
+                "order": 12
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 13
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Scale Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Kaiden Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Kaiden Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Scaled Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

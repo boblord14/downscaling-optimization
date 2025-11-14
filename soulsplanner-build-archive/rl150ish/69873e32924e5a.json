@@ -1,0 +1,467 @@
+{
+    "id": "69873e32924e5a",
+    "is2h": false,
+    "name": "Dragon Knight Build (SL 150 PvE)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Faith",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Lightning-Shrouding Cracked Tear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 13,
+        "fth": 70,
+        "int": 9,
+        "mnd": 24,
+        "str": 23,
+        "vig": 58,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Edit"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Lightning Spear",
+                "order": 0
+            },
+            {
+                "name": "Honed Bolt",
+                "order": 1
+            },
+            {
+                "name": "Knight's Lightning Spear",
+                "order": 2
+            },
+            {
+                "name": "Lansseax's Glaive",
+                "order": 3
+            },
+            {
+                "name": "Fortissax's Lightning Spear",
+                "order": 4
+            },
+            {
+                "name": "Ancient Dragons' Lightning Strike",
+                "order": 5
+            },
+            {
+                "name": "Heal from Afar",
+                "order": 6
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 7
+            },
+            {
+                "name": "Protection of the Erdtree",
+                "order": 8
+            },
+            {
+                "name": "Golden Vow",
+                "order": 9
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 142,
+        "poise": {
+            "original": 47
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 190,
+            "holy": 146,
+            "magic": 150,
+            "slash": 139,
+            "pierce": 139,
+            "strike": 139,
+            "physical": 139,
+            "lightning": 132
+        },
+        "maxHealth": 2020.68,
+        "absorption": {
+            "fire": 19.378555188400004,
+            "holy": 16.40480309200001,
+            "magic": 19.02142807960001,
+            "slash": 24.4400087032,
+            "pierce": 24.4400087032,
+            "strike": 21.595279751600003,
+            "physical": 24.784245565600006,
+            "lightning": 24.61212713440001
+        },
+        "maxStamina": 121,
+        "resistances": {
+            "focus": 197,
+            "immunity": 258,
+            "vitality": 269,
+            "robustness": 262
+        },
+        "maxEquipLoad": 72
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Death Knight's Longhaft Axe",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Coded Sword",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Coded Sword",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Golden Epitaph",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Marika's Hammer",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Beastclaw Greathammer",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Sword of Light",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Sword of Darkness",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Envoy's Long Horn",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Aspects of the Crucible: Wings"
+            },
+            {
+                "name": "Black Knife",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Thunderbolt"
+            },
+            {
+                "name": "Gravel Stone Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Death Knight's Twin Axes",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Gravel Stone Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Lightning Scorpion Charm",
+                "order": 4
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 5
+            },
+            {
+                "name": "Spelldrake Talisman +3",
+                "order": 6
+            },
+            {
+                "name": "Flamedrake Talisman +3",
+                "order": 7
+            },
+            {
+                "name": "Boltdrake Talisman +3",
+                "order": 8
+            },
+            {
+                "name": "Golden Braid",
+                "order": 9
+            },
+            {
+                "name": "Pearldrake Talisman +3",
+                "order": 10
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 11
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 12
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 13
+            },
+            {
+                "name": "Clarifying Horn Charm +2",
+                "order": 14
+            },
+            {
+                "name": "Mottled Necklace +2",
+                "order": 15
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 16
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 17
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 18
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Death Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Death Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Death Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Death Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

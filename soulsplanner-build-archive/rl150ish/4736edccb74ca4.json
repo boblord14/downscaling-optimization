@@ -1,0 +1,539 @@
+{
+    "id": "4736edccb74ca4",
+    "is2h": false,
+    "name": "Dex Stance Build",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Leaden Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 75,
+        "fth": 16,
+        "int": 16,
+        "mnd": 10,
+        "str": 14,
+        "vig": 60,
+        "vit": 31
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Rejection",
+                "order": 0
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "altered": 93.3333331,
+            "original": 70
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "arc": 8,
+            "dex": 80,
+            "fth": 17,
+            "int": 17
+        },
+        "defenses": {
+            "fire": 194,
+            "holy": 150,
+            "magic": 168,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 134
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 25.1345258872,
+            "holy": 24.283628844399995,
+            "magic": 23.051805846399983,
+            "slash": 28.98527986,
+            "pierce": 29.24335059040001,
+            "strike": 27.619489759000004,
+            "physical": 29.436211331200013,
+            "lightning": 22.5749243812
+        },
+        "maxStamina": 131,
+        "resistances": {
+            "focus": 343,
+            "immunity": 367,
+            "vitality": 260,
+            "robustness": 362
+        },
+        "maxEquipLoad": 78.89815178
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Greatbow",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Rakshasa's Great Katana",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Milady",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Wing Stance"
+            },
+            {
+                "name": "Rellana's Twin Blades",
+                "order": 7,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Swift Spear",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Queelign's Greatsword",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Sword of Night",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Hand Axe",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Golden Vow"
+            },
+            {
+                "name": "Velvet Sword of St. Trina",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Velvet Sword of St. Trina",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Shamshir",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Antspur Rapier",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "The Poison Flower Blooms Twice"
+            },
+            {
+                "name": "Rogier's Rapier",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Blind Spot"
+            },
+            {
+                "name": "Smithscript Cirque",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Urumi",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Royal Knight's Resolve"
+            },
+            {
+                "name": "Tooth Whip",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Thiollier's Hidden Needle",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Pata",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Claws of Night",
+                "order": 30,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 31,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Dryleaf Arts",
+                "order": 32,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Palm Blast"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 33,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Bloodhound's Step",
+                "equipIndex": 1
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Rellana's Cameo",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 2,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 3,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 4
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 5
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 6
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 7
+            },
+            {
+                "name": "Clarifying Horn Charm +2",
+                "order": 8
+            },
+            {
+                "name": "Ailment Talisman",
+                "order": 9
+            },
+            {
+                "name": "Taker's Cameo",
+                "order": 10
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 11
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Blaidd's Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Beast Champion Armor",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Circlet of Light",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

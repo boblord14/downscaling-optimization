@@ -1,0 +1,326 @@
+{
+    "id": "86f40145644e6f",
+    "is2h": false,
+    "name": "u crazy?",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "Invasions",
+        "Hybrid",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Hefty Frenzied Flame Pot",
+                    "order": 0
+                },
+                {
+                    "name": "Frenzied Flame Pot",
+                    "order": 1
+                },
+                {
+                    "name": "Roped Frenzied Flame Pot",
+                    "order": 2
+                },
+                {
+                    "name": "Clarifying Boluses",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Holy-Shrouding Cracked Tear",
+            "Flame-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 162,
+        "arc": 8,
+        "dex": 15,
+        "fth": 45,
+        "int": 9,
+        "mnd": 30,
+        "str": 50,
+        "vig": 60,
+        "vit": 24
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Unendurable Frenzy",
+                "order": 0
+            },
+            {
+                "name": "Midra's Flame of Frenzy",
+                "order": 1
+            },
+            {
+                "name": "Inescapable Frenzy",
+                "order": 2
+            },
+            {
+                "name": "Frenzied Burst",
+                "order": 3
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 4
+            },
+            {
+                "name": "Howl of Shabriri",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 173,
+        "poise": {
+            "original": 60
+        },
+        "runes": {
+            "total": 9115239,
+            "toNextLevel": 186944
+        },
+        "defenses": {
+            "fire": 195,
+            "holy": 151,
+            "magic": 153,
+            "slash": 157,
+            "pierce": 157,
+            "strike": 157,
+            "physical": 157,
+            "lightning": 135
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 23.608512503200007,
+            "holy": 23.608512503200007,
+            "magic": 24.362074450000016,
+            "slash": 30.41337248000001,
+            "pierce": 29.401967224000018,
+            "strike": 26.370043571199997,
+            "physical": 29.0072866096,
+            "lightning": 21.3981102406
+        },
+        "maxStamina": 120,
+        "resistances": {
+            "focus": 247,
+            "immunity": 315,
+            "vitality": 254,
+            "robustness": 322
+        },
+        "maxEquipLoad": 70.41176471
+    },
+    "greatRune": null,
+    "inventory": {
+        "slots": [
+            {
+                "name": "Greatsword of Damnation",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdsteel Dagger",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Blinkbolt"
+            },
+            {
+                "name": "Erdtree Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Erdsteel Dagger",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Bloodhound's Step",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Retaliatory Crossed-Tree",
+                "order": 1,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 2
+            },
+            {
+                "name": "Aged One's Exultation",
+                "order": 3,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 4,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gaius's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Leda's Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Gaius's Armor",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Gaius's Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Black Dumpling",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Malformed Dragon Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Samurai"
+}

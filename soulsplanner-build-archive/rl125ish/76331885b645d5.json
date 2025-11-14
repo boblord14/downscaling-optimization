@@ -1,0 +1,290 @@
+{
+    "id": "76331885b645d5",
+    "is2h": false,
+    "name": "Counter build if you hate katanas",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Duels",
+        "Intelligence"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 0,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 1,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 2,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Dappled Cured Meat",
+                    "order": 3,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Pickled Turtle Neck",
+                    "order": 4,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 5,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Swarm Pot",
+                    "order": 6,
+                    "equipIndex": 13
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Magic-Shrouding Cracked Tear",
+            "Intelligence-knot Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 11,
+        "dex": 11,
+        "fth": 8,
+        "int": 49,
+        "mnd": 9,
+        "str": 16,
+        "vig": 55,
+        "vit": 45
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 86
+        },
+        "stats": {
+            "int": 59
+        },
+        "defenses": {
+            "fire": 184,
+            "holy": 151,
+            "magic": 188,
+            "slash": 134,
+            "pierce": 134,
+            "strike": 134,
+            "physical": 134,
+            "lightning": 129
+        },
+        "maxHealth": 1814,
+        "absorption": {
+            "fire": 28.98878879350001,
+            "holy": 26.501033732,
+            "magic": 26.501033732,
+            "slash": 36.47033178400001,
+            "pierce": 37.27786272,
+            "strike": 31.567581908200005,
+            "physical": 33.56283018999999,
+            "lightning": 25.603248736000005
+        },
+        "maxStamina": 148,
+        "resistances": {
+            "focus": 252,
+            "immunity": 339,
+            "vitality": 283,
+            "robustness": 559
+        },
+        "maxEquipLoad": 97.93578384
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Dark Moon Greatsword",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Carian Knight's Shield",
+                "order": 1,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Stalwart Horn Charm +1",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Trigger in Presence of Blood Loss",
+            "Charged Attack",
+            "Charged Skill Attack"
+        ],
+        "crystalTears": true
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Lionel's Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Lionel's Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Lionel's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

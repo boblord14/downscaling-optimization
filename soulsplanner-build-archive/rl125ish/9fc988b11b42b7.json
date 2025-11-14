@@ -1,0 +1,381 @@
+{
+    "id": "9fc988b11b42b7",
+    "is2h": false,
+    "name": "build salto moonveil",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "active": true
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 1
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Stonebarb Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 120,
+        "arc": 24,
+        "dex": 35,
+        "fth": 25,
+        "int": 9,
+        "mnd": 19,
+        "str": 18,
+        "vig": 41,
+        "vit": 28
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Stats",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 150,
+        "poise": {
+            "original": 44
+        },
+        "runes": {
+            "total": 3500893,
+            "toNextLevel": 93850
+        },
+        "stats": {
+            "arc": 30,
+            "dex": 40,
+            "fth": 28,
+            "int": 12,
+            "mnd": 22
+        },
+        "defenses": {
+            "fire": 171,
+            "holy": 176,
+            "magic": 154,
+            "slash": 136,
+            "pierce": 136,
+            "strike": 136,
+            "physical": 136,
+            "lightning": 130
+        },
+        "maxHealth": 1697.4,
+        "absorption": {
+            "fire": 15.43751761408001,
+            "holy": 15.348691477120004,
+            "magic": 13.958708225099992,
+            "slash": 17.945795239999995,
+            "pierce": 17.028005201450004,
+            "strike": 14.731992603999998,
+            "physical": 16.41920538399999,
+            "lightning": 11.117353274820008
+        },
+        "maxStamina": 144.9,
+        "resistances": {
+            "focus": 238,
+            "immunity": 276,
+            "vitality": 258,
+            "robustness": 268
+        },
+        "maxEquipLoad": 75.21810154
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Moonveil",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Nagakiba",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Unsheathe"
+            },
+            {
+                "name": "Nagakiba",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Unsheathe"
+            },
+            {
+                "name": "Finger Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Eleonora's Poleblade",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Claw Talisman",
+                "order": 0
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 3
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Winged Sword Insignia",
+                "order": 5
+            },
+            {
+                "name": "Winged Sword Insignia",
+                "order": 6
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 7,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Radagon's Scarseal",
+                "order": 8
+            },
+            {
+                "name": "Radagon's Scarseal",
+                "order": 9
+            },
+            {
+                "name": "Marika's Scarseal",
+                "order": 10,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets of Night",
+                    "order": 0
+                },
+                {
+                    "name": "Radahn's Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Night's Cavalry Gauntlets",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Raptor's Black Feathers",
+                    "order": 0
+                },
+                {
+                    "name": "Raptor's Black Feathers",
+                    "order": 1
+                },
+                {
+                    "name": "Crucible Axe Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Twinned Armor",
+                    "order": 3
+                },
+                {
+                    "name": "Twinned Armor",
+                    "order": 4
+                },
+                {
+                    "name": "Blaidd's Armor",
+                    "order": 5
+                },
+                {
+                    "name": "Blaidd's Armor",
+                    "order": 6
+                },
+                {
+                    "name": "Bloodhound Knight Armor",
+                    "order": 7,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Raging Wolf Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Night's Cavalry Helm",
+                    "order": 1
+                },
+                {
+                    "name": "Mask of Confidence",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Haligtree Knight Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Night's Cavalry Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Samurai"
+}

@@ -1,0 +1,325 @@
+{
+    "id": "10b70ecbff40a6",
+    "is2h": false,
+    "name": "pvp",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Arcane",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Bloodboil Aromatic",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Hefty Poison Pot",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Drawstring Poison Grease",
+                    "order": 2,
+                    "equipIndex": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 164,
+        "arc": 48,
+        "dex": 15,
+        "fth": 12,
+        "int": 11,
+        "mnd": 11,
+        "str": 22,
+        "vig": 99,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Poison Mist",
+                "order": 0
+            },
+            {
+                "name": "Pest Threads",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 82,
+        "poise": {
+            "original": 27
+        },
+        "runes": {
+            "total": 9486416,
+            "toNextLevel": 192441
+        },
+        "stats": {
+            "arc": 52,
+            "dex": 20
+        },
+        "defenses": {
+            "fire": 205,
+            "holy": 191,
+            "magic": 157,
+            "slash": 142,
+            "pierce": 142,
+            "strike": 142,
+            "physical": 142,
+            "lightning": 135
+        },
+        "maxHealth": 2100,
+        "absorption": {
+            "fire": 20.75227300000001,
+            "holy": 22.30864911999999,
+            "magic": 21.790486247499995,
+            "slash": 16.046919040000006,
+            "pierce": 14.050527507999998,
+            "strike": 14.648332114600004,
+            "physical": 15.739436800000009,
+            "lightning": 21.58305863680001
+        },
+        "maxStamina": 121,
+        "resistances": {
+            "focus": 290,
+            "immunity": 314,
+            "vitality": 311,
+            "robustness": 234
+        },
+        "maxEquipLoad": 72
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Backhand Blade",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Blind Spot"
+            },
+            {
+                "name": "Smithscript Dagger",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Piercing Throw",
+                "equipIndex": 4
+            },
+            {
+                "name": "Fire Knight's Greatsword",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flame of the Redmanes"
+            },
+            {
+                "name": "Fire Knight's Greatsword",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flame of the Redmanes"
+            },
+            {
+                "name": "Ripple Blade",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Retaliatory Crossed-Tree",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Aged One's Exultation",
+                "order": 3
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 4
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 5
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 6,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Braided Arm Wraps",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Gravebird's Blackquill Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Albinauric Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Alberich's Trousers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Samurai"
+}

@@ -1,0 +1,559 @@
+{
+    "id": "7075d03306471e",
+    "is2h": false,
+    "name": "BHB RR2 [PvE]",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Quality",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Thorny Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 11,
+        "dex": 48,
+        "fth": 15,
+        "int": 7,
+        "mnd": 9,
+        "str": 40,
+        "vig": 60,
+        "vit": 14
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Edit"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 51
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "dex": 53
+        },
+        "defenses": {
+            "fire": 188,
+            "holy": 150,
+            "magic": 142,
+            "slash": 143,
+            "pierce": 143,
+            "strike": 143,
+            "physical": 143,
+            "lightning": 128
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 20.766962268676004,
+            "holy": 20.521658746288008,
+            "magic": 20.806932023559987,
+            "slash": 24.453055221279996,
+            "pierce": 23.392970919376012,
+            "strike": 21.76998070096,
+            "physical": 24.182223543424,
+            "lightning": 17.15549171730999
+        },
+        "maxStamina": 103,
+        "resistances": {
+            "focus": 218,
+            "immunity": 285,
+            "vitality": 235,
+            "robustness": 284
+        },
+        "maxEquipLoad": 54.52941176
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Backhand Blade",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Cragblade",
+                "equipIndex": 3
+            },
+            {
+                "name": "Dryleaf Arts",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Golden Vow",
+                "equipIndex": 0
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Shotel",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Seppuku",
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Crimson Seed Talisman",
+                "order": 0
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 1
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 2
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 4
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 5
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 6
+            },
+            {
+                "name": "Curved Sword Talisman",
+                "order": 7
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 8
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 9
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 10
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 11
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 12
+            },
+            {
+                "name": "Pearl Shield Talisman",
+                "order": 13
+            },
+            {
+                "name": "Retaliatory Crossed-Tree",
+                "order": 14
+            },
+            {
+                "name": "Lacerating Crossed-Tree",
+                "order": 15,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 16
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 17
+            },
+            {
+                "name": "Faithful's Canvas Talisman",
+                "order": 18
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 19
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 20
+            },
+            {
+                "name": "Roar Medallion",
+                "order": 21
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 22
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 23
+            },
+            {
+                "name": "Rellana's Cameo",
+                "order": 24
+            },
+            {
+                "name": "Smithing Talisman",
+                "order": 25
+            },
+            {
+                "name": "Enraged Divine Beast",
+                "order": 26
+            },
+            {
+                "name": "Talisman of the Dread",
+                "order": 27
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 28
+            },
+            {
+                "name": "Lightning Scorpion Charm",
+                "order": 29
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 30
+            },
+            {
+                "name": "Sacred Scorpion Charm",
+                "order": 31
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 32
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 33
+            },
+            {
+                "name": "Winged Sword Insignia",
+                "order": 34
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 35,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 36,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 37,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 38
+            },
+            {
+                "name": "Blade of Mercy",
+                "order": 39
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Knight Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Spellblade's Gloves",
+                    "order": 1
+                },
+                {
+                    "name": "Alberich's Bracers",
+                    "order": 2
+                },
+                {
+                    "name": "Tree Sentinel Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 4,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Dancer's Bracer",
+                    "order": 5
+                },
+                {
+                    "name": "Ansbach's Manchettes",
+                    "order": 6
+                },
+                {
+                    "name": "Death Knight Gauntlets",
+                    "order": 7
+                },
+                {
+                    "name": "Young Lion's Gauntlets",
+                    "order": 8
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Knight Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Spellblade's Traveling Attire",
+                    "order": 1
+                },
+                {
+                    "name": "Alberich's Robe",
+                    "order": 2
+                },
+                {
+                    "name": "Raptor's Black Feathers",
+                    "order": 3
+                },
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 4
+                },
+                {
+                    "name": "Gravebird's Blackquill Armor",
+                    "order": 5
+                },
+                {
+                    "name": "Dancer's Dress",
+                    "order": 6
+                },
+                {
+                    "name": "Ansbach's Attire",
+                    "order": 7
+                },
+                {
+                    "name": "Leda's Armor",
+                    "order": 8,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Knight Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Spellblade's Pointed Hat",
+                    "order": 1
+                },
+                {
+                    "name": "Alberich's Pointed Hat",
+                    "order": 2
+                },
+                {
+                    "name": "Rakshasa Helm",
+                    "order": 3
+                },
+                {
+                    "name": "Circlet of Light",
+                    "order": 4
+                },
+                {
+                    "name": "Dancer's Hood",
+                    "order": 5
+                },
+                {
+                    "name": "Wise Man's Mask",
+                    "order": 6
+                },
+                {
+                    "name": "Death Knight Helm",
+                    "order": 7
+                },
+                {
+                    "name": "White Mask",
+                    "order": 8,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Mushroom Crown",
+                    "order": 9
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Knight Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Spellblade's Trousers",
+                    "order": 1
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 3
+                },
+                {
+                    "name": "Dancer's Trousers",
+                    "order": 4
+                },
+                {
+                    "name": "Ansbach's Boots",
+                    "order": 5
+                },
+                {
+                    "name": "Death Knight Greaves",
+                    "order": 6
+                },
+                {
+                    "name": "Lionel's Greaves",
+                    "order": 7
+                },
+                {
+                    "name": "Young Lion's Greaves",
+                    "order": 8,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

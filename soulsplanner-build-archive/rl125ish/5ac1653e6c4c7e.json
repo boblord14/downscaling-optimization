@@ -1,0 +1,403 @@
+{
+    "id": "5ac1653e6c4c7e",
+    "is2h": false,
+    "name": "Brightblade Gwyn",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "PvE",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Starlight Shards",
+                    "order": 3,
+                    "equipIndex": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Magic-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 9,
+        "dex": 40,
+        "fth": 7,
+        "int": 40,
+        "mnd": 18,
+        "str": 12,
+        "vig": 60,
+        "vit": 18
+    },
+    "views": {
+        "overview": "build-planner",
+        "spells-view/left": "Calculate"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Glintstone Arc",
+                "order": 0
+            },
+            {
+                "name": "Shard Spiral",
+                "order": 1
+            },
+            {
+                "name": "Carian Slicer",
+                "order": 2
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 3
+            },
+            {
+                "name": "Adula's Moonblade",
+                "order": 4
+            },
+            {
+                "name": "Zamor Ice Storm",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 126,
+        "poise": {
+            "original": 35
+        },
+        "runes": {
+            "total": 3981350,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 145,
+            "magic": 179,
+            "slash": 131,
+            "pierce": 131,
+            "strike": 131,
+            "physical": 131,
+            "lightning": 127
+        },
+        "maxHealth": 2185,
+        "absorption": {
+            "fire": 22.97511816400001,
+            "holy": 23.294392285600008,
+            "magic": 24.131329780300003,
+            "slash": 14.11287582516999,
+            "pierce": 12.72641886064,
+            "strike": 11.433494421680004,
+            "physical": 12.28741694344,
+            "lightning": 19.361918832400004
+        },
+        "maxStamina": 126.5,
+        "resistances": {
+            "focus": 213,
+            "immunity": 255,
+            "vitality": 227,
+            "robustness": 247
+        },
+        "maxEquipLoad": 60.88235294
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Carian Glintstone Staff",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 4
+            },
+            {
+                "name": "Carian Knight's Shield",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Rogier's Rapier",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Rogier's Rapier",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Carian Sovereignty"
+            },
+            {
+                "name": "Milady",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Carian Sovereignty"
+            },
+            {
+                "name": "Wing of Astel",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Rogier's Rapier",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Glintstone Pebble"
+            },
+            {
+                "name": "Carian Sorcery Sword",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Carian Knight's Shield",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Staff of Loss",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Glintstone Kris",
+                "order": 10,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 0
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 1
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 3,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Ancestral Spirit's Horn",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 5
+            },
+            {
+                "name": "Cerulean Amber Medallion +3",
+                "order": 6
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 7,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Affects Sorceries",
+            "Spell Power Boost",
+            "Carian Sword Spell"
+        ],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Spellblade's Gloves",
+                    "order": 0
+                },
+                {
+                    "name": "Carian Knight Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Spellblade's Traveling Attire (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Carian Knight Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Commoner's Headband (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Spellblade's Trousers",
+                    "order": 0
+                },
+                {
+                    "name": "Carian Knight Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

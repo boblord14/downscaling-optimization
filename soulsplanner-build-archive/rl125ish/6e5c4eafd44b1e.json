@@ -1,0 +1,640 @@
+{
+    "id": "6e5c4eafd44b1e",
+    "is2h": false,
+    "name": "Faith Crit Build.",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            },
+            {
+                "name": "Marika's Hammer"
+            },
+            {
+                "name": "Queelign's, Imp Thrust"
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            },
+            {
+                "name": "Marika's Hammer"
+            },
+            {
+                "name": "Queelign's"
+            },
+            {
+                "name": "Trash Mobs/Overworlding"
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            },
+            {
+                "name": "Marika's Hammer"
+            },
+            {
+                "name": "Queelign's, Imp Thrust"
+            },
+            {
+                "name": "Dragonmaw"
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "PvE",
+        "Strength",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Stonebarb Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 11,
+        "dex": 13,
+        "fth": 60,
+        "int": 7,
+        "mnd": 23,
+        "str": 14,
+        "vig": 60,
+        "vit": 16
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Blessing of the Erdtree",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            },
+            {
+                "name": "Aspects of the Crucible: Tail",
+                "order": 3
+            },
+            {
+                "name": "Dragonmaw",
+                "order": 4
+            },
+            {
+                "name": "Stone of Gurranq",
+                "order": 5
+            },
+            {
+                "name": "Aspects of the Crucible: Horns",
+                "order": 6
+            },
+            {
+                "name": "Golden Arcs",
+                "order": 7
+            },
+            {
+                "name": "Unendurable Frenzy",
+                "order": 8
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 137,
+        "poise": {
+            "original": 65
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "arc": 12,
+            "fth": 61,
+            "int": 8
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 151,
+            "magic": 143,
+            "slash": 131,
+            "pierce": 131,
+            "strike": 131,
+            "physical": 131,
+            "lightning": 127
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 23.3954127496,
+            "holy": 26.282361186999992,
+            "magic": 24.199536448000003,
+            "slash": 38.69792488,
+            "pierce": 37.627239126016,
+            "strike": 34.750895685759986,
+            "physical": 39.498470167168,
+            "lightning": 22.216277368000004
+        },
+        "maxStamina": 106,
+        "resistances": {
+            "focus": 234,
+            "immunity": 311,
+            "vitality": 251,
+            "robustness": 303
+        },
+        "maxEquipLoad": 57.70588235
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    1,
+                    1,
+                    1
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Royal Knight's Resolve",
+                "equipIndex": 1
+            },
+            {
+                "name": "Erdtree Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3,
+                    0,
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Dryleaf Arts",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Endure",
+                "equipIndex": 0
+            },
+            {
+                "name": "Longsword",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Queelign's Greatsword",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Banished Knight's Greatsword",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Star Fist",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Marika's Hammer",
+                "order": 7,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spiked Club",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Black Steel Greathammer",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Prayerful Strike"
+            },
+            {
+                "name": "Pata",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Banished Knight's Shield",
+                "order": 11,
+                "upgrade": 24,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Sword of Light",
+                "order": 12,
+                "upgrade": 0,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 13,
+                "upgrade": 0,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Madding Hand",
+                "order": 14,
+                "upgrade": 0,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Blade of Mercy",
+                "order": 0,
+                "equipSet": [
+                    0,
+                    0,
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 1,
+                "equipSet": [
+                    1,
+                    null,
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 2,
+                "equipSet": [
+                    3,
+                    3,
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 3,
+                "equipSet": [
+                    2,
+                    null,
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Sacred Scorpion Charm",
+                "order": 4,
+                "equipSet": [
+                    null,
+                    2
+                ]
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 5,
+                "equipSet": [
+                    null,
+                    1
+                ]
+            },
+            {
+                "name": "Spelldrake Talisman +3",
+                "order": 6
+            },
+            {
+                "name": "Flamedrake Talisman +3",
+                "order": 7
+            },
+            {
+                "name": "Boltdrake Talisman +3",
+                "order": 8
+            },
+            {
+                "name": "Golden Braid",
+                "order": 9
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 10
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 11
+            },
+            {
+                "name": "Aged One's Exultation",
+                "order": 12
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 13
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 14
+            },
+            {
+                "name": "Taker's Cameo",
+                "order": 15,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    0
+                ]
+            },
+            {
+                "name": "Ancestral Spirit's Horn",
+                "order": 16,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    1
+                ]
+            },
+            {
+                "name": "Crusade Insignia",
+                "order": 17,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    2
+                ]
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 18,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    3
+                ]
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 19
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Crucible Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1,
+                        1,
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fingerprint Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Freyja's Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Ascetic's Wrist Guards",
+                    "order": 3,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Crucible Tree Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1,
+                        1,
+                        null
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Thiollier's Garb",
+                    "order": 1,
+                    "equipSet": [
+                        null,
+                        null,
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Fingerprint Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Radahn's Lion Armor (Altered)",
+                    "order": 3
+                },
+                {
+                    "name": "Radahn's Lion Armor",
+                    "order": 4,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Circlet of Light",
+                    "order": 0,
+                    "equipSet": [
+                        1,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Curseblade Mask",
+                    "order": 1,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Thiollier's Mask",
+                    "order": 2,
+                    "equipSet": [
+                        null,
+                        null,
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Fingerprint Helm",
+                    "order": 3
+                },
+                {
+                    "name": "Black Dumpling",
+                    "order": 4
+                },
+                {
+                    "name": "Omensmirk Mask",
+                    "order": 5
+                },
+                {
+                    "name": "Horned Warrior Helm",
+                    "order": 6
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Crucible Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1,
+                        null,
+                        null
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fingerprint Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Freyja's Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        null,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 3,
+                    "equipSet": [
+                        null,
+                        null,
+                        null,
+                        1
+                    ]
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

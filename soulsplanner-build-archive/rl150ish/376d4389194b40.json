@@ -1,0 +1,605 @@
+{
+    "id": "376d4389194b40",
+    "is2h": true,
+    "name": "Strength + Faith",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Hybrid",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 138,
+        "arc": 7,
+        "dex": 16,
+        "fth": 24,
+        "int": 9,
+        "mnd": 16,
+        "str": 54,
+        "vig": 56,
+        "vit": 35
+    },
+    "views": {
+        "overview": "simple",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Bestial Sling",
+                "order": 1
+            },
+            {
+                "name": "Beast Claw",
+                "order": 2
+            },
+            {
+                "name": "Stone of Gurranq",
+                "order": 3
+            },
+            {
+                "name": "Gurranq's Beast Claw",
+                "order": 4
+            },
+            {
+                "name": "Catch Flame",
+                "order": 5
+            },
+            {
+                "name": "Barrier of Gold",
+                "order": 6
+            },
+            {
+                "name": "Blessing's Boon",
+                "order": 7
+            },
+            {
+                "name": "Roar of Rugalea",
+                "order": 8
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 100,
+        "poise": {
+            "altered": 87.99999978,
+            "original": 66
+        },
+        "runes": {
+            "total": 5441710,
+            "toNextLevel": 128745
+        },
+        "stats": {
+            "arc": 8,
+            "fth": 25,
+            "int": 10
+        },
+        "defenses": {
+            "fire": 186,
+            "holy": 146,
+            "magic": 150,
+            "slash": 155,
+            "pierce": 155,
+            "strike": 155,
+            "physical": 155,
+            "lightning": 130
+        },
+        "maxHealth": 1907.36,
+        "absorption": {
+            "fire": 25.167936232,
+            "holy": 23.3809534288,
+            "magic": 23.7629435968,
+            "slash": 28.240890759999992,
+            "pierce": 29.53451008000001,
+            "strike": 26.136820727200003,
+            "physical": 28.621728985600004,
+            "lightning": 22.701801622600005
+        },
+        "maxStamina": 149.6,
+        "resistances": {
+            "focus": 260,
+            "immunity": 304,
+            "vitality": 242,
+            "robustness": 305
+        },
+        "maxEquipLoad": 90.82742845
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Black Steel Greathammer",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Black Steel Greatshield",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Holy Ground"
+            },
+            {
+                "name": "Zweihander",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Aspects of the Crucible: Wings",
+                "equipIndex": 0
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 3,
+                "infusion": "Standard",
+                "equipIndex": 4
+            },
+            {
+                "name": "Cinquedea",
+                "order": 4,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 5,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "equipIndex": 3
+            },
+            {
+                "name": "Erdsteel Dagger",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Ordovis's Greatsword",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Troll's Golden Sword",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Golden Land"
+            },
+            {
+                "name": "Shamshir",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Sword of Light",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Sword of Darkness",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Freyja's Greatsword",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Red Bear's Claw",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dueling Shield",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Shield Strike"
+            },
+            {
+                "name": "Icon Shield",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Gilded Iron Shield",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Devonia's Hammer",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Pata",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Nightrider Glaive",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Black Flame Tornado"
+            },
+            {
+                "name": "Messmer Soldier's Spear",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Partisan",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Beastclaw Greathammer",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Great Stars",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Prayerful Strike"
+            },
+            {
+                "name": "Marika's Hammer",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Black Steel Twinblade",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Blasphemous Blade",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 4
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 5
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 6
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 7
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 8
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 9
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 10
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 11
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 12
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 13
+            },
+            {
+                "name": "Hammer Talisman",
+                "order": 14
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 15
+            },
+            {
+                "name": "Twinblade Talisman",
+                "order": 16
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 17
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 18
+            },
+            {
+                "name": "Curved Sword Talisman",
+                "order": 19
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 20
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 21
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 22
+            },
+            {
+                "name": "Blade of Mercy",
+                "order": 23
+            },
+            {
+                "name": "Verdigris Discus",
+                "order": 24
+            },
+            {
+                "name": "Assassin's Crimson Dagger",
+                "order": 25
+            },
+            {
+                "name": "Assassin's Cerulean Dagger",
+                "order": 26
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 27
+            },
+            {
+                "name": "Pearl Shield Talisman",
+                "order": 28
+            },
+            {
+                "name": "Spelldrake Talisman +3",
+                "order": 29
+            },
+            {
+                "name": "Flamedrake Talisman +3",
+                "order": 30
+            },
+            {
+                "name": "Boltdrake Talisman +3",
+                "order": 31
+            },
+            {
+                "name": "Golden Braid",
+                "order": 32
+            },
+            {
+                "name": "Pearldrake Talisman +3",
+                "order": 33
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Black Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Black Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Circlet of Light",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

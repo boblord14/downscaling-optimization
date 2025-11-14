@@ -1,0 +1,340 @@
+{
+    "id": "dcaa7c535d4ab1",
+    "is2h": true,
+    "name": "Marika's Hammer, l2 and crit.",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Holy-Shrouding Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 13,
+        "fth": 67,
+        "int": 9,
+        "mnd": 18,
+        "str": 14,
+        "vig": 60,
+        "vit": 16
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker",
+        "protector-view/left": "Armour Optimiser"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Blessing of the Erdtree",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 110,
+        "poise": {
+            "original": 56
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "arc": 8,
+            "fth": 68,
+            "int": 10
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 143,
+            "magic": 147,
+            "slash": 131,
+            "pierce": 131,
+            "strike": 131,
+            "physical": 131,
+            "lightning": 127
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 23.688722848,
+            "holy": 23.3057653984,
+            "magic": 22.423042180000017,
+            "slash": 42.499508379999995,
+            "pierce": 42.188869216,
+            "strike": 39.62741035648,
+            "physical": 43.9622007904,
+            "lightning": 21.449153584
+        },
+        "maxStamina": 106,
+        "resistances": {
+            "focus": 214,
+            "immunity": 298,
+            "vitality": 237,
+            "robustness": 307
+        },
+        "maxEquipLoad": 57.70588235
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Marika's Hammer",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Royal Knight's Resolve",
+                "equipIndex": 0
+            },
+            {
+                "name": "Sword of Light",
+                "order": 2,
+                "upgrade": 0,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Blade of Mercy",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 3
+            },
+            {
+                "name": "Spelldrake Talisman +3",
+                "order": 4
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 5
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 6,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Radahn's Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Common Soldier Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Blue Silver Bracelets",
+                    "order": 2
+                },
+                {
+                    "name": "Crucible Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Banished Knight Gauntlets",
+                    "order": 4
+                },
+                {
+                    "name": "Young Lion's Gauntlets",
+                    "order": 5,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Radahn's Lion Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Crucible Tree Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Radahn's Lion Armor (Altered)",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Circlet of Light",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Crucible Axe Helm",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Radahn's Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Banished Knight Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Crucible Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Freyja's Greaves",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

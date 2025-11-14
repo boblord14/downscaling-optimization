@@ -1,0 +1,326 @@
+{
+    "id": "a5c19056864302",
+    "is2h": false,
+    "name": "Black Steel Twinblade, 2h moveset.",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "Caster",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Holy-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 10,
+        "dex": 10,
+        "fth": 79,
+        "int": 7,
+        "mnd": 18,
+        "str": 12,
+        "vig": 60,
+        "vit": 8
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment",
+        "protector-view/left": "Armour Optimiser"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Heal from Afar",
+                "order": 0
+            },
+            {
+                "name": "Blessing of the Erdtree",
+                "order": 1
+            },
+            {
+                "name": "Golden Vow",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 110,
+        "poise": {
+            "original": 35
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "dex": 20
+        },
+        "defenses": {
+            "fire": 189,
+            "holy": 149,
+            "magic": 143,
+            "slash": 133,
+            "pierce": 133,
+            "strike": 133,
+            "physical": 133,
+            "lightning": 129
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 20.61209245600001,
+            "holy": 21.187411816,
+            "magic": 19.742422240000003,
+            "slash": 35.639965553599986,
+            "pierce": 35.18380987119999,
+            "strike": 32.53325751839999,
+            "physical": 38.34793809999999,
+            "lightning": 18.612294760000015
+        },
+        "maxStamina": 92,
+        "resistances": {
+            "focus": 129,
+            "immunity": 265,
+            "vitality": 252,
+            "robustness": 258
+        },
+        "maxEquipLoad": 45
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Black Steel Twinblade",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade",
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Sword of Light",
+                "order": 2,
+                "upgrade": 0,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Gold Bracelets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Lord of Blood's Robe",
+                    "order": 0
+                },
+                {
+                    "name": "Lord of Blood's Robe (Altered)",
+                    "order": 1
+                },
+                {
+                    "name": "Sanguine Noble Robe",
+                    "order": 2
+                },
+                {
+                    "name": "Freyja's Armor",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Divine Bird Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Fire Knight Helm",
+                    "order": 1
+                },
+                {
+                    "name": "Curseblade Mask",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Preceptor's Trousers",
+                    "order": 0
+                },
+                {
+                    "name": "War Surgeon Trousers",
+                    "order": 1
+                },
+                {
+                    "name": "Ansbach's Boots",
+                    "order": 2
+                },
+                {
+                    "name": "Astrologer Trousers",
+                    "order": 3
+                },
+                {
+                    "name": "Ansbach's Boots",
+                    "order": 4
+                },
+                {
+                    "name": "Freyja's Greaves",
+                    "order": 5,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

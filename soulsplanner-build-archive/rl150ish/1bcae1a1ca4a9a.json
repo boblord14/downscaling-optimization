@@ -1,0 +1,288 @@
+{
+    "id": "1bcae1a1ca4a9a",
+    "is2h": false,
+    "name": "Fire knight",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "Faith",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Deflecting Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 160,
+        "arc": 9,
+        "dex": 18,
+        "fth": 53,
+        "int": 9,
+        "mnd": 20,
+        "str": 35,
+        "vig": 60,
+        "vit": 35
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Messmer's Orb",
+                "order": 0
+            },
+            {
+                "name": "Fire Serpent",
+                "order": 1
+            },
+            {
+                "name": "Flame of the Fell God",
+                "order": 2
+            },
+            {
+                "name": "Burn, O Flame!",
+                "order": 3
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "original": 39
+        },
+        "runes": {
+            "total": 8753989,
+            "toNextLevel": 181549
+        },
+        "defenses": {
+            "fire": 194,
+            "holy": 152,
+            "magic": 152,
+            "slash": 146,
+            "pierce": 146,
+            "strike": 146,
+            "physical": 146,
+            "lightning": 134
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 22.91484702880001,
+            "holy": 17.3445964,
+            "magic": 18.200886032000007,
+            "slash": 12.347000299920008,
+            "pierce": 9.518229779200016,
+            "strike": 8.235823600000014,
+            "physical": 13.54362122816002,
+            "lightning": 14.786828415999995
+        },
+        "maxStamina": 136,
+        "resistances": {
+            "focus": 207,
+            "immunity": 264,
+            "vitality": 225,
+            "robustness": 282
+        },
+        "maxEquipLoad": 84.09947079
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Great Katana",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Skewer",
+                "equipIndex": 0
+            },
+            {
+                "name": "Fire Knight's Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fire Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Fire Knight Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Fire Knight Armor (Altered)",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Fire Knight Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Messmer's Helm",
+                    "order": 1
+                },
+                {
+                    "name": "Winged Serpent Helm",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Fire Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Confessor"
+}

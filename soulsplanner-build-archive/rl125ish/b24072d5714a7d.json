@@ -1,0 +1,341 @@
+{
+    "id": "b24072d5714a7d",
+    "is2h": false,
+    "name": "Falx, l2, full tank variant.",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity",
+        "PvE",
+        "Co-op/Gank",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Ironjar Aromatic",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Well-Pickled Turtle Neck",
+                    "order": 1,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Greenburst Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 36,
+        "fth": 22,
+        "int": 9,
+        "mnd": 21,
+        "str": 35,
+        "vig": 55,
+        "vit": 19
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Blessing's Boon",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 126,
+        "poise": {
+            "original": 100
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 182,
+            "holy": 141,
+            "magic": 145,
+            "slash": 139,
+            "pierce": 139,
+            "strike": 139,
+            "physical": 139,
+            "lightning": 127
+        },
+        "maxHealth": 1814,
+        "absorption": {
+            "fire": 64.44530793105471,
+            "holy": 64.44530793105471,
+            "magic": 64.6028978453312,
+            "slash": 75.83441494876159,
+            "pierce": 75.18349156976434,
+            "strike": 74.54741728697346,
+            "physical": 76.3072478407168,
+            "lightning": 65.49299236967681
+        },
+        "maxStamina": 111,
+        "resistances": {
+            "focus": 230,
+            "immunity": 393,
+            "vitality": 271,
+            "robustness": 394
+        },
+        "maxEquipLoad": 62.47058824
+    },
+    "greatRune": "Malenia's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Falx",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Grafted Blade Greatsword",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Bandit's Curved Sword",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Quality",
+                "weaponArt": "Braggart's Roar",
+                "equipIndex": 3
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 0
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Verdigris Discus",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 4
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 5
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 6
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 7
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 8
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 9,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Unknown #124",
+            "Unknown 34",
+            "HP above 100%"
+        ],
+        "crystalTears": true
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Verdigris Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "desc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Verdigris Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Verdigris Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "White Mask",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Verdigris Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

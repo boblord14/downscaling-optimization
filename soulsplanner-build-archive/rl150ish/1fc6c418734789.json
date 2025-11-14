@@ -1,0 +1,629 @@
+{
+    "id": "1fc6c418734789",
+    "is2h": false,
+    "name": "Carian Knight",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Lulling Branch",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Starlight Shards",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fingerprint Nostrum",
+                    "order": 2,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 3,
+                    "equipIndex": 15
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 18,
+        "fth": 9,
+        "int": 72,
+        "mnd": 10,
+        "str": 19,
+        "vig": 59,
+        "vit": 33
+    },
+    "views": {
+        "overview": "swappa",
+        "item-view/right": "Equipment",
+        "protector-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Swift Glintstone Shard",
+                "order": 0
+            },
+            {
+                "name": "Carian Slicer",
+                "order": 1
+            },
+            {
+                "name": "Carian Greatsword",
+                "order": 2
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 3
+            },
+            {
+                "name": "Comet",
+                "order": 4
+            },
+            {
+                "name": "Star Shower",
+                "order": 5
+            },
+            {
+                "name": "Gravitational Missile",
+                "order": 6
+            },
+            {
+                "name": "Blades of Stone",
+                "order": 7
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 8
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "altered": 89.33333311,
+            "original": 67
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "arc": 10,
+            "fth": 10,
+            "int": 73
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 153,
+            "magic": 196,
+            "slash": 139,
+            "pierce": 139,
+            "strike": 139,
+            "physical": 139,
+            "lightning": 133
+        },
+        "maxHealth": 1887,
+        "absorption": {
+            "fire": 25.5704672623,
+            "holy": 24.629301415000004,
+            "magic": 24.491313838000007,
+            "slash": 30.348598960000007,
+            "pierce": 28.71654292,
+            "strike": 27.856981000000015,
+            "physical": 29.89690006240001,
+            "lightning": 24.260256860800013
+        },
+        "maxStamina": 133,
+        "resistances": {
+            "focus": 260,
+            "immunity": 339,
+            "vitality": 274,
+            "robustness": 335
+        },
+        "maxEquipLoad": 81.46597513
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Glintstone Kris",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Carian Sovereignty"
+            },
+            {
+                "name": "Zweihander",
+                "order": 7,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness",
+                "equipIndex": 0
+            },
+            {
+                "name": "Shamshir",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Carian Regal Scepter",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Helphen's Steeple",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Great Katana",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Divine Beast Frost Stomp"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 14,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step",
+                "equipIndex": 1
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Carian Knight's Sword",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Milady",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Wolf Crest Shield",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Carian Thrusting Shield",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Giant Hunt"
+            },
+            {
+                "name": "Golem Greatbow",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bone Bow",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Igon's Greatbow",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Azur's Glintstone Staff",
+                "order": 24,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Moonveil",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 0
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 1
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 2
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 3
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 4
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 5
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 6,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 7,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 8,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 9
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 10
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 11
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 12
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 13
+            },
+            {
+                "name": "Rellana's Cameo",
+                "order": 14
+            },
+            {
+                "name": "Mottled Necklace +2",
+                "order": 15
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 16
+            },
+            {
+                "name": "Clarifying Horn Charm +2",
+                "order": 17
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 18
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 19
+            },
+            {
+                "name": "Cerulean Seed Talisman +1",
+                "order": 20
+            },
+            {
+                "name": "Cerulean Seed Talisman +1",
+                "order": 21
+            },
+            {
+                "name": "Cerulean Seed Talisman +1",
+                "order": 22
+            },
+            {
+                "name": "Cerulean Seed Talisman +1",
+                "order": 23
+            },
+            {
+                "name": "Cerulean Seed Talisman +1",
+                "order": 24
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "White Reed Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rellana's Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 1
+                },
+                {
+                    "name": "Veteran's Armor",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Cuckoo Knight Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 1
+                },
+                {
+                    "name": "Snow Witch Hat",
+                    "order": 2
+                },
+                {
+                    "name": "Circlet of Light",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Crucible Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Scaled Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

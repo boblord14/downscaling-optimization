@@ -1,0 +1,878 @@
+{
+    "id": "5726cb4bf94f5c",
+    "name": "Comfy ArcStr",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Arcane"
+    ],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 45,
+        "dex": 19,
+        "fth": 8,
+        "int": 7,
+        "mnd": 9,
+        "str": 24,
+        "vig": 58,
+        "vit": 34
+    },
+    "views": {
+        "overview": "swappa"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Magic Fortification",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 76
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 185,
+            "holy": 181,
+            "magic": 141,
+            "slash": 135,
+            "pierce": 135,
+            "strike": 135,
+            "physical": 135,
+            "lightning": 127
+        },
+        "maxHealth": 2101.5072,
+        "absorption": {
+            "fire": 26.19077743500001,
+            "holy": 25.390086112,
+            "magic": 25.80309568,
+            "slash": 34.0511405152,
+            "pierce": 32.02857208,
+            "strike": 30.83657644000001,
+            "physical": 34.19840989240001,
+            "lightning": 26.332896159999997
+        },
+        "maxStamina": 148.5,
+        "resistances": {
+            "focus": 255,
+            "immunity": 343,
+            "vitality": 296,
+            "robustness": 348
+        },
+        "maxEquipLoad": 106.3829356
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Rift Shield",
+                "order": 0,
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Rift Shield",
+                "order": 1,
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Rift Shield",
+                "order": 2,
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Rift Shield",
+                "order": 3,
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Rift Shield",
+                "order": 4,
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Bloody Helice",
+                "order": 5,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bloody Helice",
+                "order": 6,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bloody Helice",
+                "order": 7,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bloody Helice",
+                "order": 8,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 9,
+                "infusion": "Occult",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Shamshir",
+                "order": 10,
+                "infusion": "Blood",
+                "weaponArt": "Bloody Slash"
+            },
+            {
+                "name": "Shamshir",
+                "order": 11,
+                "infusion": "Blood",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Lion Greatbow",
+                "order": 12,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Ripple Crescent Halberd",
+                "order": 13,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Ripple Blade",
+                "order": 14,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Venomous Fang",
+                "order": 15,
+                "infusion": "Occult",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Venomous Fang",
+                "order": 16,
+                "infusion": "Occult",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Lion Greatbow",
+                "order": 17,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Mohgwyn's Sacred Spear",
+                "order": 18,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Pike",
+                "order": 19,
+                "infusion": "Occult",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Reduvia",
+                "order": 20,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Reduvia",
+                "order": 21,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Reduvia",
+                "order": 22,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Reduvia",
+                "order": 23,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Reduvia",
+                "order": 24,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Great Stars",
+                "order": 25,
+                "infusion": "Occult",
+                "weaponArt": "Lion's Claw"
+            },
+            {
+                "name": "Great Stars",
+                "order": 26,
+                "infusion": "Occult",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Lion Greatbow",
+                "order": 27,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Scythe",
+                "order": 28,
+                "infusion": "Occult",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Scythe",
+                "order": 29,
+                "infusion": "Occult",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 30,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 31,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 32,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 33,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 34,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 35,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 36,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 37,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 38,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 39,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 40,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 41,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 42,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 43,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 44,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 45,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 46,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 47,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 48,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 49,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 50,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 51,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 52,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 53,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 54,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Banished Knight's Shield",
+                "order": 56,
+                "infusion": "Standard",
+                "weaponArt": "Holy Ground"
+            },
+            {
+                "name": "Pike",
+                "order": 58,
+                "infusion": "Occult",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Chainlink Flail",
+                "order": 59,
+                "infusion": "Occult",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 60,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 61,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Great Stars",
+                "order": 62,
+                "infusion": "Occult",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Wakizashi",
+                "order": 63,
+                "infusion": "Occult",
+                "weaponArt": "Bloody Slash"
+            },
+            {
+                "name": "Chainlink Flail",
+                "order": 64,
+                "infusion": "Occult",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 65,
+                "infusion": "Sacred",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 66,
+                "infusion": "Sacred",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 67,
+                "infusion": "Sacred",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 68,
+                "infusion": "Sacred",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 69,
+                "infusion": "Sacred",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 55,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Mohgwyn's Sacred Spear",
+                "order": 57,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Stalwart Horn Charm +1",
+                "order": 0
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 1
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 2
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 3
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 4
+            },
+            {
+                "name": "Clarifying Horn Charm +1",
+                "order": 5
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 6,
+                "equipIndex": 0
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 7
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 8,
+                "equipIndex": 1
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 9,
+                "equipIndex": 2
+            },
+            {
+                "name": "Immunizing Horn Charm +1",
+                "order": 10
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 11
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 12
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 13
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 14
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 15,
+                "equipIndex": 3
+            },
+            {
+                "name": "Hammer Talisman",
+                "order": 16
+            },
+            {
+                "name": "Concealing Veil",
+                "order": 17
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 18
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 19
+            },
+            {
+                "name": "Arrow's Sting Talisman",
+                "order": 20
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 21
+            },
+            {
+                "name": "Arrow's Reach Talisman",
+                "order": 22
+            },
+            {
+                "name": "Crimson Seed Talisman",
+                "order": 23
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 24
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 25
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 26
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 27
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 28
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 29
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Veteran's Gauntlets",
+                    "order": 0,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Beast Champion Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Banished Knight Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 4
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 5
+                },
+                {
+                    "name": "Haligtree Gauntlets",
+                    "order": 6
+                },
+                {
+                    "name": "Eccentric's Manchettes",
+                    "order": 7
+                },
+                {
+                    "name": "Radahn Soldier Gauntlets",
+                    "order": 8
+                },
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 9
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 0,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 1
+                },
+                {
+                    "name": "Godskin Noble Robe",
+                    "order": 2
+                },
+                {
+                    "name": "Godskin Noble Robe",
+                    "order": 3
+                },
+                {
+                    "name": "Godskin Noble Robe",
+                    "order": 4
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 5
+                },
+                {
+                    "name": "Veteran's Armor",
+                    "order": 6
+                },
+                {
+                    "name": "Beast Champion Armor",
+                    "order": 7
+                },
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 8
+                },
+                {
+                    "name": "Crucible Tree Armor",
+                    "order": 9
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Iron Kasa",
+                    "order": 0,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 1
+                },
+                {
+                    "name": "Olivinus Glintstone Crown",
+                    "order": 2
+                },
+                {
+                    "name": "Lazuli Glintstone Crown",
+                    "order": 3
+                },
+                {
+                    "name": "Okina Mask",
+                    "order": 4
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 5
+                },
+                {
+                    "name": "Veteran's Helm",
+                    "order": 6
+                },
+                {
+                    "name": "Mask of Confidence",
+                    "order": 7
+                },
+                {
+                    "name": "Imp Head (Wolf)",
+                    "order": 8
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 0,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Old Aristocrat Shoes",
+                    "order": 1
+                },
+                {
+                    "name": "Old Aristocrat Shoes",
+                    "order": 2
+                },
+                {
+                    "name": "Old Aristocrat Shoes",
+                    "order": 3
+                },
+                {
+                    "name": "Old Aristocrat Shoes",
+                    "order": 4
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 5
+                },
+                {
+                    "name": "Scaled Greaves",
+                    "order": 6
+                },
+                {
+                    "name": "Lionel's Greaves",
+                    "order": 7
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 8
+                },
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 9
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

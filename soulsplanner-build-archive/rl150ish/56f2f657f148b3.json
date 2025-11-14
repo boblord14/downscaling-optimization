@@ -1,0 +1,381 @@
+{
+    "id": "56f2f657f148b3",
+    "is2h": false,
+    "name": "Godslayer Tornado",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Faith",
+        "Caster"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Oil Pot",
+                    "order": 0
+                },
+                {
+                    "name": "Rot Pot",
+                    "order": 1
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 2
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 3
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 4
+                },
+                {
+                    "name": "Throwing Dagger",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "name",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 13,
+        "fth": 78,
+        "int": 9,
+        "mnd": 31,
+        "str": 16,
+        "vig": 50,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner",
+        "spells-view/left": "Calculate"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Blessing of the Erdtree",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            },
+            {
+                "name": "Frenzied Burst",
+                "order": 3
+            },
+            {
+                "name": "Flame of the Fell God",
+                "order": 4
+            },
+            {
+                "name": "Scouring Black Flame",
+                "order": 5
+            },
+            {
+                "name": "Black Flame",
+                "order": 6
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 7
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 205,
+        "poise": {
+            "original": 51
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "fth": 80
+        },
+        "defenses": {
+            "fire": 183,
+            "holy": 147,
+            "magic": 151,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 133
+        },
+        "maxHealth": 1959.6,
+        "absorption": {
+            "fire": 35.036092288,
+            "holy": 33.923696607999986,
+            "magic": 33.36700376403999,
+            "slash": 32.404230232319996,
+            "pierce": 30.98380522016,
+            "strike": 28.02509491527999,
+            "physical": 31.27846653941999,
+            "lightning": 32.278291309
+        },
+        "maxStamina": 139.15,
+        "resistances": {
+            "focus": 217,
+            "immunity": 276,
+            "vitality": 220,
+            "robustness": 288
+        },
+        "maxEquipLoad": 72
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Black Flame Tornado",
+                "equipIndex": 0
+            },
+            {
+                "name": "Black Knife",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Claymore",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Hammer",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 6,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Royal Knight's Resolve",
+                "equipIndex": 1
+            },
+            {
+                "name": "Erdtree Seal",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 2
+            },
+            {
+                "name": "Godslayer's Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Brass Shield",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "name",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Sacred Scorpion Charm",
+                "order": 4
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 5
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 6
+            }
+        ],
+        "sorting": {
+            "method": "name",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Mausoleum Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Gelmir Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Haligtree Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Mausoleum Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

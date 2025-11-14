@@ -1,0 +1,445 @@
+{
+    "id": "54b6318caf4403",
+    "is2h": false,
+    "name": "Shieldmage",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Magic-Shrouding Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 20,
+        "fth": 6,
+        "int": 56,
+        "mnd": 25,
+        "str": 40,
+        "vig": 50,
+        "vit": 23
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Stats",
+        "item-view/left": "All Items",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Scholar's Shield",
+                "order": 0
+            },
+            {
+                "name": "Miriam's Vanishing",
+                "order": 1
+            },
+            {
+                "name": "Carian Slicer",
+                "order": 2
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 3
+            },
+            {
+                "name": "Zamor Ice Storm",
+                "order": 4
+            },
+            {
+                "name": "Swift Glintstone Shard",
+                "order": 5
+            },
+            {
+                "name": "Glintstone Nail",
+                "order": 6
+            },
+            {
+                "name": "Cannon of Haima",
+                "order": 7
+            },
+            {
+                "name": "Eternal Darkness",
+                "order": 8
+            },
+            {
+                "name": "Gravitational Missile",
+                "order": 9
+            },
+            {
+                "name": "Law of Regression",
+                "order": 10
+            },
+            {
+                "name": "Law of Causality",
+                "order": 11
+            }
+        ]
+    },
+    "sliders": {
+        "id": "",
+        "name": "",
+        "images": [
+            {
+                "url": "",
+                "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "zoom": 1,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ],
+        "sliders": {},
+        "bodyType": "B"
+    },
+    "computed": {
+        "maxFP": 147,
+        "poise": {
+            "original": 56
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "arc": 10,
+            "fth": 7,
+            "int": 57
+        },
+        "defenses": {
+            "fire": 183,
+            "holy": 153,
+            "magic": 191,
+            "slash": 148,
+            "pierce": 148,
+            "strike": 148,
+            "physical": 148,
+            "lightning": 133
+        },
+        "maxHealth": 1704,
+        "absorption": {
+            "fire": 31.612315402900027,
+            "holy": 31.20555777580002,
+            "magic": 30.485570770000013,
+            "slash": 37.87431695200001,
+            "pierce": 37.339405696000014,
+            "strike": 34.81295325779802,
+            "physical": 38.143605836800006,
+            "lightning": 30.077392168000006
+        },
+        "maxStamina": 118,
+        "resistances": {
+            "focus": 230,
+            "immunity": 307,
+            "vitality": 253,
+            "robustness": 319
+        },
+        "maxEquipLoad": 68.82352941
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Carian Regal Scepter",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Academy Glintstone Staff",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Spinning Weapon",
+                "equipIndex": 0
+            },
+            {
+                "name": "Carian Glintblade Staff",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Carian Glintstone Staff",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Wing of Astel",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Carian Thrusting Shield",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Shield Strike",
+                "equipIndex": 3
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Carian Sorcery Sword",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 3
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 4
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 5
+            },
+            {
+                "name": "Primal Glintstone Blade",
+                "order": 6
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 7,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 8
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 9
+            },
+            {
+                "name": "Moon of Nokstella",
+                "order": 10
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Blaidd's Gauntlets",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Black Knife Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Night's Cavalry Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Rellana's Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Scaled Armor",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Blue Silver Mail Armor",
+                    "order": 4
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Circlet of Light",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "St. Trina's Blossom",
+                    "order": 1
+                },
+                {
+                    "name": "Leather Headband",
+                    "order": 2
+                },
+                {
+                    "name": "Aristocrat Headband",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Freyja's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Blaidd's Greaves",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prisoner"
+}
