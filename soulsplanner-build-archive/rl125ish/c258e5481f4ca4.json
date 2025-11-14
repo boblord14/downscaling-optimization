@@ -1,0 +1,306 @@
+{
+    "id": "c258e5481f4ca4",
+    "is2h": false,
+    "name": "Spite",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Arcane"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 70,
+        "dex": 20,
+        "fth": 8,
+        "int": 7,
+        "mnd": 9,
+        "str": 16,
+        "vig": 60,
+        "vit": 14
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 30
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "dex": 25
+        },
+        "defenses": {
+            "fire": 188,
+            "holy": 190,
+            "magic": 142,
+            "slash": 133,
+            "pierce": 133,
+            "strike": 133,
+            "physical": 133,
+            "lightning": 128
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 31.953987613,
+            "holy": 29.034603335529997,
+            "magic": 29.840029854625005,
+            "slash": 32.49237194519999,
+            "pierce": 31.685467372749997,
+            "strike": 30.447085584400003,
+            "physical": 32.283946060480005,
+            "lightning": 28.08661795285
+        },
+        "maxStamina": 103,
+        "resistances": {
+            "focus": 198,
+            "immunity": 266,
+            "vitality": 248,
+            "robustness": 253
+        },
+        "maxEquipLoad": 54.52941176
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Cross-Naginata",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Endure",
+                "equipIndex": 0
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Cragblade",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Pearldrake Talisman +2",
+                "order": 2
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Trigger in Presence of Blood Loss",
+            "Enhance Thrusting Counter Attacks",
+            "Successive 9 Hits"
+        ],
+        "crystalTears": true
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fingerprint Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Zamor Bracelets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Goldmask's Rags",
+                    "order": 0
+                },
+                {
+                    "name": "Traveler's Clothes",
+                    "order": 1
+                },
+                {
+                    "name": "Raging Wolf Armor (Altered)",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "White Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Fingerprint Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Knight Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Traveler's Boots",
+                    "order": 2
+                },
+                {
+                    "name": "Bloodhound Knight Greaves",
+                    "order": 3
+                },
+                {
+                    "name": "Blue Silver Mail Skirt",
+                    "order": 4
+                },
+                {
+                    "name": "Kaiden Trousers",
+                    "order": 5
+                },
+                {
+                    "name": "Nox Greaves",
+                    "order": 6
+                },
+                {
+                    "name": "Leather Trousers",
+                    "order": 7
+                },
+                {
+                    "name": "Old Aristocrat Shoes",
+                    "order": 8,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

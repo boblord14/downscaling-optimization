@@ -1,0 +1,2502 @@
+{
+    "id": "7fb3d1a8614148",
+    "is2h": false,
+    "name": "Meiscabke DEX",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity",
+        "Invasions",
+        "Hardswaps",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Freezing Pot",
+                    "order": 0,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 1,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Exalted Flesh",
+                    "order": 2,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Drawstring Lightning Grease",
+                    "order": 3
+                },
+                {
+                    "name": "Drawstring Blood Grease",
+                    "order": 4,
+                    "equipIndex": 3
+                },
+                {
+                    "name": "Drawstring Rot Grease",
+                    "order": 5,
+                    "equipIndex": 4
+                },
+                {
+                    "name": "Uplifting Aromatic",
+                    "order": 6,
+                    "equipIndex": 8
+                },
+                {
+                    "name": "Gourmet Scorpion Stew",
+                    "order": 7
+                },
+                {
+                    "name": "Lulling Branch",
+                    "order": 8
+                },
+                {
+                    "name": "Throwing Dagger",
+                    "order": 9,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fan Daggers",
+                    "order": 10,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Sleep Pot",
+                    "order": 11,
+                    "equipIndex": 5
+                },
+                {
+                    "name": "Volcano Pot",
+                    "order": 12,
+                    "equipIndex": 6
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 13,
+                    "equipIndex": 7
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 14,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 15,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 16,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Blessing of Marika",
+                    "order": 17
+                },
+                {
+                    "name": "Hefty Lightning Pot",
+                    "order": 18
+                },
+                {
+                    "name": "Hefty Frenzied Flame Pot",
+                    "order": 19
+                },
+                {
+                    "name": "Drawstring Royal Magic Grease",
+                    "order": 20
+                },
+                {
+                    "name": "Drawstring Dragonbolt Grease",
+                    "order": 21,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Fire Coil",
+                    "order": 22
+                },
+                {
+                    "name": "Sunwarmth Stone",
+                    "order": 23
+                },
+                {
+                    "name": "Warming Stone",
+                    "order": 24
+                },
+                {
+                    "name": "Frenzyflame Stone",
+                    "order": 25
+                },
+                {
+                    "name": "Drawstring Poison Grease",
+                    "order": 26
+                },
+                {
+                    "name": "Mohg's Great Rune",
+                    "order": 27
+                },
+                {
+                    "name": "Hefty Rock Pot",
+                    "order": 28
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Greenburst Crystal Tear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 8,
+        "dex": 50,
+        "fth": 8,
+        "int": 9,
+        "mnd": 15,
+        "str": 24,
+        "vig": 58,
+        "vit": 57
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Flame Fortification",
+                "order": 1
+            },
+            {
+                "name": "Magic Fortification",
+                "order": 2
+            },
+            {
+                "name": "Lightning Fortification",
+                "order": 3
+            },
+            {
+                "name": "Divine Fortification",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 109,
+        "poise": {
+            "original": 94
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 190,
+            "holy": 148,
+            "magic": 150,
+            "slash": 140,
+            "pierce": 140,
+            "strike": 140,
+            "physical": 140,
+            "lightning": 132
+        },
+        "maxHealth": 2151.65,
+        "absorption": {
+            "fire": 35.27174410299999,
+            "holy": 26.2512792928,
+            "magic": 26.501033732,
+            "slash": 35.40140968600001,
+            "pierce": 35.608112320000004,
+            "strike": 32.439499146,
+            "physical": 35.65562231359999,
+            "lightning": 25.603248736000005
+        },
+        "maxStamina": 180.55,
+        "resistances": {
+            "focus": 334,
+            "immunity": 351,
+            "vitality": 284,
+            "robustness": 371
+        },
+        "maxEquipLoad": 137.43809999
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Lance",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Vulgar Militia Shotel",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Lance",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Thunderbolt"
+            },
+            {
+                "name": "Shamshir",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Sword of Night",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Thunderbolt"
+            },
+            {
+                "name": "Claymore",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Blind Spot"
+            },
+            {
+                "name": "Commander's Standard",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Zamor Curved Sword",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Milady",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Lance",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Great Katana",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Raptor of the Mists"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Twinned Knight Swords",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Thunderbolt"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Twinned Knight Swords",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Glintblade Phalanx"
+            },
+            {
+                "name": "Zamor Curved Sword",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Star Fist",
+                "order": 30,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 31,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 32,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 33,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 34,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 35,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 36,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 37,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 38,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 39,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 40,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 41,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 42,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 43,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 44,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 45,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 46,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 47,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 48,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 49,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 50,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 51,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 52,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 53,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 54,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 55,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Longhaft Axe",
+                "order": 56,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Stone Club",
+                "order": 57,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Zweihander",
+                "order": 58,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Keen",
+                "weaponArt": "Royal Knight's Resolve",
+                "equipIndex": 0
+            },
+            {
+                "name": "Urumi",
+                "order": 59,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 60,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Thunderbolt"
+            },
+            {
+                "name": "Shamshir",
+                "order": 61,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 62,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Black Flame Tornado"
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 63,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 64,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Claymore",
+                "order": 65,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Milady",
+                "order": 66,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Zamor Curved Sword",
+                "order": 67,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Great Katana",
+                "order": 68,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 69,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 70,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 71,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Thunderbolt"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 72,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Dane's Footwork",
+                "order": 73,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Palm Blast"
+            },
+            {
+                "name": "Rakshasa's Great Katana",
+                "order": 74,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Great Katana",
+                "order": 75,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Milady",
+                "order": 76,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Raptor of the Mists"
+            },
+            {
+                "name": "Claws of Night",
+                "order": 77,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 78,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 79,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Star Fist",
+                "order": 80,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 81,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 82,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 83,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 84,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 85,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 86,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 87,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 88,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 89,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 90,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 91,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 92,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 93,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 94,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 95,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 96,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 97,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 98,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 99,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 100,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 101,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 102,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 103,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 104,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 105,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 106,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 107,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Swift Slash"
+            },
+            {
+                "name": "Falx",
+                "order": 108,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 109,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 110,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 111,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Thunderbolt"
+            },
+            {
+                "name": "Nagakiba",
+                "order": 112,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Dragon King's Cragblade",
+                "order": 113,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Zamor Curved Sword",
+                "order": 114,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Longhaft Axe",
+                "order": 115,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 116,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Blind Spot"
+            },
+            {
+                "name": "Nagakiba",
+                "order": 117,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Nagakiba",
+                "order": 118,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Omen Cleaver",
+                "order": 119,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Pata",
+                "order": 120,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Zamor Curved Sword",
+                "order": 121,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Milady",
+                "order": 122,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Antspur Rapier",
+                "order": 123,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 124,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Thunderbolt"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 125,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Godskin Peeler",
+                "order": 126,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Bolt of Gransax",
+                "order": 127,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dane's Footwork",
+                "order": 128,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Palm Blast"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 129,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 130,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 131,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 132,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 133,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 134,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 135,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 136,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 137,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 138,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 139,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 140,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 141,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 142,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 143,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 144,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 145,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 146,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 147,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 148,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 149,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 150,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 151,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 152,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 153,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 154,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Bone Bow",
+                "order": 155,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 156,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Dueling Shield",
+                "order": 157,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 158,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 159,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Black Bow",
+                "order": 160,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 161,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Assassin's Gambit"
+            },
+            {
+                "name": "Dueling Shield",
+                "order": 162,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 163,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Holy Ground"
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 164,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Holy Ground"
+            },
+            {
+                "name": "Ansbach's Longbow",
+                "order": 165,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Repeating Crossbow",
+                "order": 166,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Great Turtle Shell",
+                "order": 167,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 168,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 169,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Marika's Hammer",
+                "order": 170,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Hand of Malenia",
+                "order": 171,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Devourer's Scepter",
+                "order": 172,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Icon Shield",
+                "order": 173,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Icon Shield",
+                "order": 174,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lion Greatbow",
+                "order": 175,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lion Greatbow",
+                "order": 176,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lion Greatbow",
+                "order": 177,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 178,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 179,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Greatbow",
+                "order": 180,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 181,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 182,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 183,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 184,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 185,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 186,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 187,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 188,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 189,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 190,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 191,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 192,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 193,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 194,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 195,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 196,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 197,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 198,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 199,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 200,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 201,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 202,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 203,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Greatbow",
+                "order": 204,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Bloodhound's Step",
+                "equipIndex": 1
+            },
+            {
+                "name": "Zweihander",
+                "order": 26,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Lightning Slash",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 0
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 1
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 3
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 4
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 5
+            },
+            {
+                "name": "Arrow's Sting Talisman",
+                "order": 6
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 7,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 8
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 9
+            },
+            {
+                "name": "Hammer Talisman",
+                "order": 10
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 11
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 12
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 13
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 14
+            },
+            {
+                "name": "Clarifying Horn Charm +2",
+                "order": 15
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 16
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 17
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 18
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 19
+            },
+            {
+                "name": "Cerulean Seed Talisman +1",
+                "order": 20
+            },
+            {
+                "name": "Cerulean Seed Talisman +1",
+                "order": 21
+            },
+            {
+                "name": "Cerulean Seed Talisman +1",
+                "order": 22
+            },
+            {
+                "name": "Cerulean Seed Talisman +1",
+                "order": 23
+            },
+            {
+                "name": "Cerulean Seed Talisman +1",
+                "order": 24
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 25
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 26
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 27
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 28
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 29
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 30
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 31
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 32
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 33
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 34
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 35
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 36
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 37
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 38
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 39
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 40
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 41
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 42
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 43
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 44
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 45
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 46
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 47
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 48
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 49
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 50
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 51
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 52
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 53
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 54
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 55,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 56
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 57
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 58
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 59
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 60
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 61
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 62
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 63
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 64
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 65
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 66
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 67
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 68
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 69
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 70
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 71
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 72
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 73
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 74
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 75
+            },
+            {
+                "name": "Spelldrake Talisman +3",
+                "order": 76
+            },
+            {
+                "name": "Flamedrake Talisman +3",
+                "order": 77
+            },
+            {
+                "name": "Boltdrake Talisman +3",
+                "order": 78
+            },
+            {
+                "name": "Golden Braid",
+                "order": 79
+            },
+            {
+                "name": "Ailment Talisman",
+                "order": 80
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 81
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 82
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 83
+            },
+            {
+                "name": "Smithing Talisman",
+                "order": 84
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 85
+            },
+            {
+                "name": "Old Lord's Talisman",
+                "order": 86
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 87,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Arrow's Soaring Sting Talisman",
+                "order": 88
+            },
+            {
+                "name": "Talisman of All Crucibles",
+                "order": 89
+            },
+            {
+                "name": "Perfumer's Talisman",
+                "order": 90
+            },
+            {
+                "name": "Longtail Cat Talisman",
+                "order": 91
+            },
+            {
+                "name": "Outer God Heirloom",
+                "order": 92
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 93
+            },
+            {
+                "name": "Mottled Necklace +2",
+                "order": 94
+            },
+            {
+                "name": "Concealing Veil",
+                "order": 95
+            },
+            {
+                "name": "Prosthesis-Wearer Heirloom",
+                "order": 96
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 97
+            },
+            {
+                "name": "Stargazer Heirloom",
+                "order": 98
+            },
+            {
+                "name": "Crepus's Vial",
+                "order": 99
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 4
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 5
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 6
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 7
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 8
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 9
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 10
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 11
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 12
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 13
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 14
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 1
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 2
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 3
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 4
+                },
+                {
+                    "name": "Armor of Solitude (Altered)",
+                    "order": 5
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 6
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 7
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 8
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 9
+                },
+                {
+                    "name": "Tree Sentinel Armor (Altered)",
+                    "order": 10
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 11
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 12
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 13
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 14
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 15
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 16
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 17
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 18
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 19
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Lionel's Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 1
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 2
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 3
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 4
+                },
+                {
+                    "name": "Helm of Solitude",
+                    "order": 5
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 6
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 7
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 8
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 9
+                },
+                {
+                    "name": "Albinauric Mask",
+                    "order": 10
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 11
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 12
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 13
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 14
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 15
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 16
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 17
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 18
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 19
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 3
+                },
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 4
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 5
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 6
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 7
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 8
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 9
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 10
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 11
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 12
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 13
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 14
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 15
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 16
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 17
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 18
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 19
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Samurai"
+}

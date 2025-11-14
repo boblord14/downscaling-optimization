@@ -1,0 +1,412 @@
+{
+    "id": "1c10600c9c451c",
+    "pve": {
+        "revered": 20,
+        "scadutree": 20
+    },
+    "is2h": false,
+    "name": "PvE caster INT",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Magic-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 18,
+        "fth": 6,
+        "int": 80,
+        "mnd": 25,
+        "str": 14,
+        "vig": 60,
+        "vit": 17
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Greatblade Phalanx",
+                "order": 0
+            },
+            {
+                "name": "Terra Magica",
+                "order": 1
+            },
+            {
+                "name": "Ranni's Dark Moon",
+                "order": 2
+            },
+            {
+                "name": "Glintstone Icecrag",
+                "order": 3
+            },
+            {
+                "name": "Night Comet",
+                "order": 4
+            },
+            {
+                "name": "Carian Slicer",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 155,
+        "poise": {
+            "original": 51
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 150,
+            "magic": 197,
+            "slash": 136,
+            "pierce": 136,
+            "strike": 136,
+            "physical": 136,
+            "lightning": 132
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 30.76628503027916,
+            "holy": 29.7464205725934,
+            "magic": 29.7464205725934,
+            "slash": 39.53944276272944,
+            "pierce": 37.49907377559957,
+            "strike": 36.544927617819354,
+            "physical": 37.86163924127454,
+            "lightning": 29.050352597785945
+        },
+        "maxStamina": 108,
+        "resistances": {
+            "focus": 234,
+            "immunity": 277,
+            "vitality": 243,
+            "robustness": 277
+        },
+        "maxEquipLoad": 59.29411765
+    },
+    "greatRune": null,
+    "inventory": {
+        "slots": [
+            {
+                "name": "Clayman's Harpoon",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Ice Spear"
+            },
+            {
+                "name": "Wing of Astel",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Impaling Thrust",
+                "equipIndex": 0
+            },
+            {
+                "name": "Carian Glintstone Staff",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Staff of Loss",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Lusat's Glintstone Staff",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Staff of Loss",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Carian Regal Scepter",
+                "order": 9,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Dagger",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Order",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 3
+            },
+            {
+                "name": "Rellana's Cameo",
+                "order": 4
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 5
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 6
+            },
+            {
+                "name": "Blade of Mercy",
+                "order": 7,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 8
+            },
+            {
+                "name": "Golden Braid",
+                "order": 9
+            },
+            {
+                "name": "Pearldrake Talisman +3",
+                "order": 10
+            },
+            {
+                "name": "Spelldrake Talisman +3",
+                "order": 11
+            },
+            {
+                "name": "Flamedrake Talisman +3",
+                "order": 12
+            },
+            {
+                "name": "Boltdrake Talisman +3",
+                "order": 13
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 14,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Unknown #124",
+            "Unknown 34",
+            "HP above 100%",
+            "Trigger in Presence of Blood Loss"
+        ],
+        "crystalTears": true
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Knight Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Knight Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Knight Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Helm",
+                    "order": 1
+                },
+                {
+                    "name": "St. Trina's Blossom",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Knight Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prisoner"
+}

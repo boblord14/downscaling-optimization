@@ -1,0 +1,508 @@
+{
+    "id": "726db399234c09",
+    "is2h": false,
+    "name": "Str/Int Build (SL 150)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Magic-Shrouding Cracked Tear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 18,
+        "fth": 9,
+        "int": 31,
+        "mnd": 13,
+        "str": 54,
+        "vig": 58,
+        "vit": 39
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Night Shard",
+                "order": 0
+            },
+            {
+                "name": "Night Maiden's Mist",
+                "order": 1
+            },
+            {
+                "name": "Freezing Mist",
+                "order": 2
+            },
+            {
+                "name": "Terra Magica",
+                "order": 3
+            },
+            {
+                "name": "Scholar's Shield",
+                "order": 4
+            },
+            {
+                "name": "Unseen Blade",
+                "order": 5
+            },
+            {
+                "name": "Unseen Form",
+                "order": 6
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 80,
+        "poise": {
+            "original": 83
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "int": 33,
+            "vit": 41
+        },
+        "defenses": {
+            "fire": 191,
+            "holy": 147,
+            "magic": 181,
+            "slash": 158,
+            "pierce": 158,
+            "strike": 158,
+            "physical": 158,
+            "lightning": 133
+        },
+        "maxHealth": 1945.84,
+        "absorption": {
+            "fire": 27.672457636000015,
+            "holy": 26.915922366400004,
+            "magic": 26.1763756948,
+            "slash": 31.987091195200012,
+            "pierce": 30.58174169500001,
+            "strike": 30.393824928800008,
+            "physical": 32.12412006640001,
+            "lightning": 25.965789724
+        },
+        "maxStamina": 157.3,
+        "resistances": {
+            "focus": 364,
+            "immunity": 330,
+            "vitality": 299,
+            "robustness": 324
+        },
+        "maxEquipLoad": 118.61208759
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Royal Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Beast Claw",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Savage Claws"
+            },
+            {
+                "name": "Fallingstar Beast Jaw",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Star Fist",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Troll Knight's Sword",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonrithyll's Knight Sword",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Starscourge Greatsword",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Ruins Greatsword",
+                "order": 8,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Greatsword",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Spinning Gravity Thrust"
+            },
+            {
+                "name": "Death's Poker",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Claymore",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Carian Sovereignty"
+            },
+            {
+                "name": "Helphen's Steeple",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Grafted Blade Greatsword",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Rosus' Axe",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Ice Spear"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Carian Thrusting Shield",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Shield Strike"
+            },
+            {
+                "name": "Alabaster Lord's Sword",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Meteorite Staff",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Glintstone Kris",
+                "order": 13,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 20,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Cold",
+                "weaponArt": "Glintblade Phalanx",
+                "equipIndex": 3
+            },
+            {
+                "name": "Staff of Loss",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 3
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 4,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 5,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 6
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Blaidd's Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Gaius's Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Young Lion's Gauntlets",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Black Knight Gauntlets",
+                    "order": 4
+                },
+                {
+                    "name": "Malformed Dragon Gauntlets",
+                    "order": 5
+                },
+                {
+                    "name": "Godrick Soldier Gauntlets",
+                    "order": 6
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Armor of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Blaidd's Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Young Lion's Armor",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Salza's Hood",
+                    "order": 0
+                },
+                {
+                    "name": "Hierodas Glintstone Crown",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Young Lion's Helm",
+                    "order": 2
+                },
+                {
+                    "name": "Queen's Crescent Crown",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Blaidd's Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Young Lion's Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Mausoleum Knight Greaves",
+                    "order": 3
+                },
+                {
+                    "name": "Knight Greaves",
+                    "order": 4
+                },
+                {
+                    "name": "Ronin's Greaves",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

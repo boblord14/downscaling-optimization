@@ -1,0 +1,471 @@
+{
+    "id": "7636e1b00043e2",
+    "is2h": false,
+    "name": "ARC MAGE",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Duels",
+        "Faith",
+        "Caster",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 155,
+        "arc": 46,
+        "dex": 13,
+        "fth": 25,
+        "int": 34,
+        "mnd": 19,
+        "str": 17,
+        "vig": 55,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Stats",
+        "home/right": "Summary",
+        "spells-view/left": "Picker",
+        "weapons-view/left": "Picker",
+        "protector-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Impenetrable Thorns",
+                "order": 1
+            },
+            {
+                "name": "Bloodflame Talons",
+                "order": 2
+            },
+            {
+                "name": "Bloodboon",
+                "order": 3
+            },
+            {
+                "name": "Bloodflame Blade",
+                "order": 4
+            },
+            {
+                "name": "Briars of Punishment",
+                "order": 5
+            },
+            {
+                "name": "Furious Blade of Ansbach",
+                "order": 6
+            },
+            {
+                "name": "Bayle's Tyranny",
+                "order": 7
+            },
+            {
+                "name": "Catch Flame",
+                "order": 8
+            },
+            {
+                "name": "Miriam's Vanishing",
+                "order": 9
+            },
+            {
+                "name": "Swarm of Flies",
+                "order": 10
+            }
+        ]
+    },
+    "sliders": {
+        "id": "",
+        "name": "",
+        "images": [
+            {
+                "url": "",
+                "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "zoom": 1,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ],
+        "sliders": {},
+        "bodyType": "A"
+    },
+    "computed": {
+        "maxFP": 116,
+        "poise": {
+            "original": 40
+        },
+        "runes": {
+            "total": 7899347,
+            "toNextLevel": 168508
+        },
+        "stats": {
+            "arc": 49
+        },
+        "defenses": {
+            "fire": 189,
+            "holy": 189,
+            "magic": 183,
+            "slash": 139,
+            "pierce": 139,
+            "strike": 139,
+            "physical": 139,
+            "lightning": 134
+        },
+        "maxHealth": 1886.56,
+        "absorption": {
+            "fire": 25.3204964216,
+            "holy": 25.912596755200003,
+            "magic": 26.139236531200005,
+            "slash": 18.36071092180001,
+            "pierce": 17.9041153453,
+            "strike": 16.961086899999998,
+            "physical": 18.5433491524,
+            "lightning": 25.334068956400003
+        },
+        "maxStamina": 133.1,
+        "resistances": {
+            "focus": 348,
+            "immunity": 308,
+            "vitality": 389,
+            "robustness": 240
+        },
+        "maxEquipLoad": 77.76
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Dragon Communion Seal",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Staff of the Guilty",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Albinauric Staff",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 0
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Spinning Slash",
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 2,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Marika's Soreseal",
+                "order": 3
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 4,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 5
+            },
+            {
+                "name": "Primal Glintstone Blade",
+                "order": 6
+            },
+            {
+                "name": "Beloved Stardust",
+                "order": 7
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 8,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Thorn Spell",
+            "Affects Sorceries",
+            "Spell Power Boost",
+            "Trigger in Presence of Blood Loss"
+        ],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Braided Arm Wraps",
+                    "order": 0
+                },
+                {
+                    "name": "High Priest Gloves",
+                    "order": 1
+                },
+                {
+                    "name": "Messmer's Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Horned Warrior Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Divine Bird Warrior Gauntlets",
+                    "order": 4
+                },
+                {
+                    "name": "Death Knight Gauntlets",
+                    "order": 5
+                },
+                {
+                    "name": "Ascetic's Wrist Guards",
+                    "order": 6
+                },
+                {
+                    "name": "Alberich's Bracers",
+                    "order": 7,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Dryleaf Robe",
+                    "order": 0
+                },
+                {
+                    "name": "Ansbach's Attire",
+                    "order": 1
+                },
+                {
+                    "name": "Death Knight Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Alberich's Robe",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Black Knife Hood",
+                    "order": 0
+                },
+                {
+                    "name": "Nox Monk Hood (Altered)",
+                    "order": 1
+                },
+                {
+                    "name": "Skeletal Mask",
+                    "order": 2
+                },
+                {
+                    "name": "Black Hood",
+                    "order": 3
+                },
+                {
+                    "name": "Bandit Mask",
+                    "order": 4
+                },
+                {
+                    "name": "Confessor Hood",
+                    "order": 5
+                },
+                {
+                    "name": "Igon's Helm (Altered)",
+                    "order": 6
+                },
+                {
+                    "name": "Circlet of Light",
+                    "order": 7
+                },
+                {
+                    "name": "Mask of Confidence",
+                    "order": 8,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Iron Rivet Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Common Soldier Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Oathseeker Knight Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Dryleaf Cuissardes",
+                    "order": 3
+                },
+                {
+                    "name": "Messmer Soldier Greaves",
+                    "order": 4
+                },
+                {
+                    "name": "Nox Greaves",
+                    "order": 5
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 6
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 7,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

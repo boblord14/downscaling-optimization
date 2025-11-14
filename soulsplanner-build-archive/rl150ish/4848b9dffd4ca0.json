@@ -1,0 +1,376 @@
+{
+    "id": "4848b9dffd4ca0",
+    "is2h": false,
+    "name": "int/faith",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Hybrid",
+        "PvE",
+        "Hardswaps",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Cerulean Hidden Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 12,
+        "fth": 50,
+        "int": 50,
+        "mnd": 26,
+        "str": 12,
+        "vig": 50,
+        "vit": 20
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Triple Rings of Light",
+                "order": 0
+            },
+            {
+                "name": "Ancient Death Rancor",
+                "order": 1
+            },
+            {
+                "name": "Rykard's Rancor",
+                "order": 2
+            },
+            {
+                "name": "Star Shower",
+                "order": 3
+            },
+            {
+                "name": "Pest-Thread Spears",
+                "order": 4
+            },
+            {
+                "name": "Knight's Lightning Spear",
+                "order": 5
+            },
+            {
+                "name": "Fleeting Microcosm",
+                "order": 6
+            },
+            {
+                "name": "Gravitational Missile",
+                "order": 7
+            },
+            {
+                "name": "Dragonice",
+                "order": 8
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 152,
+        "poise": {
+            "original": 17
+        },
+        "runes": {
+            "total": 7108928,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "arc": 12
+        },
+        "defenses": {
+            "fire": 183,
+            "holy": 157,
+            "magic": 189,
+            "slash": 137,
+            "pierce": 137,
+            "strike": 137,
+            "physical": 137,
+            "lightning": 133
+        },
+        "maxHealth": 1772.16,
+        "absorption": {
+            "fire": 24.442697872000007,
+            "holy": 25.349500313600004,
+            "magic": 25.499749401600013,
+            "slash": 11.420458159000002,
+            "pierce": 7.68158233020001,
+            "strike": 8.530653850000004,
+            "physical": 7.68158233020001,
+            "lightning": 23.77461091950001
+        },
+        "maxStamina": 124.3,
+        "resistances": {
+            "focus": 318,
+            "immunity": 284,
+            "vitality": 331,
+            "robustness": 209
+        },
+        "maxEquipLoad": 69.18352941
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Staff of the Great Beyond",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Sword of Night and Flame",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Ice Spear"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 4
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 5,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Blaidd's Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Alberich's Bracers",
+                    "order": 1
+                },
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 3
+                },
+                {
+                    "name": "Errant Sorcerer Manchettes",
+                    "order": 4,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Hoslow's Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Alberich's Robe",
+                    "order": 1
+                },
+                {
+                    "name": "Preceptor's Long Gown",
+                    "order": 2
+                },
+                {
+                    "name": "Errant Sorcerer Robe (Altered)",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Diallos's Mask",
+                    "order": 0
+                },
+                {
+                    "name": "Mask of Confidence",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Haima Glintstone Crown",
+                    "order": 2
+                },
+                {
+                    "name": "Black Hood",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Blaidd's Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Scaled Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Alberich's Trousers",
+                    "order": 2
+                },
+                {
+                    "name": "Alberich's Trousers",
+                    "order": 3
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 4
+                },
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 5
+                },
+                {
+                    "name": "Alberich's Trousers",
+                    "order": 6
+                },
+                {
+                    "name": "Prisoner Trousers",
+                    "order": 7,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

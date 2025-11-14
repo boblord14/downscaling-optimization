@@ -1,0 +1,713 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Exported Character Data",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "stats": {
+            "type": "object",
+            "properties": {
+                "str": {
+                    "type": "number"
+                },
+                "dex": {
+                    "type": "number"
+                },
+                "int": {
+                    "type": "number"
+                },
+                "fth": {
+                    "type": "number"
+                },
+                "arc": {
+                    "type": "number"
+                },
+                "vig": {
+                    "type": "number"
+                },
+                "vit": {
+                    "type": "number"
+                },
+                "mnd": {
+                    "type": "number"
+                },
+                "rl": {
+                    "type": "number"
+                }
+            },
+            "description": "vit = endurance",
+            "required": [
+                "str",
+                "dex",
+                "int",
+                "fth",
+                "arc",
+                "vig",
+                "vit",
+                "mnd",
+                "rl"
+            ],
+            "additionalProperties": false
+        },
+        "inventory": {
+            "type": "object",
+            "properties": {
+                "slots": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "order": {
+                                "type": [
+                                    "number",
+                                    "null"
+                                ]
+                            },
+                            "upgrade": {
+                                "type": [
+                                    "number",
+                                    "null"
+                                ]
+                            },
+                            "equipSet": {
+                                "type": "array",
+                                "items": {
+                                    "type": "number"
+                                }
+                            },
+                            "infusion": {
+                                "type": "string"
+                            },
+                            "weaponArt": {
+                                "type": [
+                                    "string",
+                                    "null"
+                                ]
+                            },
+                            "equipIndex": {
+                                "type": "number"
+                            }
+                        },
+                        "required": [
+                            "name",
+                            "order",
+                            "infusion"
+                        ],
+                        "additionalProperties": false
+                    }
+                },
+                "sorting": {
+                    "type": "object",
+                    "properties": {
+                        "method": {
+                            "type": "string",
+                            "enum": [
+                                "default",
+                                "acquisition",
+                                "name",
+                                "weight",
+                                "attack",
+                                "damage",
+                                "stamina-consumption",
+                                "int-spell-buff",
+                                "faith-spell-buff",
+                                "arcane-spell-buff",
+                                "strength-scaling",
+                                "dexterity-scaling",
+                                "intelligence-scaling",
+                                "faith-scaling",
+                                "arcane-scaling",
+                                "strength-req",
+                                "dexterity-req",
+                                "intelligence-req",
+                                "faith-req",
+                                "arcane-req",
+                                "guard-boost",
+                                "physical-guard",
+                                "fire-guard",
+                                "lightning-guard",
+                                "magic-guard",
+                                "holy-guard"
+                            ]
+                        },
+                        "direction": {
+                            "type": "string",
+                            "enum": [
+                                "asc",
+                                "desc"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "method",
+                        "direction"
+                    ],
+                    "additionalProperties": false
+                },
+                "equipped": {
+                    "type": "array",
+                    "items": {}
+                }
+            },
+            "required": [
+                "slots",
+                "sorting"
+            ],
+            "additionalProperties": false
+        },
+        "talismans": {
+            "type": "object",
+            "properties": {
+                "slots": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "order": {
+                                "type": "number"
+                            },
+                            "equipSet": {
+                                "type": "array",
+                                "items": {
+                                    "type": "number"
+                                }
+                            },
+                            "equipIndex": {
+                                "type": "number"
+                            }
+                        },
+                        "required": [
+                            "name",
+                            "order"
+                        ],
+                        "additionalProperties": false
+                    }
+                },
+                "sorting": {
+                    "type": "object",
+                    "properties": {
+                        "method": {
+                            "type": "string",
+                            "enum": [
+                                "default",
+                                "acquisition",
+                                "name",
+                                "weight"
+                            ]
+                        },
+                        "direction": {
+                            "type": "string",
+                            "enum": [
+                                "asc",
+                                "desc"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "method",
+                        "direction"
+                    ],
+                    "additionalProperties": false
+                }
+            },
+            "required": [
+                "slots",
+                "sorting"
+            ],
+            "additionalProperties": false
+        },
+        "spells": {
+            "type": "object",
+            "properties": {
+                "slots": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "order": {
+                                "type": "number"
+                            }
+                        },
+                        "required": [
+                            "name",
+                            "order"
+                        ],
+                        "additionalProperties": false
+                    }
+                }
+            },
+            "required": [
+                "slots"
+            ],
+            "additionalProperties": false
+        },
+        "protectors": {
+            "type": "object",
+            "properties": {
+                "head": {
+                    "$ref": "#/definitions/protectorInventory"
+                },
+                "body": {
+                    "$ref": "#/definitions/protectorInventory"
+                },
+                "legs": {
+                    "$ref": "#/definitions/protectorInventory"
+                },
+                "arms": {
+                    "$ref": "#/definitions/protectorInventory"
+                }
+            },
+            "required": [
+                "head",
+                "body",
+                "legs",
+                "arms"
+            ],
+            "additionalProperties": false
+        },
+        "items": {
+            "type": "object",
+            "properties": {
+                "tools": {
+                    "type": "object",
+                    "properties": {
+                        "slots": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "order": {
+                                        "type": [
+                                            "number",
+                                            "null"
+                                        ]
+                                    },
+                                    "active": {
+                                        "type": "boolean"
+                                    }
+                                },
+                                "required": [
+                                    "name",
+                                    "order"
+                                ],
+                                "additionalProperties": false
+                            }
+                        },
+                        "sorting": {
+                            "type": "object",
+                            "properties": {
+                                "method": {
+                                    "type": "string",
+                                    "enum": [
+                                        "default",
+                                        "acquisition",
+                                        "name",
+                                        "fpCost"
+                                    ]
+                                },
+                                "direction": {
+                                    "type": "string",
+                                    "enum": [
+                                        "asc",
+                                        "desc"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "method",
+                                "direction"
+                            ],
+                            "additionalProperties": false
+                        }
+                    },
+                    "required": [
+                        "slots",
+                        "sorting"
+                    ],
+                    "additionalProperties": false
+                },
+                "ammo": {
+                    "type": "object",
+                    "properties": {
+                        "slots": {
+                            "type": "array",
+                            "items": {}
+                        }
+                    },
+                    "required": [
+                        "slots"
+                    ],
+                    "additionalProperties": false
+                },
+                "crystalTears": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "flasks": {
+                    "type": "object",
+                    "properties": {
+                        "crimson": {
+                            "type": "number"
+                        },
+                        "cerulean": {
+                            "type": "number"
+                        },
+                        "total": {
+                            "type": "number"
+                        },
+                        "level": {
+                            "type": "number"
+                        }
+                    },
+                    "required": [
+                        "crimson",
+                        "cerulean",
+                        "total",
+                        "level"
+                    ],
+                    "additionalProperties": false
+                }
+            },
+            "required": [
+                "tools",
+                "crystalTears",
+                "flasks"
+            ],
+            "additionalProperties": false
+        },
+        "is2h": {
+            "type": "boolean"
+        },
+        "isPvE": {
+            "type": "boolean"
+        },
+        "characterClass": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "weaponUpgrade": {
+            "type": "number"
+        },
+        "views": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "string"
+            }
+        },
+        "greatRune": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "conditions": {
+            "type": "object",
+            "properties": {
+                "forEffects": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "crystalTears": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "forEffects",
+                "crystalTears"
+            ],
+            "additionalProperties": false
+        },
+        "sets": {
+            "type": "object",
+            "properties": {
+                "weapons": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/equipSlotSet"
+                    }
+                },
+                "talismans": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/equipSlotSet"
+                    }
+                },
+                "protectors": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/equipSlotSet"
+                    }
+                }
+            },
+            "required": [
+                "weapons",
+                "talismans",
+                "protectors"
+            ],
+            "additionalProperties": false
+        },
+        "tags": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "computed": {
+            "$ref": "#/definitions/characterComputedValues"
+        },
+        "sliders": {
+            "$ref": "#/definitions/characterSliders"
+        },
+        "current": {
+            "type": "object",
+            "properties": {
+                "health": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "health"
+            ],
+            "additionalProperties": false
+        },
+        "pve": {
+            "type": "object",
+            "properties": {
+                "scadutree": {
+                    "type": "number"
+                },
+                "revered": {
+                    "type": "number"
+                },
+                "inDLC1": {
+                    "type": "boolean"
+                }
+            },
+            "additionalProperties": false
+        },
+        "manualTags": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "stats",
+        "inventory",
+        "talismans",
+        "spells",
+        "protectors",
+        "items",
+        "characterClass",
+        "weaponUpgrade",
+        "views",
+        "conditions",
+        "sets",
+        "tags"
+    ],
+    "additionalProperties": false,
+    "definitions": {
+        "protectorInventory": {
+            "type": "object",
+            "properties": {
+                "slots": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "order": {
+                                "type": "number"
+                            },
+                            "equipSet": {
+                                "type": "array",
+                                "items": {
+                                    "type": "number"
+                                }
+                            },
+                            "equipIndex": {
+                                "type": "number"
+                            }
+                        },
+                        "required": [
+                            "name",
+                            "order"
+                        ],
+                        "additionalProperties": false
+                    }
+                },
+                "sorting": {
+                    "type": "object",
+                    "properties": {
+                        "method": {
+                            "type": "string",
+                            "enum": [
+                                "default",
+                                "acquisition",
+                                "name",
+                                "weight"
+                            ]
+                        },
+                        "direction": {
+                            "type": "string",
+                            "enum": [
+                                "asc",
+                                "desc"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "method",
+                        "direction"
+                    ],
+                    "additionalProperties": false
+                }
+            },
+            "required": [
+                "slots",
+                "sorting"
+            ],
+            "additionalProperties": false
+        },
+        "equipSlotSet": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "active": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "name"
+            ],
+            "additionalProperties": false
+        },
+        "characterComputedValues": {
+            "type": "object",
+            "properties": {
+                "stats": {
+                    "type": "object",
+                    "properties": {
+                        "str": {
+                            "type": "number"
+                        },
+                        "dex": {
+                            "type": "number"
+                        },
+                        "int": {
+                            "type": "number"
+                        },
+                        "fth": {
+                            "type": "number"
+                        },
+                        "arc": {
+                            "type": "number"
+                        },
+                        "vig": {
+                            "type": "number"
+                        },
+                        "vit": {
+                            "type": "number"
+                        },
+                        "mnd": {
+                            "type": "number"
+                        },
+                        "rl": {
+                            "type": "number"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "maxHealth": {
+                    "type": "number"
+                },
+                "maxFP": {
+                    "type": "number"
+                },
+                "poise": {
+                    "type": "object",
+                    "properties": {
+                        "original": {
+                            "type": "number"
+                        },
+                        "altered": {
+                            "type": "number"
+                        }
+                    },
+                    "additionalProperties": false
+                },
+                "maxStamina": {
+                    "type": "number"
+                },
+                "maxEquipLoad": {
+                    "type": "number"
+                },
+                "absorption": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "number"
+                    }
+                },
+                "defenses": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "number"
+                    }
+                },
+                "resistances": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "number"
+                    }
+                },
+                "runes": {
+                    "type": "object",
+                    "properties": {
+                        "total": {
+                            "type": "number"
+                        },
+                        "toNextLevel": {
+                            "type": "number"
+                        }
+                    },
+                    "required": [
+                        "total",
+                        "toNextLevel"
+                    ],
+                    "additionalProperties": false
+                }
+            },
+            "additionalProperties": false
+        }
+    }
+}

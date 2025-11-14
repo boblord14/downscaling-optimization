@@ -1,0 +1,335 @@
+{
+    "id": "829b6a4a6d423b",
+    "is2h": false,
+    "name": "pve ice (trying for pvp)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Starlight Shards",
+                    "order": 3,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Throwing Dagger",
+                    "order": 4,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Prattling Pate \"Let's get to it\"",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            null
+        ]
+    },
+    "stats": {
+        "rl": 164,
+        "arc": 9,
+        "dex": 13,
+        "fth": 9,
+        "int": 60,
+        "mnd": 15,
+        "str": 16,
+        "vig": 99,
+        "vit": 22
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Armour Optimiser",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker",
+        "protector-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Zamor Ice Storm",
+                "order": 0
+            },
+            {
+                "name": "Freezing Mist",
+                "order": 1
+            },
+            {
+                "name": "Adula's Moonblade",
+                "order": 2
+            },
+            {
+                "name": "Night Comet",
+                "order": 3
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 95,
+        "poise": {
+            "altered": 67.99999983,
+            "original": 51
+        },
+        "runes": {
+            "total": 9486416,
+            "toNextLevel": 192441
+        },
+        "defenses": {
+            "fire": 205,
+            "holy": 153,
+            "magic": 195,
+            "slash": 140,
+            "pierce": 140,
+            "strike": 140,
+            "physical": 140,
+            "lightning": 135
+        },
+        "maxHealth": 2358.72,
+        "absorption": {
+            "fire": 25.02239553280001,
+            "holy": 24.421888403200008,
+            "magic": 22.856777754400003,
+            "slash": 25.77406052,
+            "pierce": 25.460152417800007,
+            "strike": 23.483351677600005,
+            "physical": 25.546606159999996,
+            "lightning": 21.81194855920001
+        },
+        "maxStamina": 127.6,
+        "resistances": {
+            "focus": 239,
+            "immunity": 301,
+            "vitality": 248,
+            "robustness": 304
+        },
+        "maxEquipLoad": 72.61411765
+    },
+    "greatRune": null,
+    "inventory": {
+        "slots": [
+            {
+                "name": "Buckler",
+                "order": 0
+            },
+            {
+                "name": "Man-Serpent's Shield",
+                "order": 1,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Estoc",
+                "order": 2,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "equipIndex": 4
+            },
+            {
+                "name": "Carian Regal Scepter",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Dark Moon Greatsword",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Godfrey Icon",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 1,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 3,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Ranni Spell",
+            "Full Moon Spell",
+            "Charged Attack",
+            "Charged Skill Attack",
+            "Unknown #497"
+        ],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Night's Cavalry Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Scaled Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Scaled Armor (Altered)",
+                    "order": 1
+                },
+                {
+                    "name": "Blaidd's Armor",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Snow Witch Hat",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Night's Cavalry Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

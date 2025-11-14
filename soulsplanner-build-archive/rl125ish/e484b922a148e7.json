@@ -1,0 +1,770 @@
+{
+    "id": "e484b922a148e7",
+    "is2h": false,
+    "name": "roll build",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 18,
+        "fth": 45,
+        "int": 9,
+        "mnd": 10,
+        "str": 22,
+        "vig": 58,
+        "vit": 35
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Impenetrable Thorns",
+                "order": 0
+            },
+            {
+                "name": "Mantle of Thorns",
+                "order": 1
+            },
+            {
+                "name": "Fire's Deadly Sin",
+                "order": 2
+            },
+            {
+                "name": "Electrocharge",
+                "order": 3
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 4
+            },
+            {
+                "name": "Heal from Afar",
+                "order": 5
+            },
+            {
+                "name": "Watchful Spirit",
+                "order": 6
+            },
+            {
+                "name": "Catch Flame",
+                "order": 7
+            },
+            {
+                "name": "Stone of Gurranq",
+                "order": 8
+            },
+            {
+                "name": "Night Maiden's Mist",
+                "order": 9
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 47
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "dex": 23
+        },
+        "defenses": {
+            "fire": 186,
+            "holy": 142,
+            "magic": 146,
+            "slash": 135,
+            "pierce": 135,
+            "strike": 135,
+            "physical": 135,
+            "lightning": 128
+        },
+        "maxHealth": 1871,
+        "absorption": {
+            "fire": 24.61212713440001,
+            "holy": 21.770878229200008,
+            "magic": 21.770878229200008,
+            "slash": 26.501033732,
+            "pierce": 24.61212713440001,
+            "strike": 22.699406079999996,
+            "physical": 25.51773522880001,
+            "lightning": 17.808877360000007
+        },
+        "maxStamina": 136,
+        "resistances": {
+            "focus": 207,
+            "immunity": 273,
+            "vitality": 214,
+            "robustness": 335
+        },
+        "maxEquipLoad": 84.09947079
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Holy Ground"
+            },
+            {
+                "name": "Icon Shield",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Erdsteel Dagger",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Antspur Rapier",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 9,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Bloodhound's Step",
+                "equipIndex": 1
+            },
+            {
+                "name": "Fire Knight's Greatsword",
+                "order": 10,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Lightning Ram",
+                "equipIndex": 0
+            },
+            {
+                "name": "Inseparable Sword",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Blinkbolt"
+            },
+            {
+                "name": "Black Steel Twinblade",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Aspects of the Crucible: Wings"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Sword of Light",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Sword of Darkness",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Golden Order Greatsword",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Death Knight's Twin Axes",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Coded Sword",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Coded Sword",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Shamshir",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Death Knight's Twin Axes",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Zweihander",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Golden Land"
+            },
+            {
+                "name": "Sword of Light",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Golden Epitaph",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Marika's Hammer",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Thunderbolt"
+            },
+            {
+                "name": "Queelign's Greatsword",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Black Knife",
+                "order": 30,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dueling Shield",
+                "order": 31,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Vow of the Indomitable"
+            },
+            {
+                "name": "Stone Club",
+                "order": 32,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Cipher Pata",
+                "order": 33,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Pata",
+                "order": 34,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Erdsteel Dagger",
+                "order": 35,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade",
+                "equipIndex": 3
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 36,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 37,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 38,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 39,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 40,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 41,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 42,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 43,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 44,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Lamenting Visage",
+                "order": 45,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lightning Perfume Bottle",
+                "order": 46,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rolling Sparks"
+            },
+            {
+                "name": "Barbed Staff-Spear",
+                "order": 47,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Shamshir",
+                "order": 48,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Iron Cleaver",
+                "order": 49,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Blinkbolt"
+            },
+            {
+                "name": "Gravel Stone Seal",
+                "order": 50,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Staff of the Guilty",
+                "order": 51,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Erdtree Seal",
+                "order": 52,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Rabbath's Cannon",
+                "order": 53,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lion Greatbow",
+                "order": 54,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Retaliatory Crossed-Tree",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Briar Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Death Knight Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 3
+                },
+                {
+                    "name": "Tree Sentinel Gauntlets",
+                    "order": 4
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Briar Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Death Knight Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 3
+                },
+                {
+                    "name": "Armor of Solitude",
+                    "order": 4
+                },
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 5
+                },
+                {
+                    "name": "Verdigris Armor",
+                    "order": 6
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Briar Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Death Knight Helm",
+                    "order": 1
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 2
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 3
+                },
+                {
+                    "name": "Incantation Scarab",
+                    "order": 4
+                },
+                {
+                    "name": "Glintstone Scarab",
+                    "order": 5
+                },
+                {
+                    "name": "Helm of Solitude",
+                    "order": 6
+                },
+                {
+                    "name": "Tree Sentinel Helm",
+                    "order": 7
+                },
+                {
+                    "name": "Verdigris Helm",
+                    "order": 8
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Briar Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Death Knight Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 3
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 4
+                },
+                {
+                    "name": "Verdigris Greaves",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

@@ -1,0 +1,877 @@
+{
+    "id": "86ed99033748f7",
+    "is2h": false,
+    "name": "Int swordsman",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Invasions",
+        "Duels",
+        "Co-op/Gank",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 18,
+        "fth": 9,
+        "int": 60,
+        "mnd": 14,
+        "str": 20,
+        "vig": 60,
+        "vit": 41
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker",
+        "protector-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 91,
+        "poise": {
+            "altered": 93.3333331,
+            "original": 70
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "arc": 8,
+            "fth": 10,
+            "int": 61
+        },
+        "defenses": {
+            "fire": 193,
+            "holy": 149,
+            "magic": 193,
+            "slash": 139,
+            "pierce": 139,
+            "strike": 139,
+            "physical": 139,
+            "lightning": 133
+        },
+        "maxHealth": 2173.6,
+        "absorption": {
+            "fire": 25.1706644515,
+            "holy": 24.49080860320001,
+            "magic": 24.267691532799994,
+            "slash": 29.856581199999997,
+            "pierce": 29.342473984000005,
+            "strike": 28.5030722152,
+            "physical": 30.369932416,
+            "lightning": 25.04895644800001
+        },
+        "maxStamina": 157.3,
+        "resistances": {
+            "focus": 243,
+            "immunity": 328,
+            "vitality": 261,
+            "robustness": 344
+        },
+        "maxEquipLoad": 99.67402319
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Zamor Curved Sword",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Zweihander",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Zamor Curved Sword",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Zweihander",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Zamor Curved Sword",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Carian Knight's Sword",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Carian Knight's Sword",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lance",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Glintblade Phalanx"
+            },
+            {
+                "name": "Lance",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Zweihander",
+                "order": 11,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Royal Knight's Resolve",
+                "equipIndex": 0
+            },
+            {
+                "name": "Dark Moon Greatsword",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Shamshir",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Rapier",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Zweihander",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Pata",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Dismounter",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Glintblade Phalanx"
+            },
+            {
+                "name": "Zweihander",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Zweihander",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Zweihander",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Zweihander",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Zweihander",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Zweihander",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Zweihander",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Zweihander",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Zweihander",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Zweihander",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Glintstone Kris",
+                "order": 30,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 31,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Divine Beast Frost Stomp"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 32,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Helphen's Steeple",
+                "order": 33,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dane's Footwork",
+                "order": 34,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Palm Blast"
+            },
+            {
+                "name": "Guardian's Swordspear",
+                "order": 35,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Loretta's Slash"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 36,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Great Katana",
+                "order": 37,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 38,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Milady",
+                "order": 39,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Carian Sovereignty"
+            },
+            {
+                "name": "Twinned Knight Swords",
+                "order": 40,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Guardian's Swordspear",
+                "order": 41,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Ice Spear"
+            },
+            {
+                "name": "Death's Poker",
+                "order": 42,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 43,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Royal Knight's Resolve"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 44,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Blind Spot"
+            },
+            {
+                "name": "Highland Axe",
+                "order": 45,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Bone Bow",
+                "order": 46,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Golem Greatbow",
+                "order": 47,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 48,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step",
+                "equipIndex": 1
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 49,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 50,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 51,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 52,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 53,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 54,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 1
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 3
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 5
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 6
+            },
+            {
+                "name": "Hammer Talisman",
+                "order": 7
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 8
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 9
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 10
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 11,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 12
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 13,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 14
+            },
+            {
+                "name": "Lacerating Crossed-Tree",
+                "order": 15
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 16
+            },
+            {
+                "name": "Retaliatory Crossed-Tree",
+                "order": 17
+            },
+            {
+                "name": "Roar Medallion",
+                "order": 18
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 19
+            },
+            {
+                "name": "Concealing Veil",
+                "order": 20
+            },
+            {
+                "name": "Arrow's Soaring Sting Talisman",
+                "order": 21
+            },
+            {
+                "name": "Crepus's Vial",
+                "order": 22
+            },
+            {
+                "name": "Arrow's Sting Talisman",
+                "order": 23
+            },
+            {
+                "name": "Crucible Knot Talisman",
+                "order": 24
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 25
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 26
+            },
+            {
+                "name": "Clarifying Horn Charm +2",
+                "order": 27
+            },
+            {
+                "name": "Mottled Necklace +2",
+                "order": 28
+            },
+            {
+                "name": "Host's Trick-Mirror",
+                "order": 29
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 30
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 31
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 32
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 33
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 34
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 35
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 36
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 37
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 38
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 39
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 40
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 41
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 42
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 43
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 44
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 45
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 46
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 47
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 48
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 49
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 50
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 51
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 52
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 53
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 54
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Armor of Solitude (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Scaled Armor (Altered)",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Raging Wolf Armor",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Helm of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Circlet of Light",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Skeletal Mask",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

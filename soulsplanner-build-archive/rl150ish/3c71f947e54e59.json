@@ -1,0 +1,410 @@
+{
+    "id": "3c71f947e54e59",
+    "is2h": false,
+    "name": "DLC Int/Fai",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 16,
+        "fth": 50,
+        "int": 47,
+        "mnd": 20,
+        "str": 13,
+        "vig": 60,
+        "vit": 14
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment",
+        "protector-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Gelmir's Fury",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            },
+            {
+                "name": "Terra Magica",
+                "order": 3
+            },
+            {
+                "name": "Swift Glintstone Shard",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "original": 25
+        },
+        "runes": {
+            "total": 7107396,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 21,
+            "int": 50
+        },
+        "defenses": {
+            "fire": 194,
+            "holy": 152,
+            "magic": 190,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 134
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 33.68046472402,
+            "holy": 34.101448813400005,
+            "magic": 34.548299920000005,
+            "slash": 42.1573804627456,
+            "pierce": 40.69074331921598,
+            "strike": 41.3557507283968,
+            "physical": 43.48702352649919,
+            "lightning": 33.18852737782
+        },
+        "maxStamina": 103,
+        "resistances": {
+            "focus": 315,
+            "immunity": 287,
+            "vitality": 283,
+            "robustness": 243
+        },
+        "maxEquipLoad": 54.52941176
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Royal Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Glintblade Phalanx"
+            },
+            {
+                "name": "Wing of Astel",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Carian Knight's Shield",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Carian Regal Scepter",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Rellana's Twin Blades",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Staff of the Great Beyond",
+                "order": 6,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Gelmir Glintstone Staff",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Gelmir Glintstone Staff",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Sword of Night and Flame",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Great Turtle Shell",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Barricade Shield"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 3
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 5
+            },
+            {
+                "name": "Stargazer Heirloom",
+                "order": 6
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 7
+            },
+            {
+                "name": "Rellana's Cameo",
+                "order": 8,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Talisman of the Dread",
+                "order": 9
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 10
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 11
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 12
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 13,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 14,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Spellblade's Gloves",
+                    "order": 0
+                },
+                {
+                    "name": "Vagabond Knight Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Beast Champion Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Braided Cord Robe",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Haima Glintstone Crown",
+                    "order": 0
+                },
+                {
+                    "name": "Greathood",
+                    "order": 1
+                },
+                {
+                    "name": "Queen's Crescent Crown",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Vagabond Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Warrior"
+}

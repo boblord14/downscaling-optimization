@@ -1,0 +1,777 @@
+{
+    "id": "7783a8b8824132",
+    "is2h": false,
+    "name": "99 dex invader",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Invasions",
+        "Dexterity"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 139,
+        "arc": 7,
+        "dex": 86,
+        "fth": 9,
+        "int": 9,
+        "mnd": 10,
+        "str": 16,
+        "vig": 58,
+        "vit": 23
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Flame Fortification",
+                "order": 1
+            },
+            {
+                "name": "Magic Fortification",
+                "order": 2
+            },
+            {
+                "name": "Lightning Fortification",
+                "order": 3
+            },
+            {
+                "name": "Divine Fortification",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 67
+        },
+        "stats": {
+            "dex": 99
+        },
+        "defenses": {
+            "fire": 191,
+            "holy": 147,
+            "magic": 151,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 133
+        },
+        "maxHealth": 2101.5072,
+        "absorption": {
+            "fire": 26.1377344684,
+            "holy": 25.488535221600007,
+            "magic": 24.8931460064,
+            "slash": 33.49005376,
+            "pierce": 32.39746616079999,
+            "strike": 29.5599209704,
+            "physical": 31.25754354879999,
+            "lightning": 24.952739377600007
+        },
+        "maxStamina": 129.8,
+        "resistances": {
+            "focus": -579.3333333333334,
+            "immunity": 329,
+            "vitality": 255,
+            "robustness": 336
+        },
+        "maxEquipLoad": 74.32941176
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Serpent-Hunter",
+                "order": 0,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 1,
+                "infusion": "Keen",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 2,
+                "infusion": "Keen",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 3,
+                "infusion": "Keen",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 4,
+                "infusion": "Keen",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Flail",
+                "order": 5,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Claymore",
+                "order": 6,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Impaling Thrust",
+                "equipIndex": 0
+            },
+            {
+                "name": "Claymore",
+                "order": 7,
+                "infusion": "Keen",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Urumi",
+                "order": 8,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 9,
+                "infusion": "Lightning",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 10,
+                "infusion": "Lightning",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 11,
+                "infusion": "Keen",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 12,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Golden Epitaph",
+                "order": 13,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 14,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Bloodhound's Step",
+                "equipIndex": 1
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 15,
+                "infusion": "Lightning",
+                "weaponArt": "Storm Assault"
+            },
+            {
+                "name": "Bandit's Curved Sword",
+                "order": 16,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Bandit's Curved Sword",
+                "order": 17,
+                "infusion": "Keen",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Zweihander",
+                "order": 18,
+                "infusion": "Poison",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Zweihander",
+                "order": 19,
+                "infusion": "Lightning",
+                "weaponArt": "Giant Hunt"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 20,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 21,
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 22,
+                "infusion": "Standard",
+                "weaponArt": "Holy Ground"
+            },
+            {
+                "name": "Icon Shield",
+                "order": 23,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Brass Shield",
+                "order": 24,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 25,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 26,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 27,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 28,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 29,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 30,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 31,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 32,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 33,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 34,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 35,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 36,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 37,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 38,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 39,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 40,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 41,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 42,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 43,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 44,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 45,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 46,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 47,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 48,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 49,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Misbegotten Shortbow",
+                "order": 50,
+                "infusion": "Standard",
+                "weaponArt": "Barrage"
+            },
+            {
+                "name": "Red Branch Shortbow",
+                "order": 51,
+                "infusion": "Standard",
+                "weaponArt": "Enchanted Shot"
+            },
+            {
+                "name": "Greatbow",
+                "order": 52,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Pulley Crossbow",
+                "order": 53,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 54,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Prosthesis-Wearer Heirloom",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 3
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Beast Champion Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Beast Champion Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Beast Champion Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Beast Champion Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Beast Champion Gauntlets",
+                    "order": 4
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 5
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 6
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 7
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 8
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 9
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Beast Champion Armor (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Beast Champion Armor (Altered)",
+                    "order": 1
+                },
+                {
+                    "name": "Beast Champion Armor (Altered)",
+                    "order": 2
+                },
+                {
+                    "name": "Beast Champion Armor (Altered)",
+                    "order": 3
+                },
+                {
+                    "name": "Beast Champion Armor (Altered)",
+                    "order": 4
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 5
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 6
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 7
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 8
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 9
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 10
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 11
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 12
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 13
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 14
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Okina Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Okina Mask",
+                    "order": 1
+                },
+                {
+                    "name": "Okina Mask",
+                    "order": 2
+                },
+                {
+                    "name": "Okina Mask",
+                    "order": 3
+                },
+                {
+                    "name": "Okina Mask",
+                    "order": 4
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 5
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 6
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 7
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 8
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 9
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 10
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 11
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 12
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 13
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 14
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 3
+                },
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 4
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 5
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 6
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 7
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 8
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 9
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

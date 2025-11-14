@@ -1,0 +1,487 @@
+{
+    "id": "0ee699806c43eb",
+    "is2h": true,
+    "name": "PvE blood build",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Hybrid",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Sacred Bloody Flesh",
+                    "order": 0,
+                    "equipIndex": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Thorny Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 50,
+        "dex": 10,
+        "fth": 10,
+        "int": 7,
+        "mnd": 9,
+        "str": 58,
+        "vig": 60,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 51
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 15,
+            "fth": 15
+        },
+        "defenses": {
+            "fire": 194,
+            "holy": 190,
+            "magic": 148,
+            "slash": 162,
+            "pierce": 162,
+            "strike": 162,
+            "physical": 162,
+            "lightning": 134
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 32.591868239259995,
+            "holy": 32.70142911889792,
+            "magic": 32.1819401598616,
+            "slash": 33.9973369772182,
+            "pierce": 32.57785266468015,
+            "strike": 32.1069886549912,
+            "physical": 32.11204789160511,
+            "lightning": 32.55359540992192
+        },
+        "maxStamina": 121,
+        "resistances": {
+            "focus": 260,
+            "immunity": 327,
+            "vitality": 298,
+            "robustness": 290
+        },
+        "maxEquipLoad": 72
+    },
+    "greatRune": null,
+    "inventory": {
+        "slots": [
+            {
+                "name": "Dagger",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Order"
+            },
+            {
+                "name": "Beastman's Curved Sword",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Beastman's Curved Sword",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Fire",
+                "weaponArt": "Royal Knight's Resolve"
+            },
+            {
+                "name": "Broadsword",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Highland Axe",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Star Fist",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Warped Axe",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Broadsword",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Marais Executioner's Sword",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Flowerstone Gavel",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Ancient Meteoric Ore Greatsword",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Gargoyle's Twinblade",
+                "order": 14,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Braggart's Roar",
+                "equipIndex": 0
+            },
+            {
+                "name": "Rusted Anchor",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Iron Greatsword",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Bloodfiend's Arm",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Greatsword",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Spinning Gravity Thrust"
+            },
+            {
+                "name": "Rusted Anchor",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Gargoyle's Twinblade",
+                "order": 10,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Braggart's Roar",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 4
+            },
+            {
+                "name": "Blade of Mercy",
+                "order": 5
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 6
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 7,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 8
+            },
+            {
+                "name": "Roar Medallion",
+                "order": 9
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 10,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 11
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 12
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 13
+            },
+            {
+                "name": "Golden Braid",
+                "order": 14
+            },
+            {
+                "name": "Pearldrake Talisman +3",
+                "order": 15
+            },
+            {
+                "name": "Spelldrake Talisman +3",
+                "order": 16
+            },
+            {
+                "name": "Flamedrake Talisman +3",
+                "order": 17
+            },
+            {
+                "name": "Boltdrake Talisman +3",
+                "order": 18
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 19
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Unknown #124",
+            "Unknown 34",
+            "HP above 100%"
+        ],
+        "crystalTears": true
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Ansbach's Manchettes",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Gravebird's Blackquill Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Rakshasa Helm",
+                    "order": 0
+                },
+                {
+                    "name": "White Mask",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Lionel's Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

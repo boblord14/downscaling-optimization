@@ -1,0 +1,322 @@
+{
+    "id": "7312b7043e40d4",
+    "is2h": false,
+    "name": "Rotten Gure",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Hybrid",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Dexterity-knot Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 145,
+        "arc": 35,
+        "dex": 38,
+        "fth": 35,
+        "int": 9,
+        "mnd": 15,
+        "str": 12,
+        "vig": 40,
+        "vit": 40
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            },
+            {
+                "name": "Rotten Butterflies",
+                "order": 2
+            },
+            {
+                "name": "Scarlet Aeonia",
+                "order": 3
+            },
+            {
+                "name": "Pest-Thread Spears",
+                "order": 4
+            },
+            {
+                "name": "Ekzykes's Decay",
+                "order": 5
+            },
+            {
+                "name": "Greyoll's Roar",
+                "order": 6
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 95,
+        "poise": {
+            "original": 19
+        },
+        "runes": {
+            "total": 6372695,
+            "toNextLevel": 144282
+        },
+        "defenses": {
+            "fire": 171,
+            "holy": 181,
+            "magic": 149,
+            "slash": 135,
+            "pierce": 135,
+            "strike": 135,
+            "physical": 135,
+            "lightning": 131
+        },
+        "maxHealth": 1450,
+        "absorption": {
+            "fire": 12.14577682300001,
+            "holy": 25.759216768000016,
+            "magic": 26.2512792928,
+            "slash": 15.65196437220001,
+            "pierce": 19.89762004450002,
+            "strike": 21.62930582560001,
+            "physical": 20.043558523900007,
+            "lightning": 25.35169496320001
+        },
+        "maxStamina": 142,
+        "resistances": {
+            "focus": 349,
+            "immunity": 430,
+            "vitality": 352,
+            "robustness": 277
+        },
+        "maxEquipLoad": 90.90021588
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Smithscript Cirque",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "The Poison Flower Blooms Twice"
+            },
+            {
+                "name": "Rotten Greataxe",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "The Poison Flower Blooms Twice"
+            },
+            {
+                "name": "Godslayer's Seal",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Antspur Rapier",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Poison",
+                "weaponArt": "The Poison Flower Blooms Twice",
+                "equipIndex": 0
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Briar Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Mushroom Arms",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Briar Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Mushroom Body",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Banished Knight Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Mushroom Crown",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Briar Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Mushroom Legs",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Confessor"
+}

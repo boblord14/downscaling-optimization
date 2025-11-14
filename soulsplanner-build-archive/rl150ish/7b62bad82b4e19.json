@@ -1,0 +1,358 @@
+{
+    "id": "7b62bad82b4e19",
+    "is2h": true,
+    "name": "Comet Azur lv 150",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "PvE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 3,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Rune Arc",
+                    "order": 4,
+                    "equipIndex": 3
+                },
+                {
+                    "name": "Furlcalling Finger Remedy",
+                    "order": 5,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Small Golden Effigy",
+                    "order": 6,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Tarnished's Furled Finger",
+                    "order": 7,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Lantern",
+                    "order": 8,
+                    "equipIndex": 12
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Intelligence-knot Crystal Tear",
+            "Magic-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 10,
+        "dex": 10,
+        "fth": 16,
+        "int": 60,
+        "mnd": 35,
+        "str": 10,
+        "vig": 58,
+        "vit": 30
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Comet Azur",
+                "order": 0
+            },
+            {
+                "name": "Unseen Form",
+                "order": 1
+            },
+            {
+                "name": "Unseen Blade",
+                "order": 2
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 3
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 4
+            },
+            {
+                "name": "The Flame of Frenzy",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 235,
+        "poise": {
+            "original": 15
+        },
+        "runes": {
+            "total": 7112459,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "arc": 15,
+            "dex": 15,
+            "fth": 21,
+            "int": 80,
+            "mnd": 40,
+            "str": 15,
+            "vig": 63,
+            "vit": 35
+        },
+        "defenses": {
+            "fire": 196,
+            "holy": 166,
+            "magic": 201,
+            "slash": 141,
+            "pierce": 141,
+            "strike": 141,
+            "physical": 141,
+            "lightning": 136
+        },
+        "maxHealth": 1630.3,
+        "absorption": {
+            "fire": 21.864334684600006,
+            "holy": 23.9255675722,
+            "magic": 23.9255675722,
+            "slash": -0.20993752087998807,
+            "pierce": -0.20993752087998807,
+            "strike": -3.2051759255000034,
+            "physical": -0.20993752087998807,
+            "lightning": 22.79241481600002
+        },
+        "maxStamina": 136,
+        "resistances": {
+            "focus": 302,
+            "immunity": 293,
+            "vitality": 314,
+            "robustness": 220
+        },
+        "maxEquipLoad": 84.09947079
+    },
+    "greatRune": "Godrick's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Carian Regal Scepter",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 1,
+                "upgrade": 0,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Dagger",
+                "order": 2,
+                "upgrade": 0,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Golden Vow",
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Stargazer Heirloom",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Primal Glintstone Blade",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Charged Skill Attack",
+            "Skill Attack",
+            "Affects Sorceries",
+            "Spell Power Boost",
+            "Frenzied Flame Spell",
+            "Full Moon Spell",
+            "Madness"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Spellblade's Gloves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Spellblade's Traveling Attire (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Spellblade's Pointed Hat",
+                    "order": 0
+                },
+                {
+                    "name": "Black Dumpling",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Spellblade's Trousers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Wretch"
+}

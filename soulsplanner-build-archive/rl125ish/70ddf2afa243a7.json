@@ -1,0 +1,294 @@
+{
+    "id": "70ddf2afa243a7",
+    "is2h": false,
+    "name": "Gure, the holy knight",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Holy-Shrouding Cracked Tear",
+            "Deflecting Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 130,
+        "arc": 10,
+        "dex": 12,
+        "fth": 50,
+        "int": 7,
+        "mnd": 20,
+        "str": 25,
+        "vig": 50,
+        "vit": 35
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            },
+            {
+                "name": "Heal from Afar",
+                "order": 2
+            },
+            {
+                "name": "Giant Golden Arc",
+                "order": 3
+            },
+            {
+                "name": "Aspects of the Crucible: Horns",
+                "order": 4
+            },
+            {
+                "name": "Aspects of the Crucible: Tail",
+                "order": 5
+            },
+            {
+                "name": "Knight's Lightning Spear",
+                "order": 6
+            },
+            {
+                "name": "Multilayered Ring of Light",
+                "order": 7
+            },
+            {
+                "name": "Black Blade",
+                "order": 8
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "original": 53
+        },
+        "runes": {
+            "total": 4504197,
+            "toNextLevel": 112361
+        },
+        "defenses": {
+            "fire": 178,
+            "holy": 148,
+            "magic": 142,
+            "slash": 136,
+            "pierce": 136,
+            "strike": 136,
+            "physical": 136,
+            "lightning": 128
+        },
+        "maxHealth": 1704,
+        "absorption": {
+            "fire": 23.20887053440001,
+            "holy": 21.65244544,
+            "magic": 23.321238900399997,
+            "slash": 19.703464688032025,
+            "pierce": 20.788154162560012,
+            "strike": 16.510512577816005,
+            "physical": 20.160734251312007,
+            "lightning": 18.43450715480001
+        },
+        "maxStamina": 136,
+        "resistances": {
+            "focus": 205,
+            "immunity": 270,
+            "vitality": 213,
+            "robustness": 306
+        },
+        "maxEquipLoad": 84.09947079
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Black Steel Greathammer",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Prayerful Strike",
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Sacred Scorpion Charm",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 4,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Black Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Leda's Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Black Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Black Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

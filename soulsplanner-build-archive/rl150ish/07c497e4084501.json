@@ -1,0 +1,752 @@
+{
+    "id": "07c497e4084501",
+    "is2h": false,
+    "name": "Bloody poise monster - Str/arc/fth* - Martial/Gish*",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Chicken leg"
+            },
+            {
+                "name": "Set #2",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Two-handed 101 poise"
+            },
+            {
+                "name": "Two-handed (lighter weapons)"
+            },
+            {
+                "name": "One-handed",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Duels",
+        "Caster",
+        "Strength",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "tools": {
+            "slots": [
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 0,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Swarm Pot",
+                    "order": 1
+                },
+                {
+                    "name": "Cursed-Blood Pot",
+                    "order": 2
+                },
+                {
+                    "name": "Volcano Pot",
+                    "order": 3
+                },
+                {
+                    "name": "Giantsflame Fire Pot",
+                    "order": 4
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 5,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 6,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 7,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Kukri",
+                    "order": 8,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Lantern",
+                    "order": 9,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Rune Arc",
+                    "order": 10,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Warming Stone",
+                    "order": 11,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Godrick's Great Rune",
+                    "order": 12
+                },
+                {
+                    "name": "Radahn's Great Rune",
+                    "order": 13
+                },
+                {
+                    "name": "Morgott's Great Rune",
+                    "order": 14
+                },
+                {
+                    "name": "Gold-Pickled Fowl Foot",
+                    "order": 15
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Stonebarb Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 45,
+        "dex": 16,
+        "fth": 15,
+        "int": 7,
+        "mnd": 10,
+        "str": 40,
+        "vig": 56,
+        "vit": 40
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            },
+            {
+                "name": "Bloodflame Blade",
+                "order": 2
+            },
+            {
+                "name": "Bloodflame Talons",
+                "order": 3
+            },
+            {
+                "name": "Bloodboon",
+                "order": 4
+            },
+            {
+                "name": "Swarm of Flies",
+                "order": 5
+            },
+            {
+                "name": "Stone of Gurranq",
+                "order": 6
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 89,
+        "poise": {
+            "original": 76
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 188,
+            "holy": 186,
+            "magic": 146,
+            "slash": 147,
+            "pierce": 147,
+            "strike": 147,
+            "physical": 147,
+            "lightning": 132
+        },
+        "maxHealth": 2193.464,
+        "absorption": {
+            "fire": 26.039561422,
+            "holy": 24.770747956600005,
+            "magic": 25.187185924000012,
+            "slash": 46.80114451456,
+            "pierce": 45.340818543999994,
+            "strike": 44.035194880000006,
+            "physical": 47.084832766720005,
+            "lightning": 24.482637145
+        },
+        "maxStamina": 179.63,
+        "resistances": {
+            "focus": 241,
+            "immunity": 325,
+            "vitality": 282,
+            "robustness": 375
+        },
+        "maxEquipLoad": 98.17223315
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Great Stars",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Great Stars",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Prelate's Charge"
+            },
+            {
+                "name": "Star Fist",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Iron Greatsword",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Blood Tax"
+            },
+            {
+                "name": "Longsword",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Broadsword",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Warped Axe",
+                "order": 8,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    0
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Barbaric Roar",
+                "equipIndex": 0
+            },
+            {
+                "name": "Beastman's Cleaver",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Bloody Slash"
+            },
+            {
+                "name": "Iron Cleaver",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Royal Knight's Resolve"
+            },
+            {
+                "name": "Spiked Spear",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Spiked Spear",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Spectral Lance"
+            },
+            {
+                "name": "Bloodfiend's Fork",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Bloodfiend's Fork",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Nightrider Glaive",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Double Slash"
+            },
+            {
+                "name": "Vulgar Militia Saw",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Spinning Strikes"
+            },
+            {
+                "name": "Mohgwyn's Sacred Spear",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Troll's Golden Sword",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "War Cry"
+            },
+            {
+                "name": "Watchdog's Greatsword",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Giant Hunt"
+            },
+            {
+                "name": "Executioner's Greataxe",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Great Omenkiller Cleaver",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Giant-Crusher",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Hoarah Loux's Earthshaker"
+            },
+            {
+                "name": "Marais Executioner's Sword",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Serpent Bow",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Chainlink Flail",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Spinning Weapon"
+            },
+            {
+                "name": "Great Mace",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Rotten Battle Hammer",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Golem's Halberd",
+                "order": 30,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Prayerful Strike"
+            },
+            {
+                "name": "Flamberge",
+                "order": 31,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Double Slash"
+            },
+            {
+                "name": "Omen Cleaver",
+                "order": 32,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Double Slash"
+            },
+            {
+                "name": "Zweihander",
+                "order": 33,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Eruption"
+            },
+            {
+                "name": "Ancient Meteoric Ore Greatsword",
+                "order": 34,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Flowerstone Gavel",
+                "order": 35,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bloodfiend's Sacred Spear",
+                "order": 36,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bloodfiend's Arm",
+                "order": 37,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Dueling Shield",
+                "order": 38,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Beast Claw",
+                "order": 39,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Savage Claws"
+            },
+            {
+                "name": "Putrescence Cleaver",
+                "order": 40,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Freyja's Greatsword",
+                "order": 41,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Savage Lion's Claw"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    1,
+                    1
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Golden Vow",
+                "equipIndex": 1
+            },
+            {
+                "name": "Briar Greatshield",
+                "order": 26,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    3
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Shield Crash",
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    4,
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 0
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 1,
+                "equipSet": [
+                    2
+                ]
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 2,
+                "equipSet": [
+                    1,
+                    null,
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ]
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 4,
+                "equipSet": [
+                    null,
+                    0,
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 5,
+                "equipSet": [
+                    null,
+                    2,
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Silver Scarab",
+                "order": 6
+            },
+            {
+                "name": "Gold Scarab",
+                "order": 7
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 8,
+                "equipSet": [
+                    null,
+                    1,
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 9
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 10,
+                "equipSet": [
+                    0,
+                    3
+                ]
+            },
+            {
+                "name": "Pearl Shield Talisman",
+                "order": 11
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 12
+            },
+            {
+                "name": "Curved Sword Talisman",
+                "order": 13
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 14
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Beast Champion Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Briar Gauntlets",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Raging Wolf Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Briar Armor",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Greathelm",
+                    "order": 0
+                },
+                {
+                    "name": "Banished Knight Helm",
+                    "order": 1
+                },
+                {
+                    "name": "Briar Helm",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Briar Greaves",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 24,
+    "characterClass": "Hero"
+}

@@ -1,0 +1,330 @@
+{
+    "id": "5b366c40d94352",
+    "is2h": false,
+    "name": "Endless Dancer",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity",
+        "PvE",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Ironjar Aromatic",
+                    "order": 0,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 1,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 2,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 3,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Scorpion Stew",
+                    "order": 4,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Lantern",
+                    "order": 5
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 6,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 7,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Rune Arc",
+                    "order": 8
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Bloodsucking Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 165,
+        "arc": 10,
+        "dex": 65,
+        "fth": 38,
+        "int": 10,
+        "mnd": 21,
+        "str": 10,
+        "vig": 60,
+        "vit": 30
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/right": "Inventories",
+        "item-view/left": "All Items",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Blessing of the Erdtree",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            }
+        ]
+    },
+    "sliders": {
+        "id": "",
+        "name": "",
+        "images": [
+            {
+                "url": "",
+                "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "zoom": 1,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ],
+        "sliders": {},
+        "bodyType": "B"
+    },
+    "computed": {
+        "maxFP": 126,
+        "poise": {
+            "original": 10
+        },
+        "runes": {
+            "total": 9681952,
+            "toNextLevel": 195229
+        },
+        "stats": {
+            "dex": 70
+        },
+        "defenses": {
+            "fire": 195,
+            "holy": 155,
+            "magic": 155,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 135
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 24.942748262400016,
+            "holy": 24.4544119192,
+            "magic": 24.942748262400016,
+            "slash": 16.73300147536,
+            "pierce": 10.042285730500012,
+            "strike": 10.042285730500012,
+            "physical": 13.028995677910004,
+            "lightning": 23.61873779200001
+        },
+        "maxStamina": 130,
+        "resistances": {
+            "focus": 296,
+            "immunity": 287,
+            "vitality": 314,
+            "robustness": 214
+        },
+        "maxEquipLoad": 77.64460262
+    },
+    "greatRune": "Malenia's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Dancing Blade of Ranah",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Dancer's Bracer",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Dancer's Dress",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Dancer's Hood",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Dancer's Trousers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Wretch"
+}

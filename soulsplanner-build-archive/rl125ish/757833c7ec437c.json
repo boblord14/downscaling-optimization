@@ -1,0 +1,445 @@
+{
+    "id": "757833c7ec437c",
+    "is2h": true,
+    "name": "gugu",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Boiled Crab",
+                    "order": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Greenburst Crystal Tear",
+            "Stonebarb Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 13,
+        "fth": 9,
+        "int": 9,
+        "mnd": 10,
+        "str": 66,
+        "vig": 45,
+        "vit": 45
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/main": "Current Equipment",
+        "home/right": "Summary",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Edit",
+        "protector-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 83
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "arc": 11
+        },
+        "defenses": {
+            "fire": 173,
+            "holy": 150,
+            "magic": 146,
+            "slash": 159,
+            "pierce": 159,
+            "strike": 159,
+            "physical": 159,
+            "lightning": 128
+        },
+        "maxHealth": 1644.24,
+        "absorption": {
+            "fire": 32.02247240506,
+            "holy": 22.56057473680001,
+            "magic": 22.822827967,
+            "slash": 30.98264786560001,
+            "pierce": 30.695522568616006,
+            "strike": 28.14982857532,
+            "physical": 31.91367651328,
+            "lightning": 21.72448329292001
+        },
+        "maxStamina": 162.8,
+        "resistances": {
+            "focus": 315,
+            "immunity": 314,
+            "vitality": 261,
+            "robustness": 327
+        },
+        "maxEquipLoad": 125.86706939
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Giant-Crusher",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Lion's Claw",
+                "equipIndex": 0
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Golden Vow"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Erdtree's Favor +1",
+                "order": 1
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 3,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 4
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 5,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Ancestral Spirit's Horn",
+                "order": 6
+            },
+            {
+                "name": "Taker's Cameo",
+                "order": 7
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 8
+            },
+            {
+                "name": "Stalwart Horn Charm +1",
+                "order": 9
+            }
+        ],
+        "sorting": {
+            "method": "weight",
+            "direction": "desc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Radahn's Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Gold Bracelets",
+                    "order": 2
+                },
+                {
+                    "name": "White Reed Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Blaidd's Gauntlets",
+                    "order": 4
+                },
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 5
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 6,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Radahn's Lion Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Armor of Solitude",
+                    "order": 2
+                },
+                {
+                    "name": "Veteran's Armor",
+                    "order": 3
+                },
+                {
+                    "name": "Leda's Armor",
+                    "order": 4
+                },
+                {
+                    "name": "Beast Champion Armor",
+                    "order": 5
+                },
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 6
+                },
+                {
+                    "name": "Bull-Goat Armor",
+                    "order": 7
+                },
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 8
+                },
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 9
+                },
+                {
+                    "name": "Fire Prelate Armor",
+                    "order": 10,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Radahn's Redmane Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Banished Knight Helm",
+                    "order": 1
+                },
+                {
+                    "name": "Helm of Solitude",
+                    "order": 2
+                },
+                {
+                    "name": "St. Trina's Blossom",
+                    "order": 3
+                },
+                {
+                    "name": "Festive Hood (Altered)",
+                    "order": 4
+                },
+                {
+                    "name": "Oathseeker Knight Helm",
+                    "order": 5
+                },
+                {
+                    "name": "White Mask",
+                    "order": 6
+                },
+                {
+                    "name": "Circlet of Light",
+                    "order": 7
+                },
+                {
+                    "name": "Festive Hood (Altered)",
+                    "order": 8
+                },
+                {
+                    "name": "Bull-Goat Helm",
+                    "order": 9
+                },
+                {
+                    "name": "Omensmirk Mask",
+                    "order": 10
+                },
+                {
+                    "name": "Rakshasa Helm",
+                    "order": 11
+                },
+                {
+                    "name": "Albinauric Mask",
+                    "order": 12,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Radahn's Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Prisoner Trousers",
+                    "order": 1
+                },
+                {
+                    "name": "Vagabond Knight Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Crucible Greaves",
+                    "order": 3
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 4
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 5
+                },
+                {
+                    "name": "Lionel's Greaves",
+                    "order": 6
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 7
+                },
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 8,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

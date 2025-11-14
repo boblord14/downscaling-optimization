@@ -1,0 +1,540 @@
+{
+    "id": "26b5b55a4a4f3f",
+    "is2h": false,
+    "name": "Skeleton knight",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Hybrid",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 16,
+        "fth": 34,
+        "int": 50,
+        "mnd": 22,
+        "str": 20,
+        "vig": 60,
+        "vit": 20
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Catch Flame",
+                "order": 0
+            },
+            {
+                "name": "Lightning Spear",
+                "order": 1
+            },
+            {
+                "name": "Wrath of Gold",
+                "order": 2
+            },
+            {
+                "name": "Beast Claw",
+                "order": 3
+            },
+            {
+                "name": "Mass of Putrescence",
+                "order": 4
+            },
+            {
+                "name": "Law of Regression",
+                "order": 5
+            },
+            {
+                "name": "Collapsing Stars",
+                "order": 6
+            },
+            {
+                "name": "Zamor Ice Storm",
+                "order": 7
+            },
+            {
+                "name": "Night Maiden's Mist",
+                "order": 8
+            },
+            {
+                "name": "Giant Golden Arc",
+                "order": 9
+            },
+            {
+                "name": "Gravitational Missile",
+                "order": 10
+            },
+            {
+                "name": "Wrath from Afar",
+                "order": 11
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 131,
+        "poise": {
+            "altered": 70.66666649,
+            "original": 53
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "fth": 39
+        },
+        "defenses": {
+            "fire": 193,
+            "holy": 147,
+            "magic": 189,
+            "slash": 139,
+            "pierce": 139,
+            "strike": 139,
+            "physical": 139,
+            "lightning": 133
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 23.36579804800001,
+            "holy": 21.14719361920001,
+            "magic": 23.085566084800018,
+            "slash": 26.884658825599995,
+            "pierce": 28.15040512000001,
+            "strike": 23.649028732,
+            "physical": 27.12076864640001,
+            "lightning": 26.00495848576001
+        },
+        "maxStamina": 113,
+        "resistances": {
+            "focus": 211,
+            "immunity": 282,
+            "vitality": 229,
+            "robustness": 296
+        },
+        "maxEquipLoad": 64.05882353
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Smithscript Axe",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Stamp (Upward Cut)"
+            },
+            {
+                "name": "Prince of Death's Staff",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Staff of the Great Beyond",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Smithscript Greathammer",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Smithscript Axe",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Black Steel Twinblade",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Smithscript Spear",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Divine Beast Frost Stomp"
+            },
+            {
+                "name": "Smithscript Axe",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Smithscript Cirque",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Swift Slash"
+            },
+            {
+                "name": "Dueling Shield",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Shield Strike"
+            },
+            {
+                "name": "Messmer Soldier's Axe",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Hoarfrost Stomp"
+            },
+            {
+                "name": "Chilling Perfume Bottle",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Frenzyflame Perfume Bottle",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Nanaya's Torch",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Smithscript Dagger",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Scattershot Throw"
+            },
+            {
+                "name": "Carian Knight's Sword",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Smithscript Spear",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Sentry's Torch",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lordsworn's Straight Sword",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Erdtree Bow",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bone Bow",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Pillory Shield",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Rabbath's Cannon",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Pata",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Repeating Crossbow",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 29,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Cold",
+                "weaponArt": "Ice Spear",
+                "equipIndex": 0
+            },
+            {
+                "name": "Gazing Finger",
+                "order": 30,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Gelmir Glintstone Staff",
+                "order": 31,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Academy Glintstone Staff",
+                "order": 18,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Golden Order Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Lordsworn's Greatsword",
+                "order": 32,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Stamp (Upward Cut)"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 33,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Stamp (Upward Cut)"
+            }
+        ],
+        "sorting": {
+            "method": "weight",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Boltdrake Talisman +3",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 3
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Black Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Black Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Death Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Oathseeker Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

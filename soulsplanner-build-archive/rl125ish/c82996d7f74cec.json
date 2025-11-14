@@ -1,0 +1,532 @@
+{
+    "id": "c82996d7f74cec",
+    "pve": {
+        "inDLC1": true,
+        "revered": 20,
+        "scadutree": 20
+    },
+    "is2h": false,
+    "name": "Dragon Slayer",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Invasions",
+        "PvE",
+        "Strength",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Exalted Flesh",
+                    "order": 0,
+                    "active": true
+                },
+                {
+                    "name": "Uplifting Aromatic",
+                    "order": 1,
+                    "active": true
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Lightning-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 127,
+        "arc": 7,
+        "dex": 52,
+        "fth": 9,
+        "int": 9,
+        "mnd": 10,
+        "str": 20,
+        "vig": 60,
+        "vit": 39
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Stats",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "altered": 107.99999973,
+            "original": 81
+        },
+        "runes": {
+            "total": 4182861,
+            "toNextLevel": 106582
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 141,
+            "magic": 145,
+            "slash": 133,
+            "pierce": 133,
+            "strike": 133,
+            "physical": 133,
+            "lightning": 127
+        },
+        "maxHealth": 1976,
+        "absorption": {
+            "fire": 92.6807138375,
+            "holy": 92.59341167341,
+            "magic": 92.6421403216,
+            "slash": 93.872914985536,
+            "pierce": 93.697310728,
+            "strike": 93.53968291089998,
+            "physical": 93.91196410048,
+            "lightning": 92.648701144
+        },
+        "maxStamina": 155.1,
+        "resistances": {
+            "focus": 249,
+            "immunity": 339,
+            "vitality": 265,
+            "robustness": 377
+        },
+        "maxEquipLoad": 96.68042876
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Zamor Curved Sword",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Zamor Curved Sword",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Zamor Curved Sword",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Zamor Curved Sword",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Zamor Curved Sword",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Riveted Wooden Shield",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Messmer Soldier's Spear",
+                "order": 6,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Piercing Fang",
+                "equipIndex": 0
+            },
+            {
+                "name": "Messmer Soldier's Spear",
+                "order": 7,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Giant Hunt",
+                "equipIndex": 3
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Storm Assault"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Nagakiba",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Unsheathe"
+            },
+            {
+                "name": "Nagakiba",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Pike",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Giant Hunt"
+            },
+            {
+                "name": "Pike",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Iron Cleaver",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Blinkbolt"
+            },
+            {
+                "name": "Banished Knight's Greatsword",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Raptor of the Mists"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Pata",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Shamshir",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Dismounter",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Guardian's Swordspear",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Stormhawk Axe",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Stormhawk Axe",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Stormhawk Axe",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Stormhawk Axe",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Stormhawk Axe",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 1
+            },
+            {
+                "name": "Assassin's Crimson Dagger",
+                "order": 2
+            },
+            {
+                "name": "Blade of Mercy",
+                "order": 3
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 4
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 5,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 6,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 7,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Lightning Scorpion Charm",
+                "order": 8
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 9
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 10
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Enhance Thrusting Counter Attacks",
+            "HP below 21%"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Malformed Dragon Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Scaled Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Banished Knight Helm (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Greathelm",
+                    "order": 1
+                },
+                {
+                    "name": "Veteran's Helm",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Scaled Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Malformed Dragon Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

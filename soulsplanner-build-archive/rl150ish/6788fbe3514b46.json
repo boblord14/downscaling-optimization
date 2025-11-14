@@ -1,0 +1,289 @@
+{
+    "id": "6788fbe3514b46",
+    "is2h": false,
+    "name": "Tremor",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 10,
+        "dex": 10,
+        "fth": 30,
+        "int": 7,
+        "mnd": 20,
+        "str": 60,
+        "vig": 57,
+        "vit": 35
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Sling",
+                "order": 0
+            },
+            {
+                "name": "Beast Claw",
+                "order": 1
+            },
+            {
+                "name": "Stone of Gurranq",
+                "order": 2
+            },
+            {
+                "name": "Gurranq's Beast Claw",
+                "order": 3
+            },
+            {
+                "name": "Bestial Constitution",
+                "order": 4
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "original": 58
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 189,
+            "holy": 152,
+            "magic": 146,
+            "slash": 162,
+            "pierce": 162,
+            "strike": 162,
+            "physical": 162,
+            "lightning": 132
+        },
+        "maxHealth": 1853,
+        "absorption": {
+            "fire": 23.74566505750001,
+            "holy": 22.651198794999992,
+            "magic": 23.345590999599995,
+            "slash": 29.877205779999993,
+            "pierce": 30.193100536960003,
+            "strike": 29.350040304160007,
+            "physical": 30.4612258648,
+            "lightning": 23.974951041999994
+        },
+        "maxStamina": 136,
+        "resistances": {
+            "focus": 259,
+            "immunity": 330,
+            "vitality": 273,
+            "robustness": 307
+        },
+        "maxEquipLoad": 84.09947079
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Giant-Crusher",
+                "order": 0,
+                "infusion": "Standard",
+                "weaponArt": "Earthshaker"
+            },
+            {
+                "name": "Beastclaw Greathammer",
+                "order": 3,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Cinquedea",
+                "order": 2,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 1,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Radagon Icon",
+                "order": 0,
+                "equipIndex": 1
+            },
+            {
+                "name": "Boltdrake Talisman +2",
+                "order": 1
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipIndex": 2
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 4,
+                "equipIndex": 0
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 5,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Zamor Bracelets",
+                    "order": 0
+                },
+                {
+                    "name": "Battlemage Manchettes",
+                    "order": 1
+                },
+                {
+                    "name": "Bloodhound Knight Gauntlets",
+                    "order": 2,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Guardian Garb",
+                    "order": 0
+                },
+                {
+                    "name": "Fingerprint Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Highwayman Cloth Armor",
+                    "order": 2,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Champion Headband",
+                    "order": 0
+                },
+                {
+                    "name": "Jar",
+                    "order": 1,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Crucible Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 1,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

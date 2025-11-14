@@ -1,0 +1,542 @@
+{
+    "id": "eab02b7c824228",
+    "name": "125 INT Duels",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Duels",
+        "Intelligence"
+    ],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Neutralizing Boluses",
+                    "order": 0,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 1,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Thawfrost Boluses",
+                    "order": 2,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Stimulating Boluses",
+                    "order": 3,
+                    "equipIndex": 6
+                },
+                {
+                    "name": "Clarifying Boluses",
+                    "order": 4,
+                    "equipIndex": 5
+                },
+                {
+                    "name": "Preserving Boluses",
+                    "order": 5,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Crystal Dart",
+                    "order": 6,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Freezing Pot",
+                    "order": 7,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Large Glintstone Scrap",
+                    "order": 8,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Sleep Pot",
+                    "order": 9,
+                    "equipIndex": 15
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 18,
+        "fth": 9,
+        "int": 50,
+        "mnd": 10,
+        "str": 20,
+        "vig": 60,
+        "vit": 30
+    },
+    "views": {
+        "overview": "swappa"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Carian Slicer",
+                "order": 0
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 1
+            },
+            {
+                "name": "Swift Glintstone Shard",
+                "order": 2
+            },
+            {
+                "name": "Star Shower",
+                "order": 3
+            },
+            {
+                "name": "Terra Magica",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "altered": 103.99999974,
+            "original": 78
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 141,
+            "magic": 183,
+            "slash": 133,
+            "pierce": 133,
+            "strike": 133,
+            "physical": 133,
+            "lightning": 127
+        },
+        "maxHealth": 2052,
+        "absorption": {
+            "fire": 26.113093601500005,
+            "holy": 24.84605548990001,
+            "magic": 25.416653469999993,
+            "slash": 34.5330215344,
+            "pierce": 33.08577625000001,
+            "strike": 31.05151543000001,
+            "physical": 34.74448117960001,
+            "lightning": 24.791743359999995
+        },
+        "maxStamina": 130,
+        "resistances": {
+            "focus": 238,
+            "immunity": 328,
+            "vitality": 257,
+            "robustness": 339
+        },
+        "maxEquipLoad": 92.39707712
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Glintstone Kris",
+                "order": 0,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Longsword",
+                "order": 1,
+                "infusion": "Blood",
+                "weaponArt": "Bloody Slash"
+            },
+            {
+                "name": "Rogier's Rapier",
+                "order": 2,
+                "infusion": "Magic",
+                "weaponArt": "Hoarfrost Stomp"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 3,
+                "infusion": "Cold",
+                "weaponArt": "Ice Spear"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 4,
+                "infusion": "Magic",
+                "weaponArt": "Loretta's Slash"
+            },
+            {
+                "name": "Carian Knight's Sword",
+                "order": 5,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Carian Knight's Sword",
+                "order": 6,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Rogier's Rapier",
+                "order": 7,
+                "infusion": "Cold",
+                "weaponArt": "Hoarfrost Stomp"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 8,
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 9,
+                "infusion": "Magic",
+                "weaponArt": "Glintblade Phalanx"
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 10,
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Moonveil",
+                "order": 11,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Star Fist",
+                "order": 12,
+                "infusion": "Cold",
+                "weaponArt": "Hoarfrost Stomp"
+            },
+            {
+                "name": "Moonveil",
+                "order": 13,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 14,
+                "infusion": "Magic",
+                "weaponArt": "Glintblade Phalanx"
+            },
+            {
+                "name": "Lance",
+                "order": 15,
+                "infusion": "Cold",
+                "weaponArt": "Glintblade Phalanx"
+            },
+            {
+                "name": "Lance",
+                "order": 16,
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Wakizashi",
+                "order": 17,
+                "infusion": "Cold",
+                "weaponArt": "Hoarfrost Stomp"
+            },
+            {
+                "name": "Shamshir",
+                "order": 18,
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist",
+                "equipIndex": 0
+            },
+            {
+                "name": "Shamshir",
+                "order": 19,
+                "infusion": "Cold",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Short Spear",
+                "order": 20,
+                "infusion": "Magic",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Short Spear",
+                "order": 21,
+                "infusion": "Magic",
+                "weaponArt": "Glintblade Phalanx"
+            },
+            {
+                "name": "Wakizashi",
+                "order": 22,
+                "infusion": "Magic",
+                "weaponArt": "Hoarfrost Stomp"
+            },
+            {
+                "name": "Shamshir",
+                "order": 23,
+                "infusion": "Magic",
+                "weaponArt": "Glintblade Phalanx"
+            },
+            {
+                "name": "Shamshir",
+                "order": 24,
+                "infusion": "Magic",
+                "weaponArt": "Sword Dance"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Hammer Talisman",
+                "order": 0
+            },
+            {
+                "name": "Haligdrake Talisman +2",
+                "order": 1
+            },
+            {
+                "name": "Immunizing Horn Charm +1",
+                "order": 2
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 3
+            },
+            {
+                "name": "Pearldrake Talisman +2",
+                "order": 4
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 5
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 6
+            },
+            {
+                "name": "Stalwart Horn Charm +1",
+                "order": 7
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 8
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 9
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 10
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 11,
+                "equipIndex": 0
+            },
+            {
+                "name": "Clarifying Horn Charm +1",
+                "order": 12
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 13,
+                "equipIndex": 1
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 14
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 15
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 16
+            },
+            {
+                "name": "Viridian Amber Medallion +2",
+                "order": 17
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 18
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 19
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 20
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 21
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 22,
+                "equipIndex": 2
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 23
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 24
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 25
+            },
+            {
+                "name": "Carian Filigreed Crest",
+                "order": 26
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 27
+            },
+            {
+                "name": "Mottled Necklace +1",
+                "order": 28
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 29,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 0,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Banished Knight Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Knight Gauntlets",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Raging Wolf Helm",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 0,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Scaled Greaves",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

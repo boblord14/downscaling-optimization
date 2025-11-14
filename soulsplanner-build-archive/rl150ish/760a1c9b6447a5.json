@@ -1,0 +1,509 @@
+{
+    "id": "760a1c9b6447a5",
+    "is2h": false,
+    "name": "Holy summoner - Fth - Mage/Gish*",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Lightning spells",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "Caster",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "tools": {
+            "slots": [
+                {
+                    "name": "Tarnished's Furled Finger",
+                    "order": 0
+                },
+                {
+                    "name": "Taunter's Tongue",
+                    "order": 1
+                },
+                {
+                    "name": "Small Golden Effigy",
+                    "order": 2,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Radahn's Great Rune",
+                    "order": 3
+                },
+                {
+                    "name": "Morgott's Great Rune",
+                    "order": 4
+                },
+                {
+                    "name": "Godrick's Great Rune",
+                    "order": 5
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 6,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Furlcalling Finger Remedy",
+                    "order": 7
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 8,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 9,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 10,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 11,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Lantern",
+                    "order": 12,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Warming Stone",
+                    "order": 13,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Frenzyflame Stone",
+                    "order": 14
+                },
+                {
+                    "name": "Sunwarmth Stone",
+                    "order": 15
+                },
+                {
+                    "name": "Hefty Furnace Pot",
+                    "order": 16
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Lightning-Shrouding Cracked Tear",
+            "Crimsonburst Dried Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 10,
+        "dex": 21,
+        "fth": 72,
+        "int": 7,
+        "mnd": 25,
+        "str": 18,
+        "vig": 60,
+        "vit": 16
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Blessing of the Erdtree",
+                "order": 1
+            },
+            {
+                "name": "Minor Erdtree",
+                "order": 2
+            },
+            {
+                "name": "Knight's Lightning Spear",
+                "order": 3
+            },
+            {
+                "name": "Multilayered Ring of Light",
+                "order": 4
+            },
+            {
+                "name": "Land of Shadow",
+                "order": 5
+            },
+            {
+                "name": "Light of Miquella",
+                "order": 6
+            },
+            {
+                "name": "Honed Bolt",
+                "order": 7
+            },
+            {
+                "name": "Ancient Dragons' Lightning Strike",
+                "order": 8
+            },
+            {
+                "name": "Fortissax's Lightning Spear",
+                "order": 9
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 147,
+        "poise": {
+            "original": 63
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 22
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 152,
+            "magic": 146,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 132
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 28.275198544000013,
+            "holy": 25.52123823000002,
+            "magic": 24.090107500000013,
+            "slash": 43.40040502600001,
+            "pierce": 42.56498665,
+            "strike": 40.500314704,
+            "physical": 43.57455762592001,
+            "lightning": 23.580551440000008
+        },
+        "maxStamina": 106,
+        "resistances": {
+            "focus": 261,
+            "immunity": 322,
+            "vitality": 271,
+            "robustness": 315
+        },
+        "maxEquipLoad": 57.70588235
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Golden Epitaph",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Coded Sword",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Inseparable Sword",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Golden Order Greatsword",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Fire Knight's Greatsword",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Spear"
+            },
+            {
+                "name": "Euporia",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Erdtree Seal",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Erdtree Bow",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Erdtree Greatbow",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Gravel Stone Seal",
+                "order": 7,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Brass Shield",
+                "order": 10,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Holy Ground",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 1
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 2
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 3
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 4
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 5
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 6
+            },
+            {
+                "name": "Sacred Scorpion Charm",
+                "order": 7
+            },
+            {
+                "name": "Lightning Scorpion Charm",
+                "order": 8
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 9
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 10,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 11,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 12
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 13,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Faithful's Canvas Talisman",
+                "order": 14,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 15
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 16
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Cleanrot Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Tree Sentinel Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Leyndell Knight Gauntlets",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Tree Sentinel Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Consort's Mask",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Cleanrot Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Leyndell Knight Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

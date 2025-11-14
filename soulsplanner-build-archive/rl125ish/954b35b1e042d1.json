@@ -1,0 +1,369 @@
+{
+    "id": "954b35b1e042d1",
+    "is2h": true,
+    "name": "Guts",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Crystal Tear",
+            "Deflecting Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 122,
+        "arc": 7,
+        "dex": 13,
+        "fth": 9,
+        "int": 9,
+        "mnd": 10,
+        "str": 54,
+        "vig": 60,
+        "vit": 39
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Rejection",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "altered": 90.66666644,
+            "original": 68
+        },
+        "runes": {
+            "total": 3686858,
+            "toNextLevel": 97382
+        },
+        "defenses": {
+            "fire": 186,
+            "holy": 140,
+            "magic": 144,
+            "slash": 151,
+            "pierce": 151,
+            "strike": 151,
+            "physical": 151,
+            "lightning": 126
+        },
+        "maxHealth": 1976,
+        "absorption": {
+            "fire": 25.1345258872,
+            "holy": 25.1962687432,
+            "magic": 22.617560958399995,
+            "slash": 29.73325211200001,
+            "pierce": 28.780454052000003,
+            "strike": 27.992970204,
+            "physical": 29.67151236800001,
+            "lightning": 22.144630365100003
+        },
+        "maxStamina": 155.1,
+        "resistances": {
+            "focus": 275,
+            "immunity": 294,
+            "vitality": 236,
+            "robustness": 310
+        },
+        "maxEquipLoad": 96.68042876
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Greatsword of Solitude",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Greatsword",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Stamp (Upward Cut)",
+                "equipIndex": 0
+            },
+            {
+                "name": "Dagger",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Rabbath's Cannon",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spread Crossbow",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 1
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 2,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 3
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 4,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 5,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 6
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Night's Cavalry Gauntlets",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Night's Cavalry Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Armor of Solitude",
+                    "order": 1
+                },
+                {
+                    "name": "Verdigris Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Blaidd's Armor",
+                    "order": 3
+                },
+                {
+                    "name": "Blaidd's Armor (Altered)",
+                    "order": 4
+                },
+                {
+                    "name": "Armor of Solitude (Altered)",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Helm of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Black Wolf Mask",
+                    "order": 1
+                },
+                {
+                    "name": "Verdigris Helm",
+                    "order": 2
+                },
+                {
+                    "name": "Briar Helm",
+                    "order": 3
+                },
+                {
+                    "name": "Duelist Helm",
+                    "order": 4
+                },
+                {
+                    "name": "Crucible Axe Helm",
+                    "order": 5
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 6
+                },
+                {
+                    "name": "Omen Helm",
+                    "order": 7
+                },
+                {
+                    "name": "Black Knife Hood",
+                    "order": 8,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Bloodhound Knight Helm",
+                    "order": 9
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Verdigris Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Night's Cavalry Greaves",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

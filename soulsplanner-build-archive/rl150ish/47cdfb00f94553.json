@@ -1,0 +1,412 @@
+{
+    "id": "47cdfb00f94553",
+    "is2h": false,
+    "name": "DLC Build",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Hybrid"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Sleep Pot",
+                    "order": 0
+                },
+                {
+                    "name": "Rancor Pot",
+                    "order": 1
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 2,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Drawstring Blood Grease",
+                    "order": 3
+                },
+                {
+                    "name": "Drawstring Soporific Grease",
+                    "order": 4
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Intelligence-knot Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 45,
+        "dex": 14,
+        "fth": 27,
+        "int": 14,
+        "mnd": 18,
+        "str": 32,
+        "vig": 60,
+        "vit": 19
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Fia's Mist",
+                "order": 0
+            },
+            {
+                "name": "Darkness",
+                "order": 1
+            },
+            {
+                "name": "Black Flame Blade",
+                "order": 2
+            },
+            {
+                "name": "Golden Vow",
+                "order": 3
+            },
+            {
+                "name": "Blessing's Boon",
+                "order": 4
+            },
+            {
+                "name": "Lord's Divine Fortification",
+                "order": 5
+            },
+            {
+                "name": "Golden Lightning Fortification",
+                "order": 6
+            },
+            {
+                "name": "Barrier of Gold",
+                "order": 7
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 126,
+        "poise": {
+            "original": 48
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "int": 24
+        },
+        "defenses": {
+            "fire": 194,
+            "holy": 188,
+            "magic": 176,
+            "slash": 145,
+            "pierce": 145,
+            "strike": 145,
+            "physical": 145,
+            "lightning": 134
+        },
+        "maxHealth": 2272.4,
+        "absorption": {
+            "fire": 30.7193426992,
+            "holy": 30.864281312800017,
+            "magic": 30.179289030760017,
+            "slash": 33.352421403520005,
+            "pierce": 31.20930451792001,
+            "strike": 28.8351407224,
+            "physical": 31.7664008533,
+            "lightning": 29.111181805000008
+        },
+        "maxStamina": 140.415,
+        "resistances": {
+            "focus": 286,
+            "immunity": 336,
+            "vitality": 267,
+            "robustness": 326
+        },
+        "maxEquipLoad": 80.28720001
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Knight's Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Partisan",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Spectral Lance",
+                "equipIndex": 0
+            },
+            {
+                "name": "Pike",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Sacrificial Axe",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Eclipse Crest Greatshield",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Prince of Death's Staff",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 4
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 1,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Arrow's Reach Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 4
+            },
+            {
+                "name": "Old Lord's Talisman",
+                "order": 5
+            },
+            {
+                "name": "Prince of Death's Cyst",
+                "order": 6
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 7
+            },
+            {
+                "name": "Clarifying Horn Charm +1",
+                "order": 8
+            },
+            {
+                "name": "Stalwart Horn Charm +1",
+                "order": 9
+            },
+            {
+                "name": "Crimson Seed Talisman",
+                "order": 10
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 11
+            },
+            {
+                "name": "Assassin's Crimson Dagger",
+                "order": 12
+            },
+            {
+                "name": "Assassin's Cerulean Dagger",
+                "order": 13
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Mausoleum Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Mausoleum Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Depraved Perfumer Headscarf",
+                    "order": 0
+                },
+                {
+                    "name": "Confessor Hood (Altered)",
+                    "order": 1
+                },
+                {
+                    "name": "Bloodsoaked Mask",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Black Hood",
+                    "order": 3
+                },
+                {
+                    "name": "Bandit Mask",
+                    "order": 4
+                },
+                {
+                    "name": "Fia's Hood",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Mausoleum Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prisoner"
+}

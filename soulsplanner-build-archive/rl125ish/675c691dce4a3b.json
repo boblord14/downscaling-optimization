@@ -1,0 +1,588 @@
+{
+    "id": "675c691dce4a3b",
+    "is2h": false,
+    "name": "katar mage ",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "71 poise",
+                "active": true
+            },
+            {
+                "name": "109 poise"
+            },
+            {
+                "name": "104 poise"
+            }
+        ]
+    },
+    "tags": [
+        "Duels",
+        "Intelligence",
+        "Caster"
+    ],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Neutralizing Boluses",
+                    "order": 0,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 1,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Thawfrost Boluses",
+                    "order": 2,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Stimulating Boluses",
+                    "order": 3,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Preserving Boluses",
+                    "order": 4,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Clarifying Boluses",
+                    "order": 5,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 6,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Cuckoo Glintstone",
+                    "order": 7
+                },
+                {
+                    "name": "Crystal Dart",
+                    "order": 8,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Freezing Pot",
+                    "order": 9,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Large Glintstone Scrap",
+                    "order": 10,
+                    "equipIndex": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 9,
+        "dex": 12,
+        "fth": 7,
+        "int": 72,
+        "mnd": 15,
+        "str": 8,
+        "vig": 59,
+        "vit": 22
+    },
+    "views": {
+        "overview": "swappa",
+        "home/left": "Stats",
+        "spells-view/left": "Picker",
+        "weapons-view/left": "Picker",
+        "protector-view/left": "Armour Optimiser",
+        "protector-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Shatter Earth",
+                "order": 0
+            },
+            {
+                "name": "Carian Slicer",
+                "order": 1
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 2
+            },
+            {
+                "name": "Adula's Moonblade",
+                "order": 3
+            },
+            {
+                "name": "Gavel of Haima",
+                "order": 4
+            },
+            {
+                "name": "Swift Glintstone Shard",
+                "order": 5
+            },
+            {
+                "name": "Greatblade Phalanx",
+                "order": 6
+            },
+            {
+                "name": "Magic Glintblade",
+                "order": 7
+            },
+            {
+                "name": "Comet",
+                "order": 8
+            },
+            {
+                "name": "Scholar's Armament",
+                "order": 9
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 95,
+        "poise": {
+            "original": 71
+        },
+        "runes": {
+            "total": 3981350,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "int": 75
+        },
+        "defenses": {
+            "fire": 186,
+            "holy": 145,
+            "magic": 190,
+            "slash": 129,
+            "pierce": 129,
+            "strike": 129,
+            "physical": 129,
+            "lightning": 127
+        },
+        "maxHealth": 2649.348,
+        "absorption": {
+            "fire": 33.7274418196,
+            "holy": 33.14217161206001,
+            "magic": 33.04555452208001,
+            "slash": 37.92365206480002,
+            "pierce": 37.57115229904,
+            "strike": 36.540896057920015,
+            "physical": 38.04041783728,
+            "lightning": 33.26724384490001
+        },
+        "maxStamina": 127.6,
+        "resistances": {
+            "focus": 252,
+            "immunity": 314,
+            "vitality": 268,
+            "robustness": 308
+        },
+        "maxEquipLoad": 72.61411765
+    },
+    "greatRune": "Morgott's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Katar",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Beast's Roar",
+                "equipIndex": 0
+            },
+            {
+                "name": "Katar",
+                "order": 1,
+                "infusion": "Magic",
+                "weaponArt": "Hoarfrost Stomp"
+            },
+            {
+                "name": "Lusat's Glintstone Staff",
+                "order": 3,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Carian Regal Scepter",
+                "order": 4,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Iron Roundshield",
+                "order": 5,
+                "infusion": "Standard",
+                "weaponArt": "Parry"
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 6,
+                "infusion": "Magic",
+                "weaponArt": "Ice Spear"
+            },
+            {
+                "name": "Scepter of the All-Knowing",
+                "order": 7,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Katar",
+                "order": 8,
+                "infusion": "Standard",
+                "weaponArt": "Lifesteal Fist"
+            },
+            {
+                "name": "Carian Glintstone Staff",
+                "order": 9,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 10,
+                "infusion": "Magic",
+                "weaponArt": "Hoarfrost Stomp"
+            },
+            {
+                "name": "Azur's Glintstone Staff",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Hammer Talisman",
+                "order": 0
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 1,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 2,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 5
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 6
+            },
+            {
+                "name": "Stargazer Heirloom",
+                "order": 7
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 8
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 9
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 10
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 11
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 12
+            },
+            {
+                "name": "Stalwart Horn Charm +1",
+                "order": 13
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 14
+            },
+            {
+                "name": "Clarifying Horn Charm +1",
+                "order": 15
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 16
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 17
+            },
+            {
+                "name": "Immunizing Horn Charm +1",
+                "order": 18
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 19
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 20
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Affects Sorceries",
+            "Spell Power Boost"
+        ],
+        "crystalTears": true
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Tree Sentinel Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Blaidd's Gauntlets",
+                    "order": 2,
+                    "equipSet": [
+                        1,
+                        null,
+                        null
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 3,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Crucible Gauntlets",
+                    "order": 4,
+                    "equipSet": [
+                        null,
+                        1
+                    ]
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Blaidd's Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Cleanrot Armor (Altered)",
+                    "order": 1
+                },
+                {
+                    "name": "Beast Champion Armor (Altered)",
+                    "order": 2,
+                    "equipSet": [
+                        1,
+                        null,
+                        null
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 3,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Fire Prelate Armor",
+                    "order": 4,
+                    "equipSet": [
+                        null,
+                        1,
+                        null
+                    ]
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Cuckoo Knight Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Consort's Mask",
+                    "order": 1
+                },
+                {
+                    "name": "Queen's Crescent Crown",
+                    "order": 2,
+                    "equipSet": [
+                        1,
+                        1,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "White Mask",
+                    "order": 3,
+                    "equipSet": [
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    "name": "Mushroom Crown",
+                    "order": 4,
+                    "equipSet": [
+                        null,
+                        null,
+                        null
+                    ]
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Scaled Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        1,
+                        null,
+                        null
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 3,
+                    "equipSet": [
+                        null,
+                        1,
+                        1
+                    ]
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

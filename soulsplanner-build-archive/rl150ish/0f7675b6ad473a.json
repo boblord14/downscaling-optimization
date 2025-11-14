@@ -1,0 +1,326 @@
+{
+    "id": "0f7675b6ad473a",
+    "is2h": true,
+    "name": "Current",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Arcane",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 151,
+        "arc": 10,
+        "dex": 18,
+        "fth": 15,
+        "int": 10,
+        "mnd": 25,
+        "str": 67,
+        "vig": 60,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Stats",
+        "spells-view/left": "Picker",
+        "protector-view/left": "Armour Optimiser"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bloodflame Blade",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 147,
+        "poise": {
+            "original": 71
+        },
+        "runes": {
+            "total": 7261076,
+            "toNextLevel": 158524
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 152,
+            "magic": 152,
+            "slash": 163,
+            "pierce": 163,
+            "strike": 163,
+            "physical": 163,
+            "lightning": 132
+        },
+        "maxHealth": 1976,
+        "absorption": {
+            "fire": 25.35169496320001,
+            "holy": 26.501033732,
+            "magic": 25.603248736000005,
+            "slash": 35.72435204608,
+            "pierce": 35.72435204608,
+            "strike": 30.94179022000001,
+            "physical": 36.8846886805,
+            "lightning": 22.699406079999996
+        },
+        "maxStamina": 133.1,
+        "resistances": {
+            "focus": 241,
+            "immunity": 317,
+            "vitality": 251,
+            "robustness": 327
+        },
+        "maxEquipLoad": 77.76
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Great Katana",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Great Katana",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": null
+            },
+            {
+                "name": "Great Katana",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Great Katana",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": null
+            },
+            {
+                "name": "Great Katana",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": null
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 2
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Crucible Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Crucible Axe Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Tree Sentinel Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Black Wolf Mask",
+                    "order": 1
+                },
+                {
+                    "name": "Briar Helm",
+                    "order": 2
+                },
+                {
+                    "name": "Radahn's Redmane Helm",
+                    "order": 3
+                },
+                {
+                    "name": "Crucible Axe Helm",
+                    "order": 4,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Black Knife Hood",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Crucible Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Warrior"
+}

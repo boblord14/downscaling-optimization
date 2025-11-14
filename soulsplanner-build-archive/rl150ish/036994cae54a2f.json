@@ -1,0 +1,384 @@
+{
+    "id": "036994cae54a2f",
+    "pve": {
+        "inDLC1": false,
+        "revered": 10,
+        "scadutree": 20
+    },
+    "is2h": false,
+    "name": "Dex Assassin Build (Idk It looks fun)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Fire Grease",
+                    "order": 0
+                },
+                {
+                    "name": "Lightning Grease",
+                    "order": 1
+                },
+                {
+                    "name": "Poison Grease",
+                    "order": 2
+                },
+                {
+                    "name": "Rot Grease",
+                    "order": 3
+                },
+                {
+                    "name": "Blood Grease",
+                    "order": 4
+                },
+                {
+                    "name": "Freezing Grease",
+                    "order": 5
+                },
+                {
+                    "name": "Soporific Grease",
+                    "order": 6
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Thorny Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 11,
+        "dex": 60,
+        "fth": 15,
+        "int": 7,
+        "mnd": 12,
+        "str": 16,
+        "vig": 60,
+        "vit": 48
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 1
+            },
+            {
+                "name": "Bloodflame Blade",
+                "order": 2
+            },
+            {
+                "name": "Poison Armament",
+                "order": 3
+            },
+            {
+                "name": "Electrify Armament",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 85,
+        "poise": {
+            "original": 30
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 65
+        },
+        "defenses": {
+            "fire": 193,
+            "holy": 155,
+            "magic": 147,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 133
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 33.04923436720001,
+            "holy": 33.668237350144004,
+            "magic": 33.57038923403201,
+            "slash": 42.46490172289599,
+            "pierce": 40.84738744955199,
+            "strike": 42.52331299018238,
+            "physical": 41.60053565631999,
+            "lightning": 33.86798060339199
+        },
+        "maxStamina": 152,
+        "resistances": {
+            "focus": 292,
+            "immunity": 323,
+            "vitality": 308,
+            "robustness": 262
+        },
+        "maxEquipLoad": 102.24593426
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Messmer Soldier Shield",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Keen",
+                "weaponArt": "Bloodhound's Step",
+                "equipIndex": 0
+            },
+            {
+                "name": "Ansbach's Longbow",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Dagger",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Golden Vow",
+                "equipIndex": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Arrow's Soaring Sting Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 4
+            },
+            {
+                "name": "Arrow's Sting Talisman",
+                "order": 5
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 6
+            },
+            {
+                "name": "Curved Sword Talisman",
+                "order": 7
+            },
+            {
+                "name": "Pearldrake Talisman +3",
+                "order": 8
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 9
+            },
+            {
+                "name": "Arrow's Reach Talisman",
+                "order": 10
+            },
+            {
+                "name": "Sharpshot Talisman",
+                "order": 11
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Charged Skill Attack",
+            "Skill Attack",
+            "Successive 3 Hits",
+            "Successive 6 Hits",
+            "Successive 9 Hits",
+            "Jump Attack",
+            "Ammunition Attack",
+            "Ammunition OnHit Attack",
+            "Ranged Skill Attack"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Maliketh's Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Preceptor's Gloves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Gravebird's Blackquill Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Bandit Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Ansbach's Boots",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

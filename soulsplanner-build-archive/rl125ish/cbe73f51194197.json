@@ -1,0 +1,591 @@
+{
+    "id": "cbe73f51194197",
+    "is2h": true,
+    "name": "Meta Strength",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 0
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 1
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 2
+                },
+                {
+                    "name": "Neutralizing Boluses",
+                    "order": 3
+                },
+                {
+                    "name": "Preserving Boluses",
+                    "order": 4
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 5
+                },
+                {
+                    "name": "Thawfrost Boluses",
+                    "order": 6
+                },
+                {
+                    "name": "Stimulating Boluses",
+                    "order": 7
+                },
+                {
+                    "name": "Clarifying Boluses",
+                    "order": 8
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 9
+                },
+                {
+                    "name": "Hefty Rock Pot",
+                    "order": 10
+                },
+                {
+                    "name": "Drawstring Messmerfire Grease",
+                    "order": 11
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 17,
+        "fth": 9,
+        "int": 9,
+        "mnd": 10,
+        "str": 50,
+        "vig": 60,
+        "vit": 42
+    },
+    "views": {
+        "overview": "simple"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 80
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 141,
+            "magic": 145,
+            "slash": 149,
+            "pierce": 149,
+            "strike": 149,
+            "physical": 149,
+            "lightning": 127
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 26.576003022500004,
+            "holy": 25.8563980738,
+            "magic": 26.344114774000005,
+            "slash": 35.5043682688,
+            "pierce": 33.5142928,
+            "strike": 31.34487304,
+            "physical": 35.846651296,
+            "lightning": 26.487011439999996
+        },
+        "maxStamina": 145,
+        "resistances": {
+            "focus": 242,
+            "immunity": 333,
+            "vitality": 259,
+            "robustness": 372
+        },
+        "maxEquipLoad": 111.49113819
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Banished Knight's Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Claymore",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Milady",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Wing Stance"
+            },
+            {
+                "name": "Dueling Shield",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Nightrider Glaive",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Greataxe",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Axe of Godfrey",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Messmer Soldier's Spear",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Flame Skewer"
+            },
+            {
+                "name": "Sword Lance",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Royal Knight's Resolve"
+            },
+            {
+                "name": "Greatsword of Solitude",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Zweihander",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Earthshaker"
+            },
+            {
+                "name": "Pata",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Hoarah Loux's Earthshaker"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Dragon Halberd",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Shamshir",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Axe of Godfrey",
+                "order": 16,
+                "infusion": "Standard",
+                "equipIndex": 0
+            },
+            {
+                "name": "Highland Axe",
+                "order": 17,
+                "infusion": "Heavy",
+                "equipIndex": 3
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Freyja's Greatsword",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Jar Cannon",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dueling Shield",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Shield Strike"
+            },
+            {
+                "name": "Giant-Crusher",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Partisan",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Roar Medallion",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 4
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 5
+            },
+            {
+                "name": "Pearldrake Talisman +3",
+                "order": 6
+            },
+            {
+                "name": "Golden Braid",
+                "order": 7
+            },
+            {
+                "name": "Spelldrake Talisman +3",
+                "order": 8
+            },
+            {
+                "name": "Flamedrake Talisman +3",
+                "order": 9
+            },
+            {
+                "name": "Boltdrake Talisman +3",
+                "order": 10
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 11
+            },
+            {
+                "name": "Pearl Shield Talisman",
+                "order": 12
+            },
+            {
+                "name": "Curved Sword Talisman",
+                "order": 13
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 14
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 15
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 16
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 17
+            },
+            {
+                "name": "Hammer Talisman",
+                "order": 18
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 19
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 20
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 21
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 22
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 23
+            },
+            {
+                "name": "Verdigris Discus",
+                "order": 24
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 25
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 26
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 27
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 28
+            },
+            {
+                "name": "Blade of Mercy",
+                "order": 29
+            },
+            {
+                "name": "Arrow's Soaring Sting Talisman",
+                "order": 30
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 1
+                },
+                {
+                    "name": "Verdigris Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Veteran's Gauntlets",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Armor of Solitude",
+                    "order": 1
+                },
+                {
+                    "name": "Verdigris Armor",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Banished Knight Helm (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Helm of Solitude",
+                    "order": 1
+                },
+                {
+                    "name": "Verdigris Helm",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 1
+                },
+                {
+                    "name": "Verdigris Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

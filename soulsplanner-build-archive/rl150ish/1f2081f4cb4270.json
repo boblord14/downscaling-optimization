@@ -1,0 +1,596 @@
+{
+    "id": "1f2081f4cb4270",
+    "is2h": true,
+    "name": "ADV's PvP Build",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "Invasions",
+        "Duels",
+        "Hardswaps",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 3,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Starlight Shards",
+                    "order": 4
+                },
+                {
+                    "name": "Neutralizing Boluses",
+                    "order": 5
+                },
+                {
+                    "name": "Preserving Boluses",
+                    "order": 6
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 7
+                },
+                {
+                    "name": "Thawfrost Boluses",
+                    "order": 8
+                },
+                {
+                    "name": "Stimulating Boluses",
+                    "order": 9
+                },
+                {
+                    "name": "Clarifying Boluses",
+                    "order": 10
+                },
+                {
+                    "name": "Rejuvenating Boluses",
+                    "order": 11
+                },
+                {
+                    "name": "Exalted Flesh",
+                    "order": 12,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Freezing Pot",
+                    "order": 13,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Hefty Rock Pot",
+                    "order": 14,
+                    "equipIndex": 3
+                },
+                {
+                    "name": "Uplifting Aromatic",
+                    "order": 15,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Throwing Dagger",
+                    "order": 16,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Frenzyflame Stone",
+                    "order": 17
+                },
+                {
+                    "name": "Drawstring Royal Magic Grease",
+                    "order": 18,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Raw Meat Dumpling",
+                    "order": 19
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 20,
+                    "equipIndex": 15
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Greenburst Crystal Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 18,
+        "fth": 12,
+        "int": 15,
+        "mnd": 15,
+        "str": 59,
+        "vig": 60,
+        "vit": 43
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 0
+            },
+            {
+                "name": "Rejection",
+                "order": 1
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 95,
+        "poise": {
+            "original": 88
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 146,
+            "magic": 162,
+            "slash": 161,
+            "pierce": 161,
+            "strike": 161,
+            "physical": 161,
+            "lightning": 132
+        },
+        "maxHealth": 2217.072,
+        "absorption": {
+            "fire": 27.593426908,
+            "holy": 25.686485729200005,
+            "magic": 25.16673928240001,
+            "slash": 33.24658950640001,
+            "pierce": 31.79022694000001,
+            "strike": 31.961210652000005,
+            "physical": 34.0679354248,
+            "lightning": 24.72532341250001
+        },
+        "maxStamina": 168.63,
+        "resistances": {
+            "focus": 358,
+            "immunity": 325,
+            "vitality": 271,
+            "robustness": 330
+        },
+        "maxEquipLoad": 127.71925877
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 0
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Holy Ground"
+            },
+            {
+                "name": "Shamshir",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Fire",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Fire",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Icon Shield",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Zweihander",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Golem Greatbow",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Carian Thrusting Shield",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Carian Thrusting Shield",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Determination"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Fire",
+                "weaponArt": "Quickstep",
+                "equipIndex": 1
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 12,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Blind Spot",
+                "equipIndex": 3
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 22,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Assassin's Gambit"
+            }
+        ],
+        "sorting": {
+            "method": "weight",
+            "direction": "desc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 3
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 4
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 5,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 6
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 7
+            },
+            {
+                "name": "Hammer Talisman",
+                "order": 8
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 9
+            },
+            {
+                "name": "Mottled Necklace +2",
+                "order": 10
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 11
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 12
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 13
+            },
+            {
+                "name": "Crusade Insignia",
+                "order": 14
+            },
+            {
+                "name": "Arrow's Sting Talisman",
+                "order": 15
+            },
+            {
+                "name": "Sharpshot Talisman",
+                "order": 16
+            },
+            {
+                "name": "Retaliatory Crossed-Tree",
+                "order": 17
+            },
+            {
+                "name": "Lacerating Crossed-Tree",
+                "order": 18
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 19
+            }
+        ],
+        "sorting": {
+            "method": "weight",
+            "direction": "desc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Armor of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Fire Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

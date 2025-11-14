@@ -1,0 +1,339 @@
+{
+    "id": "461e95cf4c4729",
+    "is2h": true,
+    "name": "RL150  Rusted Anchor",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "Strength",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 10,
+        "dex": 10,
+        "fth": 10,
+        "int": 10,
+        "mnd": 10,
+        "str": 82,
+        "vig": 60,
+        "vit": 37
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker",
+        "protector-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Sling",
+                "order": 0
+            },
+            {
+                "name": "Beast Claw",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "altered": 101.33333308,
+            "original": 76
+        },
+        "runes": {
+            "total": 7112459,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 152,
+            "magic": 152,
+            "slash": 167,
+            "pierce": 167,
+            "strike": 167,
+            "physical": 167,
+            "lightning": 132
+        },
+        "maxHealth": 1938,
+        "absorption": {
+            "fire": 31.521101122600005,
+            "holy": 26.182426421500004,
+            "magic": 24.66744054400001,
+            "slash": 33.791490709600005,
+            "pierce": 31.79022694000001,
+            "strike": 27.877886920000005,
+            "physical": 34.0679354248,
+            "lightning": 23.371945120000017
+        },
+        "maxStamina": 144.9,
+        "resistances": {
+            "focus": 247,
+            "immunity": 338,
+            "vitality": 266,
+            "robustness": 373
+        },
+        "maxEquipLoad": 90.69190532
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Rusted Anchor",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Braggart's Roar",
+                "equipIndex": 0
+            },
+            {
+                "name": "Highland Axe",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Bloodhound's Step",
+                "equipIndex": 3
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Spear Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Roar Medallion",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Godskin Noble Bracelets",
+                    "order": 0
+                },
+                {
+                    "name": "Godskin Apostle Bracelets",
+                    "order": 1
+                },
+                {
+                    "name": "Tree Sentinel Gauntlets",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "All-Knowing Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 4
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Crucible Axe Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Scaled Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Radahn's Lion Armor (Altered)",
+                    "order": 2
+                },
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Veteran's Armor",
+                    "order": 4
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Horned Warrior Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Mask of Confidence",
+                    "order": 1
+                },
+                {
+                    "name": "Jar",
+                    "order": 2
+                },
+                {
+                    "name": "Banished Knight Helm (Altered)",
+                    "order": 3
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 4
+                },
+                {
+                    "name": "Fire Knight Helm",
+                    "order": 5,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Crucible Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Scaled Greaves",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Wretch"
+}

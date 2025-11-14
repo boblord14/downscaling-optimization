@@ -1,0 +1,711 @@
+{
+    "id": "57caa5bfd644d9",
+    "pve": {
+        "inDLC1": false
+    },
+    "is2h": true,
+    "name": "SHIELD BASH HELL YEAH",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            },
+            {
+                "name": "Set #2"
+            },
+            {
+                "name": "Set #3"
+            }
+        ],
+        "talismans": [
+            {
+                "name": "High Poise Shield Bash",
+                "active": true
+            },
+            {
+                "name": "Big 2h"
+            },
+            {
+                "name": "Multihit"
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default"
+            },
+            {
+                "name": "Optimized high poise with, tiny bit of fashion",
+                "active": true
+            },
+            {
+                "name": "Optimized fashion 88 poise"
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "PvE",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Morgott's Great Rune",
+                    "order": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 139,
+        "arc": 7,
+        "dex": 18,
+        "fth": 10,
+        "int": 9,
+        "mnd": 10,
+        "str": 66,
+        "vig": 59,
+        "vit": 38
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker",
+        "protector-view/left": "Armour Optimiser"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Scholar's Shield",
+                "order": 1
+            },
+            {
+                "name": "Night Maiden's Mist",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "altered": 6.66666665,
+            "original": 5
+        },
+        "runes": {
+            "total": 5568328,
+            "toNextLevel": 130894
+        },
+        "stats": {
+            "arc": 8,
+            "fth": 11,
+            "int": 10
+        },
+        "defenses": {
+            "fire": 189,
+            "holy": 146,
+            "magic": 150,
+            "slash": 161,
+            "pierce": 161,
+            "strike": 161,
+            "physical": 161,
+            "lightning": 130
+        },
+        "maxHealth": 1962.48,
+        "absorption": {
+            "fire": 3.1000000000000028,
+            "holy": 3.400000000000003,
+            "magic": 2.8000000000000025,
+            "slash": 2.500000000000002,
+            "pierce": 2.8000000000000025,
+            "strike": 3.1000000000000028,
+            "physical": 2.8000000000000025,
+            "lightning": 3.400000000000003
+        },
+        "maxStamina": 154,
+        "resistances": {
+            "focus": 169,
+            "immunity": 216,
+            "vitality": 182,
+            "robustness": 192
+        },
+        "maxEquipLoad": 95.19925071
+    },
+    "greatRune": null,
+    "inventory": {
+        "slots": [
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3,
+                    4,
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Carian Thrusting Shield",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Shield Strike"
+            },
+            {
+                "name": "Staff of Loss",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Pata",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Freyja's Greatsword",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Fire",
+                "weaponArt": "Kick",
+                "equipIndex": 1
+            },
+            {
+                "name": "Dagger",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Fire",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Greatsword",
+                "order": 7,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Flame Skewer"
+            },
+            {
+                "name": "Starscourge Greatsword",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Crescent Moon Axe",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Great Katana",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Repeating Thrust"
+            },
+            {
+                "name": "Twinned Knight Swords",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Caestus",
+                "order": 12,
+                "upgrade": null,
+                "equipSet": [
+                    4,
+                    3,
+                    null
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Endure",
+                "equipIndex": 4
+            },
+            {
+                "name": "Hand Axe",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Rabbath's Cannon",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spread Crossbow",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dagger",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Lion Greatbow",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 18,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    3
+                ],
+                "infusion": "Fire",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Bone Bow",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Great Knife",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Assassin's Gambit"
+            },
+            {
+                "name": "Dismounter",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Commander's Standard",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Zamor Curved Sword",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Zweihander",
+                "order": 24,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Cold",
+                "weaponArt": "Waves of Darkness",
+                "equipIndex": 0
+            },
+            {
+                "name": "Star Fist",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Endure"
+            }
+        ],
+        "sorting": {
+            "method": "weight",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 0,
+                "equipSet": [
+                    3,
+                    3,
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    null,
+                    1
+                ]
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 2
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 3,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 4
+            },
+            {
+                "name": "Lacerating Crossed-Tree",
+                "order": 5,
+                "equipSet": [
+                    null,
+                    null,
+                    1
+                ]
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 6
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 7
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 8
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 9,
+                "equipSet": [
+                    1,
+                    2,
+                    null
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 10
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 11
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 12
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 13,
+                "equipSet": [
+                    2,
+                    null,
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 14,
+                "equipSet": [
+                    null,
+                    null,
+                    0
+                ]
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 15
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 16
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 17
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 18
+            },
+            {
+                "name": "Arrow's Soaring Sting Talisman",
+                "order": 19
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 20
+            },
+            {
+                "name": "Retaliatory Crossed-Tree",
+                "order": 21,
+                "equipSet": [
+                    null,
+                    0
+                ]
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Braided Arm Wraps",
+                    "order": 0
+                },
+                {
+                    "name": "Young Lion's Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Cleanrot Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Crucible Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Tree Sentinel Gauntlets",
+                    "order": 4
+                },
+                {
+                    "name": "Gaius's Gauntlets",
+                    "order": 5
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 6
+                },
+                {
+                    "name": "Veteran's Gauntlets",
+                    "order": 7
+                },
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 8
+                },
+                {
+                    "name": "Death Knight Gauntlets",
+                    "order": 9
+                },
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 10
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Verdigris Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Radahn's Lion Armor",
+                    "order": 1,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Armor of Solitude (Altered)",
+                    "order": 2
+                },
+                {
+                    "name": "Armor of Solitude",
+                    "order": 3
+                },
+                {
+                    "name": "Scaled Armor (Altered)",
+                    "order": 4
+                },
+                {
+                    "name": "Bull-Goat Armor",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 0
+                },
+                {
+                    "name": "Fire Knight Helm",
+                    "order": 1,
+                    "equipSet": [
+                        1,
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Helm of Solitude",
+                    "order": 2
+                },
+                {
+                    "name": "Circlet of Light",
+                    "order": 3,
+                    "equipSet": [
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Death Knight Helm",
+                    "order": 4
+                },
+                {
+                    "name": "Kaiden Helm",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Verdigris Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Radahn's Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Young Lion's Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 3
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 4
+                },
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 5
+                },
+                {
+                    "name": "Death Knight Greaves",
+                    "order": 6
+                },
+                {
+                    "name": "Death Knight Greaves",
+                    "order": 7
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 8
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

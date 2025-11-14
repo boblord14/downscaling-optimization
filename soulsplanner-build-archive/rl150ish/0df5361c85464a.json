@@ -1,0 +1,547 @@
+{
+    "id": "0df5361c85464a",
+    "is2h": false,
+    "name": "Pretty Please, FromSoftware?",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "Dexterity",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Neutralizing Boluses",
+                    "order": 3,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 4,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Thawfrost Boluses",
+                    "order": 5,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Stimulating Boluses",
+                    "order": 6,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Preserving Boluses",
+                    "order": 7,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Clarifying Boluses",
+                    "order": 8,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Well-Pickled Turtle Neck",
+                    "order": 9,
+                    "active": true,
+                    "equipIndex": 3
+                },
+                {
+                    "name": "Shield Grease",
+                    "order": 10,
+                    "active": true,
+                    "equipIndex": 5
+                },
+                {
+                    "name": "Crystal Dart",
+                    "order": 11,
+                    "equipIndex": 6
+                },
+                {
+                    "name": "Large Glintstone Scrap",
+                    "order": 12,
+                    "equipIndex": 8
+                },
+                {
+                    "name": "Cuckoo Glintstone",
+                    "order": 13,
+                    "equipIndex": 9
+                },
+                {
+                    "name": "Roped Magic Pot",
+                    "order": 14,
+                    "equipIndex": 7
+                },
+                {
+                    "name": "Spellproof Pickled Liver",
+                    "order": 15,
+                    "active": true,
+                    "equipIndex": 4
+                },
+                {
+                    "name": "Lightningproof Pickled Liver",
+                    "order": 16
+                },
+                {
+                    "name": "Holyproof Pickled Liver",
+                    "order": 17
+                },
+                {
+                    "name": "Fireproof Pickled Liver",
+                    "order": 18
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Deflecting Hardtear",
+            "Magic-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 139,
+        "arc": 9,
+        "dex": 40,
+        "fth": 7,
+        "int": 50,
+        "mnd": 21,
+        "str": 10,
+        "vig": 60,
+        "vit": 21
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker",
+        "protector-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Scholar's Shield",
+                "order": 0
+            },
+            {
+                "name": "Terra Magica",
+                "order": 1
+            },
+            {
+                "name": "Carian Slicer",
+                "order": 2
+            },
+            {
+                "name": "Swift Glintstone Shard",
+                "order": 3
+            },
+            {
+                "name": "Miriam's Vanishing",
+                "order": 4
+            },
+            {
+                "name": "Magic Glintblade",
+                "order": 5
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 6
+            },
+            {
+                "name": "Gavel of Haima",
+                "order": 7
+            },
+            {
+                "name": "Greatblade Phalanx",
+                "order": 8
+            },
+            {
+                "name": "Cannon of Haima",
+                "order": 9
+            },
+            {
+                "name": "Law of Regression",
+                "order": 10
+            },
+            {
+                "name": "Scholar's Armament",
+                "order": 11
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 126,
+        "poise": {
+            "original": 67
+        },
+        "runes": {
+            "total": 5570653,
+            "toNextLevel": 130894
+        },
+        "defenses": {
+            "fire": 190,
+            "holy": 148,
+            "magic": 186,
+            "slash": 133,
+            "pierce": 133,
+            "strike": 133,
+            "physical": 133,
+            "lightning": 130
+        },
+        "maxHealth": 1976,
+        "absorption": {
+            "fire": 41.22406879552,
+            "holy": 40.83024396239999,
+            "magic": 47.51488561561601,
+            "slash": 33.929713067200005,
+            "pierce": 33.24658950640001,
+            "strike": 30.040397232400007,
+            "physical": 32.073843460000006,
+            "lightning": 39.53017805824
+        },
+        "maxStamina": 148.005,
+        "resistances": {
+            "focus": 244,
+            "immunity": 316,
+            "vitality": 247,
+            "robustness": 349
+        },
+        "maxEquipLoad": 70.89882353
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Rapier",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Carian Sorcery Sword",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Wing of Astel",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spirit Sword",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Forked Hatchet",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Carian Knight's Shield",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Carian Knight's Shield",
+                "order": 6,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 3
+            },
+            {
+                "name": "Bastard's Stars",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Glintstone Kris",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Twinblade",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Weapon"
+            },
+            {
+                "name": "Star-Lined Sword",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Chilling Perfume Bottle",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Swift Spear",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Loretta's Slash"
+            },
+            {
+                "name": "Carian Knight's Sword",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Golden Order Seal",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Pearl Shield Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Viridian Amber Medallion +3",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Fine Crucible Feather Talisman",
+                "order": 3
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 5
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 6
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 7
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 8
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 9
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 10
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 11
+            },
+            {
+                "name": "Curved Sword Talisman",
+                "order": 12
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 13
+            },
+            {
+                "name": "Moon of Nokstella",
+                "order": 14
+            },
+            {
+                "name": "Primal Glintstone Blade",
+                "order": 15
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 16
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 17
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Guarding"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Beast Champion Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Beast Champion Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Carian Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

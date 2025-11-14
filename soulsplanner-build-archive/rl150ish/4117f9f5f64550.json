@@ -1,0 +1,601 @@
+{
+    "id": "4117f9f5f64550",
+    "is2h": true,
+    "name": "Reverse Enat",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Duels",
+        "Arcane",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "tools": {
+            "slots": [
+                {
+                    "name": "Lantern",
+                    "order": 0,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 1,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 2,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 3,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 4,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Fan Daggers",
+                    "order": 5,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Exalted Flesh",
+                    "order": 6
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 7
+                },
+                {
+                    "name": "Drawstring Blood Grease",
+                    "order": 8
+                },
+                {
+                    "name": "Drawstring Soporific Grease",
+                    "order": 9,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Drawstring Lightning Grease",
+                    "order": 10
+                },
+                {
+                    "name": "Drawstring Rot Grease",
+                    "order": 11
+                },
+                {
+                    "name": "Drawstring Poison Grease",
+                    "order": 12
+                },
+                {
+                    "name": "Sleep Pot",
+                    "order": 13,
+                    "equipIndex": 4
+                },
+                {
+                    "name": "Freezing Pot",
+                    "order": 14,
+                    "equipIndex": 5
+                },
+                {
+                    "name": "Neutralizing Boluses",
+                    "order": 15
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 16,
+                    "equipIndex": 6
+                },
+                {
+                    "name": "Thawfrost Boluses",
+                    "order": 17,
+                    "equipIndex": 7
+                },
+                {
+                    "name": "Stimulating Boluses",
+                    "order": 18
+                },
+                {
+                    "name": "Preserving Boluses",
+                    "order": 19
+                },
+                {
+                    "name": "Rejuvenating Boluses",
+                    "order": 20
+                },
+                {
+                    "name": "Clarifying Boluses",
+                    "order": 21
+                },
+                {
+                    "name": "Uplifting Aromatic",
+                    "order": 22,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Hefty Rot Pot",
+                    "order": 23,
+                    "equipIndex": 3
+                },
+                {
+                    "name": "Sacred Bloody Flesh",
+                    "order": 24,
+                    "active": true,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 28,
+        "dex": 54,
+        "fth": 6,
+        "int": 14,
+        "mnd": 12,
+        "str": 14,
+        "vig": 60,
+        "vit": 41
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Swift Glintstone Shard",
+                "order": 0
+            },
+            {
+                "name": "Night Maiden's Mist",
+                "order": 1
+            },
+            {
+                "name": "Glintstone Stars",
+                "order": 2
+            },
+            {
+                "name": "Scholar's Shield",
+                "order": 3
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 90,
+        "poise": {
+            "altered": 95.99999976,
+            "original": 72
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "arc": 38,
+            "dex": 59
+        },
+        "defenses": {
+            "fire": 195,
+            "holy": 186,
+            "magic": 163,
+            "slash": 139,
+            "pierce": 139,
+            "strike": 139,
+            "physical": 139,
+            "lightning": 135
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 28.01182283000001,
+            "holy": 26.352144742000007,
+            "magic": 26.112249448000004,
+            "slash": 30.034146764800006,
+            "pierce": 27.381397888,
+            "strike": 26.67280361140001,
+            "physical": 29.38478075200002,
+            "lightning": 25.688812192
+        },
+        "maxStamina": 143,
+        "resistances": {
+            "focus": 313,
+            "immunity": 328,
+            "vitality": 298,
+            "robustness": 337
+        },
+        "maxEquipLoad": 92.29076221
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Greatbow",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Bone Bow",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Ansbach's Longbow",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Lizard Greatsword",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Lizard Greatsword",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Regalia of Eochaid",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Antspur Rapier",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Beast Claw",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": null
+            },
+            {
+                "name": "Pata",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Dryleaf Arts",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Raptor of the Mists"
+            },
+            {
+                "name": "Milady",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Varr\u00e9's Bouquet",
+                "order": 21,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Scythe",
+                "order": 22,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Sword Dance",
+                "equipIndex": 0
+            },
+            {
+                "name": "Albinauric Staff",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 1
+            },
+            {
+                "name": "Hand Axe",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 1,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 3
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 4
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 5
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 6
+            },
+            {
+                "name": "St. Trina's Smile",
+                "order": 7
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 8
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 9
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 10
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 11
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 12
+            },
+            {
+                "name": "Curved Sword Talisman",
+                "order": 13
+            },
+            {
+                "name": "Retaliatory Crossed-Tree",
+                "order": 14
+            },
+            {
+                "name": "Lacerating Crossed-Tree",
+                "order": 15,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Trigger in Presence of Blood Loss"
+        ],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Scaled Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "St. Trina's Blossom",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prisoner"
+}

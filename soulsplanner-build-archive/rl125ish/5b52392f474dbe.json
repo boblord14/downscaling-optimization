@@ -1,0 +1,500 @@
+{
+    "id": "5b52392f474dbe",
+    "is2h": false,
+    "name": "RL125 template FTH",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default"
+            },
+            {
+                "name": "Optimal weight for 50p #2",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Faith",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 12,
+        "dex": 18,
+        "fth": 49,
+        "int": 7,
+        "mnd": 9,
+        "str": 24,
+        "vig": 60,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker",
+        "protector-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Heal from Afar",
+                "order": 0
+            },
+            {
+                "name": "Blessing of the Erdtree",
+                "order": 1
+            },
+            {
+                "name": "Golden Vow",
+                "order": 2
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 3
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 54
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "arc": 13,
+            "fth": 50,
+            "int": 8
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 153,
+            "magic": 143,
+            "slash": 135,
+            "pierce": 135,
+            "strike": 135,
+            "physical": 135,
+            "lightning": 127
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 18.90988999944461,
+            "holy": 17.45529127314055,
+            "magic": 16.942591218936464,
+            "slash": 30.4813395604288,
+            "pierce": 29.92005780486663,
+            "strike": 27.85304350980564,
+            "physical": 29.13138401722344,
+            "lightning": 16.637443574804458
+        },
+        "maxStamina": 121,
+        "resistances": {
+            "focus": 219,
+            "immunity": 282,
+            "vitality": 237,
+            "robustness": 281
+        },
+        "maxEquipLoad": 72
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Dagger",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Order",
+                "equipIndex": 3
+            },
+            {
+                "name": "Golden Epitaph",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Erdtree Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Sword of Light",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Royal Knight's Resolve"
+            },
+            {
+                "name": "Erdsteel Dagger",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Order"
+            },
+            {
+                "name": "Milady",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Star Fist",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Iron Greatsword",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Erdsteel Dagger",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Bloodfiend's Fork",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Order"
+            },
+            {
+                "name": "Queelign's Greatsword",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Spear"
+            },
+            {
+                "name": "Blasphemous Blade",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Fire Knight's Greatsword",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Spear"
+            },
+            {
+                "name": "Bloodfiend's Fork",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Black Steel Twinblade",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Order"
+            },
+            {
+                "name": "Magma Wyrm's Scalesword",
+                "order": 16,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Coded Sword",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Euporia",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Black Steel Twinblade",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Blade of Mercy",
+                "order": 0
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Twinblade Talisman",
+                "order": 3
+            },
+            {
+                "name": "Retaliatory Crossed-Tree",
+                "order": 4
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 5,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 6
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 7
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 8
+            },
+            {
+                "name": "Talisman of the Dread",
+                "order": 9,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Sacred Scorpion Charm",
+                "order": 10
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 11
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 12
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 13
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 14
+            },
+            {
+                "name": "Spelldrake Talisman +3",
+                "order": 15
+            },
+            {
+                "name": "Flamedrake Talisman +3",
+                "order": 16
+            },
+            {
+                "name": "Golden Braid",
+                "order": 17
+            },
+            {
+                "name": "Boltdrake Talisman +3",
+                "order": 18
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 19,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Young Lion's Gauntlets",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0,
+                    "equipSet": [
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Leda's Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Gravebird's Blackquill Armor",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Circlet of Light",
+                    "order": 0,
+                    "equipSet": [
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Winged Serpent Helm",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Young Lion's Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Lionel's Greaves",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

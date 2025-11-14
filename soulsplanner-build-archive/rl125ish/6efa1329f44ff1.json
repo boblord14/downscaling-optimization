@@ -1,0 +1,601 @@
+{
+    "id": "6efa1329f44ff1",
+    "is2h": true,
+    "name": "Generalist Intelligence Build.",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default"
+            },
+            {
+                "name": "Heaviest: DMGS",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default"
+            },
+            {
+                "name": "Heaviest: Dismounter"
+            },
+            {
+                "name": "Default: lightest"
+            },
+            {
+                "name": "Heaviest: DMGS",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Magic-Shrouding Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 9,
+        "dex": 17,
+        "fth": 10,
+        "int": 65,
+        "mnd": 13,
+        "str": 11,
+        "vig": 60,
+        "vit": 19
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Divine Fortification",
+                "order": 0
+            },
+            {
+                "name": "Ranni's Dark Moon",
+                "order": 1
+            },
+            {
+                "name": "Terra Magica",
+                "order": 2
+            },
+            {
+                "name": "Carian Slicer",
+                "order": 3
+            },
+            {
+                "name": "Night Comet",
+                "order": 4
+            },
+            {
+                "name": "Zamor Ice Storm",
+                "order": 5
+            },
+            {
+                "name": "Gelmir's Fury",
+                "order": 6
+            },
+            {
+                "name": "Blades of Stone",
+                "order": 7
+            },
+            {
+                "name": "Lightning Spear",
+                "order": 8
+            },
+            {
+                "name": "Discus of Light",
+                "order": 9
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 101,
+        "poise": {
+            "original": 51
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "int": 68
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 145,
+            "magic": 189,
+            "slash": 130,
+            "pierce": 130,
+            "strike": 130,
+            "physical": 130,
+            "lightning": 127
+        },
+        "maxHealth": 2185,
+        "absorption": {
+            "fire": 24.059721529,
+            "holy": 21.881652343299997,
+            "magic": 21.632123571400008,
+            "slash": 32.79955854591998,
+            "pierce": 32.525829660159985,
+            "strike": 31.258370665599987,
+            "physical": 34.916439120696,
+            "lightning": 18.008546797
+        },
+        "maxStamina": 127.65,
+        "resistances": {
+            "focus": 217,
+            "immunity": 276,
+            "vitality": 245,
+            "robustness": 279
+        },
+        "maxEquipLoad": 62.47058824
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Glintstone Kris",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Longsword",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Claymore",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Sovereignty"
+            },
+            {
+                "name": "Wing of Astel",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Uchigatana",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Unsheathe"
+            },
+            {
+                "name": "Gargoyle's Twinblade",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Venomous Fang",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Guardian's Swordspear",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Milady",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Dryleaf Arts",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Palm Blast"
+            },
+            {
+                "name": "Messmer Soldier Shield",
+                "order": 13,
+                "upgrade": 24,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Ice Spear"
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Messmer Soldier's Spear",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Royal Knight's Resolve"
+            },
+            {
+                "name": "Star Fist",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Carian Regal Scepter",
+                "order": 19,
+                "upgrade": null,
+                "equipSet": [
+                    0,
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Golden Order Seal",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Carian Thrusting Shield",
+                "order": 21,
+                "upgrade": null,
+                "equipSet": [
+                    3,
+                    null
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Glintstone Pebble"
+            },
+            {
+                "name": "Stone Club",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Death's Poker",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Pata",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Great Katana",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Double Slash"
+            },
+            {
+                "name": "Bandit's Curved Sword",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Messmer Soldier's Axe",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Moonveil",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Death Ritual Spear",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    1,
+                    1
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Royal Knight's Resolve",
+                "equipIndex": 1
+            },
+            {
+                "name": "Dark Moon Greatsword",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "class",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Blade of Mercy",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Godskin Noble Bracelets",
+                    "order": 1,
+                    "equipSet": [
+                        null,
+                        null,
+                        1,
+                        null
+                    ]
+                },
+                {
+                    "name": "Warrior Gauntlets",
+                    "order": 2,
+                    "equipSet": [
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Briar Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Freyja's Gauntlets",
+                    "order": 4,
+                    "equipSet": [
+                        null,
+                        null,
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Fingerprint Armor (Altered)",
+                    "order": 1,
+                    "equipSet": [
+                        null,
+                        1,
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Mausoleum Knight Armor (Altered)",
+                    "order": 2,
+                    "equipSet": [
+                        null,
+                        null,
+                        1,
+                        null
+                    ]
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Queen's Crescent Crown",
+                    "order": 0,
+                    "equipSet": [
+                        null,
+                        null,
+                        1,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Consort's Mask",
+                    "order": 1
+                },
+                {
+                    "name": "Haima Glintstone Crown",
+                    "order": 2,
+                    "equipSet": [
+                        1,
+                        1,
+                        null
+                    ]
+                },
+                {
+                    "name": "Haligtree Knight Helm",
+                    "order": 3
+                },
+                {
+                    "name": "Silver Tear Mask",
+                    "order": 4
+                },
+                {
+                    "name": "Okina Mask",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Crucible Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        null,
+                        1,
+                        1,
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prisoner"
+}

@@ -1,0 +1,534 @@
+{
+    "id": "015194ce954806",
+    "is2h": false,
+    "name": "Draconic Build (RL150)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Arcane",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 0,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 1,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 2,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 3,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Lantern",
+                    "order": 4,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Fan Daggers",
+                    "order": 5,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Uplifting Aromatic",
+                    "order": 6,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 7,
+                    "equipIndex": 5
+                },
+                {
+                    "name": "Neutralizing Boluses",
+                    "order": 8,
+                    "equipIndex": 6
+                },
+                {
+                    "name": "Thawfrost Boluses",
+                    "order": 9,
+                    "equipIndex": 7
+                },
+                {
+                    "name": "Stimulating Boluses",
+                    "order": 10
+                },
+                {
+                    "name": "Preserving Boluses",
+                    "order": 11,
+                    "equipIndex": 8
+                },
+                {
+                    "name": "Rejuvenating Boluses",
+                    "order": 12
+                },
+                {
+                    "name": "Clarifying Boluses",
+                    "order": 13,
+                    "equipIndex": 9
+                },
+                {
+                    "name": "Lulling Branch",
+                    "order": 14,
+                    "equipIndex": 4
+                },
+                {
+                    "name": "Hefty Rot Pot",
+                    "order": 15
+                },
+                {
+                    "name": "Albinauric Pot",
+                    "order": 16
+                },
+                {
+                    "name": "Sleep Pot",
+                    "order": 17,
+                    "equipIndex": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Speckled Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 50,
+        "dex": 14,
+        "fth": 37,
+        "int": 7,
+        "mnd": 24,
+        "str": 11,
+        "vig": 60,
+        "vit": 26
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Catch Flame",
+                "order": 0
+            },
+            {
+                "name": "Fire Serpent",
+                "order": 1
+            },
+            {
+                "name": "Greyoll's Roar",
+                "order": 2
+            },
+            {
+                "name": "Bayle's Tyranny",
+                "order": 3
+            },
+            {
+                "name": "Ekzykes's Decay",
+                "order": 4
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 5
+            },
+            {
+                "name": "Golden Vow",
+                "order": 6
+            },
+            {
+                "name": "Blessing's Boon",
+                "order": 7
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 142,
+        "poise": {
+            "altered": 98.66666642,
+            "original": 74
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 188,
+            "magic": 146,
+            "slash": 135,
+            "pierce": 135,
+            "strike": 135,
+            "physical": 135,
+            "lightning": 132
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 26.138913052800007,
+            "holy": 24.59715419080001,
+            "magic": 23.843453934400006,
+            "slash": 30.660498899199993,
+            "pierce": 30.40806909920001,
+            "strike": 28.291754560000005,
+            "physical": 30.742948158400008,
+            "lightning": 22.334473835799994
+        },
+        "maxStamina": 123,
+        "resistances": {
+            "focus": 335,
+            "immunity": 356,
+            "vitality": 274,
+            "robustness": 373
+        },
+        "maxEquipLoad": 72.96109507
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Bone Bow",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Short Spear",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Noble's Estoc",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Noble's Estoc",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Reduvia",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Venomous Fang",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "The Poison Flower Blooms Twice"
+            },
+            {
+                "name": "Dryleaf Arts",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 7,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Endure",
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Radagon Icon",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 3
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 4
+            },
+            {
+                "name": "Clarifying Horn Charm +2",
+                "order": 5
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 6
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 7
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 8
+            },
+            {
+                "name": "Talisman of the Dread",
+                "order": 9,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Roar Medallion",
+                "order": 10
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Drake Knight Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Armor of Solitude",
+                    "order": 1
+                },
+                {
+                    "name": "Armor of Solitude (Altered)",
+                    "order": 2
+                },
+                {
+                    "name": "Blaidd's Armor",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Briar Armor",
+                    "order": 4
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Thiollier's Mask",
+                    "order": 0
+                },
+                {
+                    "name": "Fire Knight Helm",
+                    "order": 1
+                },
+                {
+                    "name": "Omensmirk Mask",
+                    "order": 2
+                },
+                {
+                    "name": "Albinauric Mask",
+                    "order": 3
+                },
+                {
+                    "name": "Marais Mask",
+                    "order": 4
+                },
+                {
+                    "name": "Divine Bird Helm",
+                    "order": 5
+                },
+                {
+                    "name": "Briar Helm",
+                    "order": 6,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Black Wolf Mask",
+                    "order": 7
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Lionel's Greaves",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

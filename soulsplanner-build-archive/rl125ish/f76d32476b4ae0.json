@@ -1,0 +1,1450 @@
+{
+    "id": "f76d32476b4ae0",
+    "is2h": false,
+    "name": "Prop Caster",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "Caster"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 10,
+        "dex": 10,
+        "fth": 80,
+        "int": 7,
+        "mnd": 19,
+        "str": 11,
+        "vig": 59,
+        "vit": 8
+    },
+    "views": {
+        "overview": "swappa",
+        "talismans-view/right": "Presets"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Death Lightning",
+                "order": 0
+            },
+            {
+                "name": "Catch Flame",
+                "order": 1
+            },
+            {
+                "name": "Wrath of Gold",
+                "order": 2
+            },
+            {
+                "name": "Frenzied Burst",
+                "order": 3
+            },
+            {
+                "name": "Unendurable Frenzy",
+                "order": 4
+            },
+            {
+                "name": "Giantsflame Take Thee",
+                "order": 5
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 6
+            },
+            {
+                "name": "Black Flame's Protection",
+                "order": 7
+            },
+            {
+                "name": "Barrier of Gold",
+                "order": 8
+            },
+            {
+                "name": "Blessing of the Erdtree",
+                "order": 9
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 116,
+        "poise": {
+            "original": 50
+        },
+        "stats": {
+            "vit": 10
+        },
+        "defenses": {
+            "fire": 186,
+            "holy": 147,
+            "magic": 141,
+            "slash": 130,
+            "pierce": 130,
+            "strike": 130,
+            "physical": 130,
+            "lightning": 127
+        },
+        "maxHealth": 1887,
+        "absorption": {
+            "fire": 25.723616982999996,
+            "holy": 22.209149679999996,
+            "magic": 21.252774800000008,
+            "slash": 24.5154717448,
+            "pierce": 24.008542363899988,
+            "strike": 23.4274432384,
+            "physical": 24.67159279600001,
+            "lightning": 22.490341222400012
+        },
+        "maxStamina": 96,
+        "resistances": {
+            "focus": 245,
+            "immunity": 338,
+            "vitality": 258,
+            "robustness": 283
+        },
+        "maxEquipLoad": 0
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Cinquedea",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Venomous Fang",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Raptor of the Mists"
+            },
+            {
+                "name": "Cinquedea",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Giant's Seal",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Giant's Seal",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Erdtree Seal",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Erdtree Seal",
+                "order": 11,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Azur's Glintstone Staff",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Giant's Seal",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Giant's Seal",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Godslayer's Seal",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Godslayer's Seal",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Azur's Glintstone Staff",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Azur's Glintstone Staff",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Gravel Stone Seal",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Gravel Stone Seal",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Gravel Stone Seal",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Gravel Stone Seal",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Azur's Glintstone Staff",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 30,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 31,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Azur's Glintstone Staff",
+                "order": 32,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Erdtree Seal",
+                "order": 33,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Erdtree Seal",
+                "order": 34,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 35,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 36,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Azur's Glintstone Staff",
+                "order": 37,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Godslayer's Seal",
+                "order": 38,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Godslayer's Seal",
+                "order": 39,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Flail",
+                "order": 40,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Serpent-Hunter",
+                "order": 41,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Flail",
+                "order": 42,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Serpent-Hunter",
+                "order": 43,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Flail",
+                "order": 44,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Marika's Hammer",
+                "order": 45,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Marika's Hammer",
+                "order": 46,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Marika's Hammer",
+                "order": 47,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Marika's Hammer",
+                "order": 48,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Marika's Hammer",
+                "order": 49,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Serpent-Hunter",
+                "order": 50,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Flail",
+                "order": 51,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Serpent-Hunter",
+                "order": 52,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Flail",
+                "order": 53,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Serpent-Hunter",
+                "order": 54,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 55,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Smoldering Shield",
+                "order": 56,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Cipher Pata",
+                "order": 57,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Smoldering Shield",
+                "order": 58,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 59,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Azur's Glintstone Staff",
+                "order": 7,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 0
+            },
+            {
+                "name": "Crimson Seed Talisman",
+                "order": 1
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 2
+            },
+            {
+                "name": "Crimson Seed Talisman",
+                "order": 3
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 4
+            },
+            {
+                "name": "Crimson Seed Talisman",
+                "order": 5
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 6
+            },
+            {
+                "name": "Crimson Seed Talisman",
+                "order": 7
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 8
+            },
+            {
+                "name": "Crimson Seed Talisman",
+                "order": 9
+            },
+            {
+                "name": "Mottled Necklace +1",
+                "order": 10
+            },
+            {
+                "name": "Clarifying Horn Charm +1",
+                "order": 11
+            },
+            {
+                "name": "Immunizing Horn Charm +1",
+                "order": 12
+            },
+            {
+                "name": "Stalwart Horn Charm +1",
+                "order": 13
+            },
+            {
+                "name": "Mottled Necklace +1",
+                "order": 14
+            },
+            {
+                "name": "Spelldrake Talisman +2",
+                "order": 15
+            },
+            {
+                "name": "Flamedrake Talisman +2",
+                "order": 16
+            },
+            {
+                "name": "Haligdrake Talisman +2",
+                "order": 17
+            },
+            {
+                "name": "Boltdrake Talisman +2",
+                "order": 18
+            },
+            {
+                "name": "Spelldrake Talisman +2",
+                "order": 19
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 20
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 21
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 22
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 23
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 24
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 25
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 26
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 27
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 28
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 29
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 30
+            },
+            {
+                "name": "Hammer Talisman",
+                "order": 31
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 32
+            },
+            {
+                "name": "Twinblade Talisman",
+                "order": 33
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 34
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 35
+            },
+            {
+                "name": "Curved Sword Talisman",
+                "order": 36
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 37
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 38
+            },
+            {
+                "name": "Concealing Veil",
+                "order": 39
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 40
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 41
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 42
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 43
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 44
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 45
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 46
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 47
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 48
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 49
+            },
+            {
+                "name": "Roar Medallion",
+                "order": 50
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 51
+            },
+            {
+                "name": "Faithful's Canvas Talisman",
+                "order": 52
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 53
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 54
+            },
+            {
+                "name": "Companion Jar",
+                "order": 55
+            },
+            {
+                "name": "Perfumer's Talisman",
+                "order": 56
+            },
+            {
+                "name": "Arrow's Reach Talisman",
+                "order": 57
+            },
+            {
+                "name": "Arrow's Sting Talisman",
+                "order": 58
+            },
+            {
+                "name": "Longtail Cat Talisman",
+                "order": 59
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 60
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 61
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 62
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 63
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 64
+            },
+            {
+                "name": "Assassin's Crimson Dagger",
+                "order": 65
+            },
+            {
+                "name": "Assassin's Cerulean Dagger",
+                "order": 66
+            },
+            {
+                "name": "Carian Filigreed Crest",
+                "order": 67
+            },
+            {
+                "name": "Assassin's Cerulean Dagger",
+                "order": 68
+            },
+            {
+                "name": "Assassin's Crimson Dagger",
+                "order": 69
+            },
+            {
+                "name": "Longtail Cat Talisman",
+                "order": 70
+            },
+            {
+                "name": "Longtail Cat Talisman",
+                "order": 71
+            },
+            {
+                "name": "Longtail Cat Talisman",
+                "order": 72
+            },
+            {
+                "name": "Longtail Cat Talisman",
+                "order": 73
+            },
+            {
+                "name": "Longtail Cat Talisman",
+                "order": 74
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 75
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 76
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 77
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 78
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 79
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 80
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 81
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 82
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 83
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 84
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 85
+            },
+            {
+                "name": "Stargazer Heirloom",
+                "order": 86
+            },
+            {
+                "name": "Prosthesis-Wearer Heirloom",
+                "order": 87
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 88
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 89
+            },
+            {
+                "name": "Taker's Cameo",
+                "order": 90
+            },
+            {
+                "name": "Taker's Cameo",
+                "order": 91
+            },
+            {
+                "name": "Ancestral Spirit's Horn",
+                "order": 92
+            },
+            {
+                "name": "Taker's Cameo",
+                "order": 93
+            },
+            {
+                "name": "Taker's Cameo",
+                "order": 94
+            },
+            {
+                "name": "Radagon's Soreseal",
+                "order": 95
+            },
+            {
+                "name": "Marika's Soreseal",
+                "order": 96
+            },
+            {
+                "name": "Cerulean Amber Medallion +2",
+                "order": 97
+            },
+            {
+                "name": "Marika's Soreseal",
+                "order": 98
+            },
+            {
+                "name": "Radagon's Soreseal",
+                "order": 99
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 100
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 101
+            },
+            {
+                "name": "Viridian Amber Medallion +2",
+                "order": 102
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 103
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 104
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "All-Knowing Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Fire Monk Gauntlets",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Mushroom Arms",
+                    "order": 4
+                },
+                {
+                    "name": "Alberich's Bracers",
+                    "order": 5
+                },
+                {
+                    "name": "Spellblade's Gloves",
+                    "order": 6
+                },
+                {
+                    "name": "Crucible Gauntlets",
+                    "order": 7
+                },
+                {
+                    "name": "Briar Gauntlets",
+                    "order": 8
+                },
+                {
+                    "name": "Omen Gauntlets",
+                    "order": 9
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 10
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 11
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 12
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 13
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 14
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Banished Knight Armor (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Beast Champion Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Veteran's Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Gravekeeper Cloak",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Mushroom Body",
+                    "order": 4
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 5
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 6
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 7
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 8
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 9
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 10
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 11
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 12
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 13
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 14
+                },
+                {
+                    "name": "Crucible Tree Armor",
+                    "order": 15
+                },
+                {
+                    "name": "Crucible Axe Armor",
+                    "order": 16
+                },
+                {
+                    "name": "Spellblade's Traveling Attire",
+                    "order": 17
+                },
+                {
+                    "name": "Crucible Tree Armor (Altered)",
+                    "order": 18
+                },
+                {
+                    "name": "Crucible Axe Armor (Altered)",
+                    "order": 19
+                },
+                {
+                    "name": "Raptor's Black Feathers",
+                    "order": 20
+                },
+                {
+                    "name": "Raptor's Black Feathers",
+                    "order": 21
+                },
+                {
+                    "name": "Raptor's Black Feathers",
+                    "order": 22
+                },
+                {
+                    "name": "Raptor's Black Feathers",
+                    "order": 23
+                },
+                {
+                    "name": "Raptor's Black Feathers",
+                    "order": 24
+                },
+                {
+                    "name": "Commoner's Simple Garb",
+                    "order": 25
+                },
+                {
+                    "name": "Commoner's Garb",
+                    "order": 26
+                },
+                {
+                    "name": "Commoner's Simple Garb",
+                    "order": 27
+                },
+                {
+                    "name": "Commoner's Garb",
+                    "order": 28
+                },
+                {
+                    "name": "Commoner's Simple Garb",
+                    "order": 29
+                },
+                {
+                    "name": "Godskin Noble Robe",
+                    "order": 30
+                },
+                {
+                    "name": "Godskin Noble Robe",
+                    "order": 31
+                },
+                {
+                    "name": "Godskin Noble Robe",
+                    "order": 32
+                },
+                {
+                    "name": "Godskin Noble Robe",
+                    "order": 33
+                },
+                {
+                    "name": "Godskin Noble Robe",
+                    "order": 34
+                },
+                {
+                    "name": "Alberich's Robe",
+                    "order": 35
+                },
+                {
+                    "name": "Alberich's Robe",
+                    "order": 36
+                },
+                {
+                    "name": "Alberich's Robe",
+                    "order": 37
+                },
+                {
+                    "name": "Alberich's Robe",
+                    "order": 38
+                },
+                {
+                    "name": "Alberich's Robe",
+                    "order": 39
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Imp Head (Wolf)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Royal Knight Helm",
+                    "order": 1
+                },
+                {
+                    "name": "Lionel's Helm",
+                    "order": 2
+                },
+                {
+                    "name": "Eccentric's Hood (Altered)",
+                    "order": 3
+                },
+                {
+                    "name": "Mushroom Crown",
+                    "order": 4
+                },
+                {
+                    "name": "Imp Head (Long-Tongued)",
+                    "order": 5
+                },
+                {
+                    "name": "Imp Head (Fanged)",
+                    "order": 6
+                },
+                {
+                    "name": "Imp Head (Cat)",
+                    "order": 7
+                },
+                {
+                    "name": "Imp Head (Corpse)",
+                    "order": 8
+                },
+                {
+                    "name": "Imp Head (Long-Tongued)",
+                    "order": 9
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 10
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 11
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 12
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 13
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 14
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 15
+                },
+                {
+                    "name": "Ash-of-War Scarab",
+                    "order": 16
+                },
+                {
+                    "name": "Incantation Scarab",
+                    "order": 17
+                },
+                {
+                    "name": "Glintstone Scarab",
+                    "order": 18
+                },
+                {
+                    "name": "Cerulean Tear Scarab",
+                    "order": 19
+                },
+                {
+                    "name": "Haligtree Knight Helm",
+                    "order": 20
+                },
+                {
+                    "name": "Radiant Gold Mask",
+                    "order": 21
+                },
+                {
+                    "name": "Alberich's Pointed Hat",
+                    "order": 22
+                },
+                {
+                    "name": "Crucible Tree Helm",
+                    "order": 23
+                },
+                {
+                    "name": "Crucible Axe Helm",
+                    "order": 24
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fingerprint Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Eccentric's Breeches",
+                    "order": 3
+                },
+                {
+                    "name": "Mushroom Legs",
+                    "order": 4
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 5
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 6
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 7
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 8
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 9
+                },
+                {
+                    "name": "Omen Greaves",
+                    "order": 10
+                },
+                {
+                    "name": "Crucible Greaves",
+                    "order": 11
+                },
+                {
+                    "name": "Spellblade's Trousers",
+                    "order": 12
+                },
+                {
+                    "name": "Preceptor's Trousers",
+                    "order": 13
+                },
+                {
+                    "name": "Royal Knight Greaves",
+                    "order": 14
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

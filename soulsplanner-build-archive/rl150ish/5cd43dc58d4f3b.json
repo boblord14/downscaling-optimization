@@ -1,0 +1,418 @@
+{
+    "id": "5cd43dc58d4f3b",
+    "is2h": true,
+    "name": "Magma Sorcerer",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "PvE",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 15,
+        "fth": 60,
+        "int": 40,
+        "mnd": 28,
+        "str": 15,
+        "vig": 50,
+        "vit": 12
+    },
+    "views": {
+        "overview": "swappa"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Magma Shot",
+                "order": 0
+            },
+            {
+                "name": "Gelmir's Fury",
+                "order": 1
+            },
+            {
+                "name": "Roiling Magma",
+                "order": 2
+            },
+            {
+                "name": "Rykard's Rancor",
+                "order": 3
+            },
+            {
+                "name": "Rancorcall",
+                "order": 4
+            },
+            {
+                "name": "Ancient Death Rancor",
+                "order": 5
+            },
+            {
+                "name": "Explosive Ghostflame",
+                "order": 6
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 7
+            },
+            {
+                "name": "Golden Vow",
+                "order": 8
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 163,
+        "poise": {
+            "original": 29
+        },
+        "runes": {
+            "total": 7108928,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "int": 42
+        },
+        "defenses": {
+            "fire": 183,
+            "holy": 151,
+            "magic": 185,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 133
+        },
+        "maxHealth": 1704,
+        "absorption": {
+            "fire": 22.80968377600001,
+            "holy": 22.531421923000007,
+            "magic": 22.838903065000004,
+            "slash": 25.361496644320003,
+            "pierce": 24.893054154640016,
+            "strike": 25.75018341523201,
+            "physical": 26.988401513535987,
+            "lightning": 23.471947792000016
+        },
+        "maxStamina": 99,
+        "resistances": {
+            "focus": 297,
+            "immunity": 314,
+            "vitality": 300,
+            "robustness": 238
+        },
+        "maxEquipLoad": 51.35294118
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Magma Blade",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Blasphemous Blade",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Gelmir Glintstone Staff",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Talisman of the Dread",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fire Knight Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Errant Sorcerer Manchettes",
+                    "order": 1
+                },
+                {
+                    "name": "Carian Knight Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Preceptor's Gloves",
+                    "order": 3
+                },
+                {
+                    "name": "Warrior Gauntlets",
+                    "order": 4,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Fire Knight Armor (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Depraved Perfumer Robe",
+                    "order": 1
+                },
+                {
+                    "name": "Briar Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Depraved Perfumer Robe (Altered)",
+                    "order": 3
+                },
+                {
+                    "name": "Confessor Armor (Altered)",
+                    "order": 4
+                },
+                {
+                    "name": "Fire Knight Armor",
+                    "order": 5
+                },
+                {
+                    "name": "Confessor Armor",
+                    "order": 6
+                },
+                {
+                    "name": "Exile Armor",
+                    "order": 7
+                },
+                {
+                    "name": "Depraved Perfumer Robe (Altered)",
+                    "order": 8
+                },
+                {
+                    "name": "Messmer's Armor",
+                    "order": 9
+                },
+                {
+                    "name": "Carian Knight Armor",
+                    "order": 10
+                },
+                {
+                    "name": "Sanguine Noble Robe",
+                    "order": 11,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Salza's Hood",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Blackflame Monk Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Fire Knight Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Depraved Perfumer Trousers",
+                    "order": 2
+                },
+                {
+                    "name": "Gelmir Knight Greaves",
+                    "order": 3
+                },
+                {
+                    "name": "Confessor Boots",
+                    "order": 4
+                },
+                {
+                    "name": "Page Trousers",
+                    "order": 5
+                },
+                {
+                    "name": "Carian Knight Greaves",
+                    "order": 6
+                },
+                {
+                    "name": "Carian Knight Greaves",
+                    "order": 7
+                },
+                {
+                    "name": "Fire Knight Greaves",
+                    "order": 8
+                },
+                {
+                    "name": "Astrologer Trousers",
+                    "order": 9
+                },
+                {
+                    "name": "Sanguine Noble Waistcloth",
+                    "order": 10
+                },
+                {
+                    "name": "Messmer Soldier Greaves",
+                    "order": 11
+                },
+                {
+                    "name": "Warrior Greaves",
+                    "order": 12,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

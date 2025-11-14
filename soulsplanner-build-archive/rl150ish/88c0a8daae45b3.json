@@ -1,0 +1,924 @@
+{
+    "id": "88c0a8daae45b3",
+    "is2h": true,
+    "name": "164 Str ERPVP rules",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Optimal magic for 0p #3",
+                "active": true
+            },
+            {
+                "name": "Optimal poise for 88p #2"
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "Invasions",
+        "PvE",
+        "kbm",
+        "Hardswaps",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Drawstring Golden Grease",
+                    "order": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 164,
+        "arc": 7,
+        "dex": 13,
+        "fth": 9,
+        "int": 9,
+        "mnd": 10,
+        "str": 60,
+        "vig": 97,
+        "vit": 38
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Rejection",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 98
+        },
+        "runes": {
+            "total": 9486416,
+            "toNextLevel": 192441
+        },
+        "stats": {
+            "vig": 99
+        },
+        "defenses": {
+            "fire": 205,
+            "holy": 149,
+            "magic": 153,
+            "slash": 165,
+            "pierce": 165,
+            "strike": 165,
+            "physical": 165,
+            "lightning": 135
+        },
+        "maxHealth": 2100,
+        "absorption": {
+            "fire": 30.233090473840008,
+            "holy": 29.79152775532,
+            "magic": 30.029292932050012,
+            "slash": 37.1426857,
+            "pierce": 35.72660371600001,
+            "strike": 33.584542763000016,
+            "physical": 38.172702736,
+            "lightning": 31.50096326380001
+        },
+        "maxStamina": 140,
+        "resistances": {
+            "focus": 244,
+            "immunity": 404,
+            "vitality": 278,
+            "robustness": 427
+        },
+        "maxEquipLoad": 104.89547069
+    },
+    "greatRune": null,
+    "inventory": {
+        "slots": [
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Beast's Roar",
+                "equipIndex": 0
+            },
+            {
+                "name": "Cinquedea",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Estoc",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Shamshir",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Estoc",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Hoarfrost Stomp"
+            },
+            {
+                "name": "Shamshir",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Wolf Crest Shield",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Wolf Crest Shield",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Divine Beast Frost Stomp"
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Divine Beast Frost Stomp"
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Divine Beast Frost Stomp"
+            },
+            {
+                "name": "Greatsword",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Giant Hunt"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 6,
+                "upgrade": null,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Beast's Roar",
+                "equipIndex": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 1
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 2
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 3
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 4
+            },
+            {
+                "name": "Pearldrake Talisman +3",
+                "order": 5,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 6
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 7
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 8
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 9
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 10
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 11
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 12
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 13
+            },
+            {
+                "name": "Retaliatory Crossed-Tree",
+                "order": 14
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 15
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 16,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Golden Braid",
+                "order": 17
+            },
+            {
+                "name": "Lacerating Crossed-Tree",
+                "order": 18
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 19
+            },
+            {
+                "name": "Clarifying Horn Charm +2",
+                "order": 20
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 21
+            },
+            {
+                "name": "Hammer Talisman",
+                "order": 22
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 23
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 24,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 25
+            },
+            {
+                "name": "Spelldrake Talisman +3",
+                "order": 26
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 27
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 28
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 29
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 4
+                },
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 5
+                },
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 6
+                },
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 7
+                },
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 8
+                },
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 9
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 10
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 11
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 12
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 13
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 14
+                },
+                {
+                    "name": "Gaius's Gauntlets",
+                    "order": 15
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 16
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 17
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 18
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 19
+                },
+                {
+                    "name": "Verdigris Gauntlets",
+                    "order": 20,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Preceptor's Gloves",
+                    "order": 21
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 22
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 23
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 24
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 0
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 1
+                },
+                {
+                    "name": "Veteran's Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Veteran's Armor",
+                    "order": 3
+                },
+                {
+                    "name": "Veteran's Armor",
+                    "order": 4
+                },
+                {
+                    "name": "Lionel's Armor",
+                    "order": 5
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 6
+                },
+                {
+                    "name": "Veteran's Armor",
+                    "order": 7
+                },
+                {
+                    "name": "Veteran's Armor",
+                    "order": 8
+                },
+                {
+                    "name": "Veteran's Armor",
+                    "order": 9
+                },
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 10
+                },
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 11
+                },
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 12
+                },
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 13
+                },
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 14
+                },
+                {
+                    "name": "Gaius's Armor",
+                    "order": 15
+                },
+                {
+                    "name": "Armor of Solitude",
+                    "order": 16
+                },
+                {
+                    "name": "Armor of Solitude",
+                    "order": 17
+                },
+                {
+                    "name": "Armor of Solitude",
+                    "order": 18
+                },
+                {
+                    "name": "Armor of Solitude",
+                    "order": 19
+                },
+                {
+                    "name": "Verdigris Armor",
+                    "order": 20,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Lusat's Robe",
+                    "order": 21
+                },
+                {
+                    "name": "Armor of Solitude",
+                    "order": 22
+                },
+                {
+                    "name": "Armor of Solitude",
+                    "order": 23
+                },
+                {
+                    "name": "Armor of Solitude",
+                    "order": 24
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 0
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 1
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 2
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 3
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 4
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 5,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 6
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 7
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 8
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 9
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 10
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 11
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 12
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 13
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 14
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 15
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 16
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 17
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 18
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 19
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 20
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 21
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 22
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 23
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 24
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Veteran's Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Veteran's Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Veteran's Greaves",
+                    "order": 3
+                },
+                {
+                    "name": "Veteran's Greaves",
+                    "order": 4
+                },
+                {
+                    "name": "Lionel's Greaves",
+                    "order": 5
+                },
+                {
+                    "name": "Veteran's Greaves",
+                    "order": 6
+                },
+                {
+                    "name": "Veteran's Greaves",
+                    "order": 7
+                },
+                {
+                    "name": "Veteran's Greaves",
+                    "order": 8
+                },
+                {
+                    "name": "Veteran's Greaves",
+                    "order": 9
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 10
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 11
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 12
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 13
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 14
+                },
+                {
+                    "name": "Verdigris Greaves",
+                    "order": 15
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 16
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 17
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 18
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 19
+                },
+                {
+                    "name": "Verdigris Greaves",
+                    "order": 20,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Preceptor's Trousers",
+                    "order": 21
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 22
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 23
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 24
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

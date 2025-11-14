@@ -1,0 +1,575 @@
+{
+    "id": "59c215bd3c4811",
+    "is2h": false,
+    "name": "Bloody Wolf Recreation - RL150",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Hybrid",
+        "Duels",
+        "Invasions",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 3,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Lantern",
+                    "order": 4,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Prattling Pate \"You're beautiful\"",
+                    "order": 5,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 6
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 40,
+        "fth": 20,
+        "int": 18,
+        "mnd": 16,
+        "str": 40,
+        "vig": 60,
+        "vit": 28
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Black Flame",
+                "order": 0
+            },
+            {
+                "name": "The Flame of Frenzy",
+                "order": 1
+            },
+            {
+                "name": "Black Flame Blade",
+                "order": 2
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 3
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 4
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 100,
+        "poise": {
+            "altered": 58.66666652,
+            "original": 44
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 146,
+            "magic": 168,
+            "slash": 147,
+            "pierce": 147,
+            "strike": 147,
+            "physical": 147,
+            "lightning": 132
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 22.110739637099996,
+            "holy": 18.593419081600004,
+            "magic": 19.892363904,
+            "slash": 25.932153840000005,
+            "pierce": 24.943802656000013,
+            "strike": 23.036641091200003,
+            "physical": 25.932153840000005,
+            "lightning": 13.89350717440001
+        },
+        "maxStamina": 126,
+        "resistances": {
+            "focus": 198,
+            "immunity": 271,
+            "vitality": 205,
+            "robustness": 287
+        },
+        "maxEquipLoad": 75.21810154
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Black Leather Shield",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Zweihander",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Earthshaker"
+            },
+            {
+                "name": "Bastard Sword",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Quality",
+                "weaponArt": "Storm Blade",
+                "equipIndex": 0
+            },
+            {
+                "name": "Longsword",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Scavenger's Curved Sword",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Scavenger's Curved Sword",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Thunderbolt"
+            },
+            {
+                "name": "Twinblade",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Bolt of Gransax",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Serpent-Hunter",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Smithscript Spear",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Repeating Thrust"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Blind Spot"
+            },
+            {
+                "name": "Smithscript Cirque",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Swift Slash"
+            },
+            {
+                "name": "Rellana's Twin Blades",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dueling Shield",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Shield Strike"
+            },
+            {
+                "name": "Godslayer's Greatsword",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Torch",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Carian Knight's Sword",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Scimitar",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Shamshir",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Black Steel Twinblade",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Aspects of the Crucible: Wings"
+            },
+            {
+                "name": "Zweihander",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Lion's Claw"
+            },
+            {
+                "name": "Bastard Sword",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Lion's Claw"
+            },
+            {
+                "name": "Iron Roundshield",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 3
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 16,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "class",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 0,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 3,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 4
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 5
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 6
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 7
+            },
+            {
+                "name": "Faithful's Canvas Talisman",
+                "order": 8
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 9
+            },
+            {
+                "name": "Companion Jar",
+                "order": 10
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 11
+            },
+            {
+                "name": "Roar Medallion",
+                "order": 12
+            },
+            {
+                "name": "Rellana's Cameo",
+                "order": 13
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 14
+            },
+            {
+                "name": "Hammer Talisman",
+                "order": 15
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 16
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 17
+            },
+            {
+                "name": "Curved Sword Talisman",
+                "order": 18
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 19
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 20
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 21
+            },
+            {
+                "name": "Smithing Talisman",
+                "order": 22
+            },
+            {
+                "name": "Enraged Divine Beast",
+                "order": 23
+            },
+            {
+                "name": "Shattered Stone Talisman",
+                "order": 24
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Raging Wolf Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Raging Wolf Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Raging Wolf Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Scaled Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Raging Wolf Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 3
+                },
+                {
+                    "name": "Blaidd's Greaves",
+                    "order": 4
+                },
+                {
+                    "name": "Knight Greaves",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "poise",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

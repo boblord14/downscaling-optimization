@@ -1,0 +1,437 @@
+{
+    "id": "e32c97513843f0",
+    "is2h": false,
+    "name": "Ascetic Orym",
+    "sets": {
+        "weapons": [
+            {
+                "name": "All the weapons"
+            },
+            {
+                "name": "Maddening Martial Arts",
+                "active": true
+            },
+            {
+                "name": "A lonely wanderer through the abyss"
+            },
+            {
+                "name": "Perfumes"
+            },
+            {
+                "name": "Like fire, stolen from the Gods"
+            },
+            {
+                "name": "Frenzied Miracles"
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Invasions",
+        "Caster",
+        "Faith",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Frenzyflame Stone",
+                    "order": 0,
+                    "equipIndex": 5
+                },
+                {
+                    "name": "Surging Frenzied Flame",
+                    "order": 1,
+                    "equipIndex": 4
+                },
+                {
+                    "name": "Frenzied Flame Pot",
+                    "order": 2,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Roped Frenzied Flame Pot",
+                    "order": 3,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Hefty Frenzied Flame Pot",
+                    "order": 4,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Regal Omen Bairn",
+                    "order": 5,
+                    "equipIndex": 15
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Leaden Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 10,
+        "dex": 15,
+        "fth": 41,
+        "int": 14,
+        "mnd": 28,
+        "str": 11,
+        "vig": 60,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Fire Serpent",
+                "order": 0
+            },
+            {
+                "name": "The Flame of Frenzy",
+                "order": 1
+            },
+            {
+                "name": "Unendurable Frenzy",
+                "order": 2
+            },
+            {
+                "name": "Frenzied Burst",
+                "order": 3
+            },
+            {
+                "name": "Inescapable Frenzy",
+                "order": 4
+            },
+            {
+                "name": "Howl of Shabriri",
+                "order": 5
+            },
+            {
+                "name": "Fire's Deadly Sin",
+                "order": 6
+            },
+            {
+                "name": "Midra's Flame of Frenzy",
+                "order": 7
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 163,
+        "poise": {
+            "original": 22
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 147,
+            "magic": 155,
+            "slash": 130,
+            "pierce": 130,
+            "strike": 130,
+            "physical": 130,
+            "lightning": 127
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 23.187062606400012,
+            "holy": 26.61263008,
+            "magic": 26.61263008,
+            "slash": 9.841203118000008,
+            "pierce": 9.276534244000011,
+            "strike": 14.31342248320001,
+            "physical": 11.583884632000007,
+            "lightning": 24.69327662080001
+        },
+        "maxStamina": 121,
+        "resistances": {
+            "focus": 312,
+            "immunity": 291,
+            "vitality": 314,
+            "robustness": 219
+        },
+        "maxEquipLoad": 72
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Nanaya's Torch",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    5,
+                    null,
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3,
+                    3,
+                    null,
+                    null,
+                    null,
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Frenzyflame Perfume Bottle",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    4,
+                    null,
+                    null,
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Rolling Sparks"
+            },
+            {
+                "name": "Madding Hand",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    0,
+                    null,
+                    0,
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dryleaf Arts",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    1,
+                    0,
+                    null,
+                    null,
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Braggart's Roar",
+                "equipIndex": 0
+            },
+            {
+                "name": "Dane's Footwork",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    3
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Dryleaf Whirlwind"
+            },
+            {
+                "name": "Giant's Seal",
+                "order": 6,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Aged One's Exultation",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 2
+            },
+            {
+                "name": "Moon of Nokstella",
+                "order": 3
+            },
+            {
+                "name": "Cerulean Amber Medallion +3",
+                "order": 4
+            },
+            {
+                "name": "Perfumer's Talisman",
+                "order": 5
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 6,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 7,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Trigger in Presence of Madness",
+            "Frenzied Flame Spell",
+            "Affects Incantations",
+            "Spell Power Boost"
+        ],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gravebird Bracelets",
+                    "order": 0
+                },
+                {
+                    "name": "Dryleaf Arm Wraps",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Bloodsoaked Manchettes",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Dryleaf Robe (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Iron Kasa",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Dryleaf Cuissardes",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

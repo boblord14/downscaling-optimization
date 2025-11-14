@@ -1,0 +1,142 @@
+{
+    "id": "e25d04350f4321",
+    "name": "Poisonmage",
+    "stats": {
+        "rl": 125,
+        "arc": 45,
+        "dex": 14,
+        "fth": 6,
+        "int": 25,
+        "mnd": 12,
+        "str": 14,
+        "vig": 60,
+        "vit": 28
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Carian Slicer",
+                "order": 0
+            },
+            {
+                "name": "Swift Glintstone Shard",
+                "order": 1
+            },
+            {
+                "name": "Great Glintstone Shard",
+                "order": 2
+            },
+            {
+                "name": "Star Shower",
+                "order": 3
+            }
+        ]
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Albinauric Staff",
+                "order": 0,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Weapon",
+                "equipIndex": 3
+            },
+            {
+                "name": "Scythe",
+                "order": 1,
+                "infusion": "Occult",
+                "weaponArt": "Poisonous Mist",
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 0,
+                "equipIndex": 2
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 1,
+                "equipIndex": 0
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 2,
+                "equipIndex": 1
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 3,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Banished Knight Gauntlets",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Mushroom Crown",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prisoner"
+}

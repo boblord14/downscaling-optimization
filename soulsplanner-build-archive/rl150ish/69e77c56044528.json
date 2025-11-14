@@ -1,0 +1,577 @@
+{
+    "id": "69e77c56044528",
+    "is2h": false,
+    "name": "PVE STR (adapted from unlined-betters)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "DLC: SotE"
+    ],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Godrick's Great Rune",
+                    "order": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Greenburst Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 18,
+        "fth": 16,
+        "int": 9,
+        "mnd": 11,
+        "str": 80,
+        "vig": 60,
+        "vit": 28
+    },
+    "views": {
+        "overview": "swappa",
+        "weapons-view/left": "Edit"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Divine Fortification",
+                "order": 1
+            },
+            {
+                "name": "Lightning Fortification",
+                "order": 2
+            },
+            {
+                "name": "Magic Fortification",
+                "order": 3
+            },
+            {
+                "name": "Flame Fortification",
+                "order": 4
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 82,
+        "poise": {
+            "original": 51
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "arc": 8,
+            "fth": 17,
+            "int": 10
+        },
+        "defenses": {
+            "fire": 193,
+            "holy": 149,
+            "magic": 153,
+            "slash": 168,
+            "pierce": 168,
+            "strike": 168,
+            "physical": 168,
+            "lightning": 133
+        },
+        "maxHealth": 2375,
+        "absorption": {
+            "fire": 23.3407983592,
+            "holy": 21.464414162200008,
+            "magic": 20.80158463360001,
+            "slash": 22.4641234,
+            "pierce": 23.013750879999996,
+            "strike": 22.12966774,
+            "physical": 24.82370333199999,
+            "lightning": 17.82351553299999
+        },
+        "maxStamina": 126,
+        "resistances": {
+            "focus": 224,
+            "immunity": 293,
+            "vitality": 250,
+            "robustness": 276
+        },
+        "maxEquipLoad": 89.50954083
+    },
+    "greatRune": "Morgott's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Rusted Anchor",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Broadsword",
+                "order": 1,
+                "infusion": "Heavy",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Ordovis's Greatsword",
+                "order": 2,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Greatsword",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Spinning Gravity Thrust"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Beastman's Curved Sword",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Gargoyle's Twinblade",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Great Stars",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Eruption"
+            },
+            {
+                "name": "Executioner's Greataxe",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Pike",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Commander's Standard",
+                "order": 10,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon Halberd",
+                "order": 11,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Star Fist",
+                "order": 12,
+                "infusion": "Heavy",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Giant-Crusher",
+                "order": 13,
+                "infusion": "Heavy",
+                "weaponArt": "Lion's Claw"
+            },
+            {
+                "name": "Bloodhound Claws",
+                "order": 14,
+                "infusion": "Heavy",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Fire Knight's Greatsword",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Sword Lance",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Black Steel Greathammer",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Messmer Soldier's Spear",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Pata",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Verdigris Greatshield",
+                "order": 20,
+                "upgrade": 9,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bone Bow",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Milady",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Red Bear's Claw",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Great Katana",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Blind Spot"
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Claymore",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Warped Axe",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Dryleaf Arts",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Palm Blast"
+            }
+        ],
+        "sorting": {
+            "method": "class",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Spear Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 1
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 3
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 4
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 5
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 6
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 7
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 8
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 9
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 10
+            },
+            {
+                "name": "Pearl Shield Talisman",
+                "order": 11,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 12,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 13
+            },
+            {
+                "name": "Curved Sword Talisman",
+                "order": 14
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 15
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 16
+            },
+            {
+                "name": "Shattered Stone Talisman",
+                "order": 17
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 18
+            },
+            {
+                "name": "Crusade Insignia",
+                "order": 19
+            },
+            {
+                "name": "Retaliatory Crossed-Tree",
+                "order": 20
+            },
+            {
+                "name": "Enraged Divine Beast",
+                "order": 21
+            },
+            {
+                "name": "Blade of Mercy",
+                "order": 22
+            },
+            {
+                "name": "Twinblade Talisman",
+                "order": 23
+            },
+            {
+                "name": "Verdigris Discus",
+                "order": 24
+            }
+        ],
+        "sorting": {
+            "method": "name",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Godskin Noble Bracelets",
+                    "order": 0
+                },
+                {
+                    "name": "Gold Bracelets",
+                    "order": 1
+                },
+                {
+                    "name": "Battlemage Manchettes",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Raptor's Black Feathers",
+                    "order": 0
+                },
+                {
+                    "name": "Fingerprint Armor (Altered)",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Mausoleum Knight Armor (Altered)",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Omensmirk Mask",
+                    "order": 0
+                },
+                {
+                    "name": "Circlet of Light",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Crucible Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Ascetic's Ankle Guards",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

@@ -1,0 +1,463 @@
+{
+    "id": "6df2be5d8e4947",
+    "is2h": true,
+    "name": "Caveman",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "Invasions",
+        "Duels",
+        "2v2",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Preserving Boluses",
+                    "order": 0
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 1
+                },
+                {
+                    "name": "Thawfrost Boluses",
+                    "order": 2
+                },
+                {
+                    "name": "Clarifying Boluses",
+                    "order": 3
+                },
+                {
+                    "name": "Stimulating Boluses",
+                    "order": 4
+                },
+                {
+                    "name": "Spellproof Pickled Liver",
+                    "order": 5
+                },
+                {
+                    "name": "Fireproof Pickled Liver",
+                    "order": 6
+                },
+                {
+                    "name": "Lightningproof Pickled Liver",
+                    "order": 7
+                },
+                {
+                    "name": "Holyproof Pickled Liver",
+                    "order": 8
+                },
+                {
+                    "name": "Opaline Pickled Liver",
+                    "order": 9
+                },
+                {
+                    "name": "Sacred Bloody Flesh",
+                    "order": 10
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 11
+                },
+                {
+                    "name": "Hefty Fly Pot",
+                    "order": 12
+                },
+                {
+                    "name": "Hefty Rock Pot",
+                    "order": 13
+                },
+                {
+                    "name": "Taunter's Tongue",
+                    "order": 14
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Winged Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 40,
+        "dex": 10,
+        "fth": 8,
+        "int": 7,
+        "mnd": 9,
+        "str": 54,
+        "vig": 58,
+        "vit": 43
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "altered": 113.33333305,
+            "original": 85
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "vig": 60
+        },
+        "defenses": {
+            "fire": 193,
+            "holy": 185,
+            "magic": 147,
+            "slash": 158,
+            "pierce": 158,
+            "strike": 158,
+            "physical": 158,
+            "lightning": 133
+        },
+        "maxHealth": 1976,
+        "absorption": {
+            "fire": 26.80985291800001,
+            "holy": 25.779724235199996,
+            "magic": 26.266826332000004,
+            "slash": 35.911485856000006,
+            "pierce": 34.563088900000004,
+            "strike": 33.12166204000001,
+            "physical": 36.852270508,
+            "lightning": 26.866727290000014
+        },
+        "maxStamina": 160.6,
+        "resistances": {
+            "focus": 257,
+            "immunity": 351,
+            "vitality": 299,
+            "robustness": 394
+        },
+        "maxEquipLoad": 102.70536671
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Iron Cleaver",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Iron Greatsword",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Star Fist",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Fire",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Nightrider Glaive",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Stone Club",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Warped Axe",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Rusted Anchor",
+                "order": 8,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Braggart's Roar",
+                "equipIndex": 0
+            },
+            {
+                "name": "Ancient Meteoric Ore Greatsword",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Highland Axe",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Endure",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 2
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 4
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 5
+            },
+            {
+                "name": "Roar Medallion",
+                "order": 6,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Retaliatory Crossed-Tree",
+                "order": 7
+            },
+            {
+                "name": "Lacerating Crossed-Tree",
+                "order": 8
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 9
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 10
+            },
+            {
+                "name": "Cerulean Amber Medallion +3",
+                "order": 11
+            },
+            {
+                "name": "Viridian Amber Medallion +3",
+                "order": 12
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 13
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 14
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 15
+            },
+            {
+                "name": "Spelldrake Talisman +3",
+                "order": 16
+            },
+            {
+                "name": "Flamedrake Talisman +3",
+                "order": 17
+            },
+            {
+                "name": "Boltdrake Talisman +3",
+                "order": 18
+            },
+            {
+                "name": "Pearldrake Talisman +3",
+                "order": 19
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Banished Knight Gauntlets",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Banished Knight Helm (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Banished Knight Helm",
+                    "order": 1
+                },
+                {
+                    "name": "Lionel's Helm",
+                    "order": 2
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Omensmirk Mask",
+                    "order": 4
+                },
+                {
+                    "name": "Imp Head (Fanged)",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

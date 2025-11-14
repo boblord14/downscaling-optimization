@@ -1,0 +1,326 @@
+{
+    "id": "3a8808856a4727",
+    "is2h": false,
+    "name": "Samurai of Night",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "Intelligence",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Cerulean-Sapping Cracked Tear",
+            "Thorny Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 160,
+        "arc": 21,
+        "dex": 36,
+        "fth": 8,
+        "int": 68,
+        "mnd": 11,
+        "str": 12,
+        "vig": 55,
+        "vit": 28
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "All Items",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Night Shard",
+                "order": 0
+            },
+            {
+                "name": "Night Comet",
+                "order": 1
+            },
+            {
+                "name": "Eternal Darkness",
+                "order": 2
+            },
+            {
+                "name": "Ranni's Dark Moon",
+                "order": 3
+            },
+            {
+                "name": "Unseen Form",
+                "order": 4
+            },
+            {
+                "name": "Fleeting Microcosm",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 94,
+        "poise": {
+            "original": 51
+        },
+        "runes": {
+            "total": 8754800,
+            "toNextLevel": 181549
+        },
+        "defenses": {
+            "fire": 189,
+            "holy": 174,
+            "magic": 196,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 134
+        },
+        "maxHealth": 2086.1,
+        "absorption": {
+            "fire": 24.25002530160002,
+            "holy": 23.981717440000004,
+            "magic": 23.000407264,
+            "slash": 25.966472752,
+            "pierce": 25.72408727200001,
+            "strike": 23.323122169200005,
+            "physical": 25.350917088000003,
+            "lightning": 21.93919989040001
+        },
+        "maxStamina": 144.9,
+        "resistances": {
+            "focus": 237,
+            "immunity": 308,
+            "vitality": 255,
+            "robustness": 291
+        },
+        "maxEquipLoad": 75.21810154
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Sword of Night",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Moonveil",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Staff of Loss",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Wakizashi",
+                "order": 3,
+                "upgrade": 0,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Bloodhound's Step",
+                "equipIndex": 4
+            },
+            {
+                "name": "Maternal Staff",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Godfrey Icon",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Twinblade Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Affects Sorceries",
+            "Spell Power Boost",
+            "Final Chain Attack",
+            "Trigger in Presence of Blood Loss",
+            "Charged Attack",
+            "Charged Skill Attack",
+            "Night Spell"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets of Night",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Night's Cavalry Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Iron Kasa",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Black Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Samurai"
+}
