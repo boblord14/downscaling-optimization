@@ -1,0 +1,492 @@
+{
+    "id": "e75a005bbd4e2c",
+    "is2h": false,
+    "name": "Semi-melee Int build RL139",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Invasions",
+        "Intelligence",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 139,
+        "arc": 7,
+        "dex": 18,
+        "fth": 9,
+        "int": 53,
+        "mnd": 10,
+        "str": 28,
+        "vig": 60,
+        "vit": 33
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Cannon of Haima",
+                "order": 0
+            },
+            {
+                "name": "Gavel of Haima",
+                "order": 1
+            },
+            {
+                "name": "Zamor Ice Storm",
+                "order": 2
+            },
+            {
+                "name": "Gravitational Missile",
+                "order": 3
+            },
+            {
+                "name": "Miriam's Vanishing",
+                "order": 4
+            },
+            {
+                "name": "Carian Greatsword",
+                "order": 5
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 6
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "altered": 90.66666644,
+            "original": 68
+        },
+        "runes": {
+            "total": 5568328,
+            "toNextLevel": 130894
+        },
+        "stats": {
+            "arc": 8,
+            "fth": 10,
+            "int": 54
+        },
+        "defenses": {
+            "fire": 190,
+            "holy": 146,
+            "magic": 187,
+            "slash": 139,
+            "pierce": 139,
+            "strike": 139,
+            "physical": 139,
+            "lightning": 130
+        },
+        "maxHealth": 2173.6,
+        "absorption": {
+            "fire": 24.71944620999999,
+            "holy": 22.2393877588,
+            "magic": 23.051805846399983,
+            "slash": 28.07057035,
+            "pierce": 27.3799966528,
+            "strike": 28.760238807400007,
+            "physical": 29.96403104800001,
+            "lightning": 22.567700439999992
+        },
+        "maxStamina": 146.3,
+        "resistances": {
+            "focus": 251,
+            "immunity": 320,
+            "vitality": 256,
+            "robustness": 305
+        },
+        "maxEquipLoad": 87.98325314
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Zweihander",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Zweihander",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Zweihander",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness",
+                "equipIndex": 0
+            },
+            {
+                "name": "Zweihander",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Zweihander",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Carian Sovereignty"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Moonveil",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Helphen's Steeple",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Guardian's Swordspear",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Loretta's Slash"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Wing of Astel",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Pata",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Divine Beast Frost Stomp"
+            },
+            {
+                "name": "Twinned Knight Swords",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Dark Moon Greatsword",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Glintstone Kris",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Rabbath's Cannon",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Star Fist",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Velvet Sword of St. Trina",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Sword of St. Trina",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Carian Thrusting Shield",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Giant Hunt"
+            },
+            {
+                "name": "Meteoric Ore Blade",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonrithyll's Knight Sword",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Shamshir",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Gravitas"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 10,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step",
+                "equipIndex": 1
+            },
+            {
+                "name": "Carian Glintstone Staff",
+                "order": 20,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Divine Bird Warrior Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Circlet of Light",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

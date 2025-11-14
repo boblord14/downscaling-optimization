@@ -1,0 +1,343 @@
+{
+    "id": "480a076b0a4b44",
+    "is2h": false,
+    "name": "Rusted Anchor, Lion's Claw.",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Exalted Flesh",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Well-Pickled Turtle Neck",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Drawstring Messmerfire Grease",
+                    "order": 2,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 3,
+                    "active": true
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Stonebarb Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 14,
+        "fth": 15,
+        "int": 9,
+        "mnd": 14,
+        "str": 63,
+        "vig": 60,
+        "vit": 22
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 91,
+        "poise": {
+            "original": 52
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "str": 65
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 141,
+            "magic": 145,
+            "slash": 158,
+            "pierce": 158,
+            "strike": 158,
+            "physical": 158,
+            "lightning": 127
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 34.277194679968005,
+            "holy": 32.59923179816799,
+            "magic": 32.099580800992,
+            "slash": 57.32425351935999,
+            "pierce": 57.495986905599985,
+            "strike": 57.00747614924799,
+            "physical": 58.75067320802558,
+            "lightning": 29.767178492799985
+        },
+        "maxStamina": 116,
+        "resistances": {
+            "focus": 221,
+            "immunity": 291,
+            "vitality": 241,
+            "robustness": 266
+        },
+        "maxEquipLoad": 80.01
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Freyja's Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Sacred Order",
+                "equipIndex": 3
+            },
+            {
+                "name": "Commander's Standard",
+                "order": 1,
+                "upgrade": 0,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 2
+            },
+            {
+                "name": "Rusted Anchor",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Lion's Claw",
+                "equipIndex": 0
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Blade of Mercy",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 4,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 5
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 6
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Ascetic's Wrist Guards",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Battlemage Manchettes",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Fingerprint Armor (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Circlet of Light",
+                    "order": 0
+                },
+                {
+                    "name": "Omensmirk Mask",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Rakshasa Helm",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Crucible Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

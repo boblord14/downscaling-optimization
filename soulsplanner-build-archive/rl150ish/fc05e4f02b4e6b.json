@@ -1,0 +1,330 @@
+{
+    "id": "fc05e4f02b4e6b",
+    "is2h": false,
+    "name": "Pata Scholar's Armament ",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Optimal poise for 0p #2",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "Invasions",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Magic-Shrouding Cracked Tear",
+            "Thorny Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 15,
+        "fth": 9,
+        "int": 65,
+        "mnd": 10,
+        "str": 36,
+        "vig": 60,
+        "vit": 27
+    },
+    "views": {
+        "overview": "swappa",
+        "protector-view/right": "Armour Optimiser"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Swift Glintstone Shard",
+                "order": 0
+            },
+            {
+                "name": "Star Shower",
+                "order": 1
+            },
+            {
+                "name": "Gravitational Missile",
+                "order": 2
+            },
+            {
+                "name": "Scholar's Armament",
+                "order": 3
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "altered": 87.99999978,
+            "original": 66
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "str": 41
+        },
+        "defenses": {
+            "fire": 193,
+            "holy": 147,
+            "magic": 194,
+            "slash": 148,
+            "pierce": 148,
+            "strike": 148,
+            "physical": 148,
+            "lightning": 133
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 24.011311840000005,
+            "holy": 22.250329170399997,
+            "magic": 23.33751141160001,
+            "slash": 29.2013482672,
+            "pierce": 27.865144576,
+            "strike": 27.044316179200003,
+            "physical": 30.368200722400008,
+            "lightning": 20.09311811439999
+        },
+        "maxStamina": 125,
+        "resistances": {
+            "focus": 172,
+            "immunity": 318,
+            "vitality": 243,
+            "robustness": 322
+        },
+        "maxEquipLoad": 74.06015243
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Pata",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Endure",
+                "equipIndex": 0
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step",
+                "equipIndex": 1
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Lusat's Glintstone Staff",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Spear Talisman",
+                "order": 0,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1
+            },
+            {
+                "name": "Lacerating Crossed-Tree",
+                "order": 2,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 4
+            },
+            {
+                "name": "Old Lord's Talisman",
+                "order": 5,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Stargazer Heirloom",
+                "order": 6
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Running Attack"
+        ],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Blaidd's Gauntlets",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Leda's Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Twinsage Glintstone Crown",
+                    "order": 0
+                },
+                {
+                    "name": "Horned Warrior Helm",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Circlet of Light",
+                    "order": 2
+                },
+                {
+                    "name": "Haima Glintstone Crown",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Verdigris Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

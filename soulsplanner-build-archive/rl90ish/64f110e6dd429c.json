@@ -1,0 +1,253 @@
+{
+    "id": "64f110e6dd429c",
+    "is2h": false,
+    "name": "Knight Talia Vyn",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Quality"
+    ],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 85,
+        "arc": 7,
+        "dex": 35,
+        "fth": 12,
+        "int": 9,
+        "mnd": 10,
+        "str": 20,
+        "vig": 45,
+        "vit": 26
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Magic Fortification",
+                "order": 0
+            },
+            {
+                "name": "Divine Fortification",
+                "order": 1
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 2
+            },
+            {
+                "name": "Lightning Spear",
+                "order": 3
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 65
+        },
+        "runes": {
+            "total": 1217426,
+            "toNextLevel": 44623
+        },
+        "stats": {
+            "dex": 40
+        },
+        "defenses": {
+            "fire": 164,
+            "holy": 133,
+            "magic": 137,
+            "slash": 125,
+            "pierce": 125,
+            "strike": 125,
+            "physical": 125,
+            "lightning": 119
+        },
+        "maxHealth": 1581,
+        "absorption": {
+            "fire": 26.025668830000004,
+            "holy": 24.05000513440001,
+            "magic": 23.981296690000008,
+            "slash": 32.35733367040001,
+            "pierce": 30.803276800000013,
+            "strike": 26.471972980000004,
+            "physical": 31.653678592,
+            "lightning": 22.664278768000003
+        },
+        "maxStamina": 123,
+        "resistances": {
+            "focus": 196,
+            "immunity": 270,
+            "vitality": 213,
+            "robustness": 294
+        },
+        "maxEquipLoad": 86.82370313
+    },
+    "greatRune": null,
+    "inventory": {
+        "slots": [
+            {
+                "name": "Banished Knight's Greatsword",
+                "order": 0,
+                "infusion": "Lightning",
+                "weaponArt": "Lightning Slash",
+                "equipIndex": 0
+            },
+            {
+                "name": "Longsword",
+                "order": 3,
+                "infusion": "Lightning",
+                "weaponArt": "Spinning Slash",
+                "equipIndex": 1
+            },
+            {
+                "name": "Banished Knight's Shield",
+                "order": 1,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 3
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 2,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0,
+                "equipIndex": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 1,
+                "equipIndex": 1
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 2,
+                "equipIndex": 2
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 3,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Blackflame Monk Hood",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Blaidd's Greaves",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 17,
+    "characterClass": "Vagabond"
+}

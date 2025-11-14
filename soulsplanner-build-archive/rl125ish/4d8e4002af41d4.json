@@ -1,0 +1,371 @@
+{
+    "id": "4d8e4002af41d4",
+    "is2h": true,
+    "name": "Sir Vivor ver 2",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "PvE",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Greenburst Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 19,
+        "dex": 13,
+        "fth": 12,
+        "int": 9,
+        "mnd": 10,
+        "str": 54,
+        "vig": 59,
+        "vit": 28
+    },
+    "views": {
+        "overview": "swappa"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 1
+            },
+            {
+                "name": "Bestial Constitution",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 66
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "arc": 20,
+            "fth": 13,
+            "int": 10
+        },
+        "defenses": {
+            "fire": 186,
+            "holy": 167,
+            "magic": 147,
+            "slash": 152,
+            "pierce": 152,
+            "strike": 152,
+            "physical": 152,
+            "lightning": 127
+        },
+        "maxHealth": 1887,
+        "absorption": {
+            "fire": 25.686485729200005,
+            "holy": 25.420166581000004,
+            "magic": 24.199536448000003,
+            "slash": 32.616600670000004,
+            "pierce": 32.271069937600004,
+            "strike": 29.531335673800008,
+            "physical": 31.08118564,
+            "lightning": 24.412722572800007
+        },
+        "maxStamina": 126,
+        "resistances": {
+            "focus": 247,
+            "immunity": 323,
+            "vitality": 263,
+            "robustness": 340
+        },
+        "maxEquipLoad": 89.50954083
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Zweihander",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Fire Knight's Greatsword",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Fire",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Ancient Meteoric Ore Greatsword",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "damage",
+            "direction": "desc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Green Turtle Talisman",
+                "order": 0
+            },
+            {
+                "name": "Erdtree's Favor",
+                "order": 1
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 2
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 3
+            },
+            {
+                "name": "Crimson Seed Talisman",
+                "order": 4
+            },
+            {
+                "name": "Erdtree's Favor +1",
+                "order": 5
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 6
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 7
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 8,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 9,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 10,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 11,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Knight Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Veteran's Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Tree Sentinel Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Beast Champion Gauntlets",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Knight Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Veteran's Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Beast Champion Armor",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Knight Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Veteran's Helm",
+                    "order": 1
+                },
+                {
+                    "name": "Tree Sentinel Helm",
+                    "order": 2
+                },
+                {
+                    "name": "Circlet of Light",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Knight Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Veteran's Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

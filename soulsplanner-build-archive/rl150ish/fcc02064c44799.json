@@ -1,0 +1,344 @@
+{
+    "id": "fcc02064c44799",
+    "is2h": true,
+    "name": "Venomous Fang Godskin Killer",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Arcane",
+        "Caster",
+        "PvE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Uplifting Aromatic",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Bloodboil Aromatic",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Pickled Turtle Neck",
+                    "order": 2,
+                    "equipIndex": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Stonebarb Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 80,
+        "dex": 9,
+        "fth": 25,
+        "int": 7,
+        "mnd": 9,
+        "str": 16,
+        "vig": 55,
+        "vit": 28
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Stats",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Blessing's Boon",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            }
+        ]
+    },
+    "current": {
+        "health": 0
+    },
+    "sliders": {
+        "id": "",
+        "name": "",
+        "images": [
+            {
+                "url": "",
+                "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "zoom": 1,
+                    "width": 0,
+                    "height": 0
+                }
+            },
+            {
+                "url": "",
+                "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "zoom": 1,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ],
+        "sliders": {},
+        "bodyType": "A"
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 71
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 14
+        },
+        "defenses": {
+            "fire": 188,
+            "holy": 198,
+            "magic": 147,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 133
+        },
+        "maxHealth": 1814,
+        "absorption": {
+            "fire": 25.686485729200005,
+            "holy": 26.501033732,
+            "magic": 25.759216768000016,
+            "slash": 35.588381358400014,
+            "pierce": 35.197628644,
+            "strike": 31.567581908200005,
+            "physical": 33.20830954,
+            "lightning": 25.35169496320001
+        },
+        "maxStamina": 126,
+        "resistances": {
+            "focus": 258,
+            "immunity": 352,
+            "vitality": 300,
+            "robustness": 379
+        },
+        "maxEquipLoad": 75.21810154
+    },
+    "greatRune": null,
+    "inventory": {
+        "slots": [
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 0,
+                "upgrade": 24,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Royal Knight's Resolve",
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 1,
+                "upgrade": 9,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Venomous Fang",
+                "order": 2,
+                "upgrade": 24,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Cragblade",
+                "equipIndex": 0
+            },
+            {
+                "name": "Commander's Standard",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Twinblade Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "HP below 18%",
+            "Trigger in Presence of Rot",
+            "Successive 3 Hits",
+            "Successive 6 Hits",
+            "Successive 9 Hits",
+            "Final Chain Attack"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Beast Champion Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Beast Champion Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Mushroom Crown",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

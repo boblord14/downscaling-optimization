@@ -1,0 +1,319 @@
+{
+    "id": "b1bc063e9d4206",
+    "is2h": false,
+    "name": "Fasterist",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Boiled Crab",
+                    "order": 0,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 2,
+                    "equipIndex": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 10,
+        "dex": 24,
+        "fth": 33,
+        "int": 7,
+        "mnd": 34,
+        "str": 11,
+        "vig": 60,
+        "vit": 50
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            },
+            {
+                "name": "Howl of Shabriri",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 223,
+        "poise": {
+            "original": 58
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 29
+        },
+        "defenses": {
+            "fire": 193,
+            "holy": 153,
+            "magic": 147,
+            "slash": 136,
+            "pierce": 136,
+            "strike": 136,
+            "physical": 136,
+            "lightning": 133
+        },
+        "maxHealth": 2185,
+        "absorption": {
+            "fire": 18.397741936283207,
+            "holy": 16.327351153891534,
+            "magic": 16.327351153891534,
+            "slash": 21.4876667063584,
+            "pierce": 20.44235518476163,
+            "strike": 17.324420672719874,
+            "physical": 19.378001262018085,
+            "lightning": 15.322282746729943
+        },
+        "maxStamina": 178.25,
+        "resistances": {
+            "focus": 236,
+            "immunity": 282,
+            "vitality": 234,
+            "robustness": 336
+        },
+        "maxEquipLoad": 105.1512871
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Bandit's Curved Sword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Seppuku",
+                "equipIndex": 0
+            },
+            {
+                "name": "Finger Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Bandit's Curved Sword",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Seppuku",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 4
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 5
+            },
+            {
+                "name": "Spelldrake Talisman +3",
+                "order": 6
+            },
+            {
+                "name": "Flamedrake Talisman +3",
+                "order": 7
+            },
+            {
+                "name": "Boltdrake Talisman +3",
+                "order": 8
+            },
+            {
+                "name": "Golden Braid",
+                "order": 9
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Rakshasa Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

@@ -1,0 +1,340 @@
+{
+    "id": "07af9645534aac",
+    "is2h": false,
+    "name": "Can we get more shameless?",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Duels",
+        "Invasions",
+        "Dexterity"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Radiant Baldachin's Blessing",
+                    "order": 0,
+                    "equipIndex": 10
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Winged Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 62,
+        "fth": 9,
+        "int": 9,
+        "mnd": 10,
+        "str": 16,
+        "vig": 58,
+        "vit": 33
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 91
+        },
+        "stats": {
+            "dex": 75
+        },
+        "defenses": {
+            "fire": 188,
+            "holy": 144,
+            "magic": 148,
+            "slash": 135,
+            "pierce": 135,
+            "strike": 135,
+            "physical": 135,
+            "lightning": 130
+        },
+        "maxHealth": 1945.84,
+        "absorption": {
+            "fire": 25.72898576700001,
+            "holy": 24.569217971200008,
+            "magic": 25.476607856800005,
+            "slash": 33.10722956800001,
+            "pierce": 32.4801098452,
+            "strike": 35.67839870080001,
+            "physical": 35.7793880032,
+            "lightning": 28.16394895900001
+        },
+        "maxStamina": 146.3,
+        "resistances": {
+            "focus": -567.3333333333334,
+            "immunity": 360,
+            "vitality": 289,
+            "robustness": 342
+        },
+        "maxEquipLoad": 395.92463913
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Cross-Naginata",
+                "order": 0,
+                "infusion": "Keen",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 1,
+                "infusion": "Keen",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 2,
+                "infusion": "Lightning",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 3,
+                "infusion": "Lightning",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 4,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Storm Stomp",
+                "equipIndex": 0
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 5,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Endure",
+                "equipIndex": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 1
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 2
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 3,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Prosthesis-Wearer Heirloom",
+                "order": 5,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 6
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 7
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Beast Champion Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Beast Champion Armor (Altered)",
+                    "order": 1
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Bull-Goat Armor",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Okina Mask",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Imp Head (Long-Tongued)",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

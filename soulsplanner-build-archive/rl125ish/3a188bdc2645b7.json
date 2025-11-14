@@ -1,0 +1,263 @@
+{
+    "id": "3a188bdc2645b7",
+    "is2h": false,
+    "name": "faith mage",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 10,
+        "dex": 13,
+        "fth": 60,
+        "int": 7,
+        "mnd": 24,
+        "str": 11,
+        "vig": 59,
+        "vit": 20
+    },
+    "views": {
+        "overview": "swappa"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 142,
+        "poise": {
+            "altered": 105.33333307,
+            "original": 79
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 186,
+            "holy": 147,
+            "magic": 141,
+            "slash": 130,
+            "pierce": 130,
+            "strike": 130,
+            "physical": 130,
+            "lightning": 127
+        },
+        "maxHealth": 1924.74,
+        "absorption": {
+            "fire": 28.96582053760001,
+            "holy": 25.24242985120001,
+            "magic": 24.833927745999993,
+            "slash": 33.47776831840002,
+            "pierce": 32.0381632,
+            "strike": 28.69892572,
+            "physical": 34.12936310320001,
+            "lightning": 23.967683185
+        },
+        "maxStamina": 118.65,
+        "resistances": {
+            "focus": 230,
+            "immunity": 337,
+            "vitality": 254,
+            "robustness": 347
+        },
+        "maxEquipLoad": 79.66035
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Erdtree Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Wakizashi",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade",
+                "equipIndex": 1
+            },
+            {
+                "name": "Azur's Glintstone Staff",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Black Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Fire Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Verdigris Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

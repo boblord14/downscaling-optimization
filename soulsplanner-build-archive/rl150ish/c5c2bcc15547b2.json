@@ -1,0 +1,524 @@
+{
+    "id": "c5c2bcc15547b2",
+    "is2h": true,
+    "name": "Dracul",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Arcane",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 3
+                },
+                {
+                    "name": "Golden Vow",
+                    "order": 4,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Exalted Flesh",
+                    "order": 5
+                },
+                {
+                    "name": "Lantern",
+                    "order": 6
+                },
+                {
+                    "name": "Throwing Dagger",
+                    "order": 7,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Hefty Fly Pot",
+                    "order": 8,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Fetid Pot",
+                    "order": 9,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 10,
+                    "active": true,
+                    "equipIndex": 13
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Thorny Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 50,
+        "dex": 35,
+        "fth": 24,
+        "int": 9,
+        "mnd": 25,
+        "str": 16,
+        "vig": 50,
+        "vit": 20
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Dragonmaw",
+                "order": 0
+            },
+            {
+                "name": "Dragonclaw",
+                "order": 1
+            },
+            {
+                "name": "Dragonfire",
+                "order": 2
+            },
+            {
+                "name": "Dragonice",
+                "order": 3
+            },
+            {
+                "name": "Rotten Breath",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 169,
+        "poise": {
+            "original": 54
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 40
+        },
+        "defenses": {
+            "fire": 183,
+            "holy": 189,
+            "magic": 151,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 133
+        },
+        "maxHealth": 2037.984,
+        "absorption": {
+            "fire": 30.864281312800017,
+            "holy": 30.574404085600015,
+            "magic": 29.886539718520012,
+            "slash": 47.76689454791104,
+            "pierce": 45.57763605515969,
+            "strike": 43.2792881379352,
+            "physical": 46.353590911204755,
+            "lightning": 28.591577901999997
+        },
+        "maxStamina": 142.945,
+        "resistances": {
+            "focus": 216,
+            "immunity": 278,
+            "vitality": 249,
+            "robustness": 294
+        },
+        "maxEquipLoad": 69.18352941
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Reduvia",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Regalia of Eochaid",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Falx",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Curseblade's Cirque",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Rivers of Blood",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Flamberge",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Seppuku"
+            },
+            {
+                "name": "Great Katana",
+                "order": 6,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Blood Tax",
+                "equipIndex": 0
+            },
+            {
+                "name": "Morgott's Cursed Sword",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Eleonora's Poleblade",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Spectral Lance"
+            },
+            {
+                "name": "Bloody Helice",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Venomous Fang",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "The Poison Flower Blooms Twice"
+            },
+            {
+                "name": "Poisoned Hand",
+                "order": 12,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Kite Shield",
+                "order": 13,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Deadly Poison Perfume Bottle",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 15,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Obsidian Lamina",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spread Crossbow",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Milady",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Wing Stance"
+            },
+            {
+                "name": "Lizard Greatsword",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Bolt of Gransax",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon King's Cragblade",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Scythe",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Spinning Strikes"
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Thunderbolt"
+            },
+            {
+                "name": "Butchering Knife",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Barbaric Roar"
+            }
+        ],
+        "sorting": {
+            "method": "attack",
+            "direction": "desc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Prosthesis-Wearer Heirloom",
+                "order": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Roar Medallion",
+                "order": 4
+            },
+            {
+                "name": "Smithing Talisman",
+                "order": 5
+            },
+            {
+                "name": "Shattered Stone Talisman",
+                "order": 6
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 7
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 8
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 9,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Successive 3 Hits",
+            "Trigger in Presence of Rot"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Mausoleum Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Mausoleum Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Greathelm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Mausoleum Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Samurai"
+}

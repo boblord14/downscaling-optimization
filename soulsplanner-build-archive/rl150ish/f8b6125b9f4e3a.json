@@ -1,0 +1,394 @@
+{
+    "id": "f8b6125b9f4e3a",
+    "is2h": false,
+    "name": "knight",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            },
+            {
+                "name": "Set #2"
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 3,
+                    "equipIndex": 10
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Holy-Shrouding Cracked Tear",
+            "Cerulean Hidden Tear"
+        ]
+    },
+    "stats": {
+        "rl": 154,
+        "arc": 10,
+        "dex": 15,
+        "fth": 45,
+        "int": 10,
+        "mnd": 20,
+        "str": 30,
+        "vig": 60,
+        "vit": 43
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Aspects of the Crucible: Tail",
+                "order": 0
+            },
+            {
+                "name": "Aspects of the Crucible: Horns",
+                "order": 1
+            },
+            {
+                "name": "Aspects of the Crucible: Breath",
+                "order": 2
+            },
+            {
+                "name": "Aspects of the Crucible: Bloom",
+                "order": 3
+            },
+            {
+                "name": "Aspects of the Crucible: Thorns",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "original": 71
+        },
+        "runes": {
+            "total": 7741736,
+            "toNextLevel": 165975
+        },
+        "defenses": {
+            "fire": 193,
+            "holy": 153,
+            "magic": 153,
+            "slash": 143,
+            "pierce": 143,
+            "strike": 143,
+            "physical": 143,
+            "lightning": 133
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 25.35169496320001,
+            "holy": 26.501033732,
+            "magic": 25.603248736000005,
+            "slash": 32.3414232064,
+            "pierce": 32.3414232064,
+            "strike": 27.307147600000004,
+            "physical": 33.56283018999999,
+            "lightning": 22.699406079999996
+        },
+        "maxStamina": 146,
+        "resistances": {
+            "focus": 241,
+            "immunity": 317,
+            "vitality": 251,
+            "robustness": 358
+        },
+        "maxEquipLoad": 95.09756177
+    },
+    "greatRune": null,
+    "inventory": {
+        "slots": [
+            {
+                "name": "Ordovis's Greatsword",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Siluria's Tree",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Devonia's Hammer",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Crucible Hornshield",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 0
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 1
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Beloved Stardust",
+                "order": 3
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 4,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 5
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 6
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 7,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 8
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 9
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 10
+            },
+            {
+                "name": "Fine Crucible Feather Talisman",
+                "order": 11
+            },
+            {
+                "name": "Crucible Scale Talisman",
+                "order": 12
+            },
+            {
+                "name": "Crucible Knot Talisman",
+                "order": 13
+            },
+            {
+                "name": "Crucible Feather Talisman",
+                "order": 14
+            },
+            {
+                "name": "Talisman of All Crucibles",
+                "order": 15
+            },
+            {
+                "name": "Carian Filigreed Crest",
+                "order": 16,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Crucible Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Crucible Axe Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Crucible Tree Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Crucible Axe Armor (Altered)",
+                    "order": 2
+                },
+                {
+                    "name": "Crucible Tree Armor (Altered)",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Crucible Axe Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Crucible Tree Helm",
+                    "order": 1
+                },
+                {
+                    "name": "Crucible Hammer-Helm",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Crucible Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Wretch"
+}

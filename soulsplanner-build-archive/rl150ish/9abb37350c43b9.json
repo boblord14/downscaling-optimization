@@ -1,0 +1,484 @@
+{
+    "id": "9abb37350c43b9",
+    "pve": {
+        "revered": 20,
+        "scadutree": 20
+    },
+    "is2h": false,
+    "name": "PvE melee ARC",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Arcane",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Thorny Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 80,
+        "dex": 15,
+        "fth": 10,
+        "int": 7,
+        "mnd": 9,
+        "str": 24,
+        "vig": 60,
+        "vit": 24
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 54
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 20,
+            "fth": 15
+        },
+        "defenses": {
+            "fire": 194,
+            "holy": 199,
+            "magic": 148,
+            "slash": 142,
+            "pierce": 142,
+            "strike": 142,
+            "physical": 142,
+            "lightning": 134
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 30.694316511599627,
+            "holy": 29.232011518208633,
+            "magic": 29.08503750267013,
+            "slash": 32.61875478466643,
+            "pierce": 31.44232366483856,
+            "strike": 29.41998416347672,
+            "physical": 30.670781329419462,
+            "lightning": 28.67927703605888
+        },
+        "maxStamina": 120,
+        "resistances": {
+            "focus": 234,
+            "immunity": 291,
+            "vitality": 280,
+            "robustness": 294
+        },
+        "maxEquipLoad": 70.41176471
+    },
+    "greatRune": null,
+    "inventory": {
+        "slots": [
+            {
+                "name": "Dagger",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Order"
+            },
+            {
+                "name": "Bloodhound Claws",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Star Fist",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Royal Knight's Resolve"
+            },
+            {
+                "name": "Bloodstained Dagger",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Great Katana",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Repeating Thrust"
+            },
+            {
+                "name": "Reduvia",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Uchigatana",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Bloodstained Dagger",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Scavenger's Curved Sword",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Great Stars",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Flowerstone Gavel",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spiked Club",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Royal Knight's Resolve"
+            },
+            {
+                "name": "Scavenger's Curved Sword",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 15,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Braggart's Roar",
+                "equipIndex": 0
+            },
+            {
+                "name": "Great Omenkiller Cleaver",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Mohgwyn's Sacred Spear",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Vulgar Militia Saw",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Spinning Strikes"
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 19,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Braggart's Roar",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 4
+            },
+            {
+                "name": "Blade of Mercy",
+                "order": 5
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 6
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 7
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 8
+            },
+            {
+                "name": "Lightning Scorpion Charm",
+                "order": 9
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 10,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 11
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 12
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 13,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Golden Braid",
+                "order": 14
+            },
+            {
+                "name": "Pearldrake Talisman +3",
+                "order": 15
+            },
+            {
+                "name": "Boltdrake Talisman +3",
+                "order": 16
+            },
+            {
+                "name": "Flamedrake Talisman +3",
+                "order": 17
+            },
+            {
+                "name": "Spelldrake Talisman +3",
+                "order": 18
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 19
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Unknown #124",
+            "Unknown 34"
+        ],
+        "crystalTears": true
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Ansbach's Manchettes",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Gravebird's Blackquill Armor",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Rakshasa Helm",
+                    "order": 0
+                },
+                {
+                    "name": "White Mask",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Lionel's Greaves",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

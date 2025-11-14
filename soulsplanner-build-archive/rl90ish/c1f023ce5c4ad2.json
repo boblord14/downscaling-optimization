@@ -1,0 +1,317 @@
+{
+    "id": "c1f023ce5c4ad2",
+    "is2h": false,
+    "name": "Aerin",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Invasions",
+        "Intelligence",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Intelligence-knot Crystal Tear",
+            "Magic-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 90,
+        "arc": 9,
+        "dex": 13,
+        "fth": 7,
+        "int": 63,
+        "mnd": 17,
+        "str": 11,
+        "vig": 40,
+        "vit": 9
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Ranni's Dark Moon",
+                "order": 0
+            },
+            {
+                "name": "Adula's Moonblade",
+                "order": 1
+            },
+            {
+                "name": "Zamor Ice Storm",
+                "order": 2
+            },
+            {
+                "name": "Glintstone Icecrag",
+                "order": 3
+            },
+            {
+                "name": "Miriam's Vanishing",
+                "order": 4
+            },
+            {
+                "name": "Rellana's Twin Moons",
+                "order": 5
+            },
+            {
+                "name": "Carian Slicer",
+                "order": 6
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 105,
+        "poise": {
+            "original": 19
+        },
+        "runes": {
+            "total": 1448452,
+            "toNextLevel": 50293
+        },
+        "stats": {
+            "int": 78,
+            "str": 16
+        },
+        "defenses": {
+            "fire": 164,
+            "holy": 142,
+            "magic": 188,
+            "slash": 129,
+            "pierce": 129,
+            "strike": 129,
+            "physical": 129,
+            "lightning": 124
+        },
+        "maxHealth": 1450,
+        "absorption": {
+            "fire": 23.779430077600004,
+            "holy": 24.657650804799992,
+            "magic": 25.9790585284,
+            "slash": 10.844092986200003,
+            "pierce": 8.61435267220001,
+            "strike": 11.413796582200009,
+            "physical": 12.344534231799996,
+            "lightning": 24.455701216
+        },
+        "maxStamina": 94,
+        "resistances": {
+            "focus": 295,
+            "immunity": 277,
+            "vitality": 307,
+            "robustness": 205
+        },
+        "maxEquipLoad": 46.58823529
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Dark Moon Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Dark Moon Greatsword",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Carian Regal Scepter",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Chilling Perfume Bottle",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Chilling Perfume Bottle",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Rolling Sparks",
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Stargazer Heirloom",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Affects Sorceries",
+            "Spell Power Boost",
+            "Full Moon Spell",
+            "Charged Skill Attack",
+            "Skill Attack",
+            "Ranni Spell"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Nox Bracelets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Lazuli Robe",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Snow Witch Hat",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Spellblade's Trousers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 20,
+    "characterClass": "Astrologer"
+}

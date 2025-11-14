@@ -1,0 +1,312 @@
+{
+    "id": "26f1e1a9b6464a",
+    "is2h": false,
+    "name": "gargpoisoncody",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Bubbletear",
+            "Viridian Hidden Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 15,
+        "dex": 18,
+        "fth": 16,
+        "int": 7,
+        "mnd": 20,
+        "str": 64,
+        "vig": 40,
+        "vit": 24
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "altered": 67.99999983,
+            "original": 51
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 167,
+            "holy": 157,
+            "magic": 141,
+            "slash": 158,
+            "pierce": 158,
+            "strike": 158,
+            "physical": 158,
+            "lightning": 127
+        },
+        "maxHealth": 1450,
+        "absorption": {
+            "fire": 24.943802656000013,
+            "holy": 19.199991634000018,
+            "magic": 19.199991634000018,
+            "slash": 23.62054419440002,
+            "pierce": 23.62054419440002,
+            "strike": 23.62054419440002,
+            "physical": 26.501033732,
+            "lightning": 13.712799707199997
+        },
+        "maxStamina": 120,
+        "resistances": {
+            "focus": 176,
+            "immunity": 256,
+            "vitality": 219,
+            "robustness": 292
+        },
+        "maxEquipLoad": 70.41176471
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Gargoyle's Twinblade",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Monk's Flameblade",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Double Slash"
+            },
+            {
+                "name": "Monk's Flameblade",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Double Slash"
+            },
+            {
+                "name": "Gargoyle's Twinblade",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Gargoyle's Twinblade",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Gargoyle's Twinblade",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Poison",
+                "weaponArt": "Spinning Slash",
+                "equipIndex": 3
+            },
+            {
+                "name": "Gargoyle's Twinblade",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Storm Assault"
+            },
+            {
+                "name": "Gargoyle's Twinblade",
+                "order": 7,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Sword Dance",
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 1
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 2,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 4
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 5,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 6,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Successive Hits",
+            "Successive 3 Hits",
+            "Successive 9 Hits",
+            "Successive 6 Hits",
+            "Trigger in Presence of Rot"
+        ],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fingerprint Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Fingerprint Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Fingerprint Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Fingerprint Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

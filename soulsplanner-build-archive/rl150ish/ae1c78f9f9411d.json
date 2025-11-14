@@ -1,0 +1,312 @@
+{
+    "id": "ae1c78f9f9411d",
+    "is2h": false,
+    "name": "Knight of night",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Deflecting Hardtear",
+            "Magic-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 160,
+        "arc": 9,
+        "dex": 45,
+        "fth": 14,
+        "int": 40,
+        "mnd": 20,
+        "str": 15,
+        "vig": 60,
+        "vit": 36
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Ambush Shard",
+                "order": 0
+            },
+            {
+                "name": "Night Comet",
+                "order": 1
+            },
+            {
+                "name": "Night Shard",
+                "order": 2
+            },
+            {
+                "name": "Unseen Form",
+                "order": 3
+            },
+            {
+                "name": "Miriam's Vanishing",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "original": 26
+        },
+        "runes": {
+            "total": 8753989,
+            "toNextLevel": 181549
+        },
+        "defenses": {
+            "fire": 194,
+            "holy": 152,
+            "magic": 186,
+            "slash": 139,
+            "pierce": 139,
+            "strike": 139,
+            "physical": 139,
+            "lightning": 134
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 19.199991634000018,
+            "holy": 24.943802656000013,
+            "magic": 24.61212713440001,
+            "slash": 20.411544556000017,
+            "pierce": 20.411544556000017,
+            "strike": 18.797633560000016,
+            "physical": 18.797633560000016,
+            "lightning": 19.199991634000018
+        },
+        "maxStamina": 137,
+        "resistances": {
+            "focus": 269,
+            "immunity": 329,
+            "vitality": 278,
+            "robustness": 254
+        },
+        "maxEquipLoad": 85.43687664
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Sword of Night",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Shield of Night",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Ansbach's Longbow",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Carian Regal Scepter",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Staff of Loss",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 2
+            },
+            {
+                "name": "Pearl Shield Talisman",
+                "order": 3
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 4
+            },
+            {
+                "name": "Pearl Shield Talisman",
+                "order": 5,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 6,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets of Night",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Armor of Night",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Helm of Night",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Greaves of Night",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Confessor"
+}

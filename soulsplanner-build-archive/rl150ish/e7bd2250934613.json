@@ -1,0 +1,359 @@
+{
+    "id": "e7bd2250934613",
+    "is2h": true,
+    "name": "Dex",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Boiled Crab",
+                    "order": 0,
+                    "active": true
+                },
+                {
+                    "name": "Pickled Turtle Neck",
+                    "order": 1,
+                    "active": true
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 138,
+        "arc": 17,
+        "dex": 54,
+        "fth": 18,
+        "int": 7,
+        "mnd": 9,
+        "str": 16,
+        "vig": 60,
+        "vit": 36
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "altered": 102.66666641,
+            "original": 77
+        },
+        "runes": {
+            "total": 5443278,
+            "toNextLevel": 128745
+        },
+        "stats": {
+            "dex": 59
+        },
+        "defenses": {
+            "fire": 191,
+            "holy": 165,
+            "magic": 145,
+            "slash": 136,
+            "pierce": 136,
+            "strike": 136,
+            "physical": 136,
+            "lightning": 131
+        },
+        "maxHealth": 1976,
+        "absorption": {
+            "fire": 35.61473218600001,
+            "holy": 32.607590188600014,
+            "magic": 32.38807093840001,
+            "slash": 47.60394912225281,
+            "pierce": 46.581237582112,
+            "strike": 44.6765171497336,
+            "physical": 47.274159645568005,
+            "lightning": 31.5108916552
+        },
+        "maxStamina": 150.7,
+        "resistances": {
+            "focus": 288,
+            "immunity": 321,
+            "vitality": 267,
+            "robustness": 335
+        },
+        "maxEquipLoad": 92.27182677
+    },
+    "greatRune": "Mohg's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Claws of Night",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Sword of Night",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Rakshasa's Great Katana",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Obsidian Lamina",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Milady",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Wing Stance"
+            },
+            {
+                "name": "Black Knife",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Blade of Calling",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Shield of Night",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Dismounter",
+                "order": 9,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Keen",
+                "weaponArt": "Braggart's Roar",
+                "equipIndex": 0
+            },
+            {
+                "name": "Flamberge",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Wolf Crest Shield",
+                "order": 11,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "attack",
+            "direction": "desc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Crucible Axe Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Scaled Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Banished Knight Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Raging Wolf Helm",
+                    "order": 1
+                },
+                {
+                    "name": "Blackflame Monk Hood",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

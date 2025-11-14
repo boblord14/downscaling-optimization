@@ -1,0 +1,422 @@
+{
+    "id": "eb96e4850445d1",
+    "is2h": true,
+    "name": "RL150 Bleed Great Katana",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default"
+            },
+            {
+                "name": "Optimal poise for 40p #2",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Duels",
+        "Arcane",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Swarm Pot",
+                    "order": 0
+                },
+                {
+                    "name": "Cursed-Blood Pot",
+                    "order": 1
+                },
+                {
+                    "name": "Sacred Bloody Flesh",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Leaden Hardtear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 80,
+        "dex": 18,
+        "fth": 11,
+        "int": 10,
+        "mnd": 10,
+        "str": 14,
+        "vig": 60,
+        "vit": 26
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Sling",
+                "order": 0
+            },
+            {
+                "name": "Catch Flame",
+                "order": 1
+            },
+            {
+                "name": "Pest Threads",
+                "order": 2
+            },
+            {
+                "name": "Swarm of Flies",
+                "order": 3
+            },
+            {
+                "name": "Bayle's Tyranny",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 63
+        },
+        "runes": {
+            "total": 7112459,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 197,
+            "magic": 152,
+            "slash": 136,
+            "pierce": 136,
+            "strike": 136,
+            "physical": 136,
+            "lightning": 132
+        },
+        "maxHealth": 2090,
+        "absorption": {
+            "fire": 25.770840608800004,
+            "holy": 25.0207039585,
+            "magic": 24.62533417,
+            "slash": 29.8875303936,
+            "pierce": 28.92192966400001,
+            "strike": 25.865633848,
+            "physical": 28.77415820800001,
+            "lightning": 23.938113714999997
+        },
+        "maxStamina": 123,
+        "resistances": {
+            "focus": 289,
+            "immunity": 370,
+            "vitality": 291,
+            "robustness": 372
+        },
+        "maxEquipLoad": 72.96109507
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Great Katana",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Seppuku",
+                "equipIndex": 0
+            },
+            {
+                "name": "Composite Bow",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Barrage"
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Rogier's Rapier",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Blood Blade",
+                "equipIndex": 1
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Keen",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "damage",
+            "direction": "desc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 2
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 4
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 5
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 6,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 7
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 8,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Lacerating Crossed-Tree",
+                "order": 9
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 10,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Ascetic's Wrist Guards",
+                    "order": 0
+                },
+                {
+                    "name": "Ansbach's Manchettes",
+                    "order": 1
+                },
+                {
+                    "name": "Godskin Noble Bracelets",
+                    "order": 2
+                },
+                {
+                    "name": "Perfumer Gloves",
+                    "order": 3
+                },
+                {
+                    "name": "Battlemage Manchettes",
+                    "order": 4
+                },
+                {
+                    "name": "Blaidd's Gauntlets",
+                    "order": 5,
+                    "equipSet": [
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Raging Wolf Armor (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Ansbach's Attire",
+                    "order": 1
+                },
+                {
+                    "name": "Young Lion's Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Crucible Axe Armor",
+                    "order": 3
+                },
+                {
+                    "name": "Scaled Armor",
+                    "order": 4,
+                    "equipSet": [
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Circlet of Light",
+                    "order": 0
+                },
+                {
+                    "name": "White Mask",
+                    "order": 1,
+                    "equipSet": [
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Thiollier's Mask",
+                    "order": 2
+                },
+                {
+                    "name": "Wise Man's Mask",
+                    "order": 3
+                },
+                {
+                    "name": "Okina Mask",
+                    "order": 4,
+                    "equipSet": [
+                        1,
+                        null
+                    ]
+                },
+                {
+                    "name": "Curseblade Mask",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Kaiden Trousers",
+                    "order": 0
+                },
+                {
+                    "name": "Ansbach's Boots",
+                    "order": 1
+                },
+                {
+                    "name": "Crucible Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Young Lion's Greaves",
+                    "order": 3,
+                    "equipSet": [
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Wretch"
+}

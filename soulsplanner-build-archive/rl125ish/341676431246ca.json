@@ -1,0 +1,284 @@
+{
+    "id": "341676431246ca",
+    "is2h": true,
+    "name": "Simple Man 125",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "PvE",
+        "Caster"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Greenburst Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 13,
+        "fth": 25,
+        "int": 9,
+        "mnd": 17,
+        "str": 54,
+        "vig": 60,
+        "vit": 19
+    },
+    "views": {
+        "overview": "swappa"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 1
+            },
+            {
+                "name": "Bestial Constitution",
+                "order": 2
+            },
+            {
+                "name": "Golden Vow",
+                "order": 3
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 105,
+        "poise": {
+            "original": 51
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 141,
+            "magic": 145,
+            "slash": 152,
+            "pierce": 152,
+            "strike": 152,
+            "physical": 152,
+            "lightning": 127
+        },
+        "maxHealth": 1966.5,
+        "absorption": {
+            "fire": 21.770878229200008,
+            "holy": 17.808877360000007,
+            "magic": 21.770878229200008,
+            "slash": 30.17598204540001,
+            "pierce": 30.17598204540001,
+            "strike": 27.439516984680026,
+            "physical": 28.381520777680013,
+            "lightning": 19.199991634000018
+        },
+        "maxStamina": 120.435,
+        "resistances": {
+            "focus": 192,
+            "immunity": 255,
+            "vitality": 199,
+            "robustness": 269
+        },
+        "maxEquipLoad": 66.53117648
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Zweihander",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade",
+                "equipIndex": 0
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "damage",
+            "direction": "desc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Green Turtle Talisman",
+                "order": 0
+            },
+            {
+                "name": "Erdtree's Favor",
+                "order": 1
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 2
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 3,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Crimson Seed Talisman",
+                "order": 4,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Erdtree's Favor +1",
+                "order": 5,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 6,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 7
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

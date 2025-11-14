@@ -1,0 +1,345 @@
+{
+    "id": "9c847f4cf0486f",
+    "is2h": false,
+    "name": "Carcosa's Ruin",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 3,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Frenzyflame Stone",
+                    "order": 4,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Leaden Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 90,
+        "arc": 7,
+        "dex": 15,
+        "fth": 41,
+        "int": 9,
+        "mnd": 16,
+        "str": 15,
+        "vig": 45,
+        "vit": 21
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "The Flame of Frenzy",
+                "order": 0
+            },
+            {
+                "name": "Frenzied Burst",
+                "order": 1
+            },
+            {
+                "name": "Howl of Shabriri",
+                "order": 2
+            },
+            {
+                "name": "Inescapable Frenzy",
+                "order": 3
+            },
+            {
+                "name": "Unendurable Frenzy",
+                "order": 4
+            },
+            {
+                "name": "Midra's Flame of Frenzy",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 100,
+        "poise": {
+            "original": 56
+        },
+        "runes": {
+            "total": 1446127,
+            "toNextLevel": 50293
+        },
+        "stats": {
+            "str": 20
+        },
+        "defenses": {
+            "fire": 165,
+            "holy": 134,
+            "magic": 138,
+            "slash": 126,
+            "pierce": 126,
+            "strike": 126,
+            "physical": 126,
+            "lightning": 120
+        },
+        "maxHealth": 1581,
+        "absorption": {
+            "fire": 23.070066674400003,
+            "holy": 20.879453497599997,
+            "magic": 22.334473835799994,
+            "slash": 28.264750772799996,
+            "pierce": 26.167309311999997,
+            "strike": 25.183867456,
+            "physical": 28.592598196000008,
+            "lightning": 20.5402037248
+        },
+        "maxStamina": 115,
+        "resistances": {
+            "focus": 193,
+            "immunity": 261,
+            "vitality": 206,
+            "robustness": 290
+        },
+        "maxEquipLoad": 65.64705882
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Lordsworn's Straight Sword",
+                "order": 0,
+                "upgrade": 25,
+                "infusion": "Flame Art",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Miquellan Knight's Sword",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lordsworn's Greatsword",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Impaling Thrust",
+                "equipIndex": 0
+            },
+            {
+                "name": "Greatsword of Damnation",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "War Cry"
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Sun Realm Shield",
+                "order": 6,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Radagon Icon",
+                "order": 0,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 1,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Aged One's Exultation",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 3,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Banished Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Horned Warrior Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Vagabond Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Scaled Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 17,
+    "characterClass": "Vagabond"
+}

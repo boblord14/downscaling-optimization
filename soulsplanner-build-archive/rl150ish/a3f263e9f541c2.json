@@ -1,0 +1,383 @@
+{
+    "id": "a3f263e9f541c2",
+    "is2h": false,
+    "name": "Oscar's first build",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 139,
+        "arc": 7,
+        "dex": 17,
+        "fth": 15,
+        "int": 9,
+        "mnd": 26,
+        "str": 54,
+        "vig": 60,
+        "vit": 30
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 1
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 2
+            }
+        ]
+    },
+    "sliders": {
+        "id": "",
+        "name": "",
+        "images": [
+            {
+                "url": "",
+                "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "zoom": 1,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ],
+        "sliders": {},
+        "bodyType": "A"
+    },
+    "computed": {
+        "maxFP": 152,
+        "poise": {
+            "altered": 59.99999985,
+            "original": 45
+        },
+        "runes": {
+            "total": 5568328,
+            "toNextLevel": 130894
+        },
+        "defenses": {
+            "fire": 190,
+            "holy": 144,
+            "magic": 148,
+            "slash": 155,
+            "pierce": 155,
+            "strike": 155,
+            "physical": 155,
+            "lightning": 130
+        },
+        "maxHealth": 1976,
+        "absorption": {
+            "fire": 22.630477369600012,
+            "holy": 20.747136331000004,
+            "magic": 22.095142840000015,
+            "slash": 28.738806245760006,
+            "pierce": 28.25100508240001,
+            "strike": 25.97469101248001,
+            "physical": 28.494721368640008,
+            "lightning": 18.67547488600001
+        },
+        "maxStamina": 143,
+        "resistances": {
+            "focus": 203,
+            "immunity": 266,
+            "vitality": 212,
+            "robustness": 276
+        },
+        "maxEquipLoad": 83.85617083
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Claymore",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Lion's Claw",
+                "equipIndex": 0
+            },
+            {
+                "name": "Nightrider Glaive",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Greatsword",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Giant Hunt"
+            },
+            {
+                "name": "Buckler",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Finger Seal",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Dagger",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Golden Vow",
+                "equipIndex": 1
+            },
+            {
+                "name": "Beastman's Cleaver",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Blasphemous Blade",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Ordovis's Greatsword",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Ruins Greatsword",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 3
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Crimson Seed Talisman",
+                "order": 5
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 6
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 7
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 8
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Battlemage Manchettes",
+                    "order": 0
+                },
+                {
+                    "name": "Vagabond Knight Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Blaidd's Gauntlets",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Carian Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Ronin's Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Godrick Soldier Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Vagabond Knight Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

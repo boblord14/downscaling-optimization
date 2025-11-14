@@ -1,0 +1,252 @@
+{
+    "id": "13eabc18834b5d",
+    "is2h": false,
+    "name": "Frost flame sage 125",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Hybrid",
+        "Caster"
+    ],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 9,
+        "dex": 12,
+        "fth": 19,
+        "int": 40,
+        "mnd": 40,
+        "str": 11,
+        "vig": 55,
+        "vit": 18
+    },
+    "views": {
+        "overview": "swappa",
+        "home/left": "Stats",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Glintstone Icecrag",
+                "order": 0
+            },
+            {
+                "name": "Zamor Ice Storm",
+                "order": 1
+            },
+            {
+                "name": "Adula's Moonblade",
+                "order": 2
+            },
+            {
+                "name": "Magma Shot",
+                "order": 3
+            },
+            {
+                "name": "Gelmir's Fury",
+                "order": 4
+            },
+            {
+                "name": "Roiling Magma",
+                "order": 5
+            },
+            {
+                "name": "Rykard's Rancor",
+                "order": 6
+            },
+            {
+                "name": "Law of Regression",
+                "order": 7
+            },
+            {
+                "name": "Fire's Deadly Sin",
+                "order": 8
+            }
+        ]
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Rogier's Rapier",
+                "order": 0,
+                "infusion": "Cold",
+                "weaponArt": "Glintblade Phalanx"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 1,
+                "infusion": "Flame Art",
+                "weaponArt": "Flame of the Redmanes",
+                "equipIndex": 0
+            },
+            {
+                "name": "Magma Whip Candlestick",
+                "order": 2,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Prince of Death's Staff",
+                "order": 3,
+                "infusion": "Standard"
+            },
+            {
+                "name": "Gelmir Glintstone Staff",
+                "order": 4,
+                "infusion": "Standard",
+                "equipIndex": 3
+            },
+            {
+                "name": "Rapier",
+                "order": 5,
+                "infusion": "Flame Art",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Golden Order Seal",
+                "order": 6,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "weight",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Prosthesis-Wearer Heirloom",
+                "order": 0,
+                "equipIndex": 0
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 1,
+                "equipIndex": 1
+            },
+            {
+                "name": "Moon of Nokstella",
+                "order": 2
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 3,
+                "equipIndex": 3
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 4,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Spellblade's Gloves",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Sage Robe",
+                    "order": 0
+                },
+                {
+                    "name": "Errant Sorcerer Robe",
+                    "order": 1,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Commoner's Headband (Altered)",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Sage Trousers",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

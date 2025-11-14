@@ -1,0 +1,580 @@
+{
+    "id": "c6233ffe8749f7",
+    "is2h": true,
+    "name": "Torran Skyrend",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Quality",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 3
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 4,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Roundrock",
+                    "order": 5
+                },
+                {
+                    "name": "Hefty Rock Pot",
+                    "order": 6,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Cursed-Blood Pot",
+                    "order": 7
+                },
+                {
+                    "name": "Golden Vow",
+                    "order": 8,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Throwing Dagger",
+                    "order": 9,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Holy Water Pot",
+                    "order": 10,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Sacred Order Pot",
+                    "order": 11,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Golden Grease",
+                    "order": 12
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Faith-knot Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 40,
+        "fth": 36,
+        "int": 9,
+        "mnd": 25,
+        "str": 40,
+        "vig": 50,
+        "vit": 22
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Pest-Thread Spears",
+                "order": 0
+            },
+            {
+                "name": "Roar of Rugalea",
+                "order": 1
+            },
+            {
+                "name": "Aspects of the Crucible: Horns",
+                "order": 2
+            },
+            {
+                "name": "Aspects of the Crucible: Tail",
+                "order": 3
+            },
+            {
+                "name": "Scarlet Aeonia",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 169,
+        "poise": {
+            "original": 69
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 182,
+            "holy": 146,
+            "magic": 150,
+            "slash": 147,
+            "pierce": 147,
+            "strike": 147,
+            "physical": 147,
+            "lightning": 132
+        },
+        "maxHealth": 2037.984,
+        "absorption": {
+            "fire": 24.153213001600005,
+            "holy": 27.0108531512,
+            "magic": 25.432221721600012,
+            "slash": 31.69085996799999,
+            "pierce": 31.365578348799993,
+            "strike": 26.88500560000001,
+            "physical": 33.160180675999996,
+            "lightning": 22.26317247999999
+        },
+        "maxStamina": 146.74,
+        "resistances": {
+            "focus": 234,
+            "immunity": 303,
+            "vitality": 241,
+            "robustness": 316
+        },
+        "maxEquipLoad": 86.4108
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Horned Warrior's Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Omen Cleaver",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Dragon-Hunter's Great Katana",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Marika's Hammer",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Beastclaw Greathammer",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Sword of Milos",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Gargoyle's Greatsword",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Aspects of the Crucible: Wings"
+            },
+            {
+                "name": "Gargoyle's Halberd",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Storm Assault"
+            },
+            {
+                "name": "Gargoyle's Twinblade",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Messmer Soldier's Spear",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Lion Greatbow",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Horned Warrior's Sword",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon Halberd",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Greataxe",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Lion's Claw"
+            },
+            {
+                "name": "Milady",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Wing Stance"
+            },
+            {
+                "name": "Dueling Shield",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Hand Ballista",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dryleaf Arts",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Palm Blast"
+            },
+            {
+                "name": "Iron Ball",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Siluria's Tree",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Black Steel Greathammer",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Stone Club",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Firespark Perfume Bottle",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rolling Sparks"
+            },
+            {
+                "name": "Arbalest",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Ordovis's Greatsword",
+                "order": 26,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Black Knife",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Treespear",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Great \u00c9p\u00e9e",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Great Club",
+                "order": 30,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Euporia",
+                "order": 31,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Sword of Darkness",
+                "order": 32,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Troll's Golden Sword",
+                "order": 33,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Vacuum Slice"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 34,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Spinning Strikes"
+            },
+            {
+                "name": "Serpent Crest Shield",
+                "order": 10,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 12,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "attack",
+            "direction": "desc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 3
+            },
+            {
+                "name": "Enraged Divine Beast",
+                "order": 4
+            },
+            {
+                "name": "Sharpshot Talisman",
+                "order": 5
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 6,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Crucible Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Crucible Tree Armor (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Crucible Axe Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Crucible Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

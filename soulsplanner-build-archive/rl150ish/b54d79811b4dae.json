@@ -1,0 +1,544 @@
+{
+    "id": "b54d79811b4dae",
+    "is2h": false,
+    "name": "Quality Build, PvE NUKE",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Quality",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Exalted Flesh",
+                    "order": 0,
+                    "active": true,
+                    "equipIndex": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Spiked Cracked Tear",
+            "Thorny Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 42,
+        "fth": 9,
+        "int": 15,
+        "mnd": 10,
+        "str": 51,
+        "vig": 58,
+        "vit": 37
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 57
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 50,
+            "str": 54
+        },
+        "defenses": {
+            "fire": 193,
+            "holy": 149,
+            "magic": 165,
+            "slash": 160,
+            "pierce": 160,
+            "strike": 160,
+            "physical": 160,
+            "lightning": 135
+        },
+        "maxHealth": 1871,
+        "absorption": {
+            "fire": 19.66304891585845,
+            "holy": 17.797091309276624,
+            "magic": 17.797091309276624,
+            "slash": 22.865076062387217,
+            "pierce": 21.67458761393157,
+            "strike": 19.11472651676306,
+            "physical": 21.12452953656556,
+            "lightning": 16.81003685932867
+        },
+        "maxStamina": 138,
+        "resistances": {
+            "focus": 124,
+            "immunity": 282,
+            "vitality": 232,
+            "robustness": 321
+        },
+        "maxEquipLoad": 86.78651227
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Ghiza's Wheel",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Axe of Godfrey",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Highland Axe",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Divine Beast Frost Stomp"
+            },
+            {
+                "name": "Zweihander",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Stamp (Upward Cut)"
+            },
+            {
+                "name": "Icerind Hatchet",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Greatsword of Radahn (Light)",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Greatsword of Radahn (Lord)",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lion Greatbow",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Zweihander",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Starscourge Greatsword",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon King's Cragblade",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Bonny Butchering Knife",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Winged Greathorn",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dryleaf Arts",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Palm Blast"
+            },
+            {
+                "name": "Dragon-Hunter's Great Katana",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Rakshasa's Great Katana",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Carian Thrusting Shield",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Shield Strike"
+            },
+            {
+                "name": "Messmer Soldier's Spear",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Falx",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Death's Poker",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon Halberd",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon Greatclaw",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Ringed Finger",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragonscale Blade",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Sword of Milos",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Stamp (Upward Cut)"
+            },
+            {
+                "name": "Zamor Curved Sword",
+                "order": 30,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bloodhound's Fang",
+                "order": 31,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lance",
+                "order": 32,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Charge Forth"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Bloodhound's Step",
+                "equipIndex": 1
+            },
+            {
+                "name": "Highland Axe",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Quality",
+                "weaponArt": "Braggart's Roar",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 1
+            },
+            {
+                "name": "Enraged Divine Beast",
+                "order": 2
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 3
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 4
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 5,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 6
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 7
+            },
+            {
+                "name": "Roar Medallion",
+                "order": 8
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 9
+            },
+            {
+                "name": "Shattered Stone Talisman",
+                "order": 10
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 11
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 12,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 13,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Successive 9 Hits",
+            "Trigger in Presence of Blood Loss",
+            "Charge Attack"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Godskin Noble Bracelets",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Armor of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Circlet of Light",
+                    "order": 0
+                },
+                {
+                    "name": "Divine Beast Helm",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Divine Bird Warrior Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

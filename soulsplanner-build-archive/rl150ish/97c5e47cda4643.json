@@ -1,0 +1,340 @@
+{
+    "id": "97c5e47cda4643",
+    "is2h": false,
+    "name": "Blood Mage Build",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Arcane",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Boiled Crab",
+                    "order": 0,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Fan Daggers",
+                    "order": 1,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Sacred Bloody Flesh",
+                    "order": 2,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Bloodsucking Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 45,
+        "dex": 40,
+        "fth": 24,
+        "int": 10,
+        "mnd": 9,
+        "str": 22,
+        "vig": 48,
+        "vit": 30
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Briars of Sin",
+                "order": 0
+            },
+            {
+                "name": "Briars of Punishment",
+                "order": 1
+            },
+            {
+                "name": "Swarm of Flies",
+                "order": 2
+            },
+            {
+                "name": "Barrier of Gold",
+                "order": 3
+            },
+            {
+                "name": "Lord's Heal",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 55
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 180,
+            "holy": 186,
+            "magic": 152,
+            "slash": 139,
+            "pierce": 139,
+            "strike": 139,
+            "physical": 139,
+            "lightning": 132
+        },
+        "maxHealth": 1821.6,
+        "absorption": {
+            "fire": 26.029092649999996,
+            "holy": 26.3310939256,
+            "magic": 23.52708712,
+            "slash": 27.269975648799992,
+            "pierce": 26.395668840800003,
+            "strike": 25.061304519999993,
+            "physical": 28.1410355376,
+            "lightning": 24.600296032000024
+        },
+        "maxStamina": 130,
+        "resistances": {
+            "focus": 269,
+            "immunity": 336,
+            "vitality": 296,
+            "robustness": 315
+        },
+        "maxEquipLoad": 77.64460262
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Great Stars",
+                "order": 0,
+                "infusion": "Occult",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Bloody Helice",
+                "order": 1,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Omen Cleaver",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Bloody Slash",
+                "equipIndex": 0
+            },
+            {
+                "name": "Rakshasa's Great Katana",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Reduvia",
+                "order": 3,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 6,
+                "upgrade": null,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 5
+            },
+            {
+                "name": "Albinauric Staff",
+                "order": 2,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 4
+            },
+            {
+                "name": "Buckler",
+                "order": 7,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Parry",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 0,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 1,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 3,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Radahn's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Lord of Blood's Robe",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Radahn's Redmane Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Radahn's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

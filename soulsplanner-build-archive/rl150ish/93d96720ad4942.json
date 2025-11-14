@@ -1,0 +1,325 @@
+{
+    "id": "93d96720ad4942",
+    "is2h": false,
+    "name": "fe/str",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 18,
+        "fth": 28,
+        "int": 9,
+        "mnd": 18,
+        "str": 54,
+        "vig": 60,
+        "vit": 35
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Catch Flame",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            },
+            {
+                "name": "Giantsflame Take Thee",
+                "order": 2
+            },
+            {
+                "name": "O, Flame!",
+                "order": 3
+            },
+            {
+                "name": "Bestial Sling",
+                "order": 4
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 110,
+        "poise": {
+            "altered": 110.39,
+            "original": 83
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "fth": 30
+        },
+        "defenses": {
+            "fire": 193,
+            "holy": 147,
+            "magic": 151,
+            "slash": 158,
+            "pierce": 158,
+            "strike": 158,
+            "physical": 158,
+            "lightning": 133
+        },
+        "maxHealth": 1976,
+        "absorption": {
+            "fire": 29.261841184000016,
+            "holy": 26.078528223999996,
+            "magic": 25.063271056,
+            "slash": 34.1970248656,
+            "pierce": 33.295978000000005,
+            "strike": 31.267204120000013,
+            "physical": 34.812954966400014,
+            "lightning": 25.220077552
+        },
+        "maxStamina": 149.6,
+        "resistances": {
+            "focus": 252,
+            "immunity": 344,
+            "vitality": 272,
+            "robustness": 370
+        },
+        "maxEquipLoad": 108.08463986
+    },
+    "greatRune": null,
+    "inventory": {
+        "slots": [
+            {
+                "name": "Miquellan Knight's Sword",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Miquellan Knight's Sword",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Nightrider Glaive",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Spinning Slash",
+                "equipIndex": 0
+            },
+            {
+                "name": "Cinquedea",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 1,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fire Monk Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Crucible Axe Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Haligtree Knight Helm",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

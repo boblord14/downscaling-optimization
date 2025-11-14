@@ -1,0 +1,361 @@
+{
+    "id": "9a3ab144b94b3e",
+    "is2h": false,
+    "name": "Flame Knight Build",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Boiled Crab",
+                    "order": 0,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Fan Daggers",
+                    "order": 1,
+                    "equipIndex": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Flame-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 15,
+        "dex": 40,
+        "fth": 49,
+        "int": 7,
+        "mnd": 20,
+        "str": 20,
+        "vig": 48,
+        "vit": 30
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Agheel's Flame",
+                "order": 0
+            },
+            {
+                "name": "Catch Flame",
+                "order": 1
+            },
+            {
+                "name": "Giantsflame Take Thee",
+                "order": 2
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 3
+            },
+            {
+                "name": "Erdtree Heal",
+                "order": 4
+            },
+            {
+                "name": "Barrier of Gold",
+                "order": 5
+            },
+            {
+                "name": "Burn, O Flame!",
+                "order": 6
+            },
+            {
+                "name": "Flame of the Fell God",
+                "order": 7
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "original": 43
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 180,
+            "holy": 162,
+            "magic": 146,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 132
+        },
+        "maxHealth": 1821.6,
+        "absorption": {
+            "fire": 23.18253479200001,
+            "holy": 21.234646450000007,
+            "magic": 21.234646450000007,
+            "slash": 24.89619272560002,
+            "pierce": 23.907227860000003,
+            "strike": 20.203718446000007,
+            "physical": 23.907227860000003,
+            "lightning": 18.91154464000001
+        },
+        "maxStamina": 130,
+        "resistances": {
+            "focus": 211,
+            "immunity": 270,
+            "vitality": 226,
+            "robustness": 277
+        },
+        "maxEquipLoad": 77.64460262
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Monk's Flameblade",
+                "order": 0,
+                "infusion": "Flame Art",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Firespark Perfume Bottle",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Wall of Sparks"
+            },
+            {
+                "name": "Messmer Soldier's Spear",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Spear"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 8,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Skewer",
+                "equipIndex": 0
+            },
+            {
+                "name": "Grossmesser",
+                "order": 5,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Flame of the Redmanes",
+                "equipIndex": 1
+            },
+            {
+                "name": "Giant's Red Braid",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 2
+            },
+            {
+                "name": "Grafted Dragon",
+                "order": 1,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Giant's Seal",
+                "order": 2,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Giant's Red Braid",
+                "order": 4,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 5
+            },
+            {
+                "name": "Buckler",
+                "order": 9,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Parry",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 1,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 3,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Drake Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Drake Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Rotten Duelist Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Drake Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

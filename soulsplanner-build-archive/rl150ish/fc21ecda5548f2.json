@@ -1,0 +1,619 @@
+{
+    "id": "fc21ecda5548f2",
+    "is2h": false,
+    "name": "Bloodiran",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Arcane"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 1
+                },
+                {
+                    "name": "Telescope",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Crimsonwhorl Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 66,
+        "dex": 16,
+        "fth": 15,
+        "int": 7,
+        "mnd": 24,
+        "str": 16,
+        "vig": 60,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Swarm of Flies",
+                "order": 1
+            },
+            {
+                "name": "Bloodboon",
+                "order": 2
+            },
+            {
+                "name": "Bloodflame Talons",
+                "order": 3
+            },
+            {
+                "name": "Rotten Breath",
+                "order": 4
+            },
+            {
+                "name": "Dragonice",
+                "order": 5
+            },
+            {
+                "name": "Rejection",
+                "order": 6
+            },
+            {
+                "name": "Heal",
+                "order": 7
+            },
+            {
+                "name": "Cure Poison",
+                "order": 8
+            },
+            {
+                "name": "Poison Mist",
+                "order": 9
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 142,
+        "poise": {
+            "original": 54
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 21
+        },
+        "defenses": {
+            "fire": 193,
+            "holy": 194,
+            "magic": 147,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 133
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 23.989250548,
+            "holy": 24.1768200286,
+            "magic": 21.11244505600001,
+            "slash": 27.612939068800017,
+            "pierce": 26.592210378399994,
+            "strike": 23.69152745200001,
+            "physical": 26.486126134400003,
+            "lightning": 19.1240728192
+        },
+        "maxStamina": 121,
+        "resistances": {
+            "focus": 240,
+            "immunity": 307,
+            "vitality": 285,
+            "robustness": 302
+        },
+        "maxEquipLoad": 72
+    },
+    "greatRune": "Mohg's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Reduvia",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Reduvia",
+                "order": 1,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Rivers of Blood",
+                "order": 4,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Twinblade",
+                "order": 5,
+                "infusion": "Keen",
+                "weaponArt": "Ice Spear"
+            },
+            {
+                "name": "Large Leather Shield",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Rogier's Rapier",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Seppuku"
+            },
+            {
+                "name": "Twinned Knight Swords",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Royal Knight's Resolve"
+            },
+            {
+                "name": "Dagger",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Assassin's Gambit"
+            },
+            {
+                "name": "Longsword",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Dagger",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Golden Vow"
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Spectral Lance"
+            },
+            {
+                "name": "Claymore",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Lion's Claw"
+            },
+            {
+                "name": "Iron Greatsword",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Thunderbolt"
+            },
+            {
+                "name": "Regalia of Eochaid",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Mace",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 9,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Kick",
+                "equipIndex": 1
+            },
+            {
+                "name": "Star Fist",
+                "order": 12,
+                "upgrade": null,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Cragblade",
+                "equipIndex": 2
+            },
+            {
+                "name": "Eleonora's Poleblade",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 3,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Buckler",
+                "order": 6,
+                "upgrade": null,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 2,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 4
+            },
+            {
+                "name": "Cerulean Amber Medallion +2",
+                "order": 5
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 6
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 7
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 8
+            },
+            {
+                "name": "Spelldrake Talisman +2",
+                "order": 9
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 10
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 11
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 12
+            },
+            {
+                "name": "Perfumer's Talisman",
+                "order": 13
+            },
+            {
+                "name": "Companion Jar",
+                "order": 14
+            },
+            {
+                "name": "Assassin's Cerulean Dagger",
+                "order": 15
+            },
+            {
+                "name": "Assassin's Crimson Dagger",
+                "order": 16
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Tree Sentinel Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Gold Bracelets",
+                    "order": 1
+                },
+                {
+                    "name": "Carian Knight Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Raging Wolf Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Maliketh's Gauntlets",
+                    "order": 4
+                },
+                {
+                    "name": "Malenia's Gauntlet",
+                    "order": 5
+                },
+                {
+                    "name": "Lusat's Manchettes",
+                    "order": 6
+                },
+                {
+                    "name": "Queen's Bracelets",
+                    "order": 7
+                },
+                {
+                    "name": "Radahn's Gauntlets",
+                    "order": 8
+                },
+                {
+                    "name": "Elden Lord Bracers",
+                    "order": 9
+                },
+                {
+                    "name": "Blackflame Monk Gauntlets",
+                    "order": 10
+                },
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 11
+                },
+                {
+                    "name": "White Reed Gauntlets",
+                    "order": 12
+                },
+                {
+                    "name": "Crucible Gauntlets",
+                    "order": 13,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Black Knife Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Black Knife Armor (Altered)",
+                    "order": 2
+                },
+                {
+                    "name": "Blue Silver Mail Armor",
+                    "order": 3
+                },
+                {
+                    "name": "Blue Silver Mail Armor (Altered)",
+                    "order": 4
+                },
+                {
+                    "name": "Tree Sentinel Armor (Altered)",
+                    "order": 5
+                },
+                {
+                    "name": "Nox Swordstress Armor",
+                    "order": 6
+                },
+                {
+                    "name": "Elden Lord Armor (Altered)",
+                    "order": 7
+                },
+                {
+                    "name": "Radahn's Lion Armor (Altered)",
+                    "order": 8
+                },
+                {
+                    "name": "Lord of Blood's Robe (Altered)",
+                    "order": 9
+                },
+                {
+                    "name": "All-Knowing Armor (Altered)",
+                    "order": 10
+                },
+                {
+                    "name": "Maliketh's Armor (Altered)",
+                    "order": 11
+                },
+                {
+                    "name": "Raptor's Black Feathers",
+                    "order": 12
+                },
+                {
+                    "name": "Rotten Gravekeeper Cloak",
+                    "order": 13
+                },
+                {
+                    "name": "Dancer's Dress (Altered)",
+                    "order": 14
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "White Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Scaled Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

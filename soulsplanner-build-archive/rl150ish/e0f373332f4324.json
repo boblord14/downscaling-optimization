@@ -1,0 +1,326 @@
+{
+    "id": "e0f373332f4324",
+    "pve": {
+        "inDLC1": false,
+        "revered": 10,
+        "scadutree": 20
+    },
+    "is2h": false,
+    "name": "Optimised Carian Knight.",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Intelligence-knot Crystal Tear",
+            "Magic-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 12,
+        "fth": 7,
+        "int": 70,
+        "mnd": 38,
+        "str": 10,
+        "vig": 60,
+        "vit": 23
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Carian Slicer",
+                "order": 0
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 1
+            },
+            {
+                "name": "Adula's Moonblade",
+                "order": 2
+            },
+            {
+                "name": "Magic Glintblade",
+                "order": 3
+            },
+            {
+                "name": "Terra Magica",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 221,
+        "poise": {
+            "original": 53
+        },
+        "runes": {
+            "total": 7108928,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "int": 80
+        },
+        "defenses": {
+            "fire": 194,
+            "holy": 152,
+            "magic": 199,
+            "slash": 137,
+            "pierce": 137,
+            "strike": 137,
+            "physical": 137,
+            "lightning": 134
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 25.409419610499995,
+            "holy": 26.054091577000005,
+            "magic": 25.625170994500003,
+            "slash": 14.645823078910016,
+            "pierce": 13.810041664749996,
+            "strike": 12.609116886399995,
+            "physical": 15.063713785989997,
+            "lightning": 25.01335414000001
+        },
+        "maxStamina": 118,
+        "resistances": {
+            "focus": 364,
+            "immunity": 310,
+            "vitality": 306,
+            "robustness": 249
+        },
+        "maxEquipLoad": 68.82352941
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Broadsword",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Carian Grandeur",
+                "equipIndex": 0
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Glintblade Phalanx",
+                "equipIndex": 1
+            },
+            {
+                "name": "Carian Knight's Shield",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 3
+            },
+            {
+                "name": "Carian Regal Scepter",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Charged Skill Attack",
+            "Skill Attack"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Spellblade's Gloves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Armor of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Spellblade's Pointed Hat",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Spellblade's Trousers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Mausoleum Knight Greaves",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

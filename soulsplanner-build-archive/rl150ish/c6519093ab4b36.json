@@ -1,0 +1,374 @@
+{
+    "id": "c6519093ab4b36",
+    "pve": {
+        "inDLC1": false
+    },
+    "is2h": false,
+    "name": "Int pure caster",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Starlight Shards",
+                    "order": 0,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Lulling Branch",
+                    "order": 1,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 2,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 3,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 4,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Raw Meat Dumpling",
+                    "order": 5,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 6,
+                    "equipIndex": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Magic-Shrouding Cracked Tear",
+            "Cerulean Hidden Tear"
+        ]
+    },
+    "stats": {
+        "rl": 160,
+        "arc": 9,
+        "dex": 12,
+        "fth": 7,
+        "int": 99,
+        "mnd": 42,
+        "str": 10,
+        "vig": 43,
+        "vit": 12
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Carian Slicer",
+                "order": 0
+            },
+            {
+                "name": "Gavel of Haima",
+                "order": 1
+            },
+            {
+                "name": "Rock Blaster",
+                "order": 2
+            },
+            {
+                "name": "Swift Glintstone Shard",
+                "order": 3
+            },
+            {
+                "name": "Shard Spiral",
+                "order": 4
+            },
+            {
+                "name": "Crystal Barrage",
+                "order": 5
+            },
+            {
+                "name": "Crystal Torrent",
+                "order": 6
+            },
+            {
+                "name": "Founding Rain of Stars",
+                "order": 7
+            },
+            {
+                "name": "Freezing Mist",
+                "order": 8
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 248,
+        "poise": {
+            "original": 48
+        },
+        "runes": {
+            "total": 8757125,
+            "toNextLevel": 181549
+        },
+        "stats": {
+            "arc": 10,
+            "fth": 8,
+            "int": 100
+        },
+        "defenses": {
+            "fire": 177,
+            "holy": 154,
+            "magic": 204,
+            "slash": 137,
+            "pierce": 137,
+            "strike": 137,
+            "physical": 137,
+            "lightning": 134
+        },
+        "maxHealth": 1529,
+        "absorption": {
+            "fire": 22.743535829200013,
+            "holy": 21.445601215600007,
+            "magic": 23.607723750400012,
+            "slash": 18.113767000000003,
+            "pierce": 16.52365042624,
+            "strike": 15.017889412120011,
+            "physical": 17.452631582199995,
+            "lightning": 19.199991634000018
+        },
+        "maxStamina": 99,
+        "resistances": {
+            "focus": 252,
+            "immunity": 282,
+            "vitality": 236,
+            "robustness": 284
+        },
+        "maxEquipLoad": 51.35294118
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Lusat's Glintstone Staff",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Rotten Crystal Staff",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Azur's Glintstone Staff",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 0,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 3,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 4
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 5,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Azur Spell"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Lusat's Manchettes",
+                    "order": 0
+                },
+                {
+                    "name": "Rellana's Gloves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Spellblade's Gloves",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Lusat's Robe",
+                    "order": 0
+                },
+                {
+                    "name": "Rellana's Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Spellblade's Traveling Attire",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Circlet of Light",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Old Sorcerer's Legwraps",
+                    "order": 0
+                },
+                {
+                    "name": "Rellana's Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Spellblade's Trousers",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

@@ -1,0 +1,367 @@
+{
+    "id": "bc0fcb2ffe4f69",
+    "is2h": false,
+    "name": "Dual Int Greatsword",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "PvE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Magic-Shrouding Cracked Tear",
+            "Spiked Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 8,
+        "dex": 15,
+        "fth": 8,
+        "int": 60,
+        "mnd": 35,
+        "str": 19,
+        "vig": 60,
+        "vit": 24
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Greatblade Phalanx",
+                "order": 0
+            },
+            {
+                "name": "Glintstone Icecrag",
+                "order": 1
+            },
+            {
+                "name": "Adula's Moonblade",
+                "order": 2
+            },
+            {
+                "name": "Night Comet",
+                "order": 3
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 200,
+        "poise": {
+            "original": 41
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 148,
+            "magic": 192,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 132
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 23.12594274879999,
+            "holy": 21.867432436000012,
+            "magic": 22.142117656000003,
+            "slash": 21.764515112000005,
+            "pierce": 21.711962848,
+            "strike": 19.88153470719999,
+            "physical": 20.224079744,
+            "lightning": 22.42143225640001
+        },
+        "maxStamina": 120,
+        "resistances": {
+            "focus": 286,
+            "immunity": 306,
+            "vitality": 279,
+            "robustness": 265
+        },
+        "maxEquipLoad": 80.97352942
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Dark Moon Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Carian Glintblade Staff",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Weapon"
+            },
+            {
+                "name": "Azur's Glintstone Staff",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Azur's Glintstone Staff",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Helphen's Steeple",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Staff of Loss",
+                "order": 6,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 4
+            },
+            {
+                "name": "Meteorite Staff",
+                "order": 5,
+                "upgrade": 10,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 0
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 1
+            },
+            {
+                "name": "Warrior Jar Shard",
+                "order": 2
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 4
+            },
+            {
+                "name": "Arsenal Charm",
+                "order": 5,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Carian Filigreed Crest",
+                "order": 6,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 7
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 8,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 9
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Charged Attack",
+            "Charged Skill Attack",
+            "Unknown #497",
+            "HP above 100%",
+            "Charge Attack",
+            "Jump Attack",
+            "Ranni Spell"
+        ],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Blaidd's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Spellblade's Gloves",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Raya Lucarian Robe",
+                    "order": 0
+                },
+                {
+                    "name": "Battlemage Robe",
+                    "order": 1
+                },
+                {
+                    "name": "Blaidd's Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Raptor's Black Feathers",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Snow Witch Hat",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Fur Leggings",
+                    "order": 0
+                },
+                {
+                    "name": "Blaidd's Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Spellblade's Trousers",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Samurai"
+}

@@ -1,0 +1,550 @@
+{
+    "id": "9841dcffdd4a6c",
+    "is2h": false,
+    "name": "Scrotched warrior",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "Caster",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Rykard's Great Rune",
+                    "order": 0
+                },
+                {
+                    "name": "Morgott's Great Rune",
+                    "order": 1
+                },
+                {
+                    "name": "Radahn's Great Rune",
+                    "order": 2
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 3,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 4,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 5,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Blessing of Marika",
+                    "order": 6,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Golden Vow",
+                    "order": 7,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Rock Heart",
+                    "order": 8
+                },
+                {
+                    "name": "Gourmet Scorpion Stew",
+                    "order": 9,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Scorpion Stew",
+                    "order": 10,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Priestess Heart",
+                    "order": 11
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 12,
+                    "equipIndex": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Oil-Soaked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 28,
+        "fth": 55,
+        "int": 9,
+        "mnd": 20,
+        "str": 20,
+        "vig": 60,
+        "vit": 30
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Blessing of the Erdtree",
+                "order": 2
+            },
+            {
+                "name": "Heal from Afar",
+                "order": 3
+            },
+            {
+                "name": "Knight's Lightning Spear",
+                "order": 4
+            },
+            {
+                "name": "Scouring Black Flame",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 139,
+        "poise": {
+            "original": 41
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 146,
+            "magic": 150,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 132
+        },
+        "maxHealth": 2185,
+        "absorption": {
+            "fire": 22.98271992880001,
+            "holy": 17.554415680000012,
+            "magic": 19.199991634000018,
+            "slash": 23.780000260800005,
+            "pierce": 22.2587937496,
+            "strike": 20.65730877999999,
+            "physical": 25.361587923200013,
+            "lightning": 16.18951436800001
+        },
+        "maxStamina": 149.5,
+        "resistances": {
+            "focus": 205,
+            "immunity": 262,
+            "vitality": 230,
+            "robustness": 266
+        },
+        "maxEquipLoad": 77.64460262
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Backhand Blade",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Blind Spot",
+                "equipIndex": 0
+            },
+            {
+                "name": "Fire Knight's Greatsword",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": null
+            },
+            {
+                "name": "Godslayer's Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Radagon Icon",
+                "order": 0
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 1
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 2
+            },
+            {
+                "name": "Faithful's Canvas Talisman",
+                "order": 3
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 4
+            },
+            {
+                "name": "Old Lord's Talisman",
+                "order": 5
+            },
+            {
+                "name": "Primal Glintstone Blade",
+                "order": 6
+            },
+            {
+                "name": "Cerulean Amber Medallion +2",
+                "order": 7
+            },
+            {
+                "name": "Cerulean Seed Talisman",
+                "order": 8
+            },
+            {
+                "name": "Moon of Nokstella",
+                "order": 9
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 10
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 11
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 12
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 13
+            },
+            {
+                "name": "Haligdrake Talisman +2",
+                "order": 14
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 15
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 16
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 17
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 18
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 19
+            },
+            {
+                "name": "Stalwart Horn Charm +1",
+                "order": 20
+            },
+            {
+                "name": "Immunizing Horn Charm +1",
+                "order": 21
+            },
+            {
+                "name": "Clarifying Horn Charm +1",
+                "order": 22
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 23
+            },
+            {
+                "name": "Sacred Scorpion Charm",
+                "order": 24
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 25
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 26
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 27
+            },
+            {
+                "name": "Primal Glintstone Blade",
+                "order": 28
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 29
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 30
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 31
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 32
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 33
+            },
+            {
+                "name": "Viridian Amber Medallion +2",
+                "order": 34
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 35
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 36
+            },
+            {
+                "name": "Concealing Veil",
+                "order": 37
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 38
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 39
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 40
+            },
+            {
+                "name": "Carian Filigreed Crest",
+                "order": 41
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 42
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 43
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 44
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 45
+            },
+            {
+                "name": "Crucible Feather Talisman",
+                "order": 46
+            },
+            {
+                "name": "Taker's Cameo",
+                "order": 47
+            },
+            {
+                "name": "Ancestral Spirit's Horn",
+                "order": 48
+            },
+            {
+                "name": "Crimson Seed Talisman",
+                "order": 49
+            },
+            {
+                "name": "Longtail Cat Talisman",
+                "order": 50
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 51
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Death Knight Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Fire Knight Gauntlets",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Death Knight Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Fire Knight Armor",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Death Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Rakshasa Helm",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Death Knight Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Fire Knight Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

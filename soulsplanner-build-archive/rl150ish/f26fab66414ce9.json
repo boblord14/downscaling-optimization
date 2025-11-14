@@ -1,0 +1,633 @@
+{
+    "id": "f26fab66414ce9",
+    "is2h": false,
+    "name": "Erdtree Avenger - Pre-DLC RL150",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            },
+            {
+                "name": "Twin Greatsword"
+            },
+            {
+                "name": "Chasedowns"
+            },
+            {
+                "name": "The Coliseum Special"
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "Strength",
+        "Invasions",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "tools": {
+            "slots": [
+                {
+                    "name": "Giantsflame Fire Pot",
+                    "order": 0,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Volcano Pot",
+                    "order": 1,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Fire Pot",
+                    "order": 2
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 3,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 4,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 5,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 6,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Explosive Stone Clump",
+                    "order": 7,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Bloodboil Aromatic",
+                    "order": 8,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Recusant Finger",
+                    "order": 9,
+                    "equipIndex": 15
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 16,
+        "fth": 44,
+        "int": 9,
+        "mnd": 18,
+        "str": 36,
+        "vig": 60,
+        "vit": 39
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Giantsflame Take Thee",
+                "order": 0
+            },
+            {
+                "name": "Flame, Fall Upon Them",
+                "order": 1
+            },
+            {
+                "name": "O, Flame!",
+                "order": 2
+            },
+            {
+                "name": "Catch Flame",
+                "order": 3
+            },
+            {
+                "name": "Frenzied Burst",
+                "order": 4
+            },
+            {
+                "name": "Flame of the Fell God",
+                "order": 5
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 6
+            },
+            {
+                "name": "Golden Vow",
+                "order": 7
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 110,
+        "poise": {
+            "altered": 86.66666645,
+            "original": 65
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 146,
+            "magic": 150,
+            "slash": 145,
+            "pierce": 145,
+            "strike": 145,
+            "physical": 145,
+            "lightning": 132
+        },
+        "maxHealth": 1976,
+        "absorption": {
+            "fire": 29.7311239,
+            "holy": 21.644262694000005,
+            "magic": 23.17846060540001,
+            "slash": 29.324724508,
+            "pierce": 28.575387654399997,
+            "strike": 26.953450177600004,
+            "physical": 30.491387176000007,
+            "lightning": 20.744485992000005
+        },
+        "maxStamina": 155.1,
+        "resistances": {
+            "focus": 275,
+            "immunity": 305,
+            "vitality": 243,
+            "robustness": 322
+        },
+        "maxEquipLoad": 96.68042876
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Brick Hammer",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Eruption"
+            },
+            {
+                "name": "Nightrider Glaive",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Gargoyle's Halberd",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Black Flame Tornado"
+            },
+            {
+                "name": "Star Fist",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flame of the Redmanes"
+            },
+            {
+                "name": "Giant's Red Braid",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Troll's Hammer",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Troll's Golden Sword",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Golden Land"
+            },
+            {
+                "name": "Riveted Wooden Shield",
+                "order": 8,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Watchdog's Greatsword",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Skewer"
+            },
+            {
+                "name": "Broadsword",
+                "order": 10,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    1
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Duelist Greataxe",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Cranial Vessel Candlestand",
+                "order": 12,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Highland Axe",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "War Cry"
+            },
+            {
+                "name": "Gargoyle's Greatsword",
+                "order": 14,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    3
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Troll's Roar"
+            },
+            {
+                "name": "Gargoyle's Blackblade",
+                "order": 15,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Hand Axe",
+                "order": 16,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    3
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Golden Slam"
+            },
+            {
+                "name": "Battle Axe",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Magma Wyrm's Scalesword",
+                "order": 18,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dismounter",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Great Stars",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Prelate's Charge"
+            },
+            {
+                "name": "Lance",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Giant Hunt"
+            },
+            {
+                "name": "Erdsteel Dagger",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "One-Eyed Shield",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Staff of the Avatar",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Great Club",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Jar Cannon",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Golden Epitaph",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Hammer",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Golden Slam"
+            },
+            {
+                "name": "Stone Club",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Great Mace",
+                "order": 30,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Prayerful Strike"
+            },
+            {
+                "name": "Grossmesser",
+                "order": 31,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Giant's Seal",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    3,
+                    4,
+                    3,
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Golden Halberd",
+                "order": 32,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Shadow Sunflower Blossom",
+                "order": 33,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "class",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 1
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 2,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Flame Spell",
+            "Charged Skill Attack",
+            "Skill Attack",
+            "Affects Incantations",
+            "Spell Power Boost"
+        ],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fire Monk Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Blackflame Monk Gauntlets",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "weight",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Fire Monk Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fire Prelate Armor",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Eccentric's Hood",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fire Prelate Helm",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "weight",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "weight",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

@@ -1,0 +1,303 @@
+{
+    "id": "8b728d00e94277",
+    "is2h": false,
+    "name": "Blood Stance",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 17,
+        "dex": 56,
+        "fth": 28,
+        "int": 7,
+        "mnd": 20,
+        "str": 12,
+        "vig": 60,
+        "vit": 29
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bloodflame Blade",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            },
+            {
+                "name": "Golden Vow",
+                "order": 2
+            },
+            {
+                "name": "Blessing's Boon",
+                "order": 3
+            },
+            {
+                "name": "Greyoll's Roar",
+                "order": 4
+            },
+            {
+                "name": "Swarm of Flies",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "altered": 121.33333303,
+            "original": 91
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 166,
+            "magic": 146,
+            "slash": 136,
+            "pierce": 136,
+            "strike": 136,
+            "physical": 136,
+            "lightning": 132
+        },
+        "maxHealth": 1976,
+        "absorption": {
+            "fire": 35.789509960750024,
+            "holy": 34.08034909744,
+            "magic": 33.69798453304001,
+            "slash": 42.18642940690002,
+            "pierce": 42.003503200000026,
+            "strike": 39.44098915102002,
+            "physical": 41.07627012124001,
+            "lightning": 33.427734644800026
+        },
+        "maxStamina": 140.8,
+        "resistances": {
+            "focus": 313,
+            "immunity": 343,
+            "vitality": 292,
+            "robustness": 355
+        },
+        "maxEquipLoad": 98.20988622
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Swift Spear",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Keen",
+                "weaponArt": "Seppuku",
+                "equipIndex": 1
+            },
+            {
+                "name": "Blue-Gold Kite Shield",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Holy Ground",
+                "equipIndex": 4
+            },
+            {
+                "name": "Urumi",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Keen",
+                "weaponArt": "Storm Stomp",
+                "equipIndex": 2
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 0,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 1,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 3,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gaius's Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Armor of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Lionel's Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Lionel's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

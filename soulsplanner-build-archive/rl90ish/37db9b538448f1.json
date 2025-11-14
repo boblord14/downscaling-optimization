@@ -1,0 +1,325 @@
+{
+    "id": "37db9b538448f1",
+    "is2h": false,
+    "name": "Irongard Lenore",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Redmane Fire Pot",
+                    "order": 0,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Volcano Pot",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 2,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 3,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 4,
+                    "equipIndex": 11
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Strength-knot Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 90,
+        "arc": 7,
+        "dex": 14,
+        "fth": 9,
+        "int": 9,
+        "mnd": 10,
+        "str": 45,
+        "vig": 50,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 45
+        },
+        "runes": {
+            "total": 1446127,
+            "toNextLevel": 50293
+        },
+        "stats": {
+            "str": 50
+        },
+        "defenses": {
+            "fire": 170,
+            "holy": 134,
+            "magic": 138,
+            "slash": 142,
+            "pierce": 142,
+            "strike": 142,
+            "physical": 142,
+            "lightning": 120
+        },
+        "maxHealth": 1704,
+        "absorption": {
+            "fire": 23.67523252,
+            "holy": 22.185111160000016,
+            "magic": 22.175576537500007,
+            "slash": 24.647021651199996,
+            "pierce": 24.07009024,
+            "strike": 22.179746062000007,
+            "physical": 24.291918495999997,
+            "lightning": 22.70174548960001
+        },
+        "maxStamina": 121,
+        "resistances": {
+            "focus": 214,
+            "immunity": 279,
+            "vitality": 225,
+            "robustness": 256
+        },
+        "maxEquipLoad": 85.68
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Giant-Crusher",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Troll's Roar"
+            },
+            {
+                "name": "Watchdog's Greatsword",
+                "order": 1,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Stamp (Upward Cut)",
+                "equipIndex": 0
+            },
+            {
+                "name": "Watchdog's Greatsword",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Lance",
+                "order": 3,
+                "infusion": "Heavy",
+                "weaponArt": "War Cry"
+            },
+            {
+                "name": "Battle Hammer",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Stamp (Sweep)"
+            },
+            {
+                "name": "Nightrider Glaive",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Iron Ball",
+                "order": 6,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Hoarah Loux's Earthshaker",
+                "equipIndex": 3
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 7,
+                "infusion": "Heavy",
+                "weaponArt": "Raptor of the Mists"
+            },
+            {
+                "name": "Jar Cannon",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 1,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 2,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 3,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Mausoleum Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Ronin's Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Vagabond Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Blaidd's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 20,
+    "characterClass": "Vagabond"
+}

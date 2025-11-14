@@ -1,0 +1,352 @@
+{
+    "id": "1f6f21fbbc421c",
+    "is2h": true,
+    "name": "AIR CANNON",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Starlight Shards",
+                    "order": 0,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Uplifting Aromatic",
+                    "order": 1,
+                    "equipIndex": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Magic-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 9,
+        "dex": 12,
+        "fth": 33,
+        "int": 92,
+        "mnd": 15,
+        "str": 16,
+        "vig": 9,
+        "vit": 18
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Miriam's Vanishing",
+                "order": 0
+            },
+            {
+                "name": "Carian Slicer",
+                "order": 1
+            },
+            {
+                "name": "Terra Magica",
+                "order": 2
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 3
+            },
+            {
+                "name": "Glintstone Icecrag",
+                "order": 4
+            },
+            {
+                "name": "Ranni's Dark Moon",
+                "order": 5
+            },
+            {
+                "name": "Howl of Shabriri",
+                "order": 6
+            },
+            {
+                "name": "Golden Vow",
+                "order": 7
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 95,
+        "poise": {
+            "original": 58
+        },
+        "runes": {
+            "total": 3981350,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "dex": 17
+        },
+        "defenses": {
+            "fire": 134,
+            "holy": 146,
+            "magic": 196,
+            "slash": 133,
+            "pierce": 133,
+            "strike": 133,
+            "physical": 133,
+            "lightning": 128
+        },
+        "maxHealth": 396,
+        "absorption": {
+            "fire": -6.0829354828318305,
+            "holy": -8.774443499941032,
+            "magic": -8.774443499941032,
+            "slash": -17.375938273994194,
+            "pierce": -18.938678998781388,
+            "strike": -23.599991094283812,
+            "physical": -20.52988811328296,
+            "lightning": -10.081032429251092
+        },
+        "maxStamina": 110,
+        "resistances": {
+            "focus": 216,
+            "immunity": 234,
+            "vitality": 225,
+            "robustness": 293
+        },
+        "maxEquipLoad": 60.88235294
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Carian Regal Scepter",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Carian Glintstone Staff",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 0
+            },
+            {
+                "name": "Carian Glintstone Staff",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 2
+            },
+            {
+                "name": "Beloved Stardust",
+                "order": 3
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 4
+            },
+            {
+                "name": "Beloved Stardust",
+                "order": 5,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 6,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Gold Bracelets",
+                    "order": 1
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Goldmask's Rags",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "St. Trina's Blossom",
+                    "order": 0
+                },
+                {
+                    "name": "Navy Hood",
+                    "order": 1
+                },
+                {
+                    "name": "Rakshasa Helm",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Glintstone Scarab",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

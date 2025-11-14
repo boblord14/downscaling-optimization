@@ -1,0 +1,336 @@
+{
+    "id": "c6efc291d34f2a",
+    "is2h": false,
+    "name": "RL150 Status Effect",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Optimal physical for 40p #2",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 40,
+        "dex": 52,
+        "fth": 10,
+        "int": 10,
+        "mnd": 10,
+        "str": 31,
+        "vig": 55,
+        "vit": 21
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 70
+        },
+        "runes": {
+            "total": 7112459,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 57
+        },
+        "defenses": {
+            "fire": 188,
+            "holy": 185,
+            "magic": 153,
+            "slash": 143,
+            "pierce": 143,
+            "strike": 143,
+            "physical": 143,
+            "lightning": 133
+        },
+        "maxHealth": 1814,
+        "absorption": {
+            "fire": 30.156685918299996,
+            "holy": 26.563479938199997,
+            "magic": 24.745424560000007,
+            "slash": 30.925443598,
+            "pierce": 28.77316720750001,
+            "strike": 26.22324530000001,
+            "physical": 30.355729620400005,
+            "lightning": 24.47224539520002
+        },
+        "maxStamina": 115,
+        "resistances": {
+            "focus": 271,
+            "immunity": 340,
+            "vitality": 310,
+            "robustness": 330
+        },
+        "maxEquipLoad": 65.64705882
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Backhand Blade",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Blind Spot"
+            },
+            {
+                "name": "Venomous Fang",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Endure",
+                "equipIndex": 0
+            },
+            {
+                "name": "Bloodhound Claws",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Venomous Fang",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Cold",
+                "weaponArt": "Braggart's Roar",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "damage",
+            "direction": "desc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Raging Wolf Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Iron Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Traveler's Manchettes",
+                    "order": 2
+                },
+                {
+                    "name": "Crucible Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Godskin Noble Bracelets",
+                    "order": 4,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Cleanrot Armor (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Haligtree Crest Surcoat",
+                    "order": 1
+                },
+                {
+                    "name": "Horned Warrior Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Beast Champion Armor",
+                    "order": 3
+                },
+                {
+                    "name": "Radahn's Lion Armor (Altered)",
+                    "order": 4
+                },
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 5,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "St. Trina's Blossom",
+                    "order": 0
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 1
+                },
+                {
+                    "name": "Greatjar",
+                    "order": 2
+                },
+                {
+                    "name": "Jar",
+                    "order": 3
+                },
+                {
+                    "name": "Circlet of Light",
+                    "order": 4
+                },
+                {
+                    "name": "White Mask",
+                    "order": 5,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Radahn's Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Banished Knight Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Wretch"
+}

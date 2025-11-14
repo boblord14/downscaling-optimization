@@ -1,0 +1,287 @@
+{
+    "id": "a796603d2a4eb2",
+    "pve": {
+        "inDLC1": true,
+        "revered": 10,
+        "scadutree": 20
+    },
+    "is2h": false,
+    "name": "Viking",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Messmerfire Grease",
+                    "order": 0
+                },
+                {
+                    "name": "Royal Magic Grease",
+                    "order": 1
+                },
+                {
+                    "name": "Dragonbolt Grease",
+                    "order": 2
+                },
+                {
+                    "name": "Golden Grease",
+                    "order": 3
+                },
+                {
+                    "name": "Rot Grease",
+                    "order": 4
+                },
+                {
+                    "name": "Blood Grease",
+                    "order": 5
+                },
+                {
+                    "name": "Freezing Grease",
+                    "order": 6
+                },
+                {
+                    "name": "Dragon Communion Grease",
+                    "order": 7
+                },
+                {
+                    "name": "Shield Grease",
+                    "order": 8
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson-Sapping Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 10,
+        "dex": 10,
+        "fth": 12,
+        "int": 12,
+        "mnd": 20,
+        "str": 75,
+        "vig": 60,
+        "vit": 30
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "altered": 35.99999991,
+            "original": 27
+        },
+        "runes": {
+            "total": 7112459,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 152,
+            "magic": 156,
+            "slash": 165,
+            "pierce": 165,
+            "strike": 165,
+            "physical": 165,
+            "lightning": 132
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 59.699244527929494,
+            "holy": 59.786477702586694,
+            "magic": 58.9463669330744,
+            "slash": 67.2903634061152,
+            "pierce": 67.0744258354224,
+            "strike": 67.57735752634701,
+            "physical": 67.00500007620067,
+            "lightning": 60.32668026348118
+        },
+        "maxStamina": 130,
+        "resistances": {
+            "focus": 238,
+            "immunity": 308,
+            "vitality": 248,
+            "robustness": 239
+        },
+        "maxEquipLoad": 77.64460262
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Smithscript Axe",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Golden Vow",
+                "equipIndex": 0
+            },
+            {
+                "name": "Messmer Soldier Shield",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Smithing Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Weapon-Throwing Attack"
+        ],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Radahn's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Highland Attire",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Leather Boots",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Wretch"
+}

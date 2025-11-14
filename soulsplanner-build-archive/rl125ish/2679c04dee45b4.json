@@ -1,0 +1,618 @@
+{
+    "id": "2679c04dee45b4",
+    "is2h": false,
+    "name": "faiarc32/43",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Duels",
+        "Hybrid",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 0
+                },
+                {
+                    "name": "Sacred Bloody Flesh",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 35,
+        "dex": 17,
+        "fth": 32,
+        "int": 7,
+        "mnd": 15,
+        "str": 12,
+        "vig": 53,
+        "vit": 33
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Sling",
+                "order": 0
+            },
+            {
+                "name": "Catch Flame",
+                "order": 1
+            },
+            {
+                "name": "Stone of Gurranq",
+                "order": 2
+            },
+            {
+                "name": "Wrath of Gold",
+                "order": 3
+            },
+            {
+                "name": "Bloodflame Talons",
+                "order": 4
+            },
+            {
+                "name": "The Flame of Frenzy",
+                "order": 5
+            },
+            {
+                "name": "Roar of Rugalea",
+                "order": 6
+            },
+            {
+                "name": "Ghostflame Breath",
+                "order": 7
+            },
+            {
+                "name": "Fire Serpent",
+                "order": 8
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 95,
+        "poise": {
+            "altered": 114.66666638,
+            "original": 86
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "arc": 43
+        },
+        "defenses": {
+            "fire": 182,
+            "holy": 182,
+            "magic": 143,
+            "slash": 133,
+            "pierce": 133,
+            "strike": 133,
+            "physical": 133,
+            "lightning": 129
+        },
+        "maxHealth": 2303.6,
+        "absorption": {
+            "fire": 35.9825700466,
+            "holy": 34.703981901100015,
+            "magic": 34.04606013280001,
+            "slash": 39.73432052548003,
+            "pierce": 38.164508227000006,
+            "strike": 38.25212698648001,
+            "physical": 40.41234163864,
+            "lightning": 33.85337344750001
+        },
+        "maxStamina": 146.3,
+        "resistances": {
+            "focus": 369,
+            "immunity": 332,
+            "vitality": 322,
+            "robustness": 312
+        },
+        "maxEquipLoad": 87.98325314
+    },
+    "greatRune": "Morgott's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Eleonora's Poleblade",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Flowerstone Gavel",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Rivers of Blood",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Milady",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Raptor of the Mists"
+            },
+            {
+                "name": "Black Knife",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Pata",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Rivers of Blood",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Pata",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Pata",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Pata",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Pata",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Milady",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Glintblade Phalanx"
+            },
+            {
+                "name": "Claws of Night",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Blind Spot"
+            },
+            {
+                "name": "Death Knight's Twin Axes",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Swift Slash"
+            },
+            {
+                "name": "Death Knight's Twin Axes",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Milady",
+                "order": 24,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Sword Dance",
+                "equipIndex": 0
+            },
+            {
+                "name": "Pata",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Reduvia",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Claws of Night",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Pest's Glaive",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Double Slash"
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 25,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 20,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 1
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 2
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 3
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 4
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 5
+            },
+            {
+                "name": "Cerulean Amber Medallion +3",
+                "order": 6
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 7
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 8
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 9
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 10
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 11
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 12,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 13
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 14
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 15,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 16,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 17
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 18
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 19
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 20
+            },
+            {
+                "name": "Faithful's Canvas Talisman",
+                "order": 21
+            },
+            {
+                "name": "Spelldrake Talisman +3",
+                "order": 22
+            },
+            {
+                "name": "Golden Braid",
+                "order": 23
+            },
+            {
+                "name": "Ailment Talisman",
+                "order": 24
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Black Knight Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Tree Sentinel Gauntlets",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Armor of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Divine Bird Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Divine Beast Head",
+                    "order": 1
+                },
+                {
+                    "name": "Fire Knight Helm",
+                    "order": 2
+                },
+                {
+                    "name": "Silver Tear Mask",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Lionel's Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

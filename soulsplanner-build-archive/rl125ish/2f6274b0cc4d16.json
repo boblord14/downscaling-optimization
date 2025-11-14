@@ -1,0 +1,286 @@
+{
+    "id": "2f6274b0cc4d16",
+    "is2h": false,
+    "name": "Air King",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Neutralizing Boluses",
+                    "order": 3
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 4
+                },
+                {
+                    "name": "Clarifying Boluses",
+                    "order": 5
+                },
+                {
+                    "name": "Rejuvenating Boluses",
+                    "order": 6
+                },
+                {
+                    "name": "Preserving Boluses",
+                    "order": 7
+                },
+                {
+                    "name": "Stimulating Boluses",
+                    "order": 8
+                },
+                {
+                    "name": "Thawfrost Boluses",
+                    "order": 9
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 10,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Spellproof Dried Liver",
+                    "order": 11
+                },
+                {
+                    "name": "Fireproof Dried Liver",
+                    "order": 12
+                },
+                {
+                    "name": "Holyproof Dried Liver",
+                    "order": 13
+                },
+                {
+                    "name": "Lightningproof Dried Liver",
+                    "order": 14
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Dexterity-knot Crystal Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 126,
+        "arc": 10,
+        "dex": 70,
+        "fth": 10,
+        "int": 10,
+        "mnd": 20,
+        "str": 15,
+        "vig": 50,
+        "vit": 20
+    },
+    "views": {
+        "overview": "swappa",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": []
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Ice Crest Shield",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Storm Wall",
+                "equipIndex": 3
+            },
+            {
+                "name": "Flamberge",
+                "order": 1,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Keen",
+                "weaponArt": "Stormcaller",
+                "equipIndex": 0
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 2,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Keen",
+                "weaponArt": "Storm Blade",
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Elden Lord Bracers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Nomadic Merchant's Finery",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "All-Knowing Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Nomadic Merchant's Trousers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Wretch"
+}

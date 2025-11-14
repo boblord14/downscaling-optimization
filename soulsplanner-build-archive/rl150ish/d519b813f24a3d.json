@@ -1,0 +1,302 @@
+{
+    "id": "d519b813f24a3d",
+    "is2h": false,
+    "name": "True Madman",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Invasions",
+        "Hybrid",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Cerulean Hidden Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 42,
+        "dex": 10,
+        "fth": 41,
+        "int": 7,
+        "mnd": 24,
+        "str": 11,
+        "vig": 60,
+        "vit": 34
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "The Flame of Frenzy",
+                "order": 0
+            },
+            {
+                "name": "Inescapable Frenzy",
+                "order": 1
+            },
+            {
+                "name": "Unendurable Frenzy",
+                "order": 2
+            },
+            {
+                "name": "Midra's Flame of Frenzy",
+                "order": 3
+            },
+            {
+                "name": "Frenzied Burst",
+                "order": 4
+            },
+            {
+                "name": "Howl of Shabriri",
+                "order": 5
+            },
+            {
+                "name": "Blessing's Boon",
+                "order": 6
+            },
+            {
+                "name": "Golden Vow",
+                "order": 7
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 142,
+        "poise": {
+            "original": 89
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 184,
+            "magic": 146,
+            "slash": 135,
+            "pierce": 135,
+            "strike": 135,
+            "physical": 135,
+            "lightning": 132
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 25.398900380800004,
+            "holy": 25.011965216800004,
+            "magic": 25.1885521915,
+            "slash": 34.02735340959999,
+            "pierce": 32.6124670528,
+            "strike": 31.608312367000018,
+            "physical": 35.03968207839999,
+            "lightning": 26.913198141999995
+        },
+        "maxStamina": 135,
+        "resistances": {
+            "focus": 243,
+            "immunity": 378,
+            "vitality": 300,
+            "robustness": 367
+        },
+        "maxEquipLoad": 82.7753934
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Dagger",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Endure",
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Radagon Icon",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Aged One's Exultation",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 3
+            },
+            {
+                "name": "Faithful's Canvas Talisman",
+                "order": 4,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Verdigris Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Black Dumpling",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Verdigris Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

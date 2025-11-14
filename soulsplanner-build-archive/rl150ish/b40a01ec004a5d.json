@@ -1,0 +1,278 @@
+{
+    "id": "b40a01ec004a5d",
+    "is2h": false,
+    "name": "Blashpemous Blade pshylocke",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Faith",
+        "Caster"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 156,
+        "arc": 8,
+        "dex": 15,
+        "fth": 60,
+        "int": 9,
+        "mnd": 26,
+        "str": 22,
+        "vig": 72,
+        "vit": 23
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Scarlet Aeonia",
+                "order": 0
+            },
+            {
+                "name": "Ancient Dragons' Lightning Strike",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 152,
+        "poise": {
+            "original": 53
+        },
+        "runes": {
+            "total": 8065322,
+            "toNextLevel": 171065
+        },
+        "defenses": {
+            "fire": 196,
+            "holy": 149,
+            "magic": 151,
+            "slash": 140,
+            "pierce": 140,
+            "strike": 140,
+            "physical": 140,
+            "lightning": 133
+        },
+        "maxHealth": 1971,
+        "absorption": {
+            "fire": 22.749027652,
+            "holy": 20.596760127999993,
+            "magic": 22.09615524280001,
+            "slash": 36.68272875904,
+            "pierce": 35.316507512319994,
+            "strike": 32.50028091232,
+            "physical": 34.98003042543999,
+            "lightning": 20.03882455
+        },
+        "maxStamina": 118,
+        "resistances": {
+            "focus": 210,
+            "immunity": 279,
+            "vitality": 217,
+            "robustness": 289
+        },
+        "maxEquipLoad": 68.82352941
+    },
+    "greatRune": "Malenia's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Blasphemous Blade",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Dagger",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Order",
+                "equipIndex": 4
+            },
+            {
+                "name": "Godslayer's Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Charged Skill Attack",
+            "Skill Attack",
+            "Black Flame Spell",
+            "Apply Kill Effect"
+        ],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Mausoleum Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Greathelm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Mausoleum Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Samurai"
+}

@@ -1,0 +1,352 @@
+{
+    "id": "22a55695aa4256",
+    "is2h": true,
+    "name": "Flame Art Fire Knight's Greatsword, 2h ms + l2 + spells.",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 18,
+        "fth": 51,
+        "int": 9,
+        "mnd": 23,
+        "str": 15,
+        "vig": 60,
+        "vit": 21
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Heal from Afar",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            },
+            {
+                "name": "Knight's Lightning Spear",
+                "order": 3
+            },
+            {
+                "name": "Pest-Thread Spears",
+                "order": 4
+            },
+            {
+                "name": "Multilayered Ring of Light",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 137,
+        "poise": {
+            "original": 53
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 141,
+            "magic": 145,
+            "slash": 132,
+            "pierce": 132,
+            "strike": 132,
+            "physical": 132,
+            "lightning": 127
+        },
+        "maxHealth": 2090,
+        "absorption": {
+            "fire": 32.14241039944001,
+            "holy": 29.463859283140003,
+            "magic": 29.381867501320013,
+            "slash": 25.774915411324027,
+            "pierce": 24.935728574080017,
+            "strike": 23.22288756640002,
+            "physical": 27.969471356311015,
+            "lightning": 25.735073908600004
+        },
+        "maxStamina": 115,
+        "resistances": {
+            "focus": 200,
+            "immunity": 277,
+            "vitality": 231,
+            "robustness": 277
+        },
+        "maxEquipLoad": 65.64705882
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Fire Knight's Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Spear",
+                "equipIndex": 0
+            },
+            {
+                "name": "Godslayer's Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 2,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 4
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 5
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 6
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 7
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 8,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 9,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Gold Bracelets",
+                    "order": 1
+                },
+                {
+                    "name": "Godskin Noble Bracelets",
+                    "order": 2
+                },
+                {
+                    "name": "Ascetic's Wrist Guards",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Fire Knight Armor (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Fire Knight Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Leda's Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Radahn's Lion Armor (Altered)",
+                    "order": 3
+                },
+                {
+                    "name": "Fingerprint Armor (Altered)",
+                    "order": 4,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Winged Serpent Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Young Lion's Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Black Knight Greaves",
+                    "order": 3
+                },
+                {
+                    "name": "Freyja's Greaves",
+                    "order": 4
+                },
+                {
+                    "name": "Blaidd's Greaves",
+                    "order": 5
+                },
+                {
+                    "name": "Crucible Greaves",
+                    "order": 6,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

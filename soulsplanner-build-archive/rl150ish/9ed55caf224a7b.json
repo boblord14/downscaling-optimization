@@ -1,0 +1,251 @@
+{
+    "id": "9ed55caf224a7b",
+    "is2h": false,
+    "name": "Invader",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 139,
+        "arc": 7,
+        "dex": 18,
+        "fth": 9,
+        "int": 9,
+        "mnd": 16,
+        "str": 54,
+        "vig": 60,
+        "vit": 45
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment",
+        "protector-view/right": "Presets"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 100,
+        "poise": {
+            "altered": 133.333333,
+            "original": 100
+        },
+        "runes": {
+            "total": 5568328,
+            "toNextLevel": 130894
+        },
+        "defenses": {
+            "fire": 190,
+            "holy": 144,
+            "magic": 148,
+            "slash": 155,
+            "pierce": 155,
+            "strike": 155,
+            "physical": 155,
+            "lightning": 130
+        },
+        "maxHealth": 2134.08,
+        "absorption": {
+            "fire": 35.01384058000001,
+            "holy": 32.88592988272,
+            "magic": 33.556430934280016,
+            "slash": 41.48972986276001,
+            "pierce": 41.48972986276001,
+            "strike": 43.86458852632001,
+            "physical": 44.479453123,
+            "lightning": 35.75808182440001
+        },
+        "maxStamina": 162.8,
+        "resistances": {
+            "focus": 278,
+            "immunity": 361,
+            "vitality": 289,
+            "robustness": 375
+        },
+        "maxEquipLoad": 105.77064655
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Twinned Knight Swords",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Spinning Slash",
+                "equipIndex": 0
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Bloodhound's Step"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 0,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 1,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 3,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Charged Skill Attack",
+            "Skill Attack"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Bull-Goat Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Bull-Goat Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

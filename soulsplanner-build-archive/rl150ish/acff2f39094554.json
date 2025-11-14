@@ -1,0 +1,438 @@
+{
+    "id": "acff2f39094554",
+    "is2h": false,
+    "name": "Dragon incant support - Arc/fth - Mage/Gish*",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Dragon communion",
+                "active": true
+            },
+            {
+                "name": "Dragon Cult"
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Dragon communion",
+                "active": true
+            },
+            {
+                "name": "Dragon cult"
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Arcane",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Rune Arc",
+                    "order": 3
+                },
+                {
+                    "name": "Starlight Shards",
+                    "order": 4
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 5
+                },
+                {
+                    "name": "Warming Stone",
+                    "order": 6
+                },
+                {
+                    "name": "Sunwarmth Stone",
+                    "order": 7
+                },
+                {
+                    "name": "Frenzyflame Stone",
+                    "order": 8
+                },
+                {
+                    "name": "Rock Heart",
+                    "order": 9
+                },
+                {
+                    "name": "Priestess Heart",
+                    "order": 10,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 11,
+                    "equipIndex": 10
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimsonburst Dried Tear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 60,
+        "dex": 13,
+        "fth": 40,
+        "int": 7,
+        "mnd": 25,
+        "str": 14,
+        "vig": 50,
+        "vit": 12
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Blessing of the Erdtree",
+                "order": 0
+            },
+            {
+                "name": "Borealis's Mist",
+                "order": 1
+            },
+            {
+                "name": "Theodorix's Magma",
+                "order": 2
+            },
+            {
+                "name": "Dragonclaw",
+                "order": 3
+            },
+            {
+                "name": "Dragonmaw",
+                "order": 4
+            },
+            {
+                "name": "Greyoll's Roar",
+                "order": 5
+            },
+            {
+                "name": "Bayle's Tyranny",
+                "order": 6
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 147,
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 180,
+            "holy": 190,
+            "magic": 144,
+            "slash": 134,
+            "pierce": 134,
+            "strike": 134,
+            "physical": 134,
+            "lightning": 130
+        },
+        "maxHealth": 1704,
+        "absorption": {
+            "fire": 0,
+            "holy": 0,
+            "magic": 0,
+            "slash": 0,
+            "pierce": 0,
+            "strike": 0,
+            "physical": 0,
+            "lightning": 0
+        },
+        "maxStamina": 99,
+        "resistances": {
+            "focus": 154,
+            "immunity": 229,
+            "vitality": 194,
+            "robustness": 154
+        },
+        "maxEquipLoad": 51.35294118
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Ripple Blade",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Ripple Crescent Halberd",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdsteel Dagger",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Highland Axe",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Morning Star",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Flowerstone Gavel",
+                "order": 8,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Reduvia",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bloodfiend's Fork",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Erdsteel Dagger",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Golden Vow",
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3,
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Perfumer's Shield",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Quality",
+                "weaponArt": "Holy Ground",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 0,
+                "equipSet": [
+                    0,
+                    3
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 2
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 3,
+                "equipSet": [
+                    3,
+                    0
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 4,
+                "equipSet": [
+                    1,
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Roar Medallion",
+                "order": 5,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Lightning Scorpion Charm",
+                "order": 6,
+                "equipSet": [
+                    null,
+                    2
+                ]
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Drake Knight Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Gaius's Gauntlets",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Deathbed Dress",
+                    "order": 0
+                },
+                {
+                    "name": "Drake Knight Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Gaius's Armor",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Drake Knight Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Silver Tear Mask",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Drake Knight Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Drake Knight Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Greaves of Night",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

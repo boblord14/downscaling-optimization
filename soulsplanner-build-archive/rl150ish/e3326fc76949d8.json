@@ -1,0 +1,385 @@
+{
+    "id": "e3326fc76949d8",
+    "is2h": false,
+    "name": "Nagakiba Bleed Build",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Arcane",
+        "Caster"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 3,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Lantern",
+                    "order": 4,
+                    "equipIndex": 10
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Greenburst Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 55,
+        "dex": 34,
+        "fth": 15,
+        "int": 7,
+        "mnd": 20,
+        "str": 18,
+        "vig": 60,
+        "vit": 20
+    },
+    "views": {
+        "overview": "swappa",
+        "home/main": "Current Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Rotten Breath",
+                "order": 0
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 139,
+        "poise": {
+            "original": 46
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 190,
+            "magic": 146,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 132
+        },
+        "maxHealth": 2185,
+        "absorption": {
+            "fire": 22.020244894,
+            "holy": 24.47463875679999,
+            "magic": 20.910409182,
+            "slash": 25.739525100000005,
+            "pierce": 23.9244463732,
+            "strike": 22.224896376000004,
+            "physical": 24.35866756970001,
+            "lightning": 18.9964735456
+        },
+        "maxStamina": 129.95,
+        "resistances": {
+            "focus": 221,
+            "immunity": 282,
+            "vitality": 305,
+            "robustness": 278
+        },
+        "maxEquipLoad": 64.05882353
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Finger Seal",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dagger",
+                "order": 2,
+                "upgrade": 0,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Golden Vow",
+                "equipIndex": 1
+            },
+            {
+                "name": "Sacrificial Axe",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Sword of Milos",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Nagakiba",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Unsheathe",
+                "equipIndex": 0
+            },
+            {
+                "name": "Nagakiba",
+                "order": 6,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Blood Blade",
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 7,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Uchigatana",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Seppuku"
+            },
+            {
+                "name": "Great Turtle Shell",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "No Skill"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 0,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Carian Filigreed Crest",
+                "order": 3
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 4,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 5
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 6
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 7,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Apply Kill Effect",
+            "Charged Skill Attack",
+            "Skill Attack"
+        ],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Maliketh's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Maliketh's Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Maliketh's Armor (Altered)",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Maliketh's Helm",
+                    "order": 0
+                },
+                {
+                    "name": "White Mask",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Maliketh's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

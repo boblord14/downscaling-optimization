@@ -1,0 +1,287 @@
+{
+    "id": "8c94d4c3ee43d2",
+    "is2h": true,
+    "name": "stars",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "Caster"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 149,
+        "arc": 9,
+        "dex": 12,
+        "fth": 7,
+        "int": 60,
+        "mnd": 30,
+        "str": 60,
+        "vig": 40,
+        "vit": 10
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Edit"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Glintstone Stars",
+                "order": 0
+            },
+            {
+                "name": "Star Shower",
+                "order": 1
+            },
+            {
+                "name": "Founding Rain of Stars",
+                "order": 2
+            },
+            {
+                "name": "Stars of Ruin",
+                "order": 3
+            },
+            {
+                "name": "Collapsing Stars",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 173,
+        "poise": {
+            "original": 24
+        },
+        "runes": {
+            "total": 6957633,
+            "toNextLevel": 153680
+        },
+        "stats": {
+            "int": 65,
+            "str": 65
+        },
+        "defenses": {
+            "fire": 174,
+            "holy": 152,
+            "magic": 195,
+            "slash": 165,
+            "pierce": 165,
+            "strike": 165,
+            "physical": 165,
+            "lightning": 134
+        },
+        "maxHealth": 1450,
+        "absorption": {
+            "fire": 25.448328010000026,
+            "holy": 25.448328010000026,
+            "magic": 26.270457256,
+            "slash": 3.266639831170015,
+            "pierce": 3.266639831170015,
+            "strike": 3.266639831170015,
+            "physical": 4.9599181007830335,
+            "lightning": 26.0199193024
+        },
+        "maxStamina": 96,
+        "resistances": {
+            "focus": 360,
+            "immunity": 302,
+            "vitality": 339,
+            "robustness": 214
+        },
+        "maxEquipLoad": 48.17647059
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Star Fist",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Cold",
+                "weaponArt": "Cragblade",
+                "equipIndex": 0
+            },
+            {
+                "name": "Carian Regal Scepter",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Great Stars",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness",
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Stargazer Heirloom",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Astrologer Gloves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Astrologer Robe",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Astrologer Hood",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Astrologer Trousers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

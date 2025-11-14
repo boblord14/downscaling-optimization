@@ -1,0 +1,294 @@
+{
+    "id": "a0ed72ee0047fc",
+    "is2h": true,
+    "name": "Cold-Bleed-Ice Spear (Cross-Naginata)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity",
+        "PvE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Exalted Flesh",
+                    "order": 0,
+                    "active": true,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Boiled Prawn",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Kukri",
+                    "order": 2,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 3,
+                    "active": true
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Magic-Shrouding Cracked Tear",
+            "Stonebarb Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 51,
+        "fth": 6,
+        "int": 40,
+        "mnd": 27,
+        "str": 16,
+        "vig": 50,
+        "vit": 30
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 181,
+        "poise": {
+            "original": 15
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 182,
+            "holy": 150,
+            "magic": 184,
+            "slash": 137,
+            "pierce": 137,
+            "strike": 137,
+            "physical": 137,
+            "lightning": 132
+        },
+        "maxHealth": 1959.6,
+        "absorption": {
+            "fire": 22.617725373700004,
+            "holy": 25.11046629550001,
+            "magic": 25.11046629550001,
+            "slash": 25.5866766660679,
+            "pierce": 25.5866766660679,
+            "strike": 23.183481315903997,
+            "physical": 25.5866766660679,
+            "lightning": 23.539628152000013
+        },
+        "maxStamina": 149.5,
+        "resistances": {
+            "focus": 297,
+            "immunity": 277,
+            "vitality": 316,
+            "robustness": 200
+        },
+        "maxEquipLoad": 77.64460262
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Cross-Naginata",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Cold",
+                "weaponArt": "Ice Spear",
+                "equipIndex": 0
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Keen",
+                "weaponArt": "Golden Vow",
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Carian Filigreed Crest",
+                "order": 3
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 5
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 6,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 7
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "HP above 100%",
+            "Charge Attack",
+            "Charged Skill Attack",
+            "Skill Attack"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Spellblade's Gloves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Spellblade's Traveling Attire",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Spellblade's Pointed Hat",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Spellblade's Trousers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prisoner"
+}

@@ -1,0 +1,332 @@
+{
+    "id": "c93d8bfdb44aaf",
+    "is2h": true,
+    "name": "",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "PvE",
+        "Faith",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Exalted Flesh",
+                    "order": 0,
+                    "active": true,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 1,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Uplifting Aromatic",
+                    "order": 2,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 3,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 4,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 5,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 6,
+                    "equipIndex": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Spiked Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 10,
+        "dex": 18,
+        "fth": 69,
+        "int": 10,
+        "mnd": 10,
+        "str": 22,
+        "vig": 60,
+        "vit": 30
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            },
+            {
+                "name": "Fire Serpent",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 95,
+        "poise": {
+            "original": 40
+        },
+        "runes": {
+            "total": 7112459,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "arc": 15,
+            "dex": 23,
+            "fth": 74,
+            "int": 15,
+            "mnd": 15,
+            "str": 27,
+            "vig": 65,
+            "vit": 35
+        },
+        "defenses": {
+            "fire": 197,
+            "holy": 166,
+            "magic": 166,
+            "slash": 145,
+            "pierce": 145,
+            "strike": 145,
+            "physical": 145,
+            "lightning": 136
+        },
+        "maxHealth": 1968.6,
+        "absorption": {
+            "fire": 23.62054419440002,
+            "holy": 17.808877360000007,
+            "magic": 19.199991634000018,
+            "slash": 12.163625823560032,
+            "pierce": 10.03650996358002,
+            "strike": 8.566208434,
+            "physical": 14.345395513120016,
+            "lightning": 14.523824800000009
+        },
+        "maxStamina": 142.8,
+        "resistances": {
+            "focus": 211,
+            "immunity": 268,
+            "vitality": 233,
+            "robustness": 286
+        },
+        "maxEquipLoad": 87.88394698
+    },
+    "greatRune": "Godrick's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Fire Knight's Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Spear",
+                "equipIndex": 0
+            },
+            {
+                "name": "Fire Knight's Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 1
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 4
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 5,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Two-Handed",
+            "Charged Attack",
+            "Messmer's Incantation",
+            "Charged Skill Attack",
+            "Skill Attack",
+            "Charge Attack"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fire Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Fire Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Death Knight Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Fire Knight Helm",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Fire Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Wretch"
+}

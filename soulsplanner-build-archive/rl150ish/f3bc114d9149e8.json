@@ -1,0 +1,348 @@
+{
+    "id": "f3bc114d9149e8",
+    "is2h": true,
+    "name": "Hem",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 10,
+        "dex": 75,
+        "fth": 25,
+        "int": 10,
+        "mnd": 20,
+        "str": 14,
+        "vig": 50,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Blessing's Boon",
+                "order": 2
+            },
+            {
+                "name": "Black Flame",
+                "order": 3
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "original": 54
+        },
+        "runes": {
+            "total": 7107396,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 80
+        },
+        "defenses": {
+            "fire": 183,
+            "holy": 153,
+            "magic": 153,
+            "slash": 137,
+            "pierce": 137,
+            "strike": 137,
+            "physical": 137,
+            "lightning": 133
+        },
+        "maxHealth": 1704,
+        "absorption": {
+            "fire": 19.411995943720505,
+            "holy": 17.711641300242597,
+            "magic": 17.540741282174576,
+            "slash": 25.567229122596647,
+            "pierce": 24.26768311813563,
+            "strike": 22.03370343639872,
+            "physical": 23.41539798017268,
+            "lightning": 17.06892678611499
+        },
+        "maxStamina": 121,
+        "resistances": {
+            "focus": 233,
+            "immunity": 285,
+            "vitality": 244,
+            "robustness": 293
+        },
+        "maxEquipLoad": 72
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Backhand Blade",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Blind Spot"
+            },
+            {
+                "name": "Great Turtle Shell",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Barricade Shield"
+            },
+            {
+                "name": "Death Knight's Twin Axes",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Falx",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Death Knight Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Armor of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Death Knight Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Helm of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Imp Head (Lion)",
+                    "order": 1
+                },
+                {
+                    "name": "Death Knight Helm",
+                    "order": 2
+                },
+                {
+                    "name": "Banished Knight Helm",
+                    "order": 3
+                },
+                {
+                    "name": "White Mask",
+                    "order": 4,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Rakshasa Helm",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Death Knight Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Malformed Dragon Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Warrior"
+}

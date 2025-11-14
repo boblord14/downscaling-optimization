@@ -1,0 +1,306 @@
+{
+    "id": "bc3960d81545cd",
+    "is2h": true,
+    "name": "The Gravitas",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 0,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 1,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Crystal Dart",
+                    "order": 2,
+                    "equipIndex": 12
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Intelligence-knot Crystal Tear",
+            "Magic-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 40,
+        "fth": 8,
+        "int": 78,
+        "mnd": 19,
+        "str": 10,
+        "vig": 50,
+        "vit": 15
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Meteorite",
+                "order": 0
+            },
+            {
+                "name": "Meteorite of Astel",
+                "order": 1
+            },
+            {
+                "name": "Rock Sling",
+                "order": 2
+            },
+            {
+                "name": "Gravity Well",
+                "order": 3
+            },
+            {
+                "name": "Collapsing Stars",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 116,
+        "poise": {
+            "original": 47
+        },
+        "runes": {
+            "total": 7107396,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "int": 80
+        },
+        "defenses": {
+            "fire": 183,
+            "holy": 151,
+            "magic": 198,
+            "slash": 136,
+            "pierce": 136,
+            "strike": 136,
+            "physical": 136,
+            "lightning": 133
+        },
+        "maxHealth": 1840.32,
+        "absorption": {
+            "fire": 22.306844980000008,
+            "holy": 19.420468000000017,
+            "magic": 20.538294050000015,
+            "slash": 26.45461906240001,
+            "pierce": 25.135376825200005,
+            "strike": 23.665663504,
+            "physical": 24.89619272560002,
+            "lightning": 17.94649168000001
+        },
+        "maxStamina": 105,
+        "resistances": {
+            "focus": 224,
+            "immunity": 296,
+            "vitality": 208,
+            "robustness": 303
+        },
+        "maxEquipLoad": 66.78
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Bastard's Stars",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Rogier's Rapier",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Gravitas",
+                "equipIndex": 1
+            },
+            {
+                "name": "Meteorite Staff",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 1
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 4,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Imp Head (Cat)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Warrior"
+}
