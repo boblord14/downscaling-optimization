@@ -1,0 +1,295 @@
+{
+    "id": "040f815a624051",
+    "is2h": true,
+    "name": "spinning gravity thrust",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Bloodsucking Cracked Tear",
+            "Thorny Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 10,
+        "dex": 53,
+        "fth": 27,
+        "int": 7,
+        "mnd": 17,
+        "str": 11,
+        "vig": 60,
+        "vit": 19
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Blessing's Boon",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            },
+            {
+                "name": "Bloodflame Blade",
+                "order": 3
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 105,
+        "poise": {
+            "original": 54
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "dex": 58
+        },
+        "defenses": {
+            "fire": 188,
+            "holy": 148,
+            "magic": 142,
+            "slash": 131,
+            "pierce": 131,
+            "strike": 131,
+            "physical": 131,
+            "lightning": 128
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 19.411995943720505,
+            "holy": 17.711641300242597,
+            "magic": 17.540741282174576,
+            "slash": 21.6497148658912,
+            "pierce": 20.281771703300656,
+            "strike": 17.930214143577583,
+            "physical": 19.38462945281334,
+            "lightning": 17.06892678611499
+        },
+        "maxStamina": 111,
+        "resistances": {
+            "focus": 225,
+            "immunity": 282,
+            "vitality": 236,
+            "robustness": 285
+        },
+        "maxEquipLoad": 62.47058824
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Great Katana",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Keen",
+                "weaponArt": "Spinning Gravity Thrust",
+                "equipIndex": 0
+            },
+            {
+                "name": "Dryleaf Arts",
+                "order": 1,
+                "upgrade": 0,
+                "infusion": "Standard",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Dryleaf Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Leda's Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "White Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Young Lion's Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

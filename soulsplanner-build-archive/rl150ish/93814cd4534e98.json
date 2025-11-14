@@ -1,0 +1,305 @@
+{
+    "id": "93814cd4534e98",
+    "is2h": false,
+    "name": "Elder Cast",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Arcane",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Crimsonspill Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 60,
+        "dex": 12,
+        "fth": 7,
+        "int": 27,
+        "mnd": 19,
+        "str": 10,
+        "vig": 60,
+        "vit": 34
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Scholar's Shield",
+                "order": 0
+            },
+            {
+                "name": "Gravity Well",
+                "order": 1
+            },
+            {
+                "name": "Freezing Mist",
+                "order": 2
+            },
+            {
+                "name": "Lucidity",
+                "order": 3
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 4
+            },
+            {
+                "name": "Swift Glintstone Shard",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 116,
+        "poise": {
+            "altered": 121.33333303,
+            "original": 91
+        },
+        "runes": {
+            "total": 7108928,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 192,
+            "magic": 176,
+            "slash": 135,
+            "pierce": 135,
+            "strike": 135,
+            "physical": 135,
+            "lightning": 132
+        },
+        "maxHealth": 2299,
+        "absorption": {
+            "fire": 67.89475498037501,
+            "holy": 67.04017454872,
+            "magic": 66.84899226652,
+            "slash": 71.09321470345,
+            "pierce": 71.00175160000002,
+            "strike": 69.72049457551002,
+            "physical": 70.53813506062001,
+            "lightning": 66.7138673224
+        },
+        "maxStamina": 135,
+        "resistances": {
+            "focus": 313,
+            "immunity": 343,
+            "vitality": 316,
+            "robustness": 407
+        },
+        "maxEquipLoad": 98.50271815
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Venomous Fang",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Lifesteal Fist",
+                "equipIndex": 1
+            },
+            {
+                "name": "Albinauric Staff",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 0
+            },
+            {
+                "name": "Ice Crest Shield",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Holy Ground",
+                "equipIndex": 4
+            },
+            {
+                "name": "Club",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Cragblade",
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "HP below 20%"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Verdigris Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Armor of Solitude",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Lionel's Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Lionel's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

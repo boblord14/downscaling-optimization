@@ -1,0 +1,481 @@
+{
+    "id": "335055aef04e7d",
+    "pve": {
+        "inDLC1": false,
+        "scadutree": 20
+    },
+    "is2h": false,
+    "name": "Spear Drip Build",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "Caster",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 3,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Bloodboil Aromatic",
+                    "order": 4,
+                    "equipIndex": 3
+                },
+                {
+                    "name": "Fire Grease",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Bloodsucking Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 10,
+        "dex": 37,
+        "fth": 40,
+        "int": 7,
+        "mnd": 25,
+        "str": 30,
+        "vig": 35,
+        "vit": 20
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Blessing of the Erdtree",
+                "order": 2
+            },
+            {
+                "name": "Erdtree Heal",
+                "order": 3
+            },
+            {
+                "name": "Messmer's Orb",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 147,
+        "poise": {
+            "original": 51
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "dex": 42,
+            "str": 35,
+            "vig": 40,
+            "vit": 25
+        },
+        "defenses": {
+            "fire": 171,
+            "holy": 151,
+            "magic": 145,
+            "slash": 143,
+            "pierce": 143,
+            "strike": 143,
+            "physical": 143,
+            "lightning": 131
+        },
+        "maxHealth": 1450,
+        "absorption": {
+            "fire": 13.63280708800001,
+            "holy": 13.074792261400004,
+            "magic": 15.600564832420003,
+            "slash": 13.253364569600002,
+            "pierce": 10.211906540800008,
+            "strike": 9.514859046400003,
+            "physical": 13.837606558400015,
+            "lightning": 12.81906030898
+        },
+        "maxStamina": 121,
+        "resistances": {
+            "focus": 278,
+            "immunity": 317,
+            "vitality": 310,
+            "robustness": 287
+        },
+        "maxEquipLoad": 85.68
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Rotten Greataxe",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Lion's Claw"
+            },
+            {
+                "name": "Milady",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Deadly Poison Perfume Bottle",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spear of the Impaler",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree Greatshield",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 3
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 4
+            },
+            {
+                "name": "Radagon's Soreseal",
+                "order": 5,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 6,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 7
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 8
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 9
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 10,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Trigger in Presence of Blood Loss",
+            "Trigger in Presence of Rot",
+            "Fire Knight Skill",
+            "Enhance Thrusting Counter Attacks",
+            "Charged Skill Attack",
+            "Skill Attack"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Radahn's Gauntlets",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Lusat's Robe",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Azur's Glintstone Robe",
+                    "order": 2
+                },
+                {
+                    "name": "Beast Champion Armor",
+                    "order": 3
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 4
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "White Mask",
+                    "order": 0
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 1
+                },
+                {
+                    "name": "Cleanrot Helm",
+                    "order": 2
+                },
+                {
+                    "name": "Fire Monk Hood",
+                    "order": 3
+                },
+                {
+                    "name": "Radahn's Redmane Helm",
+                    "order": 4
+                },
+                {
+                    "name": "Malenia's Winged Helm",
+                    "order": 5
+                },
+                {
+                    "name": "Crimson Hood",
+                    "order": 6
+                },
+                {
+                    "name": "Navy Hood",
+                    "order": 7
+                },
+                {
+                    "name": "Gelmir Knight Helm",
+                    "order": 8
+                },
+                {
+                    "name": "Pelt of Ralva",
+                    "order": 9
+                },
+                {
+                    "name": "Octopus Head",
+                    "order": 10
+                },
+                {
+                    "name": "Winged Serpent Helm",
+                    "order": 11,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Maliketh's Greaves",
+                    "order": 3
+                },
+                {
+                    "name": "Black Knight Greaves",
+                    "order": 4
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 5
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 6
+                },
+                {
+                    "name": "Verdigris Greaves",
+                    "order": 7,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

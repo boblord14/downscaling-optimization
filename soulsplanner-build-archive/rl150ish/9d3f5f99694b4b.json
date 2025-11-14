@@ -1,0 +1,308 @@
+{
+    "id": "9d3f5f99694b4b",
+    "is2h": false,
+    "name": "Blade caller",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Dexterity-knot Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 40,
+        "dex": 50,
+        "fth": 25,
+        "int": 9,
+        "mnd": 20,
+        "str": 15,
+        "vig": 50,
+        "vit": 20
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment",
+        "protector-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Ekzykes's Decay",
+                "order": 0
+            },
+            {
+                "name": "Borealis's Mist",
+                "order": 1
+            },
+            {
+                "name": "Theodorix's Magma",
+                "order": 2
+            },
+            {
+                "name": "Dragonmaw",
+                "order": 3
+            },
+            {
+                "name": "Bloodboon",
+                "order": 4
+            },
+            {
+                "name": "Bloodflame Talons",
+                "order": 5
+            },
+            {
+                "name": "Golden Vow",
+                "order": 6
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 7
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "original": 45
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 55
+        },
+        "defenses": {
+            "fire": 183,
+            "holy": 185,
+            "magic": 151,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 133
+        },
+        "maxHealth": 1704,
+        "absorption": {
+            "fire": 23.56966181800001,
+            "holy": 22.60791169569999,
+            "magic": 21.526920469,
+            "slash": 25.58561738,
+            "pierce": 23.767102932400007,
+            "strike": 22.144798432000012,
+            "physical": 24.2804448888,
+            "lightning": 18.830652611200016
+        },
+        "maxStamina": 113,
+        "resistances": {
+            "focus": 226,
+            "immunity": 285,
+            "vitality": 273,
+            "robustness": 306
+        },
+        "maxEquipLoad": 64.05882353
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Regalia of Eochaid",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Lordsworn's Straight Sword",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Seppuku",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Briar Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Raptor's Black Feathers",
+                    "order": 0
+                },
+                {
+                    "name": "Briar Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Raging Wolf Armor",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "White Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Maliketh's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

@@ -1,0 +1,294 @@
+{
+    "id": "4378f17a7f423a",
+    "is2h": false,
+    "name": "shieldpoke",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Greenburst Crystal Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 10,
+        "dex": 14,
+        "fth": 27,
+        "int": 10,
+        "mnd": 10,
+        "str": 56,
+        "vig": 60,
+        "vit": 17
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Lord's Divine Fortification",
+                "order": 1
+            },
+            {
+                "name": "Golden Lightning Fortification",
+                "order": 2
+            },
+            {
+                "name": "Blessing's Boon",
+                "order": 3
+            },
+            {
+                "name": "Barrier of Gold",
+                "order": 4
+            },
+            {
+                "name": "Flame, Protect Me",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 51
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 147,
+            "magic": 147,
+            "slash": 154,
+            "pierce": 154,
+            "strike": 154,
+            "physical": 154,
+            "lightning": 127
+        },
+        "maxHealth": 1976,
+        "absorption": {
+            "fire": 21.770878229200008,
+            "holy": 17.808877360000007,
+            "magic": 21.770878229200008,
+            "slash": 26.501033732,
+            "pierce": 26.501033732,
+            "strike": 23.62054419440002,
+            "physical": 24.61212713440001,
+            "lightning": 19.199991634000018
+        },
+        "maxStamina": 118.8,
+        "resistances": {
+            "focus": 192,
+            "immunity": 255,
+            "vitality": 202,
+            "robustness": 269
+        },
+        "maxEquipLoad": 64.03764706
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Pike",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Braggart's Roar",
+                "equipIndex": 0
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Brass Shield",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Spear Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Knight Armor",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

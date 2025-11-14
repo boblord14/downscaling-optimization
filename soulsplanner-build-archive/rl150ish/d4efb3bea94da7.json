@@ -1,0 +1,298 @@
+{
+    "id": "d4efb3bea94da7",
+    "is2h": false,
+    "name": "lightning 2.0",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "PvE",
+        "Hybrid",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Lightning-Shrouding Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 45,
+        "fth": 50,
+        "int": 9,
+        "mnd": 27,
+        "str": 20,
+        "vig": 50,
+        "vit": 21
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Knight's Lightning Spear",
+                "order": 0
+            },
+            {
+                "name": "Honed Bolt",
+                "order": 1
+            },
+            {
+                "name": "Fortissax's Lightning Spear",
+                "order": 2
+            },
+            {
+                "name": "Lansseax's Glaive",
+                "order": 3
+            },
+            {
+                "name": "Ancient Dragons' Lightning Strike",
+                "order": 4
+            },
+            {
+                "name": "Golden Vow",
+                "order": 5
+            },
+            {
+                "name": "Blessing's Boon",
+                "order": 6
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 158,
+        "poise": {
+            "original": 53
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 50
+        },
+        "defenses": {
+            "fire": 183,
+            "holy": 147,
+            "magic": 151,
+            "slash": 139,
+            "pierce": 139,
+            "strike": 139,
+            "physical": 139,
+            "lightning": 133
+        },
+        "maxHealth": 1704,
+        "absorption": {
+            "fire": 21.083025480400007,
+            "holy": 18.94329598240001,
+            "magic": 20.733448627600005,
+            "slash": 26.88005147920001,
+            "pierce": 26.47337768320001,
+            "strike": 23.601370674800005,
+            "physical": 26.808350905600008,
+            "lightning": 25.261323025600003
+        },
+        "maxStamina": 115,
+        "resistances": {
+            "focus": 212,
+            "immunity": 274,
+            "vitality": 266,
+            "robustness": 282
+        },
+        "maxEquipLoad": 65.64705882
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Lightning Perfume Bottle",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rolling Sparks"
+            },
+            {
+                "name": "Bolt of Gransax",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Gravel Stone Seal",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 1,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Death Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Death Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Death Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Malformed Dragon Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

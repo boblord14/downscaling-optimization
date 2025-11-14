@@ -1,0 +1,283 @@
+{
+    "id": "1c95ad5e074518",
+    "is2h": false,
+    "name": "Magic Clayman's Harpoon, ps l1 chain, dps calc.",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 10,
+        "dex": 10,
+        "fth": 10,
+        "int": 71,
+        "mnd": 10,
+        "str": 12,
+        "vig": 60,
+        "vit": 21
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Ranni's Dark Moon",
+                "order": 0
+            },
+            {
+                "name": "Adula's Moonblade",
+                "order": 1
+            },
+            {
+                "name": "Terra Magica",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 52
+        },
+        "runes": {
+            "total": 3984881,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "dex": 15,
+            "int": 74
+        },
+        "defenses": {
+            "fire": 189,
+            "holy": 149,
+            "magic": 192,
+            "slash": 133,
+            "pierce": 133,
+            "strike": 133,
+            "physical": 133,
+            "lightning": 129
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 20.081470536088354,
+            "holy": 18.566141390582757,
+            "magic": 18.7370414086508,
+            "slash": 12.47778903633473,
+            "pierce": 11.138344901747054,
+            "strike": 8.606409606074749,
+            "physical": 10.776266657486822,
+            "lightning": 17.67300328194975
+        },
+        "maxStamina": 115,
+        "resistances": {
+            "focus": 236,
+            "immunity": 278,
+            "vitality": 250,
+            "robustness": 279
+        },
+        "maxEquipLoad": 65.64705882
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Clayman's Harpoon",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Cragblade",
+                "equipIndex": 3
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Endure",
+                "equipIndex": 0
+            },
+            {
+                "name": "Carian Regal Scepter",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 3
+            },
+            {
+                "name": "Twinblade Talisman",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Queen's Crescent Crown",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Wretch"
+}

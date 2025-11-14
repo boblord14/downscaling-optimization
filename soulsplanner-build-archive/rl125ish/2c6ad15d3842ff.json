@@ -1,0 +1,275 @@
+{
+    "id": "2c6ad15d3842ff",
+    "is2h": false,
+    "name": "Magic Clayman's Harpoon, Ice Spear.",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "PvE",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Magic-Shrouding Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 10,
+        "dex": 10,
+        "fth": 10,
+        "int": 68,
+        "mnd": 17,
+        "str": 12,
+        "vig": 60,
+        "vit": 17
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment",
+        "protector-view/left": "Armour Optimiser"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Ranni's Dark Moon",
+                "order": 0
+            },
+            {
+                "name": "Glintstone Icecrag",
+                "order": 1
+            },
+            {
+                "name": "Terra Magica",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 105,
+        "poise": {
+            "original": 51
+        },
+        "runes": {
+            "total": 3984881,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 147,
+            "magic": 189,
+            "slash": 131,
+            "pierce": 131,
+            "strike": 131,
+            "physical": 131,
+            "lightning": 127
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 25.409419610499995,
+            "holy": 26.054091577000005,
+            "magic": 25.367818645000007,
+            "slash": 15.063713785989997,
+            "pierce": 15.063713785989997,
+            "strike": 9.742101280000004,
+            "physical": 14.645823078910016,
+            "lightning": 26.22701083600001
+        },
+        "maxStamina": 108,
+        "resistances": {
+            "focus": 288,
+            "immunity": 307,
+            "vitality": 323,
+            "robustness": 239
+        },
+        "maxEquipLoad": 59.29411765
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Clayman's Harpoon",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Ice Spear",
+                "equipIndex": 0
+            },
+            {
+                "name": "Dagger",
+                "order": 1,
+                "upgrade": 0,
+                "infusion": "Standard",
+                "weaponArt": "Sacred Order"
+            },
+            {
+                "name": "Carian Regal Scepter",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Blade of Mercy",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Spellblade's Gloves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Omen Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Spellblade's Pointed Hat",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Spellblade's Trousers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Wretch"
+}

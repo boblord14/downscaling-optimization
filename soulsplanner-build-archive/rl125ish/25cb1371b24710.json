@@ -1,0 +1,265 @@
+{
+    "id": "25cb1371b24710",
+    "is2h": false,
+    "name": "CV Cranial Vessel Candlestand 125",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "Caster",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Flame-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 11,
+        "dex": 9,
+        "fth": 60,
+        "int": 7,
+        "mnd": 9,
+        "str": 26,
+        "vig": 60,
+        "vit": 22
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Blessing of the Erdtree",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 58
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 149,
+            "magic": 141,
+            "slash": 135,
+            "pierce": 135,
+            "strike": 135,
+            "physical": 135,
+            "lightning": 127
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 18.397741936283207,
+            "holy": 16.327351153891534,
+            "magic": 16.327351153891534,
+            "slash": 30.90914670159539,
+            "pierce": 29.98927256259022,
+            "strike": 27.245490191993483,
+            "physical": 29.052641110575916,
+            "lightning": 15.322282746729943
+        },
+        "maxStamina": 116,
+        "resistances": {
+            "focus": 215,
+            "immunity": 273,
+            "vitality": 226,
+            "robustness": 292
+        },
+        "maxEquipLoad": 67.23529412
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Cranial Vessel Candlestand",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Rakshasa Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

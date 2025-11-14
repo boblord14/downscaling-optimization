@@ -1,0 +1,635 @@
+{
+    "id": "4f6862f26c4111",
+    "is2h": true,
+    "name": "Quality - str/dex/fth* - Martial",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Shield&poke"
+            },
+            {
+                "name": "Axe of Godrick"
+            },
+            {
+                "name": "Dragon halberd"
+            },
+            {
+                "name": "Stormhawk axe"
+            },
+            {
+                "name": "Ghiza's wheel",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Quality",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "tools": {
+            "slots": [
+                {
+                    "name": "Fire Pot",
+                    "order": 0
+                },
+                {
+                    "name": "Redmane Fire Pot",
+                    "order": 1
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 2
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 3
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 4
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 5
+                },
+                {
+                    "name": "Gold-Pickled Fowl Foot",
+                    "order": 6
+                },
+                {
+                    "name": "Poisonbone Dart",
+                    "order": 7
+                },
+                {
+                    "name": "Lantern",
+                    "order": 8
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 8,
+        "dex": 35,
+        "fth": 19,
+        "int": 12,
+        "mnd": 12,
+        "str": 40,
+        "vig": 55,
+        "vit": 23
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Fire's Deadly Sin",
+                "order": 0
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            },
+            {
+                "name": "Catch Flame",
+                "order": 3
+            },
+            {
+                "name": "Stone of Gurranq",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 85,
+        "poise": {
+            "original": 48
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "dex": 40
+        },
+        "defenses": {
+            "fire": 183,
+            "holy": 144,
+            "magic": 152,
+            "slash": 143,
+            "pierce": 143,
+            "strike": 143,
+            "physical": 143,
+            "lightning": 128
+        },
+        "maxHealth": 1886.56,
+        "absorption": {
+            "fire": 22.99379551640001,
+            "holy": 19.925224086400007,
+            "magic": 20.87780418240001,
+            "slash": 27.4619995,
+            "pierce": 26.183363993600015,
+            "strike": 23.669754112000017,
+            "physical": 27.15641576000001,
+            "lightning": 16.335084723200023
+        },
+        "maxStamina": 129.8,
+        "resistances": {
+            "focus": 201,
+            "immunity": 272,
+            "vitality": 210,
+            "robustness": 290
+        },
+        "maxEquipLoad": 88.452
+    },
+    "greatRune": null,
+    "inventory": {
+        "slots": [
+            {
+                "name": "Dragon Halberd",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Stormhawk Axe",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Sword of Milos",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Axe of Godrick",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Horn Bow",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Mighty Shot"
+            },
+            {
+                "name": "Veteran's Prosthesis",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dismounter",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Omen Cleaver",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Dragonscale Blade",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Frozen Needle",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon Greatclaw",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bloodhound Claws",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Hoslow's Petal Whip",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Thorned Whip",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Venomous Fang",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Raptor of the Mists"
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Fire",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Iron Ball",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Zweihander",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Giant Hunt"
+            },
+            {
+                "name": "Lance",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Storm Assault"
+            },
+            {
+                "name": "Warhawk's Talon",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Rogier's Rapier",
+                "order": 24,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Ornamental Straight Sword",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon King's Cragblade",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bolt of Gransax",
+                "order": 27,
+                "upgrade": 9,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Sword of St. Trina",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Ruins Greatsword",
+                "order": 30,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Starscourge Greatsword",
+                "order": 31,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Black Steel Greatshield",
+                "order": 32,
+                "upgrade": null,
+                "infusion": "Quality",
+                "weaponArt": "Barricade Shield"
+            },
+            {
+                "name": "Dueling Shield",
+                "order": 33,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Shield Strike"
+            },
+            {
+                "name": "Antspur Rapier",
+                "order": 23,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Poison",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Distinguished Greatshield",
+                "order": 28,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Fire",
+                "weaponArt": "Shield Bash"
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 22,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Ghiza's Wheel",
+                "order": 11,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Lion Greatbow",
+                "order": 34,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    4,
+                    null,
+                    null,
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "damage",
+            "direction": "desc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 0
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 1,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 2,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 3
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 4
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 5,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 6
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 7
+            },
+            {
+                "name": "Curved Sword Talisman",
+                "order": 8,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 9
+            },
+            {
+                "name": "Assassin's Crimson Dagger",
+                "order": 10
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 11
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Banished Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Raging Wolf Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Gelmir Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Redmane Knight Helm",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Raging Wolf Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 24,
+    "characterClass": "Samurai"
+}

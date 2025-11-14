@@ -1,0 +1,340 @@
+{
+    "id": "8d2a42413c4f10",
+    "is2h": false,
+    "name": "Bloodflame Samuria (Endgame)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Dexterity",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Memory of Grace",
+                    "order": 3,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 4,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Rune Arc",
+                    "order": 5,
+                    "equipIndex": 13
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Thorny Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 43,
+        "dex": 35,
+        "fth": 36,
+        "int": 9,
+        "mnd": 18,
+        "str": 18,
+        "vig": 50,
+        "vit": 20
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Ekzykes's Decay",
+                "order": 2
+            },
+            {
+                "name": "Knight's Lightning Spear",
+                "order": 3
+            },
+            {
+                "name": "Ghostflame Breath",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 110,
+        "poise": {
+            "original": 31
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 40
+        },
+        "defenses": {
+            "fire": 183,
+            "holy": 186,
+            "magic": 151,
+            "slash": 139,
+            "pierce": 139,
+            "strike": 139,
+            "physical": 139,
+            "lightning": 133
+        },
+        "maxHealth": 1704,
+        "absorption": {
+            "fire": 22.31178544000001,
+            "holy": 23.347628300800004,
+            "magic": 22.755935784,
+            "slash": 16.546007580999998,
+            "pierce": 13.229216361999995,
+            "strike": 16.287101709999995,
+            "physical": 14.857201042000012,
+            "lightning": 23.2624186624
+        },
+        "maxStamina": 113,
+        "resistances": {
+            "focus": 296,
+            "immunity": 307,
+            "vitality": 339,
+            "robustness": 232
+        },
+        "maxEquipLoad": 64.05882353
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Nagakiba",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Double Slash"
+            },
+            {
+                "name": "Uchigatana",
+                "order": 3,
+                "upgrade": 12,
+                "infusion": "Standard",
+                "weaponArt": "Unsheathe"
+            },
+            {
+                "name": "Rivers of Blood",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Dagger",
+                "order": 0,
+                "upgrade": 0,
+                "infusion": "Sacred",
+                "weaponArt": "Golden Vow"
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Shotel",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Seppuku",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Ansbach's Manchettes",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Gravebird's Blackquill Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "White Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Ansbach's Boots",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Samurai"
+}

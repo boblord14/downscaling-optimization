@@ -1,0 +1,549 @@
+{
+    "id": "d9c7f071b34ae3",
+    "is2h": false,
+    "name": "Glass Canon Dex Dancer build (SL 150 PVE)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Malenia's Great Rune",
+                    "order": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 75,
+        "fth": 20,
+        "int": 9,
+        "mnd": 13,
+        "str": 20,
+        "vig": 58,
+        "vit": 27
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 1
+            },
+            {
+                "name": "Flame Fortification",
+                "order": 2
+            },
+            {
+                "name": "Magic Fortification",
+                "order": 3
+            },
+            {
+                "name": "Lightning Fortification",
+                "order": 4
+            },
+            {
+                "name": "Divine Fortification",
+                "order": 5
+            },
+            {
+                "name": "Rejection",
+                "order": 6
+            },
+            {
+                "name": "Darkness",
+                "order": 7
+            },
+            {
+                "name": "Shadow Bait",
+                "order": 8
+            },
+            {
+                "name": "Golden Vow",
+                "order": 9
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 88,
+        "poise": {
+            "original": 10
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 80
+        },
+        "defenses": {
+            "fire": 191,
+            "holy": 147,
+            "magic": 151,
+            "slash": 139,
+            "pierce": 139,
+            "strike": 139,
+            "physical": 139,
+            "lightning": 133
+        },
+        "maxHealth": 1871,
+        "absorption": {
+            "fire": 24.942748262400016,
+            "holy": 24.4544119192,
+            "magic": 24.942748262400016,
+            "slash": 12.3505278688,
+            "pierce": 5.307669190000008,
+            "strike": 5.307669190000008,
+            "physical": 8.451574397799998,
+            "lightning": 23.61873779200001
+        },
+        "maxStamina": 125,
+        "resistances": {
+            "focus": 294,
+            "immunity": 284,
+            "vitality": 309,
+            "robustness": 212
+        },
+        "maxEquipLoad": 74.06015243
+    },
+    "greatRune": "Malenia's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Dancing Blade of Ranah",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Sword of Night",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bolt of Gransax",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spear of the Impaler",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon King's Cragblade",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Flowing Curved Sword",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Hand of Malenia",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Godskin Peeler",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": null
+            },
+            {
+                "name": "Serpentbone Blade",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Shamshir",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Treespear",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Swift Spear",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Claws of Night",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Scorpion's Stinger",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Scorpion's Stinger",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Death Knight's Twin Axes",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Curseblade's Cirque",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Golden Epitaph",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Horned Warrior's Sword",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Ansbach's Longbow",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Zamor Curved Sword",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Leda's Sword",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 3
+            },
+            {
+                "name": "Blue Dancer Charm",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 5
+            },
+            {
+                "name": "Spelldrake Talisman +3",
+                "order": 6
+            },
+            {
+                "name": "Flamedrake Talisman +3",
+                "order": 7
+            },
+            {
+                "name": "Golden Braid",
+                "order": 8
+            },
+            {
+                "name": "Pearldrake Talisman +3",
+                "order": 9
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 10
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 11
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 12
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 13
+            },
+            {
+                "name": "Arrow's Soaring Sting Talisman",
+                "order": 14
+            },
+            {
+                "name": "Arrow's Sting Talisman",
+                "order": 15
+            },
+            {
+                "name": "Arrow's Reach Talisman",
+                "order": 16
+            },
+            {
+                "name": "Perfumer's Talisman",
+                "order": 17
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 18
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 19
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 20
+            },
+            {
+                "name": "Mottled Necklace +2",
+                "order": 21
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Charged Skill Attack",
+            "Successive 3 Hits",
+            "Successive 6 Hits",
+            "Successive 9 Hits",
+            "Scale Attack Power with Equip Load",
+            "Unknown #129",
+            "Skill Attack"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Dancer's Bracer",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Dancer's Dress",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Dancer's Hood",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Dancer's Trousers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

@@ -1,0 +1,373 @@
+{
+    "id": "fc6600ed0e4e8d",
+    "is2h": false,
+    "name": "Lightning Build",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Ancient Dragonbolt Pot",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 1,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Fan Daggers",
+                    "order": 2,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Dappled White Cured Meat",
+                    "order": 3,
+                    "equipIndex": 15
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Lightning-Shrouding Cracked Tear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 40,
+        "fth": 52,
+        "int": 9,
+        "mnd": 20,
+        "str": 23,
+        "vig": 48,
+        "vit": 30
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Erdtree Heal",
+                "order": 0
+            },
+            {
+                "name": "Honed Bolt",
+                "order": 1
+            },
+            {
+                "name": "Lightning Strike",
+                "order": 2
+            },
+            {
+                "name": "Placidusax's Ruin",
+                "order": 3
+            },
+            {
+                "name": "Barrier of Gold",
+                "order": 4
+            },
+            {
+                "name": "Knight's Lightning Spear",
+                "order": 5
+            },
+            {
+                "name": "Electrocharge",
+                "order": 6
+            },
+            {
+                "name": "Dragonbolt Blessing",
+                "order": 7
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "original": 43
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 45
+        },
+        "defenses": {
+            "fire": 181,
+            "holy": 147,
+            "magic": 151,
+            "slash": 140,
+            "pierce": 140,
+            "strike": 140,
+            "physical": 140,
+            "lightning": 133
+        },
+        "maxHealth": 1821.6,
+        "absorption": {
+            "fire": 21.6627904,
+            "holy": 20.103318150400018,
+            "magic": 21.486979959999996,
+            "slash": 23.828443968,
+            "pierce": 20.41311355840001,
+            "strike": 21.99531085120001,
+            "physical": 23.490046668499996,
+            "lightning": 19.337433136000016
+        },
+        "maxStamina": 130,
+        "resistances": {
+            "focus": 224,
+            "immunity": 271,
+            "vitality": 242,
+            "robustness": 281
+        },
+        "maxEquipLoad": 77.64460262
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Veteran's Prosthesis",
+                "order": 0,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Banished Knight's Greatsword",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Lightning Slash",
+                "equipIndex": 0
+            },
+            {
+                "name": "Death Knight's Longhaft Axe",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Swift Slash"
+            },
+            {
+                "name": "Death Knight's Twin Axes",
+                "order": 8,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Longsword",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Thunderbolt",
+                "equipIndex": 2
+            },
+            {
+                "name": "Buckler",
+                "order": 7,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Parry",
+                "equipIndex": 3
+            },
+            {
+                "name": "Gravel Stone Seal",
+                "order": 1,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Longsword",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Lightning Ram",
+                "equipIndex": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 3,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Horned Warrior Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Horned Warrior Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Guilty Hood",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Godrick Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

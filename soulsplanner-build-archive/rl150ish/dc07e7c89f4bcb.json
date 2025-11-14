@@ -1,0 +1,293 @@
+{
+    "id": "dc07e7c89f4bcb",
+    "is2h": false,
+    "name": "starwars",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "PvE",
+        "Hardswaps",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Magic-Shrouding Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 14,
+        "fth": 40,
+        "int": 55,
+        "mnd": 25,
+        "str": 12,
+        "vig": 50,
+        "vit": 24
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Rock Sling",
+                "order": 0
+            },
+            {
+                "name": "Collapsing Stars",
+                "order": 1
+            },
+            {
+                "name": "Wrath of Gold",
+                "order": 2
+            },
+            {
+                "name": "Wrath from Afar",
+                "order": 3
+            },
+            {
+                "name": "Gravitational Missile",
+                "order": 4
+            },
+            {
+                "name": "Blades of Stone",
+                "order": 5
+            },
+            {
+                "name": "Meteorite of Astel",
+                "order": 6
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 147,
+        "poise": {
+            "original": 15
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 19
+        },
+        "defenses": {
+            "fire": 183,
+            "holy": 151,
+            "magic": 191,
+            "slash": 137,
+            "pierce": 137,
+            "strike": 137,
+            "physical": 137,
+            "lightning": 133
+        },
+        "maxHealth": 1772.16,
+        "absorption": {
+            "fire": 24.29848707279999,
+            "holy": 24.93066491200001,
+            "magic": 25.192836096000015,
+            "slash": 7.018143934300003,
+            "pierce": 7.524687268000008,
+            "strike": 9.291678990000008,
+            "physical": 8.565862744000007,
+            "lightning": 24.028508512
+        },
+        "maxStamina": 132,
+        "resistances": {
+            "focus": 307,
+            "immunity": 289,
+            "vitality": 317,
+            "robustness": 198
+        },
+        "maxEquipLoad": 76.04470589
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Milady",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Spinning Weapon",
+                "equipIndex": 0
+            },
+            {
+                "name": "Staff of the Great Beyond",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 3
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 4,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 5,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Perfumer Gloves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Preceptor's Long Gown (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Prophet Blindfold",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Page Trousers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prisoner"
+}

@@ -1,0 +1,256 @@
+{
+    "id": "663e38df6144dc",
+    "is2h": false,
+    "name": "Champion Evalla",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength"
+    ],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Faith-knot Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 85,
+        "arc": 7,
+        "dex": 16,
+        "fth": 15,
+        "int": 9,
+        "mnd": 10,
+        "str": 40,
+        "vig": 46,
+        "vit": 21
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Aspects of the Crucible: Tail",
+                "order": 1
+            },
+            {
+                "name": "Aspects of the Crucible: Horns",
+                "order": 2
+            },
+            {
+                "name": "Aspects of the Crucible: Breath",
+                "order": 3
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "altered": 81.33333313,
+            "original": 61
+        },
+        "runes": {
+            "total": 1217426,
+            "toNextLevel": 44623
+        },
+        "defenses": {
+            "fire": 160,
+            "holy": 128,
+            "magic": 132,
+            "slash": 129,
+            "pierce": 129,
+            "strike": 129,
+            "physical": 129,
+            "lightning": 114
+        },
+        "maxHealth": 1606,
+        "absorption": {
+            "fire": 24.5801805805,
+            "holy": 25.595550887499996,
+            "magic": 24.511553074000012,
+            "slash": 29.624074600000007,
+            "pierce": 28.097026048000007,
+            "strike": 25.017287104,
+            "physical": 30.47449818700001,
+            "lightning": 21.8146642
+        },
+        "maxStamina": 115,
+        "resistances": {
+            "focus": 210,
+            "immunity": 309,
+            "vitality": 220,
+            "robustness": 262
+        },
+        "maxEquipLoad": 78.12
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Ordovis's Greatsword",
+                "order": 0,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Halo Scythe",
+                "order": 2,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Siluria's Tree",
+                "order": 3,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Cleanrot Spear",
+                "order": 1,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 4,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0,
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipIndex": 1
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 2,
+                "equipIndex": 2
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 3,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Noble's Gloves",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Crucible Tree Armor",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Fire Monk Hood",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Crucible Greaves",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 15,
+    "characterClass": "Vagabond"
+}

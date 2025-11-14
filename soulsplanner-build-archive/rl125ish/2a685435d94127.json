@@ -1,0 +1,286 @@
+{
+    "id": "2a685435d94127",
+    "pve": {
+        "inDLC1": true
+    },
+    "is2h": false,
+    "name": "build idea",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Bloodsucking Cracked Tear",
+            "Thorny Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 20,
+        "dex": 12,
+        "fth": 25,
+        "int": 9,
+        "mnd": 16,
+        "str": 45,
+        "vig": 60,
+        "vit": 17
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Blessing's Boon",
+                "order": 1
+            },
+            {
+                "name": "Golden Vow",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 100,
+        "poise": {
+            "original": 54
+        },
+        "runes": {
+            "total": 3978214,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "dex": 17
+        },
+        "defenses": {
+            "fire": 188,
+            "holy": 168,
+            "magic": 146,
+            "slash": 146,
+            "pierce": 146,
+            "strike": 146,
+            "physical": 146,
+            "lightning": 128
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 19.411995943720505,
+            "holy": 17.711641300242597,
+            "magic": 17.540741282174576,
+            "slash": 37.31977189271295,
+            "pierce": 36.22541736264052,
+            "strike": 34.34417131486206,
+            "physical": 35.50770356225067,
+            "lightning": 17.06892678611499
+        },
+        "maxStamina": 108,
+        "resistances": {
+            "focus": 225,
+            "immunity": 282,
+            "vitality": 244,
+            "robustness": 285
+        },
+        "maxEquipLoad": 59.29411765
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Broadsword",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Endure",
+                "equipIndex": 0
+            },
+            {
+                "name": "Broadsword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Cragblade",
+                "equipIndex": 3
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Trigger in Presence of Blood Loss",
+            "Successive 3 Hits",
+            "Successive 6 Hits",
+            "Successive 9 Hits"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "White Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Confessor"
+}

@@ -1,0 +1,507 @@
+{
+    "id": "e6e5b054ee40d7",
+    "pve": {
+        "inDLC1": false,
+        "revered": 20,
+        "scadutree": 20
+    },
+    "is2h": false,
+    "name": "Madness",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Invasions",
+        "Faith",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Rune Arc",
+                    "order": 3
+                },
+                {
+                    "name": "Starlight Shards",
+                    "order": 4,
+                    "active": true,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Neutralizing Boluses",
+                    "order": 5
+                },
+                {
+                    "name": "Preserving Boluses",
+                    "order": 6
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 7
+                },
+                {
+                    "name": "Thawfrost Boluses",
+                    "order": 8
+                },
+                {
+                    "name": "Stimulating Boluses",
+                    "order": 9
+                },
+                {
+                    "name": "Clarifying Boluses",
+                    "order": 10
+                },
+                {
+                    "name": "Well-Pickled Turtle Neck",
+                    "order": 11,
+                    "active": true,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Hefty Furnace Pot",
+                    "order": 12
+                },
+                {
+                    "name": "Oil Pot",
+                    "order": 13
+                },
+                {
+                    "name": "Albinauric Pot",
+                    "order": 14
+                },
+                {
+                    "name": "Uplifting Aromatic",
+                    "order": 15,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Fire Coil",
+                    "order": 16,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Bloody Finger",
+                    "order": 17,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Recusant Finger",
+                    "order": 18,
+                    "equipIndex": 15
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 139,
+        "arc": 7,
+        "dex": 15,
+        "fth": 60,
+        "int": 13,
+        "mnd": 19,
+        "str": 20,
+        "vig": 60,
+        "vit": 24
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Messmer's Orb",
+                "order": 1
+            },
+            {
+                "name": "Bestial Sling",
+                "order": 2
+            },
+            {
+                "name": "The Flame of Frenzy",
+                "order": 3
+            },
+            {
+                "name": "Unendurable Frenzy",
+                "order": 4
+            },
+            {
+                "name": "Midra's Flame of Frenzy",
+                "order": 5
+            },
+            {
+                "name": "Frenzied Burst",
+                "order": 6
+            },
+            {
+                "name": "Inescapable Frenzy",
+                "order": 7
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 116,
+        "poise": {
+            "original": 17
+        },
+        "runes": {
+            "total": 5568328,
+            "toNextLevel": 130894
+        },
+        "defenses": {
+            "fire": 190,
+            "holy": 144,
+            "magic": 156,
+            "slash": 136,
+            "pierce": 136,
+            "strike": 136,
+            "physical": 136,
+            "lightning": 130
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 22.812162910000012,
+            "holy": 24.791259360000005,
+            "magic": 24.924497075200016,
+            "slash": 10.819121164000013,
+            "pierce": 9.429026635000003,
+            "strike": 12.476930665600015,
+            "physical": 13.00593097,
+            "lightning": 24.646452328000013
+        },
+        "maxStamina": 120,
+        "resistances": {
+            "focus": 349,
+            "immunity": 295,
+            "vitality": 298,
+            "robustness": 215
+        },
+        "maxEquipLoad": 83.79
+    },
+    "greatRune": "Mohg's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Wakizashi",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Estoc",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Spear"
+            },
+            {
+                "name": "Shamshir",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Spear"
+            },
+            {
+                "name": "Star Fist",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Godslayer's Seal",
+                "order": 8,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Greatsword of Damnation",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 9,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Madding Hand",
+                "order": 7,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 0
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 1
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 2,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 3
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 4
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 5
+            },
+            {
+                "name": "Clarifying Horn Charm +2",
+                "order": 6
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 7
+            },
+            {
+                "name": "Lacerating Crossed-Tree",
+                "order": 8
+            },
+            {
+                "name": "Faithful's Canvas Talisman",
+                "order": 9
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 10,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 11,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 12,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 13
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 14
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 15
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 16
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 17
+            },
+            {
+                "name": "Aged One's Exultation",
+                "order": 18
+            },
+            {
+                "name": "Host's Trick-Mirror",
+                "order": 19
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Braided Arm Wraps",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Braided Cord Robe",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Page Hood",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Confessor Boots",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

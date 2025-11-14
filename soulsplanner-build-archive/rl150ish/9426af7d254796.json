@@ -1,0 +1,304 @@
+{
+    "id": "9426af7d254796",
+    "is2h": false,
+    "name": "Arcane Caster",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Arcane",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Rock Heart",
+                    "order": 0,
+                    "active": true,
+                    "equipIndex": 10
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Bloodsucking Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 60,
+        "dex": 18,
+        "fth": 26,
+        "int": 10,
+        "mnd": 25,
+        "str": 18,
+        "vig": 55,
+        "vit": 17
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Impenetrable Thorns",
+                "order": 0
+            },
+            {
+                "name": "Briars of Punishment",
+                "order": 1
+            },
+            {
+                "name": "Dragonmaw",
+                "order": 2
+            },
+            {
+                "name": "Rotten Breath",
+                "order": 3
+            },
+            {
+                "name": "Smarag's Glintstone Breath",
+                "order": 4
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 5
+            },
+            {
+                "name": "Bayle's Flame Lightning",
+                "order": 6
+            },
+            {
+                "name": "Pest-Thread Spears",
+                "order": 7
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 147,
+        "runes": {
+            "total": 7112459,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 192,
+            "magic": 152,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 132
+        },
+        "maxHealth": 1995.4,
+        "absorption": {
+            "fire": 19.000000000000018,
+            "holy": 19.000000000000018,
+            "magic": 19.000000000000018,
+            "slash": 19.000000000000018,
+            "pierce": 19.000000000000018,
+            "strike": 19.000000000000018,
+            "physical": 19.000000000000018,
+            "lightning": 19.000000000000018
+        },
+        "maxStamina": 108,
+        "resistances": {
+            "focus": 206,
+            "immunity": 243,
+            "vitality": 246,
+            "robustness": 206
+        },
+        "maxEquipLoad": 59.29411765
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Staff of the Guilty",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Dryleaf Arts",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Poison",
+                "weaponArt": "The Poison Flower Blooms Twice",
+                "equipIndex": 0
+            },
+            {
+                "name": "Deadly Poison Perfume Bottle",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Albinauric Staff",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Poisoned Hand",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 1
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 2,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 3
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 4,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Blue Dancer Charm",
+                "order": 5,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 6,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Dragon Change VFX",
+            "Trigger in Presence of Blood Loss",
+            "Trigger in Presence of Rot"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Wretch"
+}

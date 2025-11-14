@@ -1,0 +1,267 @@
+{
+    "id": "07f17f98aa499f",
+    "is2h": true,
+    "name": "Marais Executioner's Sword",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "DLC: SotE"
+    ],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Boiled Crab",
+                    "order": 0,
+                    "equipIndex": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Magic-Shrouding Cracked Tear",
+            "Thorny Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 41,
+        "dex": 9,
+        "fth": 8,
+        "int": 7,
+        "mnd": 9,
+        "str": 47,
+        "vig": 60,
+        "vit": 23
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "All Items"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 52
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "dex": 14
+        },
+        "defenses": {
+            "fire": 188,
+            "holy": 180,
+            "magic": 142,
+            "slash": 148,
+            "pierce": 148,
+            "strike": 148,
+            "physical": 148,
+            "lightning": 128
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 25.543893299200004,
+            "holy": 25.230565221400003,
+            "magic": 25.715649024000008,
+            "slash": 25.045233097599993,
+            "pierce": 20.878864390000007,
+            "strike": 19.90566469,
+            "physical": 23.93262340359999,
+            "lightning": 25.872895360000015
+        },
+        "maxStamina": 118,
+        "resistances": {
+            "focus": 264,
+            "immunity": 325,
+            "vitality": 312,
+            "robustness": 280
+        },
+        "maxEquipLoad": 68.82352941
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Marais Executioner's Sword",
+                "order": 0,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Commander's Standard",
+                "order": 1,
+                "upgrade": 0,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 2
+            },
+            {
+                "name": "Dagger",
+                "order": 2,
+                "upgrade": 0,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Sacred Order",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 0,
+                "equipIndex": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 1,
+                "equipIndex": 1
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 2,
+                "equipIndex": 2
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 3,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Battlemage Manchettes",
+                    "order": 0
+                },
+                {
+                    "name": "Dancer's Bracer",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Fingerprint Armor (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Verdigris Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Dancer's Hood",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Crucible Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Dancer's Trousers",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

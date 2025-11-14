@@ -1,0 +1,328 @@
+{
+    "id": "a898da20ba4079",
+    "is2h": true,
+    "name": "Sir Fartsalot IV",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "PvE",
+        "Caster"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 0,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 1,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 2,
+                    "equipIndex": 12
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Stonebarb Cracked Tear",
+            "Strength-knot Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 154,
+        "arc": 13,
+        "dex": 20,
+        "fth": 17,
+        "int": 9,
+        "mnd": 15,
+        "str": 74,
+        "vig": 50,
+        "vit": 35
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Black Flame Blade",
+                "order": 1
+            },
+            {
+                "name": "Bloodflame Blade",
+                "order": 2
+            },
+            {
+                "name": "Dragonclaw",
+                "order": 3
+            },
+            {
+                "name": "Rotten Breath",
+                "order": 4
+            }
+        ]
+    },
+    "sliders": {
+        "id": "",
+        "name": "",
+        "images": [
+            {
+                "url": "",
+                "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "zoom": 1,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ],
+        "sliders": {},
+        "bodyType": "A"
+    },
+    "computed": {
+        "maxFP": 95,
+        "poise": {
+            "original": 79
+        },
+        "runes": {
+            "total": 7735880,
+            "toNextLevel": 165975
+        },
+        "stats": {
+            "dex": 25,
+            "str": 86,
+            "vig": 55,
+            "vit": 40
+        },
+        "defenses": {
+            "fire": 190,
+            "holy": 161,
+            "magic": 153,
+            "slash": 171,
+            "pierce": 171,
+            "strike": 171,
+            "physical": 171,
+            "lightning": 135
+        },
+        "maxHealth": 1814,
+        "absorption": {
+            "fire": 16.698675259450013,
+            "holy": 14.410762600100014,
+            "magic": 13.96683502022501,
+            "slash": 23.405762917000004,
+            "pierce": 24.2163831625,
+            "strike": 18.71014139956001,
+            "physical": 20.98798273450001,
+            "lightning": 13.90564633600001
+        },
+        "maxStamina": 142,
+        "resistances": {
+            "focus": 262,
+            "immunity": 349,
+            "vitality": 291,
+            "robustness": 395
+        },
+        "maxEquipLoad": 104.53524826
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Lion's Claw",
+                "equipIndex": 0
+            },
+            {
+                "name": "Dagger",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Golden Vow",
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Radagon's Soreseal",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Arsenal Charm",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragoncrest Shield Talisman +2",
+                "order": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Lionel's Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Omensmirk Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Lionel's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

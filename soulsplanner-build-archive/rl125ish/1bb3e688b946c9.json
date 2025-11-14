@@ -1,0 +1,273 @@
+{
+    "id": "1bb3e688b946c9",
+    "is2h": false,
+    "name": "Bonk",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "Caster"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Spiked Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 11,
+        "dex": 9,
+        "fth": 41,
+        "int": 7,
+        "mnd": 9,
+        "str": 52,
+        "vig": 60,
+        "vit": 15
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Stats",
+        "home/right": "Summary",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Electrify Armament",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            },
+            {
+                "name": "Stone of Gurranq",
+                "order": 3
+            },
+            {
+                "name": "Bestial Sling",
+                "order": 4
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 5
+            },
+            {
+                "name": "Ancient Dragons' Lightning Strike",
+                "order": 6
+            },
+            {
+                "name": "Lightning Spear",
+                "order": 7
+            }
+        ]
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Stone Club",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Kick",
+                "equipIndex": 0
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 1,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Godslayer's Seal",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Gravel Stone Seal",
+                "order": 3,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Axe Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Lightning Scorpion Charm",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "HP above 100%",
+            "Charge Attack",
+            "Dragon Cult Spell",
+            "Black Flame Spell",
+            "Bestial Spell",
+            "Primordial Crucible Spell"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gold Bracelets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Fingerprint Armor (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Omensmirk Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Crucible Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

@@ -1,0 +1,205 @@
+{
+    "id": "4d2e1079bf4eab",
+    "is2h": false,
+    "name": "Kazu II's build",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Duels",
+        "Dexterity"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Throwing Dagger",
+                    "order": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 8,
+        "dex": 60,
+        "fth": 8,
+        "int": 9,
+        "mnd": 14,
+        "str": 16,
+        "vig": 60,
+        "vit": 29
+    },
+    "views": {
+        "overview": "swappa",
+        "home/left": "Stats"
+    },
+    "spells": {
+        "slots": []
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Broadsword",
+                "order": 0,
+                "infusion": "Lightning",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Banished Knight's Shield",
+                "order": 1,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Banished Knight's Shield",
+                "order": 2,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Green Turtle Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Blue Silver Bracelets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Drake Knight Helm (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rotten Duelist Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Samurai"
+}

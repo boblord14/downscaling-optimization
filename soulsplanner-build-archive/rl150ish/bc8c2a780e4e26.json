@@ -1,0 +1,241 @@
+{
+    "id": "bc8c2a780e4e26",
+    "is2h": false,
+    "name": "Bleed/Rot/Poison",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Hybrid"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Magic-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 45,
+        "dex": 22,
+        "fth": 35,
+        "int": 10,
+        "mnd": 20,
+        "str": 22,
+        "vig": 55,
+        "vit": 20
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Stats",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Edit"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Howl of Shabriri",
+                "order": 1
+            },
+            {
+                "name": "Ekzykes's Decay",
+                "order": 2
+            },
+            {
+                "name": "Scarlet Aeonia",
+                "order": 3
+            }
+        ]
+    },
+    "greatRune": "Godrick's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Antspur Rapier",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Cragblade",
+                "equipIndex": 0
+            },
+            {
+                "name": "Antspur Rapier",
+                "order": 1,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist",
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 2,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Spear Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Veteran's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Beast Champion Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "White Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Veteran's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Warrior"
+}

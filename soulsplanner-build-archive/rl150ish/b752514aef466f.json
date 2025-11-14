@@ -1,0 +1,287 @@
+{
+    "id": "b752514aef466f",
+    "is2h": true,
+    "name": "",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Faith-knot Crystal Tear",
+            "Flame-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 18,
+        "fth": 79,
+        "int": 9,
+        "mnd": 15,
+        "str": 15,
+        "vig": 60,
+        "vit": 26
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Stats",
+        "item-view/right": "Equipment",
+        "protector-view/left": "Armour Optimiser"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 95,
+        "poise": {
+            "altered": 71.99999982,
+            "original": 54
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "fth": 89
+        },
+        "defenses": {
+            "fire": 194,
+            "holy": 148,
+            "magic": 152,
+            "slash": 139,
+            "pierce": 139,
+            "strike": 139,
+            "physical": 139,
+            "lightning": 134
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 19.411995943720505,
+            "holy": 17.711641300242597,
+            "magic": 17.540741282174576,
+            "slash": 21.6497148658912,
+            "pierce": 20.281771703300656,
+            "strike": 17.930214143577583,
+            "physical": 19.38462945281334,
+            "lightning": 17.06892678611499
+        },
+        "maxStamina": 123,
+        "resistances": {
+            "focus": 234,
+            "immunity": 291,
+            "vitality": 242,
+            "robustness": 294
+        },
+        "maxEquipLoad": 72.96109507
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Fire Knight's Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Skewer",
+                "equipIndex": 0
+            },
+            {
+                "name": "Short Sword",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Seppuku",
+                "equipIndex": 1
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Charged Skill Attack",
+            "Skill Attack",
+            "Fire Knight Skill",
+            "Trigger in Presence of Blood Loss"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "White Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

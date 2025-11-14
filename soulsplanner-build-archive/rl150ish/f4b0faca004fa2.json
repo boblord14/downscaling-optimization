@@ -1,0 +1,299 @@
+{
+    "id": "f4b0faca004fa2",
+    "is2h": true,
+    "name": "preacher",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Spiked Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 165,
+        "arc": 7,
+        "dex": 18,
+        "fth": 50,
+        "int": 23,
+        "mnd": 10,
+        "str": 55,
+        "vig": 50,
+        "vit": 31
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Edit"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            },
+            {
+                "name": "Knight's Lightning Spear",
+                "order": 2
+            },
+            {
+                "name": "Triple Rings of Light",
+                "order": 3
+            },
+            {
+                "name": "Fire Serpent",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "altered": 79.9999998,
+            "original": 60
+        },
+        "runes": {
+            "total": 9676096,
+            "toNextLevel": 195229
+        },
+        "stats": {
+            "dex": 19
+        },
+        "defenses": {
+            "fire": 185,
+            "holy": 149,
+            "magic": 177,
+            "slash": 161,
+            "pierce": 161,
+            "strike": 161,
+            "physical": 161,
+            "lightning": 135
+        },
+        "maxHealth": 1704,
+        "absorption": {
+            "fire": 26.9243330112,
+            "holy": 25.916032675,
+            "magic": 24.882592940000016,
+            "slash": 29.209898800000012,
+            "pierce": 29.928400187500003,
+            "strike": 25.141142785600003,
+            "physical": 28.2515097376,
+            "lightning": 24.152298649600013
+        },
+        "maxStamina": 131,
+        "resistances": {
+            "focus": 259,
+            "immunity": 332,
+            "vitality": 278,
+            "robustness": 315
+        },
+        "maxEquipLoad": 78.89815178
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Fire Knight's Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Fire",
+                "weaponArt": "Flame Skewer",
+                "equipIndex": 0
+            },
+            {
+                "name": "Fire Knight's Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Charged Skill Attack",
+            "Skill Attack",
+            "Charge Attack"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Cleanrot Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Tree Sentinel Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Death Knight Gauntlets",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Cleanrot Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Consort's Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Death Knight Greaves",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

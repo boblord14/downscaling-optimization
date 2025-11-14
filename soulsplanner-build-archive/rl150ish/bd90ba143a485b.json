@@ -1,0 +1,264 @@
+{
+    "id": "bd90ba143a485b",
+    "pve": {
+        "inDLC1": true
+    },
+    "is2h": false,
+    "name": "Bloody Pata",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "Caster",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Exalted Flesh",
+                    "order": 0,
+                    "equipIndex": 10
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 60,
+        "dex": 48,
+        "fth": 9,
+        "int": 9,
+        "mnd": 10,
+        "str": 16,
+        "vig": 60,
+        "vit": 17
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 54
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 53
+        },
+        "defenses": {
+            "fire": 193,
+            "holy": 193,
+            "magic": 151,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 133
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 19.411995943720505,
+            "holy": 17.711641300242597,
+            "magic": 17.540741282174576,
+            "slash": 21.6497148658912,
+            "pierce": 20.281771703300656,
+            "strike": 17.930214143577583,
+            "physical": 19.38462945281334,
+            "lightning": 17.06892678611499
+        },
+        "maxStamina": 108,
+        "resistances": {
+            "focus": 233,
+            "immunity": 290,
+            "vitality": 274,
+            "robustness": 293
+        },
+        "maxEquipLoad": 59.29411765
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Pata",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Endure",
+                "equipIndex": 0
+            },
+            {
+                "name": "Commander's Standard",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Rakshasa Helm",
+                    "order": 0
+                },
+                {
+                    "name": "White Mask",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

@@ -1,0 +1,299 @@
+{
+    "id": "9167bd7d9f45ff",
+    "pve": {
+        "inDLC1": true
+    },
+    "is2h": true,
+    "name": "Magma Wyrm w/ Poison buffs",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Roped Poison Pot",
+                    "order": 0,
+                    "equipIndex": 10
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Bloodsucking Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 15,
+        "fth": 25,
+        "int": 9,
+        "mnd": 17,
+        "str": 72,
+        "vig": 60,
+        "vit": 24
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Blessing's Boon",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 105,
+        "poise": {
+            "original": 59
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 146,
+            "magic": 150,
+            "slash": 165,
+            "pierce": 165,
+            "strike": 165,
+            "physical": 165,
+            "lightning": 132
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 18.90988999944461,
+            "holy": 18.651591399616784,
+            "magic": 18.651591399616784,
+            "slash": 24.48555765771522,
+            "pierce": 23.80477665372005,
+            "strike": 20.383846916604643,
+            "physical": 21.953053385971387,
+            "lightning": 17.67300328194975
+        },
+        "maxStamina": 120,
+        "resistances": {
+            "focus": 228,
+            "immunity": 311,
+            "vitality": 239,
+            "robustness": 318
+        },
+        "maxEquipLoad": 83.79
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Magma Wyrm's Scalesword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Dagger",
+                "order": 1,
+                "upgrade": 0,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Sacred Order",
+                "equipIndex": 3
+            },
+            {
+                "name": "Poisoned Hand",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 5
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Talisman of the Dread",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Circlet of Light",
+                    "order": 0
+                },
+                {
+                    "name": "Mushroom Crown",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

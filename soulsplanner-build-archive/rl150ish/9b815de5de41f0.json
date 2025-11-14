@@ -1,0 +1,312 @@
+{
+    "id": "9b815de5de41f0",
+    "is2h": false,
+    "name": "Dark Build",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Boiled Crab",
+                    "order": 0,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Fan Daggers",
+                    "order": 1,
+                    "equipIndex": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Thorny Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 17,
+        "dex": 44,
+        "fth": 42,
+        "int": 10,
+        "mnd": 20,
+        "str": 18,
+        "vig": 48,
+        "vit": 30
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Barrier of Gold",
+                "order": 0
+            },
+            {
+                "name": "Erdtree Heal",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "original": 25
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 49
+        },
+        "defenses": {
+            "fire": 181,
+            "holy": 167,
+            "magic": 153,
+            "slash": 139,
+            "pierce": 139,
+            "strike": 139,
+            "physical": 139,
+            "lightning": 133
+        },
+        "maxHealth": 1821.6,
+        "absorption": {
+            "fire": 24.90187596400002,
+            "holy": 24.355423918000007,
+            "magic": 24.82340857600001,
+            "slash": 12.714083128,
+            "pierce": 9.569960171200009,
+            "strike": 13.422961459000003,
+            "physical": 11.601787825,
+            "lightning": 24.39365251840001
+        },
+        "maxStamina": 130,
+        "resistances": {
+            "focus": 320,
+            "immunity": 301,
+            "vitality": 363,
+            "robustness": 221
+        },
+        "maxEquipLoad": 77.64460262
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Black Steel Twinblade",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Obsidian Lamina",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Curseblade's Cirque",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Sword of Darkness",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 2
+            },
+            {
+                "name": "Sword of Darkness",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 5
+            },
+            {
+                "name": "Buckler",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Sacred",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "desc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "High Priest Gloves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Ansbach's Attire",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Shadow Militiaman Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Ansbach's Boots",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

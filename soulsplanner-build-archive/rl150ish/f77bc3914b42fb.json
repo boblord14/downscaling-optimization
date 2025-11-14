@@ -1,0 +1,302 @@
+{
+    "id": "f77bc3914b42fb",
+    "is2h": false,
+    "name": "Radahn",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Hybrid",
+        "PvE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Strength-knot Crystal Tear",
+            "Intelligence-knot Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 21,
+        "fth": 6,
+        "int": 40,
+        "mnd": 14,
+        "str": 35,
+        "vig": 60,
+        "vit": 44
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Stats",
+        "home/right": "Summary",
+        "item-view/left": "All Items",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Gravity Well",
+                "order": 0
+            },
+            {
+                "name": "Collapsing Stars",
+                "order": 1
+            },
+            {
+                "name": "Rock Sling",
+                "order": 2
+            }
+        ]
+    },
+    "sliders": {
+        "id": "",
+        "name": "",
+        "images": [
+            {
+                "url": "",
+                "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "zoom": 1,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ],
+        "sliders": {},
+        "bodyType": "A"
+    },
+    "computed": {
+        "maxFP": 104,
+        "poise": {
+            "original": 72
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "int": 50,
+            "str": 50
+        },
+        "defenses": {
+            "fire": 195,
+            "holy": 153,
+            "magic": 191,
+            "slash": 157,
+            "pierce": 157,
+            "strike": 157,
+            "physical": 157,
+            "lightning": 135
+        },
+        "maxHealth": 2185,
+        "absorption": {
+            "fire": 27.62982982500001,
+            "holy": 26.501033732,
+            "magic": 26.501033732,
+            "slash": 34.9885887364,
+            "pierce": 33.56283018999999,
+            "strike": 29.22456538,
+            "physical": 35.588381358400014,
+            "lightning": 24.943802656000013
+        },
+        "maxStamina": 169.05,
+        "resistances": {
+            "focus": 260,
+            "immunity": 343,
+            "vitality": 260,
+            "robustness": 427
+        },
+        "maxEquipLoad": 114.85039464
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Starscourge Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Lion Greatbow",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Meteorite Staff",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Starscourge Heirloom",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Radahn's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Radahn's Lion Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Radahn's Redmane Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Radahn's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prisoner"
+}

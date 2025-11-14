@@ -1,0 +1,558 @@
+{
+    "id": "c2b73d46404ebf",
+    "is2h": false,
+    "name": "Vraviran GS 150",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default"
+            },
+            {
+                "name": "Optimal poise for 75p #2",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "Caster"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 0,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Bloodboil Aromatic",
+                    "order": 1,
+                    "equipIndex": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 11,
+        "dex": 15,
+        "fth": 25,
+        "int": 7,
+        "mnd": 16,
+        "str": 70,
+        "vig": 55,
+        "vit": 30
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            },
+            {
+                "name": "Catch Flame",
+                "order": 2
+            },
+            {
+                "name": "Lightning Spear",
+                "order": 3
+            },
+            {
+                "name": "Black Flame Blade",
+                "order": 4
+            },
+            {
+                "name": "Golden Vow",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 114,
+        "poise": {
+            "original": 62
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 154,
+            "magic": 146,
+            "slash": 164,
+            "pierce": 164,
+            "strike": 164,
+            "physical": 164,
+            "lightning": 132
+        },
+        "maxHealth": 2086.1,
+        "absorption": {
+            "fire": 25.272546590800005,
+            "holy": 25.17935901920001,
+            "magic": 24.425429981000015,
+            "slash": 33.6976487996,
+            "pierce": 32.978491397199996,
+            "strike": 29.9331779636,
+            "physical": 33.2821981702,
+            "lightning": 22.643840152000006
+        },
+        "maxStamina": 149.5,
+        "resistances": {
+            "focus": 240,
+            "immunity": 301,
+            "vitality": 249,
+            "robustness": 302
+        },
+        "maxEquipLoad": 92.39707712
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Iron Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Lion's Claw"
+            },
+            {
+                "name": "Banished Knight's Greatsword",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Lion's Claw",
+                "equipIndex": 0
+            },
+            {
+                "name": "Banished Knight's Greatsword",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Vacuum Slice"
+            },
+            {
+                "name": "Banished Knight's Greatsword",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Ordovis's Greatsword",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Broadsword",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Brick Hammer",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Marika's Hammer",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bastard Sword",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Bastard Sword",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Bloodhound Claws",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Brass Shield",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Banished Knight's Shield",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Claymore",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Fire",
+                "weaponArt": "Flaming Strike",
+                "equipIndex": 1
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 6,
+                "upgrade": null,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Fire",
+                "weaponArt": "Kick",
+                "equipIndex": 2
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Albinauric Shield",
+                "order": 17,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 4
+            },
+            {
+                "name": "Iron Ball",
+                "order": 13,
+                "upgrade": null,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade",
+                "equipIndex": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 1
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 2,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Carian Filigreed Crest",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 4
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 5,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 6
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 7
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Maliketh's Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Elden Lord Bracers",
+                    "order": 1
+                },
+                {
+                    "name": "Radahn's Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Crucible Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Gold Bracelets",
+                    "order": 4,
+                    "equipSet": [
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Godskin Noble Bracelets",
+                    "order": 5,
+                    "equipSet": [
+                        null,
+                        1
+                    ]
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Elden Lord Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Fire Monk Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Royal Knight Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Scaled Armor",
+                    "order": 3
+                },
+                {
+                    "name": "Maliketh's Armor",
+                    "order": 4
+                },
+                {
+                    "name": "Black Knife Armor",
+                    "order": 5
+                },
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 6
+                },
+                {
+                    "name": "Crucible Axe Armor",
+                    "order": 7,
+                    "equipSet": [
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "Beast Champion Armor (Altered)",
+                    "order": 8,
+                    "equipSet": [
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Maliketh's Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Elden Lord Crown",
+                    "order": 1
+                },
+                {
+                    "name": "Black Wolf Mask",
+                    "order": 2
+                },
+                {
+                    "name": "Scaled Helm",
+                    "order": 3
+                },
+                {
+                    "name": "Twinned Helm",
+                    "order": 4
+                },
+                {
+                    "name": "Vagabond Knight Helm",
+                    "order": 5
+                },
+                {
+                    "name": "Malenia's Winged Helm",
+                    "order": 6
+                },
+                {
+                    "name": "Champion Headband",
+                    "order": 7
+                },
+                {
+                    "name": "Crimson Hood",
+                    "order": 8
+                },
+                {
+                    "name": "Navy Hood",
+                    "order": 9
+                },
+                {
+                    "name": "Raging Wolf Helm",
+                    "order": 10,
+                    "equipSet": [
+                        1,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Zamor Mask",
+                    "order": 11
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Maliketh's Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Elden Lord Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Radahn's Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Crucible Greaves",
+                    "order": 3,
+                    "equipSet": [
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 4
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

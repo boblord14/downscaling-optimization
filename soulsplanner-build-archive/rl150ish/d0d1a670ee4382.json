@@ -1,0 +1,322 @@
+{
+    "id": "d0d1a670ee4382",
+    "is2h": false,
+    "name": "Deus do Trov\u00e3o",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 0,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 1,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 2,
+                    "equipIndex": 11
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Lightning-Shrouding Cracked Tear",
+            "Greenburst Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 23,
+        "dex": 70,
+        "fth": 25,
+        "int": 9,
+        "mnd": 15,
+        "str": 15,
+        "vig": 45,
+        "vit": 27
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Stats",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker",
+        "protector-view/right": "Presets"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            }
+        ]
+    },
+    "sliders": {
+        "id": "",
+        "name": "",
+        "images": [
+            {
+                "url": "",
+                "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "zoom": 1,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ],
+        "sliders": {},
+        "bodyType": "A"
+    },
+    "computed": {
+        "maxFP": 95,
+        "poise": {
+            "original": 40
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 75
+        },
+        "defenses": {
+            "fire": 178,
+            "holy": 175,
+            "magic": 151,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 133
+        },
+        "maxHealth": 1581,
+        "absorption": {
+            "fire": 21.627049801600016,
+            "holy": 22.634180560000004,
+            "magic": 20.434936707999995,
+            "slash": 9.652428928,
+            "pierce": 9.592695352000014,
+            "strike": 9.720898479000017,
+            "physical": 10.073744515000016,
+            "lightning": 21.19737152200002
+        },
+        "maxStamina": 125,
+        "resistances": {
+            "focus": 258,
+            "immunity": 316,
+            "vitality": 291,
+            "robustness": 269
+        },
+        "maxEquipLoad": 74.06015243
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Dragonscale Blade",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragonscale Blade",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Gravel Stone Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Dagger",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Golden Vow",
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Lightning Scorpion Charm",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Confessor Gloves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Maliketh's Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Confessor Hood",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Thiollier's Trousers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Samurai"
+}

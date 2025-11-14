@@ -1,0 +1,303 @@
+{
+    "id": "9adbe2e57c4503",
+    "is2h": false,
+    "name": "Frozen dragonlord",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Dexterity"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Dexterity-knot Crystal Tear",
+            "Lightning-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 20,
+        "dex": 62,
+        "fth": 35,
+        "int": 9,
+        "mnd": 20,
+        "str": 18,
+        "vig": 50,
+        "vit": 15
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            },
+            {
+                "name": "Frozen Lightning Spear",
+                "order": 2
+            },
+            {
+                "name": "Borealis's Mist",
+                "order": 3
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 147,
+        "poise": {
+            "original": 37
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "arc": 25,
+            "dex": 72,
+            "fth": 40,
+            "int": 14,
+            "mnd": 25,
+            "str": 23,
+            "vig": 55,
+            "vit": 20
+        },
+        "defenses": {
+            "fire": 191,
+            "holy": 179,
+            "magic": 164,
+            "slash": 143,
+            "pierce": 143,
+            "strike": 143,
+            "physical": 143,
+            "lightning": 136
+        },
+        "maxHealth": 1814,
+        "absorption": {
+            "fire": 22.09615524280001,
+            "holy": 20.822262400000003,
+            "magic": 21.933516736,
+            "slash": 15.14649388239999,
+            "pierce": 10.05627817600001,
+            "strike": 12.541590675999991,
+            "physical": 11.304007379600002,
+            "lightning": 23.780000260800005
+        },
+        "maxStamina": 113,
+        "resistances": {
+            "focus": 292,
+            "immunity": 358,
+            "vitality": 304,
+            "robustness": 266
+        },
+        "maxEquipLoad": 64.05882353
+    },
+    "greatRune": "Godrick's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Dragonscale Blade",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Nagakiba",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Nagakiba",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Lightning Scorpion Charm",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "White Reed Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "White Reed Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Iron Kasa",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Okina Mask",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "White Reed Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Samurai"
+}

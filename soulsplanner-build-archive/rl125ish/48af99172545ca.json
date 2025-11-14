@@ -1,0 +1,386 @@
+{
+    "id": "48af99172545ca",
+    "is2h": false,
+    "name": "Falx Guy + Light Roll",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Quality",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 70,
+        "fth": 9,
+        "int": 9,
+        "mnd": 10,
+        "str": 14,
+        "vig": 60,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "altered": 51.87,
+            "original": 39
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 141,
+            "magic": 145,
+            "slash": 131,
+            "pierce": 131,
+            "strike": 131,
+            "physical": 131,
+            "lightning": 127
+        },
+        "maxHealth": 2015.52,
+        "absorption": {
+            "fire": 21.56333116240001,
+            "holy": 18.949001306500012,
+            "magic": 19.78650433000001,
+            "slash": 21.539832572000016,
+            "pierce": 20.633015874999995,
+            "strike": 20.166169950400004,
+            "physical": 22.29048373600001,
+            "lightning": 19.034304962500016
+        },
+        "maxStamina": 139.755,
+        "resistances": {
+            "focus": 221,
+            "immunity": 284,
+            "vitality": 233,
+            "robustness": 261
+        },
+        "maxEquipLoad": 96.698448
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Falx",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Bone Bow",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Ansbach's Longbow",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dagger",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Golden Vow"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 3
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Arrow's Soaring Sting Talisman",
+                "order": 5
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 6,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Veteran's Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 2
+                },
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Ronin's Gauntlets",
+                    "order": 4
+                },
+                {
+                    "name": "Ansbach's Manchettes",
+                    "order": 5
+                },
+                {
+                    "name": "Zamor Bracelets",
+                    "order": 6,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Armor of Solitude (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Armor of Solitude",
+                    "order": 1
+                },
+                {
+                    "name": "Rellana's Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Divine Bird Warrior Armor",
+                    "order": 3
+                },
+                {
+                    "name": "Scaled Armor (Altered)",
+                    "order": 4
+                },
+                {
+                    "name": "Armor of Solitude (Altered)",
+                    "order": 5
+                },
+                {
+                    "name": "Ronin's Armor",
+                    "order": 6
+                },
+                {
+                    "name": "Drake Knight Armor (Altered)",
+                    "order": 7
+                },
+                {
+                    "name": "Night Maiden Armor",
+                    "order": 8
+                },
+                {
+                    "name": "Nox Monk Armor",
+                    "order": 9
+                },
+                {
+                    "name": "Messmer's Armor",
+                    "order": 10
+                },
+                {
+                    "name": "Gravebird's Blackquill Armor",
+                    "order": 11
+                },
+                {
+                    "name": "Kaiden Armor",
+                    "order": 12
+                },
+                {
+                    "name": "Igon's Armor",
+                    "order": 13,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Helm of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Verdigris Helm",
+                    "order": 1
+                },
+                {
+                    "name": "Helm of Solitude",
+                    "order": 2
+                },
+                {
+                    "name": "Scaled Helm",
+                    "order": 3
+                },
+                {
+                    "name": "Fire Knight Helm",
+                    "order": 4,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Verdigris Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 1
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 2
+                },
+                {
+                    "name": "Scaled Greaves",
+                    "order": 3
+                },
+                {
+                    "name": "Ronin's Greaves",
+                    "order": 4
+                },
+                {
+                    "name": "Vagabond Knight Greaves",
+                    "order": 5,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

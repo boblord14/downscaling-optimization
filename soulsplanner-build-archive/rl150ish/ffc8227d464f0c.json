@@ -1,0 +1,414 @@
+{
+    "id": "ffc8227d464f0c",
+    "is2h": true,
+    "name": "dex/arc",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity",
+        "PvE",
+        "Hardswaps",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Thorny Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 47,
+        "dex": 50,
+        "fth": 12,
+        "int": 7,
+        "mnd": 13,
+        "str": 19,
+        "vig": 55,
+        "vit": 26
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Swarm of Flies",
+                "order": 0
+            },
+            {
+                "name": "Bayle's Tyranny",
+                "order": 1
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 88,
+        "poise": {
+            "original": 62
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "arc": 50,
+            "dex": 55
+        },
+        "defenses": {
+            "fire": 189,
+            "holy": 190,
+            "magic": 148,
+            "slash": 140,
+            "pierce": 140,
+            "strike": 140,
+            "physical": 140,
+            "lightning": 134
+        },
+        "maxHealth": 1814,
+        "absorption": {
+            "fire": 25.296341516,
+            "holy": 23.285855625399996,
+            "magic": 24.6078500284,
+            "slash": 27.62081325400001,
+            "pierce": 26.54735795200001,
+            "strike": 26.814299230000003,
+            "physical": 28.937553280000007,
+            "lightning": 24.200613832000005
+        },
+        "maxStamina": 123,
+        "resistances": {
+            "focus": 264,
+            "immunity": 321,
+            "vitality": 300,
+            "robustness": 309
+        },
+        "maxEquipLoad": 72.96109507
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Morgott's Cursed Sword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Blood Tax"
+            },
+            {
+                "name": "Nightrider Flail",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Nagakiba",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Unsheathe"
+            },
+            {
+                "name": "Antspur Rapier",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "The Poison Flower Blooms Twice"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Zweihander",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Giant Hunt"
+            },
+            {
+                "name": "Urumi",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Thunderbolt"
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Repeating Thrust"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 9,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Raptor of the Mists",
+                "equipIndex": 1
+            },
+            {
+                "name": "Scythe",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Flamberge",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Reduvia",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Eleonora's Poleblade",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Obsidian Lamina",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lion Greatbow",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Ansbach's Longbow",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 17,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 3,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 4
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 5,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Blaidd's Gauntlets",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Horned Warrior Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Hoslow's Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Curseblade Mask",
+                    "order": 0
+                },
+                {
+                    "name": "Mask of Confidence",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Scaled Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Blaidd's Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

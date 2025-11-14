@@ -1,0 +1,376 @@
+{
+    "id": "9f5e6781f14acb",
+    "is2h": false,
+    "name": "RL150+25 Eleonora's Poleblade + Pulley Crossbow",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Optimal Talismans",
+                "active": true
+            },
+            {
+                "name": "Early Talismans"
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Knight (Basic, poise, protection)"
+            },
+            {
+                "name": "Rakshasa (DLC, damage)"
+            },
+            {
+                "name": "Ansbach's Set (cool)"
+            },
+            {
+                "name": "Optimal",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Arcane",
+        "Caster",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Thorny Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 64,
+        "dex": 21,
+        "fth": 25,
+        "int": 7,
+        "mnd": 18,
+        "str": 16,
+        "vig": 60,
+        "vit": 18
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Blessing's Boon",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 110,
+        "poise": {
+            "original": 54
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 193,
+            "magic": 146,
+            "slash": 137,
+            "pierce": 137,
+            "strike": 137,
+            "physical": 137,
+            "lightning": 132
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 19.411995943720505,
+            "holy": 17.711641300242597,
+            "magic": 17.540741282174576,
+            "slash": 37.31977189271295,
+            "pierce": 36.22541736264052,
+            "strike": 34.34417131486206,
+            "physical": 35.50770356225067,
+            "lightning": 17.06892678611499
+        },
+        "maxStamina": 110,
+        "resistances": {
+            "focus": 231,
+            "immunity": 288,
+            "vitality": 273,
+            "robustness": 291
+        },
+        "maxEquipLoad": 60.88235294
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Eleonora's Poleblade",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Pulley Crossbow",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 4,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ]
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        null,
+                        1,
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Ansbach's Manchettes",
+                    "order": 2,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ]
+                },
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 1,
+                    "equipSet": [
+                        null,
+                        1,
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Ansbach's Attire",
+                    "order": 2,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ]
+                },
+                {
+                    "name": "Rakshasa Helm",
+                    "order": 1,
+                    "equipSet": [
+                        null,
+                        1
+                    ]
+                },
+                {
+                    "name": "White Mask",
+                    "order": 2,
+                    "equipSet": [
+                        null,
+                        null,
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Wise Man's Mask",
+                    "order": 3,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ]
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        null,
+                        1,
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Ansbach's Boots",
+                    "order": 2,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ]
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

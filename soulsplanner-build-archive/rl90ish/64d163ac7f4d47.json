@@ -1,0 +1,295 @@
+{
+    "id": "64d163ac7f4d47",
+    "is2h": false,
+    "name": "Fire knight ara",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Faith-knot Crystal Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 90,
+        "arc": 7,
+        "dex": 30,
+        "fth": 16,
+        "int": 9,
+        "mnd": 15,
+        "str": 17,
+        "vig": 55,
+        "vit": 20
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Catch Flame",
+                "order": 0
+            },
+            {
+                "name": "Fire Serpent",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 95,
+        "poise": {
+            "original": 40
+        },
+        "runes": {
+            "total": 1446127,
+            "toNextLevel": 50293
+        },
+        "stats": {
+            "dex": 35,
+            "fth": 26,
+            "str": 22
+        },
+        "defenses": {
+            "fire": 179,
+            "holy": 138,
+            "magic": 142,
+            "slash": 131,
+            "pierce": 131,
+            "strike": 131,
+            "physical": 131,
+            "lightning": 124
+        },
+        "maxHealth": 1850.28,
+        "absorption": {
+            "fire": 31.25848977496002,
+            "holy": 26.027989624000018,
+            "magic": 27.27999247060002,
+            "slash": 31.25848977496002,
+            "pierce": 29.593790406280014,
+            "strike": 28.443119644000003,
+            "physical": 32.96596170592001,
+            "lightning": 23.071442320000013
+        },
+        "maxStamina": 118.65,
+        "resistances": {
+            "focus": 194,
+            "immunity": 247,
+            "vitality": 208,
+            "robustness": 254
+        },
+        "maxEquipLoad": 66.94147059
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Fire Knight's Shortsword",
+                "order": 0,
+                "upgrade": 17,
+                "infusion": "Fire",
+                "weaponArt": "Flame Spear"
+            },
+            {
+                "name": "Fire Knight's Greatsword",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Skewer",
+                "equipIndex": 0
+            },
+            {
+                "name": "Finger Seal",
+                "order": 2,
+                "upgrade": 17,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Queelign's Greatsword",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Skewer"
+            },
+            {
+                "name": "Spear of the Impaler",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "damage",
+            "direction": "desc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Prosthesis-Wearer Heirloom",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Two-Handed",
+            "Messmer's Incantation"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fire Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Fire Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Fire Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Fire Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 17,
+    "characterClass": "Vagabond"
+}

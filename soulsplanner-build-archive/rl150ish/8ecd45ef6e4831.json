@@ -1,0 +1,323 @@
+{
+    "id": "8ecd45ef6e4831",
+    "is2h": false,
+    "name": "Fire Sword/Bow build (could be fun?)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 10,
+        "dex": 60,
+        "fth": 15,
+        "int": 12,
+        "mnd": 15,
+        "str": 22,
+        "vig": 60,
+        "vit": 35
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 1
+            },
+            {
+                "name": "Poison Armament",
+                "order": 2
+            },
+            {
+                "name": "Bloodflame Blade",
+                "order": 3
+            },
+            {
+                "name": "Electrify Armament",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 95,
+        "poise": {
+            "original": 43
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 152,
+            "magic": 156,
+            "slash": 139,
+            "pierce": 139,
+            "strike": 139,
+            "physical": 139,
+            "lightning": 132
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 29.92203225434299,
+            "holy": 29.17690845980031,
+            "magic": 29.17690845980031,
+            "slash": 30.185363363164473,
+            "pierce": 29.58901462743907,
+            "strike": 27.928434532257217,
+            "physical": 29.28710934687404,
+            "lightning": 30.4415221546921
+        },
+        "maxStamina": 136,
+        "resistances": {
+            "focus": 238,
+            "immunity": 337,
+            "vitality": 248,
+            "robustness": 291
+        },
+        "maxEquipLoad": 84.09947079
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Horn Bow",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows",
+                "equipIndex": 3
+            },
+            {
+                "name": "Fire Knight's Greatsword",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Keen",
+                "weaponArt": "Flame Skewer",
+                "equipIndex": 0
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Arrow's Sting Talisman",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Arrow's Soaring Sting Talisman",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Successive 3 Hits",
+            "Successive 6 Hits",
+            "Successive 9 Hits",
+            "Charged Skill Attack",
+            "Skill Attack",
+            "Ammunition Attack",
+            "Ammunition OnHit Attack",
+            "Ranged Skill Attack",
+            "Charge Attack"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Preceptor's Gloves",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Gravebird's Blackquill Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Rotten Gravekeeper Cloak",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Skeletal Mask",
+                    "order": 0
+                },
+                {
+                    "name": "Rotten Duelist Helm",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Ansbach's Boots",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Samurai"
+}

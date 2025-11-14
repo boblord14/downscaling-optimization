@@ -1,0 +1,296 @@
+{
+    "id": "e45a4d3a9a4ede",
+    "is2h": false,
+    "name": "bonk",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "Strength"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Memory of Grace",
+                    "order": 3,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 4,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Rune Arc",
+                    "order": 5,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Gold-Pickled Fowl Foot",
+                    "order": 6,
+                    "equipIndex": 13
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Strength-knot Crystal Tear",
+            "Opaline Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 15,
+        "dex": 25,
+        "fth": 25,
+        "int": 15,
+        "mnd": 24,
+        "str": 35,
+        "vig": 60,
+        "vit": 30
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 142,
+        "poise": {
+            "original": 44
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 162,
+            "magic": 162,
+            "slash": 144,
+            "pierce": 144,
+            "strike": 144,
+            "physical": 144,
+            "lightning": 132
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 22.110739637099996,
+            "holy": 18.593419081600004,
+            "magic": 19.892363904,
+            "slash": 29.635546148000003,
+            "pierce": 28.696612523200017,
+            "strike": 26.88480903664001,
+            "physical": 29.635546148000003,
+            "lightning": 13.89350717440001
+        },
+        "maxStamina": 130,
+        "resistances": {
+            "focus": 198,
+            "immunity": 271,
+            "vitality": 213,
+            "robustness": 287
+        },
+        "maxEquipLoad": 77.64460262
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Claymore",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Lion's Claw",
+                "equipIndex": 0
+            },
+            {
+                "name": "Finger Seal",
+                "order": 1,
+                "upgrade": 24,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Axe Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Raging Wolf Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Raging Wolf Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Raging Wolf Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Raging Wolf Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

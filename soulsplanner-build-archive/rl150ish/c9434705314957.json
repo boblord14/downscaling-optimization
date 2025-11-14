@@ -1,0 +1,395 @@
+{
+    "id": "c9434705314957",
+    "is2h": false,
+    "name": "Night Comet",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default"
+            },
+            {
+                "name": "Optimal weight for 40.5p #2"
+            },
+            {
+                "name": "Optimal weight for 40.5p #3",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Intelligence",
+        "Caster"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Magic-Shrouding Cracked Tear",
+            "Cerulean Hidden Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 10,
+        "dex": 15,
+        "fth": 25,
+        "int": 80,
+        "mnd": 30,
+        "str": 12,
+        "vig": 40,
+        "vit": 17
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment",
+        "protector-view/left": "Picker",
+        "protector-view/right": "Armour Optimiser"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Terra Magica",
+                "order": 1
+            },
+            {
+                "name": "Night Shard",
+                "order": 2
+            },
+            {
+                "name": "Night Comet",
+                "order": 3
+            },
+            {
+                "name": "Cannon of Haima",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 173,
+        "poise": {
+            "original": 40
+        },
+        "defenses": {
+            "fire": 172,
+            "holy": 152,
+            "magic": 197,
+            "slash": 136,
+            "pierce": 136,
+            "strike": 136,
+            "physical": 136,
+            "lightning": 132
+        },
+        "maxHealth": 1450,
+        "absorption": {
+            "fire": 18.949059931,
+            "holy": 22.538363176000008,
+            "magic": 17.554415680000012,
+            "slash": 13.12257370708001,
+            "pierce": 13.12257370708001,
+            "strike": 9.849475680760012,
+            "physical": 10.919117652400011,
+            "lightning": 13.536162654400009
+        },
+        "maxStamina": 108,
+        "resistances": {
+            "focus": 210,
+            "immunity": 251,
+            "vitality": 220,
+            "robustness": 264
+        },
+        "maxEquipLoad": 59.29411765
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Scavenger's Curved Sword",
+                "order": 0,
+                "infusion": "Occult",
+                "weaponArt": "Seppuku"
+            },
+            {
+                "name": "Scavenger's Curved Sword",
+                "order": 1,
+                "infusion": "Occult",
+                "weaponArt": "Seppuku"
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 2,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 5
+            },
+            {
+                "name": "Staff of Loss",
+                "order": 3,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 0
+            },
+            {
+                "name": "Staff of Loss",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Moonveil",
+                "order": 5,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Claw Talisman",
+                "order": 0
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 2
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 3
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 4,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 5,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 6,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 7,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Jump Attack",
+            "Successive 9 Hits",
+            "Trigger in Presence of Blood Loss",
+            "Charged Skill Attack",
+            "Skill Attack",
+            "Affects Sorceries",
+            "Spell Power Boost",
+            "HP above 100%",
+            "Night Spell"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gold Bracelets",
+                    "order": 0,
+                    "equipSet": [
+                        null,
+                        1,
+                        null
+                    ]
+                },
+                {
+                    "name": "Spellblade's Gloves",
+                    "order": 1
+                },
+                {
+                    "name": "Black Knife Gauntlets",
+                    "order": 2,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Raptor's Black Feathers",
+                    "order": 0,
+                    "equipSet": [
+                        1,
+                        1,
+                        null
+                    ]
+                },
+                {
+                    "name": "Spellblade's Traveling Attire",
+                    "order": 1
+                },
+                {
+                    "name": "Black Knife Armor",
+                    "order": 2,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "White Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1,
+                        1,
+                        null
+                    ]
+                },
+                {
+                    "name": "Spellblade's Pointed Hat",
+                    "order": 1
+                },
+                {
+                    "name": "Black Knife Hood",
+                    "order": 2,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Crucible Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        null,
+                        1,
+                        null
+                    ]
+                },
+                {
+                    "name": "Spellblade's Trousers",
+                    "order": 1
+                },
+                {
+                    "name": "Black Knife Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        null,
+                        null,
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Samurai"
+}

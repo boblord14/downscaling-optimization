@@ -1,0 +1,267 @@
+{
+    "id": "9864b76e414027",
+    "is2h": true,
+    "name": "pure caster for hitless runs (with fashion)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Magic-Shrouding Cracked Tear",
+            "Cerulean-Sapping Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 15,
+        "fth": 7,
+        "int": 99,
+        "mnd": 38,
+        "str": 11,
+        "vig": 9,
+        "vit": 41
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Night Comet",
+                "order": 0
+            },
+            {
+                "name": "Carian Slicer",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 221,
+        "poise": {
+            "original": 24
+        },
+        "runes": {
+            "total": 7108928,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 138,
+            "holy": 150,
+            "magic": 202,
+            "slash": 135,
+            "pierce": 135,
+            "strike": 135,
+            "physical": 135,
+            "lightning": 132
+        },
+        "maxHealth": 396,
+        "absorption": {
+            "fire": 19.842076,
+            "holy": 20.769587200000007,
+            "magic": 20.633955600000007,
+            "slash": 6.9855553999999875,
+            "pierce": 5.3062485399999915,
+            "strike": 5.394658399999996,
+            "physical": 6.159345399999994,
+            "lightning": 17.74561899999999
+        },
+        "maxStamina": 143,
+        "resistances": {
+            "focus": 260,
+            "immunity": 223,
+            "vitality": 247,
+            "robustness": 250
+        },
+        "maxEquipLoad": 92.29076221
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Azur's Glintstone Staff",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Uchigatana",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Seppuku",
+                "equipIndex": 1
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 0,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 1,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 3,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gold Bracelets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Carian Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Carian Knight Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Prisoner Trousers",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

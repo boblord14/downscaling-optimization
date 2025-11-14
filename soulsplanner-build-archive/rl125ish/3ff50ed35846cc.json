@@ -1,0 +1,158 @@
+{
+    "id": "3ff50ed35846cc",
+    "is2h": true,
+    "name": "Bloody Helice",
+    "tags": [
+        "Duels",
+        "2v2",
+        "Arcane"
+    ],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 59,
+        "dex": 26,
+        "fth": 8,
+        "int": 7,
+        "mnd": 9,
+        "str": 16,
+        "vig": 60,
+        "vit": 19
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Stats",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": []
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Bloody Helice",
+                "order": 0,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 0,
+                "equipIndex": 0
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 1,
+                "equipIndex": 1
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 2,
+                "equipIndex": 2
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 3,
+                "equipIndex": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Crucible Tree Helm",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

@@ -1,0 +1,332 @@
+{
+    "id": "ac81ca362542a0",
+    "is2h": false,
+    "name": "Madness Dragon (by ChaseTheBro)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Invasions",
+        "Hybrid",
+        "Caster"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Morgott's Great Rune",
+                    "order": 0
+                },
+                {
+                    "name": "Sleep Pot",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Freezing Pot",
+                    "order": 2,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Fan Daggers",
+                    "order": 3,
+                    "equipIndex": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Cerulean Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 139,
+        "arc": 45,
+        "dex": 14,
+        "fth": 33,
+        "int": 9,
+        "mnd": 22,
+        "str": 14,
+        "vig": 60,
+        "vit": 21
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Ekzykes's Decay",
+                "order": 0
+            },
+            {
+                "name": "Unendurable Frenzy",
+                "order": 1
+            },
+            {
+                "name": "Frenzied Burst",
+                "order": 2
+            },
+            {
+                "name": "Greyoll's Roar",
+                "order": 3
+            },
+            {
+                "name": "Dragonmaw",
+                "order": 4
+            },
+            {
+                "name": "Dragonclaw",
+                "order": 5
+            },
+            {
+                "name": "Smarag's Glintstone Breath",
+                "order": 6
+            },
+            {
+                "name": "Howl of Shabriri",
+                "order": 7
+            },
+            {
+                "name": "Inescapable Frenzy",
+                "order": 8
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 131,
+        "poise": {
+            "original": 66
+        },
+        "runes": {
+            "total": 5568328,
+            "toNextLevel": 130894
+        },
+        "defenses": {
+            "fire": 190,
+            "holy": 184,
+            "magic": 148,
+            "slash": 134,
+            "pierce": 134,
+            "strike": 134,
+            "physical": 134,
+            "lightning": 130
+        },
+        "maxHealth": 2470,
+        "absorption": {
+            "fire": 25.479557477500016,
+            "holy": 24.8816429272,
+            "magic": 25.1247444064,
+            "slash": 28.849393648,
+            "pierce": 27.743229568000004,
+            "strike": 27.0273874312,
+            "physical": 28.43576387200001,
+            "lightning": 25.281723664
+        },
+        "maxStamina": 126.5,
+        "resistances": {
+            "focus": 247,
+            "immunity": 313,
+            "vitality": 285,
+            "robustness": 304
+        },
+        "maxEquipLoad": 70.89882353
+    },
+    "greatRune": "Morgott's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Dragon Communion Seal",
+                "order": 0,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 3,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Keen",
+                "weaponArt": "Endure",
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Faithful's Canvas Talisman",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 3,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Scaled Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Scaled Armor (Altered)",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Commoner's Headband (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

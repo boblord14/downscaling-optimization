@@ -1,0 +1,305 @@
+{
+    "id": "017e0a49ab4f2f",
+    "is2h": false,
+    "name": "Shieldpoke, bleed.",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Well-Pickled Turtle Neck",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Shield Grease",
+                    "order": 1,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Greenburst Crystal Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 24,
+        "dex": 11,
+        "fth": 25,
+        "int": 7,
+        "mnd": 9,
+        "str": 49,
+        "vig": 60,
+        "vit": 19
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Blessing's Boon",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 5
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 169,
+            "magic": 141,
+            "slash": 148,
+            "pierce": 148,
+            "strike": 148,
+            "physical": 148,
+            "lightning": 127
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 13.330000000000007,
+            "holy": 13.330000000000007,
+            "magic": 13.150000000000006,
+            "slash": 12.970000000000017,
+            "pierce": 12.430000000000009,
+            "strike": 12.700000000000012,
+            "physical": 12.430000000000009,
+            "lightning": 13.51000000000001
+        },
+        "maxStamina": 111,
+        "resistances": {
+            "focus": 170,
+            "immunity": 212,
+            "vitality": 191,
+            "robustness": 167
+        },
+        "maxEquipLoad": 62.47058824
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Verdigris Greatshield",
+                "order": 0,
+                "upgrade": 9,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Sword Lance",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Cragblade",
+                "equipIndex": 0
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 2,
+                "upgrade": 0,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Pearl Shield Talisman",
+                "order": 0,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 1
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 2,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Viridian Amber Medallion +2",
+                "order": 4
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 5,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gold Bracelets",
+                    "order": 0
+                },
+                {
+                    "name": "Common Soldier Gauntlets",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Goldmask's Rags",
+                    "order": 0
+                },
+                {
+                    "name": "Messmer Soldier Armor (Altered)",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Hierodas Glintstone Crown",
+                    "order": 0
+                },
+                {
+                    "name": "Commoner's Headband (Altered)",
+                    "order": 1
+                },
+                {
+                    "name": "Circlet of Light",
+                    "order": 2
+                },
+                {
+                    "name": "White Mask",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Soiled Loincloth",
+                    "order": 0
+                },
+                {
+                    "name": "Aristocrat Boots",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

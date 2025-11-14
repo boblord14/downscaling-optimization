@@ -1,0 +1,245 @@
+{
+    "id": "be13056b8c4eb8",
+    "is2h": false,
+    "name": "boganburbs Build Request",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Bloodsucking Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 90,
+        "arc": 11,
+        "dex": 12,
+        "fth": 8,
+        "int": 7,
+        "mnd": 9,
+        "str": 80,
+        "vig": 60,
+        "vit": 14
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Stats",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 58
+        },
+        "runes": {
+            "total": 1447695,
+            "toNextLevel": 50293
+        },
+        "stats": {
+            "dex": 17
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 149,
+            "magic": 141,
+            "slash": 162,
+            "pierce": 162,
+            "strike": 162,
+            "physical": 162,
+            "lightning": 127
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 18.397741936283207,
+            "holy": 16.327351153891534,
+            "magic": 16.327351153891534,
+            "slash": 25.413283371040485,
+            "pierce": 24.42023742552354,
+            "strike": 21.458199639083876,
+            "physical": 23.40910119891718,
+            "lightning": 15.322282746729943
+        },
+        "maxStamina": 103,
+        "resistances": {
+            "focus": 215,
+            "immunity": 273,
+            "vitality": 226,
+            "robustness": 292
+        },
+        "maxEquipLoad": 54.52941176
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Iron Ball",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade",
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Blade of Mercy",
+                "order": 1,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 3,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Rakshasa Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

@@ -1,0 +1,556 @@
+{
+    "id": "3ad86e23c54582",
+    "is2h": false,
+    "name": "",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 11,
+        "dex": 11,
+        "fth": 8,
+        "int": 7,
+        "mnd": 9,
+        "str": 73,
+        "vig": 60,
+        "vit": 25
+    },
+    "views": {
+        "overview": "swappa",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 71
+        },
+        "stats": {
+            "int": 14
+        },
+        "defenses": {
+            "fire": 188,
+            "holy": 150,
+            "magic": 156,
+            "slash": 161,
+            "pierce": 161,
+            "strike": 161,
+            "physical": 161,
+            "lightning": 128
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 27.05142881439999,
+            "holy": 26.57065193,
+            "magic": 25.83002984,
+            "slash": 33.51212526400001,
+            "pierce": 33.479908873599996,
+            "strike": 29.145198304000008,
+            "physical": 32.9654306656,
+            "lightning": 24.468333328000003
+        },
+        "maxStamina": 121,
+        "resistances": {
+            "focus": 239,
+            "immunity": 324,
+            "vitality": 248,
+            "robustness": 329
+        },
+        "maxEquipLoad": 85.68
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Star Fist",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Flame of the Redmanes"
+            },
+            {
+                "name": "Star Fist",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Star Fist",
+                "order": 2,
+                "infusion": "Heavy",
+                "weaponArt": "Hoarfrost Stomp"
+            },
+            {
+                "name": "Noble's Estoc",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 4,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Crystal Sword",
+                "order": 5,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 5
+            },
+            {
+                "name": "Crystal Sword",
+                "order": 6,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Shamshir",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Shamshir",
+                "order": 8,
+                "infusion": "Heavy",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 9,
+                "infusion": "Fire",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Cinquedea",
+                "order": 10,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Commander's Standard",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 13,
+                "infusion": "Heavy",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Katar",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Highland Axe",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "War Cry"
+            },
+            {
+                "name": "Iron Spear",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "War Cry"
+            },
+            {
+                "name": "Iron Spear",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Twinned Knight Swords",
+                "order": 18,
+                "infusion": "Heavy",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Twinned Knight Swords",
+                "order": 19,
+                "infusion": "Heavy",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Shamshir",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Serpent-Hunter",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lance",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Lance",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "War Cry"
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Immunizing Horn Charm +1",
+                "order": 0
+            },
+            {
+                "name": "Clarifying Horn Charm +1",
+                "order": 1
+            },
+            {
+                "name": "Stalwart Horn Charm +1",
+                "order": 2
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 3
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 4,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 5,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 6
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 7
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 8,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 9
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 10
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 11
+            },
+            {
+                "name": "Stargazer Heirloom",
+                "order": 12,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 13
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 14
+            },
+            {
+                "name": "Spelldrake Talisman +2",
+                "order": 15
+            },
+            {
+                "name": "Haligdrake Talisman +2",
+                "order": 16
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 17
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 18
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 19
+            },
+            {
+                "name": "Flamedrake Talisman +2",
+                "order": 20
+            },
+            {
+                "name": "Boltdrake Talisman +2",
+                "order": 21
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 22
+            },
+            {
+                "name": "Roar Medallion",
+                "order": 23
+            },
+            {
+                "name": "Hammer Talisman",
+                "order": 24
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Crucible Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Beast Champion Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Banished Knight Gauntlets",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Beast Champion Armor (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Veteran's Armor (Altered)",
+                    "order": 1
+                },
+                {
+                    "name": "Veteran's Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 3
+                },
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 4
+                },
+                {
+                    "name": "Banished Knight Armor (Altered)",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Imp Head (Fanged)",
+                    "order": 0
+                },
+                {
+                    "name": "Imp Head (Wolf)",
+                    "order": 1
+                },
+                {
+                    "name": "Imp Head (Cat)",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Imp Head (Long-Tongued)",
+                    "order": 3
+                },
+                {
+                    "name": "Mushroom Crown",
+                    "order": 4
+                },
+                {
+                    "name": "Okina Mask",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Crucible Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Lionel's Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Banished Knight Greaves",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

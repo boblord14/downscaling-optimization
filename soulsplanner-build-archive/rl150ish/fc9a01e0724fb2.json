@@ -1,0 +1,190 @@
+{
+    "id": "fc9a01e0724fb2",
+    "is2h": false,
+    "name": "Hailstorm's Mohgwyn/Marais",
+    "tags": [
+        "Invasions",
+        "PvE",
+        "Caster"
+    ],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 47,
+        "dex": 14,
+        "fth": 20,
+        "int": 9,
+        "mnd": 11,
+        "str": 40,
+        "vig": 60,
+        "vit": 28
+    },
+    "views": {
+        "overview": "swappa",
+        "home/left": "Stats",
+        "home/main": "Current Equipment",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Great Heal",
+                "order": 0
+            },
+            {
+                "name": "Lord's Heal",
+                "order": 1
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 2
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 3
+            },
+            {
+                "name": "Rotten Breath",
+                "order": 4
+            },
+            {
+                "name": "Swarm of Flies",
+                "order": 5
+            }
+        ]
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Mohgwyn's Sacred Spear",
+                "order": 0,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Marais Executioner's Sword",
+                "order": 1,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 2,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 0,
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipIndex": 1
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 2,
+                "equipIndex": 2
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 3,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Malenia's Gauntlet",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Exile Armor",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Banished Knight Helm",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Godrick Soldier Greaves",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Bandit"
+}

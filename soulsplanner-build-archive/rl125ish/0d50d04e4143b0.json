@@ -1,0 +1,263 @@
+{
+    "id": "0d50d04e4143b0",
+    "is2h": false,
+    "name": "Heavy Gargoyle's Twinblade, Aspect: Wings, dps calc.",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "PvE",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Bloodsucking Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 11,
+        "dex": 10,
+        "fth": 12,
+        "int": 7,
+        "mnd": 9,
+        "str": 72,
+        "vig": 60,
+        "vit": 23
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 63
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "dex": 15
+        },
+        "defenses": {
+            "fire": 188,
+            "holy": 150,
+            "magic": 142,
+            "slash": 161,
+            "pierce": 161,
+            "strike": 161,
+            "physical": 161,
+            "lightning": 128
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 23.4376772752,
+            "holy": 26.16749116030001,
+            "magic": 24.572425536000008,
+            "slash": 29.653952704,
+            "pierce": 28.88041292160001,
+            "strike": 25.34574255999999,
+            "physical": 30.592162004,
+            "lightning": 22.182196617999995
+        },
+        "maxStamina": 118,
+        "resistances": {
+            "focus": 234,
+            "immunity": 303,
+            "vitality": 246,
+            "robustness": 297
+        },
+        "maxEquipLoad": 68.82352941
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Gargoyle's Twinblade",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Aspects of the Crucible: Wings",
+                "equipIndex": 0
+            },
+            {
+                "name": "Finger Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Crucible Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Crucible Tree Armor (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Crucible Axe Helm",
+                    "order": 0
+                },
+                {
+                    "name": "White Mask",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Crucible Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

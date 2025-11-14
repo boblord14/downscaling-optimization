@@ -1,0 +1,411 @@
+{
+    "id": "ca63c67bd04a54",
+    "is2h": false,
+    "name": "Blasphemer Alar",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            },
+            {
+                "name": "Set #2"
+            },
+            {
+                "name": "Set #3"
+            },
+            {
+                "name": "Set #4"
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Hybrid",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Fire Coil",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Fire Spritestone",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Hefty Volcano Pot",
+                    "order": 2,
+                    "equipIndex": 3
+                },
+                {
+                    "name": "Volcano Pot",
+                    "order": 3,
+                    "equipIndex": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 91,
+        "arc": 9,
+        "dex": 15,
+        "fth": 21,
+        "int": 28,
+        "mnd": 15,
+        "str": 12,
+        "vig": 52,
+        "vit": 18
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Black Flame",
+                "order": 0
+            },
+            {
+                "name": "O, Flame!",
+                "order": 1
+            },
+            {
+                "name": "Magma Shot",
+                "order": 2
+            },
+            {
+                "name": "Roiling Magma",
+                "order": 3
+            },
+            {
+                "name": "Fire's Deadly Sin",
+                "order": 4
+            },
+            {
+                "name": "Gelmir's Fury",
+                "order": 5
+            },
+            {
+                "name": "Briars of Punishment",
+                "order": 6
+            },
+            {
+                "name": "Fire Serpent",
+                "order": 7
+            },
+            {
+                "name": "Black Flame Blade",
+                "order": 8
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 95,
+        "poise": {
+            "original": 37
+        },
+        "runes": {
+            "total": 1494441,
+            "toNextLevel": 51478
+        },
+        "defenses": {
+            "fire": 172,
+            "holy": 138,
+            "magic": 165,
+            "slash": 124,
+            "pierce": 124,
+            "strike": 124,
+            "physical": 124,
+            "lightning": 120
+        },
+        "maxHealth": 1750,
+        "absorption": {
+            "fire": 19.23591397000001,
+            "holy": 18.64463889100001,
+            "magic": 18.38576569600001,
+            "slash": 21.295060480000014,
+            "pierce": 19.741386656000003,
+            "strike": 19.411338629200017,
+            "physical": 21.27100464639999,
+            "lightning": 17.506752347800003
+        },
+        "maxStamina": 110,
+        "resistances": {
+            "focus": 199,
+            "immunity": 261,
+            "vitality": 207,
+            "robustness": 230
+        },
+        "maxEquipLoad": 60.88235294
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Gelmir Glintstone Staff",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0,
+                    4,
+                    null,
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Spinning Weapon",
+                "equipIndex": 0
+            },
+            {
+                "name": "Giant's Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3,
+                    null,
+                    4,
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Magma Blade",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Smoldering Shield",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lizard Greatsword",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Eruption"
+            },
+            {
+                "name": "Estoc",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Repeating Thrust"
+            },
+            {
+                "name": "Main-gauche",
+                "order": 6,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Parry"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 0
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 1
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Talisman of the Dread",
+                "order": 3,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Beloved Stardust",
+                "order": 4
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 5,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Old Lord's Talisman",
+                "order": 6,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Iron Rivet Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Errant Sorcerer Robe (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Vulgar Militia Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Eccentric's Hood",
+                    "order": 0
+                },
+                {
+                    "name": "Marionette Soldier Helm",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Gelmir Knight Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Gelmir Knight Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Common Soldier Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 18,
+    "characterClass": "Confessor"
+}

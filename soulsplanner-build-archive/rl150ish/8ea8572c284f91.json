@@ -1,0 +1,305 @@
+{
+    "id": "8ea8572c284f91",
+    "is2h": true,
+    "name": "Arbalist",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Deflecting Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 13,
+        "fth": 40,
+        "int": 9,
+        "mnd": 19,
+        "str": 44,
+        "vig": 60,
+        "vit": 37
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Blessing of the Erdtree",
+                "order": 1
+            },
+            {
+                "name": "Black Flame's Protection",
+                "order": 2
+            },
+            {
+                "name": "Bestial Sling",
+                "order": 3
+            },
+            {
+                "name": "Beast Claw",
+                "order": 4
+            },
+            {
+                "name": "Heal from Afar",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 116,
+        "poise": {
+            "altered": 121.33333303,
+            "original": 91
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 146,
+            "magic": 150,
+            "slash": 150,
+            "pierce": 150,
+            "strike": 150,
+            "physical": 150,
+            "lightning": 132
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 35.52146194600001,
+            "holy": 34.21769005756,
+            "magic": 33.765612899950014,
+            "slash": 42.06092252050001,
+            "pierce": 41.37939616150001,
+            "strike": 39.63714413968001,
+            "physical": 41.26808410552001,
+            "lightning": 33.70455678880002
+        },
+        "maxStamina": 138,
+        "resistances": {
+            "focus": 341,
+            "immunity": 343,
+            "vitality": 284,
+            "robustness": 356
+        },
+        "maxEquipLoad": 103.2759496
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Clawmark Seal",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Arbalest",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Lucerne",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Endure",
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Spear Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 1,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 2,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Arrow's Sting Talisman",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Enhance Thrusting Counter Attacks"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gaius's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Armor of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Helm of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Lionel's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

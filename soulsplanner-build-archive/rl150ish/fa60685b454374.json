@@ -1,0 +1,573 @@
+{
+    "id": "fa60685b454374",
+    "is2h": true,
+    "name": "Sylvaris Coldfang",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 3
+                },
+                {
+                    "name": "Golden Vow",
+                    "order": 4,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Lantern",
+                    "order": 5
+                },
+                {
+                    "name": "Throwing Dagger",
+                    "order": 6,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 7,
+                    "active": true,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Magic Pot",
+                    "order": 8,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Academy Magic Pot",
+                    "order": 9,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Hefty Magic Pot",
+                    "order": 10,
+                    "equipIndex": 12
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Magic-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 47,
+        "fth": 6,
+        "int": 50,
+        "mnd": 25,
+        "str": 20,
+        "vig": 50,
+        "vit": 22
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Carian Phalanx",
+                "order": 0
+            },
+            {
+                "name": "Loretta's Greatbow",
+                "order": 1
+            },
+            {
+                "name": "Shard Spiral",
+                "order": 2
+            },
+            {
+                "name": "Gravitational Missile",
+                "order": 3
+            },
+            {
+                "name": "Zamor Ice Storm",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 169,
+        "poise": {
+            "original": 68
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 182,
+            "holy": 150,
+            "magic": 188,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 132
+        },
+        "maxHealth": 2037.984,
+        "absorption": {
+            "fire": 34.26025170250002,
+            "holy": 33.31561996864001,
+            "magic": 33.31561996864001,
+            "slash": 47.12872561523199,
+            "pierce": 46.169011436032,
+            "strike": 43.408994334400006,
+            "physical": 46.169011436032,
+            "lightning": 32.58115092352002
+        },
+        "maxStamina": 146.74,
+        "resistances": {
+            "focus": 238,
+            "immunity": 314,
+            "vitality": 247,
+            "robustness": 334
+        },
+        "maxEquipLoad": 72.61411765
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Glintstone Kris",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dark Moon Greatsword",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Death's Poker",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Banished Knight's Greatsword",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Carian Sovereignty"
+            },
+            {
+                "name": "Monk's Flameblade",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Savage Lion's Claw"
+            },
+            {
+                "name": "Death Ritual Spear",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spirit Glaive",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bandit's Curved Sword",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Wing of Astel",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Spinning Gravity Thrust"
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Ice Spear"
+            },
+            {
+                "name": "Moonveil",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Star-Lined Sword",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Horn Bow",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Mighty Shot"
+            },
+            {
+                "name": "Rabbath's Cannon",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Chilling Perfume Bottle",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rolling Sparks"
+            },
+            {
+                "name": "Godskin Peeler",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Spinning Weapon"
+            },
+            {
+                "name": "Rosus' Axe",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Milady",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Wing Stance"
+            },
+            {
+                "name": "Claws of Night",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Full Moon Crossbow",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Carian Sorcery Sword",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Butchering Knife",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Caestus",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Family Heads",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Loretta's Slash"
+            },
+            {
+                "name": "Messmer Soldier's Spear",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Glintblade Phalanx"
+            },
+            {
+                "name": "Carian Thrusting Shield",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Shield Strike"
+            },
+            {
+                "name": "Lizard Greatsword",
+                "order": 30,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Gravitas"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 31,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Swift Slash"
+            },
+            {
+                "name": "Bloodhound's Fang",
+                "order": 32,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Greatbow",
+                "order": 33,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Dane's Footwork",
+                "order": 34,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Divine Beast Frost Stomp"
+            },
+            {
+                "name": "Carian Glintblade Staff",
+                "order": 17,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 1
+            },
+            {
+                "name": "Banished Knight's Shield",
+                "order": 16,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "damage",
+            "direction": "desc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 4
+            },
+            {
+                "name": "Shattered Stone Talisman",
+                "order": 5,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Kicking/Stomping Skill Attack"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Scaled Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Scaled Armor (Altered)",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Scaled Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Scaled Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prisoner"
+}

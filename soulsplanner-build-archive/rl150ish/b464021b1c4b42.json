@@ -1,0 +1,581 @@
+{
+    "id": "b464021b1c4b42",
+    "is2h": false,
+    "name": "Overseer Manus (Mage focused build)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 160,
+        "arc": 9,
+        "dex": 30,
+        "fth": 6,
+        "int": 72,
+        "mnd": 30,
+        "str": 20,
+        "vig": 52,
+        "vit": 20
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Carian Slicer",
+                "order": 0
+            },
+            {
+                "name": "Carian Greatsword",
+                "order": 1
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 2
+            },
+            {
+                "name": "Gravitational Missile",
+                "order": 3
+            },
+            {
+                "name": "Fleeting Microcosm",
+                "order": 4
+            },
+            {
+                "name": "Glintblade Trio",
+                "order": 5
+            },
+            {
+                "name": "Glintstone Cometshard",
+                "order": 6
+            },
+            {
+                "name": "Night Maiden's Mist",
+                "order": 7
+            },
+            {
+                "name": "Rellana's Twin Moons",
+                "order": 8
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 173,
+        "poise": {
+            "original": 27
+        },
+        "runes": {
+            "total": 8754800,
+            "toNextLevel": 181549
+        },
+        "defenses": {
+            "fire": 186,
+            "holy": 152,
+            "magic": 197,
+            "slash": 140,
+            "pierce": 140,
+            "strike": 140,
+            "physical": 140,
+            "lightning": 134
+        },
+        "maxHealth": 1925,
+        "absorption": {
+            "fire": 22.907918447600007,
+            "holy": 24.996512926000015,
+            "magic": 25.390360560500003,
+            "slash": 14.618330855200002,
+            "pierce": 14.430734528800016,
+            "strike": 15.007844012799998,
+            "physical": 15.413262629200007,
+            "lightning": 21.898853954000007
+        },
+        "maxStamina": 113,
+        "resistances": {
+            "focus": 279,
+            "immunity": 273,
+            "vitality": 284,
+            "robustness": 239
+        },
+        "maxEquipLoad": 64.05882353
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 0,
+                "infusion": "Magic",
+                "weaponArt": "Parry"
+            },
+            {
+                "name": "Glintstone Kris",
+                "order": 1,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Carian Regal Scepter",
+                "order": 2,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 3,
+                "infusion": "Magic",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Rogier's Rapier",
+                "order": 4,
+                "infusion": "Magic",
+                "weaponArt": "Gravitas"
+            },
+            {
+                "name": "Lance",
+                "order": 5,
+                "infusion": "Magic",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 6,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Urumi",
+                "order": 8,
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Moonveil",
+                "order": 9,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Uchigatana",
+                "order": 10,
+                "infusion": "Magic",
+                "weaponArt": "Double Slash"
+            },
+            {
+                "name": "Nagakiba",
+                "order": 11,
+                "infusion": "Magic",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Scythe",
+                "order": 12,
+                "infusion": "Magic",
+                "weaponArt": "Loretta's Slash"
+            },
+            {
+                "name": "Nightrider Flail",
+                "order": 13,
+                "infusion": "Magic",
+                "weaponArt": "Braggart's Roar"
+            },
+            {
+                "name": "Godskin Peeler",
+                "order": 14,
+                "infusion": "Magic",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Pike",
+                "order": 15,
+                "infusion": "Magic",
+                "weaponArt": "Storm Assault"
+            },
+            {
+                "name": "Greatbow",
+                "order": 16,
+                "infusion": "Standard",
+                "weaponArt": "Through and Through"
+            },
+            {
+                "name": "Stone Club",
+                "order": 17,
+                "infusion": "Magic",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 18,
+                "infusion": "Magic",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Milady",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Lordsworn's Straight Sword",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Star-Lined Sword",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Death Ritual Spear",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Helphen's Steeple",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Carian Sorcery Sword",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Swift Spear",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Blind Spot"
+            },
+            {
+                "name": "Claws of Night",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lucerne",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Charge Forth"
+            },
+            {
+                "name": "Iron Cleaver",
+                "order": 30,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Rabbath's Cannon",
+                "order": 32,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Hoslow's Petal Whip",
+                "order": 33,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Full Moon Crossbow",
+                "order": 34,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Zweihander",
+                "order": 7,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Giant Hunt",
+                "equipIndex": 1
+            },
+            {
+                "name": "Azur's Glintstone Staff",
+                "order": 19,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Main-gauche",
+                "order": 31,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Parry",
+                "equipIndex": 4
+            },
+            {
+                "name": "Sword of Night",
+                "order": 35,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "class",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Radagon Icon",
+                "order": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 2
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 4
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 5,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 6
+            },
+            {
+                "name": "Cerulean Amber Medallion +3",
+                "order": 7
+            },
+            {
+                "name": "Stargazer Heirloom",
+                "order": 8
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 9,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 10,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fire Monk Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Spellblade's Gloves",
+                    "order": 1
+                },
+                {
+                    "name": "Carian Knight Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Eccentric's Manchettes",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Blaidd's Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Spellblade's Traveling Attire",
+                    "order": 1
+                },
+                {
+                    "name": "Dryleaf Robe",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Diallos's Mask",
+                    "order": 0
+                },
+                {
+                    "name": "Alberich's Pointed Hat",
+                    "order": 1
+                },
+                {
+                    "name": "Spellblade's Pointed Hat",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Blaidd's Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Spellblade's Trousers",
+                    "order": 1
+                },
+                {
+                    "name": "Carian Knight Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prisoner"
+}

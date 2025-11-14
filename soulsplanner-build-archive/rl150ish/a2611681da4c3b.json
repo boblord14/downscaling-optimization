@@ -1,0 +1,399 @@
+{
+    "id": "a2611681da4c3b",
+    "is2h": false,
+    "name": "Magiran",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "Intelligence"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Rune Arc",
+                    "order": 3,
+                    "equipIndex": 3
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 4,
+                    "equipIndex": 9
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 5,
+                    "equipIndex": 4
+                },
+                {
+                    "name": "Spellproof Dried Liver",
+                    "order": 6,
+                    "equipIndex": 5
+                },
+                {
+                    "name": "Sleep Pot",
+                    "order": 7,
+                    "equipIndex": 6
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Magic-Shrouding Cracked Tear",
+            "Cerulean Hidden Tear"
+        ]
+    },
+    "stats": {
+        "rl": 165,
+        "arc": 7,
+        "dex": 14,
+        "fth": 9,
+        "int": 80,
+        "mnd": 30,
+        "str": 20,
+        "vig": 55,
+        "vit": 29
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker",
+        "protector-view/left": "Armour Optimiser"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Carian Slicer",
+                "order": 0
+            },
+            {
+                "name": "Glintstone Icecrag",
+                "order": 1
+            },
+            {
+                "name": "Adula's Moonblade",
+                "order": 2
+            },
+            {
+                "name": "Zamor Ice Storm",
+                "order": 3
+            },
+            {
+                "name": "Terra Magica",
+                "order": 4
+            },
+            {
+                "name": "Loretta's Greatbow",
+                "order": 5
+            },
+            {
+                "name": "Comet Azur",
+                "order": 6
+            },
+            {
+                "name": "Ranni's Dark Moon",
+                "order": 7
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 173,
+        "poise": {
+            "original": 66
+        },
+        "runes": {
+            "total": 9676096,
+            "toNextLevel": 195229
+        },
+        "defenses": {
+            "fire": 190,
+            "holy": 149,
+            "magic": 200,
+            "slash": 141,
+            "pierce": 141,
+            "strike": 141,
+            "physical": 141,
+            "lightning": 135
+        },
+        "maxHealth": 1814,
+        "absorption": {
+            "fire": 26.1763273162,
+            "holy": 25.76393286399999,
+            "magic": 26.1763273162,
+            "slash": 35.87210589511001,
+            "pierce": 33.16069691776001,
+            "strike": 31.018188523840006,
+            "physical": 35.54889890512002,
+            "lightning": 25.817385865600016
+        },
+        "maxStamina": 128,
+        "resistances": {
+            "focus": 262,
+            "immunity": 326,
+            "vitality": 276,
+            "robustness": 322
+        },
+        "maxEquipLoad": 76.41603347
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Mace",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Kick",
+                "equipIndex": 1
+            },
+            {
+                "name": "Jellyfish Shield",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Carian Knight's Shield",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 3
+            },
+            {
+                "name": "Rickety Shield",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Barricade Shield",
+                "equipIndex": 4
+            },
+            {
+                "name": "Lusat's Glintstone Staff",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Dark Moon Greatsword",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Helphen's Steeple",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Carian Glintstone Staff",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 3
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 4,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Blue Silver Bracelets",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Banished Knight Armor (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Blue Silver Mail Armor (Altered)",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Snow Witch Hat",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Banished Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Crucible Greaves",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

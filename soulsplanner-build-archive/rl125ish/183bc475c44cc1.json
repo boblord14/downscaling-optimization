@@ -1,0 +1,285 @@
+{
+    "id": "183bc475c44cc1",
+    "is2h": false,
+    "name": "Bear Arms",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 13,
+        "fth": 9,
+        "int": 9,
+        "mnd": 17,
+        "str": 62,
+        "vig": 60,
+        "vit": 27
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 105,
+        "poise": {
+            "altered": 50.54,
+            "original": 38
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 141,
+            "magic": 145,
+            "slash": 157,
+            "pierce": 157,
+            "strike": 157,
+            "physical": 157,
+            "lightning": 127
+        },
+        "maxHealth": 2015.52,
+        "absorption": {
+            "fire": 18.31422932800001,
+            "holy": 16.043979520000008,
+            "magic": 16.30390528000001,
+            "slash": 23.37468757700001,
+            "pierce": 23.054748903,
+            "strike": 17.802627424000008,
+            "physical": 23.694626250999995,
+            "lightning": 14.34574943500001
+        },
+        "maxStamina": 144.375,
+        "resistances": {
+            "focus": 182,
+            "immunity": 249,
+            "vitality": 190,
+            "robustness": 265
+        },
+        "maxEquipLoad": 99.46530276
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Red Bear's Claw",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Red Bear's Claw",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Pulley Bow",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dagger",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Golden Vow"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Arrow's Soaring Sting Talisman",
+                "order": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Blaidd's Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Kaiden Gauntlets",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Armor of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Gaius's Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Kaiden Armor",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Fire Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Kaiden Trousers",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

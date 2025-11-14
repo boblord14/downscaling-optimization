@@ -1,0 +1,839 @@
+{
+    "id": "bac8ce2d544291",
+    "is2h": false,
+    "name": "Gravity Mage",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "Invasions",
+        "Co-op/Gank",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 3,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Lantern",
+                    "order": 4,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Starlight Shards",
+                    "order": 5
+                },
+                {
+                    "name": "Blessing of Marika",
+                    "order": 6
+                },
+                {
+                    "name": "Raw Meat Dumpling",
+                    "order": 7
+                },
+                {
+                    "name": "Neutralizing Boluses",
+                    "order": 8
+                },
+                {
+                    "name": "Preserving Boluses",
+                    "order": 9
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 10,
+                    "equipIndex": 6
+                },
+                {
+                    "name": "Thawfrost Boluses",
+                    "order": 11,
+                    "equipIndex": 5
+                },
+                {
+                    "name": "Stimulating Boluses",
+                    "order": 12
+                },
+                {
+                    "name": "Clarifying Boluses",
+                    "order": 13
+                },
+                {
+                    "name": "Rejuvenating Boluses",
+                    "order": 14
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 15,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Hefty Magic Pot",
+                    "order": 16,
+                    "equipIndex": 4
+                },
+                {
+                    "name": "Freezing Pot",
+                    "order": 17,
+                    "equipIndex": 3
+                },
+                {
+                    "name": "Sleep Pot",
+                    "order": 18
+                },
+                {
+                    "name": "Uplifting Aromatic",
+                    "order": 19,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Fan Daggers",
+                    "order": 20,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Warming Stone",
+                    "order": 21,
+                    "equipIndex": 7
+                },
+                {
+                    "name": "Golden Vow",
+                    "order": 22,
+                    "equipIndex": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Magic-Shrouding Cracked Tear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 13,
+        "fth": 9,
+        "int": 79,
+        "mnd": 25,
+        "str": 14,
+        "vig": 60,
+        "vit": 22
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Carian Slicer",
+                "order": 0
+            },
+            {
+                "name": "Miriam's Vanishing",
+                "order": 1
+            },
+            {
+                "name": "Gravitational Missile",
+                "order": 2
+            },
+            {
+                "name": "Adula's Moonblade",
+                "order": 3
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 4
+            },
+            {
+                "name": "Blades of Stone",
+                "order": 5
+            },
+            {
+                "name": "Collapsing Stars",
+                "order": 6
+            },
+            {
+                "name": "Cannon of Haima",
+                "order": 7
+            },
+            {
+                "name": "Carian Phalanx",
+                "order": 8
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 147,
+        "poise": {
+            "original": 53
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "arc": 8,
+            "fth": 10,
+            "int": 80
+        },
+        "defenses": {
+            "fire": 193,
+            "holy": 149,
+            "magic": 198,
+            "slash": 137,
+            "pierce": 137,
+            "strike": 137,
+            "physical": 137,
+            "lightning": 133
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 22.97921717200001,
+            "holy": 22.592699167600006,
+            "magic": 21.62245438000001,
+            "slash": 27.07401115000001,
+            "pierce": 26.680037680000012,
+            "strike": 23.516571470800017,
+            "physical": 29.294687062,
+            "lightning": 20.721830932000007
+        },
+        "maxStamina": 116,
+        "resistances": {
+            "focus": 217,
+            "immunity": 296,
+            "vitality": 240,
+            "robustness": 310
+        },
+        "maxEquipLoad": 67.23529412
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Lusat's Glintstone Staff",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Lusat's Glintstone Staff",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lusat's Glintstone Staff",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lusat's Glintstone Staff",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lusat's Glintstone Staff",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Meteorite Staff",
+                "order": 6,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Meteorite Staff",
+                "order": 7,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Meteorite Staff",
+                "order": 8,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Meteorite Staff",
+                "order": 9,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 11,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 12,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 13,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 14,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 16,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 17,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 18,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 19,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Carian Sovereignty"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Glintblade Phalanx"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Parry"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 15,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step",
+                "equipIndex": 1
+            },
+            {
+                "name": "Meteorite Staff",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 10,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 1,
+                "equipSet": [
+                    3
+                ]
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 2,
+                "equipSet": [
+                    3
+                ]
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ]
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 4,
+                "equipSet": [
+                    3
+                ]
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 5,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 6,
+                "equipSet": [
+                    1
+                ]
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 7,
+                "equipSet": [
+                    1
+                ]
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 8,
+                "equipSet": [
+                    1
+                ]
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 9,
+                "equipSet": [
+                    1
+                ]
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 10,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 11,
+                "equipSet": [
+                    2
+                ]
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 12,
+                "equipSet": [
+                    2
+                ]
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 13,
+                "equipSet": [
+                    2
+                ]
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 14,
+                "equipSet": [
+                    2
+                ]
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 15,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 16,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 17,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 18,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 19,
+                "equipSet": [
+                    0
+                ]
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 20
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 21
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 22
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 23
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 24
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 25
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 26
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 27
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 28
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 29
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 30
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 31
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 32
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 33
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 34
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 35
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 36
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 37
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 38
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 39
+            },
+            {
+                "name": "Clarifying Horn Charm +2",
+                "order": 40
+            },
+            {
+                "name": "Clarifying Horn Charm +2",
+                "order": 41
+            },
+            {
+                "name": "Clarifying Horn Charm +2",
+                "order": 42
+            },
+            {
+                "name": "Clarifying Horn Charm +2",
+                "order": 43
+            },
+            {
+                "name": "Clarifying Horn Charm +2",
+                "order": 44
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Freyja's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Radahn's Lion Armor (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Circlet of Light",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Freyja's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

@@ -1,0 +1,899 @@
+{
+    "id": "b4d6ae15b64cb4",
+    "is2h": false,
+    "name": "Goon Lord wip",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Hybrid",
+        "Caster"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 139,
+        "arc": 9,
+        "dex": 18,
+        "fth": 33,
+        "int": 42,
+        "mnd": 22,
+        "str": 12,
+        "vig": 60,
+        "vit": 22
+    },
+    "views": {
+        "overview": "swappa",
+        "home/left": "Stats",
+        "home/right": "Talismans",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Ancient Death Rancor",
+                "order": 0
+            },
+            {
+                "name": "Explosive Ghostflame",
+                "order": 1
+            },
+            {
+                "name": "Howl of Shabriri",
+                "order": 2
+            },
+            {
+                "name": "Terra Magica",
+                "order": 3
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 145,
+        "poise": {
+            "original": 44
+        },
+        "stats": {
+            "arc": 13
+        },
+        "defenses": {
+            "fire": 191,
+            "holy": 157,
+            "magic": 183,
+            "slash": 135,
+            "pierce": 135,
+            "strike": 135,
+            "physical": 135,
+            "lightning": 131
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 24.721543126,
+            "holy": 25.2474598975,
+            "magic": 24.290209674999996,
+            "slash": 23.609602432,
+            "pierce": 22.3648764808,
+            "strike": 22.812879601,
+            "physical": 23.370749056000008,
+            "lightning": 23.05757361280001
+        },
+        "maxStamina": 116,
+        "resistances": {
+            "focus": 280,
+            "immunity": 309,
+            "vitality": 297,
+            "robustness": 296
+        },
+        "maxEquipLoad": 67.23529412
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Ice Crest Shield",
+                "order": 0,
+                "infusion": "Magic",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Ice Crest Shield",
+                "order": 1,
+                "infusion": "Magic",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Ice Crest Shield",
+                "order": 2,
+                "infusion": "Magic",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Ice Crest Shield",
+                "order": 3,
+                "infusion": "Magic",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Ice Crest Shield",
+                "order": 4,
+                "infusion": "Magic",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Star Fist",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Prince of Death's Staff",
+                "order": 7,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Spinning Weapon",
+                "equipIndex": 0
+            },
+            {
+                "name": "Prince of Death's Staff",
+                "order": 8,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Weapon"
+            },
+            {
+                "name": "Prince of Death's Staff",
+                "order": 9,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Spinning Weapon",
+                "equipIndex": 5
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Sword of Night and Flame",
+                "order": 12,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Sword of Night and Flame",
+                "order": 13,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Sword of Night and Flame",
+                "order": 14,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 15,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 16,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 17,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 18,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 19,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 20,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 21,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 22,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 23,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 24,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 25,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 26,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 27,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 28,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 29,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 30,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 31,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 32,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 33,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 34,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 35,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 36,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 37,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 38,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Moonveil",
+                "order": 39,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 40,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 41,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 42,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 43,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 44,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 45,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 46,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 47,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 48,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 49,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 50,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 51,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 52,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 53,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 54,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 55,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 56,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 57,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 58,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 59,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 60,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 61,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 62,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 63,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Magma Blade",
+                "order": 64,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Flail",
+                "order": 65,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Flail",
+                "order": 66,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Flail",
+                "order": 67,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Flail",
+                "order": 68,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Flail",
+                "order": 69,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Serpent-Hunter",
+                "order": 70,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Serpent-Hunter",
+                "order": 71,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Serpent-Hunter",
+                "order": 72,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Serpent-Hunter",
+                "order": 73,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Serpent-Hunter",
+                "order": 74,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Blue-White Wooden Shield",
+                "order": 75,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Blue-White Wooden Shield",
+                "order": 76,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Blue-White Wooden Shield",
+                "order": 77,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Blue-White Wooden Shield",
+                "order": 78,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Blue-White Wooden Shield",
+                "order": 79,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 80,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 81,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 82,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 83,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 84,
+                "infusion": "Magic",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 85,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Bloodhound's Step",
+                "equipIndex": 1
+            },
+            {
+                "name": "Golden Order Seal",
+                "order": 86,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 0
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 1
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 2
+            },
+            {
+                "name": "Concealing Veil",
+                "order": 3
+            },
+            {
+                "name": "Concealing Veil",
+                "order": 4
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 5,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 6,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Cerulean Amber Medallion +2",
+                "order": 7,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 8
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 9,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 10
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 11
+            },
+            {
+                "name": "Primal Glintstone Blade",
+                "order": 12
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Elden Lord Bracers",
+                    "order": 0
+                },
+                {
+                    "name": "Gold Bracelets",
+                    "order": 1
+                },
+                {
+                    "name": "Radahn's Gauntlets",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Guardian Garb (Full Bloom)",
+                    "order": 0
+                },
+                {
+                    "name": "Godskin Noble Robe",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Goldmask's Rags",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Crimson Tear Scarab",
+                    "order": 0
+                },
+                {
+                    "name": "Albinauric Mask",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Imp Head (Long-Tongued)",
+                    "order": 2
+                },
+                {
+                    "name": "Commoner's Headband (Altered)",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Elden Lord Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Cloth Trousers",
+                    "order": 1
+                },
+                {
+                    "name": "Radahn's Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Warrior"
+}

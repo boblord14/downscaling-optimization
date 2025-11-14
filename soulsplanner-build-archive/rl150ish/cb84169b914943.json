@@ -1,0 +1,273 @@
+{
+    "id": "cb84169b914943",
+    "is2h": true,
+    "name": "nosummons_150",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Deflecting Hardtear",
+            "Stonebarb Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 13,
+        "fth": 9,
+        "int": 15,
+        "mnd": 10,
+        "str": 88,
+        "vig": 50,
+        "vit": 37
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 79
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 182,
+            "holy": 146,
+            "magic": 162,
+            "slash": 169,
+            "pierce": 169,
+            "strike": 169,
+            "physical": 169,
+            "lightning": 132
+        },
+        "maxHealth": 1704,
+        "absorption": {
+            "fire": 26.7569974624,
+            "holy": 25.4593488934,
+            "magic": 24.5559372136,
+            "slash": 32.044375496799994,
+            "pierce": 31.7911723284,
+            "strike": 30.084460696000004,
+            "physical": 32.340070947200005,
+            "lightning": 23.6970269264
+        },
+        "maxStamina": 138,
+        "resistances": {
+            "focus": 317,
+            "immunity": 312,
+            "vitality": 258,
+            "robustness": 340
+        },
+        "maxEquipLoad": 86.78651227
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Carian Thrusting Shield",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade",
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Curved Sword Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 2,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Guard Counter Attack",
+            "Enhance Thrusting Counter Attacks"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Carian Knight Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Blaidd's Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Jar",
+                    "order": 0
+                },
+                {
+                    "name": "Carian Knight Helm",
+                    "order": 1
+                },
+                {
+                    "name": "Helm of Solitude",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

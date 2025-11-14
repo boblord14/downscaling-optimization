@@ -1,0 +1,249 @@
+{
+    "id": "fab0920fd645e7",
+    "is2h": false,
+    "name": "Ven Fang Pre DLC",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Arcane",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Thorny Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 80,
+        "dex": 15,
+        "fth": 8,
+        "int": 7,
+        "mnd": 9,
+        "str": 20,
+        "vig": 60,
+        "vit": 30
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Edit",
+        "protector-view/right": "Armour Optimiser"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 78
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 20
+        },
+        "defenses": {
+            "fire": 193,
+            "holy": 198,
+            "magic": 147,
+            "slash": 139,
+            "pierce": 139,
+            "strike": 139,
+            "physical": 139,
+            "lightning": 133
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 35.898527192319996,
+            "holy": 36.576100191808,
+            "magic": 36.579223444864,
+            "slash": 55.2076944770816,
+            "pierce": 54.61839591808,
+            "strike": 52.0388712605824,
+            "physical": 55.513242713535995,
+            "lightning": 35.940059239743995
+        },
+        "maxStamina": 130,
+        "resistances": {
+            "focus": 244,
+            "immunity": 369,
+            "vitality": 300,
+            "robustness": 375
+        },
+        "maxEquipLoad": 77.64460262
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Venomous Fang",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Endure",
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Trigger in Presence of Rot",
+            "Successive 9 Hits"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Crucible Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Radahn's Lion Armor (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Mushroom Crown",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Verdigris Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

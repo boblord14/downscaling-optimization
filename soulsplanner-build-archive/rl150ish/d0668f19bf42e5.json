@@ -1,0 +1,349 @@
+{
+    "id": "d0668f19bf42e5",
+    "is2h": false,
+    "name": "Op gravity cosmic mage (For Zenos)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Magic-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 160,
+        "arc": 8,
+        "dex": 17,
+        "fth": 8,
+        "int": 80,
+        "mnd": 29,
+        "str": 12,
+        "vig": 60,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Carian Slicer",
+                "order": 0
+            },
+            {
+                "name": "Carian Greatsword",
+                "order": 1
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 2
+            },
+            {
+                "name": "Gravitational Missile",
+                "order": 3
+            },
+            {
+                "name": "Collapsing Stars",
+                "order": 4
+            },
+            {
+                "name": "Blades of Stone",
+                "order": 5
+            },
+            {
+                "name": "Shard Spiral",
+                "order": 6
+            },
+            {
+                "name": "Comet",
+                "order": 7
+            },
+            {
+                "name": "Terra Magica",
+                "order": 8
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 168,
+        "poise": {
+            "original": 58
+        },
+        "runes": {
+            "total": 8754800,
+            "toNextLevel": 181549
+        },
+        "defenses": {
+            "fire": 194,
+            "holy": 150,
+            "magic": 199,
+            "slash": 138,
+            "pierce": 138,
+            "strike": 138,
+            "physical": 138,
+            "lightning": 134
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 25.983041008600004,
+            "holy": 23.183012564499993,
+            "magic": 23.34314245,
+            "slash": 27.05265871360001,
+            "pierce": 26.348787640000005,
+            "strike": 24.481582144,
+            "physical": 27.355326069999997,
+            "lightning": 20.46679118560001
+        },
+        "maxStamina": 121,
+        "resistances": {
+            "focus": 241,
+            "immunity": 309,
+            "vitality": 265,
+            "robustness": 313
+        },
+        "maxEquipLoad": 72
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Carian Regal Scepter",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lusat's Glintstone Staff",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Wing of Astel",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Meteorite Staff",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 1,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 3,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Lusat's Manchettes",
+                    "order": 0
+                },
+                {
+                    "name": "Queen's Bracelets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Lusat's Robe",
+                    "order": 0
+                },
+                {
+                    "name": "Armor of Solitude",
+                    "order": 1
+                },
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Scaled Armor",
+                    "order": 3
+                },
+                {
+                    "name": "Blaidd's Armor",
+                    "order": 4
+                },
+                {
+                    "name": "Fingerprint Armor",
+                    "order": 5,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Gaius's Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Old Sorcerer's Legwraps",
+                    "order": 0
+                },
+                {
+                    "name": "Scaled Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Samurai"
+}

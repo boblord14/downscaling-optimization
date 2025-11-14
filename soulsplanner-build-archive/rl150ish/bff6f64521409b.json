@@ -1,0 +1,288 @@
+{
+    "id": "bff6f64521409b",
+    "is2h": false,
+    "name": "Messmer's revenge",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Crimsonspill Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 11,
+        "dex": 35,
+        "fth": 60,
+        "int": 7,
+        "mnd": 30,
+        "str": 16,
+        "vig": 45,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Flame of the Fell God",
+                "order": 2
+            },
+            {
+                "name": "Messmer's Orb",
+                "order": 3
+            },
+            {
+                "name": "O, Flame!",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 173,
+        "poise": {
+            "original": 54
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 177,
+            "holy": 154,
+            "magic": 146,
+            "slash": 137,
+            "pierce": 137,
+            "strike": 137,
+            "physical": 137,
+            "lightning": 132
+        },
+        "maxHealth": 1739.1,
+        "absorption": {
+            "fire": 19.997786212042367,
+            "holy": 17.62619129120858,
+            "magic": 17.62619129120858,
+            "slash": 9.710816712312177,
+            "pierce": 9.360456357000546,
+            "strike": 6.008943187732319,
+            "physical": 7.959285569507035,
+            "lightning": 17.32781671290131
+        },
+        "maxStamina": 121,
+        "resistances": {
+            "focus": 234,
+            "immunity": 283,
+            "vitality": 247,
+            "robustness": 291
+        },
+        "maxEquipLoad": 72
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Spear of the Impaler",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Giant's Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Carian Filigreed Crest",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 4,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Messmer's Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Messmer's Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Messmer's Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Messmer's Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

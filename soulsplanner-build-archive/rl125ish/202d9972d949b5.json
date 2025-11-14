@@ -1,0 +1,281 @@
+{
+    "id": "202d9972d949b5",
+    "pve": {
+        "inDLC1": false
+    },
+    "is2h": true,
+    "name": "Cold Milady, Endure + 2h cr2.",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Boiled Crab",
+                    "order": 0,
+                    "active": true
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Spiked Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 9,
+        "dex": 41,
+        "fth": 7,
+        "int": 46,
+        "mnd": 15,
+        "str": 8,
+        "vig": 60,
+        "vit": 18
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Terra Magica",
+                "order": 0
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 95,
+        "poise": {
+            "original": 52
+        },
+        "runes": {
+            "total": 3981350,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "dex": 46,
+            "int": 49
+        },
+        "defenses": {
+            "fire": 189,
+            "holy": 147,
+            "magic": 184,
+            "slash": 131,
+            "pierce": 131,
+            "strike": 131,
+            "physical": 131,
+            "lightning": 129
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 20.081470536088354,
+            "holy": 18.566141390582757,
+            "magic": 18.7370414086508,
+            "slash": 31.573544155679865,
+            "pierce": 30.52634237772951,
+            "strike": 28.546829328385705,
+            "physical": 30.243263023126055,
+            "lightning": 17.67300328194975
+        },
+        "maxStamina": 110,
+        "resistances": {
+            "focus": 236,
+            "immunity": 278,
+            "vitality": 249,
+            "robustness": 279
+        },
+        "maxEquipLoad": 60.88235294
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Milady",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Cold",
+                "weaponArt": "Endure",
+                "equipIndex": 0
+            },
+            {
+                "name": "Dagger",
+                "order": 2,
+                "upgrade": 0,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Golden Vow",
+                "equipIndex": 2
+            },
+            {
+                "name": "Academy Glintstone Staff",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Queen's Crescent Crown",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

@@ -1,0 +1,367 @@
+{
+    "id": "12e6a0299344a9",
+    "is2h": false,
+    "name": "Viking",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Invasions",
+        "Strength",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Strength-knot Crystal Tear",
+            "Winged Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 90,
+        "arc": 7,
+        "dex": 16,
+        "fth": 11,
+        "int": 11,
+        "mnd": 10,
+        "str": 38,
+        "vig": 50,
+        "vit": 26
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 39
+        },
+        "runes": {
+            "total": 1446127,
+            "toNextLevel": 50293
+        },
+        "defenses": {
+            "fire": 169,
+            "holy": 133,
+            "magic": 141,
+            "slash": 133,
+            "pierce": 133,
+            "strike": 133,
+            "physical": 133,
+            "lightning": 119
+        },
+        "maxHealth": 1874.4,
+        "absorption": {
+            "fire": 20.7997018258,
+            "holy": 16.834819537,
+            "magic": 16.402219839999997,
+            "slash": 24.91241791840001,
+            "pierce": 23.600453816000012,
+            "strike": 19.45980911500001,
+            "physical": 24.19167202360002,
+            "lightning": 13.540472944000005
+        },
+        "maxStamina": 123,
+        "resistances": {
+            "focus": 159,
+            "immunity": 219,
+            "vitality": 172,
+            "robustness": 229
+        },
+        "maxEquipLoad": 72.96109507
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Broadsword",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Square Off",
+                "equipIndex": 0
+            },
+            {
+                "name": "Smithscript Axe",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Smithscript Spear",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Smithscript Greathammer",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Blinkbolt"
+            },
+            {
+                "name": "Miquellan Knight's Sword",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Stormhawk Axe",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Death Knight's Twin Axes",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Messmer Soldier's Spear",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Crescent Moon Axe",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Stormcaller",
+                "equipIndex": 1
+            },
+            {
+                "name": "Messmer Soldier Shield",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 3
+            },
+            {
+                "name": "Hand Axe",
+                "order": 8,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Quickstep",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "class",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Axe Talisman",
+                "order": 0,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Smithing Talisman",
+                "order": 1,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 2
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 3
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 4
+            },
+            {
+                "name": "Roar Medallion",
+                "order": 5
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 6,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 7
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 8,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 9
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 10
+            }
+        ],
+        "sorting": {
+            "method": "weight",
+            "direction": "desc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Messmer Soldier Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Raging Wolf Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Chain Leggings",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 20,
+    "characterClass": "Vagabond"
+}

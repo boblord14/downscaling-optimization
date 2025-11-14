@@ -1,0 +1,564 @@
+{
+    "id": "24ebcb158444db",
+    "name": "Ashen Crow Mira: Meta Arc",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Roped Fly Pot",
+                    "order": 0,
+                    "equipIndex": 3
+                },
+                {
+                    "name": "Freezing Pot",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fan Daggers",
+                    "order": 2,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Clarifying Boluses",
+                    "order": 3,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Rejuvenating Boluses",
+                    "order": 4
+                },
+                {
+                    "name": "Preserving Boluses",
+                    "order": 5
+                },
+                {
+                    "name": "Stimulating Boluses",
+                    "order": 6
+                },
+                {
+                    "name": "Thawfrost Boluses",
+                    "order": 7,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 8,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Neutralizing Boluses",
+                    "order": 9
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 10,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 11,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 12,
+                    "equipIndex": 14
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 135,
+        "arc": 40,
+        "dex": 35,
+        "fth": 9,
+        "int": 9,
+        "mnd": 16,
+        "str": 16,
+        "vig": 60,
+        "vit": 29
+    },
+    "views": {
+        "overview": "swappa",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Magic Fortification",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 100,
+        "poise": {
+            "original": 76
+        },
+        "defenses": {
+            "fire": 189,
+            "holy": 181,
+            "magic": 147,
+            "slash": 134,
+            "pierce": 134,
+            "strike": 134,
+            "physical": 134,
+            "lightning": 129
+        },
+        "maxHealth": 2052,
+        "absorption": {
+            "fire": 26.90069827,
+            "holy": 24.777480201399992,
+            "magic": 24.588014150800007,
+            "slash": 32.645397214000006,
+            "pierce": 32.39746616079999,
+            "strike": 31.213961925400003,
+            "physical": 32.57002059039999,
+            "lightning": 25.460284816
+        },
+        "maxStamina": 128,
+        "resistances": {
+            "focus": 259,
+            "immunity": 338,
+            "vitality": 281,
+            "robustness": 313
+        },
+        "maxEquipLoad": 90.93507983
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 0,
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 1,
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 2,
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 3,
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry"
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 4,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 5,
+                "infusion": "Blood",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 6,
+                "infusion": "Blood",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Broadsword",
+                "order": 7,
+                "infusion": "Blood",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Broadsword",
+                "order": 8,
+                "infusion": "Blood",
+                "weaponArt": "Poison Moth Flight"
+            },
+            {
+                "name": "Broadsword",
+                "order": 9,
+                "infusion": "Blood",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Vulgar Militia Saw",
+                "order": 10,
+                "infusion": "Occult",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Morgott's Cursed Sword",
+                "order": 11,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Bloody Helice",
+                "order": 12,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Godskin Stitcher",
+                "order": 13,
+                "infusion": "Occult",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Wakizashi",
+                "order": 14,
+                "infusion": "Poison",
+                "weaponArt": "Bloodhound's Step",
+                "equipIndex": 3
+            },
+            {
+                "name": "Vulgar Militia Saw",
+                "order": 15,
+                "infusion": "Occult",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Morgott's Cursed Sword",
+                "order": 16,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Rivers of Blood",
+                "order": 17,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Reduvia",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Scavenger's Curved Sword",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Scavenger's Curved Sword",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Bloody Slash"
+            },
+            {
+                "name": "Bloody Helice",
+                "order": 22,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Reduvia",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 24,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 29,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Kick"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Concealing Veil",
+                "order": 0
+            },
+            {
+                "name": "Hammer Talisman",
+                "order": 1
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 2
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 3
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 4
+            },
+            {
+                "name": "Stalwart Horn Charm +1",
+                "order": 5
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 6,
+                "equipIndex": 0
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 7,
+                "equipIndex": 1
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 8,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 9,
+                "equipIndex": 3
+            },
+            {
+                "name": "Clarifying Horn Charm +1",
+                "order": 10
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 11
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 12
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 13
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 14
+            },
+            {
+                "name": "Immunizing Horn Charm +1",
+                "order": 15
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 16
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 17
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 18
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 19
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Beast Champion Armor (Altered)",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Royal Remains Armor",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Bandit Mask",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Royal Remains Helm",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Royal Remains Greaves",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

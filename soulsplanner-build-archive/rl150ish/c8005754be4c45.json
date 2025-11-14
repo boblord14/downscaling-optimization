@@ -1,0 +1,248 @@
+{
+    "id": "c8005754be4c45",
+    "is2h": false,
+    "name": "Emerald Wolf v2.0",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Quality",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Glovewort Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 44,
+        "fth": 20,
+        "int": 20,
+        "mnd": 10,
+        "str": 43,
+        "vig": 60,
+        "vit": 25
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 67
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 48,
+            "str": 47
+        },
+        "defenses": {
+            "fire": 194,
+            "holy": 148,
+            "magic": 174,
+            "slash": 154,
+            "pierce": 154,
+            "strike": 154,
+            "physical": 154,
+            "lightning": 134
+        },
+        "maxHealth": 2612.5,
+        "absorption": {
+            "fire": 35.07720917708802,
+            "holy": 33.46813138729602,
+            "magic": 32.49378837904601,
+            "slash": 45.24938767743999,
+            "pierce": 45.308070005759994,
+            "strike": 42.37062998975999,
+            "physical": 45.4254346624,
+            "lightning": 30.70648471384001
+        },
+        "maxStamina": 121,
+        "resistances": {
+            "focus": 84,
+            "immunity": 314,
+            "vitality": 249,
+            "robustness": 310
+        },
+        "maxEquipLoad": 72
+    },
+    "greatRune": "Morgott's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Rellana's Twin Blades",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Crimson Seed Talisman +1",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Pearldrake Talisman +3",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Unknown"
+        ],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Young Lion's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Young Lion's Armor (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Divine Beast Head",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Young Lion's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

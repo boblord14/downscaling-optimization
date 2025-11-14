@@ -1,0 +1,249 @@
+{
+    "id": "a8b5f4ee794ffb",
+    "is2h": false,
+    "name": "Dual Occult Scavengers Curved Sword 2",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Hybrid",
+        "PvE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Swarm Pot",
+                    "order": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Flame-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 85,
+        "arc": 44,
+        "dex": 15,
+        "fth": 25,
+        "int": 9,
+        "mnd": 11,
+        "str": 12,
+        "vig": 35,
+        "vit": 13
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Stats",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Swarm of Flies",
+                "order": 1
+            },
+            {
+                "name": "Rotten Breath",
+                "order": 2
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 3
+            }
+        ]
+    },
+    "greatRune": "Godrick's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Scavenger's Curved Sword",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Cragblade",
+                "equipIndex": 3
+            },
+            {
+                "name": "Scavenger's Curved Sword",
+                "order": 1,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Cragblade",
+                "equipIndex": 0
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 2,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 0,
+                "equipIndex": 3
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 2,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Trigger in Presence of Blood Loss",
+            "HP above 100%",
+            "Jump Attack",
+            "Successive 9 Hits"
+        ],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Veteran's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Raptor's Black Feathers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "White Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Veteran's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Samurai"
+}

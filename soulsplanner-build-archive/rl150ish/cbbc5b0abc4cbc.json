@@ -1,0 +1,335 @@
+{
+    "id": "cbbc5b0abc4cbc",
+    "is2h": false,
+    "name": "Fire Monk",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 10,
+        "dex": 10,
+        "fth": 80,
+        "int": 7,
+        "mnd": 25,
+        "str": 11,
+        "vig": 60,
+        "vit": 26
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Catch Flame",
+                "order": 0
+            },
+            {
+                "name": "O, Flame!",
+                "order": 1
+            },
+            {
+                "name": "Giantsflame Take Thee",
+                "order": 2
+            },
+            {
+                "name": "Flame, Fall Upon Them",
+                "order": 3
+            },
+            {
+                "name": "Burn, O Flame!",
+                "order": 4
+            },
+            {
+                "name": "Heal from Afar",
+                "order": 5
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 6
+            },
+            {
+                "name": "Golden Vow",
+                "order": 7
+            },
+            {
+                "name": "Blessing of the Erdtree",
+                "order": 8
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 147,
+        "poise": {
+            "altered": 86.66666645,
+            "original": 65
+        },
+        "runes": {
+            "total": 7108171,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 152,
+            "magic": 146,
+            "slash": 135,
+            "pierce": 135,
+            "strike": 135,
+            "physical": 135,
+            "lightning": 132
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 30.38716112500001,
+            "holy": 21.15908785,
+            "magic": 22.93988439610001,
+            "slash": 29.324724508,
+            "pierce": 28.276539903999996,
+            "strike": 27.255920363200005,
+            "physical": 30.63680268400001,
+            "lightning": 20.9067286
+        },
+        "maxStamina": 123,
+        "resistances": {
+            "focus": 275,
+            "immunity": 302,
+            "vitality": 247,
+            "robustness": 321
+        },
+        "maxEquipLoad": 72.96109507
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Giant's Seal",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Dryleaf Arts",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Palm Blast"
+            },
+            {
+                "name": "Dagger",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Bloodhound's Step",
+                "equipIndex": 1
+            },
+            {
+                "name": "Giant's Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Smoldering Shield",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 1,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 2,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 3,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fire Monk Gauntlets",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Fire Monk Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Fire Monk Hood",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fire Monk Greaves",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prophet"
+}

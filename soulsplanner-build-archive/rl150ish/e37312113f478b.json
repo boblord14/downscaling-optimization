@@ -1,0 +1,272 @@
+{
+    "id": "e37312113f478b",
+    "is2h": false,
+    "name": "Bye bye malenia ",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Arcane",
+        "Caster"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Freezing Pot",
+                    "order": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Stonebarb Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 56,
+        "dex": 14,
+        "fth": 25,
+        "int": 9,
+        "mnd": 25,
+        "str": 30,
+        "vig": 50,
+        "vit": 20
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "All Items",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bloodboon",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            },
+            {
+                "name": "Dragonfire",
+                "order": 2
+            },
+            {
+                "name": "Rotten Breath",
+                "order": 3
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 147,
+        "poise": {
+            "original": 52
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 182,
+            "holy": 190,
+            "magic": 150,
+            "slash": 142,
+            "pierce": 142,
+            "strike": 142,
+            "physical": 142,
+            "lightning": 132
+        },
+        "maxHealth": 1704,
+        "absorption": {
+            "fire": 22.8839824,
+            "holy": 23.992795999999995,
+            "magic": 22.54262400000001,
+            "slash": 36.77356288,
+            "pierce": 38.84444619999999,
+            "strike": 32.963785215999984,
+            "physical": 34.740408063999986,
+            "lightning": 20.47264
+        },
+        "maxStamina": 113,
+        "resistances": {
+            "focus": 213,
+            "immunity": 320,
+            "vitality": 260,
+            "robustness": 293
+        },
+        "maxEquipLoad": 64.05882353
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Mohgwyn's Sacred Spear",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Cleanrot Gauntlets",
+                    "order": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Cleanrot Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Cleanrot Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Cleanrot Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

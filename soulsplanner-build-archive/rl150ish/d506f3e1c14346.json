@@ -1,0 +1,346 @@
+{
+    "id": "d506f3e1c14346",
+    "is2h": false,
+    "name": "Holy Elden Assassin ",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Flame-Shrouding Cracked Tear",
+            "Thorny Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 14,
+        "fth": 60,
+        "int": 9,
+        "mnd": 25,
+        "str": 12,
+        "vig": 60,
+        "vit": 40
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Golden Vow",
+                "order": 0
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 1
+            },
+            {
+                "name": "Black Flame's Protection",
+                "order": 2
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 3
+            },
+            {
+                "name": "Black Flame",
+                "order": 4
+            },
+            {
+                "name": "Lightning Spear",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 147,
+        "poise": {
+            "original": 30
+        },
+        "runes": {
+            "total": 7105792,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 19
+        },
+        "defenses": {
+            "fire": 193,
+            "holy": 151,
+            "magic": 151,
+            "slash": 137,
+            "pierce": 137,
+            "strike": 137,
+            "physical": 137,
+            "lightning": 133
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 21.849807879999993,
+            "holy": 20.414347331500004,
+            "magic": 22.282761158800003,
+            "slash": 34.398340307199994,
+            "pierce": 34.1950293784,
+            "strike": 33.68795410431999,
+            "physical": 32.69012463999999,
+            "lightning": 21.8905680412
+        },
+        "maxStamina": 142,
+        "resistances": {
+            "focus": 301,
+            "immunity": 321,
+            "vitality": 302,
+            "robustness": 271
+        },
+        "maxEquipLoad": 90.90021588
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Fire Knight's Shortsword",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flame of the Redmanes"
+            },
+            {
+                "name": "Fire Knight's Shortsword",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Erdsteel Dagger",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Flame of the Redmanes",
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdsteel Dagger",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Cragblade",
+                "equipIndex": 3
+            },
+            {
+                "name": "Godslayer's Seal",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Successive 9 Hits",
+            "Successive 6 Hits",
+            "Successive 3 Hits",
+            "Jump Attack",
+            "HP below 18%"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Godskin Apostle Bracelets",
+                    "order": 0
+                },
+                {
+                    "name": "Royal Remains Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Sage Robe",
+                    "order": 0
+                },
+                {
+                    "name": "Confessor Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Confessor Armor (Altered)",
+                    "order": 2
+                },
+                {
+                    "name": "Black Knife Armor",
+                    "order": 3
+                },
+                {
+                    "name": "Raptor's Black Feathers",
+                    "order": 4,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Alberich's Robe",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Sanguine Noble Hood",
+                    "order": 0
+                },
+                {
+                    "name": "Black Hood",
+                    "order": 1
+                },
+                {
+                    "name": "Skeletal Mask",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Preceptor's Trousers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Confessor"
+}

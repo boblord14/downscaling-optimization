@@ -1,0 +1,295 @@
+{
+    "id": "4bdeceb9a949a3",
+    "is2h": false,
+    "name": "Heavy Bloodhound Claws, 2h r1 chain, ~5.3k dps.",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "Caster",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Bloodsucking Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 11,
+        "dex": 10,
+        "fth": 15,
+        "int": 7,
+        "mnd": 9,
+        "str": 76,
+        "vig": 60,
+        "vit": 16
+    },
+    "views": {
+        "overview": "build-planner",
+        "protector-view/left": "Armour Optimiser"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Bloodflame Blade",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 60
+        },
+        "runes": {
+            "total": 3980593,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "dex": 15
+        },
+        "defenses": {
+            "fire": 188,
+            "holy": 150,
+            "magic": 142,
+            "slash": 162,
+            "pierce": 162,
+            "strike": 162,
+            "physical": 162,
+            "lightning": 128
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 20.541194854527877,
+            "holy": 22.147848129628,
+            "magic": 20.61749758276,
+            "slash": 41.04971706736001,
+            "pierce": 39.13838991198381,
+            "strike": 37.09279951714433,
+            "physical": 40.25668043462811,
+            "lightning": 19.151283128119843
+        },
+        "maxStamina": 106,
+        "resistances": {
+            "focus": 232,
+            "immunity": 297,
+            "vitality": 244,
+            "robustness": 296
+        },
+        "maxEquipLoad": 57.70588235
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Bloodhound Claws",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Endure",
+                "equipIndex": 0
+            },
+            {
+                "name": "Cane Sword",
+                "order": 2,
+                "upgrade": 0,
+                "infusion": "Standard",
+                "weaponArt": "Seppuku"
+            },
+            {
+                "name": "Commander's Standard",
+                "order": 1,
+                "upgrade": 0,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 2
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Old Lord's Talisman",
+                "order": 3
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Crucible Tree Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "White Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Hero"
+}

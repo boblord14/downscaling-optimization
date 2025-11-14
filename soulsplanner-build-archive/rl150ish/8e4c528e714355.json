@@ -1,0 +1,297 @@
+{
+    "id": "8e4c528e714355",
+    "is2h": false,
+    "name": "Roar Build(N)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Hybrid"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Boiled Crab",
+                    "order": 0,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Fan Daggers",
+                    "order": 1,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Dappled White Cured Meat",
+                    "order": 2,
+                    "equipIndex": 15
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Greenburst Crystal Tear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 17,
+        "dex": 14,
+        "fth": 42,
+        "int": 18,
+        "mnd": 20,
+        "str": 42,
+        "vig": 46,
+        "vit": 30
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Greyoll's Roar",
+                "order": 0
+            },
+            {
+                "name": "Smarag's Glintstone Breath",
+                "order": 1
+            },
+            {
+                "name": "Erdtree Heal",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "altered": 89.33333311,
+            "original": 67
+        },
+        "runes": {
+            "total": 7112459,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 178,
+            "holy": 166,
+            "magic": 168,
+            "slash": 148,
+            "pierce": 148,
+            "strike": 148,
+            "physical": 148,
+            "lightning": 132
+        },
+        "maxHealth": 1606,
+        "absorption": {
+            "fire": 26.05037669000001,
+            "holy": 25.015577745700018,
+            "magic": 25.420166581000004,
+            "slash": 33.981939193600006,
+            "pierce": 32.215651720000004,
+            "strike": 27.728255979999993,
+            "physical": 33.929713067200005,
+            "lightning": 23.566179232000007
+        },
+        "maxStamina": 130,
+        "resistances": {
+            "focus": 243,
+            "immunity": 320,
+            "vitality": 259,
+            "robustness": 357
+        },
+        "maxEquipLoad": 92.39707712
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Troll Knight's Sword",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Greataxe",
+                "order": 1,
+                "infusion": "Sacred",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Watchdog's Staff",
+                "order": 3,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Axe of Godfrey",
+                "order": 4,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Highland Axe",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Beast's Roar",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 0,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Roar Medallion",
+                "order": 2,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Radahn's Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Eccentric's Hood",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Radahn's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Wretch"
+}

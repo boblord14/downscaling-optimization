@@ -1,0 +1,318 @@
+{
+    "id": "1b522eb20845b1",
+    "is2h": false,
+    "name": "Keen Noble's, Square Off + Crit.",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Dexterity",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Stonebarb Cracked Tear",
+            "Bloodsucking Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 61,
+        "fth": 27,
+        "int": 9,
+        "mnd": 10,
+        "str": 14,
+        "vig": 60,
+        "vit": 16
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Blessing's Boon",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Electrify Armament",
+                "order": 2
+            },
+            {
+                "name": "Flame, Protect Me",
+                "order": 3
+            },
+            {
+                "name": "Lord's Divine Fortification",
+                "order": 4
+            },
+            {
+                "name": "Golden Lightning Fortification",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 59
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "dex": 64
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 141,
+            "magic": 145,
+            "slash": 131,
+            "pierce": 131,
+            "strike": 131,
+            "physical": 131,
+            "lightning": 127
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 20.17321684712272,
+            "holy": 21.70240596550721,
+            "magic": 20.682361374860804,
+            "slash": 40.41238675455999,
+            "pierce": 39.244621712675965,
+            "strike": 37.118861146952696,
+            "physical": 40.18199932675074,
+            "lightning": 18.948839914609128
+        },
+        "maxStamina": 106,
+        "resistances": {
+            "focus": 178,
+            "immunity": 295,
+            "vitality": 234,
+            "robustness": 286
+        },
+        "maxEquipLoad": 57.70588235
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Dryleaf Seal",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Royal Knight's Resolve"
+            },
+            {
+                "name": "Lordsworn's Straight Sword",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Keen",
+                "weaponArt": "Square Off",
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Blade of Mercy",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 1
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 4,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Rellana's Cameo",
+                "order": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Ascetic's Wrist Guards",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Radahn's Lion Armor (Altered)",
+                    "order": 1
+                },
+                {
+                    "name": "Crucible Tree Armor (Altered)",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Okina Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Freyja's Greaves",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

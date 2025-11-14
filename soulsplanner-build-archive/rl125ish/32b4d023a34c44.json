@@ -1,0 +1,282 @@
+{
+    "id": "32b4d023a34c44",
+    "is2h": false,
+    "name": "Ultimate Crouchpoke",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Bloodsucking Cracked Tear",
+            "Stonebarb Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 14,
+        "fth": 15,
+        "int": 9,
+        "mnd": 10,
+        "str": 54,
+        "vig": 60,
+        "vit": 35
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 52
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "defenses": {
+            "fire": 187,
+            "holy": 141,
+            "magic": 145,
+            "slash": 152,
+            "pierce": 152,
+            "strike": 152,
+            "physical": 152,
+            "lightning": 127
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 17.988598194536575,
+            "holy": 16.856948320491526,
+            "magic": 17.505056741155833,
+            "slash": 21.41606403121601,
+            "pierce": 20.379235666037076,
+            "strike": 18.30149068279723,
+            "physical": 20.777329530787014,
+            "lightning": 13.442046468731006
+        },
+        "maxStamina": 136,
+        "resistances": {
+            "focus": 209,
+            "immunity": 267,
+            "vitality": 215,
+            "robustness": 299
+        },
+        "maxEquipLoad": 84.09947079
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Greatsword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade",
+                "equipIndex": 3
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Fire",
+                "weaponArt": "Royal Knight's Resolve",
+                "equipIndex": 1
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Spear Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Talisman of All Crucibles",
+                "order": 2
+            },
+            {
+                "name": "Retaliatory Crossed-Tree",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Retaliatory Crossed-Tree",
+                "order": 4
+            },
+            {
+                "name": "Blade of Mercy",
+                "order": 5,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Leda's Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Rakshasa Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

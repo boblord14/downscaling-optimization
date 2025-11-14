@@ -1,0 +1,343 @@
+{
+    "id": "fa3750fabd4ad9",
+    "is2h": false,
+    "name": "Blood Flame Build",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "Faith",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Boiled Crab",
+                    "order": 0,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Fan Daggers",
+                    "order": 1,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Bloodboil Aromatic",
+                    "order": 2
+                },
+                {
+                    "name": "Sacred Bloody Flesh",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Bloodsucking Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 45,
+        "dex": 30,
+        "fth": 29,
+        "int": 9,
+        "mnd": 20,
+        "str": 15,
+        "vig": 47,
+        "vit": 34
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bloodboon",
+                "order": 0
+            },
+            {
+                "name": "Bloodflame Talons",
+                "order": 1
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 2
+            },
+            {
+                "name": "Furious Blade of Ansbach",
+                "order": 3
+            },
+            {
+                "name": "Lord's Heal",
+                "order": 4
+            },
+            {
+                "name": "Barrier of Gold",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "original": 53
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "vig": 48
+        },
+        "defenses": {
+            "fire": 180,
+            "holy": 186,
+            "magic": 150,
+            "slash": 137,
+            "pierce": 137,
+            "strike": 137,
+            "physical": 137,
+            "lightning": 132
+        },
+        "maxHealth": 1821.6,
+        "absorption": {
+            "fire": 26.006767840000013,
+            "holy": 23.005540698400008,
+            "magic": 22.899820135600013,
+            "slash": 25.333560568000003,
+            "pierce": 25.675251695199997,
+            "strike": 23.273843363200008,
+            "physical": 25.810283680000012,
+            "lightning": 21.190565560000007
+        },
+        "maxStamina": 135,
+        "resistances": {
+            "focus": 251,
+            "immunity": 285,
+            "vitality": 271,
+            "robustness": 293
+        },
+        "maxEquipLoad": 82.7753934
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Flamberge",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Skewer",
+                "equipIndex": 0
+            },
+            {
+                "name": "Eleonora's Poleblade",
+                "order": 4,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bloodfiend's Fork",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flame Spear"
+            },
+            {
+                "name": "Rivers of Blood",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 2
+            },
+            {
+                "name": "Buckler",
+                "order": 6,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Parry",
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 1,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Rivers of Blood",
+                "order": 3,
+                "equipSet": [
+                    5
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Blaidd's Armor (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Crimson Hood",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Hoslow's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

@@ -1,0 +1,561 @@
+{
+    "id": "2ba198e1eb4cb3",
+    "is2h": false,
+    "name": "RL 125 Pure Dex",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Duels",
+        "Dexterity",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Neutralizing Boluses",
+                    "order": 0,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 1,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Preserving Boluses",
+                    "order": 2,
+                    "equipIndex": 3
+                },
+                {
+                    "name": "Thawfrost Boluses",
+                    "order": 3,
+                    "equipIndex": 4
+                },
+                {
+                    "name": "Stimulating Boluses",
+                    "order": 4
+                },
+                {
+                    "name": "Fireproof Pickled Liver",
+                    "order": 5
+                },
+                {
+                    "name": "Spellproof Pickled Liver",
+                    "order": 6
+                },
+                {
+                    "name": "Lightningproof Pickled Liver",
+                    "order": 7
+                },
+                {
+                    "name": "Holyproof Pickled Liver",
+                    "order": 8
+                },
+                {
+                    "name": "Opaline Pickled Liver",
+                    "order": 9
+                },
+                {
+                    "name": "Fan Daggers",
+                    "order": 10
+                },
+                {
+                    "name": "Throwing Dagger",
+                    "order": 11,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Drawstring Rot Grease",
+                    "order": 12,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Drawstring Blood Grease",
+                    "order": 13,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Drawstring Dragonbolt Grease",
+                    "order": 14,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Roped Fetid Pot",
+                    "order": 15,
+                    "equipIndex": 9
+                },
+                {
+                    "name": "Freezing Pot",
+                    "order": 16,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 17,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 18
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 19
+                },
+                {
+                    "name": "Recusant Finger",
+                    "order": 20
+                },
+                {
+                    "name": "Bloody Finger",
+                    "order": 21
+                },
+                {
+                    "name": "Taunter's Tongue",
+                    "order": 22
+                },
+                {
+                    "name": "Duelist's Furled Finger",
+                    "order": 23
+                },
+                {
+                    "name": "Tarnished's Furled Finger",
+                    "order": 24
+                },
+                {
+                    "name": "White Cipher Ring",
+                    "order": 25
+                },
+                {
+                    "name": "Blue Cipher Ring",
+                    "order": 26
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 27,
+                    "equipIndex": 15
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 125,
+        "arc": 7,
+        "dex": 47,
+        "fth": 12,
+        "int": 9,
+        "mnd": 10,
+        "str": 14,
+        "vig": 60,
+        "vit": 45
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/right": "Inventories"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 90
+        },
+        "runes": {
+            "total": 3979025,
+            "toNextLevel": 102838
+        },
+        "stats": {
+            "dex": 51,
+            "str": 17
+        },
+        "defenses": {
+            "fire": 188,
+            "holy": 142,
+            "magic": 146,
+            "slash": 133,
+            "pierce": 133,
+            "strike": 133,
+            "physical": 133,
+            "lightning": 128
+        },
+        "maxHealth": 2173.6,
+        "absorption": {
+            "fire": 27.13994106400001,
+            "holy": 25.686485729200005,
+            "magic": 25.476607856800005,
+            "slash": 33.38594944480001,
+            "pierce": 32.073843460000006,
+            "strike": 32.525847908,
+            "physical": 34.206157782400005,
+            "lightning": 24.956937802
+        },
+        "maxStamina": 190.476,
+        "resistances": {
+            "focus": 254,
+            "immunity": 322,
+            "vitality": 265,
+            "robustness": 328
+        },
+        "maxEquipLoad": 105.77064655
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Falx",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Star Fist",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Star Fist",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Falx",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Queelign's Greatsword",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Warhawk's Talon",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Warhawk's Talon",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Queelign's Greatsword",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Keen",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Milady",
+                "order": 8,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Blinkbolt",
+                "equipIndex": 0
+            },
+            {
+                "name": "Milady",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Zamor Curved Sword",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Zamor Curved Sword",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Serpent Crest Shield",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Hand Axe",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Lightning Slash"
+            },
+            {
+                "name": "Wakizashi",
+                "order": 12,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Thunderbolt",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 0
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 1
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 2
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 3
+            },
+            {
+                "name": "Pearldrake Talisman +3",
+                "order": 4
+            },
+            {
+                "name": "Clarifying Horn Charm +2",
+                "order": 5
+            },
+            {
+                "name": "Stalwart Horn Charm +2",
+                "order": 6
+            },
+            {
+                "name": "Immunizing Horn Charm +2",
+                "order": 7
+            },
+            {
+                "name": "Ailment Talisman",
+                "order": 8
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 9
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 10,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 11,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 12,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 13
+            },
+            {
+                "name": "Viridian Amber Medallion +3",
+                "order": 14,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 15
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 16
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 17
+            },
+            {
+                "name": "Pearl Shield Talisman",
+                "order": 18
+            },
+            {
+                "name": "Hammer Talisman",
+                "order": 19
+            },
+            {
+                "name": "Retaliatory Crossed-Tree",
+                "order": 20
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 21
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 22
+            },
+            {
+                "name": "Lacerating Crossed-Tree",
+                "order": 23
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 24
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Armor of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Divine Bird Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Greaves of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

@@ -1,0 +1,286 @@
+{
+    "id": "a6c885e56544f7",
+    "is2h": false,
+    "name": "Knight Jim",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Quality"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Strength-knot Crystal Tear",
+            "Dexterity-knot Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 47,
+        "fth": 9,
+        "int": 9,
+        "mnd": 30,
+        "str": 47,
+        "vig": 40,
+        "vit": 40
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 173,
+        "poise": {
+            "original": 54
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 172,
+            "holy": 146,
+            "magic": 150,
+            "slash": 152,
+            "pierce": 152,
+            "strike": 152,
+            "physical": 152,
+            "lightning": 132
+        },
+        "maxHealth": 1508,
+        "absorption": {
+            "fire": 23.18253479200001,
+            "holy": 22.860448984000005,
+            "magic": 22.09615524280001,
+            "slash": 32.51536763296,
+            "pierce": 29.686868288320017,
+            "strike": 26.717426534800005,
+            "physical": 30.689393942124997,
+            "lightning": 20.65730877999999
+        },
+        "maxStamina": 156.2,
+        "resistances": {
+            "focus": 214,
+            "immunity": 271,
+            "vitality": 219,
+            "robustness": 322
+        },
+        "maxEquipLoad": 116.82495745
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Longsword",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Quality",
+                "weaponArt": "Royal Knight's Resolve",
+                "equipIndex": 0
+            },
+            {
+                "name": "Greatsword",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Quality",
+                "weaponArt": "Royal Knight's Resolve",
+                "equipIndex": 2
+            },
+            {
+                "name": "Banished Knight's Shield",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Quality",
+                "weaponArt": "Storm Wall",
+                "equipIndex": 3
+            },
+            {
+                "name": "Banished Knight's Greatsword",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Quality",
+                "weaponArt": "Royal Knight's Resolve",
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Carian Filigreed Crest",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Mausoleum Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Mausoleum Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Greathelm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Mausoleum Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

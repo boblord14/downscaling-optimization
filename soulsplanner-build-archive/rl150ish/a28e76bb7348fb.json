@@ -1,0 +1,302 @@
+{
+    "id": "a28e76bb7348fb",
+    "is2h": true,
+    "name": "Weed Cutter",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity",
+        "PvE",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Thorny Cracked Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 155,
+        "arc": 8,
+        "dex": 77,
+        "fth": 25,
+        "int": 9,
+        "mnd": 11,
+        "str": 24,
+        "vig": 60,
+        "vit": 20
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Golden Vow",
+                "order": 1
+            },
+            {
+                "name": "Blessing's Boon",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 82,
+        "poise": {
+            "original": 54
+        },
+        "runes": {
+            "total": 7899347,
+            "toNextLevel": 168508
+        },
+        "stats": {
+            "dex": 82
+        },
+        "defenses": {
+            "fire": 194,
+            "holy": 150,
+            "magic": 152,
+            "slash": 142,
+            "pierce": 142,
+            "strike": 142,
+            "physical": 142,
+            "lightning": 134
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 19.411995943720505,
+            "holy": 17.711641300242597,
+            "magic": 17.540741282174576,
+            "slash": 21.6497148658912,
+            "pierce": 20.281771703300656,
+            "strike": 17.930214143577583,
+            "physical": 19.38462945281334,
+            "lightning": 17.06892678611499
+        },
+        "maxStamina": 113,
+        "resistances": {
+            "focus": 234,
+            "immunity": 291,
+            "vitality": 243,
+            "robustness": 294
+        },
+        "maxEquipLoad": 64.05882353
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Rakshasa's Great Katana",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Commander's Standard",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Cane Sword",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Seppuku"
+            },
+            {
+                "name": "Finger Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 4
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 5
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 6
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 7
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "White Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Rakshasa Helm",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Samurai"
+}

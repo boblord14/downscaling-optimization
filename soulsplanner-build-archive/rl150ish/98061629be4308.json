@@ -1,0 +1,830 @@
+{
+    "id": "98061629be4308",
+    "is2h": false,
+    "name": "Bulky poisoneer - Arc/dex*/str* - martial",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Dual rot rapier",
+                "active": true
+            },
+            {
+                "name": "Shield crash poisoner"
+            },
+            {
+                "name": "Poison/bleed Curved Swords"
+            },
+            {
+                "name": "Poison regen"
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Succesive hit poison proc",
+                "active": true
+            },
+            {
+                "name": "Shield poke"
+            },
+            {
+                "name": "Poison/bleed mix"
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Arcane",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "tools": {
+            "slots": [
+                {
+                    "name": "Poison Pot",
+                    "order": 0
+                },
+                {
+                    "name": "Fetid Pot",
+                    "order": 1
+                },
+                {
+                    "name": "Rot Pot",
+                    "order": 2
+                },
+                {
+                    "name": "Swarm Pot",
+                    "order": 3
+                },
+                {
+                    "name": "Cursed-Blood Pot",
+                    "order": 4
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 5,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 6,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 7,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Poisonbone Dart",
+                    "order": 8,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Raw Meat Dumpling",
+                    "order": 9
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 10,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Furlcalling Finger Remedy",
+                    "order": 11
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 12,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Lantern",
+                    "order": 13,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Gold-Pickled Fowl Foot",
+                    "order": 14,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Neutralizing Boluses",
+                    "order": 15
+                },
+                {
+                    "name": "Well-Pickled Turtle Neck",
+                    "order": 16
+                },
+                {
+                    "name": "Hefty Fetid Pot",
+                    "order": 17
+                },
+                {
+                    "name": "Hefty Poison Pot",
+                    "order": 18
+                },
+                {
+                    "name": "Hefty Rot Pot",
+                    "order": 19
+                },
+                {
+                    "name": "Morgott's Great Rune",
+                    "order": 20
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Greenburst Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 56,
+        "dex": 25,
+        "fth": 15,
+        "int": 9,
+        "mnd": 16,
+        "str": 22,
+        "vig": 60,
+        "vit": 26
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Swarm of Flies",
+                "order": 0
+            },
+            {
+                "name": "Bloodboon",
+                "order": 1
+            },
+            {
+                "name": "Pest Threads",
+                "order": 2
+            },
+            {
+                "name": "Rotten Breath",
+                "order": 3
+            },
+            {
+                "name": "Bayle's Flame Lightning",
+                "order": 4
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 5
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 6
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 100,
+        "poise": {
+            "original": 55
+        },
+        "runes": {
+            "total": 7109668,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "dex": 30
+        },
+        "defenses": {
+            "fire": 193,
+            "holy": 191,
+            "magic": 151,
+            "slash": 140,
+            "pierce": 140,
+            "strike": 140,
+            "physical": 140,
+            "lightning": 133
+        },
+        "maxHealth": 2470,
+        "absorption": {
+            "fire": 23.4325284535,
+            "holy": 21.82768905600001,
+            "magic": 21.0629599272,
+            "slash": 29.294376217600018,
+            "pierce": 27.769980159999996,
+            "strike": 24.901560303999993,
+            "physical": 27.659102464000007,
+            "lightning": 20.21589778240001
+        },
+        "maxStamina": 135.3,
+        "resistances": {
+            "focus": 224,
+            "immunity": 363,
+            "vitality": 276,
+            "robustness": 328
+        },
+        "maxEquipLoad": 78.79798268
+    },
+    "greatRune": "Morgott's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Antspur Rapier",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0,
+                    0
+                ],
+                "infusion": "Poison",
+                "weaponArt": "The Poison Flower Blooms Twice",
+                "equipIndex": 0
+            },
+            {
+                "name": "Scavenger's Curved Sword",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    0
+                ],
+                "infusion": "Poison",
+                "weaponArt": "Poison Moth Flight"
+            },
+            {
+                "name": "Scavenger's Curved Sword",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    3
+                ],
+                "infusion": "Poison",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Great Katana",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Blood Tax"
+            },
+            {
+                "name": "Lizard Greatsword",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "The Poison Flower Blooms Twice"
+            },
+            {
+                "name": "Forked Greatsword",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Seppuku"
+            },
+            {
+                "name": "Rotten Battle Hammer",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Great Stars",
+                "order": 8,
+                "upgrade": 24,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    0
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Bloodfiend's Arm",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Rotten Greataxe",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Morning Star",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Seppuku"
+            },
+            {
+                "name": "Bloodfiend's Fork",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Bloodfiend's Fork",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Vulgar Militia Saw",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Double Slash"
+            },
+            {
+                "name": "Poleblade of the Bud",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Thorned Whip",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Raptor of the Mists"
+            },
+            {
+                "name": "Thorned Whip",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Bloodhound's Step"
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Godskin Peeler",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Blood Tax"
+            },
+            {
+                "name": "Bloodstained Dagger",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Bloodstained Dagger",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Poison Moth Flight"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Swift Slash"
+            },
+            {
+                "name": "Poisoned Hand",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Venomous Fang",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "The Poison Flower Blooms Twice"
+            },
+            {
+                "name": "Star Fist",
+                "order": 27,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Deadly Poison Perfume Bottle",
+                "order": 28,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dueling Shield",
+                "order": 31,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Rivers of Blood",
+                "order": 34,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Reduvia",
+                "order": 35,
+                "upgrade": 9,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Eleonora's Poleblade",
+                "order": 36,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Clinging Bone",
+                "order": 37,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Regalia of Eochaid",
+                "order": 38,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Ripple Blade",
+                "order": 39,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Bloodfiend's Sacred Spear",
+                "order": 40,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spiked Palisade Shield",
+                "order": 30,
+                "upgrade": 24,
+                "equipSet": [
+                    null,
+                    3
+                ],
+                "infusion": "Poison",
+                "weaponArt": "Shield Crash"
+            },
+            {
+                "name": "Dane's Footwork",
+                "order": 24,
+                "upgrade": null,
+                "equipSet": [
+                    null,
+                    null,
+                    null,
+                    4
+                ],
+                "infusion": "Poison",
+                "weaponArt": "The Poison Flower Blooms Twice"
+            },
+            {
+                "name": "Serpent Bow",
+                "order": 33,
+                "upgrade": null,
+                "equipSet": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Antspur Rapier",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Poison",
+                "weaponArt": "Poison Moth Flight",
+                "equipIndex": 3
+            },
+            {
+                "name": "Coil Shield",
+                "order": 32,
+                "upgrade": null,
+                "equipSet": [
+                    4,
+                    4,
+                    4,
+                    null
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 29,
+                "upgrade": 9,
+                "equipSet": [
+                    5,
+                    5,
+                    5,
+                    5
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 0,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 1,
+                "equipSet": [
+                    null,
+                    null,
+                    3
+                ]
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 2,
+                "equipSet": [
+                    1,
+                    null,
+                    2
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 3
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 4
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 5
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 6,
+                "equipSet": [
+                    null,
+                    1
+                ]
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 7,
+                "equipSet": [
+                    0,
+                    0,
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 8,
+                "equipSet": [
+                    null,
+                    null,
+                    1
+                ]
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 9
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 10,
+                "equipSet": [
+                    3,
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 11
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 12,
+                "equipSet": [
+                    null,
+                    2
+                ]
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 13
+            },
+            {
+                "name": "Shattered Stone Talisman",
+                "order": 14
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Mushroom Arms",
+                    "order": 0
+                },
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Mushroom Body",
+                    "order": 0
+                },
+                {
+                    "name": "Bull-Goat Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Scale Armor",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Gravekeeper Cloak",
+                    "order": 3
+                },
+                {
+                    "name": "Rotten Gravekeeper Cloak",
+                    "order": 4
+                },
+                {
+                    "name": "Fell Omen Cloak",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Mushroom Crown",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Mushroom Head",
+                    "order": 1
+                },
+                {
+                    "name": "Bull-Goat Helm",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Mushroom Legs",
+                    "order": 0
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Duelist Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Rotten Duelist Greaves",
+                    "order": 3
+                },
+                {
+                    "name": "Scaled Greaves",
+                    "order": 4,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 24,
+    "characterClass": "Bandit"
+}

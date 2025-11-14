@@ -1,0 +1,358 @@
+{
+    "id": "f344e3b4bf41a1",
+    "is2h": false,
+    "name": "Scorchblade Tani",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Faith",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 2,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Telescope",
+                    "order": 3,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Giantsflame Fire Pot",
+                    "order": 4,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fan Daggers",
+                    "order": 5,
+                    "equipIndex": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Faith-knot Crystal Tear",
+            "Flame-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 90,
+        "arc": 10,
+        "dex": 20,
+        "fth": 45,
+        "int": 7,
+        "mnd": 19,
+        "str": 11,
+        "vig": 45,
+        "vit": 12
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Catch Flame",
+                "order": 0
+            },
+            {
+                "name": "Surge, O Flame!",
+                "order": 1
+            },
+            {
+                "name": "Giantsflame Take Thee",
+                "order": 2
+            },
+            {
+                "name": "O, Flame!",
+                "order": 3
+            },
+            {
+                "name": "Flame of the Fell God",
+                "order": 4
+            },
+            {
+                "name": "Burn, O Flame!",
+                "order": 5
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 6
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 116,
+        "poise": {
+            "original": 33
+        },
+        "runes": {
+            "total": 1447695,
+            "toNextLevel": 50293
+        },
+        "stats": {
+            "str": 16
+        },
+        "defenses": {
+            "fire": 165,
+            "holy": 140,
+            "magic": 134,
+            "slash": 125,
+            "pierce": 125,
+            "strike": 125,
+            "physical": 125,
+            "lightning": 120
+        },
+        "maxHealth": 1581,
+        "absorption": {
+            "fire": 21.933516736,
+            "holy": 19.83006112240001,
+            "magic": 20.180366971200016,
+            "slash": 20.353947360000003,
+            "pierce": 18.732892960000015,
+            "strike": 18.753331974400012,
+            "physical": 18.051460696,
+            "lightning": 22.51929560400001
+        },
+        "maxStamina": 99,
+        "resistances": {
+            "focus": 204,
+            "immunity": 286,
+            "vitality": 244,
+            "robustness": 232
+        },
+        "maxEquipLoad": 51.35294118
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Twinblade",
+                "order": 0,
+                "infusion": "Flame Art",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Uchigatana",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Unsheathe"
+            },
+            {
+                "name": "Godslayer's Seal",
+                "order": 2,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 4,
+                "infusion": "Flame Art",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Great Katana",
+                "order": 6,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Overhead Stance",
+                "equipIndex": 0
+            },
+            {
+                "name": "Wakizashi",
+                "order": 5,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Parry",
+                "equipIndex": 3
+            },
+            {
+                "name": "Giant's Seal",
+                "order": 3,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Radagon Icon",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Ancestral Spirit's Horn",
+                "order": 3
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Raging Wolf Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Ronin's Armor (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Land of Reeds Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Raging Wolf Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Confessor Boots",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 17,
+    "characterClass": "Prophet"
+}

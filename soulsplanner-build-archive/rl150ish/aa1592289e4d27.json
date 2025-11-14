@@ -1,0 +1,307 @@
+{
+    "id": "aa1592289e4d27",
+    "is2h": false,
+    "name": "",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Magic-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 13,
+        "fth": 7,
+        "int": 72,
+        "mnd": 20,
+        "str": 12,
+        "vig": 60,
+        "vit": 36
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Rennala's Full Moon",
+                "order": 0
+            },
+            {
+                "name": "Carian Phalanx",
+                "order": 1
+            },
+            {
+                "name": "Freezing Mist",
+                "order": 2
+            },
+            {
+                "name": "Scholar's Shield",
+                "order": 3
+            },
+            {
+                "name": "Glintblade Trio",
+                "order": 4
+            },
+            {
+                "name": "Gravity Well",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "altered": 122.66666636,
+            "original": 92
+        },
+        "runes": {
+            "total": 7108928,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 150,
+            "magic": 195,
+            "slash": 136,
+            "pierce": 136,
+            "strike": 136,
+            "physical": 136,
+            "lightning": 132
+        },
+        "maxHealth": 2090,
+        "absorption": {
+            "fire": 28.579673170000007,
+            "holy": 26.832880475800003,
+            "magic": 26.253710620900005,
+            "slash": 35.5554822421,
+            "pierce": 34.93448575,
+            "strike": 33.0697435888,
+            "physical": 34.87855300960001,
+            "lightning": 26.185887936000007
+        },
+        "maxStamina": 137,
+        "resistances": {
+            "focus": 337,
+            "immunity": 342,
+            "vitality": 285,
+            "robustness": 358
+        },
+        "maxEquipLoad": 101.6698832
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Carian Glintblade Staff",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 0
+            },
+            {
+                "name": "Cleanrot Knight's Sword",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Royal Knight's Resolve",
+                "equipIndex": 1
+            },
+            {
+                "name": "Twinbird Kite Shield",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Holy Ground",
+                "equipIndex": 4
+            },
+            {
+                "name": "Glintstone Kris",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gauntlets of Solitude",
+                    "order": 0
+                },
+                {
+                    "name": "Lionel's Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Armor of Solitude",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Lionel's Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Helm of Solitude",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Lionel's Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Astrologer"
+}

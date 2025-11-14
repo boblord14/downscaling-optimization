@@ -1,0 +1,263 @@
+{
+    "id": "c7a6f6b04c43ba",
+    "is2h": false,
+    "name": "Count doku",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "Dexterity",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Deflecting Hardtear",
+            null
+        ]
+    },
+    "stats": {
+        "rl": 160,
+        "arc": 10,
+        "dex": 71,
+        "fth": 14,
+        "int": 9,
+        "mnd": 20,
+        "str": 15,
+        "vig": 60,
+        "vit": 40
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bloodflame Blade",
+                "order": 0
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 121,
+        "poise": {
+            "original": 24
+        },
+        "runes": {
+            "total": 8753989,
+            "toNextLevel": 181549
+        },
+        "stats": {
+            "dex": 76
+        },
+        "defenses": {
+            "fire": 195,
+            "holy": 155,
+            "magic": 153,
+            "slash": 140,
+            "pierce": 140,
+            "strike": 140,
+            "physical": 140,
+            "lightning": 135
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 19.8738568,
+            "holy": 19.70881840000001,
+            "magic": 20.742001600000016,
+            "slash": 17.133409025000002,
+            "pierce": 17.89296224000002,
+            "strike": 17.37338615,
+            "physical": 18.505823580000012,
+            "lightning": 17.369248000000002
+        },
+        "maxStamina": 142,
+        "resistances": {
+            "focus": 240,
+            "immunity": 270,
+            "vitality": 250,
+            "robustness": 260
+        },
+        "maxEquipLoad": 90.90021588
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Milady",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Keen",
+                "weaponArt": "Wing Stance",
+                "equipIndex": 0
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Fire Scorpion Charm",
+                "order": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 4,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Perfumer Gloves",
+                    "order": 0
+                },
+                {
+                    "name": "Rellana's Gloves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Alberich's Robe (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Preceptor's Long Gown (Altered)",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Oathseeker Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Confessor"
+}

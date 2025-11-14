@@ -1,0 +1,321 @@
+{
+    "id": "f1e993369347a7",
+    "pve": {
+        "inDLC1": true,
+        "revered": 10,
+        "scadutree": 20
+    },
+    "is2h": true,
+    "name": "Helphen's Steeple ",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Bloodsucking Cracked Tear",
+            "Spiked Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 7,
+        "dex": 13,
+        "fth": 25,
+        "int": 50,
+        "mnd": 10,
+        "str": 42,
+        "vig": 60,
+        "vit": 22
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Blessing's Boon",
+                "order": 1
+            },
+            {
+                "name": "Golden Vow",
+                "order": 2
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 89,
+        "poise": {
+            "original": 58
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 146,
+            "magic": 188,
+            "slash": 148,
+            "pierce": 148,
+            "strike": 148,
+            "physical": 148,
+            "lightning": 132
+        },
+        "maxHealth": 2185,
+        "absorption": {
+            "fire": 60.19401866545444,
+            "holy": 59.184071896888945,
+            "magic": 59.184071896888945,
+            "slash": 69.36103928714279,
+            "pierce": 68.95311282133369,
+            "strike": 67.73635783505124,
+            "physical": 68.53775517425488,
+            "lightning": 58.69379460304032
+        },
+        "maxStamina": 133.4,
+        "resistances": {
+            "focus": 222,
+            "immunity": 280,
+            "vitality": 229,
+            "robustness": 299
+        },
+        "maxEquipLoad": 67.23529412
+    },
+    "greatRune": "Radahn's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Dragon Halberd",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Frenzied Flame Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Helphen's Steeple",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Shard of Alexander",
+                "order": 0
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 1,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 2
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 3
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 4
+            },
+            {
+                "name": "Twinblade Talisman",
+                "order": 5
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 6,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Magic Scorpion Charm",
+                "order": 7
+            },
+            {
+                "name": "Blade of Mercy",
+                "order": 8,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 9,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Old Lord's Talisman",
+                "order": 10
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 11
+            },
+            {
+                "name": "Dried Bouquet",
+                "order": 12
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Trigger after Critical Hit",
+            "Charged Attack"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rakshasa Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Rakshasa Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Verdigris Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Vagabond"
+}

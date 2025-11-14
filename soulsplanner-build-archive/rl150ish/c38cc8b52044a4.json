@@ -1,0 +1,427 @@
+{
+    "id": "c38cc8b52044a4",
+    "is2h": true,
+    "name": "ANTI-META",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "Invasions",
+        "Arcane",
+        "Duels",
+        "2v2",
+        "Co-op/Gank",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {},
+        "tools": {
+            "slots": [
+                {
+                    "name": "Boiled Crab",
+                    "order": 0,
+                    "active": true,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Morgott's Great Rune",
+                    "order": 1,
+                    "active": true
+                },
+                {
+                    "name": "Uplifting Aromatic",
+                    "order": 2,
+                    "equipIndex": 10
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Greenburst Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 91,
+        "dex": 18,
+        "fth": 9,
+        "int": 9,
+        "mnd": 15,
+        "str": 10,
+        "vig": 60,
+        "vit": 17
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bayle's Tyranny",
+                "order": 0
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 95,
+        "poise": {
+            "altered": 87.99999978,
+            "original": 66
+        },
+        "runes": {
+            "total": 7109668,
+            "toNextLevel": 156090
+        },
+        "stats": {
+            "arc": 92,
+            "fth": 10,
+            "int": 10
+        },
+        "defenses": {
+            "fire": 193,
+            "holy": 201,
+            "magic": 153,
+            "slash": 136,
+            "pierce": 136,
+            "strike": 136,
+            "physical": 136,
+            "lightning": 133
+        },
+        "maxHealth": 2717,
+        "absorption": {
+            "fire": 24.960546200799993,
+            "holy": 25.256733001600008,
+            "magic": 24.03401320720001,
+            "slash": 40.817321692,
+            "pierce": 40.782242199808,
+            "strike": 37.84399608928,
+            "physical": 40.38984463340799,
+            "lightning": 23.357573523999996
+        },
+        "maxStamina": 118.8,
+        "resistances": {
+            "focus": 236,
+            "immunity": 318,
+            "vitality": 291,
+            "robustness": 314
+        },
+        "maxEquipLoad": 64.03764706
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Zweihander",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Greatsword",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Great Katana",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Sword Dance",
+                "equipIndex": 0
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Knight Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Gaius's Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Young Lion's Gauntlets",
+                    "order": 4,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Godskin Noble Bracelets",
+                    "order": 5
+                },
+                {
+                    "name": "Bloodsoaked Manchettes",
+                    "order": 6
+                },
+                {
+                    "name": "Sorcerer Manchettes",
+                    "order": 7
+                },
+                {
+                    "name": "Battlemage Manchettes",
+                    "order": 8
+                },
+                {
+                    "name": "Braided Arm Wraps",
+                    "order": 9
+                },
+                {
+                    "name": "High Priest Gloves",
+                    "order": 10
+                },
+                {
+                    "name": "Ascetic's Wrist Guards",
+                    "order": 11
+                },
+                {
+                    "name": "Veteran's Gauntlets",
+                    "order": 12
+                },
+                {
+                    "name": "Young Lion's Gauntlets",
+                    "order": 13
+                },
+                {
+                    "name": "Exile Gauntlets",
+                    "order": 14
+                },
+                {
+                    "name": "Blue Silver Bracelets",
+                    "order": 15
+                },
+                {
+                    "name": "Traveler's Gloves",
+                    "order": 16
+                },
+                {
+                    "name": "Astrologer Gloves",
+                    "order": 17
+                },
+                {
+                    "name": "Gravebird Bracelets",
+                    "order": 18
+                },
+                {
+                    "name": "Raging Wolf Gauntlets",
+                    "order": 19
+                },
+                {
+                    "name": "Nox Bracelets",
+                    "order": 20
+                },
+                {
+                    "name": "Exile Gauntlets",
+                    "order": 21
+                },
+                {
+                    "name": "Vulgar Militia Gauntlets",
+                    "order": 22
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Banished Knight Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Beast Champion Armor (Altered)",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Banished Knight Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Circlet of Light",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Scaled Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Crucible Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Night's Cavalry Greaves",
+                    "order": 3
+                },
+                {
+                    "name": "Black Knight Greaves",
+                    "order": 4
+                },
+                {
+                    "name": "Blaidd's Greaves",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Bandit"
+}

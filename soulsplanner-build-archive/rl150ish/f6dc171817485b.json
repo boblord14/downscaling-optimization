@@ -1,0 +1,401 @@
+{
+    "id": "f6dc171817485b",
+    "is2h": false,
+    "name": "tank frost mage",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Intelligence",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Ironjar Aromatic",
+                    "order": 0,
+                    "equipIndex": 3
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 1,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 2,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 3,
+                    "equipIndex": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Greenburst Crystal Tear",
+            "Magic-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 150,
+        "arc": 9,
+        "dex": 14,
+        "fth": 6,
+        "int": 36,
+        "mnd": 32,
+        "str": 32,
+        "vig": 60,
+        "vit": 40
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Frozen Armament",
+                "order": 0
+            },
+            {
+                "name": "Scholar's Shield",
+                "order": 1
+            },
+            {
+                "name": "Freezing Mist",
+                "order": 2
+            },
+            {
+                "name": "Zamor Ice Storm",
+                "order": 3
+            },
+            {
+                "name": "Adula's Moonblade",
+                "order": 4
+            },
+            {
+                "name": "Thops's Barrier",
+                "order": 5
+            },
+            {
+                "name": "Eternal Darkness",
+                "order": 6
+            },
+            {
+                "name": "Carian Phalanx",
+                "order": 7
+            },
+            {
+                "name": "Terra Magica",
+                "order": 8
+            },
+            {
+                "name": "Gavel of Haima",
+                "order": 9
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 184,
+        "poise": {
+            "original": 53
+        },
+        "runes": {
+            "total": 7106603,
+            "toNextLevel": 156090
+        },
+        "defenses": {
+            "fire": 192,
+            "holy": 150,
+            "magic": 182,
+            "slash": 143,
+            "pierce": 143,
+            "strike": 143,
+            "physical": 143,
+            "lightning": 132
+        },
+        "maxHealth": 1900,
+        "absorption": {
+            "fire": 26.3362919374,
+            "holy": 25.844274928,
+            "magic": 26.77155052600001,
+            "slash": 34.56908519800002,
+            "pierce": 33.25374944512001,
+            "strike": 30.46790844448001,
+            "physical": 32.36907865600001,
+            "lightning": 24.9318017848
+        },
+        "maxStamina": 142,
+        "resistances": {
+            "focus": 316,
+            "immunity": 364,
+            "vitality": 267,
+            "robustness": 395
+        },
+        "maxEquipLoad": 90.90021588
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Eclipse Crest Greatshield",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Barricade Shield",
+                "equipIndex": 3
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Cold",
+                "weaponArt": "Repeating Thrust",
+                "equipIndex": 0
+            },
+            {
+                "name": "Demi-Human Queen's Staff",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Pearldrake Talisman +2",
+                "order": 4
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 5
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 6
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 7
+            },
+            {
+                "name": "Pearl Shield Talisman",
+                "order": 8
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 9
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Affects Sorceries",
+            "Spell Power Boost",
+            "Ranni Spell"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Royal Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Carian Knight Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Banished Knight Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Beast Champion Gauntlets",
+                    "order": 4
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Royal Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Carian Knight Armor",
+                    "order": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Snow Witch Hat",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Carian Knight Helm",
+                    "order": 1
+                },
+                {
+                    "name": "Royal Knight Helm",
+                    "order": 2
+                },
+                {
+                    "name": "Nox Mirrorhelm",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Royal Knight Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Carian Knight Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Scaled Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Banished Knight Greaves",
+                    "order": 3
+                },
+                {
+                    "name": "Beast Champion Greaves",
+                    "order": 4,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Prisoner"
+}
