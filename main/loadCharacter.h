@@ -35,6 +35,7 @@ class loadCharacter {
 public:
     static void loadData();
     static void loadData(std::string buildJsonPath, int targetLevel, int buildsToProduce);
+    static void writeTrainingData(std::string trainingPath, std::string outputFilePath);
     static void functionTesting();
     static double retrieveMaxPoise();
     static double bestEffectiveHP(int statPoints, const std::string& startingClass, boolean hasGreatjar);

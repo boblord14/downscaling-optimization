@@ -182,6 +182,7 @@ int main() {
     DataParser::generateDefs();
     //pinco();
     //montage();
+  loadCharacter::functionTesting();
   loadCharacter::loadData();
   //computeAllWeapons();
  // Weapon shortsword(67520000, BASE, 17);

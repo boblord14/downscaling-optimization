@@ -57,6 +57,7 @@ public:
     int getBaseVigor() const;
     int getBaseEndurance() const;
     int getBaseMind() const;
+    double getPoise() const;
     std::vector<Weapon> getWeapons() const;
 
     void setEffectiveHpRatio(double calculatedEffectiveHp);
