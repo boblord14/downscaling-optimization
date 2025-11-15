@@ -56,6 +56,7 @@ public:
 
     static std::vector<float> retrieveCcg(int id);
     static std::vector<int> getWeaponIds();
+    static int retrieveWeaponIdByName(std::string name);
 
     static int fetchFp(int mindLevel);
     static std::vector<int> getMind();

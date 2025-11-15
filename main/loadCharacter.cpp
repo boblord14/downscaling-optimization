@@ -586,6 +586,7 @@ std::vector<Character> exponentialDecay(Character& characterInput, int delta)
 
     for (auto statAllocation : statAllocationVariants)
     {
+        std::cout << "testing [" << statAllocation[0] << " " << statAllocation[1] << " " << statAllocation[2] << "]" << std::endl;
         Character newStatMlCharacter = characterInput; //deep copy
 
         //fp adjustment
@@ -612,7 +613,7 @@ std::vector<Character> exponentialDecay(Character& characterInput, int delta)
         newStatMlCharacter.setScore(score);
         outputMlCharacters.push_back(newStatMlCharacter);
     }
-
+    std::cout << "character decay complete for " << characterInput.getName() << std::endl;
     return outputMlCharacters;
 }
 
@@ -939,9 +940,39 @@ void loadCharacter::loadData(std::string buildJsonPath, int targetLevel, int bui
     rankBuilds(builds, R"(../../SavedModel)", targetLevel, bloodsage, buildsToProduce);
 }
 
-void loadCharacter::writeTrainingData(std::string trainingPath, std::string outputFilePath)
+void loadCharacter::writeTrainingData(const std::string& trainingPath, const std::string& outputFilePath)
 {
+    rescaleClasses();
 
+    for(auto& file: std::filesystem::directory_iterator(trainingPath))
+    {
+        std::cout << "Loading character at location " << file.path() << std::endl;
+
+        std::string outputFilePathFull = outputFilePath + file.path().stem().string() + ".txt";
+
+        if (std::filesystem::exists(outputFilePathFull)) continue; //skip if already calculated
+
+        Character inputBuild(file.path().generic_string());
+        auto outputBuilds = prepareData(inputBuild, 45);
+
+        std::ofstream outputFile(outputFilePathFull);
+
+        for (Character build : outputBuilds)
+        {
+            auto mlVector = build.generateMlString();
+
+            //write build string in csv format
+            for (int i=0; i<mlVector.size(); i++)
+            {
+                if (i != mlVector.size() - 1)
+                {
+                    outputFile << mlVector[i] << ",";
+                }
+                else outputFile << mlVector[i] << "\n";
+            }
+        }
+        outputFile.close();
+    }
 }
 
 void loadCharacter::functionTesting()
