@@ -649,10 +649,19 @@ std::vector<int> damageStatAllocation(const Character& characterInput, int damag
 
     std::vector<double> scalingAr;
     std::vector<std::vector<double>> optimalStats;
+    std::vector<int> uniqueWeaponIds;
 
     //load weapon data into matrices
     for (Weapon& weapon : characterInput.getWeapons())
     {
+        //quick check to ensure we're not running multiple copies of the same weapon
+        int weaponIdCombined = weapon.getId() + weapon.getInfusion();
+        if (std::find(uniqueWeaponIds.begin(), uniqueWeaponIds.end(), weaponIdCombined) != uniqueWeaponIds.end())
+        {
+            continue;
+        }
+        uniqueWeaponIds.emplace_back(weaponIdCombined);
+
         auto scalingData = DataParser::loadSpecificWeaponData(weapon.getId(), weapon.getInfusion());
         scalingAr.push_back(scalingData[index][0]); //fetch the AR value from the precalculated optimized AR for a given damage stat amount
         optimalStats.emplace_back(scalingData[index].begin() + 1, scalingData[index].end()); //append the stats tied to the AR used in the previous line
@@ -943,19 +952,20 @@ void loadCharacter::loadData(std::string buildJsonPath, int targetLevel, int bui
 void loadCharacter::writeTrainingData(const std::string& trainingPath, const std::string& outputFilePath)
 {
     rescaleClasses();
+    std::ofstream outputFile(outputFilePath);
 
     for(auto& file: std::filesystem::directory_iterator(trainingPath))
     {
         std::cout << "Loading character at location " << file.path() << std::endl;
 
-        std::string outputFilePathFull = outputFilePath + file.path().stem().string() + ".txt";
+        //std::string outputFilePathFull = outputFilePath + file.path().stem().string() + ".txt";
 
-        if (std::filesystem::exists(outputFilePathFull)) continue; //skip if already calculated
+        //if (std::filesystem::exists(outputFilePathFull)) continue; //skip if already calculated
 
         Character inputBuild(file.path().generic_string());
-        auto outputBuilds = prepareData(inputBuild, 45);
+        auto outputBuilds = prepareData(inputBuild, 5);
 
-        std::ofstream outputFile(outputFilePathFull);
+        //std::ofstream outputFile(outputFilePathFull);
 
         for (Character build : outputBuilds)
         {
@@ -971,8 +981,9 @@ void loadCharacter::writeTrainingData(const std::string& trainingPath, const std
                 else outputFile << mlVector[i] << "\n";
             }
         }
-        outputFile.close();
+        //outputFile.close();
     }
+    outputFile.close();
 }
 
 void loadCharacter::functionTesting()

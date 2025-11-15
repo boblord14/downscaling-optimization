@@ -183,7 +183,8 @@ int main() {
     //pinco();
     //montage();
   //loadCharacter::functionTesting();
-  loadCharacter::writeTrainingData(R"(..\..\soulsplanner-build-archive\rl90ish)", R"(..\..\soulsplanner-build-archive\ML-Training-Vectors\rl90ish\)");
+  loadCharacter::writeTrainingData(R"(..\..\soulsplanner-build-archive\rl90ish)", R"(..\..\soulsplanner-build-archive\ML-Training-Vectors\rl90ish\labeled_data.txt)");
+  loadCharacter::writeTrainingData(R"(..\..\soulsplanner-build-archive\rl125ish)", R"(..\..\soulsplanner-build-archive\ML-Training-Vectors\rl125ish\labeled_data.txt)");
   //loadCharacter::loadData();
   //computeAllWeapons();
  // Weapon shortsword(67520000, BASE, 17);
