@@ -34,6 +34,22 @@ static std::unordered_map<std::string, int> starting_classes_index = {
     {"Samurai", 9}
 };
 
+static std::unordered_map<std::string, Infusion> infusion_name_mapping = {
+    {"Standard", BASE},
+    {"Heavy", HEAVY},
+    {"Keen", KEEN},
+    {"Quality", QUALITY},
+    {"Fire", FIRE},
+    {"Flame", FLAME},
+    {"Lightning", LIGHTNING},
+    {"Sacred", SACRED},
+    {"Magic", MAGIC},
+    {"Cold", COLD},
+    {"Poison", POISON},
+    {"Blood", BLOOD},
+    {"Occult", OCCULT}
+};
+
 constexpr int MAX_CHARACTER_SPELL_SLOTS = 13;
 
 class Character {

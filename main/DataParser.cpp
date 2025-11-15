@@ -98,8 +98,17 @@ std::unordered_map<int, std::unordered_map<std::string, std::string>> DataParser
 
 std::unordered_map<std::string, std::string>* DataParser::retrieveMagicByName(std::string name) {
     std::string originalName = toLower(name);
+
+    //some punctuation in the actual name aren't present in the param data
+    originalName.erase(std::remove(originalName.begin(), originalName.end(), ','), originalName.end());
+    originalName.erase(std::remove(originalName.begin(), originalName.end(), '!'), originalName.end());
+    originalName.erase(std::remove(originalName.begin(), originalName.end(), '-'), originalName.end());
+
     for (const auto& pair : magic) {
         std::string nameConv = toLower(pair.second.at("Name"));
+        nameConv.erase(std::remove(nameConv.begin(), nameConv.end(), ','), nameConv.end());
+        nameConv.erase(std::remove(nameConv.begin(), nameConv.end(), '!'), nameConv.end());
+        nameConv.erase(std::remove(nameConv.begin(), nameConv.end(), '-'), nameConv.end());
 
         //check if name is a substring of the actual param name and that it's not the npc version
         if (nameConv.find(originalName) != std::string::npos && nameConv.find("npc") == std::string::npos) {
@@ -137,6 +146,15 @@ std::vector<int> DataParser::getWeaponIds() {
         keys.push_back(pair.first);
     }
     return keys;
+}
+
+int DataParser::retrieveWeaponIdByName(std::string name) {
+    for (const auto& pair : equipParamWeapon) {
+        if (toLower(pair.second.at("Name")) == toLower(name)) {
+            return stoi(equipParamWeapon.at(pair.first)["ID"]);
+        }
+    }
+    return -1;
 }
 
 int DataParser::fetchFp(int mindLevel)

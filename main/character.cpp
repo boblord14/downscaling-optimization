@@ -85,7 +85,7 @@ Character::Character(const std::string& jsonPath)
     this->armor = std::vector<std::string>(4, "");
     this->hasBullgoat = false;
     this->hasGreatjar = false;
-    this->upgradeLevel = -1;
+    this->upgradeLevel = data["weaponUpgrade"];
     this->machineLearningScore = 1;
     this->baseVigor = starting_classes[this->startingClass][0];
     this->baseMind = starting_classes[this->startingClass][1];
@@ -107,10 +107,19 @@ Character::Character(const std::string& jsonPath)
 
     for (auto serializedWeapon : data["inventory"]["slots"])
     {
-        int weaponId = stoi(static_cast<std::string>(serializedWeapon["weapon_hex_id"]), nullptr, 16);
-        //convert hex string to integer
-        int infusion = stoi(static_cast<std::string>(serializedWeapon["affinity_hex_id"]), nullptr, 16) % 1000;
-        int upgrade = stoi(static_cast<std::string>(serializedWeapon["upgrade_hex_id"]), nullptr, 16);
+        int weaponId = DataParser::retrieveWeaponIdByName(serializedWeapon["name"]);
+
+        //convert infusion name to infusion enum(and then int version)
+        int infusion = serializedWeapon["infusion"].is_null() ? BASE : infusion_name_mapping[serializedWeapon["infusion"]];
+
+        int upgrade = 0;
+        if (!serializedWeapon["upgrade"].is_null())
+        {
+            upgrade = serializedWeapon["upgrade"].get<int>();
+        } else
+        {
+            upgrade = this->upgradeLevel;
+        }
 
         if (upgrade > this->upgradeLevel) this->upgradeLevel = upgrade;
 
@@ -182,14 +191,21 @@ Character::Character(const std::string& jsonPath)
     this->effectiveHealth = DataParser::fetchHp(this->vigor - 1);
 
     double negation = 0;
-    negation += static_cast<double>(data["computed"]["absorption"]["physical"]);
-    negation += static_cast<double>(data["computed"]["absorption"]["slash"]);
-    negation += static_cast<double>(data["computed"]["absorption"]["pierce"]);
-    negation += static_cast<double>(data["computed"]["absorption"]["strike"]);
-    negation += static_cast<double>(data["computed"]["absorption"]["magic"]);
-    negation += static_cast<double>(data["computed"]["absorption"]["fire"]);
-    negation += static_cast<double>(data["computed"]["absorption"]["lightning"]);
-    negation += static_cast<double>(data["computed"]["absorption"]["holy"]);
+    if (!data["computed"]["absorption"].is_null())
+    {
+        negation += static_cast<double>(data["computed"]["absorption"]["physical"]);
+        negation += static_cast<double>(data["computed"]["absorption"]["slash"]);
+        negation += static_cast<double>(data["computed"]["absorption"]["pierce"]);
+        negation += static_cast<double>(data["computed"]["absorption"]["strike"]);
+        negation += static_cast<double>(data["computed"]["absorption"]["magic"]);
+        negation += static_cast<double>(data["computed"]["absorption"]["fire"]);
+        negation += static_cast<double>(data["computed"]["absorption"]["lightning"]);
+        negation += static_cast<double>(data["computed"]["absorption"]["holy"]);
+    }else
+    {
+        negation += 300; //generic value, usually recomputed when it matters + only an edge case doesnt have it
+    }
+
     negation /= 800;
 
     this->effectiveHealth /= (1 - negation);
@@ -211,6 +227,8 @@ Character::Character(const std::string& jsonPath)
     this->damageStatCount = static_cast<double>(allocatedDamageStats) / level;
     this->effectiveHpVigorRatio = static_cast<double>(this->vigor) / level;
     this->effectiveHpEnduranceRatio = static_cast<double>(this->endurance) / level;
+
+    f.close();
 }
 
 std::string Character::getName()

@@ -182,8 +182,9 @@ int main() {
     DataParser::generateDefs();
     //pinco();
     //montage();
-  loadCharacter::functionTesting();
-  loadCharacter::loadData();
+  //loadCharacter::functionTesting();
+  loadCharacter::writeTrainingData(R"(..\..\soulsplanner-build-archive\rl90ish)", R"(..\..\soulsplanner-build-archive\ML-Training-Vectors\rl90ish\)");
+  //loadCharacter::loadData();
   //computeAllWeapons();
  // Weapon shortsword(67520000, BASE, 17);
  // auto ar = shortsword.calcAR(20, 32, 12, 42, 10, false);
