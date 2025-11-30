@@ -764,7 +764,7 @@ std::vector<int> damageStatAllocation(const Character& characterInput, int damag
 /// @param level soul level to build to
 /// @param characterInput the original character build
 /// @param numBuilds how many highly rated output builds we want
-void rankBuilds(const std::vector<std::vector<double>>& builds, const std::string& modelPath, int level, const Character& characterInput, int numBuilds)
+void rankBuilds(const std::vector<std::vector<double>>& builds, const std::string& modelPath, int level, Character& characterInput, int numBuilds)
 {
     std::vector<float> mlStringBuilds;
     int buildStringSize = 0;
@@ -826,7 +826,7 @@ void rankBuilds(const std::vector<std::vector<double>>& builds, const std::strin
         auto result = buildPriorityQueue.top();
         buildPriorityQueue.pop();
 
-        std::cout << result.first << std::endl;
+        //std::cout << result.first << std::endl;
 
         auto resultData = result.second;
         int resultDataSize = resultData.size();
@@ -835,6 +835,7 @@ void rankBuilds(const std::vector<std::vector<double>>& builds, const std::strin
         int vigorStat = std::round(resultData[resultDataSize - 2] * level);
         int endStat = std::round(resultData[resultDataSize - 1] * level);
         int dmgStats = std::round(resultData[8] * level);
+        std::cout << characterInput.getName() << ":" << std::endl;
         std::cout << "EHP is " << resultData[1] * best_ehp << ". Vigor invested is " << vigorStat << ". Endurance invested is " << endStat << ". Mind invested is "
         << mindStat << ". Number of stats invested towards damage is " << dmgStats << "." << std::endl;
 
@@ -1040,7 +1041,7 @@ void loadCharacter::functionTesting()
     std::cout << "mind: " << DataParser::fetchFp(bloodsage.getMind()) << std::endl;
 
     std::cout << "exponential decay test: ";
-    auto labledData = exponentialDecay(bloodsage, 1);
+    //auto labledData = exponentialDecay(bloodsage, 1);
     std::cout << "debug this, too long to print" << std::endl;
 
     std::cout << "damage stat allocation test:  [ " << std::endl;
@@ -1051,4 +1052,5 @@ void loadCharacter::functionTesting()
     std::cout << "ML score tests: " << std::endl;
     //rankBuilds({bloodsage}, R"(../../SavedModel)", 90, bloodsage, 1);
     //createBuilds(bloodsage, 90, 5);
+
 }
