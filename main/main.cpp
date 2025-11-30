@@ -183,7 +183,11 @@ int main() {
     //pinco();
     //montage();
   //loadCharacter::functionTesting();
-  loadCharacter::writeTrainingData(R"(..\..\soulsplanner-build-archive\rl150ish)", R"(..\..\soulsplanner-build-archive\ML-Training-Vectors\rl150ish\labeled_data.txt)");
+  loadCharacter::loadData(R"(..\..\csv-conversions\non csv data\Zweihander.json)", 90, 1);
+
+  loadCharacter::loadData(R"(..\..\csv-conversions\non csv data\Zweihander buff.json)", 90, 1);
+
+  //loadCharacter::writeTrainingData(R"(..\..\soulsplanner-build-archive\rl150ish)", R"(..\..\soulsplanner-build-archive\ML-Training-Vectors\rl150ish\labeled_data.txt)");
   //loadCharacter::loadData();
   //computeAllWeapons();
  // Weapon shortsword(67520000, BASE, 17);
