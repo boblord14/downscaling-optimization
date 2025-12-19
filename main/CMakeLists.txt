@@ -2,12 +2,21 @@ cmake_minimum_required(VERSION 3.10)
 project(downscaling-optimization)
 
 set(CMAKE_CXX_STANDARD 17)
+set(PROFILE "Debug")
 include_directories(include)
 include_directories(lib)
 
-
+# NLopt and nlohmann are required to be installed via vcpkg
 find_package(NLopt CONFIG REQUIRED)
 find_package(nlohmann_json CONFIG REQUIRED)
+
+#additionally requires the tensorflow.lib file installed to main/lib from here:
+#https://www.tensorflow.org/install/lang_c
+
+#requires the following installed in main/include
+#cppflow https://github.com/serizba/cppflow
+#tensorflow https://www.tensorflow.org/install/lang_c
+#eigen https://libeigen.gitlab.io/
 
 add_executable(downscaling-optimization main.cpp
         DataParser.cpp
