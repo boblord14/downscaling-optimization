@@ -372,7 +372,8 @@ std::vector<double> Character::generateMlString()
 
     double spellSlotRatio = static_cast<double>(spells.size()) / MAX_CHARACTER_SPELL_SLOTS;
 
-    std::vector<double> finalMlString = {score, static_cast<double>(level)/SCALING_LEVEL_TARGET, effectiveHpRatio, /*poiseRatio,*/ fpRatio,
+    std::vector<double> finalMlString = {score, static_cast<double>(level)/SCALING_LEVEL_TARGET, effectiveHpRatio, poiseRatio,
+        fpRatio,
     ashFpRatio, spellFpRatio, maxSpellFp, spellSlotRatio, damageStatCount};
 
     std::vector<double> startingClassHotEncode(starting_classes_index.size(), 0);
@@ -384,6 +385,7 @@ std::vector<double> Character::generateMlString()
     if (hasGreatjar) finalMlString.push_back(1); else finalMlString.push_back(0);
     finalMlString.push_back(effectiveHpVigorRatio);
     finalMlString.push_back(effectiveHpEnduranceRatio);
+
 
     return finalMlString;
 }

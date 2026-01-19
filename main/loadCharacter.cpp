@@ -937,7 +937,7 @@ void loadCharacter::loadData()
     Character bloodsage(R"(..\..\csv-conversions\non csv data\BloodsageNadine.json)");
     //prepareData(bloodsage, 1);
     auto builds = createBuilds(bloodsage, 90, 5);
-    rankBuilds(builds, R"(../../SavedModel)", 90, bloodsage, 2);
+    rankBuilds(builds, R"(../../SavedModel125)", 90, bloodsage, 2);
 }
 
 void loadCharacter::loadData(std::string buildJsonPath, int targetLevel, int buildsToProduce)
@@ -946,7 +946,7 @@ void loadCharacter::loadData(std::string buildJsonPath, int targetLevel, int bui
     Character bloodsage(buildJsonPath);
     //prepareData(bloodsage, 1);
     auto builds = createBuilds(bloodsage, targetLevel, 5);
-    rankBuilds(builds, R"(../../SavedModel)", targetLevel, bloodsage, buildsToProduce);
+    rankBuilds(builds, R"(../../SavedModel125)", targetLevel, bloodsage, buildsToProduce);
 }
 
 void loadCharacter::writeTrainingData(const std::string& trainingPath, const std::string& outputFilePath)
