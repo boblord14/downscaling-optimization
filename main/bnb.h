@@ -66,8 +66,8 @@ inline std::vector<Region> Region::subdivide(){
   auto point = intersect();
   std::vector<std::vector<std::pair<int,int>>> bounds(5);
   for (int i = 0; i < 5; ++i) {
-    int f = std::floor(point[i]);
-    int c = std::ceil(point[i]);
+    int f = static_cast<int>(std::floor(point[i]));
+    int c = static_cast<int>(std::ceil(point[i]));
     if (f == c) {
       c += 1;
     }
@@ -179,7 +179,7 @@ inline void thread(){
     mut.lock();
     std::cout << "Eval Point ";
     for (int i = 0; i < 5; ++i) {
-      point_int[i] = point[i];
+      point_int[i] = static_cast<int>(point[i]);
       std::cout << point_int[i] << " ";
     }
     std::cout << std::endl;
@@ -235,7 +235,7 @@ inline std::pair<std::vector<double>, std::vector<std::vector<int>>> branch_boun
       double alpha = total_stats / sum;
       out << "Best guess vector ";
       for (int i = 0; i < 5; ++i) {
-	best_vector[i] = std::min(alpha * best_vector[i], 99.0);
+	best_vector[i] = static_cast<int>(std::min(alpha * best_vector[i], 99.0));
 	out << best_vector[i] << " ";
       }
       out << std::endl;
@@ -329,7 +329,7 @@ inline std::vector<int> computeWeaponUpgradeInterest(std::vector<Weapon*> weapon
     std::cout << std::endl;
     double median = -1;
     if (ratios.size() %2 == 0) {
-      int index = ratios.size() / 2;
+      int index = static_cast<int>(ratios.size()) / 2;
       median = (ratios[index + 1] + ratios[index]) / 2;
     }
     else {

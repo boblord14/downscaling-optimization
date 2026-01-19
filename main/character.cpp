@@ -12,22 +12,22 @@ std::vector<int> getFPAshOfWar(const std::string& name)
 
     auto data = *DataParser::retrieveSwordArtByName(name);
 
-    if (int leftHandLightAttackFP = stoi(data.at("useMagicPoint_L1")); leftHandLightAttackFP != -1 and leftHandLightAttackFP != 0)
+    if (int leftHandLightAttackFP = stoi(data.at("useMagicPoint_L1")); leftHandLightAttackFP != -1 && leftHandLightAttackFP != 0)
     {
         fp.push_back(leftHandLightAttackFP);
     }
 
-    if (int leftHandHeavyAttackFP = stoi(data.at("useMagicPoint_L2")); leftHandHeavyAttackFP != -1 and leftHandHeavyAttackFP != 0)
+    if (int leftHandHeavyAttackFP = stoi(data.at("useMagicPoint_L2")); leftHandHeavyAttackFP != -1 && leftHandHeavyAttackFP != 0)
     {
         fp.push_back(leftHandHeavyAttackFP);
     }
 
-    if (int rightHandLightAttackFP = stoi(data.at("useMagicPoint_R1")); rightHandLightAttackFP != -1 and rightHandLightAttackFP != 0)
+    if (int rightHandLightAttackFP = stoi(data.at("useMagicPoint_R1")); rightHandLightAttackFP != -1 && rightHandLightAttackFP != 0)
     {
         fp.push_back(rightHandLightAttackFP);
     }
 
-    if (int rightHandHeavyAttackFP = stoi(data.at("useMagicPoint_R2")); rightHandHeavyAttackFP != -1 and rightHandHeavyAttackFP != 0)
+    if (int rightHandHeavyAttackFP = stoi(data.at("useMagicPoint_R2")); rightHandHeavyAttackFP != -1 && rightHandHeavyAttackFP != 0)
     {
         fp.push_back(rightHandHeavyAttackFP);
     }
