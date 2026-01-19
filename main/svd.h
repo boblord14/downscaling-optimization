@@ -17,7 +17,7 @@
    }
    out << "index start is " << index_start << std::endl;
    out << "starting stats is " << stats[0] << std::endl;
-   int size = stats.size();
+   int size = static_cast<int>(stats.size());
    std::vector<double> svd_dmg;
    auto start = high_resolution_clock::now();
    for (int i = 0; i < size; ++i) {
@@ -55,7 +55,7 @@
      out << "SVD stats" << std::endl;
      int svd_sum = 0;
      for (int k = 0; k < 5; ++k) {
-       svd_stats[k] = std::min(approx[k] * alpha + base_stats[k], 99.0);
+       svd_stats[k] = static_cast<int>(std::min(approx[k] * alpha + base_stats[k], 99.0));
        out << svd_stats[k] << std::endl;
        svd_sum += svd_stats[k];
      }

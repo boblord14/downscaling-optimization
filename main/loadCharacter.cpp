@@ -80,7 +80,7 @@ double loadCharacter::retrieveMaxPoise() {
 /// @param x0 X value of the function's midpoint
 /// @param x Input argument for x
 /// @return Calculated logistic value f(x)
-float LogisticFunction(float L, float k, float x0, float x) {
+double LogisticFunction(double L, double k, double x0, double x) {
     return L / (1 + std::exp(-k * (x - x0)));
 }
 
@@ -88,7 +88,7 @@ float LogisticFunction(float L, float k, float x0, float x) {
 /// @param logisticPiece Vector containing Logistic function values for L, k, and x0 in that order
 /// @param x Input argument for x
 /// @return Calculated logistic value f(x) for the given armor piece equation and x
-float Logistic(const std::vector<float>& logisticPiece, float x) {
+double Logistic(const std::vector<float>& logisticPiece, double x) {
     return LogisticFunction(logisticPiece[0], logisticPiece[1], logisticPiece[2], x);
 }
 
@@ -99,31 +99,31 @@ float Logistic(const std::vector<float>& logisticPiece, float x) {
 /// @param armorPercent What percentage of total equip load is dedicated to armor
 /// @param hasBullgoat Is the player using bullgoat talisman(poise matters more)
 /// @return A pair of the ideal overall negation and poise values
-std::pair<float, float> negationsPoise(float equipLoad, const std::vector<double>& armorFraction, float armorPercent, boolean hasBullgoat) {
-    float armor = equipLoad * armorPercent;
+std::pair<double, double> negationsPoise(double equipLoad, const std::vector<double>& armorFraction, double armorPercent, boolean hasBullgoat) {
+    double armor = equipLoad * armorPercent;
     std::vector<std::vector<float>> poiseArmorPieces = DataParser::fetchArmorPoise();
 
     //x is the % of current equip load dedicated to armor reserved for the given armor piece
-    float negationsHead = (1 - Logistic(logisticArmorPieces[0], armor * armorFraction[0]));
-    float negationsChest = (1 - Logistic(logisticArmorPieces[1], armor * armorFraction[1]));
-    float negationsArm = (1 - Logistic(logisticArmorPieces[2], armor * armorFraction[2]));
-    float negationsLeg = (1 - Logistic(logisticArmorPieces[3], armor * armorFraction[3]));
+    double negationsHead = (1 - Logistic(logisticArmorPieces[0], armor * armorFraction[0]));
+    double negationsChest = (1 - Logistic(logisticArmorPieces[1], armor * armorFraction[1]));
+    double negationsArm = (1 - Logistic(logisticArmorPieces[2], armor * armorFraction[2]));
+    double negationsLeg = (1 - Logistic(logisticArmorPieces[3], armor * armorFraction[3]));
 
-    float negations = 1 - negationsHead * negationsChest * negationsArm * negationsLeg;
+    double negations = 1 - negationsHead * negationsChest * negationsArm * negationsLeg;
 
-    float truePoiseHead = (poiseArmorPieces[0][0] * armor * armorFraction[0] + poiseArmorPieces[0][1]);
+    double truePoiseHead = (poiseArmorPieces[0][0] * armor * armorFraction[0] + poiseArmorPieces[0][1]);
     if (truePoiseHead<=0) truePoiseHead = 0;
 
-    float truePoiseChest = (poiseArmorPieces[1][0] * armor * armorFraction[1] + poiseArmorPieces[1][1]);
+    double truePoiseChest = (poiseArmorPieces[1][0] * armor * armorFraction[1] + poiseArmorPieces[1][1]);
     if (truePoiseChest<=0) truePoiseChest = 0;
 
-    float truePoiseArm = (poiseArmorPieces[2][0] * armor * armorFraction[2] + poiseArmorPieces[2][1]);
+    double truePoiseArm = (poiseArmorPieces[2][0] * armor * armorFraction[2] + poiseArmorPieces[2][1]);
     if (truePoiseArm<=0) truePoiseArm = 0;
 
-    float truePoiseLeg = (poiseArmorPieces[3][0] * armor * armorFraction[3] + poiseArmorPieces[3][1]);
+    double truePoiseLeg = (poiseArmorPieces[3][0] * armor * armorFraction[3] + poiseArmorPieces[3][1]);
     if (truePoiseLeg<=0) truePoiseLeg = 0;
 
-    float fullPoise = truePoiseHead + truePoiseChest + truePoiseArm + truePoiseLeg;
+    double fullPoise = truePoiseHead + truePoiseChest + truePoiseArm + truePoiseLeg;
 
     if (hasBullgoat) fullPoise = fullPoise / 0.75;
 
@@ -142,13 +142,13 @@ std::pair<float, float> negationsPoise(float equipLoad, const std::vector<double
 /// @param hasBullgoat Is the player using bullgoat talisman(poise matters more)
 /// @param hasGreatjar Is the player using the great jar talisman(poise/neg matters slightly more, significant equip load change)
 /// @return A vector of the best effective HP breakpoints, containing effective HP, poise value, stat points allocated to vigor, and stat points allocated to endurance
-std::vector<std::vector<float>> effectiveHealth(int baseVigor, int baseEndurance, float armorPercent, const std::vector<double>& armorFraction, int allocatedStatPoints, bool hasBullgoat, bool hasGreatjar) {
-    std::vector<float> characterEquipLoadScale;
-    std::vector<float> characterHealthScale;
-    std::vector<float> negations;
-    std::vector<float> poise;
-    std::vector<float> effectiveHp;
-    std::vector<std::vector<float>> bestBreakPoints(DataParser::getPoiseSize(), std::vector<float>(4, -1));
+std::vector<std::vector<double>> effectiveHealth(int baseVigor, int baseEndurance, double armorPercent, const std::vector<double>& armorFraction, int allocatedStatPoints, bool hasBullgoat, bool hasGreatjar) {
+    std::vector<double> characterEquipLoadScale;
+    std::vector<double> characterHealthScale;
+    std::vector<double> negations;
+    std::vector<double> poise;
+    std::vector<double> effectiveHp;
+    std::vector<std::vector<double>> bestBreakPoints(DataParser::getPoiseSize(), std::vector<double>(4, -1));
 
     int i = 0;
 
@@ -156,21 +156,21 @@ std::vector<std::vector<float>> effectiveHealth(int baseVigor, int baseEndurance
 
     while (i <= allocatedStatPoints) {
         int hpIndex = i + baseVigor;
-        float hp = DataParser::fetchHp(hpIndex);
+        double hp = DataParser::fetchHp(hpIndex);
         characterHealthScale.push_back(hp);
 
         int enduranceIndex = allocatedStatPoints - i + baseEndurance;
-        float equipLoad = DataParser::fetchEq(enduranceIndex);
+        double equipLoad = DataParser::fetchEq(enduranceIndex);
         if (hasGreatjar) equipLoad = equipLoad * 1.19;
 
         auto values = negationsPoise(equipLoad, armorFraction, armorPercent, hasBullgoat);
-        float neg = values.first;
-        float poiseVal = values.second;
+        double neg = values.first;
+        double poiseVal = values.second;
 
         characterEquipLoadScale.push_back(equipLoad);
         poise.push_back(poiseVal);
         negations.push_back(neg);
-        float computedEffectiveHp = hp / (1 - neg);
+        double computedEffectiveHp = hp / (1 - neg);
         effectiveHp.push_back(computedEffectiveHp);
 
         for (int j = 0; j < DataParser::getPoiseSize(); j++) {
@@ -230,7 +230,7 @@ double equality(const std::vector<double> &x, std::vector<double> &grad, void* f
 /// load value
 /// @param equipLoad Total equip load the function has to work with
 /// @return A paid first containing the 4 ideal armor equip load values, followed by the total negation value obtained
-std::pair<std::vector<double>, double> bestNegations(float equipLoad) {
+std::pair<std::vector<double>, double> bestNegations(double equipLoad) {
     if (logisticArmorPieces.empty()) logisticArmorPieces = DataParser::fetchLogistics();
 
     double eq = 0.69 * equipLoad; //medium roll 69% threshold
@@ -242,7 +242,7 @@ std::pair<std::vector<double>, double> bestNegations(float equipLoad) {
     opt.set_lower_bounds({0, 0, 0, 0}); //x>=0
     opt.set_min_objective(obj, nullptr); //derivative free function
 
-    float tolerance = 1e-4 * std::max(1.0, std::abs(eq));
+    double tolerance = 1e-4 * std::max(1.0, std::abs(eq));
     opt.add_equality_constraint(equality, &eq, tolerance); //satisfied when equip load equals max acceptable equip load
 
     opt.set_xtol_rel(1e-6); //relative tolerances
@@ -445,22 +445,22 @@ int loadCharacter::getMaxFPAshOfWar()
     std::vector<int> fp = {};
     for (const auto & [ id, data ] : DataParser::retrieveAllSwordArt())
     {
-        if (int leftHandLightAttackFP = stoi(data.at("useMagicPoint_L1")); leftHandLightAttackFP != -1 and leftHandLightAttackFP != 0)
+        if (int leftHandLightAttackFP = stoi(data.at("useMagicPoint_L1")); leftHandLightAttackFP != -1 && leftHandLightAttackFP != 0)
         {
             fp.push_back(leftHandLightAttackFP);
         }
 
-        if (int leftHandHeavyAttackFP = stoi(data.at("useMagicPoint_L2")); leftHandHeavyAttackFP != -1 and leftHandHeavyAttackFP != 0)
+        if (int leftHandHeavyAttackFP = stoi(data.at("useMagicPoint_L2")); leftHandHeavyAttackFP != -1 && leftHandHeavyAttackFP != 0)
         {
             fp.push_back(leftHandHeavyAttackFP);
         }
 
-        if (int rightHandLightAttackFP = stoi(data.at("useMagicPoint_R1")); rightHandLightAttackFP != -1 and rightHandLightAttackFP != 0)
+        if (int rightHandLightAttackFP = stoi(data.at("useMagicPoint_R1")); rightHandLightAttackFP != -1 && rightHandLightAttackFP != 0)
         {
             fp.push_back(rightHandLightAttackFP);
         }
 
-        if (int rightHandHeavyAttackFP = stoi(data.at("useMagicPoint_R2")); rightHandHeavyAttackFP != -1 and rightHandHeavyAttackFP != 0)
+        if (int rightHandHeavyAttackFP = stoi(data.at("useMagicPoint_R2")); rightHandHeavyAttackFP != -1 && rightHandHeavyAttackFP != 0)
         {
             fp.push_back(rightHandHeavyAttackFP);
         }
@@ -545,8 +545,8 @@ std::vector<Character> exponentialDecay(Character& characterInput, int delta)
     armorPercent /= equipLoad;
 
     auto optimizedValues = negationsPoise(equipLoad, armorFraction, armorPercent, characterInput.getHasBullgoat());
-    float optimalNegations = optimizedValues.first; //unused for later(?)
-    float optimalPoise = optimizedValues.second; //unused for later(?)
+    double optimalNegations = optimizedValues.first; //unused for later(?)
+    double optimalPoise = optimizedValues.second; //unused for later(?)
 
     //compute EHP with all stat points put towards EHP, armor ratios ignored
     double optimalEffectiveHp = loadCharacter::bestEffectiveHP(characterInput.getLevel(), characterInput.getStartingClass(), characterInput.getHasGreatjar());
@@ -557,7 +557,7 @@ std::vector<Character> exponentialDecay(Character& characterInput, int delta)
     int allocatedEhpStats = characterInput.getVigor() - baseClassVigor + characterInput.getEndurance() - baseClassEndurance;
 
     //compute EHP breakpoints with the original amount of stat points allocated towards EHP and armor taken into account
-    std::vector<std::vector<float>> allocatedEhp = effectiveHealth(baseClassVigor, baseClassEndurance, armorPercent,
+    std::vector<std::vector<double>> allocatedEhp = effectiveHealth(baseClassVigor, baseClassEndurance, armorPercent,
         armorFraction, allocatedEhpStats, characterInput.getHasBullgoat(), characterInput.getHasGreatjar());
 
     //how close did our allocated EHP calculated w/ armor come to the optimal EHP?
@@ -683,7 +683,6 @@ std::vector<int> damageStatAllocation(const Character& characterInput, int damag
     //estimate thatll be "close enough". This is "reducing dimensions", and is typically used for making low resolution
     //versions of an image, which is basically what we're doing with our weapon data calcs.
     Eigen::MatrixXd leftSingularVectors  = svd.matrixU();
-    Eigen::VectorXd singularValues  = svd.singularValues();
     Eigen::MatrixXd rightSingularVectorsT = svd.matrixV();
     rightSingularVectorsT.transposeInPlace(); //numpy version doesn't transpose
 
@@ -776,12 +775,12 @@ void rankBuilds(const std::vector<std::vector<double>>& builds, const std::strin
         tempBuildString.erase(tempBuildString.begin());//removing the score value(why is this there in the first place?)
         mlStringBuilds.insert(mlStringBuilds.end(), tempBuildString.begin(), tempBuildString.end());
 
-        buildStringSize = tempBuildString.size(); //post score trim size
+        buildStringSize = static_cast<int>(tempBuildString.size()); //post score trim size
     }
 
     //code neatness thing
     typedef std::pair<float, std::vector<float>> priorityPair;
-    std::priority_queue<priorityPair, std::vector<priorityPair>, std::greater<priorityPair>> buildPriorityQueue;
+    std::priority_queue<priorityPair, std::vector<priorityPair>, std::greater<>> buildPriorityQueue;
 
     cppflow::model model(modelPath);
     auto input = cppflow::tensor(mlStringBuilds, {static_cast<int>(builds.size()), buildStringSize});
@@ -829,7 +828,7 @@ void rankBuilds(const std::vector<std::vector<double>>& builds, const std::strin
         //std::cout << result.first << std::endl;
 
         auto resultData = result.second;
-        int resultDataSize = resultData.size();
+        int resultDataSize = static_cast<int>(resultData.size());
 
         int mindStat = fpToMind(std::round(resultData[3] * max_fp)) - starting_classes[characterInput.getStartingClass()][CLASS_MIND_STAT_INDEX];
         int vigorStat = std::round(resultData[resultDataSize - 2] * level);
@@ -854,7 +853,7 @@ std::vector<std::vector<double>> createBuilds(Character characterInput, int leve
     int baseEndurance = starting_classes[characterInput.getStartingClass()][CLASS_ENDURANCE_STAT_INDEX];
 
     std::vector<double> armorFraction = {};
-    float armorPercent = 0;
+    double armorPercent = 0;
     double equipLoad = DataParser::fetchEq(characterInput.getEndurance());
 
     if (characterInput.getHasGreatjar()) equipLoad *= 1.19;
@@ -895,7 +894,7 @@ std::vector<std::vector<double>> createBuilds(Character characterInput, int leve
 
     auto mesh = gridGenerator(level, stride);
 
-    std::unordered_map<int, std::vector<std::vector<float>>> ehpCache;
+    std::unordered_map<int, std::vector<std::vector<double>>> ehpCache;
     std::vector<std::vector<double>> output;
 
     //testValueSet has data stored like this: [Damage, Spell Slots, Effective Hp]
@@ -912,7 +911,7 @@ std::vector<std::vector<double>> createBuilds(Character characterInput, int leve
         outputBuild[9] = static_cast<double>(testValueSet[0]) / level; //set damage stat ratio
 
         //effective HP
-        std::vector<std::vector<float>> effectiveHPs;
+        std::vector<std::vector<double>> effectiveHPs;
         if (ehpCache.find(testValueSet[1]) != ehpCache.end()) //check if key is present
         {
             effectiveHPs = ehpCache[testValueSet[1]];

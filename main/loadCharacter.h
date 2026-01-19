@@ -62,7 +62,7 @@ inline Eigen::MatrixXd convert_vvd_to_matrix(std::vector<std::vector<double> > v
         if (n_cols != vvd.at(i).size()) {
             char buffer[200];
             snprintf(buffer, 200,
-                        "vvd[%ld] size (%ld) does not match vvd[0] size (%ld)",
+                        "vvd[%zd] size (%zd) does not match vvd[0] size (%zd)",
                         i, vvd.at(i).size(), n_cols);
             std::string err_mesg(buffer);
             throw std::invalid_argument(err_mesg);
