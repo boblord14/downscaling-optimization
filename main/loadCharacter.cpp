@@ -143,21 +143,14 @@ std::pair<double, double> negationsPoise(double equipLoad, const std::vector<dou
 /// @param hasGreatjar Is the player using the great jar talisman(poise/neg matters slightly more, significant equip load change)
 /// @return A vector of the best effective HP breakpoints, containing effective HP, poise value, stat points allocated to vigor, and stat points allocated to endurance
 std::vector<std::vector<double>> effectiveHealth(int baseVigor, int baseEndurance, double armorPercent, const std::vector<double>& armorFraction, int allocatedStatPoints, bool hasBullgoat, bool hasGreatjar) {
-    std::vector<double> characterEquipLoadScale;
-    std::vector<double> characterHealthScale;
-    std::vector<double> negations;
-    std::vector<double> poise;
-    std::vector<double> effectiveHp;
+    std::vector<std::vector<double>> potentialBuilds;
     std::vector<std::vector<double>> bestBreakPoints(DataParser::getPoiseSize(), std::vector<double>(4, -1));
-
-    int i = 0;
 
     if (logisticArmorPieces.empty()) logisticArmorPieces = DataParser::fetchLogistics();
 
-    while (i <= allocatedStatPoints) {
+    for (int i=0; i <= allocatedStatPoints; i++){
         int hpIndex = i + baseVigor;
         double hp = DataParser::fetchHp(hpIndex);
-        characterHealthScale.push_back(hp);
 
         int enduranceIndex = allocatedStatPoints - i + baseEndurance;
         double equipLoad = DataParser::fetchEq(enduranceIndex);
@@ -167,19 +160,21 @@ std::vector<std::vector<double>> effectiveHealth(int baseVigor, int baseEnduranc
         double neg = values.first;
         double poiseVal = values.second;
 
-        characterEquipLoadScale.push_back(equipLoad);
-        poise.push_back(poiseVal);
-        negations.push_back(neg);
         double computedEffectiveHp = hp / (1 - neg);
-        effectiveHp.push_back(computedEffectiveHp);
+        potentialBuilds.push_back({computedEffectiveHp, poiseVal, static_cast<double>(hpIndex - baseVigor),
+            static_cast<double>(enduranceIndex - baseEndurance)});
+    }
 
-        for (int j = 0; j < DataParser::getPoiseSize(); j++) {
-            if (poiseVal >= DataParser::fetchPoise(j) && computedEffectiveHp >= bestBreakPoints[j][0]) {
-                bestBreakPoints[j] = {computedEffectiveHp, poiseVal, static_cast<float>(hpIndex) - baseVigor, static_cast<float>(enduranceIndex) - baseEndurance};
+    for (int j = 0; j < DataParser::getPoiseSize(); j++) {
+        double poiseThreshold = DataParser::fetchPoise(j);
+
+        for (auto build:potentialBuilds) {
+            if (build[1] >= poiseThreshold && build[0] >= bestBreakPoints[j][0]) {
+                bestBreakPoints[j] = build;
             }
         }
-        i += 1;
     }
+
     while (bestBreakPoints.back()[0] == -1) bestBreakPoints.pop_back();
     return bestBreakPoints;
 }
@@ -609,6 +604,7 @@ std::vector<Character> exponentialDecay(Character& characterInput, int delta)
         newStatMlCharacter.setPoiseRatio(allocatedEhp[0][1]);
         newStatMlCharacter.setEffectiveHpVigorRatio(allocatedEhp[0][2]);
         newStatMlCharacter.setEffectiveHpEnduranceRatio(allocatedEhp[0][3]);
+
 
         newStatMlCharacter.setScore(score);
         outputMlCharacters.push_back(newStatMlCharacter);
@@ -1040,7 +1036,7 @@ void loadCharacter::functionTesting()
     std::cout << "mind: " << DataParser::fetchFp(bloodsage.getMind()) << std::endl;
 
     std::cout << "exponential decay test: ";
-    //auto labledData = exponentialDecay(bloodsage, 1);
+    auto labledData = exponentialDecay(bloodsage, 1);
     std::cout << "debug this, too long to print" << std::endl;
 
     std::cout << "damage stat allocation test:  [ " << std::endl;
