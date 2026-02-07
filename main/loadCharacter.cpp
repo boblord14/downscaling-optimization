@@ -132,8 +132,9 @@ std::pair<double, double> negationsPoise(double equipLoad, const std::vector<dou
     return std::make_pair(negations, fullPoise);
 }
 
-/// Calculates Effective Hp breakpoints, which is the true HP value after negations and other related factors are accounted for.
-/// Takes armor ratios and weight into account.
+/// Calculates best effective hp at poise breakpoints. For each poise breakpoint, find the build with the best EHP while
+/// meeting that breakpoint(without going over our allocated stat amount). Only needs vigor and endurance for this.
+/// Returns a vector of each breakpoint that we can actually hit.
 /// @param baseVigor The character's starting class's base vigor value
 /// @param baseEndurance The character's starting class's base endurance value
 /// @param armorPercent What percentage of total equip load is dedicated to armor
@@ -141,7 +142,8 @@ std::pair<double, double> negationsPoise(double equipLoad, const std::vector<dou
 /// @param allocatedStatPoints Number of stat points to allocate
 /// @param hasBullgoat Is the player using bullgoat talisman(poise matters more)
 /// @param hasGreatjar Is the player using the great jar talisman(poise/neg matters slightly more, significant equip load change)
-/// @return A vector of the best effective HP breakpoints, containing effective HP, poise value, stat points allocated to vigor, and stat points allocated to endurance
+/// @return A vector of the best effective HP values at a given poise breakpoint, containing effective HP, poise value,
+/// stat points allocated to vigor, and stat points allocated to endurance
 std::vector<std::vector<double>> effectiveHealth(int baseVigor, int baseEndurance, double armorPercent, const std::vector<double>& armorFraction, int allocatedStatPoints, bool hasBullgoat, bool hasGreatjar) {
     std::vector<std::vector<double>> potentialBuilds;
     std::vector<std::vector<double>> bestBreakPoints(DataParser::getPoiseSize(), std::vector<double>(4, -1));
