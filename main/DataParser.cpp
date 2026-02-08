@@ -192,6 +192,18 @@ int DataParser::getPoiseSize()
     return poise_bp.size();
 }
 
+int DataParser::getPoiseTier(double poise) {
+    int currentTier = -1;
+    for (int i=0; i<poise_bp.size(); i++) {
+        if (poise >= poise_bp.at(i)) {
+            currentTier = i;
+        } else {
+            break;
+        }
+    }
+    return currentTier;
+}
+
 std::vector<std::vector<float>> DataParser::fetchLogistics()
 {
     return {logistic_head, logistic_chest, logistic_arm, logistic_leg};
