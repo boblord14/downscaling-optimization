@@ -545,6 +545,8 @@ std::vector<Character> exponentialDecay(Character& characterInput, int delta)
     double optimalNegations = optimizedValues.first; //unused for later(?)
     double optimalPoise = optimizedValues.second; //unused for later(?)
 
+    int basePoiseTier = DataParser::getPoiseTier(optimalPoise);
+
     //compute EHP with all stat points put towards EHP, armor ratios ignored
     double optimalEffectiveHp = loadCharacter::bestEffectiveHP(characterInput.getLevel(), characterInput.getStartingClass(), characterInput.getHasGreatjar());
 
@@ -599,17 +601,31 @@ std::vector<Character> exponentialDecay(Character& characterInput, int delta)
         //actual exponential decay and score generation
         double distance = std::abs(statAllocation[0] - allocatedDamageStats) + std::abs(statAllocation[1] - allocatedEhpStats)
         + std::abs(statAllocation[2] - allocatedMindStats);
-        double score = std::exp(-distance / 100);
-        if (score <= 0.5) continue;
+        double statScore = std::exp(-distance / 100);
+        if (statScore <= 0.5) continue;
 
-        newStatMlCharacter.setEffectiveHpRatio(allocatedEhp[0][0]);
-        newStatMlCharacter.setPoiseRatio(allocatedEhp[0][1]);
-        newStatMlCharacter.setEffectiveHpVigorRatio(allocatedEhp[0][2]);
-        newStatMlCharacter.setEffectiveHpEnduranceRatio(allocatedEhp[0][3]);
+        for (auto poiseBp : allocatedEhp) {
+            auto newPoiseChar = newStatMlCharacter;
+            newPoiseChar.setEffectiveHpRatio(poiseBp[0]);
+            newPoiseChar.setPoiseRatio(poiseBp[1]);
+            newPoiseChar.setEffectiveHpVigorRatio(poiseBp[2]);
+            newPoiseChar.setEffectiveHpEnduranceRatio(poiseBp[3]);
 
+            double poiseBpDiff = DataParser::getPoiseTier(poiseBp[1]) - basePoiseTier;
+            double poiseScore;
 
-        newStatMlCharacter.setScore(score);
-        outputMlCharacters.push_back(newStatMlCharacter);
+            if (poiseBpDiff < 0)
+                //dropping below base poise is punished harshly
+                poiseScore = std::exp(poiseBpDiff / 1.5);
+            else
+                //non-exponential bonus to score so we dont favor super high poise over high hp
+                poiseScore = 1.0 + 0.10 * poiseBpDiff;
+
+            double finalScore = statScore * poiseScore;
+            newPoiseChar.setScore(finalScore);
+            outputMlCharacters.push_back(newPoiseChar);
+        }
+
     }
     std::cout << "character decay complete for " << characterInput.getName() << std::endl;
     return outputMlCharacters;

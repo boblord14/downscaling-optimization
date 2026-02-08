@@ -68,6 +68,8 @@ public:
     static float fetchPoise(int index);
     static int getPoiseSize();
 
+    static int getPoiseTier(double poise);
+
     static std::vector<std::vector<float>> fetchLogistics();
     static std::vector<std::vector<float>> fetchArmorPoise();
 
