@@ -17,9 +17,11 @@ static std::unordered_map<int, std::unordered_map<std::string, std::string>> att
 static std::unordered_map<int, std::unordered_map<std::string, std::string>> equipParamProtector;
 static std::unordered_map<int, std::unordered_map<std::string, std::string>> swordArtsParam;
 static std::unordered_map<int, std::unordered_map<std::string, std::string>> magic;
+static std::unordered_map<int, std::unordered_map<std::string, std::string>> wepStamCost;
 static std::unordered_map<int, std::vector<float>> calcCorrectGraph;
 
 static std::vector<int> mind;
+static std::vector<int> endurance;
 static std::unordered_map<std::string, float> best_ehp_90;
 static std::vector<float> vig_scale;
 static std::vector<float> equip_load_scale;
@@ -37,7 +39,11 @@ static std::vector<float> poise_leg;
 
 class DataParser{
 public:
+    static void loadEndurance();
+
     static void generateDefs();
+    static double retrieveStaminaCost(int equipParamWeaponId);
+
     static std::unordered_map<std::string, std::string> retrieveWeapon(int id);
     static std::unordered_map<std::string, std::string> retrieveUpgrade(int id);
     static std::unordered_map<std::string, std::string> retrieveElementCorrection(int id);
@@ -57,6 +63,8 @@ public:
     static std::vector<float> retrieveCcg(int id);
     static std::vector<int> getWeaponIds();
     static int retrieveWeaponIdByName(std::string name);
+
+    static int fetchStamina(int endLevel);
 
     static int fetchFp(int mindLevel);
     static std::vector<int> getMind();

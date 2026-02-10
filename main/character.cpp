@@ -56,6 +56,10 @@ int Character::getBaseMind() const
     return baseMind;
 }
 
+double Character::getSwingValue() const {
+    return swingValue;
+}
+
 double Character::getPoise() const
 {
     return poise;
@@ -228,6 +232,28 @@ Character::Character(const std::string& jsonPath)
     this->effectiveHpVigorRatio = static_cast<double>(this->vigor) / level;
     this->effectiveHpEnduranceRatio = static_cast<double>(this->endurance) / level;
 
+    this->lightWeps = 0;
+    this->medWeps = 0;
+    this->heavyWeps = 0;
+    this->swingValue = 0;
+
+    double maxStam = static_cast<double>(data["computed"]["maxStamina"]);
+    for (auto weapon:this->weapons) {
+        auto stamCost = DataParser::retrieveStaminaCost(weapon.getId());
+        if (stamCost < 10) {
+            this->lightWeps++;
+        } else if (stamCost > 15) {
+            this->heavyWeps++;
+        } else {
+            this->medWeps++;
+        }
+        this->swingValue += 1.0 / stamCost;
+    }
+    this->lightWeps /= this->weapons.size();
+    this->medWeps /= this->weapons.size();
+    this->heavyWeps /= this->weapons.size();
+    this->swingValue /= this->weapons.size();
+
     f.close();
 }
 
@@ -383,7 +409,13 @@ std::vector<double> Character::generateMlString()
 
     if (hasBullgoat) finalMlString.push_back(1); else finalMlString.push_back(0);
     if (hasGreatjar) finalMlString.push_back(1); else finalMlString.push_back(0);
-    finalMlString.push_back(effectiveHpVigorRatio);
+
+    finalMlString.push_back(lightWeps);
+    finalMlString.push_back(medWeps);
+    finalMlString.push_back(heavyWeps);
+    finalMlString.push_back(swingValue / DataParser::fetchStamina(endurance));
+
+    finalMlString.push_back(effectiveHpVigorRatio); // this and the next one MUST be last
     finalMlString.push_back(effectiveHpEnduranceRatio);
 
 
