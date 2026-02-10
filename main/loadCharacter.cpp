@@ -905,6 +905,7 @@ std::vector<std::vector<double>> createBuilds(Character characterInput, int leve
 
     int maxFp = loadCharacter::retrieveMaxFp(level, characterInput.getStartingClass());
     double bestEhp = DataParser::fetchEHP90(characterInput.getStartingClass());
+    double swingValue = characterInput.getSwingValue();
 
     auto mesh = gridGenerator(level, stride);
 
@@ -936,6 +937,7 @@ std::vector<std::vector<double>> createBuilds(Character characterInput, int leve
         }
         outputBuild[2] = effectiveHPs[0][0] / bestEhp; //ehp
         outputBuild[3] = effectiveHPs[0][1] / maxPoise; //poise
+        outputBuild[outputBuild.size() - 3] = swingValue / DataParser::fetchStamina(effectiveHPs[0][3]); //average swings with endurance
         outputBuild[outputBuild.size() - 2] = effectiveHPs[0][2] / level; //vigor
         outputBuild[outputBuild.size() - 1] = effectiveHPs[0][3] / level; //endurance
         outputBuild[0] = 1; //score

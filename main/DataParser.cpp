@@ -33,15 +33,24 @@ void DataParser::generateDefs() {
     defGenerator(R"(..\..\csv-conversions\equipParamProtector.csv)", &equipParamProtector);
     defGenerator(R"(..\..\csv-conversions\Magic.csv)", &magic);
     defGenerator(R"(..\..\csv-conversions\SwordArtsParam.csv)", &swordArtsParam);
+    defGenerator(R"(..\..\csv-conversions\weaponStaminaData.csv)", &wepStamCost);
 
     //load additional data and precomputed info
     loadMind();
+    loadEndurance();
     loadEhp90();
     loadVigScale();
     loadEquipLoadScale();
     loadPoiseScale();
     loadDatafit();
 
+}
+
+/// Fetches a weapon's stamina cost per r1 from id
+/// @param id equipParamWeapon id
+/// @return r1 stamina cost
+double DataParser::retrieveStaminaCost(int equipParamWeaponId) {
+    return stod(wepStamCost.at(equipParamWeaponId).at("stamina"));
 }
 
 /// Fetches a weapon's param entry from the id
@@ -157,6 +166,11 @@ int DataParser::retrieveWeaponIdByName(std::string name) {
     return -1;
 }
 
+int DataParser::fetchStamina(int endLevel)
+{
+    return endurance[endLevel-1];
+}
+
 int DataParser::fetchFp(int mindLevel)
 {
     return mind[mindLevel-1];
@@ -268,6 +282,22 @@ void DataParser::loadMind() {
         mind.push_back(value);
     }
     mindFile.close();
+}
+
+void DataParser::loadEndurance() {
+    std::ifstream endFile;
+    endFile.open (R"(..\..\csv-conversions\non csv data\Endurance.txt)");
+
+    std::string line;
+    while (std::getline(endFile, line))
+    {
+        std::istringstream iss(line);
+        int level, value;
+        if (!(iss >> level >> value)) { break; } // error
+
+        endurance.push_back(value);
+    }
+    endFile.close();
 }
 
 void DataParser::loadEhp90() {

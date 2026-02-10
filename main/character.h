@@ -73,6 +73,7 @@ public:
     int getBaseVigor() const;
     int getBaseEndurance() const;
     int getBaseMind() const;
+    double getSwingValue() const;
     double getPoise() const;
     std::vector<Weapon> getWeapons() const;
 
@@ -121,6 +122,10 @@ private:
     double bestEffectiveHpValue;
     double bestPoiseValue;
     double maxFpValue;
+    double swingValue;
+    double lightWeps;
+    double medWeps;
+    double heavyWeps;
 
 
 };
