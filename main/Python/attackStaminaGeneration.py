@@ -1,4 +1,8 @@
 import csv
+import matplotlib.pyplot
+from matplotlib import pyplot
+import math
+
 
 def createDict(reader):
     stamData = {}
@@ -39,7 +43,21 @@ def writeDataToCsv(dataArray):
         writer.writerows(dataArray)              # rows
 
 
+def generateHistogram(stamData):
+    staminaValues = [stamina for id, stamina in stamData]
+
+    min_bin = math.floor(min(staminaValues) / 5) * 5
+    max_bin = math.ceil(max(staminaValues) / 5) * 5
+
+    bins = list(range(int(min_bin), int(max_bin) + 5, 5))
+
+    pyplot.hist(staminaValues, bins=bins, edgecolor="black")
+    pyplot.xlabel("stamina")
+    pyplot.ylabel("#")
+    pyplot.show()
+
 if __name__=="__main__":
     print("\n")
     stamData = dataConversion()
     writeDataToCsv(stamData)
+    generateHistogram(stamData)
