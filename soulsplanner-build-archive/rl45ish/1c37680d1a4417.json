@@ -1,0 +1,374 @@
+{
+    "id": "1c37680d1a4417",
+    "is2h": false,
+    "name": "a\u00f1a",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Boiled Prawn",
+                    "order": 0,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 1,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Gold-Pickled Fowl Foot",
+                    "order": 2,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Rune Arc",
+                    "order": 3
+                },
+                {
+                    "name": "Exalted Flesh",
+                    "order": 4,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Lantern",
+                    "order": 5
+                },
+                {
+                    "name": "Bloodboil Aromatic",
+                    "order": 6
+                },
+                {
+                    "name": "Bloodboil Aromatic",
+                    "order": 7
+                },
+                {
+                    "name": "Bloodboil Aromatic",
+                    "order": 8
+                },
+                {
+                    "name": "Ironjar Aromatic",
+                    "order": 9
+                },
+                {
+                    "name": "Uplifting Aromatic",
+                    "order": 10
+                },
+                {
+                    "name": "Starlight Shards",
+                    "order": 11
+                },
+                {
+                    "name": "Rune Arc",
+                    "order": 12
+                },
+                {
+                    "name": "Rune Arc",
+                    "order": 13
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 14
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimsonspill Crystal Tear",
+            "Spiked Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 52,
+        "arc": 7,
+        "dex": 15,
+        "fth": 18,
+        "int": 9,
+        "mnd": 10,
+        "str": 36,
+        "vig": 25,
+        "vit": 11
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Stats",
+        "item-view/left": "All Items",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker",
+        "weapons-view/right": "Randomiser",
+        "protector-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Gurranq's Beast Claw",
+                "order": 0
+            },
+            {
+                "name": "Dragonbolt Blessing",
+                "order": 1
+            },
+            {
+                "name": "Vyke's Dragonbolt",
+                "order": 2
+            },
+            {
+                "name": "Ancient Dragons' Lightning Strike",
+                "order": 3
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 4
+            }
+        ]
+    },
+    "greatRune": "Godrick's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Sacrificial Axe",
+                "order": 0,
+                "infusion": "Heavy",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Golem's Halberd",
+                "order": 1,
+                "infusion": "Heavy",
+                "weaponArt": "Troll's Roar"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Gold Scarab",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Prince of Death's Cyst",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Lord of Blood's Exultation",
+                "order": 4
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 5
+            },
+            {
+                "name": "Assassin's Crimson Dagger",
+                "order": 6
+            },
+            {
+                "name": "Ritual Shield Talisman",
+                "order": 7
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 8
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 9
+            },
+            {
+                "name": "Radagon's Soreseal",
+                "order": 10
+            },
+            {
+                "name": "Radagon's Scarseal",
+                "order": 11
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "HP above 100%"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Elden Lord Bracers",
+                    "order": 0
+                },
+                {
+                    "name": "Battlemage Manchettes",
+                    "order": 1
+                },
+                {
+                    "name": "Azur's Manchettes",
+                    "order": 2
+                },
+                {
+                    "name": "Lusat's Manchettes",
+                    "order": 3
+                },
+                {
+                    "name": "Errant Sorcerer Manchettes",
+                    "order": 4
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Drake Knight Armor (Altered)",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Elden Lord Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Goldmask's Rags",
+                    "order": 2
+                },
+                {
+                    "name": "Gravekeeper Cloak",
+                    "order": 3
+                },
+                {
+                    "name": "Nomadic Merchant's Finery (Altered)",
+                    "order": 4
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Festive Hood (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "White Mask",
+                    "order": 1
+                },
+                {
+                    "name": "Elden Lord Crown",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Black Dumpling",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Old Sorcerer's Legwraps",
+                    "order": 0
+                },
+                {
+                    "name": "Zamor Legwraps",
+                    "order": 1
+                },
+                {
+                    "name": "Battlemage Legwraps",
+                    "order": 2
+                },
+                {
+                    "name": "Elden Lord Greaves",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 10,
+    "characterClass": "Vagabond"
+}

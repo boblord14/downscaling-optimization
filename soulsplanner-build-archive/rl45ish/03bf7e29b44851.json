@@ -1,0 +1,510 @@
+{
+    "id": "03bf7e29b44851",
+    "is2h": false,
+    "name": "Meandering Maurice - RL35 Invader",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Invasions",
+        "Co-op/Gank",
+        "Caster",
+        "Strength",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 3
+                },
+                {
+                    "name": "Boiled Prawn",
+                    "order": 4
+                },
+                {
+                    "name": "Fire Pot",
+                    "order": 5
+                },
+                {
+                    "name": "Poison Pot",
+                    "order": 6
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Bubbletear",
+            "Greenburst Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 35,
+        "arc": 10,
+        "dex": 13,
+        "fth": 12,
+        "int": 18,
+        "mnd": 10,
+        "str": 17,
+        "vig": 20,
+        "vit": 14
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Beast Claw",
+                "order": 0
+            },
+            {
+                "name": "Pest Threads",
+                "order": 1
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 2
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 3
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 46
+        },
+        "runes": {
+            "total": 91635,
+            "toNextLevel": 8214
+        },
+        "stats": {
+            "dex": 18,
+            "str": 22,
+            "vig": 25,
+            "vit": 19
+        },
+        "defenses": {
+            "fire": 109,
+            "holy": 113,
+            "magic": 129,
+            "slash": 100,
+            "pierce": 100,
+            "strike": 100,
+            "physical": 100,
+            "lightning": 93
+        },
+        "maxHealth": 800,
+        "absorption": {
+            "fire": 10.781379281080016,
+            "holy": 7.806558536800001,
+            "magic": 6.637085706400003,
+            "slash": 15.95345063335002,
+            "pierce": 13.90129316740001,
+            "strike": 7.899722811520027,
+            "physical": 15.236459947510028,
+            "lightning": 3.6050187616000207
+        },
+        "maxStamina": 111,
+        "resistances": {
+            "focus": 155,
+            "immunity": 177,
+            "vitality": 160,
+            "robustness": 240
+        },
+        "maxEquipLoad": 71.84117648
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Rosus' Axe",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Meteoric Ore Blade",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Vulgar Militia Saw",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Fire",
+                "weaponArt": "Double Slash"
+            },
+            {
+                "name": "Demi-Human Queen's Staff",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Weapon"
+            },
+            {
+                "name": "Full Moon Crossbow",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Jellyfish Shield",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Lazuli Glintstone Sword",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Carian Knight's Sword",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Death's Poker",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Banished Knight's Greatsword",
+                "order": 9,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Poison",
+                "weaponArt": "Poisonous Mist",
+                "equipIndex": 0
+            },
+            {
+                "name": "Claymore",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Great \u00c9p\u00e9e",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Fire",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Twinned Knight Swords",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 14,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Cinquedea",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Broadsword",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Great Stars",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Highland Axe",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "War Cry"
+            },
+            {
+                "name": "Iron Cleaver",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Beast's Roar"
+            },
+            {
+                "name": "Lance",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Blue-White Wooden Shield",
+                "order": 21,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 4
+            },
+            {
+                "name": "Ice Crest Shield",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Thops's Barrier"
+            },
+            {
+                "name": "Iron Ball",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Blue Crest Heater Shield",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Barricade Shield"
+            },
+            {
+                "name": "Pike",
+                "order": 25,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Ice Spear"
+            },
+            {
+                "name": "Banished Knight's Halberd",
+                "order": 26,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Storm Assault"
+            }
+        ],
+        "sorting": {
+            "method": "class",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Radagon's Soreseal",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Arsenal Charm",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Warrior Jar Shard",
+                "order": 3,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 4
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 5
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 6
+            },
+            {
+                "name": "Hammer Talisman",
+                "order": 7
+            },
+            {
+                "name": "Curved Sword Talisman",
+                "order": 8
+            },
+            {
+                "name": "Carian Filigreed Crest",
+                "order": 9
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Godrick Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Tree Surcoat",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Blackguard's Iron Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Exile Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 4,
+    "characterClass": "Vagabond"
+}

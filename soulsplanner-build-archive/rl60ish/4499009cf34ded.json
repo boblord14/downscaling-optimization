@@ -1,0 +1,360 @@
+{
+    "id": "4499009cf34ded",
+    "is2h": false,
+    "name": "Wounded Royalist",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "DLC: SotE"
+    ],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Poison Spraymist",
+                    "order": 3
+                },
+                {
+                    "name": "Telescope",
+                    "order": 4,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 5,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Lantern",
+                    "order": 6,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Fan Daggers",
+                    "order": 7,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 8,
+                    "equipIndex": 13
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Crimsonburst Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 60,
+        "arc": 35,
+        "dex": 14,
+        "fth": 12,
+        "int": 9,
+        "mnd": 11,
+        "str": 10,
+        "vig": 35,
+        "vit": 13
+    },
+    "views": {
+        "overview": "swappa",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Poison Mist",
+                "order": 0
+            },
+            {
+                "name": "Cure Poison",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 82,
+        "poise": {
+            "original": 34
+        },
+        "runes": {
+            "total": 438308,
+            "toNextLevel": 22181
+        },
+        "stats": {
+            "arc": 40,
+            "dex": 19,
+            "str": 15,
+            "vig": 40,
+            "vit": 18
+        },
+        "defenses": {
+            "fire": 154,
+            "holy": 166,
+            "magic": 132,
+            "slash": 119,
+            "pierce": 119,
+            "strike": 119,
+            "physical": 119,
+            "lightning": 114
+        },
+        "maxHealth": 1450,
+        "absorption": {
+            "fire": 7.891028967460012,
+            "holy": 7.714908178660018,
+            "magic": 7.130192612500008,
+            "slash": 7.541934760000013,
+            "pierce": 6.503788820000011,
+            "strike": 7.985693891440027,
+            "physical": 7.406517899200016,
+            "lightning": 7.678319179510018
+        },
+        "maxStamina": 110,
+        "resistances": {
+            "focus": 211,
+            "immunity": 277,
+            "vitality": 246,
+            "robustness": 213
+        },
+        "maxEquipLoad": 60.88235294
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Great Knife",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Quickstep",
+                "equipIndex": 1
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "Poison Moth Flight"
+            },
+            {
+                "name": "Longsword",
+                "order": 2,
+                "infusion": "Occult",
+                "weaponArt": "Seppuku"
+            },
+            {
+                "name": "Rapier",
+                "order": 3,
+                "infusion": "Poison",
+                "weaponArt": "Assassin's Gambit"
+            },
+            {
+                "name": "Flamberge",
+                "order": 4,
+                "infusion": "Occult",
+                "weaponArt": "Poisonous Mist",
+                "equipIndex": 0
+            },
+            {
+                "name": "Iron Spear",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Lucerne",
+                "order": 6,
+                "infusion": "Occult",
+                "weaponArt": "Phantom Slash"
+            },
+            {
+                "name": "Flail",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 8,
+                "infusion": "Occult",
+                "weaponArt": "Lifesteal Fist"
+            },
+            {
+                "name": "Sun Realm Shield",
+                "order": 9,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 3
+            },
+            {
+                "name": "Hand Ballista",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 11,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Radagon's Soreseal",
+                "order": 0,
+                "equipIndex": 0
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 1,
+                "equipIndex": 1
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 2,
+                "equipIndex": 2
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 3
+            },
+            {
+                "name": "Outer God Heirloom",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Vagabond Knight Gauntlets",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Vulgar Militia Armor",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Iron Helmet",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Leather Boots",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 12,
+    "characterClass": "Bandit"
+}

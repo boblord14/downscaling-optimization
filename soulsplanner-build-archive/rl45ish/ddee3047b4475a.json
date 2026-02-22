@@ -1,0 +1,394 @@
+{
+    "id": "ddee3047b4475a",
+    "is2h": false,
+    "name": "Duke Duskblood RL50",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {},
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 3,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Lantern",
+                    "order": 4,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Wraith Calling Bell",
+                    "order": 5,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Fire Pot",
+                    "order": 6,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Throwing Dagger",
+                    "order": 7,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Prattling Pate \"Wonderful\"",
+                    "order": 8,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Fire Grease",
+                    "order": 9
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Speckled Hardtear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 50,
+        "arc": 7,
+        "dex": 16,
+        "fth": 13,
+        "int": 9,
+        "mnd": 10,
+        "str": 24,
+        "vig": 30,
+        "vit": 20
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Stone of Gurranq",
+                "order": 0
+            },
+            {
+                "name": "Surge, O Flame!",
+                "order": 1
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 2
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 3
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 15
+        },
+        "runes": {
+            "total": 256616,
+            "toNextLevel": 15682
+        },
+        "stats": {
+            "dex": 21,
+            "str": 29,
+            "vig": 35,
+            "vit": 25
+        },
+        "defenses": {
+            "fire": 129,
+            "holy": 113,
+            "magic": 117,
+            "slash": 108,
+            "pierce": 108,
+            "strike": 108,
+            "physical": 108,
+            "lightning": 99
+        },
+        "maxHealth": 1216,
+        "absorption": {
+            "fire": 12.125024970940002,
+            "holy": 12.125024970940002,
+            "magic": 12.264767272000013,
+            "slash": -4.432409143999982,
+            "pierce": -3.0122588457799804,
+            "strike": -2.943479384269976,
+            "physical": 0.020113246000008633,
+            "lightning": 10.421568298140016
+        },
+        "maxStamina": 121,
+        "resistances": {
+            "focus": 270,
+            "immunity": 252,
+            "vitality": 236,
+            "robustness": 203
+        },
+        "maxEquipLoad": 72
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Battle Axe",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Spinning Slash",
+                "equipIndex": 0
+            },
+            {
+                "name": "Light Crossbow",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Parry"
+            },
+            {
+                "name": "Parrying Dagger",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Parry",
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Radagon's Soreseal",
+                "order": 0,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 1,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Winged Sword Insignia",
+                "order": 2
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 3
+            },
+            {
+                "name": "Faithful's Canvas Talisman",
+                "order": 4
+            },
+            {
+                "name": "Stalwart Horn Charm",
+                "order": 5
+            },
+            {
+                "name": "Mottled Necklace",
+                "order": 6,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Clarifying Horn Charm",
+                "order": 7
+            },
+            {
+                "name": "Erdtree's Favor",
+                "order": 8
+            },
+            {
+                "name": "Arsenal Charm",
+                "order": 9
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Gold Bracelets",
+                    "order": 0
+                },
+                {
+                    "name": "Sorcerer Manchettes",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Battlemage Manchettes",
+                    "order": 2
+                },
+                {
+                    "name": "Astrologer Gloves",
+                    "order": 3
+                },
+                {
+                    "name": "Bloodsoaked Manchettes",
+                    "order": 4
+                },
+                {
+                    "name": "Bandit Manchettes",
+                    "order": 5
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Cloth Garb",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Iron Helmet",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Prisoner Iron Mask",
+                    "order": 1
+                },
+                {
+                    "name": "Blackguard's Iron Mask",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Cloth Trousers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 6,
+    "characterClass": "Vagabond"
+}

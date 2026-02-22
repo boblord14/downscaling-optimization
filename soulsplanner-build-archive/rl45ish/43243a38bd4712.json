@@ -1,0 +1,378 @@
+{
+    "id": "43243a38bd4712",
+    "is2h": true,
+    "name": "early game builds #1: charged heavy attacks",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "PvE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Spiked Cracked Tear",
+            "Strength-knot Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 50,
+        "arc": 10,
+        "dex": 13,
+        "fth": 10,
+        "int": 10,
+        "mnd": 10,
+        "str": 20,
+        "vig": 40,
+        "vit": 16
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 0
+            },
+            {
+                "name": "Magic Fortification",
+                "order": 1
+            },
+            {
+                "name": "Lightning Fortification",
+                "order": 2
+            },
+            {
+                "name": "Divine Fortification",
+                "order": 3
+            },
+            {
+                "name": "Flame Fortification",
+                "order": 4
+            },
+            {
+                "name": "Golden Vow",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 51
+        },
+        "runes": {
+            "total": 262472,
+            "toNextLevel": 15682
+        },
+        "stats": {
+            "str": 35
+        },
+        "defenses": {
+            "fire": 137,
+            "holy": 117,
+            "magic": 117,
+            "slash": 109,
+            "pierce": 109,
+            "strike": 109,
+            "physical": 109,
+            "lightning": 97
+        },
+        "maxHealth": 1450,
+        "absorption": {
+            "fire": 21.770878229200008,
+            "holy": 17.808877360000007,
+            "magic": 21.770878229200008,
+            "slash": 26.501033732,
+            "pierce": 26.501033732,
+            "strike": 23.62054419440002,
+            "physical": 24.61212713440001,
+            "lightning": 19.199991634000018
+        },
+        "maxStamina": 106,
+        "resistances": {
+            "focus": 146,
+            "immunity": 199,
+            "vitality": 156,
+            "robustness": 223
+        },
+        "maxEquipLoad": 57.70588235
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Zweihander",
+                "order": 0,
+                "upgrade": 10,
+                "infusion": "Heavy",
+                "weaponArt": "Determination"
+            },
+            {
+                "name": "Claymore",
+                "order": 1,
+                "upgrade": 10,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade",
+                "equipIndex": 3
+            },
+            {
+                "name": "Nagakiba",
+                "order": 2,
+                "upgrade": 10,
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Treespear",
+                "order": 3,
+                "upgrade": 10,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spiked Club",
+                "order": 4,
+                "upgrade": 10,
+                "infusion": "Heavy",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Iron Ball",
+                "order": 5,
+                "upgrade": 10,
+                "infusion": "Standard",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 6,
+                "upgrade": 10,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Fire",
+                "weaponArt": "Determination",
+                "equipIndex": 1
+            },
+            {
+                "name": "Finger Seal",
+                "order": 7,
+                "upgrade": 0,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 8,
+                "upgrade": 0,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 9,
+                "upgrade": 0,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 0
+            },
+            {
+                "name": "Prosthesis-Wearer Heirloom",
+                "order": 1
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 3,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 4,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Winged Sword Insignia",
+                "order": 5
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 6
+            },
+            {
+                "name": "Arsenal Charm",
+                "order": 7
+            },
+            {
+                "name": "Crimson Amber Medallion",
+                "order": 8
+            },
+            {
+                "name": "Erdtree's Favor",
+                "order": 9
+            },
+            {
+                "name": "Dragoncrest Shield Talisman",
+                "order": 10
+            },
+            {
+                "name": "Spelldrake Talisman",
+                "order": 11
+            },
+            {
+                "name": "Flamedrake Talisman",
+                "order": 12
+            },
+            {
+                "name": "Boltdrake Talisman",
+                "order": 13
+            },
+            {
+                "name": "Haligdrake Talisman",
+                "order": 14
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Knight Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Knight Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Knight Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Wretch"
+}

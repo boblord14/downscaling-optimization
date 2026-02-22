@@ -1,0 +1,341 @@
+{
+    "id": "bbf7ba65534e5a",
+    "is2h": false,
+    "name": "Lvl 40 omnicaster",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Fingerprint Nostrum",
+                    "order": 0,
+                    "active": true
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Intelligence-knot Crystal Tear",
+            "Faith-knot Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 40,
+        "arc": 10,
+        "dex": 13,
+        "fth": 21,
+        "int": 19,
+        "mnd": 15,
+        "str": 8,
+        "vig": 24,
+        "vit": 9
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Magic Glintblade",
+                "order": 0
+            },
+            {
+                "name": "Carian Slicer",
+                "order": 1
+            },
+            {
+                "name": "Carian Greatsword",
+                "order": 2
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 3
+            },
+            {
+                "name": "Fire Serpent",
+                "order": 4
+            },
+            {
+                "name": "Bloodflame Talons",
+                "order": 5
+            },
+            {
+                "name": "Gavel of Haima",
+                "order": 6
+            },
+            {
+                "name": "Bestial Sling",
+                "order": 7
+            },
+            {
+                "name": "Stone of Gurranq",
+                "order": 8
+            },
+            {
+                "name": "Wrath of Gold",
+                "order": 9
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 152,
+        "poise": {
+            "original": 33
+        },
+        "runes": {
+            "total": 137181,
+            "toNextLevel": 10419
+        },
+        "stats": {
+            "arc": 21,
+            "fth": 48,
+            "int": 43,
+            "mnd": 26
+        },
+        "defenses": {
+            "fire": 140,
+            "holy": 164,
+            "magic": 177,
+            "slash": 126,
+            "pierce": 126,
+            "strike": 126,
+            "physical": 126,
+            "lightning": 124
+        },
+        "maxHealth": 769,
+        "absorption": {
+            "fire": 10.101493011709197,
+            "holy": 9.6380810278365,
+            "magic": 10.03453495480362,
+            "slash": 2.679023905127198,
+            "pierce": 1.129013778194954,
+            "strike": 0.7966226869461357,
+            "physical": -0.5848861650680659,
+            "lightning": 8.95131665091844
+        },
+        "maxStamina": 94,
+        "resistances": {
+            "focus": 278,
+            "immunity": 243,
+            "vitality": 307,
+            "robustness": 237
+        },
+        "maxEquipLoad": 46.58823529
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Staff of the Great Beyond",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Azur's Glintstone Staff",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Rickety Shield",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Shamshir",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade",
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Marika's Soreseal",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Stargazer Heirloom",
+                "order": 2
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 4,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Rakshasa Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "War Surgeon Gown",
+                    "order": 0
+                },
+                {
+                    "name": "Commoner's Simple Garb",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Battlemage Robe",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Greathood",
+                    "order": 0
+                },
+                {
+                    "name": "Queen's Crescent Crown",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Twinsage Glintstone Crown",
+                    "order": 2
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rakshasa Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 7,
+    "characterClass": "Astrologer"
+}

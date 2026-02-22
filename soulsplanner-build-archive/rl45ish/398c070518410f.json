@@ -1,0 +1,337 @@
+{
+    "id": "398c070518410f",
+    "is2h": false,
+    "name": "Zion",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Recusant Finger",
+                    "order": 3,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Sleep Pot",
+                    "order": 4
+                },
+                {
+                    "name": "Swarm Pot",
+                    "order": 5,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Boiled Crab",
+                    "order": 6,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Lantern",
+                    "order": 7,
+                    "equipIndex": 14
+                },
+                {
+                    "name": "Mimic's Veil",
+                    "order": 8,
+                    "equipIndex": 15
+                },
+                {
+                    "name": "Finger Severer",
+                    "order": 9,
+                    "equipIndex": 13
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Flame-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 50,
+        "arc": 17,
+        "dex": 25,
+        "fth": 8,
+        "int": 9,
+        "mnd": 12,
+        "str": 9,
+        "vig": 35,
+        "vit": 14
+    },
+    "views": {
+        "overview": "build-planner",
+        "home/left": "Armour Optimiser"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 85,
+        "poise": {
+            "altered": 66.6666665,
+            "original": 50
+        },
+        "runes": {
+            "total": 259681,
+            "toNextLevel": 15682
+        },
+        "stats": {
+            "dex": 35,
+            "str": 14,
+            "vig": 40,
+            "vit": 19
+        },
+        "defenses": {
+            "fire": 144,
+            "holy": 138,
+            "magic": 122,
+            "slash": 108,
+            "pierce": 108,
+            "strike": 108,
+            "physical": 108,
+            "lightning": 104
+        },
+        "maxHealth": 1450,
+        "absorption": {
+            "fire": 24.90707118151001,
+            "holy": 22.76845113038951,
+            "magic": 21.617003937924995,
+            "slash": 23.045553393625017,
+            "pierce": 20.695785827162517,
+            "strike": 19.293714437500007,
+            "physical": 21.531959706542526,
+            "lightning": 21.32978947577202
+        },
+        "maxStamina": 111,
+        "resistances": {
+            "focus": 281,
+            "immunity": 326,
+            "vitality": 253,
+            "robustness": 298
+        },
+        "maxEquipLoad": 62.47058824
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Morgott's Cursed Sword",
+                "order": 0,
+                "upgrade": 5,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 1,
+                "upgrade": 0,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Parry",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Warrior Jar Shard",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 1,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 2,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Radagon's Soreseal",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Guardian Bracers",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Scaled Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Scaled Armor (Altered)",
+                    "order": 1
+                },
+                {
+                    "name": "Maliketh's Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Knight Armor",
+                    "order": 3
+                },
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 4,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "White Mask",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Scaled Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Knight Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Commoner's Shoes",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 12,
+    "characterClass": "Bandit"
+}

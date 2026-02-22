@@ -1,0 +1,467 @@
+{
+    "id": "74540ca7af464e",
+    "is2h": false,
+    "name": "archer v2",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Winged Crystal Tear",
+            "Greenspill Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 40,
+        "arc": 9,
+        "dex": 15,
+        "fth": 6,
+        "int": 14,
+        "mnd": 12,
+        "str": 15,
+        "vig": 36,
+        "vit": 12
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Night Maiden's Mist",
+                "order": 0
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 85,
+        "poise": {
+            "original": 30
+        },
+        "runes": {
+            "total": 134856,
+            "toNextLevel": 10419
+        },
+        "stats": {
+            "dex": 20,
+            "str": 20,
+            "vig": 41,
+            "vit": 17
+        },
+        "defenses": {
+            "fire": 136,
+            "holy": 113,
+            "magic": 123,
+            "slash": 101,
+            "pierce": 101,
+            "strike": 101,
+            "physical": 101,
+            "lightning": 95
+        },
+        "maxHealth": 1476,
+        "absorption": {
+            "fire": 8.923627799200018,
+            "holy": 9.067635919000006,
+            "magic": 8.93485665910001,
+            "slash": 6.758800781800001,
+            "pierce": 7.460546201920016,
+            "strike": 7.958036393050005,
+            "physical": 6.1680943072000005,
+            "lightning": 8.74301328328001
+        },
+        "maxStamina": 108,
+        "resistances": {
+            "focus": 190,
+            "immunity": 263,
+            "vitality": 211,
+            "robustness": 199
+        },
+        "maxEquipLoad": 59.29411765
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Bone Bow",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Pulley Crossbow",
+                "order": 1,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Spread Crossbow",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Greatbow",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Through and Through"
+            },
+            {
+                "name": "Greatbow",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Igon's Drake Hunt"
+            },
+            {
+                "name": "Lordsworn's Straight Sword",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Shamshir",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Raptor Talons",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Claws of Night",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Sword of Night",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Rogier's Rapier",
+                "order": 12,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist",
+                "equipIndex": 0
+            },
+            {
+                "name": "Staff of Loss",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Spinning Weapon"
+            },
+            {
+                "name": "Backhand Blade",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Swift Slash"
+            },
+            {
+                "name": "Milady",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Rabbath's Cannon",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Horn Bow",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Mighty Shot"
+            },
+            {
+                "name": "Horn Bow",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Enchanted Shot"
+            },
+            {
+                "name": "Falx",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Buckler",
+                "order": 21,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 22,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 23,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Parry"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 6,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Quickstep",
+                "equipIndex": 1
+            },
+            {
+                "name": "Urumi",
+                "order": 14,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Cold",
+                "weaponArt": "Kick",
+                "equipIndex": 3
+            },
+            {
+                "name": "Greatbow",
+                "order": 5,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows",
+                "equipIndex": 4
+            },
+            {
+                "name": "Zamor Curved Sword",
+                "order": 24,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Arrow's Sting Talisman",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Arrow's Soaring Sting Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Concealing Veil",
+                "order": 2
+            },
+            {
+                "name": "Sharpshot Talisman",
+                "order": 3
+            },
+            {
+                "name": "Enraged Divine Beast",
+                "order": 4
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 5,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Concealing Veil",
+                "order": 6
+            },
+            {
+                "name": "Radagon's Soreseal",
+                "order": 7,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Elden Lord Bracers",
+                    "order": 0
+                },
+                {
+                    "name": "Confessor Gloves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Gravekeeper Cloak",
+                    "order": 0
+                },
+                {
+                    "name": "Leather Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Divine Beast Head",
+                    "order": 0
+                },
+                {
+                    "name": "Black Hood",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Fur Leggings",
+                    "order": 0
+                },
+                {
+                    "name": "Duelist Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Carian Knight Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 8,
+    "characterClass": "Prisoner"
+}

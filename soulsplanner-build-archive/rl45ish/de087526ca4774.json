@@ -1,0 +1,524 @@
+{
+    "id": "de087526ca4774",
+    "is2h": true,
+    "name": "early game builds #3: mage (poise dmg subtheme)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "PvE",
+        "Caster"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Magic-Shrouding Cracked Tear",
+            "Intelligence-knot Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 50,
+        "arc": 10,
+        "dex": 17,
+        "fth": 10,
+        "int": 11,
+        "mnd": 14,
+        "str": 11,
+        "vig": 40,
+        "vit": 16
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Greatblade Phalanx",
+                "order": 0
+            },
+            {
+                "name": "Great Glintstone Shard",
+                "order": 1
+            },
+            {
+                "name": "Rock Sling",
+                "order": 2
+            },
+            {
+                "name": "Carian Slicer",
+                "order": 3
+            },
+            {
+                "name": "Carian Piercer",
+                "order": 4
+            },
+            {
+                "name": "Magma Shot",
+                "order": 5
+            },
+            {
+                "name": "Scholar's Armament",
+                "order": 6
+            },
+            {
+                "name": "Night Shard",
+                "order": 7
+            },
+            {
+                "name": "Flame, Grant Me Strength",
+                "order": 8
+            },
+            {
+                "name": "Divine Fortification",
+                "order": 9
+            },
+            {
+                "name": "Magic Fortification",
+                "order": 10
+            },
+            {
+                "name": "Flame Fortification",
+                "order": 11
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 91,
+        "poise": {
+            "original": 52
+        },
+        "runes": {
+            "total": 262472,
+            "toNextLevel": 15682
+        },
+        "stats": {
+            "int": 29
+        },
+        "defenses": {
+            "fire": 138,
+            "holy": 118,
+            "magic": 144,
+            "slash": 101,
+            "pierce": 101,
+            "strike": 101,
+            "physical": 101,
+            "lightning": 98
+        },
+        "maxHealth": 1537,
+        "absorption": {
+            "fire": 23.913181076500003,
+            "holy": 21.46339350880001,
+            "magic": 23.902084206099993,
+            "slash": 25.745547576000007,
+            "pierce": 25.113187595999996,
+            "strike": 22.715134855999995,
+            "physical": 24.5435405392,
+            "lightning": 21.890743426000014
+        },
+        "maxStamina": 106,
+        "resistances": {
+            "focus": 183,
+            "immunity": 224,
+            "vitality": 197,
+            "robustness": 233
+        },
+        "maxEquipLoad": 57.70588235
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Great \u00c9p\u00e9e",
+                "order": 1,
+                "upgrade": 10,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Magic",
+                "weaponArt": "Impaling Thrust",
+                "equipIndex": 0
+            },
+            {
+                "name": "Clayman's Harpoon",
+                "order": 2,
+                "upgrade": 10,
+                "infusion": "Standard",
+                "weaponArt": "Ice Spear"
+            },
+            {
+                "name": "Moonveil",
+                "order": 3,
+                "upgrade": 5,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Guardian's Swordspear",
+                "order": 4,
+                "upgrade": 10,
+                "infusion": "Magic",
+                "weaponArt": "Glintstone Pebble"
+            },
+            {
+                "name": "Death's Poker",
+                "order": 5,
+                "upgrade": 5,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 6,
+                "upgrade": 10,
+                "infusion": "Magic",
+                "weaponArt": "Determination"
+            },
+            {
+                "name": "Claymore",
+                "order": 7,
+                "upgrade": 10,
+                "infusion": "Magic",
+                "weaponArt": "Carian Grandeur"
+            },
+            {
+                "name": "Iron Ball",
+                "order": 8,
+                "upgrade": 0,
+                "infusion": "Cold",
+                "weaponArt": "Cragblade"
+            },
+            {
+                "name": "Glintstone Kris",
+                "order": 9,
+                "upgrade": 5,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Finger Seal",
+                "order": 10,
+                "upgrade": 0,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Carian Glintblade Staff",
+                "order": 12,
+                "upgrade": 0,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Staff of Loss",
+                "order": 13,
+                "upgrade": 0,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Academy Glintstone Staff",
+                "order": 14,
+                "upgrade": 10,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Caestus",
+                "order": 15,
+                "upgrade": 0,
+                "infusion": "Standard",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Dagger",
+                "order": 16,
+                "upgrade": 0,
+                "infusion": "Standard",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Brass Shield",
+                "order": 18,
+                "upgrade": 0,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Sacrificial Axe",
+                "order": 19,
+                "upgrade": 0,
+                "infusion": "Magic",
+                "weaponArt": "Wild Strikes"
+            },
+            {
+                "name": "Golden Order Seal",
+                "order": 11,
+                "upgrade": 0,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Dagger",
+                "order": 17,
+                "upgrade": 0,
+                "equipSet": [
+                    2
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Golden Vow",
+                "equipIndex": 2
+            },
+            {
+                "name": "Meteorite Staff",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Stargazer Heirloom",
+                "order": 0,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 1
+            },
+            {
+                "name": "Prosthesis-Wearer Heirloom",
+                "order": 2
+            },
+            {
+                "name": "Arsenal Charm",
+                "order": 3
+            },
+            {
+                "name": "Crimson Amber Medallion",
+                "order": 4,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 5,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 6
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 7
+            },
+            {
+                "name": "Ritual Sword Talisman",
+                "order": 8
+            },
+            {
+                "name": "Erdtree's Favor",
+                "order": 9
+            },
+            {
+                "name": "Dragoncrest Shield Talisman",
+                "order": 10
+            },
+            {
+                "name": "Haligdrake Talisman",
+                "order": 11
+            },
+            {
+                "name": "Spelldrake Talisman",
+                "order": 12
+            },
+            {
+                "name": "Flamedrake Talisman",
+                "order": 13
+            },
+            {
+                "name": "Boltdrake Talisman",
+                "order": 14
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 15
+            },
+            {
+                "name": "Assassin's Cerulean Dagger",
+                "order": 16
+            },
+            {
+                "name": "Ancestral Spirit's Horn",
+                "order": 17
+            },
+            {
+                "name": "Curved Sword Talisman",
+                "order": 18
+            },
+            {
+                "name": "Arrow's Reach Talisman",
+                "order": 19
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Knight Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Tree Sentinel Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Astrologer Gloves",
+                    "order": 2
+                },
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Knight Armor",
+                    "order": 0
+                },
+                {
+                    "name": "Knight Armor",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Knight Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Queen's Crescent Crown",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Knight Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Scaled Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": "Wretch"
+}

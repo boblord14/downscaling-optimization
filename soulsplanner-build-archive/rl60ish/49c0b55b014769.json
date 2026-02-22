@@ -1,0 +1,197 @@
+{
+    "id": "49c0b55b014769",
+    "is2h": false,
+    "name": "Magma Mage Ara",
+    "tags": [
+        "Hybrid",
+        "Caster"
+    ],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "crystalTears": [
+            "Intelligence-knot Crystal Tear",
+            "Flame-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 60,
+        "arc": 9,
+        "dex": 12,
+        "fth": 11,
+        "int": 20,
+        "mnd": 30,
+        "str": 8,
+        "vig": 40,
+        "vit": 9
+    },
+    "views": {
+        "overview": "swappa",
+        "home/left": "Stats",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Magma Shot",
+                "order": 0
+            },
+            {
+                "name": "Roiling Magma",
+                "order": 1
+            },
+            {
+                "name": "Gelmir's Fury",
+                "order": 2
+            },
+            {
+                "name": "Rykard's Rancor",
+                "order": 3
+            },
+            {
+                "name": "Theodorix's Magma",
+                "order": 4
+            }
+        ]
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 0,
+                "infusion": "Flame Art",
+                "weaponArt": "Endure",
+                "equipIndex": 1
+            },
+            {
+                "name": "Rapier",
+                "order": 1,
+                "infusion": "Flame Art",
+                "weaponArt": "Flaming Strike",
+                "equipIndex": 0
+            },
+            {
+                "name": "Gelmir Glintstone Staff",
+                "order": 2,
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Gilded Iron Shield",
+                "order": 3,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 4
+            },
+            {
+                "name": "Golden Order Seal",
+                "order": 4,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "attack",
+            "direction": "desc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Stargazer Heirloom",
+                "order": 0,
+                "equipIndex": 0
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 1,
+                "equipIndex": 1
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 2,
+                "equipIndex": 2
+            },
+            {
+                "name": "Marika's Soreseal",
+                "order": 3,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Bloodsoaked Manchettes",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Sage Robe",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Sage Hood",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Sage Trousers",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 12,
+    "characterClass": "Astrologer"
+}
