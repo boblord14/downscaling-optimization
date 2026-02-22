@@ -1,0 +1,249 @@
+{
+    "id": "a8035bcf8a4aba",
+    "is2h": false,
+    "name": "Sidewinder Nylla",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Dexterity"
+    ],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 60,
+        "arc": 11,
+        "dex": 29,
+        "fth": 8,
+        "int": 7,
+        "mnd": 9,
+        "str": 20,
+        "vig": 40,
+        "vit": 15
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Magic Fortification",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 75,
+        "poise": {
+            "original": 34
+        },
+        "runes": {
+            "total": 436811,
+            "toNextLevel": 22181
+        },
+        "stats": {
+            "dex": 34
+        },
+        "defenses": {
+            "fire": 137,
+            "holy": 119,
+            "magic": 111,
+            "slash": 103,
+            "pierce": 103,
+            "strike": 103,
+            "physical": 103,
+            "lightning": 97
+        },
+        "maxHealth": 1450,
+        "absorption": {
+            "fire": 20.06746335999999,
+            "holy": 19.05866680000001,
+            "magic": 19.05866680000001,
+            "slash": 19.88322267759999,
+            "pierce": 18.940212020799997,
+            "strike": 17.389694656,
+            "physical": 19.371010196800007,
+            "lightning": 19.752094068400005
+        },
+        "maxStamina": 105,
+        "resistances": {
+            "focus": 169,
+            "immunity": 255,
+            "vitality": 180,
+            "robustness": 209
+        },
+        "maxEquipLoad": 56.11764706
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Dismounter",
+                "order": 0,
+                "infusion": "Keen",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Scimitar",
+                "order": 1,
+                "infusion": "Keen",
+                "weaponArt": "Spinning Slash",
+                "equipIndex": 3
+            },
+            {
+                "name": "Partisan",
+                "order": 2,
+                "infusion": "Keen",
+                "weaponArt": "Impaling Thrust",
+                "equipIndex": 0
+            },
+            {
+                "name": "Red Thorn Roundshield",
+                "order": 3,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 4
+            },
+            {
+                "name": "Red Branch Shortbow",
+                "order": 4,
+                "infusion": "Standard",
+                "weaponArt": "Barrage",
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 0,
+                "equipIndex": 0
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 1,
+                "equipIndex": 1
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 2,
+                "equipIndex": 2
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 3,
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Drake Knight Gauntlets",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Rotten Gravekeeper Cloak (Altered)",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Briar Helm",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Rotten Duelist Greaves",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 12,
+    "characterClass": "Hero"
+}

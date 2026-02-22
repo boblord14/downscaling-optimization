@@ -1,0 +1,464 @@
+{
+    "id": "30f59160714fae",
+    "is2h": true,
+    "name": "Warrior Danub",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Strength",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Fan Daggers",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Fire Pot",
+                    "order": 1,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Strength-knot Crystal Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 60,
+        "arc": 7,
+        "dex": 13,
+        "fth": 12,
+        "int": 9,
+        "mnd": 11,
+        "str": 30,
+        "vig": 35,
+        "vit": 22
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Catch Flame",
+                "order": 0
+            },
+            {
+                "name": "Bestial Sling",
+                "order": 1
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 2
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 3
+            },
+            {
+                "name": "Night Maiden's Mist",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 82,
+        "poise": {
+            "altered": 77.33333314,
+            "original": 58
+        },
+        "runes": {
+            "total": 435243,
+            "toNextLevel": 22181
+        },
+        "stats": {
+            "dex": 18,
+            "str": 45,
+            "vig": 40,
+            "vit": 27
+        },
+        "defenses": {
+            "fire": 159,
+            "holy": 133,
+            "magic": 137,
+            "slash": 137,
+            "pierce": 137,
+            "strike": 137,
+            "physical": 137,
+            "lightning": 119
+        },
+        "maxHealth": 1450,
+        "absorption": {
+            "fire": 20.789473705795004,
+            "holy": 19.78209129637901,
+            "magic": 19.948002172705003,
+            "slash": 26.11040307436001,
+            "pierce": 24.52468936960002,
+            "strike": 21.403788118120005,
+            "physical": 25.112645810559997,
+            "lightning": 17.420670982144003
+        },
+        "maxStamina": 125,
+        "resistances": {
+            "focus": 192,
+            "immunity": 254,
+            "vitality": 197,
+            "robustness": 276
+        },
+        "maxEquipLoad": 88.13158139
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Zweihander",
+                "order": 2,
+                "infusion": "Cold",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Demi-Human Queen's Staff",
+                "order": 3,
+                "infusion": "Standard",
+                "weaponArt": "No Skill"
+            },
+            {
+                "name": "Jar Cannon",
+                "order": 4,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Nightrider Glaive",
+                "order": 5,
+                "infusion": "Fire",
+                "weaponArt": "Storm Assault"
+            },
+            {
+                "name": "Broadsword",
+                "order": 6,
+                "infusion": "Fire",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Lordsworn's Straight Sword",
+                "order": 7,
+                "infusion": "Cold",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Knight's Greatsword",
+                "order": 8,
+                "infusion": "Fire",
+                "weaponArt": "Giant Hunt"
+            },
+            {
+                "name": "Rusted Anchor",
+                "order": 9,
+                "infusion": "Cold",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Katar",
+                "order": 10,
+                "infusion": "Poison",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Crescent Moon Axe",
+                "order": 11,
+                "infusion": "Fire",
+                "weaponArt": "Eruption"
+            },
+            {
+                "name": "Watchdog's Greatsword",
+                "order": 12,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Cold",
+                "weaponArt": "Stamp (Upward Cut)",
+                "equipIndex": 0
+            },
+            {
+                "name": "Grave Scythe",
+                "order": 13,
+                "infusion": "Cold",
+                "weaponArt": "Chilling Mist"
+            },
+            {
+                "name": "Lucerne",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "War Cry"
+            },
+            {
+                "name": "Lance",
+                "order": 15,
+                "infusion": "Heavy",
+                "weaponArt": "Spectral Lance"
+            },
+            {
+                "name": "Claymore",
+                "order": 16,
+                "infusion": "Cold",
+                "weaponArt": "Lion's Claw"
+            },
+            {
+                "name": "Great \u00c9p\u00e9e",
+                "order": 17,
+                "infusion": "Cold",
+                "weaponArt": "Royal Knight's Resolve"
+            },
+            {
+                "name": "Twinned Knight Swords",
+                "order": 18,
+                "infusion": "Cold",
+                "weaponArt": "Hoarfrost Stomp"
+            },
+            {
+                "name": "Pickaxe",
+                "order": 19,
+                "infusion": "Cold",
+                "weaponArt": "Stamp (Sweep)"
+            },
+            {
+                "name": "Serpent-God's Curved Sword",
+                "order": 20,
+                "infusion": "Cold",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 21,
+                "infusion": "Fire",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Heater Shield",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 3
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 1,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Starscourge Heirloom",
+                "order": 0
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Radagon's Soreseal",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 4
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 5
+            },
+            {
+                "name": "Prosthesis-Wearer Heirloom",
+                "order": 6
+            },
+            {
+                "name": "Stargazer Heirloom",
+                "order": 7
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 8
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 9
+            },
+            {
+                "name": "Axe Talisman",
+                "order": 10
+            },
+            {
+                "name": "Hammer Talisman",
+                "order": 11
+            },
+            {
+                "name": "Spear Talisman",
+                "order": 12
+            },
+            {
+                "name": "Roar Medallion",
+                "order": 13
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 14
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 15,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Mausoleum Surcoat",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Raging Wolf Helm",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Scaled Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 12,
+    "characterClass": "Vagabond"
+}

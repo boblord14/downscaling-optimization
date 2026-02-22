@@ -1,0 +1,283 @@
+{
+    "id": "656eceaced4e66",
+    "pve": {
+        "revered": 20,
+        "scadutree": 20
+    },
+    "is2h": true,
+    "name": "Holy Knight, Crux",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Invasions",
+        "PvE",
+        "DLC: SotE"
+    ],
+    "isPvE": true,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimson Bubbletear",
+            "Strength-knot Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 52,
+        "arc": 7,
+        "dex": 15,
+        "fth": 20,
+        "int": 9,
+        "mnd": 10,
+        "str": 14,
+        "vig": 32,
+        "vit": 24
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": []
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 68
+        },
+        "runes": {
+            "total": 287400,
+            "toNextLevel": 16879
+        },
+        "stats": {
+            "str": 24
+        },
+        "defenses": {
+            "fire": 120,
+            "holy": 110,
+            "magic": 114,
+            "slash": 104,
+            "pierce": 104,
+            "strike": 104,
+            "physical": 104,
+            "lightning": 96
+        },
+        "maxHealth": 1124.24,
+        "absorption": {
+            "fire": 26.543897315200017,
+            "holy": 25.72067294400001,
+            "magic": 25.72067294400001,
+            "slash": 32.64159216640002,
+            "pierce": 31.03613977600001,
+            "strike": 27.3992439484,
+            "physical": 31.25437984,
+            "lightning": 25.538619916000005
+        },
+        "maxStamina": 132,
+        "resistances": {
+            "focus": 239,
+            "immunity": 286,
+            "vitality": 196,
+            "robustness": 337
+        },
+        "maxEquipLoad": 76.04470589
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Greatsword of Damnation",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Spiralhorn Shield",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 1,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Assassin's Crimson Dagger",
+                "order": 2
+            },
+            {
+                "name": "Blade of Mercy",
+                "order": 3
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 4,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Two-Handed Sword Talisman",
+                "order": 5,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Enhance Critical Attacks",
+            "Trigger after Critical Hit",
+            "Charged Skill Attack",
+            "Skill Attack"
+        ],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Scaled Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Malformed Dragon Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Scaled Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Banished Knight Helm (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Greathelm",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Scaled Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Malformed Dragon Greaves",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 7,
+    "characterClass": "Vagabond"
+}

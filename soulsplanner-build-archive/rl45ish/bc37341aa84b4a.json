@@ -1,0 +1,290 @@
+{
+    "id": "bc37341aa84b4a",
+    "is2h": false,
+    "name": "Royal Witch Aeva",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Hybrid",
+        "Caster",
+        "No DLC"
+    ],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 13
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 12
+                },
+                {
+                    "name": "Stanching Boluses",
+                    "order": 2,
+                    "equipIndex": 11
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Faith-knot Crystal Tear",
+            "Flame-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 40,
+        "arc": 10,
+        "dex": 11,
+        "fth": 10,
+        "int": 18,
+        "mnd": 14,
+        "str": 10,
+        "vig": 35,
+        "vit": 11
+    },
+    "views": {
+        "overview": "build-planner"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Magma Shot",
+                "order": 0
+            },
+            {
+                "name": "Roiling Magma",
+                "order": 1
+            },
+            {
+                "name": "Gelmir's Fury",
+                "order": 2
+            },
+            {
+                "name": "Giantsflame Take Thee",
+                "order": 3
+            },
+            {
+                "name": "Fire's Deadly Sin",
+                "order": 4
+            },
+            {
+                "name": "O, Flame!",
+                "order": 5
+            },
+            {
+                "name": "Catch Flame",
+                "order": 6
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 116,
+        "poise": {
+            "original": 46
+        },
+        "runes": {
+            "total": 140712,
+            "toNextLevel": 10419
+        },
+        "stats": {
+            "arc": 15,
+            "fth": 20,
+            "int": 28,
+            "mnd": 19
+        },
+        "defenses": {
+            "fire": 129,
+            "holy": 129,
+            "magic": 144,
+            "slash": 102,
+            "pierce": 102,
+            "strike": 102,
+            "physical": 102,
+            "lightning": 99
+        },
+        "maxHealth": 1216,
+        "absorption": {
+            "fire": 10.085859343180005,
+            "holy": 8.76840292152501,
+            "magic": 6.8929843262500174,
+            "slash": 13.255880437479997,
+            "pierce": 10.700353840675003,
+            "strike": 6.1368339068800015,
+            "physical": 12.766353803380015,
+            "lightning": 4.405138456000024
+        },
+        "maxStamina": 97,
+        "resistances": {
+            "focus": 174,
+            "immunity": 225,
+            "vitality": 194,
+            "robustness": 219
+        },
+        "maxEquipLoad": 49.76470588
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Noble's Slender Sword",
+                "order": 0,
+                "infusion": "Flame Art",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Noble's Estoc",
+                "order": 1,
+                "infusion": "Flame Art",
+                "weaponArt": "Flaming Strike",
+                "equipIndex": 0
+            },
+            {
+                "name": "Gelmir Glintstone Staff",
+                "order": 2,
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Giant's Seal",
+                "order": 3,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Golden Order Seal",
+                "order": 4,
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Marika's Soreseal",
+                "order": 0,
+                "equipIndex": 0
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 1,
+                "equipIndex": 1
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 2,
+                "equipIndex": 3
+            },
+            {
+                "name": "Stargazer Heirloom",
+                "order": 3,
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Leyndell Knight Gauntlets",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Malenia's Armor",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Spellblade's Pointed Hat",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 0,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 7,
+    "characterClass": "Wretch"
+}

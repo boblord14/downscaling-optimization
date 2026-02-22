@@ -1,0 +1,342 @@
+{
+    "id": "9d3d862bae4d13",
+    "is2h": false,
+    "name": "Elara vowkeeper ",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Boiled Crab",
+                    "order": 0
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Faith-knot Crystal Tear",
+            "Intelligence-knot Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 50,
+        "arc": 10,
+        "dex": 10,
+        "fth": 23,
+        "int": 12,
+        "mnd": 14,
+        "str": 11,
+        "vig": 40,
+        "vit": 9
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Triple Rings of Light",
+                "order": 0
+            },
+            {
+                "name": "Discus of Light",
+                "order": 1
+            },
+            {
+                "name": "Wrath of Gold",
+                "order": 2
+            },
+            {
+                "name": "Radagon's Rings of Light",
+                "order": 3
+            },
+            {
+                "name": "Wrath from Afar",
+                "order": 4
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 116,
+        "poise": {
+            "original": 47
+        },
+        "runes": {
+            "total": 258184,
+            "toNextLevel": 15682
+        },
+        "stats": {
+            "arc": 16,
+            "fth": 34,
+            "int": 23,
+            "mnd": 19
+        },
+        "defenses": {
+            "fire": 152,
+            "holy": 144,
+            "magic": 154,
+            "slash": 115,
+            "pierce": 115,
+            "strike": 115,
+            "physical": 115,
+            "lightning": 112
+        },
+        "maxHealth": 1595,
+        "absorption": {
+            "fire": 9.740997730270006,
+            "holy": 8.791308944560017,
+            "magic": 8.460836802100014,
+            "slash": 12.709334824000006,
+            "pierce": 12.59447673952,
+            "strike": 10.195725408760005,
+            "physical": 13.205330742160005,
+            "lightning": 4.648012542700009
+        },
+        "maxStamina": 94,
+        "resistances": {
+            "focus": 174,
+            "immunity": 271,
+            "vitality": 195,
+            "robustness": 236
+        },
+        "maxEquipLoad": 46.58823529
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Golden Order Seal",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Perfumer's Shield",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Golden Parry",
+                "equipIndex": 4
+            },
+            {
+                "name": "Noble's Estoc",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade"
+            },
+            {
+                "name": "Lordsworn's Straight Sword",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Sacred Blade",
+                "equipIndex": 0
+            },
+            {
+                "name": "Dagger",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Sacred",
+                "weaponArt": "Endure",
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Marika's Soreseal",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Stargazer Heirloom",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 3
+            },
+            {
+                "name": "Crimson Amber Medallion +3",
+                "order": 4,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Discus/Ring Incantation",
+            "Golden Order Spell",
+            "Rolling or Backstep",
+            "Running Attack"
+        ],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Oathseeker Knight Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Black Knight Gauntlets",
+                    "order": 1
+                },
+                {
+                    "name": "Death Knight Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Gauntlets",
+                    "order": 3,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Leda's Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Circlet of Light",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Oathseeker Knight Greaves",
+                    "order": 0
+                },
+                {
+                    "name": "Black Knight Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Blaidd's Greaves",
+                    "order": 2,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 10,
+    "characterClass": "Prophet"
+}

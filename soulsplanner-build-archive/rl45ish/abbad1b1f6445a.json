@@ -1,0 +1,496 @@
+{
+    "id": "abbad1b1f6445a",
+    "is2h": false,
+    "name": "Oshoku no im\u0113ji",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimsonburst Crystal Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 40,
+        "arc": 10,
+        "dex": 15,
+        "fth": 12,
+        "int": 9,
+        "mnd": 11,
+        "str": 12,
+        "vig": 35,
+        "vit": 15
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bestial Vitality",
+                "order": 0
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 1
+            },
+            {
+                "name": "Flame Fortification",
+                "order": 2
+            },
+            {
+                "name": "Magic Fortification",
+                "order": 3
+            },
+            {
+                "name": "Lightning Fortification",
+                "order": 4
+            },
+            {
+                "name": "Divine Fortification",
+                "order": 5
+            },
+            {
+                "name": "Rejection",
+                "order": 6
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 82,
+        "poise": {
+            "original": 37
+        },
+        "runes": {
+            "total": 134856,
+            "toNextLevel": 10419
+        },
+        "stats": {
+            "dex": 25,
+            "str": 17,
+            "vig": 40,
+            "vit": 20
+        },
+        "defenses": {
+            "fire": 137,
+            "holy": 117,
+            "magic": 115,
+            "slash": 102,
+            "pierce": 102,
+            "strike": 102,
+            "physical": 102,
+            "lightning": 97
+        },
+        "maxHealth": 1450,
+        "absorption": {
+            "fire": 9.961536732940024,
+            "holy": 8.091966776500016,
+            "magic": 9.695640980124995,
+            "slash": 10.058485427200017,
+            "pierce": 6.553189048000019,
+            "strike": 8.091966776500016,
+            "physical": 8.041895240600027,
+            "lightning": 10.421568298140016
+        },
+        "maxStamina": 113,
+        "resistances": {
+            "focus": 215,
+            "immunity": 273,
+            "vitality": 219,
+            "robustness": 203
+        },
+        "maxEquipLoad": 64.05882353
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Great \u00c9p\u00e9e",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Troll's Roar"
+            },
+            {
+                "name": "Hand Ballista",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Pulley Bow",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Blue Crest Heater Shield",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Butchering Knife",
+                "order": 7,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Poison",
+                "weaponArt": "Sword Dance",
+                "equipIndex": 0
+            },
+            {
+                "name": "Urumi",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Kick"
+            },
+            {
+                "name": "Black Bow",
+                "order": 9,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Red Thorn Roundshield",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Holy Ground"
+            },
+            {
+                "name": "Uchigatana",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Poison Moth Flight"
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Uchigatana",
+                "order": 13,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Unsheathe"
+            },
+            {
+                "name": "Misbegotten Shortbow",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Rain of Arrows"
+            },
+            {
+                "name": "Sacrificial Axe",
+                "order": 15,
+                "upgrade": null,
+                "infusion": "Magic",
+                "weaponArt": "Gravitas"
+            },
+            {
+                "name": "Warhawk's Talon",
+                "order": 16,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Twinned Knight Swords",
+                "order": 17,
+                "infusion": "Poison",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Serpentbone Blade",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Scavenger's Curved Sword",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Katar",
+                "order": 20,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Lifesteal Fist"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Lightning",
+                "weaponArt": "Quickstep",
+                "equipIndex": 1
+            },
+            {
+                "name": "Estoc",
+                "order": 6,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Poison",
+                "weaponArt": "Poison Moth Flight",
+                "equipIndex": 3
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 0,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Radagon's Soreseal",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 1,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Godskin Swaddling Cloth",
+                "order": 2,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 4
+            },
+            {
+                "name": "Prosthesis-Wearer Heirloom",
+                "order": 5
+            },
+            {
+                "name": "Stargazer Heirloom",
+                "order": 6
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 7
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 8
+            },
+            {
+                "name": "Rotten Winged Sword Insignia",
+                "order": 9
+            },
+            {
+                "name": "Immunizing Horn Charm +1",
+                "order": 10
+            },
+            {
+                "name": "Clarifying Horn Charm +1",
+                "order": 11
+            },
+            {
+                "name": "Mottled Necklace +1",
+                "order": 12
+            },
+            {
+                "name": "Crimson Seed Talisman",
+                "order": 13
+            },
+            {
+                "name": "Hammer Talisman",
+                "order": 14
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 15
+            },
+            {
+                "name": "Arrow's Reach Talisman",
+                "order": 16
+            },
+            {
+                "name": "Arrow's Sting Talisman",
+                "order": 17
+            },
+            {
+                "name": "Longtail Cat Talisman",
+                "order": 18
+            },
+            {
+                "name": "Concealing Veil",
+                "order": 19
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 20
+            },
+            {
+                "name": "Ancestral Spirit's Horn",
+                "order": 21
+            },
+            {
+                "name": "Taker's Cameo",
+                "order": 22
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "White Reed Gauntlets",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "White Reed Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Iron Helmet",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Nox Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 0,
+    "characterClass": "Samurai"
+}

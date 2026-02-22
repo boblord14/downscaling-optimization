@@ -1,0 +1,686 @@
+{
+    "id": "37c1fba9564d75",
+    "is2h": false,
+    "name": "jadhmoud",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Co-op/Gank"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Morgott's Great Rune",
+                    "order": 0
+                },
+                {
+                    "name": "Radahn's Great Rune",
+                    "order": 1
+                },
+                {
+                    "name": "Godrick's Great Rune",
+                    "order": 2
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 3
+                },
+                {
+                    "name": "Rykard's Great Rune",
+                    "order": 4
+                },
+                {
+                    "name": "Spectral Steed Whistle",
+                    "order": 5
+                },
+                {
+                    "name": "Miquella's Needle",
+                    "order": 6
+                },
+                {
+                    "name": "Pureblood Knight's Medal",
+                    "order": 7
+                },
+                {
+                    "name": "Remembrance of the Grafted",
+                    "order": 8
+                },
+                {
+                    "name": "Remembrance of the Starscourge",
+                    "order": 9
+                },
+                {
+                    "name": "Remembrance of the Omen King",
+                    "order": 10
+                },
+                {
+                    "name": "Lord's Rune",
+                    "order": 11
+                },
+                {
+                    "name": "Hero's Rune [5]",
+                    "order": 12
+                },
+                {
+                    "name": "Hero's Rune [4]",
+                    "order": 13
+                },
+                {
+                    "name": "Hero's Rune [2]",
+                    "order": 14
+                },
+                {
+                    "name": "Hero's Rune [3]",
+                    "order": 15
+                },
+                {
+                    "name": "Hero's Rune [1]",
+                    "order": 16
+                },
+                {
+                    "name": "Numen's Rune",
+                    "order": 17
+                },
+                {
+                    "name": "Golden Rune [13]",
+                    "order": 18
+                },
+                {
+                    "name": "Golden Rune [12]",
+                    "order": 19
+                },
+                {
+                    "name": "Golden Rune [11]",
+                    "order": 20
+                },
+                {
+                    "name": "Golden Rune [10]",
+                    "order": 21
+                },
+                {
+                    "name": "Golden Rune [9]",
+                    "order": 22
+                },
+                {
+                    "name": "Golden Rune [8]",
+                    "order": 23
+                },
+                {
+                    "name": "Golden Rune [7]",
+                    "order": 24
+                },
+                {
+                    "name": "Golden Rune [6]",
+                    "order": 25
+                },
+                {
+                    "name": "Golden Rune [5]",
+                    "order": 26
+                },
+                {
+                    "name": "Golden Rune [1]",
+                    "order": 27
+                },
+                {
+                    "name": "Golden Rune [2]",
+                    "order": 28
+                },
+                {
+                    "name": "Golden Rune [3]",
+                    "order": 29
+                },
+                {
+                    "name": "Golden Rune [4]",
+                    "order": 30
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 31
+                },
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 32
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Purifying Crystal Tear",
+            "Holy-Shrouding Cracked Tear"
+        ]
+    },
+    "stats": {
+        "rl": 50,
+        "arc": 30,
+        "dex": 30,
+        "fth": 15,
+        "int": 15,
+        "mnd": 20,
+        "str": 26,
+        "vig": 25,
+        "vit": 26
+    },
+    "views": {
+        "overview": "swappa",
+        "home/main": "Current Equipment",
+        "weapons-view/right": "Randomiser"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Roiling Magma",
+                "order": 0
+            },
+            {
+                "name": "Crystal Barrage",
+                "order": 1
+            },
+            {
+                "name": "Comet Azur",
+                "order": 2
+            },
+            {
+                "name": "Great Glintstone Shard",
+                "order": 3
+            },
+            {
+                "name": "Swift Glintstone Shard",
+                "order": 4
+            },
+            {
+                "name": "Glintstone Pebble",
+                "order": 5
+            },
+            {
+                "name": "Cannon of Haima",
+                "order": 6
+            },
+            {
+                "name": "Crystal Burst",
+                "order": 7
+            }
+        ]
+    },
+    "sliders": {
+        "id": "",
+        "name": "sa",
+        "images": [
+            {
+                "url": "",
+                "geometry": {
+                    "x": 0,
+                    "y": 0,
+                    "zoom": 1,
+                    "width": 0,
+                    "height": 0
+                }
+            }
+        ],
+        "sliders": {},
+        "bodyType": "A"
+    },
+    "computed": {
+        "maxFP": 173,
+        "poise": {
+            "original": 100
+        },
+        "stats": {
+            "arc": 40,
+            "dex": 40,
+            "fth": 25,
+            "int": 25,
+            "mnd": 30,
+            "str": 31,
+            "vig": 30,
+            "vit": 31
+        },
+        "defenses": {
+            "fire": 155,
+            "holy": 187,
+            "magic": 178,
+            "slash": 145,
+            "pierce": 145,
+            "strike": 145,
+            "physical": 145,
+            "lightning": 135
+        },
+        "maxHealth": 1033.76,
+        "absorption": {
+            "fire": 15.476188791800006,
+            "holy": 14.15444920768002,
+            "magic": 15.099883971580008,
+            "slash": 25.236877046859995,
+            "pierce": 25.236877046859995,
+            "strike": 28.94598213328,
+            "physical": 29.280873693999997,
+            "lightning": 18.33710711252502
+        },
+        "maxStamina": 144.1,
+        "resistances": {
+            "focus": 270,
+            "immunity": 330,
+            "vitality": 320,
+            "robustness": 360
+        },
+        "maxEquipLoad": 101.39990467
+    },
+    "greatRune": "Godrick's Great Rune",
+    "inventory": {
+        "slots": [
+            {
+                "name": "Moonveil",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 0
+            },
+            {
+                "name": "Golden Epitaph",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Celebrant's Sickle",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Blasphemous Blade",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Royal Greatsword",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Royal Greatsword",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Rivers of Blood",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 2,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Marika's Soreseal",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Radagon's Soreseal",
+                "order": 4
+            },
+            {
+                "name": "Pearldrake Talisman +2",
+                "order": 5
+            },
+            {
+                "name": "Haligdrake Talisman +2",
+                "order": 6
+            },
+            {
+                "name": "Boltdrake Talisman +2",
+                "order": 7
+            },
+            {
+                "name": "Flamedrake Talisman +2",
+                "order": 8
+            },
+            {
+                "name": "Spelldrake Talisman +2",
+                "order": 9
+            },
+            {
+                "name": "Dragoncrest Greatshield Talisman",
+                "order": 10
+            },
+            {
+                "name": "Moon of Nokstella",
+                "order": 11
+            },
+            {
+                "name": "Viridian Amber Medallion +2",
+                "order": 12
+            },
+            {
+                "name": "Erdtree's Favor +2",
+                "order": 13
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 14
+            },
+            {
+                "name": "Stargazer Heirloom",
+                "order": 15
+            },
+            {
+                "name": "Prosthesis-Wearer Heirloom",
+                "order": 16
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 17
+            },
+            {
+                "name": "Blessed Dew Talisman",
+                "order": 18
+            },
+            {
+                "name": "Red-Feathered Branchsword",
+                "order": 19
+            },
+            {
+                "name": "Blue-Feathered Branchsword",
+                "order": 20
+            },
+            {
+                "name": "Longtail Cat Talisman",
+                "order": 21
+            },
+            {
+                "name": "Bull-Goat's Talisman",
+                "order": 22
+            },
+            {
+                "name": "Greatshield Talisman",
+                "order": 23
+            },
+            {
+                "name": "Carian Filigreed Crest",
+                "order": 24
+            },
+            {
+                "name": "Green Turtle Talisman",
+                "order": 25
+            },
+            {
+                "name": "Viridian Amber Medallion +2",
+                "order": 26
+            },
+            {
+                "name": "Cerulean Amber Medallion +2",
+                "order": 27
+            },
+            {
+                "name": "Crimson Amber Medallion +2",
+                "order": 28
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "manualTags": [],
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Blaidd's Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Bull-Goat Gauntlets",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fire Prelate Gauntlets",
+                    "order": 2
+                },
+                {
+                    "name": "Radahn's Gauntlets",
+                    "order": 3
+                },
+                {
+                    "name": "Banished Knight Gauntlets",
+                    "order": 4
+                },
+                {
+                    "name": "Tree Sentinel Gauntlets",
+                    "order": 5
+                },
+                {
+                    "name": "Omen Gauntlets",
+                    "order": 6
+                },
+                {
+                    "name": "Veteran's Gauntlets",
+                    "order": 7
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Beast Champion Armor (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Radahn's Lion Armor",
+                    "order": 1
+                },
+                {
+                    "name": "Beast Champion Armor",
+                    "order": 2
+                },
+                {
+                    "name": "Tree Sentinel Armor",
+                    "order": 3
+                },
+                {
+                    "name": "Bull-Goat Armor",
+                    "order": 4,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Commoner's Headband (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Silver Tear Mask",
+                    "order": 1
+                },
+                {
+                    "name": "Omen Helm",
+                    "order": 2
+                },
+                {
+                    "name": "Albinauric Mask",
+                    "order": 3
+                },
+                {
+                    "name": "Beast Champion Helm",
+                    "order": 4
+                },
+                {
+                    "name": "Radahn's Redmane Helm",
+                    "order": 5
+                },
+                {
+                    "name": "Jar",
+                    "order": 6
+                },
+                {
+                    "name": "Banished Knight Helm",
+                    "order": 7
+                },
+                {
+                    "name": "Veteran's Helm",
+                    "order": 8
+                },
+                {
+                    "name": "Bull-Goat Helm",
+                    "order": 9,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Bull-Goat Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Fire Prelate Greaves",
+                    "order": 1
+                },
+                {
+                    "name": "Radahn's Greaves",
+                    "order": 2
+                },
+                {
+                    "name": "Banished Knight Greaves",
+                    "order": 3
+                },
+                {
+                    "name": "Veteran's Greaves",
+                    "order": 4
+                },
+                {
+                    "name": "Tree Sentinel Greaves",
+                    "order": 5
+                },
+                {
+                    "name": "Omen Greaves",
+                    "order": 6
+                },
+                {
+                    "name": "Crucible Greaves",
+                    "order": 7
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 25,
+    "characterClass": null
+}

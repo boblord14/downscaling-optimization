@@ -1,0 +1,357 @@
+{
+    "id": "a4ed1fbe5f414a",
+    "is2h": false,
+    "name": "The Clayman Recruit - RL60",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "Hybrid",
+        "Invasions",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Flask of Crimson Tears",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Flask of Cerulean Tears",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Flask of Wondrous Physick",
+                    "order": 2,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Throwing Dagger",
+                    "order": 3,
+                    "equipIndex": 10
+                },
+                {
+                    "name": "Fan Daggers",
+                    "order": 4,
+                    "equipIndex": 11
+                },
+                {
+                    "name": "Kukri",
+                    "order": 5,
+                    "equipIndex": 12
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Magic-Shrouding Cracked Tear",
+            "Opaline Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 60,
+        "arc": 18,
+        "dex": 12,
+        "fth": 7,
+        "int": 25,
+        "mnd": 16,
+        "str": 8,
+        "vig": 35,
+        "vit": 18
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Great Oracular Bubble",
+                "order": 0
+            },
+            {
+                "name": "Oracle Bubbles",
+                "order": 1
+            },
+            {
+                "name": "Night Maiden's Mist",
+                "order": 2
+            },
+            {
+                "name": "Gravity Well",
+                "order": 3
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 100,
+        "poise": {
+            "original": 12
+        },
+        "runes": {
+            "total": 437568,
+            "toNextLevel": 22181
+        },
+        "stats": {
+            "dex": 17,
+            "str": 13,
+            "vig": 40,
+            "vit": 23
+        },
+        "defenses": {
+            "fire": 149,
+            "holy": 145,
+            "magic": 152,
+            "slash": 113,
+            "pierce": 113,
+            "strike": 113,
+            "physical": 113,
+            "lightning": 109
+        },
+        "maxHealth": 1450,
+        "absorption": {
+            "fire": 10.522882522120014,
+            "holy": 12.101970677600027,
+            "magic": 10.461385498400013,
+            "slash": -2.2609586096000056,
+            "pierce": -3.639846216899989,
+            "strike": -1.3992456190000002,
+            "physical": -3.4513812623199858,
+            "lightning": 10.996913724100011
+        },
+        "maxStamina": 118,
+        "resistances": {
+            "focus": 253,
+            "immunity": 243,
+            "vitality": 268,
+            "robustness": 172
+        },
+        "maxEquipLoad": 68.82352941
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Clayman's Harpoon",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Cold",
+                "weaponArt": "Repeating Thrust",
+                "equipIndex": 0
+            },
+            {
+                "name": "Reduvia",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Crystal Knife",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Parry"
+            },
+            {
+                "name": "Whip",
+                "order": 3,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Endure",
+                "equipIndex": 1
+            },
+            {
+                "name": "Meteorite Staff",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Pata",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Lightning",
+                "weaponArt": "Lightning Ram"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Radagon Icon",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Godfrey Icon",
+                "order": 1
+            },
+            {
+                "name": "Graven-School Talisman",
+                "order": 2,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Radagon's Soreseal",
+                "order": 4,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [
+            "Affects Sorceries",
+            "Spell Power Boost",
+            "Charged Attack",
+            "Charged Skill Attack",
+            "Unknown #497",
+            "Gravity Spell"
+        ],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Errant Sorcerer Manchettes",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Prisoner Clothing",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Page Hood",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Champion Gaiters",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 6,
+    "characterClass": "Astrologer"
+}

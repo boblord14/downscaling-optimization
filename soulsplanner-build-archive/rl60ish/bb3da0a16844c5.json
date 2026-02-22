@@ -1,0 +1,362 @@
+{
+    "id": "bb3da0a16844c5",
+    "is2h": false,
+    "name": "Sinner Coercio (Thorns build)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 60,
+        "arc": 7,
+        "dex": 13,
+        "fth": 31,
+        "int": 9,
+        "mnd": 14,
+        "str": 14,
+        "vig": 40,
+        "vit": 11
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Briars of Sin",
+                "order": 0
+            },
+            {
+                "name": "Briars of Punishment",
+                "order": 1
+            },
+            {
+                "name": "Mantle of Thorns",
+                "order": 2
+            },
+            {
+                "name": "Impenetrable Thorns",
+                "order": 3
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 91,
+        "poise": {
+            "original": 22
+        },
+        "runes": {
+            "total": 435243,
+            "toNextLevel": 22181
+        },
+        "stats": {
+            "dex": 18,
+            "fth": 36,
+            "str": 19,
+            "vig": 45,
+            "vit": 16
+        },
+        "defenses": {
+            "fire": 159,
+            "holy": 128,
+            "magic": 132,
+            "slash": 120,
+            "pierce": 120,
+            "strike": 120,
+            "physical": 120,
+            "lightning": 114
+        },
+        "maxHealth": 1581,
+        "absorption": {
+            "fire": 12.446360933570013,
+            "holy": 13.135785713920022,
+            "magic": 13.135785713920022,
+            "slash": 2.573262245290009,
+            "pierce": 1.9399356726700012,
+            "strike": -0.5511564529999902,
+            "physical": 2.256598958980016,
+            "lightning": 11.34418610800001
+        },
+        "maxStamina": 106,
+        "resistances": {
+            "focus": 252,
+            "immunity": 240,
+            "vitality": 267,
+            "robustness": 204
+        },
+        "maxEquipLoad": 57.70588235
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Vulgar Militia Saw",
+                "order": 2,
+                "infusion": "Flame Art",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Winged Scythe",
+                "order": 3,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Great Stars",
+                "order": 4,
+                "infusion": "Flame Art",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Thorned Whip",
+                "order": 5,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Flame Art",
+                "weaponArt": "Endure",
+                "equipIndex": 0
+            },
+            {
+                "name": "Thorned Whip",
+                "order": 6,
+                "infusion": "Flame Art",
+                "weaponArt": "Quickstep"
+            },
+            {
+                "name": "Gargoyle's Greatsword",
+                "order": 7,
+                "infusion": "Flame Art",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Warped Axe",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "War Cry"
+            },
+            {
+                "name": "Pata",
+                "order": 9,
+                "upgrade": null,
+                "infusion": "Flame Art",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Rabbath's Cannon",
+                "order": 10,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Shield of the Guilty",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Shield Bash"
+            },
+            {
+                "name": "Staff of the Guilty",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 1
+            },
+            {
+                "name": "Staff of the Guilty",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Spinning Weapon",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "class",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Radagon Icon",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Graven-Mass Talisman",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 2
+            },
+            {
+                "name": "Radagon's Soreseal",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 4
+            },
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 5,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Blessed Blue Dew Talisman",
+                "order": 6
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Briar Gauntlets",
+                    "order": 0
+                },
+                {
+                    "name": "Alberich's Bracers",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Alberich's Robe",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Briar Helm",
+                    "order": 0
+                },
+                {
+                    "name": "Alberich's Pointed Hat",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Briar Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 12,
+    "characterClass": "Vagabond"
+}

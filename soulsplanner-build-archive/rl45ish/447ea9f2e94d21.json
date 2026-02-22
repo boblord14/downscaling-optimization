@@ -1,0 +1,386 @@
+{
+    "id": "447ea9f2e94d21",
+    "is2h": false,
+    "name": "Pyrobarbarian (Fire Conan/Heeman cosplay)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Faith-knot Crystal Tear",
+            "Crimson Bubbletear"
+        ]
+    },
+    "stats": {
+        "rl": 44,
+        "arc": 10,
+        "dex": 10,
+        "fth": 16,
+        "int": 7,
+        "mnd": 14,
+        "str": 19,
+        "vig": 37,
+        "vit": 10
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Flame Sling",
+                "order": 0
+            },
+            {
+                "name": "O, Flame!",
+                "order": 1
+            },
+            {
+                "name": "Surge, O Flame!",
+                "order": 2
+            },
+            {
+                "name": "Whirl, O Flame!",
+                "order": 3
+            },
+            {
+                "name": "Burn, O Flame!",
+                "order": 4
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 5
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 91,
+        "poise": {
+            "original": 21
+        },
+        "runes": {
+            "total": 179071,
+            "toNextLevel": 12384
+        },
+        "stats": {
+            "dex": 15,
+            "fth": 21,
+            "str": 29,
+            "vig": 42,
+            "vit": 15
+        },
+        "defenses": {
+            "fire": 145,
+            "holy": 123,
+            "magic": 117,
+            "slash": 112,
+            "pierce": 112,
+            "strike": 112,
+            "physical": 112,
+            "lightning": 103
+        },
+        "maxHealth": 1503,
+        "absorption": {
+            "fire": 10.447503077440023,
+            "holy": 9.337894912000024,
+            "magic": 9.065005432000008,
+            "slash": -0.080344425319967,
+            "pierce": -1.5825270723199836,
+            "strike": -0.6105286711699742,
+            "physical": 1.8787216685500097,
+            "lightning": 7.832584240620011
+        },
+        "maxStamina": 105,
+        "resistances": {
+            "focus": 206,
+            "immunity": 219,
+            "vitality": 218,
+            "robustness": 178
+        },
+        "maxEquipLoad": 56.11764706
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Longhaft Axe",
+                "order": 0,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Flaming Strike"
+            },
+            {
+                "name": "Giant's Seal",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Jar Cannon",
+                "order": 2,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": null
+            },
+            {
+                "name": "Gargoyle's Greatsword",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Vacuum Slice"
+            },
+            {
+                "name": "Battle Axe",
+                "order": 4,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Heavy",
+                "weaponArt": "Sword Dance",
+                "equipIndex": 0
+            },
+            {
+                "name": "Broadsword",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Gargoyle's Twinblade",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Charge Forth"
+            },
+            {
+                "name": "Spiked Caestus",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Hoarah Loux's Earthshaker"
+            },
+            {
+                "name": "Warped Axe",
+                "order": 8,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Giant's Red Braid",
+                "order": 9,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Dragon Greatclaw",
+                "order": 10,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Weathered Straight Sword",
+                "order": 11,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Claymore",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Heavy",
+                "weaponArt": "Golden Vow"
+            },
+            {
+                "name": "Clawmark Seal",
+                "order": 13,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            },
+            {
+                "name": "Large Leather Shield",
+                "order": 14,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "Parry",
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Two Fingers Heirloom",
+                "order": 0,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Radagon's Soreseal",
+                "order": 1,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Radagon Icon",
+                "order": 2
+            },
+            {
+                "name": "Starscourge Heirloom",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Flock's Canvas Talisman",
+                "order": 4,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Champion Bracers",
+                    "order": 0
+                },
+                {
+                    "name": "Elden Lord Bracers",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Goldmask's Rags",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Aristocrat Headband",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Elden Lord Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 8,
+    "characterClass": "Prophet"
+}

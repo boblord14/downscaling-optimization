@@ -1,0 +1,336 @@
+{
+    "id": "03291c20454cbe",
+    "is2h": false,
+    "name": "Drowned knight",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Boiled Crab",
+                    "order": 0,
+                    "active": true
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Opaline Hardtear",
+            "Intelligence-knot Crystal Tear"
+        ]
+    },
+    "stats": {
+        "rl": 40,
+        "arc": 8,
+        "dex": 13,
+        "fth": 9,
+        "int": 20,
+        "mnd": 10,
+        "str": 15,
+        "vig": 33,
+        "vit": 11
+    },
+    "views": {
+        "overview": "build-planner",
+        "item-view/left": "Crystal Tears",
+        "item-view/right": "Equipment"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Rancorcall",
+                "order": 0
+            },
+            {
+                "name": "Oracle Bubbles",
+                "order": 1
+            },
+            {
+                "name": "Great Oracular Bubble",
+                "order": 2
+            },
+            {
+                "name": "Gravity Well",
+                "order": 3
+            },
+            {
+                "name": "Night Maiden's Mist",
+                "order": 4
+            },
+            {
+                "name": "Glintstone Arc",
+                "order": 5
+            },
+            {
+                "name": "Rock Blaster",
+                "order": 6
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 95,
+        "poise": {
+            "original": 39
+        },
+        "runes": {
+            "total": 134856,
+            "toNextLevel": 10419
+        },
+        "stats": {
+            "arc": 18,
+            "dex": 18,
+            "fth": 14,
+            "int": 35,
+            "mnd": 15,
+            "str": 20,
+            "vig": 38,
+            "vit": 16
+        },
+        "defenses": {
+            "fire": 156,
+            "holy": 156,
+            "magic": 170,
+            "slash": 126,
+            "pierce": 126,
+            "strike": 126,
+            "physical": 126,
+            "lightning": 120
+        },
+        "maxHealth": 1355,
+        "absorption": {
+            "fire": 8.226883325807233,
+            "holy": 5.321556407109728,
+            "magic": 6.5083859823520385,
+            "slash": 19.217097812803985,
+            "pierce": 18.775615429111713,
+            "strike": 20.91347010956931,
+            "physical": 20.05903173038862,
+            "lightning": 6.197870362960045
+        },
+        "maxStamina": 106,
+        "resistances": {
+            "focus": 223,
+            "immunity": 269,
+            "vitality": 237,
+            "robustness": 233
+        },
+        "maxEquipLoad": 68.67
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Smithscript Spear",
+                "order": 1,
+                "upgrade": null,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Cold",
+                "weaponArt": "Kick",
+                "equipIndex": 0
+            },
+            {
+                "name": "Rosus' Axe",
+                "order": 4,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Smithscript Greathammer",
+                "order": 5,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Waves of Darkness"
+            },
+            {
+                "name": "Smithscript Axe",
+                "order": 6,
+                "upgrade": null,
+                "infusion": "Cold",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Gazing Finger",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 1
+            },
+            {
+                "name": "Demi-Human Queen's Staff",
+                "order": 2,
+                "upgrade": null,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": "No Skill",
+                "equipIndex": 3
+            },
+            {
+                "name": "Rift Shield",
+                "order": 3,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Radagon's Soreseal",
+                "order": 0,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Marika's Soreseal",
+                "order": 1,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Outer God Heirloom",
+                "order": 2,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Great-Jar's Arsenal",
+                "order": 3,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": true
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Eccentric's Manchettes",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Igon's Armor",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Octopus Head",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Fire Monk Greaves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 7,
+    "characterClass": "Vagabond"
+}

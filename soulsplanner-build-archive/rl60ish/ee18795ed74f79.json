@@ -1,0 +1,450 @@
+{
+    "id": "ee18795ed74f79",
+    "is2h": false,
+    "name": "Administer Pytha",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [
+        "Caster",
+        "DLC: SotE"
+    ],
+    "isPvE": false,
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [
+                {
+                    "name": "Poisoned Stone Clump",
+                    "order": 0,
+                    "equipIndex": 0
+                },
+                {
+                    "name": "Spark Aromatic",
+                    "order": 1,
+                    "equipIndex": 1
+                },
+                {
+                    "name": "Poisonbone Dart",
+                    "order": 2,
+                    "equipIndex": 2
+                },
+                {
+                    "name": "Lightning Pot",
+                    "order": 3,
+                    "equipIndex": 3
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            "Crimsonburst Crystal Tear",
+            "Opaline Hardtear"
+        ]
+    },
+    "stats": {
+        "rl": 60,
+        "arc": 30,
+        "dex": 14,
+        "fth": 14,
+        "int": 9,
+        "mnd": 13,
+        "str": 13,
+        "vig": 35,
+        "vit": 11
+    },
+    "views": {
+        "overview": "build-planner",
+        "weapons-view/left": "Picker"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Bloodboon",
+                "order": 0
+            },
+            {
+                "name": "Bloodflame Talons",
+                "order": 1
+            },
+            {
+                "name": "Swarm of Flies",
+                "order": 2
+            },
+            {
+                "name": "Flame Fortification",
+                "order": 3
+            },
+            {
+                "name": "Divine Fortification",
+                "order": 4
+            },
+            {
+                "name": "Magic Fortification",
+                "order": 5
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 6
+            },
+            {
+                "name": "Bestial Vitality",
+                "order": 7
+            },
+            {
+                "name": "Furious Blade of Ansbach",
+                "order": 8
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 88,
+        "poise": {
+            "original": 31
+        },
+        "runes": {
+            "total": 438308,
+            "toNextLevel": 22181
+        },
+        "stats": {
+            "dex": 24,
+            "str": 18,
+            "vig": 40,
+            "vit": 16
+        },
+        "defenses": {
+            "fire": 154,
+            "holy": 160,
+            "magic": 132,
+            "slash": 120,
+            "pierce": 120,
+            "strike": 120,
+            "physical": 120,
+            "lightning": 114
+        },
+        "maxHealth": 1450,
+        "absorption": {
+            "fire": 8.935971060160009,
+            "holy": 8.358700649200001,
+            "magic": 7.65000573400002,
+            "slash": 6.307426163600017,
+            "pierce": 3.977172193600021,
+            "strike": 2.4934592444200043,
+            "physical": 4.061678950000013,
+            "lightning": 7.923849793120019
+        },
+        "maxStamina": 106,
+        "resistances": {
+            "focus": 129,
+            "immunity": 258,
+            "vitality": 248,
+            "robustness": 209
+        },
+        "maxEquipLoad": 57.70588235
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Serpent Bow",
+                "order": 3,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Scythe",
+                "order": 5,
+                "equipSet": [
+                    0
+                ],
+                "infusion": "Blood",
+                "weaponArt": "Poisonous Mist",
+                "equipIndex": 0
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 6,
+                "infusion": "Poison",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Great \u00c9p\u00e9e",
+                "order": 7,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Troll's Roar"
+            },
+            {
+                "name": "Shotel",
+                "order": 8,
+                "infusion": "Poison",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Uchigatana",
+                "order": 9,
+                "infusion": "Poison",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Lucerne",
+                "order": 10,
+                "infusion": "Poison",
+                "weaponArt": "Spectral Lance"
+            },
+            {
+                "name": "Lordsworn's Straight Sword",
+                "order": 11,
+                "infusion": "Poison",
+                "weaponArt": "Square Off"
+            },
+            {
+                "name": "Flamberge",
+                "order": 12,
+                "upgrade": null,
+                "infusion": "Poison",
+                "weaponArt": "Bloody Slash"
+            },
+            {
+                "name": "Godskin Peeler",
+                "order": 13,
+                "infusion": "Poison",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Warhawk's Talon",
+                "order": 14,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Rapier",
+                "order": 15,
+                "infusion": "Poison",
+                "weaponArt": "Blood Tax"
+            },
+            {
+                "name": "Urumi",
+                "order": 4,
+                "infusion": "Poison",
+                "weaponArt": "Raptor of the Mists"
+            },
+            {
+                "name": "Perfumer's Shield",
+                "order": 1,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation"
+            },
+            {
+                "name": "Great Katana",
+                "order": 17,
+                "upgrade": null,
+                "infusion": "Occult",
+                "weaponArt": "The Poison Flower Blooms Twice"
+            },
+            {
+                "name": "Milady",
+                "order": 18,
+                "upgrade": null,
+                "infusion": "Blood",
+                "weaponArt": "Double Slash"
+            },
+            {
+                "name": "Serpentbone Blade",
+                "order": 19,
+                "upgrade": null,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Nagakiba",
+                "order": 0,
+                "upgrade": null,
+                "equipSet": [
+                    1
+                ],
+                "infusion": "Occult",
+                "weaponArt": "Poison Moth Flight",
+                "equipIndex": 1
+            },
+            {
+                "name": "Dragon Communion Seal",
+                "order": 2,
+                "equipSet": [
+                    3
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 3
+            },
+            {
+                "name": "Tooth Whip",
+                "order": 16,
+                "upgrade": null,
+                "equipSet": [
+                    4
+                ],
+                "infusion": "Standard",
+                "weaponArt": null,
+                "equipIndex": 4
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Radagon's Soreseal",
+                "order": 0,
+                "equipSet": [
+                    1
+                ],
+                "equipIndex": 1
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 1,
+                "equipSet": [
+                    2
+                ],
+                "equipIndex": 2
+            },
+            {
+                "name": "Furled Finger's Trick-Mirror",
+                "order": 2
+            },
+            {
+                "name": "Two-Headed Turtle Talisman",
+                "order": 3,
+                "equipSet": [
+                    3
+                ],
+                "equipIndex": 3
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 4,
+                "equipSet": [
+                    0
+                ],
+                "equipIndex": 0
+            },
+            {
+                "name": "Outer God Heirloom",
+                "order": 5
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "War Surgeon Gloves",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "War Surgeon Gown",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Marais Mask",
+                    "order": 0
+                },
+                {
+                    "name": "Curseblade Mask",
+                    "order": 1,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Leather Trousers",
+                    "order": 0,
+                    "equipSet": [
+                        1
+                    ],
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 12,
+    "characterClass": "Bandit"
+}

@@ -1,0 +1,362 @@
+{
+    "id": "ffc73cadbc46bb",
+    "is2h": false,
+    "name": "Formless Adder (Snake poison build)",
+    "sets": {
+        "weapons": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "talismans": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ],
+        "protectors": [
+            {
+                "name": "Default",
+                "active": true
+            }
+        ]
+    },
+    "tags": [],
+    "items": {
+        "ammo": {
+            "slots": []
+        },
+        "tools": {
+            "slots": [],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "flasks": {
+            "level": 12,
+            "total": 14,
+            "crimson": 10,
+            "cerulean": 4
+        },
+        "crystalTears": [
+            null,
+            null
+        ]
+    },
+    "stats": {
+        "rl": 40,
+        "arc": 7,
+        "dex": 26,
+        "fth": 9,
+        "int": 9,
+        "mnd": 10,
+        "str": 14,
+        "vig": 31,
+        "vit": 13
+    },
+    "views": {
+        "overview": "swappa"
+    },
+    "spells": {
+        "slots": [
+            {
+                "name": "Pest Threads",
+                "order": 0
+            },
+            {
+                "name": "Flame, Cleanse Me",
+                "order": 1
+            }
+        ]
+    },
+    "computed": {
+        "maxFP": 78,
+        "poise": {
+            "original": 26
+        },
+        "runes": {
+            "total": 134856,
+            "toNextLevel": 10419
+        },
+        "stats": {
+            "dex": 36,
+            "str": 19,
+            "vig": 36,
+            "vit": 18
+        },
+        "defenses": {
+            "fire": 129,
+            "holy": 111,
+            "magic": 115,
+            "slash": 103,
+            "pierce": 103,
+            "strike": 103,
+            "physical": 103,
+            "lightning": 97
+        },
+        "maxHealth": 1262,
+        "absorption": {
+            "fire": 7.079990379100021,
+            "holy": 8.091966776500016,
+            "magic": 7.079990379100021,
+            "slash": 3.953438029000011,
+            "pierce": 5.480208964000022,
+            "strike": 6.502847462200023,
+            "physical": 3.35872247500002,
+            "lightning": 8.566208434
+        },
+        "maxStamina": 110,
+        "resistances": {
+            "focus": 249,
+            "immunity": 261,
+            "vitality": 232,
+            "robustness": 186
+        },
+        "maxEquipLoad": 60.88235294
+    },
+    "inventory": {
+        "slots": [
+            {
+                "name": "Shield of the Guilty",
+                "order": 0,
+                "infusion": "Standard",
+                "weaponArt": "Carian Retaliation",
+                "equipIndex": 4
+            },
+            {
+                "name": "Pest's Glaive",
+                "order": 1,
+                "infusion": "Poison",
+                "weaponArt": "Sword Dance"
+            },
+            {
+                "name": "Godskin Peeler",
+                "order": 2,
+                "infusion": "Poison",
+                "weaponArt": "Poisonous Mist"
+            },
+            {
+                "name": "Forked Greatsword",
+                "order": 3,
+                "infusion": "Poison",
+                "weaponArt": "Wild Strikes",
+                "equipIndex": 0
+            },
+            {
+                "name": "Venomous Fang",
+                "order": 4,
+                "infusion": "Poison",
+                "weaponArt": "Endure"
+            },
+            {
+                "name": "Shotel",
+                "order": 5,
+                "infusion": "Poison",
+                "weaponArt": "Spinning Slash"
+            },
+            {
+                "name": "Cross-Naginata",
+                "order": 6,
+                "infusion": "Poison",
+                "weaponArt": "Piercing Fang"
+            },
+            {
+                "name": "Noble's Slender Sword",
+                "order": 7,
+                "infusion": "Poison",
+                "weaponArt": "Impaling Thrust"
+            },
+            {
+                "name": "Shamshir",
+                "order": 8,
+                "infusion": "Lightning",
+                "weaponArt": "Storm Stomp"
+            },
+            {
+                "name": "Scythe",
+                "order": 9,
+                "infusion": "Poison",
+                "weaponArt": "Stormcaller"
+            },
+            {
+                "name": "Coil Shield",
+                "order": 10,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Vulgar Militia Saw",
+                "order": 11,
+                "infusion": "Poison",
+                "weaponArt": "Blood Tax"
+            },
+            {
+                "name": "Mis\u00e9ricorde",
+                "order": 12,
+                "infusion": "Lightning",
+                "weaponArt": "Royal Knight's Resolve",
+                "equipIndex": 1
+            },
+            {
+                "name": "Serpent-God's Curved Sword",
+                "order": 13,
+                "infusion": "Lightning",
+                "weaponArt": "Storm Blade"
+            },
+            {
+                "name": "Dismounter",
+                "order": 14,
+                "infusion": "Lightning",
+                "weaponArt": "Barbaric Roar"
+            },
+            {
+                "name": "Uchigatana",
+                "order": 15,
+                "infusion": "Poison",
+                "weaponArt": "Poison Moth Flight",
+                "equipIndex": 3
+            },
+            {
+                "name": "Serpentbone Blade",
+                "order": 16,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Finger Seal",
+                "order": 17,
+                "infusion": "Standard",
+                "weaponArt": null
+            },
+            {
+                "name": "Black Bow",
+                "order": 18,
+                "infusion": "Standard",
+                "weaponArt": null
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        },
+        "equipped": []
+    },
+    "talismans": {
+        "slots": [
+            {
+                "name": "Millicent's Prosthesis",
+                "order": 0
+            },
+            {
+                "name": "Shard of Alexander",
+                "order": 1,
+                "equipIndex": 1
+            },
+            {
+                "name": "Radagon's Soreseal",
+                "order": 2,
+                "equipIndex": 2
+            },
+            {
+                "name": "Kindred of Rot's Exultation",
+                "order": 3,
+                "equipIndex": 3
+            },
+            {
+                "name": "Dagger Talisman",
+                "order": 4
+            },
+            {
+                "name": "Prosthesis-Wearer Heirloom",
+                "order": 5,
+                "equipIndex": 0
+            },
+            {
+                "name": "Claw Talisman",
+                "order": 6
+            }
+        ],
+        "sorting": {
+            "method": "acquisition",
+            "direction": "asc"
+        }
+    },
+    "conditions": {
+        "forEffects": [],
+        "crystalTears": false
+    },
+    "protectors": {
+        "arms": {
+            "slots": [
+                {
+                    "name": "Nox Bracelets",
+                    "order": 0
+                },
+                {
+                    "name": "Leather Gloves",
+                    "order": 1,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "body": {
+            "slots": [
+                {
+                    "name": "Nox Monk Armor (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Leather Armor",
+                    "order": 1,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "head": {
+            "slots": [
+                {
+                    "name": "Nox Monk Hood (Altered)",
+                    "order": 0
+                },
+                {
+                    "name": "Skeletal Mask",
+                    "order": 1,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        },
+        "legs": {
+            "slots": [
+                {
+                    "name": "Nomadic Merchant's Trousers",
+                    "order": 0
+                },
+                {
+                    "name": "Leather Boots",
+                    "order": 1,
+                    "equipIndex": 1
+                }
+            ],
+            "sorting": {
+                "method": "acquisition",
+                "direction": "asc"
+            }
+        }
+    },
+    "weaponUpgrade": 5,
+    "characterClass": "Vagabond"
+}
