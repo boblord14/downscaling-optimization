@@ -31,8 +31,9 @@
        out << std::endl;
      }
 
-     Eigen::JacobiSVD<Eigen::MatrixXd, Eigen::ComputeThinU | Eigen::ComputeThinV> svd(mat);
-     if (svd.info() != Eigen::ComputationInfo::Success) {
+    Eigen::JacobiSVD<Eigen::MatrixXd> svd;
+    svd.compute(mat, Eigen::ComputeFullU | Eigen::ComputeFullV);
+    if (svd.info() != Eigen::ComputationInfo::Success) {
        out << "SVD failed" << std::endl;
      }
      std::vector<double> approx(5,0);

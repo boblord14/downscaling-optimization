@@ -1,6 +1,8 @@
 from pandas import read_csv
+import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
+from sklearn.cluster import KMeans
 from scikeras.wrappers import KerasRegressor
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import KFold
@@ -8,19 +10,16 @@ import numpy as np
 from tensorflow.keras.saving import load_model
 from tensorflow.keras.optimizers import Adam
 # load dataset
-dataframe = read_csv("labeled_data.txt", header=None)
+dataframe = read_csv("../../soulsplanner-build-archive/ML-Training-Vectors/rl90ish/labeled_data.txt", header=None)
+dataframe = dataframe.replace(r'\n', ' ', regex=True)
+dataframe = dataframe.astype(float)
 dataset = dataframe.values
+
 dim = dataframe.shape
 print(dim)
 # split into input (X) and output (Y) variables
 X = dataset[:,1:dim[1]]
 Y = dataset[:,0]
-print(Y[0])
-print(X[0,:])
-
-print(min(Y))
-print(max(Y))
-
 # define base model
 def baseline_model():
 	# create model
@@ -44,10 +43,4 @@ model = baseline_model()
 model.fit(x=X,y=Y, epochs=10,verbose=1)
 
 
-yhat = model.predict(X)
-sum = 0
-for i in range(0,dim[0]):
-        sum += np.pow(yhat[i] - Y[i],2)
-print('MSE')
-print(sum / dim[0])
-model.save('model.keras')
+model.export("/home/sto/downscaling-optimization-main/soulsplanner-build-archive/models/rl90ish")

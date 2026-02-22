@@ -57,7 +57,11 @@ int Character::getBaseMind() const
 }
 
 double Character::getSwingValue() const {
-    return swingValue;
+  return swingValue;
+}
+
+std::vector<double> Character::getWeaponStaminaRatio() const {
+  return weaponStaminaRatio;
 }
 
 double Character::getPoise() const
@@ -74,7 +78,7 @@ Character::Character(const std::string& jsonPath)
 {
     std::ifstream f(jsonPath);
     json data = json::parse(f);
-
+    
     this->name = data["name"];
     this->level = data["stats"]["rl"];
     this->vigor = data["stats"]["vig"];
@@ -95,7 +99,7 @@ Character::Character(const std::string& jsonPath)
     this->baseMind = starting_classes[this->startingClass][1];
     this->baseEndurance = starting_classes[this->startingClass][2];
     this->score = 1;
-
+    
     if (data["computed"].count("poise"))
     {
         if (data["computed"]["poise"].count("altered"))
@@ -108,7 +112,7 @@ Character::Character(const std::string& jsonPath)
         }
     }
     else this->poise = 0;
-
+    
     for (auto serializedWeapon : data["inventory"]["slots"])
     {
         int weaponId = DataParser::retrieveWeaponIdByName(serializedWeapon["name"]);
@@ -136,12 +140,12 @@ Character::Character(const std::string& jsonPath)
             this->ashes.insert(this->ashes.end(), AoWFp.begin(), AoWFp.end());
         }
     }
-
+    
     for (auto serializedSpell : data["spells"]["slots"])
     {
         this->spells.emplace_back(getFpSpell(serializedSpell["name"]));
     }
-
+    
     for (auto serializedHead : data["protectors"]["head"]["slots"])
     {
         if (serializedHead.count("equipIndex"))
@@ -150,7 +154,7 @@ Character::Character(const std::string& jsonPath)
             break;
         }
     }
-
+    
     for (auto serializedBody : data["protectors"]["body"]["slots"])
     {
         if (serializedBody.count("equipIndex"))
@@ -159,7 +163,7 @@ Character::Character(const std::string& jsonPath)
             break;
         }
     }
-
+    
     for (auto serializedArms : data["protectors"]["arms"]["slots"])
     {
         if (serializedArms.count("equipIndex"))
@@ -168,7 +172,7 @@ Character::Character(const std::string& jsonPath)
             break;
         }
     }
-
+    
     for (auto serializedLegs : data["protectors"]["legs"]["slots"])
     {
         if (serializedLegs.count("equipIndex"))
@@ -177,7 +181,7 @@ Character::Character(const std::string& jsonPath)
             break;
         }
     }
-
+    
     for (auto serializedTalisman : data["talismans"]["slots"])
     {
         if (serializedTalisman.count("equipIndex"))
@@ -191,7 +195,7 @@ Character::Character(const std::string& jsonPath)
                     hasBullgoat = true;
         }
     }
-
+    
     this->effectiveHealth = DataParser::fetchHp(this->vigor - 1);
 
     double negation = 0;
@@ -209,19 +213,23 @@ Character::Character(const std::string& jsonPath)
     {
         negation += 300; //generic value, usually recomputed when it matters + only an edge case doesnt have it
     }
-
+    
     negation /= 800;
 
+    
     this->effectiveHealth /= (1 - negation);
     this->bestEffectiveHpValue = loadCharacter::bestEffectiveHP(this->level, this->startingClass, this->hasGreatjar);
+    
     this->effectiveHpRatio = this->effectiveHealth / this->bestEffectiveHpValue;
-
+    
     this->bestPoiseValue = loadCharacter::retrieveMaxPoise();
+    
     this->poiseRatio = this->poise / this->bestPoiseValue;
-
+    
     this->maxFpValue = loadCharacter::retrieveMaxFp(this->level, this->startingClass);
+    
     this->fpRatio = DataParser::fetchFp(this->mind) / maxFpValue;
-
+    
     int allocatedDamageStats = 0; //damage stats allocated not from starting class base values
     for (int i=CLASS_DAMAGE_STAT_INDEX; i<starting_classes.begin()->second.size(); i++) //"interesting" way to get the number of stat points
     {
@@ -231,29 +239,25 @@ Character::Character(const std::string& jsonPath)
     this->damageStatCount = static_cast<double>(allocatedDamageStats) / level;
     this->effectiveHpVigorRatio = static_cast<double>(this->vigor) / level;
     this->effectiveHpEnduranceRatio = static_cast<double>(this->endurance) / level;
-
-    this->lightWeps = 0;
-    this->medWeps = 0;
-    this->heavyWeps = 0;
-    this->swingValue = 0;
-
+    for (int i  = 0; i < 3; ++i) {
+      this->weaponStaminaRatio.push_back(0);
+    }
     double maxStam = static_cast<double>(data["computed"]["maxStamina"]);
     for (auto weapon:this->weapons) {
         auto stamCost = DataParser::retrieveStaminaCost(weapon.getId());
         if (stamCost < 10) {
-            this->lightWeps++;
+            this->weaponStaminaRatio[0]++;
         } else if (stamCost > 15) {
-            this->heavyWeps++;
+            this->weaponStaminaRatio[2]++;
         } else {
-            this->medWeps++;
+            this->weaponStaminaRatio[3]++;
         }
-        this->swingValue += 1.0 / stamCost;
+        this->swingValue += stamCost;
     }
-    this->lightWeps /= this->weapons.size();
-    this->medWeps /= this->weapons.size();
-    this->heavyWeps /= this->weapons.size();
+    for (int i = 0; i < 3; ++i) {
+      this->weaponStaminaRatio[i] /= this->weapons.size();
+    }
     this->swingValue /= this->weapons.size();
-
     f.close();
 }
 
@@ -327,29 +331,29 @@ double Character::getEffectiveHpRatio() const
     return effectiveHpRatio;
 }
 
-void Character::setEffectiveHpRatio(const double calculatedEffectiveHp)
+void Character::setEffectiveHpRatio(double ehpRatio)
 {
-    effectiveHpRatio = calculatedEffectiveHp / bestEffectiveHpValue;
+    effectiveHpRatio = ehpRatio;
 }
 
-void Character::setEffectiveHpVigorRatio(const int setVigor)
+void Character::setEffectiveHpVigorRatio(double vigorRatio)
 {
-    effectiveHpVigorRatio = static_cast<double>(setVigor) / level;
+    effectiveHpVigorRatio = vigorRatio;
 }
 
-void Character::setEffectiveHpEnduranceRatio(const int setEndurance)
+void Character::setEffectiveHpEnduranceRatio(double endRatio)
 {
-    effectiveHpEnduranceRatio = static_cast<double>(setEndurance) / level;
+    effectiveHpEnduranceRatio = endRatio;
 }
 
-void Character::setPoiseRatio(int newPoise)
+void Character::setPoiseRatio(double poiseRatio)
 {
-    poiseRatio = static_cast<double>(newPoise) / loadCharacter::retrieveMaxPoise();
+  this->poiseRatio = poiseRatio;
 }
 
-void Character::setFpRatio(int setMind)
+void Character::setFpRatio(double fpRatio)
 {
-    fpRatio = DataParser::fetchFp(setMind) / maxFpValue;
+    this->fpRatio = fpRatio;
 }
 
 void Character::setDamageStatNum(int newDamageStats)
@@ -380,7 +384,6 @@ std::vector<double> Character::generateMlString()
     }
     ashFpRatio /= loadCharacter::getMaxFPAshOfWar();
 
-
     double spellFpRatio = 0;
     for (int spell : spells)
     {
@@ -398,10 +401,10 @@ std::vector<double> Character::generateMlString()
 
     double spellSlotRatio = static_cast<double>(spells.size()) / MAX_CHARACTER_SPELL_SLOTS;
 
-    std::vector<double> finalMlString = {score, static_cast<double>(level)/SCALING_LEVEL_TARGET, effectiveHpRatio, poiseRatio,
+    std::vector<double> finalMlString = {score, static_cast<double>(level) / SCALING_LEVEL_TARGET, effectiveHpRatio, poiseRatio,
         fpRatio,
     ashFpRatio, spellFpRatio, maxSpellFp, spellSlotRatio, damageStatCount};
-
+    
     std::vector<double> startingClassHotEncode(starting_classes_index.size(), 0);
     int classIndex = starting_classes_index[startingClass];
     startingClassHotEncode[classIndex] = 1;
@@ -409,16 +412,14 @@ std::vector<double> Character::generateMlString()
 
     if (hasBullgoat) finalMlString.push_back(1); else finalMlString.push_back(0);
     if (hasGreatjar) finalMlString.push_back(1); else finalMlString.push_back(0);
-
-    finalMlString.push_back(lightWeps);
-    finalMlString.push_back(medWeps);
-    finalMlString.push_back(heavyWeps);
+    finalMlString.push_back(weaponStaminaRatio[0]);
+    finalMlString.push_back(weaponStaminaRatio[1]);
+    finalMlString.push_back(weaponStaminaRatio[2]);
     finalMlString.push_back(swingValue / DataParser::fetchStamina(endurance));
-
     finalMlString.push_back(effectiveHpVigorRatio); // this and the next one MUST be last
     finalMlString.push_back(effectiveHpEnduranceRatio);
 
-
+    
     return finalMlString;
 }
 

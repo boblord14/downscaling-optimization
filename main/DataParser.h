@@ -22,6 +22,7 @@ static std::unordered_map<int, std::vector<float>> calcCorrectGraph;
 
 static std::vector<int> mind;
 static std::vector<int> endurance;
+static std::vector<int> stamina;
 static std::unordered_map<std::string, float> best_ehp_90;
 static std::vector<float> vig_scale;
 static std::vector<float> equip_load_scale;
@@ -92,6 +93,7 @@ private:
     static void loadEquipLoadScale();
     static void loadPoiseScale();
     static void loadDatafit();
+    static void loadStamina();
 };
 
 #endif //DOWNSCALING_OPTIMIZATION_DATAPARSER_H

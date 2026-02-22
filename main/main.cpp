@@ -12,7 +12,7 @@
 #include "loadCharacter.h"
 
 #include "DataParser.h"
-#include <Eigen/Dense>
+#include <eigen3/Eigen/Dense>
 #include "bnb.h"
 #include "svd.h"
 #include "db.h"
@@ -168,7 +168,7 @@ void computeAllWeapons() {
     }
   }
 
-  std::vector<int> base_stats= {0,1,0,0,0};
+  std::vector<int> base_stats= {0,0,0,0,0};
   int base = 0;
   for (int i = 0; i < 5; ++i) {
     base += base_stats[i];
@@ -178,48 +178,27 @@ void computeAllWeapons() {
 
 }
 
-int main() {
+int main(int argc, char* argv[]) {
+   
     DataParser::generateDefs();
-    //pinco();
-    //montage();
-  //loadCharacter::functionTesting();
-  loadCharacter::loadData(R"(..\..\csv-conversions\non csv data\berserk.json)", 125, 1);
-  loadCharacter::loadData(R"(..\..\csv-conversions\non csv data\BloodsageNadine.json)", 125, 1);
+    if (argc < 2) {
+      std::cout << "Need the json file of the build to scale" << std::endl;
+      return 1;
+    }
+    Predict onetwentyfive("../../soulsplanner-build-archive/models/rl125ish", 125, 25, 1, 2);
+    Predict ninety("../../soulsplanner-build-archive/models/rl90ish", 90, 17, 1, 2);
+    Predict sixty("../../soulsplanner-build-archive/models/rl60ish", 60, 12, 1, 2);
+    Predict fortyfive("../../soulsplanner-build-archive/models/rl45ish", 45, 7, 1, 2);
+    std::string file(argv[1]);
+    std::cout << "Build at 125 +25" << std::endl;
+    onetwentyfive(file);
+    std::cout << "Build at 90 +17" << std::endl;
+    ninety(file);
+    std::cout << "Build at 60 +12" << std::endl;
+    sixty(file);
+    std::cout << "Build at 45 +7" << std::endl;
+    fortyfive(file);
 
-  //loadCharacter::writeTrainingData(R"(..\..\soulsplanner-build-archive\rl150ish)", R"(..\..\soulsplanner-build-archive\ML-Training-Vectors\rl150ish\labeled_data.txt)");
-  //loadCharacter::loadData();
-  //computeAllWeapons();
- // Weapon shortsword(67520000, BASE, 17);
- // auto ar = shortsword.calcAR(20, 32, 12, 42, 10, false);
+    //loadCharacter::writeTrainingData("/home/sto/downscaling-optimization-main/soulsplanner-build-archive/rl45ish", "/home/sto/downscaling-optimization-main/soulsplanner-build-archive/ML-Training-Vectors/rl45ish/labeled_data.txt");
     return 0;
-  /*
-    std::vector<int> defs(5,140);
-    Weapon shortsword(2010000, COLD, 0);
-    Weapon broadsword(2020000, BASE, 0);
-    std::vector<Weapon*> weapons;
-    weapons.push_back(&shortsword);
-    weapons.push_back(&broadsword);
-    auto ranges = computeWeaponUpgradeInterest(weapons, defs);
-    for(auto& range : ranges) {
-      std::cout << range << std::endl;
-    }
-    std::cout << std::endl;
-    int val = -1;
-    int index = 0;
-    std::vector<int> upgrade_levels;
-    for (size_t i = 1; i < ranges.size(); ++i) {
-      if (i == 1) {
-	index = 0;
-      }
-      if (ranges[i] != ranges[i-1]) {
-	upgrade_levels.push_back(index);
-	index = i;
-      }
-    }
-    upgrade_levels.push_back(index);
-    for (auto u : upgrade_levels) {
-      std::cout << u << std::endl;
-    }
-    return 0;
-    */
 }

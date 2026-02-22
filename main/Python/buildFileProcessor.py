@@ -2,7 +2,7 @@ import json
 import os
 
 if __name__=="__main__":
-    f = "soulsplanner-build-archive\\build-archive-1.json"
+    f = "../../soulsplanner-build-archive/build-archive-1.json"
     with open(f, encoding='utf-8') as data_file:
         data = json.load(data_file)
         for build in data:
@@ -20,7 +20,7 @@ if __name__=="__main__":
 
             # capture rl125 +/- 10 levels
             if 115 <= build['stats']['rl'] <= 135:
-                filepath = 'soulsplanner-build-archive\\rl125ish\\' + build['id'] + '.json'
+                filepath = '../../soulsplanner-build-archive/rl125ish/' + build['id'] + '.json'
                 if not os.path.exists(filepath):
                     with open(filepath, "w") as file:
                         json.dump(build, file, indent=4)
@@ -28,7 +28,7 @@ if __name__=="__main__":
 
             #capture rl90 +/- 5 levels
             if 85 <= build['stats']['rl'] <= 95:
-                filepath = 'soulsplanner-build-archive\\rl90ish\\' + build['id'] + '.json'
+                filepath = '../../soulsplanner-build-archive/rl90ish/' + build['id'] + '.json'
                 if not os.path.exists(filepath):
                     with open(filepath, "w") as file:
                         json.dump(build, file, indent=4)
@@ -36,7 +36,22 @@ if __name__=="__main__":
 
             #capture rl150 +/- 15 levels
             if 135 <= build['stats']['rl'] <= 165:
-                filepath = 'soulsplanner-build-archive\\rl150ish\\' + build['id'] + '.json'
+                filepath = '../../soulsplanner-build-archive/rl150ish/' + build['id'] + '.json'
+                if not os.path.exists(filepath):
+                    with open(filepath, "w") as file:
+                        json.dump(build, file, indent=4)
+                    continue
+
+                #capture rl60 +/- 5 levels
+            if 55 <= build['stats']['rl'] <= 65:
+                filepath = '../../soulsplanner-build-archive/rl60ish/' + build['id'] + '.json'
+                if not os.path.exists(filepath):
+                    with open(filepath, "w") as file:
+                        json.dump(build, file, indent=4)
+                    continue
+
+            if 35 <= build['stats']['rl'] <= 55:
+                filepath = '../../soulsplanner-build-archive/rl45ish/' + build['id'] + '.json'
                 if not os.path.exists(filepath):
                     with open(filepath, "w") as file:
                         json.dump(build, file, indent=4)
