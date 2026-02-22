@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn import linear_model
 from timeit import default_timer as timer
 
-f = open('../../json-data/EldenRingArmor.json')
+f = open('../../json-data/EldenRingArmorNew.json')
 data = json.load(f)
 
 armor_map = {'head' : 0, 'chest' : 1, 'hands' : 2, 'legs' : 3}
@@ -68,13 +68,13 @@ for entry in data:
 vit_scale = []
 poise_bp = []
 equip_load_scale = []
-with open("vigor.txt") as f:
+with open("../../csv-conversions/non csv data/vigor.txt") as f:
   for line in f:
     vit_scale = line.split()
-with open("equipload.txt") as f:
+with open("../../csv-conversions/non csv data/equipload.txt") as f:
   for line in f:
     equip_load_scale = line.split()
-with open("poisebreakpoints.txt") as f:
+with open("../../csv-conversions/non csv data/poisebreakpoints.txt") as f:
   for line in f:
     poise_bp = line.split()
 print(vit_scale)
@@ -106,7 +106,7 @@ def LogisticFit(x,y):
   loggy = np.log(1/w_norm - 1).reshape(-1,1)
   ransac = linear_model.RANSACRegressor(min_samples = 10)
   ransac.fit(loggy, x)
-  m, b = float(ransac.estimator_.coef_), float(ransac.estimator_.intercept_)
+  m, b = float(ransac.estimator_.coef_[0]), float(ransac.estimator_.intercept_)
   k = -1 / m
   x0 = b
   return [normalize, k, x0]
@@ -195,7 +195,8 @@ weight_leg = np.array(weight_leg)
 poise_leg = np.array(poise_leg)
 
 
-
+print(weight_head)
+print(avg_negation_head)
 logistic_head = LogisticFit(weight_head, avg_negation_head)
 logistic_chest = LogisticFit(weight_chest, avg_negation_chest)
 logistic_arm = LogisticFit(weight_arm, avg_negation_arm)
@@ -209,13 +210,48 @@ weight_leg = weight_leg.reshape(-1,1)
 
 ransac = linear_model.RANSACRegressor(min_samples = 10)
 ransac.fit(weight_head, poise_head)
-m_head, b_head = float(ransac.estimator_.coef_), float(ransac.estimator_.intercept_)
+m_head, b_head = float(ransac.estimator_.coef_[0]), float(ransac.estimator_.intercept_)
+best_weight_head = []
+best_poise_head = []
+for i in range(0,len(weight_head)):
+  if poise_head[i] >= m_head * weight_head[i] + b_head:
+    best_weight_head.append(weight_head[i])
+    best_poise_head.append(poise_head[i])
+ransac.fit(best_weight_head, best_poise_head)
+m_head, b_head = float(ransac.estimator_.coef_[0]), float(ransac.estimator_.intercept_)
 ransac.fit(weight_chest, poise_chest)
-m_chest, b_chest = float(ransac.estimator_.coef_), float(ransac.estimator_.intercept_)
+m_chest, b_chest = float(ransac.estimator_.coef_[0]), float(ransac.estimator_.intercept_)
+best_weight_chest = []
+best_poise_chest = []
+for i in range(0,len(weight_chest)):
+  if poise_chest[i] >= m_chest * weight_chest[i] + b_chest:
+    best_weight_chest.append(weight_chest[i])
+    best_poise_chest.append(poise_chest[i])
+ransac.fit(best_weight_chest, best_poise_chest)
+m_chest, b_chest = float(ransac.estimator_.coef_[0]), float(ransac.estimator_.intercept_)
+
 ransac.fit(weight_arm, poise_arm)
-m_arm, b_arm = float(ransac.estimator_.coef_), float(ransac.estimator_.intercept_)
+m_arm, b_arm = float(ransac.estimator_.coef_[0]), float(ransac.estimator_.intercept_)
+best_weight_arm = []
+best_poise_arm = []
+for i in range(0,len(weight_arm)):
+  if poise_arm[i] >= m_arm * weight_arm[i] + b_arm:
+    best_weight_arm.append(weight_arm[i])
+    best_poise_arm.append(poise_arm[i])
+ransac.fit(best_weight_arm, best_poise_arm)
+m_arm, b_arm = float(ransac.estimator_.coef_[0]), float(ransac.estimator_.intercept_)
+
 ransac.fit(weight_leg, poise_leg)
-m_leg, b_leg = float(ransac.estimator_.coef_), float(ransac.estimator_.intercept_)
+m_leg, b_leg = float(ransac.estimator_.coef_[0]), float(ransac.estimator_.intercept_)
+best_weight_leg = []
+best_poise_leg = []
+for i in range(0,len(weight_leg)):
+  if poise_leg[i] >= m_leg * weight_leg[i] + b_leg:
+    best_weight_leg.append(weight_leg[i])
+    best_poise_leg.append(poise_leg[i])
+ransac.fit(best_weight_leg, best_poise_leg)
+m_leg, b_leg = float(ransac.estimator_.coef_[0]), float(ransac.estimator_.intercept_)
+
 
 
 with open("datafit.txt", "a") as f:

@@ -6,8 +6,8 @@
 
 /** Poor man's string to bool helper function for the exact string format used in the param database */
 bool stob(const std::string& str) {
-    if (str == "FALSE") return FALSE;
-    if (str == "TRUE") return TRUE;
+  if (str == "FALSE") return false;
+    if (str == "TRUE") return true;
     return NULL;
 }
 
@@ -18,7 +18,7 @@ Weapon::Weapon(int id, Infusion infusion, int upgrade) {
 
     const int equipParamWeaponId = id + infusion;
     auto equipParamWeaponEntry = DataParser::retrieveWeapon(equipParamWeaponId);
-
+    this->stamina = DataParser::retrieveStaminaCost(equipParamWeaponId);
     this->name = equipParamWeaponEntry.at("Name");
     this->isSomber = (stoi(equipParamWeaponEntry.at("materialSetId")) == 2200);
 

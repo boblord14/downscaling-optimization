@@ -34,7 +34,8 @@ public:
   int getId() const {return id;}
   Infusion getInfusion() const {return infusion;}
   int getUpgrade() const{return upgrade;}
-    std::string getName() const {return name;}
+  double getStamine() const {return stamina;}
+  std::string getName() const {return name;}
 private:
     int id;
     std::string name;
@@ -44,6 +45,7 @@ private:
     std::array<double, 5> elementAttackRate;
     int attackElementCorrectId;
     bool isDualBlade;
+    double stamina;
     std::array<int, 5> correctTypeElement;
     std::array<std::vector<float>, 5> saturationIndex;
     std::array<double, 5> correctStat;

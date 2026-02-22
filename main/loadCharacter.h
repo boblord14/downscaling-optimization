@@ -6,8 +6,8 @@
 #define LOADCHARACTER_H
 
 #include "Weapon.h"
-#include <Eigen/Core>
-
+#include <eigen3/Eigen/Core>
+#include <cppflow/cppflow.h>
 #include "character.h"
 
 extern std::unordered_map<std::string, std::vector<int>> starting_classes;
@@ -18,7 +18,7 @@ static std::unordered_map<std::string, std::vector<double>> starting_classes_neg
 static std::vector<std::vector<float>> logisticArmorPieces = {};
 
 constexpr int STARTING_CLASS_STAT_POINTS = 79; //number of stat points to rescale the classes to
-constexpr int SCALING_LEVEL_TARGET = 90;
+constexpr double SCALING_LEVEL_TARGET = 719.0;
 constexpr int NUM_ARMOR_PIECES = 4; //how many armor pieces the player can equip at once
 constexpr double GREATJAR_MULTIPLIER = 1.19; //multiplier to equip load from great jar talisman
 constexpr int DAGGER_POISE_THRESHOLD = 58; //the amount of poise required to not get easily staggered by daggers
@@ -38,11 +38,26 @@ public:
     static void writeTrainingData(const std::string& trainingPath, const std::string& outputFilePath);
     static void functionTesting();
     static double retrieveMaxPoise();
-    static double bestEffectiveHP(int statPoints, const std::string& startingClass, boolean hasGreatjar);
+    static double bestEffectiveHP(int statPoints, const std::string& startingClass, bool hasGreatjar);
     static int retrieveMaxFp(int total_stats, const std::string& starting_class);
     static int getMaxFpSpell();
     static int getMaxFPAshOfWar();
+  static std::pair<double, double> negationsPoise(double equipLoad, const std::vector<double>& armorFraction, double armorPercent, bool hasBullgoat);
+  static double retrieveEquipWeight(const std::string& name); 
 };
+
+class Predict{
+public:
+  Predict(std::string modelPath, int level, int weaponUpgrade, int numBuilds, int grid):model(modelPath), level(level), weaponUpgrade(weaponUpgrade), numBuilds(numBuilds), grid(grid){};
+  void operator()(std::string jsonFile);
+private:
+  cppflow::model model;
+  int weaponUpgrade;
+  int numBuilds;
+  int grid;
+  int level;
+};
+
 
 // Lifted from stackoverflow for this purpose because I aint writing it myself
 // Convert a 2-D vector<vector<double> > into an Eigen MatrixXd.

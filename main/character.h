@@ -74,14 +74,15 @@ public:
     int getBaseEndurance() const;
     int getBaseMind() const;
     double getSwingValue() const;
+    std::vector<double> getWeaponStaminaRatio() const;
     double getPoise() const;
     std::vector<Weapon> getWeapons() const;
 
-    void setEffectiveHpRatio(double calculatedEffectiveHp);
-    void setEffectiveHpVigorRatio(int setVigor);
-    void setEffectiveHpEnduranceRatio(int setEndurance);
-    void setPoiseRatio(int newPoise);
-    void setFpRatio(int setMind);
+    void setEffectiveHpRatio(double ehpRatio);
+    void setEffectiveHpVigorRatio(double vigorRatio);
+    void setEffectiveHpEnduranceRatio(double enduranceRatio);
+    void setPoiseRatio(double poiseRatio);
+    void setFpRatio(double fpRatio);
     void setDamageStatNum(int newDamageStats);
     void setScore(double newScore);
 
@@ -123,9 +124,7 @@ private:
     double bestPoiseValue;
     double maxFpValue;
     double swingValue;
-    double lightWeps;
-    double medWeps;
-    double heavyWeps;
+    std::vector<double> weaponStaminaRatio;
 
 
 };

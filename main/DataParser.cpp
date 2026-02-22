@@ -26,15 +26,15 @@ std::string toLower(std::string data)
 /// Load in all param data and pre-calculated values to memory
 void DataParser::generateDefs() {
     //load params
-    defGenerator(R"(..\..\csv-conversions\equipParamWeapon.csv)", &equipParamWeapon);
-    defGenerator(R"(..\..\csv-conversions\reinforceParamWeapon.csv)", &reinforceParamWeapon);
-    defGenerator(R"(..\..\csv-conversions\AttackElementCorrectParam.csv)", &attackElementCorrectParam);
-    defGenerator(R"(..\..\csv-conversions\CalcCorrectGraphEZPreCalc.csv)", &calcCorrectGraph);
-    defGenerator(R"(..\..\csv-conversions\equipParamProtector.csv)", &equipParamProtector);
-    defGenerator(R"(..\..\csv-conversions\Magic.csv)", &magic);
-    defGenerator(R"(..\..\csv-conversions\SwordArtsParam.csv)", &swordArtsParam);
-    defGenerator(R"(..\..\csv-conversions\weaponStaminaData.csv)", &wepStamCost);
-
+    defGenerator(R"(../../csv-conversions/equipParamWeapon.csv)", &equipParamWeapon);
+    defGenerator(R"(../../csv-conversions/reinforceParamWeapon.csv)", &reinforceParamWeapon);
+    defGenerator(R"(../../csv-conversions/AttackElementCorrectParam.csv)", &attackElementCorrectParam);
+    defGenerator(R"(../../csv-conversions/CalcCorrectGraphEZPreCalc.csv)", &calcCorrectGraph);
+    defGenerator(R"(../../csv-conversions/equipParamProtector.csv)", &equipParamProtector);
+    defGenerator(R"(../../csv-conversions/Magic.csv)", &magic);
+    defGenerator(R"(../../csv-conversions/SwordArtsParam.csv)", &swordArtsParam);
+    defGenerator(R"(../../csv-conversions/weaponStaminaData.csv)", &wepStamCost);
+    
     //load additional data and precomputed info
     loadMind();
     loadEndurance();
@@ -43,7 +43,7 @@ void DataParser::generateDefs() {
     loadEquipLoadScale();
     loadPoiseScale();
     loadDatafit();
-
+    loadStamina();
 }
 
 /// Fetches a weapon's stamina cost per r1 from id
@@ -168,7 +168,7 @@ int DataParser::retrieveWeaponIdByName(std::string name) {
 
 int DataParser::fetchStamina(int endLevel)
 {
-    return endurance[endLevel-1];
+    return stamina[endLevel-1];
 }
 
 int DataParser::fetchFp(int mindLevel)
@@ -270,7 +270,7 @@ void DataParser::defGenerator(const std::string& csvPath, std::unordered_map<int
 
 void DataParser::loadMind() {
     std::ifstream mindFile;
-    mindFile.open (R"(..\..\csv-conversions\non csv data\Mind.txt)");
+    mindFile.open (R"(../../csv-conversions/non csv data/Mind.txt)");
 
     std::string line;
     while (std::getline(mindFile, line))
@@ -284,9 +284,23 @@ void DataParser::loadMind() {
     mindFile.close();
 }
 
+void DataParser::loadStamina() {
+  std::ifstream staminaFile;
+  staminaFile.open("../../csv-conversions/non csv data/stamina.txt");
+  std::string line;
+  while (std::getline(staminaFile, line))
+    {
+      std::istringstream iss(line);
+      int level, value;
+      if (!(iss >> level >> value)) { break; } // error
+      stamina.push_back(value);
+    }
+  staminaFile.close();
+}
+
 void DataParser::loadEndurance() {
     std::ifstream endFile;
-    endFile.open (R"(..\..\csv-conversions\non csv data\Endurance.txt)");
+    endFile.open (R"(../../csv-conversions/non csv data/Endurance.txt)");
 
     std::string line;
     while (std::getline(endFile, line))
@@ -302,7 +316,7 @@ void DataParser::loadEndurance() {
 
 void DataParser::loadEhp90() {
     std::ifstream ehp90File;
-    ehp90File.open (R"(..\..\csv-conversions\non csv data\bestehp90.txt)");
+    ehp90File.open (R"(../../csv-conversions/non csv data/bestehp90.txt)");
 
     std::string line;
     while (std::getline(ehp90File, line))
@@ -319,7 +333,7 @@ void DataParser::loadEhp90() {
 
 void DataParser::loadVigScale() {
     std::ifstream vigFile;
-    vigFile.open (R"(..\..\csv-conversions\non csv data\vigor.txt)");
+    vigFile.open (R"(../../csv-conversions/non csv data/vigor.txt)");
 
     std::string line;
     std::getline(vigFile, line);
@@ -335,7 +349,7 @@ void DataParser::loadVigScale() {
 
 void DataParser::loadEquipLoadScale() {
     std::ifstream elFile;
-    elFile.open (R"(..\..\csv-conversions\non csv data\equipload.txt)");
+    elFile.open (R"(../../csv-conversions/non csv data/equipload.txt)");
 
     std::string line;
     std::getline(elFile, line);
@@ -351,7 +365,7 @@ void DataParser::loadEquipLoadScale() {
 
 void DataParser::loadPoiseScale() {
     std::ifstream poiseFile;
-    poiseFile.open (R"(..\..\csv-conversions\non csv data\poisebreakpoints.txt)");
+    poiseFile.open (R"(../../csv-conversions/non csv data/poisebreakpoints.txt)");
 
     std::string line;
     std::getline(poiseFile, line);
@@ -375,7 +389,7 @@ void DataParser::loadPoiseScale() {
 //I REALLY need a better way to load this.
 void DataParser::loadDatafit() {
     std::ifstream datafitFile;
-    datafitFile.open (R"(..\..\csv-conversions\non csv data\datafit.txt)");
+    datafitFile.open (R"(../../csv-conversions/non csv data/datafit.txt)");
 
     std::string line;
     std::istringstream iss;
@@ -439,7 +453,7 @@ std::vector<std::vector<int>> DataParser::loadSpecificWeaponData(int weaponId, i
 {
     int trueId = weaponId + infusionId;
     std::stringstream fileString;
-    fileString << R"(..\..\Database\)" << trueId << ".txt";
+    fileString << R"(../../Database/)" << trueId << ".txt";
 
     std::ifstream weaponScalingFile;
     weaponScalingFile.open (fileString.str());

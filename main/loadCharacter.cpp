@@ -11,16 +11,20 @@
 #include <sstream>
 #include <string>
 #include <vector>
+#include <thread>
+#include <future>
+#include <mutex>
+#include <cmath>
 
-#include <Eigen/Core>
-#include <Eigen/SVD>
+#include <eigen3/Eigen/Core>
+#include <eigen3/Eigen/SVD>
 #include "character.h"
 #include <cppflow/cppflow.h>
 
 /// Helper function to retrieve the equip weight for a given armor piece by name
 /// @param name Official name for the armor piece(community names from params)
 /// @return Equip weight for input armor piece
-double retrieveEquipWeight(const std::string& name){
+double loadCharacter::retrieveEquipWeight(const std::string& name){
     auto armor = DataParser::retrieveArmorByName(name);
     if (armor == nullptr) return -1;
     return stod(armor->at("weight"));
@@ -99,8 +103,9 @@ double Logistic(const std::vector<float>& logisticPiece, double x) {
 /// @param armorPercent What percentage of total equip load is dedicated to armor
 /// @param hasBullgoat Is the player using bullgoat talisman(poise matters more)
 /// @return A pair of the ideal overall negation and poise values
-std::pair<double, double> negationsPoise(double equipLoad, const std::vector<double>& armorFraction, double armorPercent, boolean hasBullgoat) {
-    double armor = equipLoad * armorPercent;
+std::pair<double, double> loadCharacter::negationsPoise(double equipLoad, const std::vector<double>& armorFraction, double armorPercent, bool hasBullgoat) {
+  double armor = equipLoad * armorPercent;
+    
     std::vector<std::vector<float>> poiseArmorPieces = DataParser::fetchArmorPoise();
 
     //x is the % of current equip load dedicated to armor reserved for the given armor piece
@@ -146,7 +151,7 @@ std::pair<double, double> negationsPoise(double equipLoad, const std::vector<dou
 /// stat points allocated to vigor, and stat points allocated to endurance
 std::vector<std::vector<double>> effectiveHealth(int baseVigor, int baseEndurance, double armorPercent, const std::vector<double>& armorFraction, int allocatedStatPoints, bool hasBullgoat, bool hasGreatjar) {
     std::vector<std::vector<double>> potentialBuilds;
-    std::vector<std::vector<double>> bestBreakPoints(DataParser::getPoiseSize(), std::vector<double>(4, -1));
+    std::vector<std::vector<double>> bestBreakPoints(DataParser::getPoiseSize(),std::vector<double>(4, -1));
 
     if (logisticArmorPieces.empty()) logisticArmorPieces = DataParser::fetchLogistics();
 
@@ -158,7 +163,7 @@ std::vector<std::vector<double>> effectiveHealth(int baseVigor, int baseEnduranc
         double equipLoad = DataParser::fetchEq(enduranceIndex);
         if (hasGreatjar) equipLoad = equipLoad * 1.19;
 
-        auto values = negationsPoise(equipLoad, armorFraction, armorPercent, hasBullgoat);
+        auto values = loadCharacter::negationsPoise(equipLoad, armorFraction, armorPercent, hasBullgoat);
         double neg = values.first;
         double poiseVal = values.second;
 
@@ -272,7 +277,7 @@ std::pair<std::vector<double>, double> bestNegations(double equipLoad) {
 /// @param startingClass Starting class name as a string
 /// @param hasGreatjar Is the player using the great jar talisman(poise/neg matters slightly more, significant equip load change)
 /// @return The largest effective HP value calculated
-double loadCharacter::bestEffectiveHP(int statPoints, const std::string& startingClass, boolean hasGreatjar)
+double loadCharacter::bestEffectiveHP(int statPoints, const std::string& startingClass, bool hasGreatjar)
 {
     int baseVigor = starting_classes[startingClass][0];
     int baseEndurance = starting_classes[startingClass][2];
@@ -280,7 +285,7 @@ double loadCharacter::bestEffectiveHP(int statPoints, const std::string& startin
     std::vector<double> negations = {};
     std::vector<double> poise = {}; //unused, poise currently not taken into account
     std::vector<double> effectiveHP = {};
-    boolean larger = false;
+    bool larger = false;
 
     for (int i=0; i<statPoints; i++)
     {
@@ -296,7 +301,7 @@ double loadCharacter::bestEffectiveHP(int statPoints, const std::string& startin
         }
 
         double negation = -1;
-        boolean precompute = false;
+        bool precompute = false;
 
         if (!hasGreatjar && starting_classes_negations.count(startingClass)) //no great jar and starting class negations computed already
         {
@@ -508,6 +513,7 @@ std::vector<std::vector<int>> gridGenerator(int soulLevel, int delta)
 /// @return A final vector output of characters with the updated ML data
 std::vector<Character> exponentialDecay(Character& characterInput, int delta)
 {
+  
     std::string startingClass = characterInput.getStartingClass();
 
     int baseClassVigor = characterInput.getBaseVigor();
@@ -526,7 +532,7 @@ std::vector<Character> exponentialDecay(Character& characterInput, int delta)
     for (int i=0; i<NUM_ARMOR_PIECES; i++)
     {
         std::string armorPiece = characterInput.getArmor()[i];
-        double weight = armorPiece.empty() ? 0.0 : retrieveEquipWeight(armorPiece); //if no armor, weight is obviously 0
+        double weight = armorPiece.empty() ? 0.0 : loadCharacter::retrieveEquipWeight(armorPiece); //if no armor, weight is obviously 0
         armorWeight.push_back(weight);
         armorPercent += weight;
     }
@@ -541,17 +547,12 @@ std::vector<Character> exponentialDecay(Character& characterInput, int delta)
 
     armorPercent /= equipLoad;
 
-    auto optimizedValues = negationsPoise(equipLoad, armorFraction, armorPercent, characterInput.getHasBullgoat());
-    double optimalNegations = optimizedValues.first; //unused for later(?)
-    double optimalPoise = optimizedValues.second; //unused for later(?)
+    double optimalPoise = characterInput.getPoise();
 
     int basePoiseTier = DataParser::getPoiseTier(optimalPoise);
 
     //compute EHP with all stat points put towards EHP, armor ratios ignored
     double optimalEffectiveHp = loadCharacter::bestEffectiveHP(characterInput.getLevel(), characterInput.getStartingClass(), characterInput.getHasGreatjar());
-
-    double startingEffectiveHp = characterInput.getEffectiveHealth() / optimalEffectiveHp; //unused for later(?)
-
     //original number of stat points allocated towards EHP
     int allocatedEhpStats = characterInput.getVigor() - baseClassVigor + characterInput.getEndurance() - baseClassEndurance;
 
@@ -560,11 +561,11 @@ std::vector<Character> exponentialDecay(Character& characterInput, int delta)
         armorFraction, allocatedEhpStats, characterInput.getHasBullgoat(), characterInput.getHasGreatjar());
 
     //how close did our allocated EHP calculated w/ armor come to the optimal EHP?
-    characterInput.setEffectiveHpRatio(allocatedEhp[0][0]);
+    // characterInput.setEffectiveHpRatio(allocatedEhp[0][0]);
 
     //what amount of our total soul level does the vigor and endurance for our EHP use?
-    characterInput.setEffectiveHpVigorRatio(allocatedEhp[0][2]);
-    characterInput.setEffectiveHpEnduranceRatio(allocatedEhp[0][3]);
+    //characterInput.setEffectiveHpVigorRatio(allocatedEhp[0][2]);
+    //characterInput.setEffectiveHpEnduranceRatio(allocatedEhp[0][3]);
 
     int allocatedDamageStats = 0; //damage stats allocated not from starting class base values
     for (int i=CLASS_DAMAGE_STAT_INDEX; i<starting_classes.begin()->second.size(); i++) //"interesting" way to get the number of stat points
@@ -582,47 +583,49 @@ std::vector<Character> exponentialDecay(Character& characterInput, int delta)
     std::vector<Character> outputMlCharacters;
 
     outputMlCharacters.push_back(characterInput);
-
+    std::unordered_map<int, std::vector<std::vector<double>>> stats_to_ehp;
+    std::cout << "Starting Exponential Decay" << std::endl;
     for (auto statAllocation : statAllocationVariants)
     {
-        std::cout << "testing [" << statAllocation[0] << " " << statAllocation[1] << " " << statAllocation[2] << "]" << std::endl;
+      //std::cout << "testing [" << statAllocation[0] << " " << statAllocation[1] << " " << statAllocation[2] << "]" << std::endl;
         Character newStatMlCharacter = characterInput; //deep copy
 
         //fp adjustment
         int mindIndex = starting_classes[characterInput.getStartingClass()][CLASS_MIND_STAT_INDEX] + statAllocation[2] - 1;
         if (mindIndex >= 99) mindIndex = 98;
-        newStatMlCharacter.setFpRatio(mindIndex);
+	newStatMlCharacter.setFpRatio(static_cast<double>(DataParser::fetchFp(mindIndex)) / loadCharacter::retrieveMaxFp(characterInput.getLevel(), characterInput.getStartingClass()));
 
         //damage adjustment
-        newStatMlCharacter.setDamageStatNum(statAllocation[0]);
-        allocatedEhp = effectiveHealth(baseClassVigor, baseClassEndurance, armorPercent,
-       armorFraction, statAllocation[1], characterInput.getHasBullgoat(), characterInput.getHasGreatjar());
+	newStatMlCharacter.setDamageStatNum(statAllocation[0]);
+	auto iter = stats_to_ehp.find(statAllocation[1]);
+	if (iter == stats_to_ehp.end()) {
+	  allocatedEhp = effectiveHealth(baseClassVigor, baseClassEndurance, armorPercent,
+					 armorFraction, statAllocation[1], characterInput.getHasBullgoat(), characterInput.getHasGreatjar());
+	  stats_to_ehp[statAllocation[1]] = allocatedEhp;
+	}
+	else {
+	  allocatedEhp = iter->second;
+	}
 
-        //actual exponential decay and score generation
-        double distance = std::abs(statAllocation[0] - allocatedDamageStats) + std::abs(statAllocation[1] - allocatedEhpStats)
-        + std::abs(statAllocation[2] - allocatedMindStats);
-        double statScore = std::exp(-distance / 100);
-        if (statScore <= 0.5) continue;
-
+        
         for (auto poiseBp : allocatedEhp) {
             auto newPoiseChar = newStatMlCharacter;
-            newPoiseChar.setEffectiveHpRatio(poiseBp[0]);
-            newPoiseChar.setPoiseRatio(poiseBp[1]);
-            newPoiseChar.setEffectiveHpVigorRatio(poiseBp[2]);
-            newPoiseChar.setEffectiveHpEnduranceRatio(poiseBp[3]);
-
-            double poiseBpDiff = DataParser::getPoiseTier(poiseBp[1]) - basePoiseTier;
-            double poiseScore;
-
-            if (poiseBpDiff < 0)
-                //dropping below base poise is punished harshly
-                poiseScore = std::exp(poiseBpDiff / 1.5);
-            else
-                //non-exponential bonus to score so we dont favor super high poise over high hp
-                poiseScore = 1.0 + 0.10 * poiseBpDiff;
-
-            double finalScore = statScore * poiseScore;
-            newPoiseChar.setScore(finalScore);
+	    double poiseBpDiff = DataParser::getPoiseTier(poiseBp[1]) - basePoiseTier;
+	    double ehpDelta = ((poiseBp[0]) - characterInput.getEffectiveHealth()) / characterInput.getEffectiveHealth();
+	    //actual exponential decay and score generation
+	    // If we have more of a stat, that is good, if we have less of a stat, that is bad.
+	    double distance =
+	      std::abs(std::min(statAllocation[0] - allocatedDamageStats,0)) +
+	      500 * std::abs(std::min(ehpDelta, 0.0)) +
+	      10 * std::abs(std::min(poiseBpDiff,0.0)) + 
+	      + 5 * std::abs(std::min(statAllocation[2] - allocatedMindStats,0));
+	    double statScore = std::exp(-distance / 100);
+	    if (statScore <= 0.3) continue;
+	    newPoiseChar.setEffectiveHpRatio(poiseBp[0] / optimalEffectiveHp);
+            newPoiseChar.setPoiseRatio(poiseBp[1] / loadCharacter::retrieveMaxPoise());
+	    newPoiseChar.setEffectiveHpVigorRatio(poiseBp[2] / 99.0);
+	    newPoiseChar.setEffectiveHpEnduranceRatio(poiseBp[3] / 99.0);
+            newPoiseChar.setScore(statScore);
             outputMlCharacters.push_back(newPoiseChar);
         }
 
@@ -685,7 +688,9 @@ std::vector<int> damageStatAllocation(const Character& characterInput, int damag
     auto matrixStats = convert_vvd_to_matrix(optimalStats); //converting an std::vector to an Eigen::MatrixXd which are basically the same thing for our purposes
     matrixStats.transposeInPlace(); //transpose stat matrix so the optimal stat values for each weapon are now grouped together
 
-    Eigen::JacobiSVD<Eigen::MatrixXd, Eigen::ComputeFullU | Eigen::ComputeFullV> svd(matrixStats);
+    //Eigen::JacobiSVD<Eigen::MatrixXd, Eigen::ComputeFullU | Eigen::ComputeFullV> svd(matrixStats);
+    Eigen::JacobiSVD<Eigen::MatrixXd> svd;
+    svd.compute(matrixStats, Eigen::ComputeFullU | Eigen::ComputeFullV);
 
     if (svd.info() != Eigen::ComputationInfo::Success) {
         std::cout << "SVD failed" << std::endl;
@@ -729,7 +734,7 @@ std::vector<int> damageStatAllocation(const Character& characterInput, int damag
     double damageRemainder = damageStatPoints - sum;
 
     //solve decimal remainders by rounding the stat with the largest decimal up 1 point until no more remainder
-    while (remainder > 0)
+    while (damageRemainder > 0)
     {
         double biggest = -1;
         for (int i=0; i<fracStats.size(); i++)
@@ -742,7 +747,7 @@ std::vector<int> damageStatAllocation(const Character& characterInput, int damag
         }
         wholeStats[index] += 1;
         fracStats[index] = 0;
-        remainder -= 1;
+        damageRemainder -= 1;
     }
 
     //add starting class base totals to our new amounts
@@ -797,10 +802,15 @@ void rankBuilds(const std::vector<std::vector<double>>& builds, const std::strin
     std::priority_queue<priorityPair, std::vector<priorityPair>, std::greater<>> buildPriorityQueue;
 
     cppflow::model model(modelPath);
+    std::cout << buildStringSize << std::endl;
     auto input = cppflow::tensor(mlStringBuilds, {static_cast<int>(builds.size()), buildStringSize});
+    /*
     auto test = model.get_operations();
-    auto scores = model({{"serve_input_layer:0", input}},{"StatefulPartitionedCall:0"});
-
+    for (auto s : test) {
+      std::cout << s << std::endl;
+    }
+    */
+    auto scores = model({{"serve_keras_tensor:0", input}},{{"StatefulPartitionedCall:0"}});
     auto scoreData = scores[0].get_data<float>();
 
     //iterate over the output build scores, loading them into the priority queue of size numbuilds, when we reach
@@ -821,7 +831,7 @@ void rankBuilds(const std::vector<std::vector<double>>& builds, const std::strin
             auto topBuild = buildPriorityQueue.top();
             buildPriorityQueue.pop();
 
-            if (topBuild.first > scoreData[i])
+	    if (topBuild.first > scoreData[i])
             {
                 buildPriorityQueue.push(topBuild);
             } else
@@ -839,14 +849,14 @@ void rankBuilds(const std::vector<std::vector<double>>& builds, const std::strin
         auto result = buildPriorityQueue.top();
         buildPriorityQueue.pop();
 
-        //std::cout << result.first << std::endl;
+        std::cout << "Score " << result.first << std::endl;
 
         auto resultData = result.second;
         int resultDataSize = static_cast<int>(resultData.size());
 
         int mindStat = fpToMind(std::round(resultData[3] * max_fp)) - starting_classes[characterInput.getStartingClass()][CLASS_MIND_STAT_INDEX];
-        int vigorStat = std::round(resultData[resultDataSize - 2] * level);
-        int endStat = std::round(resultData[resultDataSize - 1] * level);
+        int vigorStat = std::round(resultData[resultDataSize - 2] * 99);
+        int endStat = std::round(resultData[resultDataSize - 1] * 99);
         int dmgStats = std::round(resultData[8] * level);
         std::cout << characterInput.getName() << ":" << std::endl;
         std::cout << "EHP is " << resultData[1] * best_ehp << ". Vigor invested is " << vigorStat << ". Endurance invested is " << endStat << ". Mind invested is "
@@ -856,13 +866,16 @@ void rankBuilds(const std::vector<std::vector<double>>& builds, const std::strin
         std::cout << "Vig " << starting_classes[characterInput.getStartingClass()][0] + vigorStat << ", Mnd " << starting_classes[characterInput.getStartingClass()][1] + mindStat
         << ", End " << starting_classes[characterInput.getStartingClass()][2] + endStat << ", Str " << stats[0] << ", Dex " << stats[1]
         << ", Int " << stats[2] << ", Fth " << stats[3] << ", Arc " << stats[4] << std::endl;
+	double poise = resultData[2] * loadCharacter::retrieveMaxPoise();
+	int tier = DataParser::getPoiseTier(poise);
+	std::cout << "Poise is " << poise << " and tier is " << tier << std::endl;
     }
 }
 
 std::vector<std::vector<double>> createBuilds(Character characterInput, int level, int stride)
 {
     auto mlBuildString = characterInput.generateMlString();
-    mlBuildString[1] = static_cast<double>(characterInput.getLevel()) / level; //set level
+    mlBuildString[1] = static_cast<double>(level) / SCALING_LEVEL_TARGET; //set level
     int baseVigor = starting_classes[characterInput.getStartingClass()][CLASS_VIGOR_STAT_INDEX];
     int baseEndurance = starting_classes[characterInput.getStartingClass()][CLASS_ENDURANCE_STAT_INDEX];
 
@@ -883,7 +896,7 @@ std::vector<std::vector<double>> createBuilds(Character characterInput, int leve
         auto armor = characterInput.getArmor();
         if (!armor[i].empty())
         {
-            weight = retrieveEquipWeight(armor[i]);
+	  weight = loadCharacter::retrieveEquipWeight(armor[i]);
 
             if (!poiseComputed) poise += retrievePoise(armor[i]);
 
@@ -901,10 +914,10 @@ std::vector<std::vector<double>> createBuilds(Character characterInput, int leve
 
     armorPercent /= equipLoad;
     double maxPoise = loadCharacter::retrieveMaxPoise();
-    mlBuildString[3] = poise / maxPoise; //set poise ratio
+    // mlBuildString[3] = poise / maxPoise; //set poise ratio
 
     int maxFp = loadCharacter::retrieveMaxFp(level, characterInput.getStartingClass());
-    double bestEhp = DataParser::fetchEHP90(characterInput.getStartingClass());
+    double bestEhp = loadCharacter::bestEffectiveHP(level, characterInput.getStartingClass(), characterInput.getHasGreatjar());
     double swingValue = characterInput.getSwingValue();
 
     auto mesh = gridGenerator(level, stride);
@@ -935,25 +948,167 @@ std::vector<std::vector<double>> createBuilds(Character characterInput, int leve
             effectiveHPs = effectiveHealth(baseVigor, baseEndurance, armorPercent, armorFraction, testValueSet[1], characterInput.getHasBullgoat(), characterInput.getHasGreatjar());
             ehpCache[testValueSet[1]] = effectiveHPs;
         }
-        outputBuild[2] = effectiveHPs[0][0] / bestEhp; //ehp
-        outputBuild[3] = effectiveHPs[0][1] / maxPoise; //poise
-        outputBuild[outputBuild.size() - 3] = swingValue / DataParser::fetchStamina(effectiveHPs[0][3]); //average swings with endurance
-        outputBuild[outputBuild.size() - 2] = effectiveHPs[0][2] / level; //vigor
-        outputBuild[outputBuild.size() - 1] = effectiveHPs[0][3] / level; //endurance
+	
+        
         outputBuild[0] = 1; //score
-
-        output.emplace_back(outputBuild);
+	for (const auto& bp : effectiveHPs) {
+	  auto temp = outputBuild;
+	  temp[2] = bp[0] / bestEhp; //ehp
+	  temp[3] = bp[1] / maxPoise; //poise
+	  temp[outputBuild.size() - 3] = swingValue / DataParser::fetchStamina(bp[3]); //average swings with endurance
+	  temp[outputBuild.size() - 2] = bp[2] / 99.0; //vigor
+	  temp[outputBuild.size() - 1] = bp[3] / 99.0; //endurance
+	  output.emplace_back(temp);
+	}
     }
     return output;
 }
+void Predict::operator()(std::string jsonFile) {
+  rescaleClasses();
+  Character characterInput(jsonFile);
+  auto builds = createBuilds(characterInput, level, grid); 
+  std::vector<float> mlStringBuilds;
+  int buildStringSize = 0;
+  std::cout << "Considering " << builds.size() << " builds" << std::endl;
+  //get build strings, trim off the score, and flatten into a 1d array
+  for (const auto& build : builds)
+    {
+        auto tempBuildString = build;
+        tempBuildString.erase(tempBuildString.begin());
+        mlStringBuilds.insert(mlStringBuilds.end(), tempBuildString.begin(), tempBuildString.end());
+
+        buildStringSize = static_cast<int>(tempBuildString.size()); 
+    }
+
+    //code neatness thing
+    typedef std::pair<float, std::vector<float>> priorityPair;
+    std::priority_queue<priorityPair, std::vector<priorityPair>, std::greater<>> buildPriorityQueue;
+
+    auto input = cppflow::tensor(mlStringBuilds, {static_cast<int>(builds.size()), buildStringSize});
+    auto scores = model({{"serving_default_keras_tensor:0", input}},{{"StatefulPartitionedCall_1:0"}});
+    auto scoreData = scores[0].get_data<float>();
+
+    for (int i=0; i<scoreData.size(); i++) {
+
+        std::vector<float> buildData(mlStringBuilds.begin() + i*buildStringSize, mlStringBuilds.begin() + (i+1)*buildStringSize);
+
+        if (buildPriorityQueue.size() < numBuilds)
+        {
+            buildPriorityQueue.emplace(scoreData[i], buildData);
+        } else
+        {
+            auto topBuild = buildPriorityQueue.top();
+            buildPriorityQueue.pop();
+
+            if (topBuild.first > scoreData[i])
+            {
+                buildPriorityQueue.push(topBuild);
+            } else
+            {
+                buildPriorityQueue.emplace(scoreData[i], buildData);
+            }
+        }
+    }
+
+    double best_ehp = loadCharacter::bestEffectiveHP(level, characterInput.getStartingClass(), characterInput.getHasGreatjar());
+    double max_fp = loadCharacter::retrieveMaxFp(level, characterInput.getStartingClass());
+
+    while (!buildPriorityQueue.empty())
+    {
+        auto result = buildPriorityQueue.top();
+        buildPriorityQueue.pop();
+
+        std::cout << "Score " << result.first << std::endl;
+
+        auto resultData = result.second;
+        int resultDataSize = static_cast<int>(resultData.size());
+
+        int mindStat = fpToMind(std::round(resultData[3] * max_fp)) - starting_classes[characterInput.getStartingClass()][CLASS_MIND_STAT_INDEX];
+        int vigorStat = std::round(resultData[resultDataSize - 2] * 99);
+        int endStat = std::round(resultData[resultDataSize - 1] * 99);
+        int dmgStats = std::round(resultData[8] * level);
+	if (dmgStats == level) {
+	  std::cerr << "Model did not load properly, try running again." << std::endl;
+	  return;
+	}
+        std::cout << characterInput.getName() << ":" << std::endl;
+        std::cout << "EHP is " << resultData[1] * best_ehp << ". Vigor invested is " << vigorStat << ". Endurance invested is " << endStat << ". Mind invested is "
+        << mindStat << ". Number of stats invested towards damage is " << dmgStats << "." << std::endl;
+
+        auto stats = damageStatAllocation(characterInput, dmgStats);
+        std::cout << "Vig " << starting_classes[characterInput.getStartingClass()][0] + vigorStat << ", Mnd " << starting_classes[characterInput.getStartingClass()][1] + mindStat
+        << ", End " << starting_classes[characterInput.getStartingClass()][2] + endStat << ", Str " << stats[0] << ", Dex " << stats[1]
+        << ", Int " << stats[2] << ", Fth " << stats[3] << ", Arc " << stats[4] << std::endl;
+	double poise = resultData[2] * loadCharacter::retrieveMaxPoise();
+	int tier = DataParser::getPoiseTier(poise);
+	std::cout << "Poise is " << poise << " and tier is " << tier << std::endl;
+	auto startingClassStats = characterInput.getStartingClassStats();
+	for (int i=0; i<DAMAGE_STAT_COUNT; i++)
+	  {
+	    dmgStats += static_cast<int>(startingClassStats[i + CLASS_DAMAGE_STAT_INDEX]);
+	  }
+	auto weapons = characterInput.getWeapons();
+	for (auto weapon : weapons) {
+	  Weapon w(weapon.getId(), weapon.getInfusion(), weaponUpgrade);
+	  double damagePointsPerStat;
+	  double remainder = std::modf(dmgStats / DAMAGE_STAT_COUNT, &damagePointsPerStat);
+	  if (remainder > 0) damagePointsPerStat = DAMAGE_STAT_COUNT * (damagePointsPerStat + 1);
+
+	  int index = static_cast<int>(damagePointsPerStat / DAMAGE_STAT_COUNT - 1);
+	  int sum = DAMAGE_STAT_COUNT * (index + 1);
+	  auto scalingData = DataParser::loadSpecificWeaponData(w.getId(), w.getInfusion());
+	  double alpha = dmgStats / sum;
+	  std::vector<double> wholeStats;
+	  std::vector<double> fracStats;
+	  sum = 0;
+	  //take proportions and figure out how much real stat points each one is
+	  for (int i=1; i<scalingData[index].size(); i++)
+	    {
+	      double whole;
+	      double frac = std::modf(alpha * scalingData[index][i], &whole);
+	      sum += whole;
+	      wholeStats.emplace_back(whole);
+	      fracStats.emplace_back(frac);
+	    }
+	  remainder = dmgStats - sum;
+	  while (remainder > 0)
+	    {
+	      double biggest = -1;
+	      for (int i=0; i<fracStats.size(); i++)
+		{
+		  if (fracStats[i] > biggest)
+		    {
+		      biggest = fracStats[i];
+		      index = i;
+		    }
+		}
+	      wholeStats[index] += 1;
+	      fracStats[index] = 0;
+	      remainder -= 1;
+	    }
+
+	  std::vector<int> optStats;
+	  for (const auto& x : wholeStats) {
+	    optStats.push_back(static_cast<int>(x));
+	  }
+	  
+	  std::vector<int> defs(5, 140);
+	  double optimal = w.calculateDamage(optStats, defs, false);
+	  double assigned = w.calculateDamage(stats, defs, false);
+	  double test = w.calculateDamage(std::vector<int>(5,0), defs, false);
+	  std::cout << w.getName() << " is at " << (assigned / optimal) << " efficiency" << std::endl;
+        }
+    }
+}
+
 
 void loadCharacter::loadData()
 {
     rescaleClasses();
-    Character bloodsage(R"(..\..\csv-conversions\non csv data\BloodsageNadine.json)");
+    Character bloodsage(R"(../../csv-conversions/non csv data/BloodsageNadine.json)");
     //prepareData(bloodsage, 1);
     auto builds = createBuilds(bloodsage, 90, 5);
-    rankBuilds(builds, R"(../../SavedModel125)", 90, bloodsage, 2);
+    rankBuilds(builds, "/home/sto/downscaling-optimization-main/soulsplanner-build-archive/models/rl90ish", 90, bloodsage, 2);
 }
 
 void loadCharacter::loadData(std::string buildJsonPath, int targetLevel, int buildsToProduce)
@@ -962,44 +1117,129 @@ void loadCharacter::loadData(std::string buildJsonPath, int targetLevel, int bui
     Character bloodsage(buildJsonPath);
     //prepareData(bloodsage, 1);
     auto builds = createBuilds(bloodsage, targetLevel, 5);
-    rankBuilds(builds, R"(../../SavedModel125)", targetLevel, bloodsage, buildsToProduce);
+    int poiseTier = DataParser::getPoiseTier(bloodsage.getPoise());
+    std::cout << "Poise Tier is " << poiseTier << std::endl;
+    rankBuilds(builds, "/home/sto/downscaling-optimization-main/soulsplanner-build-archive/models/rl90ish", targetLevel, bloodsage, buildsToProduce);
+}
+
+
+std::mutex m;
+
+void appendBuild(std::vector<Character>& characters, std::string outputFilePath) {
+  std::ofstream outputFile(outputFilePath, std::ios_base::app);
+  for (auto& build : characters)
+    {
+      auto mlVector = build.generateMlString();
+      //writebuild string in csv format
+      bool impossible = false;
+      for (const auto& x : mlVector) {
+	if (std::isnan(x) || std::isinf(x)) {
+	  std::cout << "Found Impossible Value, discarding" << std::endl;
+	  std::cout << build.getName() << "is ill-formed" << std::endl;
+	  impossible = true;
+	  break;
+	}
+      }
+      if (impossible) {
+	continue;
+      }
+      for (int i=0; i<mlVector.size(); i++)
+	{
+	  if (i != mlVector.size() - 1)
+	    {
+	      outputFile << mlVector[i] << ",";
+	    }
+	  else {
+	    outputFile << mlVector[i] << std::endl;
+	  }
+	}
+    }
+  outputFile.close();
+}
+
+void threadFunction(int start_index, int end_index, std::vector<std::string> files, std::string outputFilePath, std::vector<Character>& characters){
+  bool read = false;
+  int count = 0;
+  for (int i = start_index; i < end_index; ++i) {
+    try {
+      std::cout << files[i] << std::endl;
+      Character inputBuild(files[i]);
+      read = true;
+    }
+    catch(...) {
+      std::cout << "error parsing build, continuing" << std::endl;
+      read = false;
+    }
+    if (!read) {
+      continue;
+    }
+    Character inputBuild(files[i]);
+    auto outputBuilds = prepareData(inputBuild, 5);
+    for (const auto& build :  outputBuilds) {
+      characters.push_back(build);
+    }
+    ++count;
+    if(count == 10) {
+      std::lock_guard<std::mutex> lock(m);
+      std::cout << "Count builds made " << count << std::endl;
+      appendBuild(characters, outputFilePath);
+      std::cout << "Wrote builds" << std::endl;
+      count = 0;
+      characters.clear();
+    }
+  }
+  if (!characters.empty()) {
+    std::lock_guard<std::mutex> lock(m);
+    std::cout << "Count builds made " << count << std::endl;
+    appendBuild(characters, outputFilePath);
+    std::cout << "Wrote builds" << std::endl;
+    count = 0;
+    characters.clear();
+  }
 }
 
 void loadCharacter::writeTrainingData(const std::string& trainingPath, const std::string& outputFilePath)
 {
     rescaleClasses();
     std::ofstream outputFile(outputFilePath);
-
+    outputFile.close();
+    std::vector<std::string> files;
     for(auto& file: std::filesystem::directory_iterator(trainingPath))
     {
-        std::cout << "Loading character at location " << file.path() << std::endl;
-
-        //std::string outputFilePathFull = outputFilePath + file.path().stem().string() + ".txt";
-
-        //if (std::filesystem::exists(outputFilePathFull)) continue; //skip if already calculated
-
-        Character inputBuild(file.path().generic_string());
-        auto outputBuilds = prepareData(inputBuild, 5);
-
-        //std::ofstream outputFile(outputFilePathFull);
-
-        for (Character build : outputBuilds)
-        {
-            auto mlVector = build.generateMlString();
-
-            //write build string in csv format
-            for (int i=0; i<mlVector.size(); i++)
-            {
-                if (i != mlVector.size() - 1)
-                {
-                    outputFile << mlVector[i] << ",";
-                }
-                else outputFile << mlVector[i] << "\n";
-            }
-        }
-        //outputFile.close();
+      files.push_back(file.path().generic_string());
     }
-    outputFile.close();
+    int threads = 8;
+    int chunks = files.size() / 8;
+    std::vector<int> bounds(9,0);
+    for (int i = 0; i < 8; ++i) {
+      bounds[i] =  i * chunks;
+    }
+    bounds[8] = files.size();
+    std::vector<std::vector<Character>> results(8);
+    std::thread thread_one(threadFunction, bounds[0], bounds[1], files,
+			   outputFilePath, std::ref(results[0]));
+    std::thread thread_two(threadFunction, bounds[1], bounds[2], files,
+			   outputFilePath, std::ref(results[1]));
+    std::thread thread_three(threadFunction, bounds[2], bounds[3], files,
+			     outputFilePath, std::ref(results[2]));
+    std::thread thread_four(threadFunction, bounds[3], bounds[4], files,
+			    outputFilePath,std::ref(results[3]));
+    std::thread thread_five(threadFunction, bounds[4], bounds[5], files,
+			    outputFilePath, std::ref(results[4]));
+    std::thread thread_six(threadFunction, bounds[5], bounds[6], files,
+			   outputFilePath, std::ref(results[5]));
+    std::thread thread_seven(threadFunction, bounds[6], bounds[7], files,
+			     outputFilePath, std::ref(results[6]));
+    std::thread thread_eight(threadFunction, bounds[7], bounds[8], files,
+			     outputFilePath, std::ref(results[7]));;
+    thread_one.join();
+    thread_two.join();
+    thread_three.join();
+    thread_four.join();
+    thread_five.join();
+    thread_six.join();
+    thread_seven.join();
+    thread_eight.join();
 }
 
 void loadCharacter::functionTesting()
@@ -1043,7 +1283,7 @@ void loadCharacter::functionTesting()
     std::cout << "highest fp spell test: " << getMaxFpSpell() << std::endl;
 
     std::cout << "load bloodsage character: ";
-    Character bloodsage(R"(..\..\csv-conversions\non csv data\BloodsageNadine.json)");
+    Character bloodsage(R"(../../csv-conversions/non csv data/BloodsageNadine.json)");
     std::cout << bloodsage.getName() << " RL " << bloodsage.getLevel() << " +" << bloodsage.getUpgrade() << std::endl;
 
     std::cout << "grid build test: ";
