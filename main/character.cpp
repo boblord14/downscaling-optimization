@@ -248,9 +248,9 @@ Character::Character(const std::string& jsonPath)
         if (stamCost < 10) {
             this->weaponStaminaRatio[0]++;
         } else if (stamCost > 15) {
-            this->weaponStaminaRatio[2]++;
+            this->weaponStaminaRatio[1]++;
         } else {
-            this->weaponStaminaRatio[3]++;
+            this->weaponStaminaRatio[2]++;
         }
         this->swingValue += stamCost;
     }
