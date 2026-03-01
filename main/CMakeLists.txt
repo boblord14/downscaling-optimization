@@ -1,4 +1,6 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.20)
+
+set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
 project(downscaling-optimization)
 
 set(CMAKE_CXX_STANDARD 17)
@@ -10,11 +12,9 @@ link_directories(lib)
 find_package(NLopt CONFIG REQUIRED)
 find_package(nlohmann_json CONFIG REQUIRED)
 find_package(Eigen3 CONFIG REQUIRED)
+find_package(onnxruntime CONFIG REQUIRED)
 
-#requires the following installed in main/include
-#cppflow https://github.com/serizba/cppflow
-#tensorflow https://www.tensorflow.org/install/lang_c
-#a note on tensorflow- the tensorflow lib needs to be on path, cppflow throws a fit otherwise
+#requires onnx's files in main/include
 
 add_executable(downscaling-optimization main.cpp
         DataParser.cpp
@@ -29,11 +29,14 @@ add_executable(downscaling-optimization main.cpp
         character.h
 )
 
+set_property(TARGET downscaling-optimization
+        PROPERTY MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
+
 #additionally requires the tensorflow.lib file installed to main/lib from here:
 #https://www.tensorflow.org/install/lang_c
 target_link_libraries(downscaling-optimization
         PRIVATE
-        tensorflow
+        onnxruntime::onnxruntime
         NLopt::nlopt
         nlohmann_json::nlohmann_json
         Eigen3::Eigen

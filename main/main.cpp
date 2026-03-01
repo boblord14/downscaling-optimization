@@ -185,10 +185,10 @@ int main(int argc, char* argv[]) {
       std::cout << "Need the json file of the build to scale" << std::endl;
       return 1;
     }
-    Predict onetwentyfive("../../soulsplanner-build-archive/models/rl125ish", 125, 25, 1, 2);
-    Predict ninety("../../soulsplanner-build-archive/models/rl90ish", 90, 17, 1, 2);
-    Predict sixty("../../soulsplanner-build-archive/models/rl60ish", 60, 12, 1, 2);
-    Predict fortyfive("../../soulsplanner-build-archive/models/rl45ish", 45, 7, 1, 2);
+    Predict onetwentyfive("C:/Users/false/CLionProjects/downscaling-optimization/soulsplanner-build-archive/models/onnx/rl125ish/model.onnx", 125, 25, 1, 2);
+    Predict ninety("../../soulsplanner-build-archive/models/onnx/rl90ish/model.onnx", 90, 17, 1, 2);
+    Predict sixty("../../soulsplanner-build-archive/models/onnx/rl60ish/model.onnx", 60, 12, 1, 2);
+    Predict fortyfive("../../soulsplanner-build-archive/models/onnx/rl45ish/model.onnx", 45, 7, 1, 2);
     std::string file(argv[1]);
     std::cout << "Build at 125 +25" << std::endl;
     onetwentyfive(file);
