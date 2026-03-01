@@ -7,8 +7,9 @@
 
 #include "Weapon.h"
 #include <eigen3/Eigen/Core>
-#include <cppflow/cppflow.h>
 #include "character.h"
+#include "onnxruntime_cxx_api.h"
+#include "onnxruntime_c_api.h"
 
 extern std::unordered_map<std::string, std::vector<int>> starting_classes;
 
@@ -48,10 +49,32 @@ public:
 
 class Predict{
 public:
-  Predict(std::string modelPath, int level, int weaponUpgrade, int numBuilds, int grid):model(modelPath), level(level), weaponUpgrade(weaponUpgrade), numBuilds(numBuilds), grid(grid){};
+    Predict(std::string modelPath, int level, int weaponUpgrade, int numBuilds, int grid): env(ORT_LOGGING_LEVEL_WARNING, "predict"),
+    session(nullptr), level(level), weaponUpgrade(weaponUpgrade), numBuilds(numBuilds), grid(grid)    {
+        Ort::SessionOptions session_options;
+        session_options.SetIntraOpNumThreads(1);
+        session_options.SetGraphOptimizationLevel(
+            GraphOptimizationLevel::ORT_ENABLE_EXTENDED
+        );
+
+        std::wstring w_modelPath(modelPath.begin(), modelPath.end());
+
+        session = Ort::Session(env, w_modelPath.c_str(), session_options);
+
+        Ort::AllocatorWithDefaultOptions allocator;
+        auto input_name_alloc = session.GetInputNameAllocated(0, allocator);
+        auto output_name_alloc = session.GetOutputNameAllocated(0, allocator);
+
+        input_name = input_name_alloc.get(); // needed for later things
+        output_name = output_name_alloc.get();
+    };
   void operator()(std::string jsonFile);
 private:
-  cppflow::model model;
+    Ort::Env env;
+    Ort::Session session;
+
+    std::string input_name;
+    std::string output_name;
   int weaponUpgrade;
   int numBuilds;
   int grid;
