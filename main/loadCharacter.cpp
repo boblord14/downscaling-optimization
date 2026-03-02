@@ -19,7 +19,6 @@
 #include <eigen3/Eigen/Core>
 #include <eigen3/Eigen/SVD>
 #include "character.h"
-#include <onnxruntime_cxx_api.h>
 
 /// Helper function to retrieve the equip weight for a given armor piece by name
 /// @param name Official name for the armor piece(community names from params)
@@ -802,15 +801,71 @@ void rankBuilds(const std::vector<std::vector<double>>& builds, const std::strin
     typedef std::pair<float, std::vector<float>> priorityPair;
     std::priority_queue<priorityPair, std::vector<priorityPair>, std::greater<>> buildPriorityQueue;
 
-    /*
-    auto test = model.get_operations();
-    for (auto s : test) {
-      std::cout << s << std::endl;
-    }
-    */
+    //onnx ML model setup
+    Ort::SessionOptions session_options;
+    session_options.SetIntraOpNumThreads(1);
+    session_options.SetGraphOptimizationLevel(
+        GraphOptimizationLevel::ORT_ENABLE_EXTENDED
+    );
+
+    std::wstring w_modelPath(modelPath.begin(), modelPath.end());
+
+    Ort::Env env(ORT_LOGGING_LEVEL_WARNING, "rank");
+    auto session = Ort::Session(env, w_modelPath.c_str(), session_options);
+
+    Ort::AllocatorWithDefaultOptions allocator;
+    auto input_name_alloc = session.GetInputNameAllocated(0, allocator);
+    auto output_name_alloc = session.GetOutputNameAllocated(0, allocator);
+
+    std::string input_name = input_name_alloc.get(); // needed for later things
+    std::string output_name = output_name_alloc.get();
+
+    std::vector<int64_t> inputShape = {
+        static_cast<int64_t>(builds.size()),
+        static_cast<int64_t>(buildStringSize)
+    };
+
+    Ort::MemoryInfo memInfo = Ort::MemoryInfo::CreateCpu(
+        OrtArenaAllocator,
+        OrtMemTypeDefault
+    );
+
+    Ort::Value tensorInput = Ort::Value::CreateTensor<float>(
+        memInfo,
+        mlStringBuilds.data(),
+        mlStringBuilds.size(),
+        inputShape.data(),
+        inputShape.size()
+    );
+
+    const char* input[] = { input_name.c_str() };
+    const char* output[] = { output_name.c_str() };
+
+    auto tensorOutput = session.Run(
+        Ort::RunOptions{nullptr},
+        input,
+        &tensorInput,
+        1,
+        output,
+        1
+    );
+
+    auto* outputPointer =
+        tensorOutput[0].GetTensorMutableData<float>();
+
+    std::vector<int64_t> output_shape = tensorOutput[0].GetTensorTypeAndShapeInfo().GetShape();
+
+    size_t total_length = 1;
+    for (auto dim : output_shape)
+        total_length *= dim;
+
+    std::vector<float> scoreData(
+        outputPointer,
+        outputPointer + total_length
+    );
     //auto scores = model({{"serve_keras_tensor:0", input}},{{"StatefulPartitionedCall:0"}});
     //auto scoreData = scores[0].get_data<float>();
-    std::vector<float> scoreData = {std::stof("0.4353405")};
+
 
     //iterate over the output build scores, loading them into the priority queue of size numbuilds, when we reach
     //the max size for the queue, we update the smallest score(top of the queue) if its score is less than the current
@@ -954,7 +1009,7 @@ std::vector<std::vector<double>> createBuilds(Character characterInput, int leve
 	  auto temp = outputBuild;
 	  temp[2] = bp[0] / bestEhp; //ehp
 	  temp[3] = bp[1] / maxPoise; //poise
-	  temp[outputBuild.size() - 3] = swingValue / DataParser::fetchStamina(bp[3] + baseEndurance); //average swings with endurance
+	  temp[outputBuild.size() - 3] = DataParser::fetchStamina(bp[3] + baseEndurance) / swingValue; //average swings with endurance
 	  temp[outputBuild.size() - 2] = bp[2] / 99.0; //vigor
 	  temp[outputBuild.size() - 1] = bp[3] / 99.0; //endurance
 	  output.emplace_back(temp);
@@ -984,6 +1039,7 @@ void Predict::operator()(std::string jsonFile) {
     typedef std::pair<float, std::vector<float>> priorityPair;
     std::priority_queue<priorityPair, std::vector<priorityPair>, std::greater<>> buildPriorityQueue;
 
+    //onnx ML model setup
     std::vector<int64_t> inputShape = {
         static_cast<int64_t>(builds.size()),
         static_cast<int64_t>(buildStringSize)

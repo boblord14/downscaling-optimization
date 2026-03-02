@@ -185,7 +185,7 @@ int main(int argc, char* argv[]) {
       std::cout << "Need the json file of the build to scale" << std::endl;
       return 1;
     }
-    Predict onetwentyfive("C:/Users/false/CLionProjects/downscaling-optimization/soulsplanner-build-archive/models/onnx/rl125ish/model.onnx", 125, 25, 1, 2);
+    Predict onetwentyfive("../../soulsplanner-build-archive/models/onnx/rl125ish/model.onnx", 125, 25, 1, 2);
     Predict ninety("../../soulsplanner-build-archive/models/onnx/rl90ish/model.onnx", 90, 17, 1, 2);
     Predict sixty("../../soulsplanner-build-archive/models/onnx/rl60ish/model.onnx", 60, 12, 1, 2);
     Predict fortyfive("../../soulsplanner-build-archive/models/onnx/rl45ish/model.onnx", 45, 7, 1, 2);
