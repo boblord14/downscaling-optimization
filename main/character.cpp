@@ -243,6 +243,7 @@ Character::Character(const std::string& jsonPath)
       this->weaponStaminaRatio.push_back(0);
     }
     double maxStam = static_cast<double>(data["computed"]["maxStamina"]);
+    this->swingValue = 0;
     for (auto weapon:this->weapons) {
         auto stamCost = DataParser::retrieveStaminaCost(weapon.getId());
         if (stamCost < 10) {
