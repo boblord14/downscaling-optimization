@@ -180,15 +180,18 @@ void computeAllWeapons() {
 
 int main(int argc, char* argv[]) {
    
-    DataParser::generateDefs();
+  DataParser::generateDefs();
+
+    loadCharacter::writeTrainingData("../../soulsplanner-build-archive/rl125ish", "../../soulsplanner-build-archive/ML-Training-Vectors/rl125ish/labeled_data_stam.txt", 125);
+
     if (argc < 2) {
       std::cout << "Need the json file of the build to scale" << std::endl;
       return 1;
     }
-    Predict onetwentyfive("../../soulsplanner-build-archive/models/onnx/rl125ish/model.onnx", 125, 25, 1, 2);
-    Predict ninety("../../soulsplanner-build-archive/models/onnx/rl90ish/model.onnx", 90, 17, 1, 2);
-    Predict sixty("../../soulsplanner-build-archive/models/onnx/rl60ish/model.onnx", 60, 12, 1, 2);
-    Predict fortyfive("../../soulsplanner-build-archive/models/onnx/rl45ish/model.onnx", 45, 7, 1, 2);
+    Predict onetwentyfive("../../soulsplanner-build-archive/models/onnx/rl125ish/model.onnx", 125, 25, 1, 5);
+    Predict ninety("../../soulsplanner-build-archive/models/onnx/rl90ish/model.onnx", 90, 17, 1, 5);
+    Predict sixty("../../soulsplanner-build-archive/models/onnx/rl60ish/model.onnx", 60, 12, 1, 5);
+    Predict fortyfive("../../soulsplanner-build-archive/models/onnx/rl45ish/model.onnx", 45, 7, 1, 5);
     std::string file(argv[1]);
     std::cout << "Build at 125 +25" << std::endl;
     onetwentyfive(file);
@@ -199,6 +202,5 @@ int main(int argc, char* argv[]) {
     std::cout << "Build at 45 +7" << std::endl;
     fortyfive(file);
 
-    //loadCharacter::writeTrainingData("/home/sto/downscaling-optimization-main/soulsplanner-build-archive/rl45ish", "/home/sto/downscaling-optimization-main/soulsplanner-build-archive/ML-Training-Vectors/rl45ish/labeled_data.txt");
     return 0;
 }

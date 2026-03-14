@@ -16,8 +16,7 @@ char asciitolower(char in) {
 /// Helper function to convert a string to its lowercase variant
 /// @param data String to convert to lowercase
 /// @return The input string in lowercase
-std::string toLower(std::string data)
-{
+std::string toLower(std::string data) {
     std::string convString = data;
     std::transform(convString.begin(), convString.end(), convString.begin(), asciitolower);
     return convString;
@@ -34,7 +33,7 @@ void DataParser::generateDefs() {
     defGenerator(R"(../../csv-conversions/Magic.csv)", &magic);
     defGenerator(R"(../../csv-conversions/SwordArtsParam.csv)", &swordArtsParam);
     defGenerator(R"(../../csv-conversions/weaponStaminaData.csv)", &wepStamCost);
-    
+
     //load additional data and precomputed info
     loadMind();
     loadEndurance();
@@ -83,12 +82,12 @@ std::unordered_map<std::string, std::string> DataParser::retrieveArmor(int id) {
 
 /// Fetches all equipParamProtector entries
 /// @return equipParamProtector
-std::unordered_map<int, std::unordered_map<std::string, std::string>> DataParser::retrieveAllArmor() {
+std::unordered_map<int, std::unordered_map<std::string, std::string> > DataParser::retrieveAllArmor() {
     return equipParamProtector;
 }
 
-std::unordered_map<std::string, std::string>* DataParser::retrieveArmorByName(std::string name) {
-    for (const auto& pair : equipParamProtector) {
+std::unordered_map<std::string, std::string> *DataParser::retrieveArmorByName(std::string name) {
+    for (const auto &pair: equipParamProtector) {
         if (toLower(pair.second.at("Name")) == toLower((name))) {
             return &equipParamProtector.at(pair.first);
         }
@@ -100,12 +99,11 @@ std::unordered_map<std::string, std::string> DataParser::retrieveMagic(int id) {
     return magic.at(id);
 }
 
-std::unordered_map<int, std::unordered_map<std::string, std::string>> DataParser::retrieveAllMagic()
-{
+std::unordered_map<int, std::unordered_map<std::string, std::string> > DataParser::retrieveAllMagic() {
     return magic;
 }
 
-std::unordered_map<std::string, std::string>* DataParser::retrieveMagicByName(std::string name) {
+std::unordered_map<std::string, std::string> *DataParser::retrieveMagicByName(std::string name) {
     std::string originalName = toLower(name);
 
     //some punctuation in the actual name aren't present in the param data
@@ -113,7 +111,7 @@ std::unordered_map<std::string, std::string>* DataParser::retrieveMagicByName(st
     originalName.erase(std::remove(originalName.begin(), originalName.end(), '!'), originalName.end());
     originalName.erase(std::remove(originalName.begin(), originalName.end(), '-'), originalName.end());
 
-    for (const auto& pair : magic) {
+    for (const auto &pair: magic) {
         std::string nameConv = toLower(pair.second.at("Name"));
         nameConv.erase(std::remove(nameConv.begin(), nameConv.end(), ','), nameConv.end());
         nameConv.erase(std::remove(nameConv.begin(), nameConv.end(), '!'), nameConv.end());
@@ -131,13 +129,16 @@ std::unordered_map<std::string, std::string> DataParser::retrieveSwordArt(int id
     return swordArtsParam.at(id);
 }
 
-std::unordered_map<int, std::unordered_map<std::string, std::string>> DataParser::retrieveAllSwordArt()
-{
+std::unordered_map<int, std::unordered_map<std::string, std::string> > DataParser::retrieveAllSwordArt() {
     return swordArtsParam;
 }
 
-std::unordered_map<std::string, std::string>* DataParser::retrieveSwordArtByName(std::string name) {
-    for (const auto& pair : swordArtsParam) {
+std::unordered_map<int, std::unordered_map<std::string, std::string> > DataParser::retrieveAllWeapon() {
+    return equipParamWeapon;
+}
+
+std::unordered_map<std::string, std::string> *DataParser::retrieveSwordArtByName(std::string name) {
+    for (const auto &pair: swordArtsParam) {
         if (toLower(pair.second.at("Name")) == toLower(name)) {
             return &swordArtsParam.at(pair.first);
         }
@@ -151,14 +152,14 @@ std::vector<float> DataParser::retrieveCcg(int id) {
 
 std::vector<int> DataParser::getWeaponIds() {
     std::vector<int> keys;
-    for (const auto& pair : equipParamWeapon) {
+    for (const auto &pair: equipParamWeapon) {
         keys.push_back(pair.first);
     }
     return keys;
 }
 
 int DataParser::retrieveWeaponIdByName(std::string name) {
-    for (const auto& pair : equipParamWeapon) {
+    for (const auto &pair: equipParamWeapon) {
         if (toLower(pair.second.at("Name")) == toLower(name)) {
             return stoi(equipParamWeapon.at(pair.first)["ID"]);
         }
@@ -166,49 +167,41 @@ int DataParser::retrieveWeaponIdByName(std::string name) {
     return -1;
 }
 
-int DataParser::fetchStamina(int endLevel)
-{
-    return stamina[endLevel-1];
+int DataParser::fetchStamina(int endLevel) {
+    return stamina[endLevel - 1];
 }
 
-int DataParser::fetchFp(int mindLevel)
-{
-    return mind[mindLevel-1];
+int DataParser::fetchFp(int mindLevel) {
+    return mind[mindLevel - 1];
 }
 
-std::vector<int> DataParser::getMind()
-{
+std::vector<int> DataParser::getMind() {
     return mind;
 }
 
-float DataParser::fetchEHP90(std::string startingClass)
-{
+float DataParser::fetchEHP90(std::string startingClass) {
     return best_ehp_90[startingClass];
 }
 
-float DataParser::fetchHp(int index)
-{
-    return vig_scale[index-1];
+float DataParser::fetchHp(int index) {
+    return vig_scale[index - 1];
 }
 
-float DataParser::fetchEq(int index)
-{
-    return equip_load_scale[index-1];
+float DataParser::fetchEq(int index) {
+    return equip_load_scale[index - 1];
 }
 
-float DataParser::fetchPoise(int index)
-{
+float DataParser::fetchPoise(int index) {
     return poise_bp[index];
 }
 
-int DataParser::getPoiseSize()
-{
+int DataParser::getPoiseSize() {
     return poise_bp.size();
 }
 
 int DataParser::getPoiseTier(double poise) {
     int currentTier = -1;
-    for (int i=0; i<poise_bp.size(); i++) {
+    for (int i = 0; i < poise_bp.size(); i++) {
         if (poise >= poise_bp.at(i)) {
             currentTier = i;
         } else {
@@ -218,48 +211,46 @@ int DataParser::getPoiseTier(double poise) {
     return currentTier;
 }
 
-std::vector<std::vector<float>> DataParser::fetchLogistics()
-{
+std::vector<std::vector<float> > DataParser::fetchLogistics() {
     return {logistic_head, logistic_chest, logistic_arm, logistic_leg};
 }
 
-std::vector<std::vector<float>> DataParser::fetchArmorPoise()
-{
+std::vector<std::vector<float> > DataParser::fetchArmorPoise() {
     return {poise_head, poise_chest, poise_arm, poise_leg};
 }
 
 
-void DataParser::defGenerator(const std::string& csvPath, std::unordered_map<int, std::unordered_map<std::string, std::string>> *target){
-
+void DataParser::defGenerator(const std::string &csvPath,
+                              std::unordered_map<int, std::unordered_map<std::string, std::string> > *target) {
     CSVFormat format;
     format.delimiter(',');
     CSVReader reader(csvPath, format);
 
     std::vector<std::string> columnNames = reader.get_col_names();
 
-    for (CSVRow& row: reader) {
+    for (CSVRow &row: reader) {
         int id = row["ID"].get<int>();
         std::unordered_map<std::string, std::string> rowInfo = {};
 
         int i = 0;
-        for (const std::string& value : row.operator std::vector<std::string>()) {
+        for (const std::string &value: row.operator std::vector<std::string>()) {
             rowInfo.insert({columnNames[i], value});
             i++;
         }
-        target->insert({id,rowInfo});
+        target->insert({id, rowInfo});
     }
 }
 
-void DataParser::defGenerator(const std::string& csvPath, std::unordered_map<int, std::vector<float>> *target) {
+void DataParser::defGenerator(const std::string &csvPath, std::unordered_map<int, std::vector<float> > *target) {
     CSVReader reader(csvPath);
 
     std::vector<std::string> columnNames = reader.get_col_names();
     int index = 0;
-    for (CSVRow& row: reader) {
+    for (CSVRow &row: reader) {
         std::vector<float> saturationIndex = {};
 
         int i = 0;
-        for (const std::string& saturationValue : row.operator std::vector<std::string>()) {
+        for (const std::string &saturationValue: row.operator std::vector<std::string>()) {
             saturationIndex.push_back(stof(saturationValue));
             i++;
         }
@@ -270,11 +261,10 @@ void DataParser::defGenerator(const std::string& csvPath, std::unordered_map<int
 
 void DataParser::loadMind() {
     std::ifstream mindFile;
-    mindFile.open (R"(../../csv-conversions/non csv data/Mind.txt)");
+    mindFile.open(R"(../../csv-conversions/non csv data/Mind.txt)");
 
     std::string line;
-    while (std::getline(mindFile, line))
-    {
+    while (std::getline(mindFile, line)) {
         std::istringstream iss(line);
         int level, value;
         if (!(iss >> level >> value)) { break; } // error
@@ -285,26 +275,24 @@ void DataParser::loadMind() {
 }
 
 void DataParser::loadStamina() {
-  std::ifstream staminaFile;
-  staminaFile.open("../../csv-conversions/non csv data/stamina.txt");
-  std::string line;
-  while (std::getline(staminaFile, line))
-    {
-      std::istringstream iss(line);
-      int level, value;
-      if (!(iss >> level >> value)) { break; } // error
-      stamina.push_back(value);
+    std::ifstream staminaFile;
+    staminaFile.open("../../csv-conversions/non csv data/stamina.txt");
+    std::string line;
+    while (std::getline(staminaFile, line)) {
+        std::istringstream iss(line);
+        int level, value;
+        if (!(iss >> level >> value)) { break; } // error
+        stamina.push_back(value);
     }
-  staminaFile.close();
+    staminaFile.close();
 }
 
 void DataParser::loadEndurance() {
     std::ifstream endFile;
-    endFile.open (R"(../../csv-conversions/non csv data/Endurance.txt)");
+    endFile.open(R"(../../csv-conversions/non csv data/Endurance.txt)");
 
     std::string line;
-    while (std::getline(endFile, line))
-    {
+    while (std::getline(endFile, line)) {
         std::istringstream iss(line);
         int level, value;
         if (!(iss >> level >> value)) { break; } // error
@@ -316,11 +304,10 @@ void DataParser::loadEndurance() {
 
 void DataParser::loadEhp90() {
     std::ifstream ehp90File;
-    ehp90File.open (R"(../../csv-conversions/non csv data/bestehp90.txt)");
+    ehp90File.open(R"(../../csv-conversions/non csv data/bestehp90.txt)");
 
     std::string line;
-    while (std::getline(ehp90File, line))
-    {
+    while (std::getline(ehp90File, line)) {
         std::istringstream iss(line);
         std::string startingClass;
         float ehp;
@@ -333,7 +320,7 @@ void DataParser::loadEhp90() {
 
 void DataParser::loadVigScale() {
     std::ifstream vigFile;
-    vigFile.open (R"(../../csv-conversions/non csv data/vigor.txt)");
+    vigFile.open(R"(../../csv-conversions/non csv data/vigor.txt)");
 
     std::string line;
     std::getline(vigFile, line);
@@ -349,7 +336,7 @@ void DataParser::loadVigScale() {
 
 void DataParser::loadEquipLoadScale() {
     std::ifstream elFile;
-    elFile.open (R"(../../csv-conversions/non csv data/equipload.txt)");
+    elFile.open(R"(../../csv-conversions/non csv data/equipload.txt)");
 
     std::string line;
     std::getline(elFile, line);
@@ -365,7 +352,7 @@ void DataParser::loadEquipLoadScale() {
 
 void DataParser::loadPoiseScale() {
     std::ifstream poiseFile;
-    poiseFile.open (R"(../../csv-conversions/non csv data/poisebreakpoints.txt)");
+    poiseFile.open(R"(../../csv-conversions/non csv data/poisebreakpoints.txt)");
 
     std::string line;
     std::getline(poiseFile, line);
@@ -383,13 +370,12 @@ void DataParser::loadPoiseScale() {
     //trim duplicate values out of the list
     auto uniqueSplit = std::unique(poise_bp.begin(), poise_bp.end());
     poise_bp.erase(uniqueSplit, poise_bp.end());
-
 }
 
 //I REALLY need a better way to load this.
 void DataParser::loadDatafit() {
     std::ifstream datafitFile;
-    datafitFile.open (R"(../../csv-conversions/non csv data/datafit.txt)");
+    datafitFile.open(R"(../../csv-conversions/non csv data/datafit.txt)");
 
     std::string line;
     std::istringstream iss;
@@ -449,19 +435,17 @@ void DataParser::loadDatafit() {
     datafitFile.close();
 }
 
-std::vector<std::vector<int>> DataParser::loadSpecificWeaponData(int weaponId, int infusionId)
-{
+std::vector<std::vector<int> > DataParser::loadSpecificWeaponData(int weaponId, int infusionId) {
     int trueId = weaponId + infusionId;
     std::stringstream fileString;
     fileString << R"(../../Database/)" << trueId << ".txt";
 
     std::ifstream weaponScalingFile;
-    weaponScalingFile.open (fileString.str());
+    weaponScalingFile.open(fileString.str());
 
     std::string line;
-    std::vector<std::vector<int>> weaponInfo;
-    while (std::getline(weaponScalingFile, line))
-    {
+    std::vector<std::vector<int> > weaponInfo;
+    while (std::getline(weaponScalingFile, line)) {
         std::vector<int> weaponInfoAtStat = {};
 
         std::istringstream iss(line);

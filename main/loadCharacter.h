@@ -12,7 +12,7 @@
 #include "onnxruntime_c_api.h"
 
 extern std::unordered_map<std::string, std::vector<int>> starting_classes;
-
+static std::mutex negationsCacheMutex;
 static std::unordered_map<std::string, std::vector<double>> starting_classes_negations;
 static std::unordered_map<std::string, std::vector<double>> starting_classes_negations_greatjar;
 
@@ -36,14 +36,17 @@ class loadCharacter {
 public:
     static void loadData();
     static void loadData(std::string buildJsonPath, int targetLevel, int buildsToProduce);
-    static void writeTrainingData(const std::string& trainingPath, const std::string& outputFilePath);
+    static void writeTrainingData(const std::string& trainingPath, const std::string& outputFilePath, int sl);
     static void functionTesting();
     static double retrieveMaxPoise();
     static double bestEffectiveHP(int statPoints, const std::string& startingClass, bool hasGreatjar);
     static int retrieveMaxFp(int total_stats, const std::string& starting_class);
     static int getMaxFpSpell();
+
+    static double getMinStamCostWeapon();
+
     static int getMaxFPAshOfWar();
-  static std::pair<double, double> negationsPoise(double equipLoad, const std::vector<double>& armorFraction, double armorPercent, bool hasBullgoat);
+  static std::pair<double, double> negationsPoise(double equipLoad, const std::vector<double>& armorFraction, double armorPercent, bool hasBullgoat, const std::vector<std::vector<float>>& poiseArmorPieces);
   static double retrieveEquipWeight(const std::string& name); 
 };
 
