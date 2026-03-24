@@ -469,3 +469,26 @@ std::vector<std::vector<int> > DataParser::loadSpecificWeaponData(int weaponId, 
     weaponScalingFile.close();
     return weaponInfo;
 }
+
+void DataParser::loadSpellMVData() {
+    CSVReader reader(R"(../../csv-conversions/spellAttackData.csv)");
+    bool first = true;
+    for (CSVRow& row : reader) {
+        if (first) { first = false; continue; } //ditch the header
+        SpellMVData spellData;
+        spellData.spellClass = row["Type"].get<std::string>();
+        spellData.spellName = row["Name"].get<std::string>();
+        spellData.physMV = stod(row["Physical MV"].get<std::string>());
+        spellData.magicMV  = stod(row["Magic MV"].get<std::string>());
+        spellData.fireMV   = stod(row["Fire MV"].get<std::string>());
+        spellData.lightningMV = stod(row["Lightning MV"].get<std::string>());
+        spellData.holyMV   = stod(row["Holy MV"].get<std::string>());
+        spellMVData[toLower(spellData.spellName)] = spellData;
+    }
+}
+
+SpellMVData* DataParser::fetchSpellMVData(const std::string& spellName) {
+    auto spell = spellMVData.find(toLower(spellName));
+    if (spell == spellMVData.end()) { return nullptr; }
+    return &spell->second;
+}

@@ -9,7 +9,9 @@ using json = nlohmann::json;
 std::vector<int> getFPAshOfWar(const std::string &name) {
     std::vector<int> fp = {};
 
-    auto data = *DataParser::retrieveSwordArtByName(name);
+    auto ptr = DataParser::retrieveSwordArtByName(name);
+    if (ptr == nullptr) return {};
+    auto data = *ptr;
 
     if (int leftHandLightAttackFP = stoi(data.at("useMagicPoint_L1"));
         leftHandLightAttackFP != -1 && leftHandLightAttackFP != 0) {
@@ -34,9 +36,32 @@ std::vector<int> getFPAshOfWar(const std::string &name) {
     return fp;
 }
 
-int getFpSpell(const std::string &name) {
-    auto data = *DataParser::retrieveMagicByName(name);
-    return stoi(data.at("mp"));
+Spell loadSpellByName(const std::string &name) {
+    auto ptr = DataParser::retrieveMagicByName(name);
+    Spell spell;
+    if (ptr == nullptr) return spell;
+    spell.name = name;
+    spell.fpCost = stoi(ptr->at("mp"));
+
+    int spellType = stoi(ptr->at("ezStateBehaviorType"));
+    if (spellType == 0) {
+        spell.isSorcery = true;
+        spell.isIncantation = false;
+    } else {
+        spell.isSorcery = false;
+        spell.isIncantation = true;
+    }
+
+    auto* mvData = DataParser::fetchSpellMVData(name);
+    if (mvData != nullptr) {
+        spell.physMV = mvData->physMV;
+        spell.magicMV = mvData->magicMV;
+        spell.fireMV = mvData->fireMV;
+        spell.lightningMV = mvData->lightningMV;
+        spell.holyMV = mvData->holyMV;
+    }
+
+    return spell;
 }
 
 int Character::getBaseVigor() const {
@@ -65,6 +90,10 @@ double Character::getPoise() const {
 
 std::vector<Weapon> Character::getWeapons() const {
     return weapons;
+}
+
+std::vector<Spell> Character::getSpells() const {
+    return this->spells;
 }
 
 Character::Character(const std::string &jsonPath) {
@@ -127,7 +156,10 @@ Character::Character(const std::string &jsonPath) {
     }
 
     for (auto serializedSpell: data["spells"]["slots"]) {
-        this->spells.emplace_back(getFpSpell(serializedSpell["name"]));
+
+        Spell spell = loadSpellByName(serializedSpell["name"]);
+
+        this->spells.emplace_back(spell);
     }
 
     for (auto serializedHead: data["protectors"]["head"]["slots"]) {
@@ -170,7 +202,7 @@ Character::Character(const std::string &jsonPath) {
         }
     }
 
-    this->effectiveHealth = DataParser::fetchHp(this->vigor - 1);
+    this->effectiveHealth = DataParser::fetchHp(std::clamp(this->vigor, 1, 99));
 
     double negation = 0;
     if (!data["computed"]["absorption"].is_null()) {
@@ -200,7 +232,7 @@ Character::Character(const std::string &jsonPath) {
 
     this->maxFpValue = loadCharacter::retrieveMaxFp(this->level, this->startingClass);
 
-    this->fpRatio = DataParser::fetchFp(this->mind) / maxFpValue;
+    this->fpRatio = DataParser::fetchFp(std::clamp(this->mind, 1, 99)) / maxFpValue;
 
     int allocatedDamageStats = 0; //damage stats allocated not from starting class base values
     for (int i = CLASS_DAMAGE_STAT_INDEX; i < starting_classes.begin()->second.size(); i++)
@@ -334,12 +366,14 @@ std::vector<double> Character::generateMlString() {
     ashFpRatio /= loadCharacter::getMaxFPAshOfWar();
 
     double spellFpRatio = 0;
-    for (int spell: spells) {
-        spellFpRatio += spell;
+    std::vector<double> spellFps;
+    for (const Spell& spell: spells) {
+        spellFpRatio += spell.fpCost;
+        spellFps.push_back(spell.fpCost);
     }
     double maxSpellFp = 0;
     if (!spells.empty()) {
-        maxSpellFp = *std::max_element(spells.begin(), spells.end());
+        maxSpellFp = *std::max_element(spellFps.begin(), spellFps.end());
         spellFpRatio /= spells.size();
     }
     int highestFpSpell = loadCharacter::getMaxFpSpell();
@@ -367,7 +401,7 @@ std::vector<double> Character::generateMlString() {
     finalMlString.push_back(weaponStaminaRatio[1]);
     finalMlString.push_back(weaponStaminaRatio[2]);
     finalMlString.push_back(
-        (DataParser::fetchStamina(endurance) / swingValue) / (
+        (DataParser::fetchStamina(std::clamp(endurance, 1, 99)) / swingValue) / (
             DataParser::fetchStamina(99) / loadCharacter::getMinStamCostWeapon()));
     finalMlString.push_back(effectiveHpVigorRatio); // this and the next one MUST be last
     finalMlString.push_back(effectiveHpEnduranceRatio);

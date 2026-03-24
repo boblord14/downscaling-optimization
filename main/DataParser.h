@@ -38,6 +38,13 @@ static std::vector<float> poise_chest;
 static std::vector<float> poise_arm;
 static std::vector<float> poise_leg;
 
+struct SpellMVData {
+    std::string spellName;
+    std::string spellClass;
+    double physMV, magicMV, fireMV, lightningMV, holyMV;
+};
+static std::unordered_map<std::string, SpellMVData> spellMVData;
+
 class DataParser{
 public:
     static void loadEndurance();
@@ -86,6 +93,10 @@ public:
     static std::vector<std::vector<float>> fetchArmorPoise();
 
     static std::vector<std::vector<int>> loadSpecificWeaponData(int weaponId, int infusionId);
+
+    static void loadSpellMVData();
+
+    static SpellMVData* fetchSpellMVData(const std::string& spellName);
 
 private:
     static void defGenerator(const std::string& csvPath, std::unordered_map<int, std::unordered_map<std::string, std::string>> *target);

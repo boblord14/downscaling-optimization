@@ -31,11 +31,17 @@ public:
   std::vector<double> calcAR(int strength, int dexterity, int intelligence, int faith, int arcane, bool isTwoHanded) const;
   static double calculateDefenseReduction(double ratio);
   double calculateDamage(const std::vector<int>& stats, const std::vector<int>& defs, bool two_handed) const;
+    double calculateSpellDamage(const std::vector<int>& stats, const std::vector<int>& defs,
+                             double physMV, double magicMV, double fireMV,
+                             double lightningMV, double holyMV) const;
+    bool isCatalystFor(bool isSorcery, bool isIncantation) const;
   int getId() const {return id;}
   Infusion getInfusion() const {return infusion;}
   int getUpgrade() const{return upgrade;}
   double getStamine() const {return stamina;}
   std::string getName() const {return name;}
+    bool isSorceryCatalyst() const {return enableSorcery;}
+    bool isIncantCatalyst() const {return enableIncantation;}
 private:
     int id;
     std::string name;
@@ -52,6 +58,8 @@ private:
     std::array<double, 5> correctStatRate;
     std::array<std::array<bool, 5>, 5> isStatCorrectByElement;
     bool isSomber;
+    bool enableSorcery;
+    bool enableIncantation;
 };
 
 #endif //DOWNSCALING_OPTIMIZATION_WEAPON_H

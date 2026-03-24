@@ -54,6 +54,10 @@ Weapon::Weapon(int id, Infusion infusion, int upgrade) {
     }};
 
     this->correctStat = {stod(equipParamWeaponEntry.at("correctStrength")), stod(equipParamWeaponEntry.at("correctAgility")), stod(equipParamWeaponEntry.at("correctMagic")), stod(equipParamWeaponEntry.at("correctFaith")), stod(equipParamWeaponEntry.at("correctLuck"))};
+
+    this->enableIncantation = stob(equipParamWeaponEntry.at("enableMiracle"));
+    this->enableSorcery = stob(equipParamWeaponEntry.at("enableMagic"));
+
 }
 
 //The fact that I cant do "int int" means I have to explicitly write the names of all the stats and I hate it
@@ -70,7 +74,9 @@ std::vector<double> Weapon::calcAR(int strength, int dexterity, int intelligence
         for (int j=0; j<5; j++) {
             if (isStatCorrectByElement[j][i]) {
                 int stat = stats[j];
+                stat = std::clamp(stat, 1, 99);
                 if (j == 0 && !isDualBlade && isTwoHanded) stat = static_cast<int>(stat * 1.5);
+                stat = std::min(stat, 99);
 
                 float curveValue = static_cast<float>(saturationIndex[i][stat - 1])/100;
                 double scalingCoef = correctStat[j];
@@ -125,6 +131,28 @@ double Weapon::calculateDamage(const std::vector<int>& stats, const std::vector<
     double damage = 0;
     for (int i = 0; i < 5; ++i) {
         damage += calculateDefenseReduction(ars[i]/defs[i]) * ars[i];
+    }
+    return static_cast<int>(damage);
+}
+
+bool Weapon::isCatalystFor(bool isSorcery, bool isIncantation) const {
+    return (isSorcery && enableSorcery) || (isIncantation && enableIncantation);
+}
+
+double Weapon::calculateSpellDamage(const std::vector<int> &stats, const std::vector<int> &defs, double physMV, double magicMV, double fireMV, double lightningMV, double holyMV) const {
+    auto ars = calcAR(stats[0],
+          stats[1],
+          stats[2],
+          stats[3],
+          stats[4],
+          false); //never two handed
+
+    double motionValueData[5] = {physMV/100, magicMV/100, fireMV/100, lightningMV/100, holyMV/100};
+    double damage = 0;
+    for (int i = 0; i < 5; ++i) {
+        double spellDamage = ars[i] * motionValueData[i];
+        if (spellDamage <= 0) continue;
+        damage += calculateDefenseReduction(ars[i]/defs[i]) * spellDamage[i];
     }
     return static_cast<int>(damage);
 }
