@@ -162,10 +162,10 @@ std::vector<std::vector<double> > effectiveHealth(int baseVigor, int baseEnduran
 
     auto poiseArmorPieces = DataParser::fetchArmorPoise();
     for (int i = 0; i <= allocatedStatPoints; i++) {
-        int hpIndex = i + baseVigor;
+        int hpIndex = std::min(i + baseVigor, 99);
         double hp = DataParser::fetchHp(hpIndex);
 
-        int enduranceIndex = allocatedStatPoints - i + baseEndurance;
+        int enduranceIndex = std::min(allocatedStatPoints - i + baseEndurance, 99);
         double equipLoad = DataParser::fetchEq(enduranceIndex);
         if (hasGreatjar) equipLoad = equipLoad * 1.19;
 
@@ -191,7 +191,10 @@ std::vector<std::vector<double> > effectiveHealth(int baseVigor, int baseEnduran
         }
     }
 
-    while (bestBreakPoints.back()[0] == -1) bestBreakPoints.pop_back();
+    while (!bestBreakPoints.empty() && bestBreakPoints.back()[0] == -1)
+        bestBreakPoints.pop_back();
+    if (bestBreakPoints.empty()) return {{-1, -1, 0, 0}}; // null guard
+
     return bestBreakPoints;
 }
 
@@ -292,9 +295,9 @@ double loadCharacter::bestEffectiveHP(int statPoints, const std::string &startin
     bool larger = false;
 
     for (int i = 0; i < statPoints; i++) {
-        int hpIndex = i + baseVigor;
+        int hpIndex = std::clamp(i + baseVigor, 1, 99);
         double hp = DataParser::fetchHp(hpIndex);
-        int endIndex = statPoints - i + baseEndurance;
+        int endIndex = std::clamp(statPoints - i + baseEndurance, 1, 99);
         double el = DataParser::fetchEq(endIndex);
         if (hasGreatjar) el *= 1.19;
 
@@ -590,6 +593,7 @@ std::vector<Character> exponentialDecay(Character &characterInput, int delta) {
         //fp adjustment
         int mindIndex = starting_classes[characterInput.getStartingClass()][CLASS_MIND_STAT_INDEX] + statAllocation[2] -
                         1;
+        if (mindIndex < 1) mindIndex = 1;
         if (mindIndex >= 99) mindIndex = 98;
         newStatMlCharacter.setFpRatio(
             static_cast<double>(DataParser::fetchFp(mindIndex)) / loadCharacter::retrieveMaxFp(
@@ -680,6 +684,29 @@ std::vector<int> damageStatAllocation(const Character &characterInput, int damag
         //fetch the AR value from the precalculated optimized AR for a given damage stat amount
         optimalStats.emplace_back(scalingData[index].begin() + 1, scalingData[index].end());
         //append the stats tied to the AR used in the previous line
+    }
+
+    //create dummy copies of each catalyst loaded with the MVs relevant for the spells
+    for (const auto& spell : characterInput.getSpells()) {
+        if (spell.magicMV == 0 && spell.fireMV == 0 &&
+    spell.lightningMV == 0 && spell.holyMV == 0) continue; //some buff spells be like this, not our problem
+
+        for (const Weapon& weapon : characterInput.getWeapons()) {
+            if (!weapon.isCatalystFor(spell.isSorcery, spell.isIncantation)) continue; //skip if not a catalyst
+
+            auto scalingData = DataParser::loadSpecificWeaponData(weapon.getId(), weapon.getInfusion());
+            if (scalingData.empty() || index >= scalingData.size()) continue;
+
+            std::vector<int> scalingStats(scalingData[index].begin() + 1, scalingData[index].end());
+            std::vector<int> defs(5, 140); // defs from prediction
+
+            double finalSpellDmgOutput = weapon.calculateSpellDamage(scalingStats, defs, spell.physMV, spell.magicMV, spell.fireMV, spell.lightningMV, spell.holyMV);
+
+            if (finalSpellDmgOutput <= 0) continue;
+
+            scalingAr.push_back(finalSpellDmgOutput);
+            optimalStats.emplace_back(scalingData[index].begin() + 1, scalingData[index].end());
+        }
     }
 
     //svd setup
@@ -1003,7 +1030,8 @@ std::vector<std::vector<double> > createBuilds(Character characterInput, int lev
             auto temp = outputBuild;
             temp[2] = bp[0] / bestEhp; //ehp
             temp[3] = bp[1] / maxPoise; //poise
-            temp[outputBuild.size() - 3] = (DataParser::fetchStamina(bp[3] + baseEndurance) / swingValue) / stamRatio;
+            int stamIndex = std::clamp(static_cast<int>(bp[3]) + baseEndurance, 1, 99); //stam safeguards
+            temp[outputBuild.size() - 3] = (DataParser::fetchStamina(stamIndex) / swingValue) / stamRatio;
             temp[outputBuild.size() - 2] = bp[2] / 99.0; //vigor
             temp[outputBuild.size() - 1] = bp[3] / 99.0; //endurance
             output.emplace_back(temp);
@@ -1147,9 +1175,12 @@ void Predict::operator()(std::string jsonFile) {
             double remainder = std::modf(dmgStats / DAMAGE_STAT_COUNT, &damagePointsPerStat);
             if (remainder > 0) damagePointsPerStat = DAMAGE_STAT_COUNT * (damagePointsPerStat + 1);
 
+
             int index = static_cast<int>(damagePointsPerStat / DAMAGE_STAT_COUNT - 1);
+            if (index < 0) index = 0; //guard piece one
             int sum = DAMAGE_STAT_COUNT * (index + 1);
             auto scalingData = DataParser::loadSpecificWeaponData(w.getId(), w.getInfusion());
+            if (index >= static_cast<int>(scalingData.size())) index = static_cast<int>(scalingData.size()) - 1; //guard piece 2
             double alpha = dmgStats / sum;
             std::vector<double> wholeStats;
             std::vector<double> fracStats;
@@ -1257,7 +1288,7 @@ void threadFunction(int start_index, int end_index, std::vector<std::string> fil
             characters.push_back(build);
         }
         ++count;
-        if (count == 50) {
+        if (count == 10) {
             std::cout << "Count builds made " << count << std::endl;
             appendBuild(characters, outputFilePath);
             std::cout << "Wrote builds" << std::endl;
@@ -1266,7 +1297,6 @@ void threadFunction(int start_index, int end_index, std::vector<std::string> fil
         }
     }
     if (!characters.empty()) {
-        std::lock_guard<std::mutex> lock(m);
         std::cout << "Count builds made " << count << std::endl;
         appendBuild(characters, outputFilePath);
         std::cout << "Wrote builds" << std::endl;

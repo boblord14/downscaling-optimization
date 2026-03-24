@@ -50,6 +50,14 @@ static std::unordered_map<std::string, Infusion> infusion_name_mapping = {
     {"Occult", OCCULT}
 };
 
+struct Spell {
+    int fpCost;
+    std::string name;
+    bool isIncantation;
+    bool isSorcery;
+    double physMV = 0, magicMV = 0, fireMV = 0, lightningMV = 0, holyMV = 0;
+};
+
 constexpr int MAX_CHARACTER_SPELL_SLOTS = 13;
 
 class Character {
@@ -77,6 +85,7 @@ public:
     std::vector<double> getWeaponStaminaRatio() const;
     double getPoise() const;
     std::vector<Weapon> getWeapons() const;
+    std::vector<Spell> getSpells() const;
 
     void setEffectiveHpRatio(double ehpRatio);
     void setEffectiveHpVigorRatio(double vigorRatio);
@@ -94,7 +103,7 @@ private:
     std::vector<Weapon> weapons;
     std::vector<int> ashes;
     std::vector<std::string> armor;
-    std::vector<int> spells;
+    std::vector<Spell> spells;
     std::string startingClass;
     int upgradeLevel;
     double effectiveHealth;
@@ -125,7 +134,6 @@ private:
     double maxFpValue;
     double swingValue;
     std::vector<double> weaponStaminaRatio;
-
 
 };
 
