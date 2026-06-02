@@ -43,6 +43,7 @@ void DataParser::generateDefs() {
     loadPoiseScale();
     loadDatafit();
     loadStamina();
+    loadSpellMVData();
 }
 
 /// Fetches a weapon's stamina cost per r1 from id
@@ -478,11 +479,22 @@ void DataParser::loadSpellMVData() {
         SpellMVData spellData;
         spellData.spellClass = row["Type"].get<std::string>();
         spellData.spellName = row["Name"].get<std::string>();
-        spellData.physMV = stod(row["Physical MV"].get<std::string>());
-        spellData.magicMV  = stod(row["Magic MV"].get<std::string>());
-        spellData.fireMV   = stod(row["Fire MV"].get<std::string>());
-        spellData.lightningMV = stod(row["Lightning MV"].get<std::string>());
-        spellData.holyMV   = stod(row["Holy MV"].get<std::string>());
+
+        auto physVal = row["Physical MV"].get<std::string>();
+        spellData.physMV = physVal.empty() ? 0 : std::stod(physVal);
+
+        auto magVal = row["Magic MV"].get<std::string>();
+        spellData.magicMV = magVal.empty() ? 0 : std::stod(magVal);
+
+        auto fireVal = row["Fire MV"].get<std::string>();
+        spellData.fireMV = fireVal.empty() ? 0 : std::stod(fireVal);
+
+        auto lightningVal = row["Lightning MV"].get<std::string>();
+        spellData.lightningMV = lightningVal.empty() ? 0 : std::stod(lightningVal);
+
+        auto holyVal = row["Holy MV"].get<std::string>();
+        spellData.holyMV = holyVal.empty() ? 0 : std::stod(holyVal);
+
         spellMVData[toLower(spellData.spellName)] = spellData;
     }
 }

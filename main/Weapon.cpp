@@ -152,7 +152,7 @@ double Weapon::calculateSpellDamage(const std::vector<int> &stats, const std::ve
     for (int i = 0; i < 5; ++i) {
         double spellDamage = ars[i] * motionValueData[i];
         if (spellDamage <= 0) continue;
-        damage += calculateDefenseReduction(ars[i]/defs[i]) * spellDamage[i];
+        damage += calculateDefenseReduction(spellDamage/defs[i]) * spellDamage;
     }
     return static_cast<int>(damage);
 }
