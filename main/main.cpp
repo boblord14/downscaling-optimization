@@ -182,7 +182,7 @@ int main(int argc, char* argv[]) {
    
   DataParser::generateDefs();
 
-    loadCharacter::writeTrainingData("../../soulsplanner-build-archive/rl150ish", "../../soulsplanner-build-archive/ML-Training-Vectors/rl150ish/labeled_data_stam.txt", 150);
+  loadCharacter::writeTrainingData("../../soulsplanner-build-archive/rl150ish", "../../soulsplanner-build-archive/ML-Training-Vectors/rl150ish/labeled_data_spell.txt", 150);
 /*
     if (argc < 2) {
       std::cout << "Need the json file of the build to scale" << std::endl;

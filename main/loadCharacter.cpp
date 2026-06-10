@@ -1270,10 +1270,8 @@ void appendBuild(std::vector<Character> &characters, const std::string &outputFi
     outputFile << buffer.str();
 }
 
-void threadFunction(int start_index, int end_index, std::vector<std::string> files, std::string outputFilePath,
-                    std::vector<Character> &characters) {
-    bool read = false;
-    int count = 0;
+void threadFunction(int start_index, int end_index, const std::vector<std::string>& files, std::string outputFilePath) {
+
     for (int i = start_index; i < end_index; ++i) {
         std::optional<Character> maybeChar;
         try {
@@ -1284,24 +1282,9 @@ void threadFunction(int start_index, int end_index, std::vector<std::string> fil
             continue;
         }
         auto outputBuilds = prepareData(*maybeChar, 5);
-        for (const auto &build: outputBuilds) {
-            characters.push_back(build);
-        }
-        ++count;
-        if (count == 10) {
-            std::cout << "Count builds made " << count << std::endl;
-            appendBuild(characters, outputFilePath);
-            std::cout << "Wrote builds" << std::endl;
-            count = 0;
-            characters.clear();
-        }
-    }
-    if (!characters.empty()) {
-        std::cout << "Count builds made " << count << std::endl;
-        appendBuild(characters, outputFilePath);
+        std::cout << "Build made" << std::endl;
+        appendBuild(outputBuilds, outputFilePath);
         std::cout << "Wrote builds" << std::endl;
-        count = 0;
-        characters.clear();
     }
 }
 
@@ -1326,23 +1309,22 @@ void loadCharacter::writeTrainingData(const std::string &trainingPath, const std
         bounds[i] = i * chunks;
     }
     bounds[8] = files.size();
-    std::vector<std::vector<Character> > results(8);
     std::thread thread_one(threadFunction, bounds[0], bounds[1], files,
-                           outputFilePath, std::ref(results[0]));
+                           outputFilePath);
     std::thread thread_two(threadFunction, bounds[1], bounds[2], files,
-                           outputFilePath, std::ref(results[1]));
+                           outputFilePath);
     std::thread thread_three(threadFunction, bounds[2], bounds[3], files,
-                             outputFilePath, std::ref(results[2]));
+                             outputFilePath);
     std::thread thread_four(threadFunction, bounds[3], bounds[4], files,
-                            outputFilePath, std::ref(results[3]));
+                            outputFilePath);
     std::thread thread_five(threadFunction, bounds[4], bounds[5], files,
-                            outputFilePath, std::ref(results[4]));
+                            outputFilePath);
     std::thread thread_six(threadFunction, bounds[5], bounds[6], files,
-                           outputFilePath, std::ref(results[5]));
+                           outputFilePath);
     std::thread thread_seven(threadFunction, bounds[6], bounds[7], files,
-                             outputFilePath, std::ref(results[6]));
+                             outputFilePath);
     std::thread thread_eight(threadFunction, bounds[7], bounds[8], files,
-                             outputFilePath, std::ref(results[7]));;
+                             outputFilePath);;
     thread_one.join();
     thread_two.join();
     thread_three.join();
